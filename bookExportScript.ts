@@ -1,6 +1,7 @@
 import { parse } from "csv-parse/sync";
 import fs from "fs-extra";
 import dotenv from "dotenv";
+import path from "path";
 
 dotenv.config();
 
@@ -12,28 +13,37 @@ if (!URL) {
 
 // CSV Row Type
 interface SheetRow {
-  Title?: string;
-  Author?: string;
-  Series?: string;
-  "Series Number"?: string;
-  Score?: string;
-  "Year Read"?: string;
-  Pages?: string;
-  Words?: string;
-  "Date Started"?: string;
-  "Date Finished"?: string;
-  Days?: string;
-  "Year Published"?: string;
-  "Goodreads Link"?: string;
-  "Avg Rating"?: string;
-  "Num Rating"?: string;
-  Publisher?: string;
-  Genre?: string;
-  Subgenre?: string;
-  "Has Summary"?: string;
-  SummaryContent?: string;
-  ReviewContent?: string;
-  Format?: string;
+  // Book Info
+  title: string;
+  author: string;
+  series?: string;
+  seriesNumber?: string;
+  pages?: number;
+  words?: number;
+  yearPublished?: number;
+  goodreadsLink?: string;
+  avgRating?: number;
+  numRating?: number;
+  publisher?: string;
+  genre?: string;
+  subgenre?: string;
+  isbn?: string;
+  narrator?: string;
+  owned?: string;
+
+  // Read info
+  score?: number;
+  yearRead?: number;
+  dateStarted?: string;
+  dateFinished?: string;
+  days?: number;
+  hasReview?: string;
+  reviewContent?: string;
+  format?: string;  
+
+  // Summary Info
+  hasSummary?: string;
+  summaryContent?: string;
 }
 
 type Frontmatter = Record<string, unknown>;
@@ -83,15 +93,84 @@ async function fetchSheet(): Promise<SheetRow[]> {
   }) as SheetRow[];
 }
 
+// Get cover images for books
+async function getCover(title: string, author: string, slug: string, isbn?: string) {
+  //Extra check to avoid unnecessary calls
+  const coverPath = path.join("files/covers", `${slug}.jpg`);
+  if (fs.existsSync(coverPath)) {
+    return;
+  }
+
+  let coverUrl: string | undefined;
+
+  // ISBN first
+  if (isbn && isbn.trim() !== "") {
+    const cleanIsbn = isbn.replace(/[^0-9Xx]/g, "");
+
+    coverUrl = `https://covers.openlibrary.org/b/isbn/${cleanIsbn}-L.jpg`;
+
+    // Verify it exists
+    const testRes = await fetch(coverUrl);
+
+    if (!testRes.ok) {
+      coverUrl = undefined;
+    }
+  }
+
+  // title + author search
+  if (!coverUrl) {
+    console.log(`no ISBN for ${slug}`);
+
+    const query = new URLSearchParams({
+      title,
+      author,
+    }).toString();
+
+    const searchUrl = `https://openlibrary.org/search.json?${query}`;
+    const res = await fetch(searchUrl);
+
+    if (!res.ok) {
+      console.log(`Search failed for ${slug}`);
+      return;
+    }
+
+    const data = await res.json();
+    const coverId = data.docs?.[0]?.cover_i;
+
+    if (!coverId) {
+      console.log(`No cover found for ${slug}`);
+      return;
+    }
+
+    coverUrl = `https://covers.openlibrary.org/b/id/${coverId}-L.jpg`;
+  }
+
+  if (!coverUrl) {
+    console.log(`No usable cover for ${slug}`);
+    return;
+  }
+
+  const imageRes = await fetch(coverUrl);
+  if (!imageRes.ok) {
+    console.log(`Cover download failed for ${slug}`);
+    return;
+  }
+
+  const buffer = Buffer.from(await imageRes.arrayBuffer());
+  await fs.outputFile(coverPath, buffer);
+
+  console.log(`Saved cover for ${slug}`);
+}
+
 async function run(): Promise<void> {
   const rows = await fetchSheet();
   const bookMap = new Map<string, SheetRow[]>();
 
   // Group rows by book
   for (const row of rows) {
-    if (!row.Title || !row.Author) continue;
+    if (!row.title || !row.author) continue;
 
-    const slug = bookSlug(row.Title, row.Author);
+    const slug = bookSlug(row.title, row.author);
 
     if (!bookMap.has(slug)) {
       bookMap.set(slug, []);
@@ -105,8 +184,8 @@ async function run(): Promise<void> {
 
     // Sort by date, if no date year
     reads.sort((a, b) => {
-      const da = new Date(a["Date Finished"] || a["Year Read"] || 0).getTime();
-      const db = new Date(b["Date Finished"] || b["Year Read"] || 0).getTime();
+      const da = new Date(a.dateFinished || a.yearRead || 0).getTime();
+      const db = new Date(b.dateFinished || b.yearRead || 0).getTime();
       return da - db;
     });
 
@@ -116,7 +195,7 @@ async function run(): Promise<void> {
     });
 
     const scores = reads
-      .map(r => Number(r.Score))
+      .map(r => Number(r.score))
       .filter(n => !isNaN(n));
 
     const readCount = reads.length;
@@ -134,43 +213,67 @@ async function run(): Promise<void> {
         : undefined;
 
     const hasSummary = reads.some(
-      r => r["Has Summary"] && r["Has Summary"].trim() !== ""
+      r => r.hasSummary && r.hasSummary.trim() !== ""
     );
 
     const summarySlug = `${slug}-summary`;
     const summarySlugLink = `[[${summarySlug}]]`;
 
+    const coverSlug = `${slug}-cover`;
+    const coverSlugLink = `![[${coverSlug}.jpg]]`;
+
+    const bookOwned = reads.some(
+      r => r.owned && r.owned.trim() !== ""
+    );
+
+    // Error catching
     if (first == undefined) {
       return;
     }
 
     // BOOK FILE
-    writeMarkdown(`files/books/${slug}.md`, {
-      title: first.Title,
-      author: first.Author,
-      series: first.Series,
-      seriesNumber: first["Series Number"],
-      pages: first.Pages ? Number(first.Pages) : undefined,
-      yearPublished: first["Year Published"]
-        ? Number(first["Year Published"])
-        : undefined,
-      publisher: first.Publisher,
-      goodreads: first["Goodreads Link"],
-      genre: first.Genre,
-      subgenre: first.Subgenre,
+    writeMarkdown(
+      `files/books/${slug}.md`, 
+      {
+        title: first.title,
+        author: first.author,
+        series: first.series,
+        seriesNumber: first.seriesNumber,
+        pages: first.pages ? Number(first.pages) : undefined,
+        yearPublished: first.yearPublished
+          ? Number(first.yearPublished)
+          : undefined,
+        publisher: first.publisher,
+        goodreads: first.goodreadsLink,
+        avgGoodreadsRating: first.avgRating,
+        numGoodreadsRatings: first.numRating,
+        genre: first.genre,
+        subgenre: first.subgenre,
+        isbn: first.isbn,
+        narrator: first.narrator,
+        bookOwned,
 
-      hasSummary,
-      summarySlugLink,
+        hasSummary,
+        summarySlugLink,
 
-      latestScore,
-      readCount,
-      averageScore,
-      allScores: scores.length ? scores : undefined,
-      readSlugs
-    });
+        latestScore,
+        readCount,
+        averageScore,
+        allScores: scores.length ? scores : undefined,
+        readSlugs,
+
+        coverSlug
+      },
+      coverSlugLink
+    );
+
+    // Check for cover
+    if (!fs.existsSync(`files/covers/${coverSlug}.jpg`)) {
+      await getCover(first.title, first.author, coverSlug, first.isbn)
+    }
 
     // SUMMARY FILE
-    const summaryContent = first.SummaryContent ?? "";
+    const summaryContent = first.summaryContent ?? "";
 
     const createBlankSummaryFile = true;
     // Make files even if no summary stored
@@ -198,25 +301,25 @@ async function run(): Promise<void> {
       const readSlug = `${slug}-${readNumber}`;
 
       const hasReview =
-        row.ReviewContent && row.ReviewContent.trim() !== "";
+        row.hasReview && row.hasReview.trim() !== "";
 
       writeMarkdown(
         `files/reads/${readSlug}.md`,
         {
           book: `[[${slug}]]`,
           readNumber,
-          score: row.Score ? Number(row.Score) : undefined,
-          format: row.Format,
-          dateStarted: row["Date Started"],
-          dateFinished: row["Date Finished"],
-          yearRead: row["Year Read"]
-            ? Number(row["Year Read"])
+          score: row.score ? Number(row.score) : undefined,
+          format: row.format,
+          dateStarted: row.dateStarted,
+          dateFinished: row.dateFinished,
+          yearRead: row.yearRead
+            ? Number(row.yearRead)
             : undefined,
-          days: row.Days ? Number(row.Days) : undefined,
+          days: row.days ? Number(row.days) : undefined,
           hasReview
         },
         //row.ReviewContent ?? ""
-        row.ReviewContent
+        row.reviewContent
       );
     });
   }
