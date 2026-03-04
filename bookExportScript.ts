@@ -30,6 +30,7 @@ interface SheetRow {
   isbn?: string;
   narrator?: string;
   owned?: string;
+  hasScore?: boolean;
 
   // Read info
   score?: number;
@@ -198,6 +199,9 @@ async function run(): Promise<void> {
       .map(r => Number(r.score))
       .filter(n => !isNaN(n));
 
+    // Set to true if there is at least one numeric score
+    const hasScore = scores.length > 0;
+
     const readCount = reads.length;
 
     const averageScore =
@@ -235,6 +239,9 @@ async function run(): Promise<void> {
     writeMarkdown(
       `files/books/${slug}.md`, 
       {
+        layout: "book.njk", //11ty stuff
+        permalink: `/books/${slug}/`,  //11ty stuff
+        bookSlug: slug,
         title: first.title,
         author: first.author,
         series: first.series,
@@ -256,6 +263,7 @@ async function run(): Promise<void> {
         hasSummary,
         summarySlugLink,
 
+        hasScore,
         latestScore,
         readCount,
         averageScore,
@@ -280,7 +288,8 @@ async function run(): Promise<void> {
     if (createBlankSummaryFile) {
       writeMarkdown(
         `files/summaries/${summarySlug}.md`,
-        { book: `[[${slug}]]` },
+        { bookSlug: slug,
+          book: `[[${slug}]]` },
         summaryContent
       );
     }
@@ -289,7 +298,8 @@ async function run(): Promise<void> {
       if (hasSummary) {
       writeMarkdown(
         `files/summaries/${summarySlug}.md`,
-        { book: `[[${slug}]]` },
+        { bookSlug: slug,
+          book: `[[${slug}]]` },
         summaryContent
       );
     }
@@ -306,6 +316,7 @@ async function run(): Promise<void> {
       writeMarkdown(
         `files/reads/${readSlug}.md`,
         {
+          bookSlug: slug,
           book: `[[${slug}]]`,
           readNumber,
           score: row.score ? Number(row.score) : undefined,
