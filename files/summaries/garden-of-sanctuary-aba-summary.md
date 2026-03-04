@@ -1,0 +1,42 @@
+---
+bookSlug: "garden-of-sanctuary-aba"
+book: "[[garden-of-sanctuary-aba]]"
+---
+
+Garden of Sanctuary
+The Wandering Inn #15
+Pirate Aba
+
+People:
+Teriarch, Erin, Palt, Maughin, Saliss, Lyonette, Klbchm, Jelaqua, Relc, Rufelt, Lasica, Grimalkin, Chaldion, Noass and Sir Relz, Numbtongue, Free Queen, Ilvriss, Rafaema, Laken, Pebblesnatch, Uvama, Fals, OCtavia, Mrsha, Krshia, Elirr, bearclaw, 
+
+Places:
+Liscor, Pallass, Tails & Scales, Salaszar, Manus, Riverfarm, Celum
+
+Things:
+The Wings of Pallass, The Half-Seekers, Garden of Sanctuary 
+
+Story:
+Teriarch battles a group of wyverns. He scares them off and they fly past Liscor before attacking Pallass. Erin took a vacation to Pallass while her inn was rebuilt, and explores her new skills. She sees Palt, the dwarven blacksmith and Maughin, the big Dullahan blacksmith dating Jelaqua. Then she gets arrested and meets Saliss of lights, named adventurer. 
+
+Meanwhile The Wandering Inn was reopened by Lyonette Du Marquin. Klbch(ekezeim the slayer) and Relc Grasstongue bring the magic door back. 
+
+Erin hides in Tails & Scales with Rufelt and Lasica. Grimalkin, Chaldion (Grand Strategist), and Saliss lead the effort to repel the Frost Wyvern Attack. The Wings of Pallass and Halfseekers also help. The 2 drake commentators, Noass and Sir Relz continue to bring TV to the world by announcing and sharing the attack. The attack is partly ended by Bird walking through and killing a ton with his bow. Frost Wyverns retreat, but then everyone freaks out because an Antinium is in Pallass. This causes The Free Queen to receive many messages and raises her standing, and Erin punishes Bird but Numbtongue hangs out with him.
+
+Wall Lord Ilvriss of Salaszar uses the Bird incident to start his secret Necromancy plan, covered by the antinium. We learn that Manus has an actual dragon in it, Rafaema. 
+
+We jump over to Pebblesnatch and the Goblin colony in Riverfarm. Emperor Laken is trying to make the Goblins have society and pebblesnatch leads it by introducing good cooking and food.Uvama the shaman makes friends with her kind of.
+
+Fals informs many in Celum that the inn is back. Celum has been getting angier and angrier with Erin being better than them, and Octavia making baking powder upsets bakers. Taking The Players of Celum also upsets them and they want to take the door. Mrsha, is with Krshia and Elirr, and her friends when she meets the criminal gnoll Bearclaw on accident. Then after ruining a cake discovers erin’s Garden of Sanctuary
+
+Wailant Strongheart, Garia’s father, finds Numbtongue in Celum and gets kicked out with him, they travel back to his farm.
+
+Celum wants to take Erin’s door, then realize they need her, but she is angry so takes the players and Octavia. We learn Bearclaw is planning to steal the door, mrsha, and Erin.
+
+Lots of King chapters. The Empress of Sands has lots of heads. King raelt of Jelcrass is trying to handle the chaos of the world. He meets Flos Reimarch, King of Destruction on his borders. Flos has many people coming to him, newly Gnolls and Lizardfold, along with Half-Giants. 
+
+We see Trey Atwood, Travel with The Quarass, and Gazi Pathfinder to another Shield Kingdom, A’ctelios Salash. It is called the Carven city and is made in some sort of dead Eldritch horror that is massive. You can’t eat their food or something bad happens. The leaders of the shield kingdoms meet and Gazi gets her eye fixed. Then Trey realizes that the “Pack Animals” are actually transformed humans who ate the food, and many are from Earth. He attacks and then Gazi kills the leader of the city, Baosar. His son Athal and many others attack the 3. They barely escape but obviously the city is angry and declares war. 
+
+TV is being more and more introduced to the world. Flos meets with his new subjects but feel like something is missing. Teresa Atwood talks to Nawalishifra, the Nouhousin Blacksmith, and Zamea, leader of the half-giants. Jecaina, raelts daughter, challenges Mars the Illusionist to a duel and loses badly. Rustängmarder, are an elite unit of death soldiers. Flos rides into Belchan to search for his missing people.
+
+Wistram Academy is always looking to be rude to Flos and after the A’ctelios incident plan to show how he broke his oath, but when they TV over to him he just found his dead subjects, a group of gnolls slaughtered and the children killed and enslaved. Flos goes ferally angry and vows war against Belchan. Since it was televised the world all saw the massacred and Gnolls and Belchan’s people admit they did it, so many side with Flos and attack Belchan.

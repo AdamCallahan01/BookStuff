@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/storm-front-butcher/"
+bookSlug: "storm-front-butcher"
+title: "Storm Front"
+author: "Jim Butcher"
+series: "The Dresden Files"
+seriesNumber: "1"
+pages: 355
+goodreads: "https://www.goodreads.com/book/show/47212.Storm_Front?ref=nav_sb_ss_1_11"
+isbn: "9780451457813"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[storm-front-butcher-summary]]"
+hasScore: true
+latestScore: 7.5
+readCount: 1
+averageScore: 7.5
+allScores: [7.5]
+readSlugs: ["[[storm-front-butcher-1]]"]
+coverSlug: "storm-front-butcher-cover"
+---
+
+![[storm-front-butcher-cover.jpg]]

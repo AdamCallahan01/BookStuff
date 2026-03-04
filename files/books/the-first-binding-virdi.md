@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/the-first-binding-virdi/"
+bookSlug: "the-first-binding-virdi"
+title: "The First Binding"
+author: "R. R. Virdi"
+series: "Tales of Tremaine"
+seriesNumber: "1"
+pages: 832
+goodreads: "https://www.goodreads.com/book/show/57693381-the-first-binding?from_search=true&from_srp=true&qid=l7mqwsFWuq&rank=2"
+isbn: "9781250796172"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[the-first-binding-virdi-summary]]"
+hasScore: true
+latestScore: 8
+readCount: 1
+averageScore: 8
+allScores: [8]
+readSlugs: ["[[the-first-binding-virdi-1]]"]
+coverSlug: "the-first-binding-virdi-cover"
+---
+
+![[the-first-binding-virdi-cover.jpg]]

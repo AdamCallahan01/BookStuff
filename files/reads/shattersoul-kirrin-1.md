@@ -1,0 +1,14 @@
+---
+bookSlug: "shattersoul-kirrin"
+book: "[[shattersoul-kirrin]]"
+readNumber: 1
+score: 7.5
+format: "Kindle"
+dateStarted: "6/30/2023"
+dateFinished: "7/9/2023"
+yearRead: 2023
+days: 9
+hasReview: true
+---
+
+I was disappointed at the beginning because I wasn’t really feeling the book and I had thoroughly enjoyed the first 3 in the series, however around halfway it really started heating up, and I was super upset when it ended because I wanted to keep reading. I like the transition to a new antagonist in this one, a good change of pace.

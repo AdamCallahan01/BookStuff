@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/unsouled-wight/"
+bookSlug: "unsouled-wight"
+title: "Unsouled"
+author: "Will Wight"
+series: "Cradle"
+seriesNumber: "1"
+pages: 294
+goodreads: "https://www.goodreads.com/book/show/35683460-unsouled"
+isbn: "9780989671767"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[unsouled-wight-summary]]"
+hasScore: true
+latestScore: 5.5
+readCount: 1
+averageScore: 5.5
+allScores: [5.5]
+readSlugs: ["[[unsouled-wight-1]]"]
+coverSlug: "unsouled-wight-cover"
+---
+
+![[unsouled-wight-cover.jpg]]

@@ -1,0 +1,11 @@
+---
+bookSlug: "harry-potter-and-the-prisoner-of-azkaban-rowling"
+book: "[[harry-potter-and-the-prisoner-of-azkaban-rowling]]"
+readNumber: 2
+score: 7
+format: "E-book"
+yearRead: 2022
+hasReview: true
+---
+
+A much more enjoyable read than the last book, the characters finally start feeling like they are actual people

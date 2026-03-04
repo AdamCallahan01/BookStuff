@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/armada-cline/"
+bookSlug: "armada-cline"
+title: "Armada"
+author: "Ernest Cline"
+series: "N/A"
+seriesNumber: "N/A"
+pages: 355
+goodreads: "https://www.goodreads.com/book/show/16278318-armada?ref=nav_sb_ss_1_6"
+isbn: "9780804137256"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[armada-cline-summary]]"
+hasScore: true
+latestScore: 6.5
+readCount: 1
+averageScore: 6.5
+allScores: [6.5]
+readSlugs: ["[[armada-cline-1]]"]
+coverSlug: "armada-cline-cover"
+---
+
+![[armada-cline-cover.jpg]]

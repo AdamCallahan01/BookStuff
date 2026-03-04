@@ -1,0 +1,27 @@
+---
+layout: "book.njk"
+permalink: "/books/rogue-ascension-mythos/"
+bookSlug: "rogue-ascension-mythos"
+title: "Rogue Ascension"
+author: "Hunter Mythos"
+series: "Rogue Ascension"
+seriesNumber: "1"
+pages: 485
+yearPublished: 2023
+publisher: "Self"
+goodreads: "https://www.goodreads.com/book/show/199702146-rogue-ascension-book-1"
+avgGoodreadsRating: "8.64"
+isbn: "9798864295731"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[rogue-ascension-mythos-summary]]"
+hasScore: true
+latestScore: 2
+readCount: 1
+averageScore: 2
+allScores: [2]
+readSlugs: ["[[rogue-ascension-mythos-1]]"]
+coverSlug: "rogue-ascension-mythos-cover"
+---
+
+![[rogue-ascension-mythos-cover.jpg]]

@@ -1,0 +1,11 @@
+---
+bookSlug: "the-way-of-shadows-weeks"
+book: "[[the-way-of-shadows-weeks]]"
+readNumber: 1
+score: 8
+format: "Audible"
+yearRead: 2022
+hasReview: true
+---
+
+I’ve read this book before a long time ago and enjoyed it a lot more this time. Kylar is a cool cat. Mr. Weeks still isn’t the best at writing his female characters but he’s working on it I think. Book sort of follows the pattern of long stretch of slower building up then a ton of action in a short time then repeat over and over.

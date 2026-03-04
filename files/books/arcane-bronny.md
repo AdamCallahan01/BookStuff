@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/arcane-bronny/"
+bookSlug: "arcane-bronny"
+title: "Arcane"
+author: "Sever Bronny"
+series: "The Arinthian Line"
+seriesNumber: "1"
+pages: 362
+goodreads: "https://www.goodreads.com/book/show/23617581-arcane"
+isbn: "9780993767609"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[arcane-bronny-summary]]"
+hasScore: true
+latestScore: 6
+readCount: 2
+averageScore: 6.5
+allScores: [7,6]
+readSlugs: ["[[arcane-bronny-1]]","[[arcane-bronny-2]]"]
+coverSlug: "arcane-bronny-cover"
+---
+
+![[arcane-bronny-cover.jpg]]

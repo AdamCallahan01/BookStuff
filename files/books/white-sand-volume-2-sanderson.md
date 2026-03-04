@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/white-sand-volume-2-sanderson/"
+bookSlug: "white-sand-volume-2-sanderson"
+title: "White Sand, Volume 2"
+author: "Brandon Sanderson"
+series: "White Sand"
+seriesNumber: "2"
+pages: 160
+goodreads: "https://www.goodreads.com/book/show/33551363-white-sand-volume-2"
+isbn: "9781524103422"
+bookOwned: false
+hasSummary: false
+summarySlugLink: "[[white-sand-volume-2-sanderson-summary]]"
+hasScore: true
+latestScore: 8
+readCount: 1
+averageScore: 8
+allScores: [8]
+readSlugs: ["[[white-sand-volume-2-sanderson-1]]"]
+coverSlug: "white-sand-volume-2-sanderson-cover"
+---
+
+![[white-sand-volume-2-sanderson-cover.jpg]]

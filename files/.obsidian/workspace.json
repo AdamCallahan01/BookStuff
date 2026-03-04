@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "6ee34700750f7b3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "daddf285ef65192f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "638ddd9ca73f9f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/best-served-cold-abercrombie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "best-served-cold-abercrombie"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9040e49ad259959",
+    "type": "split",
+    "children": [
+      {
+        "id": "6095f0c12c34fe44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c052ace989f526ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bc16dec407b1c88d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ff4cb4eda0259c0e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b61f56bed851048f",
+    "type": "split",
+    "children": [
+      {
+        "id": "08198dc6b9542c1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07bc9a65f8b9b59c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "books/1984-orwell.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1984-orwell"
+            }
+          },
+          {
+            "id": "904ba7aa251c7860",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "books/1984-orwell.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1984-orwell"
+            }
+          },
+          {
+            "id": "41ca1a4bd670f64e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8aba9adb8878c763",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6053a27f25859b58",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "books/1984-orwell.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1984-orwell"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "638ddd9ca73f9f8d",
+  "lastOpenFiles": [
+    "books/city-of-light-wight.md",
+    "books/between-two-fires-buehlman.md",
+    "books/assassin-s-quest-hobb.md",
+    "books/a-court-of-mist-and-fury-maas.md",
+    "reads/a-court-of-mist-and-fury-maas-2.md",
+    "books/a-court-of-wings-and-ruin-maas.md",
+    "books/ship-of-magic-hobb.md",
+    "reads/ship-of-magic-hobb-1.md",
+    "summaries/ship-of-magic-hobb-summary.md",
+    "reads/before-they-are-hanged-abercrombie-1.md",
+    "books/before-they-are-hanged-abercrombie.md",
+    "books/a-practical-guide-to-conquering-the-world-holt.md",
+    "reads/a-practical-guide-to-conquering-the-world-holt-1.md",
+    "books/words-of-radiance-sanderson.md",
+    "summaries/words-of-radiance-sanderson-summary.md",
+    "reads/words-of-radiance-sanderson-1.md",
+    "reads/words-of-radiance-sanderson-2.md",
+    "books/white-sand-volume-2-sanderson.md",
+    "books/the-wisdom-of-crowds-abercrombie.md",
+    "books/the-two-gentleman-of-verona-shakespeare.md",
+    "books/the-sorcerer-in-the-north-flanagan.md",
+    "books/the-republic-plato.md",
+    "books/the-meaning-of-truth-james.md",
+    "books/the-last-battle-lewis.md",
+    "books/the-interpretation-of-dreams-freud.md",
+    "books/the-hanging-city-holmberg.md",
+    "covers/mark-of-the-fool-clarke-cover.jpg",
+    "reads",
+    "summaries",
+    "books",
+    "covers/proving-grounds-thorne-cover.jpg",
+    "covers/vampire-gate-thorne-cover.jpg",
+    "covers/scorching-sun-thorne-cover.jpg",
+    "covers/shackled-wisehart-cover.jpg",
+    "covers/the-wandering-inn-aba-cover.jpg",
+    "covers/into-the-labyrinth-bierce-cover.jpg",
+    "covers/mark-of-the-fool-clark-cover.jpg",
+    "covers/fae-and-fare-aba-cover.jpg",
+    "covers/flowers-of-esthelm-aba-cover.jpg"
+  ]
+}

@@ -1,0 +1,30 @@
+---
+layout: "book.njk"
+permalink: "/books/the-city-of-brass-chakraborty/"
+bookSlug: "the-city-of-brass-chakraborty"
+title: "The City of Brass"
+author: "S.A. Chakraborty"
+series: "The Daevabad Trilogy"
+seriesNumber: "1"
+pages: 532
+yearPublished: 2017
+publisher: "Harper Voyager"
+goodreads: "https://www.goodreads.com/book/show/32718027-the-city-of-brass"
+avgGoodreadsRating: "8.28"
+numGoodreadsRatings: "154944"
+genre: "Fantasy"
+subgenre: "Historical"
+isbn: "9780062678102"
+bookOwned: true
+hasSummary: true
+summarySlugLink: "[[the-city-of-brass-chakraborty-summary]]"
+hasScore: true
+latestScore: 4
+readCount: 1
+averageScore: 4
+allScores: [4]
+readSlugs: ["[[the-city-of-brass-chakraborty-1]]"]
+coverSlug: "the-city-of-brass-chakraborty-cover"
+---
+
+![[the-city-of-brass-chakraborty-cover.jpg]]

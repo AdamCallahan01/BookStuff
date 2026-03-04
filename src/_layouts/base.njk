@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "My Library" }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {% include "header.njk" %}
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>

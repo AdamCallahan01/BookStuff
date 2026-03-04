@@ -1,0 +1,31 @@
+---
+layout: "book.njk"
+permalink: "/books/ship-of-magic-hobb/"
+bookSlug: "ship-of-magic-hobb"
+title: "Ship of Magic"
+author: "Robin Hobb"
+series: "Liveship Traders"
+seriesNumber: "1"
+pages: 880
+yearPublished: 1998
+publisher: "Voyager"
+goodreads: "https://www.goodreads.com/book/show/45100.Ship_of_Magic"
+avgGoodreadsRating: "8.48"
+numGoodreadsRatings: "104882"
+genre: "Fantasy"
+subgenre: "Epic"
+isbn: "9780006498858"
+narrator: "Anne Flosnik"
+bookOwned: true
+hasSummary: true
+summarySlugLink: "[[ship-of-magic-hobb-summary]]"
+hasScore: true
+latestScore: 9
+readCount: 1
+averageScore: 9
+allScores: [9]
+readSlugs: ["[[ship-of-magic-hobb-1]]"]
+coverSlug: "ship-of-magic-hobb-cover"
+---
+
+![[ship-of-magic-hobb-cover.jpg]]

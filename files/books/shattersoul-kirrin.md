@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/shattersoul-kirrin/"
+bookSlug: "shattersoul-kirrin"
+title: "Shattersoul"
+author: "Kyle Kirrin"
+series: "The Ripple System"
+seriesNumber: "4"
+pages: 877
+goodreads: "https://www.goodreads.com/book/show/171670888-shattersoul"
+isbn: "9781913695538"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[shattersoul-kirrin-summary]]"
+hasScore: true
+latestScore: 7.5
+readCount: 1
+averageScore: 7.5
+allScores: [7.5]
+readSlugs: ["[[shattersoul-kirrin-1]]"]
+coverSlug: "shattersoul-kirrin-cover"
+---
+
+![[shattersoul-kirrin-cover.jpg]]

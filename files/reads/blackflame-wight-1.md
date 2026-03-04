@@ -1,0 +1,15 @@
+---
+bookSlug: "blackflame-wight"
+book: "[[blackflame-wight]]"
+readNumber: 1
+score: 7.5
+format: "Kindle"
+dateStarted: "5/29/2023"
+dateFinished: "6/6/2023"
+yearRead: 2023
+days: 8
+hasReview: true
+---
+
+I received my Kindle today and have 3 months of Kindle unlimited, which has the books for me to finish a good number of series that I have read the initial book for so I will be trying to bust a lot of those out. This was the best book in the series so far. They keep getting better and more interesting as I go on, and all of Will Wight’s ebooks were free a few days ago so I will for sure finish this series. Lindon keeps getting stronger and Eithan is still cool so I am excited to keep reading.
+ 

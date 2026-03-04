@@ -1,0 +1,36 @@
+---
+bookSlug: "sharp-ends-abercrombie"
+book: "[[sharp-ends-abercrombie]]"
+---
+
+Sharp Ends
+Joe Abercrombie
+First Law World #7
+
+A collection of short stories from around the circle of the world.
+
+A Beautiful Bastard - Kadir, 566 - A glimpse in Colonel San Dan Glokta back when he was the handsome, popular fencing champion. Adam West is there and the merchant he tortures at the start of the first book. We even hear him volunteer to stop the Gurkish on the bridge where he will get captured.
+
+Small Kindnesses - Westport, Autumn 573 - Shevedieh, or Shev, an ex thief who know owns a small smoke shop with her assistant Severard. Her friend/occasional lover/work acquaintance Carcolf stops by and offers her a job, but Shev wants to leave that life. She and Severard help a big woman who is beat up off their porch and into bed. Later Shev is forced into a job by the son of Horald the Finger, the biggest crimeboss in Westport. She steals what she thinks is the item but then turns out it was not there and Carcolf already stole it or something. The son is going to kill her but Javre, Lioness of Hopka wakes up and kills all of the men. Shev and Javre run off together.
+
+The Fool Jobs - East of the Crinna, Autumn 574 - Curnden Craw, with his gang of Wonderful, Brack-i-Dayn, and some other Northmen, and a new guy Whirren of Bligh, are supposed to steal a glowing stick from a nearby village. They dash in, everything is going mostly to plan, and they find the stick, Craw tells his guy Yon to grab it. They all flee, Whirrun solo’ed a bunch of people with the father of swords. They escape and are happy, but Yon grabbed the wrong thing and the town burned down behind them.
+
+Skipping Town - The Near Country, Summer 575 - Shev and Javre have been having misadventures and Javre wants to leave, but Shev wants to pay back their debts to an innkeeper first, so they go to the inn  but are ambushed by people hunting Javre. Javre unveils her sword which blinds people and they kill everyone. Javre used to be a preistess, and the others are trying to kill her. SHev leaves a gem for the innkeeper and they leave.
+
+Hell - Dagoska, Spring 576 - We see the turkish invasion of Dagoska from a priest. The eaters come and people are terrified. The lead priest sacrifices himself to save his people.
+
+Two’s Company, Somewhere in the North, Summer 576 - Shev and Javre are wandering the north and cross a bridge. While crossing a certain Whirrun of Bligh is crossing back the other way. Javre and Whirrun argue about who should get to go first. They decide to fight. Then they argue about which side of the bridge to fight on. They cross and Whirrun and Javre do fisticuffs. Then Bethod’s men who were chasing Whirrun show up and the three of them team up to kill them. Then Whirrun and Javre have sex. While that is happening three more priestesses hunting Javre show up, and the three of them kill them. They decide to travel together for a while to help each other.
+
+Wrong Place, Wrong Time - Styria, 580 - We see innocent people who got caught up in Monza Murcattos revenge story. The first is a banker in Westport who dies because they wanted to kill his boss. The second is a prostitue at Cardotti’s house of leisure who dies when they burn it down. The third is a soldier in Grand Duke Orso’s army who sees his whole squad die and swaps sides.
+
+Some Desperado, The Near Country, Summer 584 - Back when Shy was a thief. She is running from her 3 ex co-conspirators and her horse just died at a small empty town. She hides in second story tavern. She throws the first one off the balcony, then stabs and kills the second, and shoots the third with a bow. But all the money falls down a well and is lost. So she takes their horses and leaves to go home.
+
+Yesterday, Near a Village Called Barden… - Near Barden, Autumn 584 - Tinder is a northman trying to start a farm for his two children. The union is marching on Bethod and tramples all his crops. Gorst walks up and asks for a glass of milk. Nearby, pale-as-snow is planning a raid on the union camp. But it gets bungled when someone has to poop and warns the union. Gorst kills a couple of people, the northmen burn wagons and kill horses and flee. Gorst leaves Tinder a big coin to say sorry.
+
+Three’s A Crowd - Talins, Autumn 587 - Shev is hanging out with Shilo Vitari watching Monza crown her son King of Styria. She has officially been pardoned by Harold the Finger and is finally free. She goes back to the place she is sharing with Carcolf, and finds it trashed and note from Harold saying he has Carcolf and wants Shev to come. Shev goes and finds a drunken Javre who is playing cards with Tunny. Together they go to save CArcolf and Shev ends up kills / incapaciting 5 men because Javre is slow and drunk. She find s Carcolf drinking wine with Harold, and Harold does not seem that mad. He forgives her for killing his son. But he has debts and the priestess Javre has been fleeing is here, who is actually her mother. Javre has to steal something from a wizard for them. Shev and Carcolf go home, but Shev finds a note saying Carcolf went to Harold on purpose to help trap Javre. Shev walks out.
+
+Freedom! - Averstock, Summer 590 - An edited history of Nicomo Costa by the historian Spillion Sworbreck. Makes him and his company ot to be like angels on Earth. And obviously he never drinks. The notes were found on a dead Sworbreck.
+
+Tough Times All Over - Sipani, Spring 592 - Carcolf is making a getaway with a package and some coin. She is a courier now. She gets mugged and the package and coin get stolen. The mugger goes home to find Friendly waiting to collect his debts. Friendly takes the package to the Quarryman. The quarryman has her own debts so she gives it to Deep and Shallow, who Carcolf thought would be attacking her double further away. They are supposed to dump the package in a well for “The Bald Boss”. But it gets stolen by a young thief who gets away and Deep and Shallow fight each other. The thief puts iti n a violinists pocket, who lets a young man at a dinner take it, who hands it off to a young boy, who brings it to the Green Man, an old lady who runs the children in town. She gives it to a guy who then gets mugged by Javre. Javre gives the package to Pombrine, who is who Carcolf took it from in the first place. Pombrine is excited and Javre takes some of his prostitutes to bed. Pombrine locks himself in his office and grabs a bottle of wine, when he turns back around The package is being pulled up through the ceiling by a certain Shevedieh, best thief in Styria. Shev is running with it when she sees Javre through the window, they say hi and Shev runs. She disguises herself as a priest and returns to her home, where Carcolf is waiting to take the package. Carcolf leaves with it.
+
+Made A Monster - Carleon, Summer 570 - Bethod is teaching his sons Scale and Calder that peace is good and he wants to build a road through the North. But Logen, the bloody-nine, has been getting crazier and has a rival chief, rattlesnakes, son. Bethod goes to ask for the prisoner so he can make peace. Rattlesnake agrees, he just wants his son, but Bethod goes down and finds that Logen killed the son and is playing with the gore. Bethod feels he made a monster from his old friend.

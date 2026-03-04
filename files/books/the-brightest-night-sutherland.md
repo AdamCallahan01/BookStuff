@@ -1,0 +1,27 @@
+---
+layout: "book.njk"
+permalink: "/books/the-brightest-night-sutherland/"
+bookSlug: "the-brightest-night-sutherland"
+title: "The Brightest Night"
+author: "Tui T. Sutherland"
+series: "Wings of Fire"
+seriesNumber: "5"
+pages: 336
+yearPublished: 2014
+publisher: "Scholastic"
+goodreads: "https://www.goodreads.com/book/show/18527497-the-brightest-night"
+avgGoodreadsRating: "9.12"
+isbn: "9780545349222"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[the-brightest-night-sutherland-summary]]"
+hasScore: true
+latestScore: 3
+readCount: 1
+averageScore: 3
+allScores: [3]
+readSlugs: ["[[the-brightest-night-sutherland-1]]"]
+coverSlug: "the-brightest-night-sutherland-cover"
+---
+
+![[the-brightest-night-sutherland-cover.jpg]]

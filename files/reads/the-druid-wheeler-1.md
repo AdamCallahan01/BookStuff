@@ -1,0 +1,11 @@
+---
+bookSlug: "the-druid-wheeler"
+book: "[[the-druid-wheeler]]"
+readNumber: 1
+score: 5.5
+format: "E-book"
+yearRead: 2022
+hasReview: true
+---
+
+I finally broke the streak of terrible free books. Has some pretty classic fantasy tropes but still added its own flavor. Pretty quick read and a fun one. (I also got my employee card the next day at work so books began to be bought)

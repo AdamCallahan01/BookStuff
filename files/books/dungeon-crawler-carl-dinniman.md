@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/dungeon-crawler-carl-dinniman/"
+bookSlug: "dungeon-crawler-carl-dinniman"
+title: "Dungeon Crawler Carl"
+author: "Matt Dinniman"
+series: "Dungeon Crawler Carl"
+seriesNumber: "1"
+pages: 446
+goodreads: "https://www.goodreads.com/book/show/57964597-dungeon-crawler-carl"
+isbn: "9798707228315"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[dungeon-crawler-carl-dinniman-summary]]"
+hasScore: true
+latestScore: 7
+readCount: 2
+averageScore: 6.25
+allScores: [5.5,7]
+readSlugs: ["[[dungeon-crawler-carl-dinniman-1]]","[[dungeon-crawler-carl-dinniman-2]]"]
+coverSlug: "dungeon-crawler-carl-dinniman-cover"
+---
+
+![[dungeon-crawler-carl-dinniman-cover.jpg]]

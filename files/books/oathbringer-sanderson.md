@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/oathbringer-sanderson/"
+bookSlug: "oathbringer-sanderson"
+title: "Oathbringer"
+author: "Brandon Sanderson"
+series: "The Stormlight Archive"
+seriesNumber: "3"
+pages: 1243
+goodreads: "https://www.goodreads.com/book/show/37534833-oathbringer"
+isbn: "9781250297143"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[oathbringer-sanderson-summary]]"
+hasScore: true
+latestScore: 9
+readCount: 2
+averageScore: 9.25
+allScores: [9.5,9]
+readSlugs: ["[[oathbringer-sanderson-1]]","[[oathbringer-sanderson-2]]"]
+coverSlug: "oathbringer-sanderson-cover"
+---
+
+![[oathbringer-sanderson-cover.jpg]]

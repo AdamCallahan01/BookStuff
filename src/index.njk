@@ -1,0 +1,25 @@
+---
+layout: base.njk
+permalink: /
+---
+
+<h1>Library</h1>
+<p>Total books: {{ collections.books | length }}</p>
+
+<div class="book-grid">
+{% for book in collections.books | sort(attribute="data.title") %}
+  <a href="{{ book.url }}" class="book-card">
+    {% if book.data.coverSlug %}
+      <img src="/files/covers/{{ book.data.coverSlug }}.jpg" alt="{{ book.data.title }} cover">
+    {% endif %}
+
+    <!-- Overlay showing rating & read count -->
+    <div class="overlay">
+    ⭐ {% if book.data.hasScore %}{{ book.data.averageScore }}{% else %}N/A{% endif %} | 📖 {{ book.data.readCount }}
+    </div>
+
+    <h2>{{ book.data.title }}</h2>
+    <p>{{ book.data.author }}</p>
+  </a>
+{% endfor %}
+</div>

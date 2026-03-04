@@ -1,0 +1,30 @@
+---
+layout: "book.njk"
+permalink: "/books/the-devils-abercrombie/"
+bookSlug: "the-devils-abercrombie"
+title: "The Devils"
+author: "Joe Abercrombie"
+series: "The Devils"
+seriesNumber: "1"
+pages: 525
+yearPublished: 2025
+publisher: "Broken Binding"
+goodreads: "https://www.goodreads.com/book/show/233800039-the-devils"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "3,981"
+genre: "Fantasy"
+subgenre: "Adult"
+isbn: "9781250880055"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[the-devils-abercrombie-summary]]"
+hasScore: true
+latestScore: 8
+readCount: 1
+averageScore: 8
+allScores: [8]
+readSlugs: ["[[the-devils-abercrombie-1]]"]
+coverSlug: "the-devils-abercrombie-cover"
+---
+
+![[the-devils-abercrombie-cover.jpg]]

@@ -1,0 +1,18 @@
+---
+bookSlug: "the-kill-order-dashner"
+book: "[[the-kill-order-dashner]]"
+---
+
+The Kill Order
+James Dashner
+The Maze Runner #0.5
+
+Mark and Trina are dating and living in the woods with Alec and Lana (retired soldiers), as well as Misty, The Toad, and Darnell. This is a post sun-flares world where they are starting to figure out how to survive. Then a big Berg flys in and people shoot darts at them. Those hit either die or go crazy. Mark and Alec hijack the berg and crash it, but learn that the darts had a dangerous disease in them. They march back and all of their friends are sick and dying except Lana and Trina. They explore towards where they think the berg came  from. Find a burned out village with a 5 year old girl named DeeDee in it who seems to be immune to the  disease. Mark and Alec stumble upon her old village having a bonfire and are captured. These people are crazy, think the sickness is demons. They escape but big fire starts and they can’t find their friends. Go to where the Berg came from and hear them say the disease was released intentionally to cull the population. Then they have to run because the people at this facility are starting to go crazy from the sickness. They steal a berg and leave. Those crazy people think that Asheviulle (nearby) has a Flat-Trans (teleporter) to Alaska, where the PFC (post-F;ares Coalition) is headed up. 
+
+They find weapons called transvices on board. They are like ray guns, dissolve whoever they hit. Mark feels like he has the disease and is starting to go crazy. They hunt down their friends who were captured by DeeDee crazy villagers in an old rich neighborhood. They use the guns to work their way though, when they eventually see LAna being dragged out of a house and beaten. They fight and kill the attackers but she is so hurt and damaged Alex kills her out of mercy. In the house they find Lana and Trina but their are too many crazies (Cranks). Mark loses his transvice and they all jump out a window and run back to the berg. Trina does not recognize Mark and is clearly far gone with the disease. 
+
+Oh meanwhile we have gotten periodic flashbacks. Mark and Trina were childhood neighbors, Mark always had ac rush on her. They were in a subway so survived the sun flares. Alec saved them in the tunnels and took them to the rest of the gang. They escaped a  flood and survived in the Lincoln buiding for a but., Then some bad guys on a boat showed up and killed a young kid, Baxter, that had been with theme. Alec kills the bad guy and they steal the boat and leave. Survive and caves and stuffi n the Appalachians until they find the settlement where the story starte, and Mark and Trina fell in love over that time.
+
+Alec wakes up Mark and is clearly about to lose it. He wants to die. Mark has a plan. He Writes a not saying deedee is immune and they fly into Asheville to use the flat trans. They see Bruce and the facility disease people breaking in. They fly to the middle and get off, Mark is losing it more and more. They send DeeDee through the teleporter and then as Bruce and thec razues all close in, Alec crashes the berg into the building. Killing everyone and destroying the flat trans. Right before the end Trina recognizes Mark and they kiss.
+
+We get a post-credits of Theres (DeeDee) and Thomas meeting at the Wicked facility in Alsaka.

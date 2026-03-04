@@ -1,0 +1,27 @@
+---
+layout: "book.njk"
+permalink: "/books/the-phantom-tollbooth-juster/"
+bookSlug: "the-phantom-tollbooth-juster"
+title: "The Phantom Tollbooth"
+author: "Norton Juster"
+series: "N/A"
+seriesNumber: "N/A"
+pages: 248
+yearPublished: 1961
+publisher: "Random House"
+goodreads: "https://www.goodreads.com/book/show/378.The_Phantom_Tollbooth"
+avgGoodreadsRating: "8.4"
+isbn: "9780394820378"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[the-phantom-tollbooth-juster-summary]]"
+hasScore: true
+latestScore: 8
+readCount: 1
+averageScore: 8
+allScores: [8]
+readSlugs: ["[[the-phantom-tollbooth-juster-1]]"]
+coverSlug: "the-phantom-tollbooth-juster-cover"
+---
+
+![[the-phantom-tollbooth-juster-cover.jpg]]

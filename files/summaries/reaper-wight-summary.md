@@ -1,0 +1,10 @@
+---
+bookSlug: "reaper-wight"
+book: "[[reaper-wight]]"
+---
+
+Lindon got a lot of people safely out of Sacred Valley, met Elder Whisper outside the labyrinth entrance, and the fox says he can teach him how to kill the Dreadgods. Reigan Shen has spent the year inside the Labyrinth, moving around the dreadgod cores to disable the suppression field, while Lindon and co have been building up the Twin Stars sect. Kelsa, Jai Long, and Jai Chen keep training together. 
+The whole team goes into the labyrinth. Meanwhile, the blackflame empire and the Akura clan recruit all golds (including Jai and Kelsa) to fight the dreadgods cults and 8-man empire who have all showed up, at Reigna Shen’s behest. 
+Lindon uses the hand from the sword sages space to guide them, they fight stuff, and learn stuff. Eithan really wants to find Ozmanthus Aurelius’ (Ozriel’s) stuff. Mercy levels up to overlady because they need her to. Eithan gives Lindon the ultimate soulforge, he makes a hammer. They fight a weakened Reigna Shen, who toys with them, only Eithan can push him. They steal a spear from him and Lindon uses it to craft a good weapon. 
+The ABidan are becoming engrossed in all out war.
+Mercy and Ziel and orthos and little blue leave after using their power up. Yerin kills a ton of stuff and angers the labyrinth then leaves. Shen kills Subject one, the sleeping wraith, the dreadgod of hunger at the center of the labyrinth. The labyrinth splits up Eithan and Lindon so Eithan has to leave, Lindon continues. Finds the corpse of subject one and Reigan shen makes him a deal, tells him how the dreadgods exist because of the monarchs. They fight. Lindon accends to overlord. Lindon kind of bonds with the labyrinth and takes control over it, ejecting Reigan shen and all of his allies from sacred valley. He attaches the arm of the dead dreadgod to his missing arm. The mad king has fled the Abidan and is destroying Cradle. They all know it is the end of the world. Eithan is crying and apologizes, then sheds his veil and Ozriel ascends again. He fights off the mad king, and the Abidan come and imprison him for trial. 

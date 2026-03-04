@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} — My Library</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {% include "header.njk" %}
+  <main>
+    {% if coverSlug %}
+      <img class="book-cover" src="/files/covers/{{ coverSlug }}.jpg" alt="{{ title }} cover">
+    {% endif %}
+
+    <div class="book-meta">
+      <h1>{{ title }}</h1>
+      <p><strong>Author:</strong> {{ author }}</p>
+      <p><strong>Series:</strong> {{ series }}
+        {% if seriesNumber != "N/A" %}
+          (#{{ seriesNumber }})
+        {% endif %}
+      </p>
+      <p><strong>Pages:</strong> {{ pages }}</p>
+      <p><strong>Goodreads:</strong> <a href="{{ goodreads }}" target="_blank">{{ goodreads }}</a></p>
+      <p><strong>Average Score:</strong> {{ averageScore }}</p>
+      <p><strong>Read Count:</strong> {{ readCount }}</p>
+    </div>
+
+    <div class="clear"></div>
+
+    {% if content %}
+      <section style="margin-top:2rem;">
+        {{ content | safe }}
+      </section>
+    {% endif %}
+  </main>
+</body>
+</html>

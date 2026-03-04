@@ -1,0 +1,80 @@
+---
+bookSlug: "of-war-and-ruin-cahill"
+book: "[[of-war-and-ruin-cahill]]"
+---
+
+Of War and Ruin
+Ryan Cahill
+The Bound and The Broken #3
+
+People:
+Fane Mortem, Calen Bryer, Ella Bryer/Fjorn, Tanner Fjorn, Yerra, Rist Havel, Dan Pym, Eric, Dahlen, and Aeson Virandr, Dayne Ateres, Alina Ateres, Belina Louhna, Mara, Haim/Ardynm, Damon, Kyra, Brother Gerimund, Nira, 
+
+Places:
+Epheria, Loria, Berona, Kingspass, the darkwood, the burnt lands, Lodhar Mountains, Dwarven Freehold, Belduar, Aravel, Al’Nasla, 
+
+Things:
+Faenir, Valerys, Lorian Empire, Knights of Achyron, Uraks, 
+
+Story:
+World of Epheria, the Lorian Empire, led by Fane Mortem, who destroyed the order of Draleid 400 years ago, is facing rebellion. Calen Bryer, our hero, and soulkin of Valerys, has just helped defend the city of Kingspass from a Urak invasion. There, the Knights of Akyron came to help and Calen saw his dead brother Haim, who is now Ardyn. This messes with him. He, Eric, Talman, and Veryl all decide to cross the burnt lands to rescue Rist. Since the old Grandmaster of the knights died, Kallinvar has to take up the mantle.
+
+Meanwhile, Farda Kairana escorted Ella and Faenir to Berona, where she met with Tanner Fjorn (Rhett’s uncle and commander of the Berona city guard). Tanner turns out to be a rebel and they escape the people Farda sent after them. Ella discovers she is a druid. Tanner is injured.
+
+In the Dwarven kingdoms, Dahlen and Ivan try to keep the new, young, stupid king Damon alive. Belina is an ex-assassin who helps Dahlen in this venture. Eventually Damon and Ivan are killed in the midst of Dwarven infighting. The dwarven queen, Kyra, helps the human Belduaran refugees and names the fat ambassador as their new ruler. Dahlen and Belina escort a ton of refugees to Aravel, the elf kingdom.
+
+Rist is making good progress under Brother Gerimund’s tutelage in Al’Nasla. He begins dating Nira, a fellow battlemage, and they are eventually sent out into battle for the first time against different elves who also have dragons.
+
+Valtara: city in the south, home to Wyvern riders. Now that Dayne has come home, he convince his sister and leader of the house Alina to begin a rebellion. Many of the local squabbling nobles are against it so they have to waste a ton of time fighting their own people instead of the empire.
+
+Calen makes it across the burnt lands, kills Inquuisitor Rendel, who killed his dad, and frees Rist’s Parents and the elf Galeron, but NO RIST. Then they go back across the burnt lands to join with Aeson and Therin and Dan and go to the elven city of Aravel to train.
+
+Ella Joins more rebels and they plan to attack the Lorian army (They Rist is now a part of) while they are distracted by the elves. Ella and Faenir are captured and tortured a bit, before Rist and Farda set her free and Farda flees with her and Tanner to Aravel.
+
+After all of our characters have gathered at Aravel and done the training montage (we also learn Vars Bryer was apparently one of the worlds most famous heroes of all time), they are attacked! By Lorian’s and part of the dragon guard. Big battle, no one super important dies, the ”broken” Dragons and riders serperated from their soulkin finally join in and help save Calen, Ella also overextends her Druid powers to save Calen and is now broken ish.
+
+The blood moon rises. Fane’s grand plot to bring Efialtir’s chosen into the world is a go. Urak, Knights of Achyron, and Lorian’s battle.
+
+TImelines:
+
+A Civil War in Valtara
+This storybeat/plotline takes place in three parts.
+Initial unity in opposition to the Loren Empire
+The hints of dissent against House Ateres
+Open revolt against House Ateres
+The Temptation of Rist
+Act 1 for Rist begins with his captivity in Mage School. He makes friends with fellow students and teachers. He does NOT believe blood magic is ethical.
+Act 2 begins when Emperor Fane himself shows that 'blood magic is ethical, actually.' Act 2 ends when Rist becomes a Loren battlemage and performs blood magic on a dying elf.
+Act 3 is the final battle of the war, where Rist participates in a ritual to summon the blood magic god.
+Dahlen Tries to Stop War in the Dwarven Realms
+Act 1: the humans are taking refuge with the dwarves.
+Act 2: assassination attempt! The humans try to leave, but the dwarves won't let them. Army on army combat.
+Act 3: humans + dwarves fight other dwarves. The good guys prevail.
+Act 4: This happens at the end of the book. During the peace process, a man everyone thought dead returns and kills everyone, claiming the throne.
+Calen Crosses the Desert
+Act 1: Calen + Friends meets druid, who gives them a compass.
+Act 2: Calen and crew enter the Evil Desert. Using the magic compass, they travel north.
+Act 3: Fight against weird eldritch horror cat things.
+Act 4: People go insane due to evil desert magic.
+Act 5: Successfully cross the desert.
+Calen Rallies the Alliance of Elves and Men
+Act 0: Protagonist saves Loren Soldiers and becomes the Warden of Valtyr.
+Act 1: Calen returns from the desert
+Act 2: Calen meets the Rakina. Some choose to help him, other choose to ignore him.
+Act 3: Calen unites the elven kingdoms. He trains.
+Act 4: Ella returns. Calen discovers that Aeson lied to him. Calen leaves.
+Act 5: Calen leaves. He goes to the dragon temple, learns about the past from TIvar.
+Act 6: Blood moon rises. Fight scene. The Rakina who ignored him earlier now help him.
+Ella Becomes a Druid
+Act 1: Fight scenes, with hints that Ella's a druid.
+Act 2: Ella is nearly killed in battle. To survive, she takes control of an owl and attacks the Dragonguard who's killing her. She survives, but is captured.
+Act 3: Ella escapes captivity with Rist/Justicar help. She flees to Claen, helps in the final battle.
+Dissent amongst the Dragonguard
+Act 1: Pelenor helps Calen escape the dungeons. Introduce Tivar.
+Act 2: Helios and Eltoar try to spare enemy elf draelid.
+Act 3: Tivar helps save the day
+Listening to Ascheron
+Act 1: The Grandmaster hears voices in his head. The voice says it's his patron god Asheron, however the only god who's known to speak to people is Efialtir. Grandmaster uncertain of self.
+Act 2: Asheron (or maybe Efialtir?) convinces Grandmaster he really is Asheron
+
+

@@ -1,0 +1,27 @@
+---
+layout: "book.njk"
+permalink: "/books/best-served-cold-abercrombie/"
+bookSlug: "best-served-cold-abercrombie"
+title: "Best Served Cold"
+author: "Joe Abercrombie"
+series: "First Law World"
+seriesNumber: "4"
+pages: 534
+yearPublished: 2009
+publisher: "Gollancz"
+goodreads: "https://www.goodreads.com/book/show/2315892.Best_Served_Cold"
+avgGoodreadsRating: "8.46"
+isbn: "9780575082458"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[best-served-cold-abercrombie-summary]]"
+hasScore: true
+latestScore: 9
+readCount: 1
+averageScore: 9
+allScores: [9]
+readSlugs: ["[[best-served-cold-abercrombie-1]]"]
+coverSlug: "best-served-cold-abercrombie-cover"
+---
+
+![[best-served-cold-abercrombie-cover.jpg]]

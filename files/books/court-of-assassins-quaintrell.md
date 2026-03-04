@@ -1,0 +1,24 @@
+---
+layout: "book.njk"
+permalink: "/books/court-of-assassins-quaintrell/"
+bookSlug: "court-of-assassins-quaintrell"
+title: "Court of Assassins"
+author: "Philip C. Quaintrell"
+series: "The Ranger Archives"
+seriesNumber: "1"
+pages: 525
+goodreads: "https://www.goodreads.com/book/show/237087061-court-of-assassins"
+isbn: "9781916610408"
+bookOwned: true
+hasSummary: false
+summarySlugLink: "[[court-of-assassins-quaintrell-summary]]"
+hasScore: true
+latestScore: 6
+readCount: 1
+averageScore: 6
+allScores: [6]
+readSlugs: ["[[court-of-assassins-quaintrell-1]]"]
+coverSlug: "court-of-assassins-quaintrell-cover"
+---
+
+![[court-of-assassins-quaintrell-cover.jpg]]
