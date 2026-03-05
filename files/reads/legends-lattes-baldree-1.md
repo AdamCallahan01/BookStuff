@@ -1,5 +1,6 @@
 ---
 bookSlug: "legends-lattes-baldree"
+readSlug: "legends-lattes-baldree-1"
 book: "[[legends-lattes-baldree]]"
 readNumber: 1
 score: 8.5

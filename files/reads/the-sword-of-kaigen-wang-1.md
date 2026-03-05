@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-sword-of-kaigen-wang"
+readSlug: "the-sword-of-kaigen-wang-1"
 book: "[[the-sword-of-kaigen-wang]]"
 readNumber: 1
 score: 8.5

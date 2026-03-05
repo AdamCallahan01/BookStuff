@@ -1,5 +1,6 @@
 ---
 bookSlug: "flowers-of-esthelm-aba"
+readSlug: "flowers-of-esthelm-aba-1"
 book: "[[flowers-of-esthelm-aba]]"
 readNumber: 1
 score: 9.5

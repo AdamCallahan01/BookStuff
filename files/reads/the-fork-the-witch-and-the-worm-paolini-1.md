@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-fork-the-witch-and-the-worm-paolini"
+readSlug: "the-fork-the-witch-and-the-worm-paolini-1"
 book: "[[the-fork-the-witch-and-the-worm-paolini]]"
 readNumber: 1
 score: 8

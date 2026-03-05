@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/53255694-white-trash-warlock?ref
 isbn: "9781094067964"
 bookOwned: false
 hasSummary: false
+summarySlug: "white-trash-warlock-slayton-summary"
 summarySlugLink: "[[white-trash-warlock-slayton-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[white-trash-warlock-slayton-1]]"]
+readSlugs: ["white-trash-warlock-slayton-1"]
+readSlugsLinks: ["[[white-trash-warlock-slayton-1]]"]
+currentRead: false
 coverSlug: "white-trash-warlock-slayton-cover"
 ---
 

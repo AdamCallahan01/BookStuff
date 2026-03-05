@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.64"
 isbn: "9798864295731"
 bookOwned: true
 hasSummary: false
+summarySlug: "rogue-ascension-mythos-summary"
 summarySlugLink: "[[rogue-ascension-mythos-summary]]"
 hasScore: true
 latestScore: 2
 readCount: 1
 averageScore: 2
 allScores: [2]
-readSlugs: ["[[rogue-ascension-mythos-1]]"]
+readSlugs: ["rogue-ascension-mythos-1"]
+readSlugsLinks: ["[[rogue-ascension-mythos-1]]"]
+currentRead: false
 coverSlug: "rogue-ascension-mythos-cover"
 ---
 

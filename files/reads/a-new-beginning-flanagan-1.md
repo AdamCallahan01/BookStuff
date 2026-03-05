@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-new-beginning-flanagan"
+readSlug: "a-new-beginning-flanagan-1"
 book: "[[a-new-beginning-flanagan]]"
 readNumber: 1
 score: 6

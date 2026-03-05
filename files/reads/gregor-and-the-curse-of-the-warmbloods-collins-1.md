@@ -1,5 +1,6 @@
 ---
 bookSlug: "gregor-and-the-curse-of-the-warmbloods-collins"
+readSlug: "gregor-and-the-curse-of-the-warmbloods-collins-1"
 book: "[[gregor-and-the-curse-of-the-warmbloods-collins]]"
 readNumber: 1
 score: 6.5

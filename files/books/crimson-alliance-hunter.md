@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/39279287-crimson-alliance"
 isbn: "9781543225501"
 bookOwned: false
 hasSummary: false
+summarySlug: "crimson-alliance-hunter-summary"
 summarySlugLink: "[[crimson-alliance-hunter-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[crimson-alliance-hunter-1]]"]
+readSlugs: ["crimson-alliance-hunter-1"]
+readSlugsLinks: ["[[crimson-alliance-hunter-1]]"]
+currentRead: false
 coverSlug: "crimson-alliance-hunter-cover"
 ---
 

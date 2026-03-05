@@ -13,10 +13,13 @@ avgGoodreadsRating: "6.8"
 isbn: "9780671722951"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-two-gentleman-of-verona-shakespeare-summary"
 summarySlugLink: "[[the-two-gentleman-of-verona-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-two-gentleman-of-verona-shakespeare-1]]"]
+readSlugs: ["the-two-gentleman-of-verona-shakespeare-1"]
+readSlugsLinks: ["[[the-two-gentleman-of-verona-shakespeare-1]]"]
+currentRead: false
 coverSlug: "the-two-gentleman-of-verona-shakespeare-cover"
 ---
 

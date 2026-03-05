@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/26091512-nomad"
 isbn: "9781987942040"
 bookOwned: false
 hasSummary: false
+summarySlug: "nomad-mather-summary"
 summarySlugLink: "[[nomad-mather-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[nomad-mather-1]]"]
+readSlugs: ["nomad-mather-1"]
+readSlugsLinks: ["[[nomad-mather-1]]"]
+currentRead: false
 coverSlug: "nomad-mather-cover"
 ---
 

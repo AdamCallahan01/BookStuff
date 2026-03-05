@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/171670888-shattersoul"
 isbn: "9781913695538"
 bookOwned: true
 hasSummary: false
+summarySlug: "shattersoul-kirrin-summary"
 summarySlugLink: "[[shattersoul-kirrin-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[shattersoul-kirrin-1]]"]
+readSlugs: ["shattersoul-kirrin-1"]
+readSlugsLinks: ["[[shattersoul-kirrin-1]]"]
+currentRead: false
 coverSlug: "shattersoul-kirrin-cover"
 ---
 

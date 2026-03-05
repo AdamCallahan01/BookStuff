@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.1"
 isbn: "9781419172663"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-merry-wives-of-windsor-shakespeare-summary"
 summarySlugLink: "[[the-merry-wives-of-windsor-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-merry-wives-of-windsor-shakespeare-1]]"]
+readSlugs: ["the-merry-wives-of-windsor-shakespeare-1"]
+readSlugsLinks: ["[[the-merry-wives-of-windsor-shakespeare-1]]"]
+currentRead: false
 coverSlug: "the-merry-wives-of-windsor-shakespeare-cover"
 ---
 

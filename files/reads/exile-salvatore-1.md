@@ -1,5 +1,6 @@
 ---
 bookSlug: "exile-salvatore"
+readSlug: "exile-salvatore-1"
 book: "[[exile-salvatore]]"
 readNumber: 1
 score: 8.5

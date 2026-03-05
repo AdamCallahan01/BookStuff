@@ -1,5 +1,6 @@
 ---
 bookSlug: "daughter-of-the-empire-wurts"
+readSlug: "daughter-of-the-empire-wurts-1"
 book: "[[daughter-of-the-empire-wurts]]"
 readNumber: 1
 score: 8

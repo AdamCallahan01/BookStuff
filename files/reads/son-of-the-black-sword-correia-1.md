@@ -1,5 +1,6 @@
 ---
 bookSlug: "son-of-the-black-sword-correia"
+readSlug: "son-of-the-black-sword-correia-1"
 book: "[[son-of-the-black-sword-correia]]"
 readNumber: 1
 score: 6.5

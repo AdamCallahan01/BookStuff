@@ -1,5 +1,6 @@
 ---
 bookSlug: "red-country-abercrombie"
+readSlug: "red-country-abercrombie-1"
 book: "[[red-country-abercrombie]]"
 readNumber: 1
 score: 8.5

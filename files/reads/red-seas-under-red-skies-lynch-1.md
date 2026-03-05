@@ -1,5 +1,6 @@
 ---
 bookSlug: "red-seas-under-red-skies-lynch"
+readSlug: "red-seas-under-red-skies-lynch-1"
 book: "[[red-seas-under-red-skies-lynch]]"
 readNumber: 1
 score: 10

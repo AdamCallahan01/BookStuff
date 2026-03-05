@@ -1,5 +1,6 @@
 ---
 bookSlug: "red-rising-brown"
+readSlug: "red-rising-brown-1"
 book: "[[red-rising-brown]]"
 readNumber: 1
 score: 8

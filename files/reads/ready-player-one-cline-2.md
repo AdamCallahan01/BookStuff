@@ -1,5 +1,6 @@
 ---
 bookSlug: "ready-player-one-cline"
+readSlug: "ready-player-one-cline-2"
 book: "[[ready-player-one-cline]]"
 readNumber: 2
 score: 7.5

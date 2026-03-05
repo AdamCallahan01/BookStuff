@@ -1,5 +1,6 @@
 ---
 bookSlug: "how-to-rule-an-empire-and-get-away-with-it-holt"
+readSlug: "how-to-rule-an-empire-and-get-away-with-it-holt-1"
 book: "[[how-to-rule-an-empire-and-get-away-with-it-holt]]"
 readNumber: 1
 score: 8.5

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-false-prince-nielsen"
+readSlug: "the-false-prince-nielsen-1"
 book: "[[the-false-prince-nielsen]]"
 readNumber: 1
 score: 8

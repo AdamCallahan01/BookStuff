@@ -40,7 +40,8 @@ interface SheetRow {
   days?: number;
   hasReview?: string;
   reviewContent?: string;
-  format?: string;  
+  format?: string;
+  currentlyReading?: string;
 
   // Summary Info
   hasSummary?: string;
@@ -192,6 +193,11 @@ async function run(): Promise<void> {
 
     const readSlugs = reads.map((_, index) => {
       const readNumber = index + 1;
+      return `${slug}-${readNumber}`;
+    });
+
+    const readSlugsLinks = reads.map((_, index) => {
+      const readNumber = index + 1;
       return `[[${slug}-${readNumber}]]`;
     });
 
@@ -230,6 +236,10 @@ async function run(): Promise<void> {
       r => r.owned && r.owned.trim() !== ""
     );
 
+    const currentRead: Boolean = reads.some(
+      r => r.currentlyReading && r.currentlyReading.trim() !== ""
+    );
+
     // Error catching
     if (first == undefined) {
       return;
@@ -261,6 +271,7 @@ async function run(): Promise<void> {
         bookOwned,
 
         hasSummary,
+        summarySlug,
         summarySlugLink,
 
         hasScore,
@@ -269,6 +280,8 @@ async function run(): Promise<void> {
         averageScore,
         allScores: scores.length ? scores : undefined,
         readSlugs,
+        readSlugsLinks,
+        currentRead,
 
         coverSlug
       },
@@ -281,7 +294,11 @@ async function run(): Promise<void> {
     }
 
     // SUMMARY FILE
-    const summaryContent = first.summaryContent ?? "";
+    const summaryRow = reads.find(
+      r => r.summaryContent && r.summaryContent.trim() !== ""
+    );
+
+    const summaryContent = summaryRow?.summaryContent ?? "";
 
     const createBlankSummaryFile = true;
     // Make files even if no summary stored
@@ -289,6 +306,7 @@ async function run(): Promise<void> {
       writeMarkdown(
         `files/summaries/${summarySlug}.md`,
         { bookSlug: slug,
+          summarySlug,
           book: `[[${slug}]]` },
         summaryContent
       );
@@ -317,6 +335,7 @@ async function run(): Promise<void> {
         `files/reads/${readSlug}.md`,
         {
           bookSlug: slug,
+          readSlug,
           book: `[[${slug}]]`,
           readNumber,
           score: row.score ? Number(row.score) : undefined,
@@ -329,7 +348,6 @@ async function run(): Promise<void> {
           days: row.days ? Number(row.days) : undefined,
           hasReview
         },
-        //row.ReviewContent ?? ""
         row.reviewContent
       );
     });

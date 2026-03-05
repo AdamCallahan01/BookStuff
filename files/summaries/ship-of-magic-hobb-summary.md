@@ -1,5 +1,6 @@
 ---
 bookSlug: "ship-of-magic-hobb"
+summarySlug: "ship-of-magic-hobb-summary"
 book: "[[ship-of-magic-hobb]]"
 ---
 

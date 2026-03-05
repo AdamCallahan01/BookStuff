@@ -1,5 +1,6 @@
 ---
 bookSlug: "reaper-wight"
+readSlug: "reaper-wight-1"
 book: "[[reaper-wight]]"
 readNumber: 1
 score: 8

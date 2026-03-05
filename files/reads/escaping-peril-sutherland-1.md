@@ -1,5 +1,6 @@
 ---
 bookSlug: "escaping-peril-sutherland"
+readSlug: "escaping-peril-sutherland-1"
 book: "[[escaping-peril-sutherland]]"
 readNumber: 1
 score: 3

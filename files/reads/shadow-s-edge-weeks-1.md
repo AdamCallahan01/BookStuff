@@ -1,5 +1,6 @@
 ---
 bookSlug: "shadow-s-edge-weeks"
+readSlug: "shadow-s-edge-weeks-1"
 book: "[[shadow-s-edge-weeks]]"
 readNumber: 1
 score: 3.5

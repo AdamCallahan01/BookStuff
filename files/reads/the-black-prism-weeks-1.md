@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-black-prism-weeks"
+readSlug: "the-black-prism-weeks-1"
 book: "[[the-black-prism-weeks]]"
 readNumber: 1
 score: 7.5

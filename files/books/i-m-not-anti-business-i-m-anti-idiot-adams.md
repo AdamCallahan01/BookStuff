@@ -11,10 +11,13 @@ goodreads: "https://www.goodreads.com/book/show/85585.I_m_Not_Anti_Business_I_m_
 isbn: "9780836251821"
 bookOwned: true
 hasSummary: false
+summarySlug: "i-m-not-anti-business-i-m-anti-idiot-adams-summary"
 summarySlugLink: "[[i-m-not-anti-business-i-m-anti-idiot-adams-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[i-m-not-anti-business-i-m-anti-idiot-adams-1]]"]
+readSlugs: ["i-m-not-anti-business-i-m-anti-idiot-adams-1"]
+readSlugsLinks: ["[[i-m-not-anti-business-i-m-anti-idiot-adams-1]]"]
+currentRead: false
 coverSlug: "i-m-not-anti-business-i-m-anti-idiot-adams-cover"
 ---
 

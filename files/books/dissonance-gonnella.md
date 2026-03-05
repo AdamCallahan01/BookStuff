@@ -17,13 +17,16 @@ subgenre: "LitRPG"
 isbn: "9781637660904"
 bookOwned: true
 hasSummary: false
+summarySlug: "dissonance-gonnella-summary"
 summarySlugLink: "[[dissonance-gonnella-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[dissonance-gonnella-1]]"]
+readSlugs: ["dissonance-gonnella-1"]
+readSlugsLinks: ["[[dissonance-gonnella-1]]"]
+currentRead: false
 coverSlug: "dissonance-gonnella-cover"
 ---
 

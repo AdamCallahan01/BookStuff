@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.42"
 isbn: "9780439650762"
 bookOwned: true
 hasSummary: false
+summarySlug: "gregor-and-the-prophecy-of-bane-collins-summary"
 summarySlugLink: "[[gregor-and-the-prophecy-of-bane-collins-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[gregor-and-the-prophecy-of-bane-collins-1]]"]
+readSlugs: ["gregor-and-the-prophecy-of-bane-collins-1"]
+readSlugsLinks: ["[[gregor-and-the-prophecy-of-bane-collins-1]]"]
+currentRead: false
 coverSlug: "gregor-and-the-prophecy-of-bane-collins-cover"
 ---
 

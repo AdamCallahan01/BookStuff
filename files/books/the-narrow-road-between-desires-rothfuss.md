@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.16"
 isbn: "9780756419189"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-narrow-road-between-desires-rothfuss-summary"
 summarySlugLink: "[[the-narrow-road-between-desires-rothfuss-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-narrow-road-between-desires-rothfuss-1]]"]
+readSlugs: ["the-narrow-road-between-desires-rothfuss-1"]
+readSlugsLinks: ["[[the-narrow-road-between-desires-rothfuss-1]]"]
+currentRead: false
 coverSlug: "the-narrow-road-between-desires-rothfuss-cover"
 ---
 

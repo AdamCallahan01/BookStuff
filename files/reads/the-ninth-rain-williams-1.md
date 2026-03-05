@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-ninth-rain-williams"
+readSlug: "the-ninth-rain-williams-1"
 book: "[[the-ninth-rain-williams]]"
 readNumber: 1
 score: 4

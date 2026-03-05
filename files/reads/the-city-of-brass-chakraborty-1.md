@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-city-of-brass-chakraborty"
+readSlug: "the-city-of-brass-chakraborty-1"
 book: "[[the-city-of-brass-chakraborty]]"
 readNumber: 1
 score: 4

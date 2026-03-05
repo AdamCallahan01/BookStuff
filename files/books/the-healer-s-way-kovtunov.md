@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9788076932227"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-healer-s-way-kovtunov-summary"
 summarySlugLink: "[[the-healer-s-way-kovtunov-summary]]"
 hasScore: true
 latestScore: 2
 readCount: 1
 averageScore: 2
 allScores: [2]
-readSlugs: ["[[the-healer-s-way-kovtunov-1]]"]
+readSlugs: ["the-healer-s-way-kovtunov-1"]
+readSlugsLinks: ["[[the-healer-s-way-kovtunov-1]]"]
+currentRead: false
 coverSlug: "the-healer-s-way-kovtunov-cover"
 ---
 

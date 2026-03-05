@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/58613224-harry-potter-and-the-de
 isbn: "9780545010221"
 bookOwned: true
 hasSummary: true
+summarySlug: "harry-potter-and-the-deathly-hallows-rowling-summary"
 summarySlugLink: "[[harry-potter-and-the-deathly-hallows-rowling-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 3
 averageScore: 7.33
 allScores: [8,7.5,6.5]
-readSlugs: ["[[harry-potter-and-the-deathly-hallows-rowling-1]]","[[harry-potter-and-the-deathly-hallows-rowling-2]]","[[harry-potter-and-the-deathly-hallows-rowling-3]]"]
+readSlugs: ["harry-potter-and-the-deathly-hallows-rowling-1","harry-potter-and-the-deathly-hallows-rowling-2","harry-potter-and-the-deathly-hallows-rowling-3"]
+readSlugsLinks: ["[[harry-potter-and-the-deathly-hallows-rowling-1]]","[[harry-potter-and-the-deathly-hallows-rowling-2]]","[[harry-potter-and-the-deathly-hallows-rowling-3]]"]
+currentRead: false
 coverSlug: "harry-potter-and-the-deathly-hallows-rowling-cover"
 ---
 

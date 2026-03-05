@@ -1,5 +1,6 @@
 ---
 bookSlug: "ship-of-magic-hobb"
+readSlug: "ship-of-magic-hobb-1"
 book: "[[ship-of-magic-hobb]]"
 readNumber: 1
 score: 9

@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780593046319"
 bookOwned: true
 hasSummary: false
+summarySlug: "reaper-s-gale-erikson-summary"
 summarySlugLink: "[[reaper-s-gale-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[reaper-s-gale-erikson-1]]"]
+readSlugs: ["reaper-s-gale-erikson-1"]
+readSlugsLinks: ["[[reaper-s-gale-erikson-1]]"]
+currentRead: false
 coverSlug: "reaper-s-gale-erikson-cover"
 ---
 

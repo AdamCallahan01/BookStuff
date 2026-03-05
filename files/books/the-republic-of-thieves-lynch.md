@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/2890090-the-republic-of-thieves"
 isbn: "9780553804690"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-republic-of-thieves-lynch-summary"
 summarySlugLink: "[[the-republic-of-thieves-lynch-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-republic-of-thieves-lynch-1]]"]
+readSlugs: ["the-republic-of-thieves-lynch-1"]
+readSlugsLinks: ["[[the-republic-of-thieves-lynch-1]]"]
+currentRead: false
 coverSlug: "the-republic-of-thieves-lynch-cover"
 ---
 

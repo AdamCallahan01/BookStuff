@@ -1,5 +1,6 @@
 ---
 bookSlug: "dungeon-world-4-brooks"
+readSlug: "dungeon-world-4-brooks-1"
 book: "[[dungeon-world-4-brooks]]"
 readNumber: 1
 score: 0

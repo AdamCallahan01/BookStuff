@@ -1,5 +1,6 @@
 ---
 bookSlug: "hunted-breene"
+readSlug: "hunted-breene-1"
 book: "[[hunted-breene]]"
 readNumber: 1
 score: 1

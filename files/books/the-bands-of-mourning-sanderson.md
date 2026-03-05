@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/26541448-the-bands-of-mourning"
 isbn: "9781473208278"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-bands-of-mourning-sanderson-summary"
 summarySlugLink: "[[the-bands-of-mourning-sanderson-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[the-bands-of-mourning-sanderson-1]]"]
+readSlugs: ["the-bands-of-mourning-sanderson-1"]
+readSlugsLinks: ["[[the-bands-of-mourning-sanderson-1]]"]
+currentRead: false
 coverSlug: "the-bands-of-mourning-sanderson-cover"
 ---
 

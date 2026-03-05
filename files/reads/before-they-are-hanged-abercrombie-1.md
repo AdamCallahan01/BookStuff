@@ -1,5 +1,6 @@
 ---
 bookSlug: "before-they-are-hanged-abercrombie"
+readSlug: "before-they-are-hanged-abercrombie-1"
 book: "[[before-they-are-hanged-abercrombie]]"
 readNumber: 1
 score: 10

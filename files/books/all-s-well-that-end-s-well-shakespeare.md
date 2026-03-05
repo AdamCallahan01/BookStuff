@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.12"
 isbn: "9780743484978"
 bookOwned: true
 hasSummary: false
+summarySlug: "all-s-well-that-end-s-well-shakespeare-summary"
 summarySlugLink: "[[all-s-well-that-end-s-well-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[all-s-well-that-end-s-well-shakespeare-1]]"]
+readSlugs: ["all-s-well-that-end-s-well-shakespeare-1"]
+readSlugsLinks: ["[[all-s-well-that-end-s-well-shakespeare-1]]"]
+currentRead: false
 coverSlug: "all-s-well-that-end-s-well-shakespeare-cover"
 ---
 

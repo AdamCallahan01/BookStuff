@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.76"
 isbn: "9781734257434"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-umbral-storm-hutson-summary"
 summarySlugLink: "[[the-umbral-storm-hutson-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-umbral-storm-hutson-1]]"]
+readSlugs: ["the-umbral-storm-hutson-1"]
+readSlugsLinks: ["[[the-umbral-storm-hutson-1]]"]
+currentRead: false
 coverSlug: "the-umbral-storm-hutson-cover"
 ---
 

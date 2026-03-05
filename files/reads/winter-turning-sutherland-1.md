@@ -1,5 +1,6 @@
 ---
 bookSlug: "winter-turning-sutherland"
+readSlug: "winter-turning-sutherland-1"
 book: "[[winter-turning-sutherland]]"
 readNumber: 1
 score: 3

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.62"
 isbn: "9780316214445"
 bookOwned: true
 hasSummary: false
+summarySlug: "red-country-abercrombie-summary"
 summarySlugLink: "[[red-country-abercrombie-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[red-country-abercrombie-1]]"]
+readSlugs: ["red-country-abercrombie-1"]
+readSlugsLinks: ["[[red-country-abercrombie-1]]"]
+currentRead: false
 coverSlug: "red-country-abercrombie-cover"
 ---
 

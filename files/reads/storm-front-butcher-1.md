@@ -1,5 +1,6 @@
 ---
 bookSlug: "storm-front-butcher"
+readSlug: "storm-front-butcher-1"
 book: "[[storm-front-butcher]]"
 readNumber: 1
 score: 7.5

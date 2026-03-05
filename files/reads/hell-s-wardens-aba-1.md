@@ -1,5 +1,6 @@
 ---
 bookSlug: "hell-s-wardens-aba"
+readSlug: "hell-s-wardens-aba-1"
 book: "[[hell-s-wardens-aba]]"
 readNumber: 1
 score: 10

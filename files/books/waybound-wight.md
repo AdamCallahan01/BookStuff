@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781959001102"
 bookOwned: true
 hasSummary: true
+summarySlug: "waybound-wight-summary"
 summarySlugLink: "[[waybound-wight-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[waybound-wight-1]]"]
+readSlugs: ["waybound-wight-1"]
+readSlugsLinks: ["[[waybound-wight-1]]"]
+currentRead: false
 coverSlug: "waybound-wight-cover"
 ---
 

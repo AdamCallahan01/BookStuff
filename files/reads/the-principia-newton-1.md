@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-principia-newton"
+readSlug: "the-principia-newton-1"
 book: "[[the-principia-newton]]"
 readNumber: 1
 score: null

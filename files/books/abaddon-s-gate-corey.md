@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9781841499925"
 bookOwned: true
 hasSummary: true
+summarySlug: "abaddon-s-gate-corey-summary"
 summarySlugLink: "[[abaddon-s-gate-corey-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[abaddon-s-gate-corey-1]]"]
+readSlugs: ["abaddon-s-gate-corey-1"]
+readSlugsLinks: ["[[abaddon-s-gate-corey-1]]"]
+currentRead: false
 coverSlug: "abaddon-s-gate-corey-cover"
 ---
 

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/35068705-the-poppy-war?ref=nav_s
 isbn: "9780062662590"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-poppy-war-kuang-summary"
 summarySlugLink: "[[the-poppy-war-kuang-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-poppy-war-kuang-1]]"]
+readSlugs: ["the-poppy-war-kuang-1"]
+readSlugsLinks: ["[[the-poppy-war-kuang-1]]"]
+currentRead: false
 coverSlug: "the-poppy-war-kuang-cover"
 ---
 

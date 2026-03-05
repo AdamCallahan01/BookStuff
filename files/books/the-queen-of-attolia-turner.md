@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/30363360-the-queen-of-attolia"
 isbn: "9780062642974"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-queen-of-attolia-turner-summary"
 summarySlugLink: "[[the-queen-of-attolia-turner-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 2
 averageScore: 9.25
 allScores: [9.5,9]
-readSlugs: ["[[the-queen-of-attolia-turner-1]]","[[the-queen-of-attolia-turner-2]]"]
+readSlugs: ["the-queen-of-attolia-turner-1","the-queen-of-attolia-turner-2"]
+readSlugsLinks: ["[[the-queen-of-attolia-turner-1]]","[[the-queen-of-attolia-turner-2]]"]
+currentRead: false
 coverSlug: "the-queen-of-attolia-turner-cover"
 ---
 

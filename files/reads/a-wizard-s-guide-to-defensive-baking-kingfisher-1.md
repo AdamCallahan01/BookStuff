@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-wizard-s-guide-to-defensive-baking-kingfisher"
+readSlug: "a-wizard-s-guide-to-defensive-baking-kingfisher-1"
 book: "[[a-wizard-s-guide-to-defensive-baking-kingfisher]]"
 readNumber: 1
 score: 3.5

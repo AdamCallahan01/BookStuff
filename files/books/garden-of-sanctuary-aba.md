@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108073"
 bookOwned: false
 hasSummary: true
+summarySlug: "garden-of-sanctuary-aba-summary"
 summarySlugLink: "[[garden-of-sanctuary-aba-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[garden-of-sanctuary-aba-1]]"]
+readSlugs: ["garden-of-sanctuary-aba-1"]
+readSlugsLinks: ["[[garden-of-sanctuary-aba-1]]"]
+currentRead: false
 coverSlug: "garden-of-sanctuary-aba-cover"
 ---
 

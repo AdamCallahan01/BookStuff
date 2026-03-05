@@ -1,5 +1,6 @@
 ---
 bookSlug: "carl-s-doomsday-scenario-dinniman"
+readSlug: "carl-s-doomsday-scenario-dinniman-1"
 book: "[[carl-s-doomsday-scenario-dinniman]]"
 readNumber: 1
 score: 7

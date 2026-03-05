@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-comedy-of-errors-shakespeare"
+readSlug: "the-comedy-of-errors-shakespeare-1"
 book: "[[the-comedy-of-errors-shakespeare]]"
 readNumber: 1
 score: null

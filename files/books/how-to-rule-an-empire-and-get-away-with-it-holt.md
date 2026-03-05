@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.2"
 isbn: "9780316498678"
 bookOwned: true
 hasSummary: false
+summarySlug: "how-to-rule-an-empire-and-get-away-with-it-holt-summary"
 summarySlugLink: "[[how-to-rule-an-empire-and-get-away-with-it-holt-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[how-to-rule-an-empire-and-get-away-with-it-holt-1]]"]
+readSlugs: ["how-to-rule-an-empire-and-get-away-with-it-holt-1"]
+readSlugsLinks: ["[[how-to-rule-an-empire-and-get-away-with-it-holt-1]]"]
+currentRead: false
 coverSlug: "how-to-rule-an-empire-and-get-away-with-it-holt-cover"
 ---
 

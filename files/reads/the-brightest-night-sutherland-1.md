@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-brightest-night-sutherland"
+readSlug: "the-brightest-night-sutherland-1"
 book: "[[the-brightest-night-sutherland]]"
 readNumber: 1
 score: 3

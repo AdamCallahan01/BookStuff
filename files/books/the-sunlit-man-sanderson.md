@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.64"
 isbn: "9781938570391"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-sunlit-man-sanderson-summary"
 summarySlugLink: "[[the-sunlit-man-sanderson-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[the-sunlit-man-sanderson-1]]"]
+readSlugs: ["the-sunlit-man-sanderson-1"]
+readSlugsLinks: ["[[the-sunlit-man-sanderson-1]]"]
+currentRead: false
 coverSlug: "the-sunlit-man-sanderson-cover"
 ---
 

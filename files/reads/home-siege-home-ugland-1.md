@@ -1,5 +1,6 @@
 ---
 bookSlug: "home-siege-home-ugland"
+readSlug: "home-siege-home-ugland-1"
 book: "[[home-siege-home-ugland]]"
 readNumber: 1
 score: 6.5

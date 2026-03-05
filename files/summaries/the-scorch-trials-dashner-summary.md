@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-scorch-trials-dashner"
+summarySlug: "the-scorch-trials-dashner-summary"
 book: "[[the-scorch-trials-dashner]]"
 ---
 

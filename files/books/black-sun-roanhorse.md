@@ -18,13 +18,16 @@ isbn: "9781534437678"
 narrator: "Cara Gee, Nicole Lewis, Kaipo Schwab, Shaun Taylor-Corbett"
 bookOwned: true
 hasSummary: true
+summarySlug: "black-sun-roanhorse-summary"
 summarySlugLink: "[[black-sun-roanhorse-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[black-sun-roanhorse-1]]"]
+readSlugs: ["black-sun-roanhorse-1"]
+readSlugsLinks: ["[[black-sun-roanhorse-1]]"]
+currentRead: false
 coverSlug: "black-sun-roanhorse-cover"
 ---
 

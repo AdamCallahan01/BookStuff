@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9780593437919"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-book-that-wouldn-t-burn-lawrence-summary"
 summarySlugLink: "[[the-book-that-wouldn-t-burn-lawrence-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-book-that-wouldn-t-burn-lawrence-1]]"]
+readSlugs: ["the-book-that-wouldn-t-burn-lawrence-1"]
+readSlugsLinks: ["[[the-book-that-wouldn-t-burn-lawrence-1]]"]
+currentRead: false
 coverSlug: "the-book-that-wouldn-t-burn-lawrence-cover"
 ---
 

@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9780316217590"
 bookOwned: true
 hasSummary: true
+summarySlug: "nemesis-games-corey-summary"
 summarySlugLink: "[[nemesis-games-corey-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[nemesis-games-corey-1]]"]
+readSlugs: ["nemesis-games-corey-1"]
+readSlugsLinks: ["[[nemesis-games-corey-1]]"]
+currentRead: false
 coverSlug: "nemesis-games-corey-cover"
 ---
 

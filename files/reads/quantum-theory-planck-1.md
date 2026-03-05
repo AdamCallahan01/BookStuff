@@ -1,5 +1,6 @@
 ---
 bookSlug: "quantum-theory-planck"
+readSlug: "quantum-theory-planck-1"
 book: "[[quantum-theory-planck]]"
 readNumber: 1
 score: null

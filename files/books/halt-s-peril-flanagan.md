@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/39952016-halt-s-peril"
 isbn: "9780142418581"
 bookOwned: true
 hasSummary: false
+summarySlug: "halt-s-peril-flanagan-summary"
 summarySlugLink: "[[halt-s-peril-flanagan-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[halt-s-peril-flanagan-1]]"]
+readSlugs: ["halt-s-peril-flanagan-1"]
+readSlugsLinks: ["[[halt-s-peril-flanagan-1]]"]
+currentRead: false
 coverSlug: "halt-s-peril-flanagan-cover"
 ---
 

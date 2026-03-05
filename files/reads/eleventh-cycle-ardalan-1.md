@@ -1,5 +1,6 @@
 ---
 bookSlug: "eleventh-cycle-ardalan"
+readSlug: "eleventh-cycle-ardalan-1"
 book: "[[eleventh-cycle-ardalan]]"
 readNumber: 1
 score: 8.5

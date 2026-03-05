@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.12"
 isbn: "9780756413026"
 bookOwned: true
 hasSummary: false
+summarySlug: "empire-of-silence-ruocchio-summary"
 summarySlugLink: "[[empire-of-silence-ruocchio-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[empire-of-silence-ruocchio-1]]"]
+readSlugs: ["empire-of-silence-ruocchio-1"]
+readSlugsLinks: ["[[empire-of-silence-ruocchio-1]]"]
+currentRead: false
 coverSlug: "empire-of-silence-ruocchio-cover"
 ---
 

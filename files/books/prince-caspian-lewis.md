@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/836898.Prince_Caspian"
 isbn: "9780064471053"
 bookOwned: true
 hasSummary: false
+summarySlug: "prince-caspian-lewis-summary"
 summarySlugLink: "[[prince-caspian-lewis-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[prince-caspian-lewis-1]]"]
+readSlugs: ["prince-caspian-lewis-1"]
+readSlugsLinks: ["[[prince-caspian-lewis-1]]"]
+currentRead: false
 coverSlug: "prince-caspian-lewis-cover"
 ---
 

@@ -17,13 +17,16 @@ subgenre: "Romance"
 isbn: "9781957779027"
 bookOwned: false
 hasSummary: true
+summarySlug: "the-serpent-and-the-wings-of-night-broadbent-summary"
 summarySlugLink: "[[the-serpent-and-the-wings-of-night-broadbent-summary]]"
 hasScore: true
 latestScore: 3.5
 readCount: 1
 averageScore: 3.5
 allScores: [3.5]
-readSlugs: ["[[the-serpent-and-the-wings-of-night-broadbent-1]]"]
+readSlugs: ["the-serpent-and-the-wings-of-night-broadbent-1"]
+readSlugsLinks: ["[[the-serpent-and-the-wings-of-night-broadbent-1]]"]
+currentRead: false
 coverSlug: "the-serpent-and-the-wings-of-night-broadbent-cover"
 ---
 

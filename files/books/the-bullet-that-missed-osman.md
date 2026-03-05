@@ -17,13 +17,16 @@ subgenre: "Humor"
 isbn: "9780241512425"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-bullet-that-missed-osman-summary"
 summarySlugLink: "[[the-bullet-that-missed-osman-summary]]"
 hasScore: true
 latestScore: 0
 readCount: 1
 averageScore: 0
 allScores: [0]
-readSlugs: ["[[the-bullet-that-missed-osman-1]]"]
+readSlugs: ["the-bullet-that-missed-osman-1"]
+readSlugsLinks: ["[[the-bullet-that-missed-osman-1]]"]
+currentRead: true
 coverSlug: "the-bullet-that-missed-osman-cover"
 ---
 

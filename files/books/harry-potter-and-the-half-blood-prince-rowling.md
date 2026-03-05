@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/49852.Harry_Potter_and_the_Half_
 isbn: "9780439784542"
 bookOwned: true
 hasSummary: true
+summarySlug: "harry-potter-and-the-half-blood-prince-rowling-summary"
 summarySlugLink: "[[harry-potter-and-the-half-blood-prince-rowling-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 3
 averageScore: 8.17
 allScores: [9,8,7.5]
-readSlugs: ["[[harry-potter-and-the-half-blood-prince-rowling-1]]","[[harry-potter-and-the-half-blood-prince-rowling-2]]","[[harry-potter-and-the-half-blood-prince-rowling-3]]"]
+readSlugs: ["harry-potter-and-the-half-blood-prince-rowling-1","harry-potter-and-the-half-blood-prince-rowling-2","harry-potter-and-the-half-blood-prince-rowling-3"]
+readSlugsLinks: ["[[harry-potter-and-the-half-blood-prince-rowling-1]]","[[harry-potter-and-the-half-blood-prince-rowling-2]]","[[harry-potter-and-the-half-blood-prince-rowling-3]]"]
+currentRead: false
 coverSlug: "harry-potter-and-the-half-blood-prince-rowling-cover"
 ---
 

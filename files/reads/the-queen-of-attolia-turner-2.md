@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-queen-of-attolia-turner"
+readSlug: "the-queen-of-attolia-turner-2"
 book: "[[the-queen-of-attolia-turner]]"
 readNumber: 2
 score: 9

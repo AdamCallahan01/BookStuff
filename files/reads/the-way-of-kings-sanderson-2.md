@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-way-of-kings-sanderson"
+readSlug: "the-way-of-kings-sanderson-2"
 book: "[[the-way-of-kings-sanderson]]"
 readNumber: 2
 score: 9.5

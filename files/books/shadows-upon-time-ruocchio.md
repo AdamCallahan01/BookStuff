@@ -18,13 +18,16 @@ isbn: "9780756420000"
 narrator: "Samuel Roukin"
 bookOwned: true
 hasSummary: true
+summarySlug: "shadows-upon-time-ruocchio-summary"
 summarySlugLink: "[[shadows-upon-time-ruocchio-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[shadows-upon-time-ruocchio-1]]"]
+readSlugs: ["shadows-upon-time-ruocchio-1"]
+readSlugsLinks: ["[[shadows-upon-time-ruocchio-1]]"]
+currentRead: false
 coverSlug: "shadows-upon-time-ruocchio-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "mark-of-the-fool-clarke"
+readSlug: "mark-of-the-fool-clarke-2"
 book: "[[mark-of-the-fool-clarke]]"
 readNumber: 2
 score: 8

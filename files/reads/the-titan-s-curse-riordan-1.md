@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-titan-s-curse-riordan"
+readSlug: "the-titan-s-curse-riordan-1"
 book: "[[the-titan-s-curse-riordan]]"
 readNumber: 1
 score: 7.5

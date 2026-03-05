@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/3754016-shadow-s-edge"
 isbn: "9780316033657"
 bookOwned: true
 hasSummary: false
+summarySlug: "shadow-s-edge-weeks-summary"
 summarySlugLink: "[[shadow-s-edge-weeks-summary]]"
 hasScore: true
 latestScore: 3.5
 readCount: 1
 averageScore: 3.5
 allScores: [3.5]
-readSlugs: ["[[shadow-s-edge-weeks-1]]"]
+readSlugs: ["shadow-s-edge-weeks-1"]
+readSlugsLinks: ["[[shadow-s-edge-weeks-1]]"]
+currentRead: false
 coverSlug: "shadow-s-edge-weeks-cover"
 ---
 

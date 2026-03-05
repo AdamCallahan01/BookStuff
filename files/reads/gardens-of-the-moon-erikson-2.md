@@ -1,5 +1,6 @@
 ---
 bookSlug: "gardens-of-the-moon-erikson"
+readSlug: "gardens-of-the-moon-erikson-2"
 book: "[[gardens-of-the-moon-erikson]]"
 readNumber: 2
 score: 10

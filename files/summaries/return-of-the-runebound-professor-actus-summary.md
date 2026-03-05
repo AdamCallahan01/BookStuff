@@ -1,5 +1,6 @@
 ---
 bookSlug: "return-of-the-runebound-professor-actus"
+summarySlug: "return-of-the-runebound-professor-actus-summary"
 book: "[[return-of-the-runebound-professor-actus]]"
 ---
 

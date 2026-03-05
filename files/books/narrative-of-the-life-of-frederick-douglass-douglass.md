@@ -14,10 +14,13 @@ avgGoodreadsRating: "8.22"
 isbn: "9781580495769"
 bookOwned: false
 hasSummary: false
+summarySlug: "narrative-of-the-life-of-frederick-douglass-douglass-summary"
 summarySlugLink: "[[narrative-of-the-life-of-frederick-douglass-douglass-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[narrative-of-the-life-of-frederick-douglass-douglass-1]]"]
+readSlugs: ["narrative-of-the-life-of-frederick-douglass-douglass-1"]
+readSlugsLinks: ["[[narrative-of-the-life-of-frederick-douglass-douglass-1]]"]
+currentRead: false
 coverSlug: "narrative-of-the-life-of-frederick-douglass-douglass-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt"
+summarySlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt-summary"
 book: "[[how-to-be-a-farmer-in-a-fantasy-world-wyatt]]"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-wind-runner-aba"
+readSlug: "the-wind-runner-aba-1"
 book: "[[the-wind-runner-aba]]"
 readNumber: 1
 score: 8

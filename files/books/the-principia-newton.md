@@ -17,10 +17,13 @@ subgenre: "Math"
 isbn: "9780520088177"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-principia-newton-summary"
 summarySlugLink: "[[the-principia-newton-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-principia-newton-1]]"]
+readSlugs: ["the-principia-newton-1"]
+readSlugsLinks: ["[[the-principia-newton-1]]"]
+currentRead: false
 coverSlug: "the-principia-newton-cover"
 ---
 

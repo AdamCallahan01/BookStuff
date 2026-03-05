@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108059"
 bookOwned: false
 hasSummary: false
+summarySlug: "empress-of-beasts-aba-summary"
 summarySlugLink: "[[empress-of-beasts-aba-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[empress-of-beasts-aba-1]]"]
+readSlugs: ["empress-of-beasts-aba-1"]
+readSlugsLinks: ["[[empress-of-beasts-aba-1]]"]
+currentRead: false
 coverSlug: "empress-of-beasts-aba-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "half-a-king-abercrombie"
+readSlug: "half-a-king-abercrombie-1"
 book: "[[half-a-king-abercrombie]]"
 readNumber: 1
 score: 8

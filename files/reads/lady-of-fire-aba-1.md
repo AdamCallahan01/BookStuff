@@ -1,5 +1,6 @@
 ---
 bookSlug: "lady-of-fire-aba"
+readSlug: "lady-of-fire-aba-1"
 book: "[[lady-of-fire-aba]]"
 readNumber: 1
 score: 8

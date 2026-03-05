@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/27276240-son-of-the-black-sword"
 isbn: "9781476781570"
 bookOwned: true
 hasSummary: false
+summarySlug: "son-of-the-black-sword-correia-summary"
 summarySlugLink: "[[son-of-the-black-sword-correia-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[son-of-the-black-sword-correia-1]]"]
+readSlugs: ["son-of-the-black-sword-correia-1"]
+readSlugsLinks: ["[[son-of-the-black-sword-correia-1]]"]
+currentRead: false
 coverSlug: "son-of-the-black-sword-correia-cover"
 ---
 

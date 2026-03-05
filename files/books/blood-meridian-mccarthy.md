@@ -17,13 +17,16 @@ subgenre: "Western"
 isbn: "9780679641049"
 bookOwned: true
 hasSummary: false
+summarySlug: "blood-meridian-mccarthy-summary"
 summarySlugLink: "[[blood-meridian-mccarthy-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[blood-meridian-mccarthy-1]]"]
+readSlugs: ["blood-meridian-mccarthy-1"]
+readSlugsLinks: ["[[blood-meridian-mccarthy-1]]"]
+currentRead: false
 coverSlug: "blood-meridian-mccarthy-cover"
 ---
 

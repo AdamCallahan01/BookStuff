@@ -17,13 +17,16 @@ subgenre: "Collection"
 isbn: "9780062885609"
 bookOwned: true
 hasSummary: false
+summarySlug: "moira-s-pen-turner-summary"
 summarySlugLink: "[[moira-s-pen-turner-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[moira-s-pen-turner-1]]"]
+readSlugs: ["moira-s-pen-turner-1"]
+readSlugsLinks: ["[[moira-s-pen-turner-1]]"]
+currentRead: false
 coverSlug: "moira-s-pen-turner-cover"
 ---
 

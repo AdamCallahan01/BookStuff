@@ -16,13 +16,16 @@ genre: "Fantasy"
 subgenre: "Epic"
 bookOwned: false
 hasSummary: false
+summarySlug: "blood-of-liscor-aba-summary"
 summarySlugLink: "[[blood-of-liscor-aba-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[blood-of-liscor-aba-1]]"]
+readSlugs: ["blood-of-liscor-aba-1"]
+readSlugsLinks: ["[[blood-of-liscor-aba-1]]"]
+currentRead: false
 coverSlug: "blood-of-liscor-aba-cover"
 ---
 

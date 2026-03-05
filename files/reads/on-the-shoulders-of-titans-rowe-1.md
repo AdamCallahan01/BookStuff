@@ -1,5 +1,6 @@
 ---
 bookSlug: "on-the-shoulders-of-titans-rowe"
+readSlug: "on-the-shoulders-of-titans-rowe-1"
 book: "[[on-the-shoulders-of-titans-rowe]]"
 readNumber: 1
 score: 5

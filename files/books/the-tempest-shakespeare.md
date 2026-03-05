@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.58"
 isbn: "9780199535903"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-tempest-shakespeare-summary"
 summarySlugLink: "[[the-tempest-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-tempest-shakespeare-1]]"]
+readSlugs: ["the-tempest-shakespeare-1"]
+readSlugsLinks: ["[[the-tempest-shakespeare-1]]"]
+currentRead: false
 coverSlug: "the-tempest-shakespeare-cover"
 ---
 

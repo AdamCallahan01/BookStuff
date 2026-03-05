@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.2"
 isbn: "9780545685344"
 bookOwned: true
 hasSummary: false
+summarySlug: "moon-rising-sutherland-summary"
 summarySlugLink: "[[moon-rising-sutherland-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[moon-rising-sutherland-1]]"]
+readSlugs: ["moon-rising-sutherland-1"]
+readSlugsLinks: ["[[moon-rising-sutherland-1]]"]
+currentRead: false
 coverSlug: "moon-rising-sutherland-cover"
 ---
 

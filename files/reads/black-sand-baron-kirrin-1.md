@@ -1,5 +1,6 @@
 ---
 bookSlug: "black-sand-baron-kirrin"
+readSlug: "black-sand-baron-kirrin-1"
 book: "[[black-sand-baron-kirrin]]"
 readNumber: 1
 score: 7

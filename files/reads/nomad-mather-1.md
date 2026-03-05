@@ -1,5 +1,6 @@
 ---
 bookSlug: "nomad-mather"
+readSlug: "nomad-mather-1"
 book: "[[nomad-mather]]"
 readNumber: 1
 score: 3

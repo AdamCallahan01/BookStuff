@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-road-mccathy"
+readSlug: "the-road-mccathy-1"
 book: "[[the-road-mccathy]]"
 readNumber: 1
 score: 6.5

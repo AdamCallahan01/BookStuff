@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-lonesome-crown-durfee"
+readSlug: "the-lonesome-crown-durfee-1"
 book: "[[the-lonesome-crown-durfee]]"
 readNumber: 1
 score: 8

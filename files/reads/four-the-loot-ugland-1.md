@@ -1,5 +1,6 @@
 ---
 bookSlug: "four-the-loot-ugland"
+readSlug: "four-the-loot-ugland-1"
 book: "[[four-the-loot-ugland]]"
 readNumber: 1
 score: 6.5

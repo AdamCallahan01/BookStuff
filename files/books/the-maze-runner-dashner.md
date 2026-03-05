@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9780385737944"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-maze-runner-dashner-summary"
 summarySlugLink: "[[the-maze-runner-dashner-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-maze-runner-dashner-1]]"]
+readSlugs: ["the-maze-runner-dashner-1"]
+readSlugsLinks: ["[[the-maze-runner-dashner-1]]"]
+currentRead: false
 coverSlug: "the-maze-runner-dashner-cover"
 ---
 

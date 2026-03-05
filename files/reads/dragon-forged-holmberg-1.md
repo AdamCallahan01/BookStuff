@@ -1,5 +1,6 @@
 ---
 bookSlug: "dragon-forged-holmberg"
+readSlug: "dragon-forged-holmberg-1"
 book: "[[dragon-forged-holmberg]]"
 readNumber: 1
 score: 2

@@ -17,13 +17,16 @@ subgenre: "Mythology"
 isbn: "9781250773586"
 bookOwned: false
 hasSummary: true
+summarySlug: "ariadne-saint-summary"
 summarySlugLink: "[[ariadne-saint-summary]]"
 hasScore: true
 latestScore: 1.5
 readCount: 1
 averageScore: 1.5
 allScores: [1.5]
-readSlugs: ["[[ariadne-saint-1]]"]
+readSlugs: ["ariadne-saint-1"]
+readSlugsLinks: ["[[ariadne-saint-1]]"]
+currentRead: false
 coverSlug: "ariadne-saint-cover"
 ---
 

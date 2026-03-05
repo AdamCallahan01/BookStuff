@@ -1,5 +1,6 @@
 ---
 bookSlug: "eldest-paolini"
+readSlug: "eldest-paolini-2"
 book: "[[eldest-paolini]]"
 readNumber: 2
 score: 8

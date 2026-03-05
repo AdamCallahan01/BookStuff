@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-court-of-wings-and-ruin-maas"
+readSlug: "a-court-of-wings-and-ruin-maas-2"
 book: "[[a-court-of-wings-and-ruin-maas]]"
 readNumber: 2
 score: 2

@@ -1,5 +1,6 @@
 ---
 bookSlug: "tears-of-liscor-aba"
+readSlug: "tears-of-liscor-aba-1"
 book: "[[tears-of-liscor-aba]]"
 readNumber: 1
 score: 8.5

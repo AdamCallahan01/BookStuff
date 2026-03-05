@@ -11,10 +11,13 @@ goodreads: "https://www.goodreads.com/book/show/121792.The_Revenge_of_the_Baby_S
 isbn: "9781417642120"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-revenge-of-the-baby-sat-watterson-summary"
 summarySlugLink: "[[the-revenge-of-the-baby-sat-watterson-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-revenge-of-the-baby-sat-watterson-1]]"]
+readSlugs: ["the-revenge-of-the-baby-sat-watterson-1"]
+readSlugsLinks: ["[[the-revenge-of-the-baby-sat-watterson-1]]"]
+currentRead: false
 coverSlug: "the-revenge-of-the-baby-sat-watterson-cover"
 ---
 

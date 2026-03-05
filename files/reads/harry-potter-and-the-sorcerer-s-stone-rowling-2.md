@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-sorcerer-s-stone-rowling"
+readSlug: "harry-potter-and-the-sorcerer-s-stone-rowling-2"
 book: "[[harry-potter-and-the-sorcerer-s-stone-rowling]]"
 readNumber: 2
 score: 7

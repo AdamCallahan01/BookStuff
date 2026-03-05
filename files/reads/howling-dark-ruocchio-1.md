@@ -1,5 +1,6 @@
 ---
 bookSlug: "howling-dark-ruocchio"
+readSlug: "howling-dark-ruocchio-1"
 book: "[[howling-dark-ruocchio]]"
 readNumber: 1
 score: 8.5

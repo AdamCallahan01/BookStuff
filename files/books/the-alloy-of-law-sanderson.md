@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/12065807-the-alloy-of-law"
 isbn: "9780575105836"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-alloy-of-law-sanderson-summary"
 summarySlugLink: "[[the-alloy-of-law-sanderson-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-alloy-of-law-sanderson-1]]"]
+readSlugs: ["the-alloy-of-law-sanderson-1"]
+readSlugsLinks: ["[[the-alloy-of-law-sanderson-1]]"]
+currentRead: false
 coverSlug: "the-alloy-of-law-sanderson-cover"
 ---
 

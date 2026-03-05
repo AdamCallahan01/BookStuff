@@ -1,5 +1,6 @@
 ---
 bookSlug: "arcanum-unbounded-sanderson"
+readSlug: "arcanum-unbounded-sanderson-1"
 book: "[[arcanum-unbounded-sanderson]]"
 readNumber: 1
 score: 9

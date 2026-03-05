@@ -1,5 +1,6 @@
 ---
 bookSlug: "off-to-be-the-wizard-meyer"
+readSlug: "off-to-be-the-wizard-meyer-1"
 book: "[[off-to-be-the-wizard-meyer]]"
 readNumber: 1
 score: 6

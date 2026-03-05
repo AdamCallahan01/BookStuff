@@ -1,5 +1,6 @@
 ---
 bookSlug: "1984-orwell"
+readSlug: "1984-orwell-1"
 book: "[[1984-orwell]]"
 readNumber: 1
 score: 9

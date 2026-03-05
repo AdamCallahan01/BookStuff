@@ -1,5 +1,6 @@
 ---
 bookSlug: "royal-assassin-hobb"
+readSlug: "royal-assassin-hobb-1"
 book: "[[royal-assassin-hobb]]"
 readNumber: 1
 score: 9.5

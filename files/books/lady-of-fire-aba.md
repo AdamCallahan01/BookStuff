@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108097"
 bookOwned: false
 hasSummary: true
+summarySlug: "lady-of-fire-aba-summary"
 summarySlugLink: "[[lady-of-fire-aba-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[lady-of-fire-aba-1]]"]
+readSlugs: ["lady-of-fire-aba-1"]
+readSlugsLinks: ["[[lady-of-fire-aba-1]]"]
+currentRead: false
 coverSlug: "lady-of-fire-aba-cover"
 ---
 

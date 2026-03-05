@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-republic-of-thieves-lynch"
+readSlug: "the-republic-of-thieves-lynch-1"
 book: "[[the-republic-of-thieves-lynch]]"
 readNumber: 1
 score: 10

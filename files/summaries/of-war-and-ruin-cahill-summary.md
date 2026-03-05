@@ -1,5 +1,6 @@
 ---
 bookSlug: "of-war-and-ruin-cahill"
+summarySlug: "of-war-and-ruin-cahill-summary"
 book: "[[of-war-and-ruin-cahill]]"
 ---
 

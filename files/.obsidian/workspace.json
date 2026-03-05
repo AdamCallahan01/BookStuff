@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/best-served-cold-abercrombie.md",
+                "file": "summaries/empire-of-the-vampire-kristoff-summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "best-served-cold-abercrombie"
+              "title": "empire-of-the-vampire-kristoff-summary"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "638ddd9ca73f9f8d",
   "lastOpenFiles": [
+    "books/best-served-cold-abercrombie.md",
     "books/city-of-light-wight.md",
     "books/between-two-fires-buehlman.md",
     "books/assassin-s-quest-hobb.md",
@@ -210,7 +211,6 @@
     "books/the-meaning-of-truth-james.md",
     "books/the-last-battle-lewis.md",
     "books/the-interpretation-of-dreams-freud.md",
-    "books/the-hanging-city-holmberg.md",
     "covers/mark-of-the-fool-clarke-cover.jpg",
     "reads",
     "summaries",

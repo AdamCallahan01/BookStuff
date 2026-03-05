@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/33551363-white-sand-volume-2"
 isbn: "9781524103422"
 bookOwned: false
 hasSummary: false
+summarySlug: "white-sand-volume-2-sanderson-summary"
 summarySlugLink: "[[white-sand-volume-2-sanderson-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[white-sand-volume-2-sanderson-1]]"]
+readSlugs: ["white-sand-volume-2-sanderson-1"]
+readSlugsLinks: ["[[white-sand-volume-2-sanderson-1]]"]
+currentRead: false
 coverSlug: "white-sand-volume-2-sanderson-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "last-argument-of-kings-abercrombie"
+readSlug: "last-argument-of-kings-abercrombie-1"
 book: "[[last-argument-of-kings-abercrombie]]"
 readNumber: 1
 score: 10

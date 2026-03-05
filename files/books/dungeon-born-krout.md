@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.44"
 isbn: "9781950914005"
 bookOwned: false
 hasSummary: false
+summarySlug: "dungeon-born-krout-summary"
 summarySlugLink: "[[dungeon-born-krout-summary]]"
 hasScore: true
 latestScore: 0
 readCount: 1
 averageScore: 0
 allScores: [0]
-readSlugs: ["[[dungeon-born-krout-1]]"]
+readSlugs: ["dungeon-born-krout-1"]
+readSlugsLinks: ["[[dungeon-born-krout-1]]"]
+currentRead: false
 coverSlug: "dungeon-born-krout-cover"
 ---
 

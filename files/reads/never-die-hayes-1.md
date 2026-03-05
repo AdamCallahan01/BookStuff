@@ -1,5 +1,6 @@
 ---
 bookSlug: "never-die-hayes"
+readSlug: "never-die-hayes-1"
 book: "[[never-die-hayes]]"
 readNumber: 1
 score: 6

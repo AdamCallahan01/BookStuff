@@ -1,5 +1,6 @@
 ---
 bookSlug: "jade-city-lee"
+readSlug: "jade-city-lee-1"
 book: "[[jade-city-lee]]"
 readNumber: 1
 score: 8

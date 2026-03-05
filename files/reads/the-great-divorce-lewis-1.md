@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-great-divorce-lewis"
+readSlug: "the-great-divorce-lewis-1"
 book: "[[the-great-divorce-lewis]]"
 readNumber: 1
 score: 4

@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.34"
 isbn: "9780743484909"
 bookOwned: true
 hasSummary: false
+summarySlug: "measure-for-measure-shakespeare-summary"
 summarySlugLink: "[[measure-for-measure-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[measure-for-measure-shakespeare-1]]"]
+readSlugs: ["measure-for-measure-shakespeare-1"]
+readSlugsLinks: ["[[measure-for-measure-shakespeare-1]]"]
+currentRead: false
 coverSlug: "measure-for-measure-shakespeare-cover"
 ---
 

@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9780756413064"
 bookOwned: false
 hasSummary: false
+summarySlug: "demon-in-white-ruocchio-summary"
 summarySlugLink: "[[demon-in-white-ruocchio-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[demon-in-white-ruocchio-1]]"]
+readSlugs: ["demon-in-white-ruocchio-1"]
+readSlugsLinks: ["[[demon-in-white-ruocchio-1]]"]
+currentRead: false
 coverSlug: "demon-in-white-ruocchio-cover"
 ---
 

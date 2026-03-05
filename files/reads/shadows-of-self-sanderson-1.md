@@ -1,5 +1,6 @@
 ---
 bookSlug: "shadows-of-self-sanderson"
+readSlug: "shadows-of-self-sanderson-1"
 book: "[[shadows-of-self-sanderson]]"
 readNumber: 1
 score: 8.5

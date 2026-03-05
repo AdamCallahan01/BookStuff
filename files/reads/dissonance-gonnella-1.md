@@ -1,5 +1,6 @@
 ---
 bookSlug: "dissonance-gonnella"
+readSlug: "dissonance-gonnella-1"
 book: "[[dissonance-gonnella]]"
 readNumber: 1
 score: 7

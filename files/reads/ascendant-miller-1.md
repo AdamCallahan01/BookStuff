@@ -1,5 +1,6 @@
 ---
 bookSlug: "ascendant-miller"
+readSlug: "ascendant-miller-1"
 book: "[[ascendant-miller]]"
 readNumber: 1
 score: 7

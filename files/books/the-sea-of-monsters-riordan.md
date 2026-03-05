@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/40727118-the-sea-of-monsters"
 isbn: "9780120000319"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-sea-of-monsters-riordan-summary"
 summarySlugLink: "[[the-sea-of-monsters-riordan-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-sea-of-monsters-riordan-1]]"]
+readSlugs: ["the-sea-of-monsters-riordan-1"]
+readSlugsLinks: ["[[the-sea-of-monsters-riordan-1]]"]
+currentRead: false
 coverSlug: "the-sea-of-monsters-riordan-cover"
 ---
 

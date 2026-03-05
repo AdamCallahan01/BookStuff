@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-republic-plato"
+readSlug: "the-republic-plato-1"
 book: "[[the-republic-plato]]"
 readNumber: 1
 score: null

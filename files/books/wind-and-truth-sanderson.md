@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781250319180"
 bookOwned: true
 hasSummary: false
+summarySlug: "wind-and-truth-sanderson-summary"
 summarySlugLink: "[[wind-and-truth-sanderson-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[wind-and-truth-sanderson-1]]"]
+readSlugs: ["wind-and-truth-sanderson-1"]
+readSlugsLinks: ["[[wind-and-truth-sanderson-1]]"]
+currentRead: false
 coverSlug: "wind-and-truth-sanderson-cover"
 ---
 

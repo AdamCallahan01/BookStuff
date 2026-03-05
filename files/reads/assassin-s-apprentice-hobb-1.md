@@ -1,5 +1,6 @@
 ---
 bookSlug: "assassin-s-apprentice-hobb"
+readSlug: "assassin-s-apprentice-hobb-1"
 book: "[[assassin-s-apprentice-hobb]]"
 readNumber: 1
 score: 10

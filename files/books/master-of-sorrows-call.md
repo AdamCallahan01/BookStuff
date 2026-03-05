@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/52905319-master-of-sorrows"
 isbn: "9781982591786"
 bookOwned: false
 hasSummary: false
+summarySlug: "master-of-sorrows-call-summary"
 summarySlugLink: "[[master-of-sorrows-call-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[master-of-sorrows-call-1]]"]
+readSlugs: ["master-of-sorrows-call-1"]
+readSlugsLinks: ["[[master-of-sorrows-call-1]]"]
+currentRead: false
 coverSlug: "master-of-sorrows-call-cover"
 ---
 

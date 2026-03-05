@@ -1,5 +1,6 @@
 ---
 bookSlug: "dust-of-dreams-erikson"
+readSlug: "dust-of-dreams-erikson-1"
 book: "[[dust-of-dreams-erikson]]"
 readNumber: 1
 score: 10

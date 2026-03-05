@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/64565598-four"
 isbn: "9781945346118"
 bookOwned: true
 hasSummary: false
+summarySlug: "four-the-loot-ugland-summary"
 summarySlugLink: "[[four-the-loot-ugland-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[four-the-loot-ugland-1]]"]
+readSlugs: ["four-the-loot-ugland-1"]
+readSlugsLinks: ["[[four-the-loot-ugland-1]]"]
+currentRead: false
 coverSlug: "four-the-loot-ugland-cover"
 ---
 

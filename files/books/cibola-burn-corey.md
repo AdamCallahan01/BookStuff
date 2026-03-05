@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9780316334686"
 bookOwned: true
 hasSummary: true
+summarySlug: "cibola-burn-corey-summary"
 summarySlugLink: "[[cibola-burn-corey-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[cibola-burn-corey-1]]"]
+readSlugs: ["cibola-burn-corey-1"]
+readSlugsLinks: ["[[cibola-burn-corey-1]]"]
+currentRead: false
 coverSlug: "cibola-burn-corey-cover"
 ---
 

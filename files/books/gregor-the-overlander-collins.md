@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.06"
 isbn: "9780439771344"
 bookOwned: true
 hasSummary: false
+summarySlug: "gregor-the-overlander-collins-summary"
 summarySlugLink: "[[gregor-the-overlander-collins-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[gregor-the-overlander-collins-1]]"]
+readSlugs: ["gregor-the-overlander-collins-1"]
+readSlugsLinks: ["[[gregor-the-overlander-collins-1]]"]
+currentRead: false
 coverSlug: "gregor-the-overlander-collins-cover"
 ---
 

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/70890972-home-siege-home"
 isbn: "9781945346132"
 bookOwned: true
 hasSummary: false
+summarySlug: "home-siege-home-ugland-summary"
 summarySlugLink: "[[home-siege-home-ugland-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[home-siege-home-ugland-1]]"]
+readSlugs: ["home-siege-home-ugland-1"]
+readSlugsLinks: ["[[home-siege-home-ugland-1]]"]
+currentRead: false
 coverSlug: "home-siege-home-ugland-cover"
 ---
 

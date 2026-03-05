@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-weight-of-glory-lewis"
+readSlug: "the-weight-of-glory-lewis-1"
 book: "[[the-weight-of-glory-lewis]]"
 readNumber: 1
 score: 2

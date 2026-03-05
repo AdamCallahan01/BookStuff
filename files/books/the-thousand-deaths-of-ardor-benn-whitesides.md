@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/35838132-the-thousand-deaths-of-
 isbn: "9780316520256"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-thousand-deaths-of-ardor-benn-whitesides-summary"
 summarySlugLink: "[[the-thousand-deaths-of-ardor-benn-whitesides-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-thousand-deaths-of-ardor-benn-whitesides-1]]"]
+readSlugs: ["the-thousand-deaths-of-ardor-benn-whitesides-1"]
+readSlugsLinks: ["[[the-thousand-deaths-of-ardor-benn-whitesides-1]]"]
+currentRead: false
 coverSlug: "the-thousand-deaths-of-ardor-benn-whitesides-cover"
 ---
 

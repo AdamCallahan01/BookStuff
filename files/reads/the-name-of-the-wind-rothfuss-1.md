@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-name-of-the-wind-rothfuss"
+readSlug: "the-name-of-the-wind-rothfuss-1"
 book: "[[the-name-of-the-wind-rothfuss]]"
 readNumber: 1
 score: 10

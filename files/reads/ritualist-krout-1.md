@@ -1,5 +1,6 @@
 ---
 bookSlug: "ritualist-krout"
+readSlug: "ritualist-krout-1"
 book: "[[ritualist-krout]]"
 readNumber: 1
 score: 7.5

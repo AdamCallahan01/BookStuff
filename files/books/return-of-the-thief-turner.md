@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/11503920-return-of-the-thief"
 isbn: "9780062874474"
 bookOwned: true
 hasSummary: false
+summarySlug: "return-of-the-thief-turner-summary"
 summarySlugLink: "[[return-of-the-thief-turner-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 2
 averageScore: 9.25
 allScores: [9.5,9]
-readSlugs: ["[[return-of-the-thief-turner-1]]","[[return-of-the-thief-turner-2]]"]
+readSlugs: ["return-of-the-thief-turner-1","return-of-the-thief-turner-2"]
+readSlugsLinks: ["[[return-of-the-thief-turner-1]]","[[return-of-the-thief-turner-2]]"]
+currentRead: false
 coverSlug: "return-of-the-thief-turner-cover"
 ---
 

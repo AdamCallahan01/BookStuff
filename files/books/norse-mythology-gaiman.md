@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.22"
 isbn: "9780393609097"
 bookOwned: true
 hasSummary: false
+summarySlug: "norse-mythology-gaiman-summary"
 summarySlugLink: "[[norse-mythology-gaiman-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[norse-mythology-gaiman-1]]"]
+readSlugs: ["norse-mythology-gaiman-1"]
+readSlugsLinks: ["[[norse-mythology-gaiman-1]]"]
+currentRead: false
 coverSlug: "norse-mythology-gaiman-cover"
 ---
 

@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.04"
 isbn: "9780545349208"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-hidden-kingdom-sutherland-summary"
 summarySlugLink: "[[the-hidden-kingdom-sutherland-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-hidden-kingdom-sutherland-1]]"]
+readSlugs: ["the-hidden-kingdom-sutherland-1"]
+readSlugsLinks: ["[[the-hidden-kingdom-sutherland-1]]"]
+currentRead: false
 coverSlug: "the-hidden-kingdom-sutherland-cover"
 ---
 

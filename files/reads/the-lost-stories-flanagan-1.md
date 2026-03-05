@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-lost-stories-flanagan"
+readSlug: "the-lost-stories-flanagan-1"
 book: "[[the-lost-stories-flanagan]]"
 readNumber: 1
 score: 6

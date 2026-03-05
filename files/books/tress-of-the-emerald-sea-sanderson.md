@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/127280617-tress-of-the-emerald-s
 isbn: "9781250899668"
 bookOwned: true
 hasSummary: false
+summarySlug: "tress-of-the-emerald-sea-sanderson-summary"
 summarySlugLink: "[[tress-of-the-emerald-sea-sanderson-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[tress-of-the-emerald-sea-sanderson-1]]"]
+readSlugs: ["tress-of-the-emerald-sea-sanderson-1"]
+readSlugsLinks: ["[[tress-of-the-emerald-sea-sanderson-1]]"]
+currentRead: false
 coverSlug: "tress-of-the-emerald-sea-sanderson-cover"
 ---
 

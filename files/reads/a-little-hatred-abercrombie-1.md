@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-little-hatred-abercrombie"
+readSlug: "a-little-hatred-abercrombie-1"
 book: "[[a-little-hatred-abercrombie]]"
 readNumber: 1
 score: 8.5

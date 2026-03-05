@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/444329.The_Voyage_of_the_Dawn_Tr
 isbn: "9780064471077"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-voyage-of-the-dawn-treader-lewis-summary"
 summarySlugLink: "[[the-voyage-of-the-dawn-treader-lewis-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[the-voyage-of-the-dawn-treader-lewis-1]]"]
+readSlugs: ["the-voyage-of-the-dawn-treader-lewis-1"]
+readSlugsLinks: ["[[the-voyage-of-the-dawn-treader-lewis-1]]"]
+currentRead: false
 coverSlug: "the-voyage-of-the-dawn-treader-lewis-cover"
 ---
 

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.46"
 isbn: "9780575082458"
 bookOwned: true
 hasSummary: false
+summarySlug: "best-served-cold-abercrombie-summary"
 summarySlugLink: "[[best-served-cold-abercrombie-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[best-served-cold-abercrombie-1]]"]
+readSlugs: ["best-served-cold-abercrombie-1"]
+readSlugsLinks: ["[[best-served-cold-abercrombie-1]]"]
+currentRead: false
 coverSlug: "best-served-cold-abercrombie-cover"
 ---
 

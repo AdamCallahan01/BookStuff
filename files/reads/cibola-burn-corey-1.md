@@ -1,5 +1,6 @@
 ---
 bookSlug: "cibola-burn-corey"
+readSlug: "cibola-burn-corey-1"
 book: "[[cibola-burn-corey]]"
 readNumber: 1
 score: 7

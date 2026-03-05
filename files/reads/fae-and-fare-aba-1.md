@@ -1,5 +1,6 @@
 ---
 bookSlug: "fae-and-fare-aba"
+readSlug: "fae-and-fare-aba-1"
 book: "[[fae-and-fare-aba]]"
 readNumber: 1
 score: 10

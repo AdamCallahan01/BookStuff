@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/23278586-half-a-war"
 isbn: "9780804178457"
 bookOwned: true
 hasSummary: false
+summarySlug: "half-a-war-abercrombie-summary"
 summarySlugLink: "[[half-a-war-abercrombie-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[half-a-war-abercrombie-1]]"]
+readSlugs: ["half-a-war-abercrombie-1"]
+readSlugsLinks: ["[[half-a-war-abercrombie-1]]"]
+currentRead: false
 coverSlug: "half-a-war-abercrombie-cover"
 ---
 

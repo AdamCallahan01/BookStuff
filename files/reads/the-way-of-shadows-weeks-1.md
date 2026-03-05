@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-way-of-shadows-weeks"
+readSlug: "the-way-of-shadows-weeks-1"
 book: "[[the-way-of-shadows-weeks]]"
 readNumber: 1
 score: 8

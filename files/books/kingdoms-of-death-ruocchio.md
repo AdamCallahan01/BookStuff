@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9781473218352"
 bookOwned: false
 hasSummary: false
+summarySlug: "kingdoms-of-death-ruocchio-summary"
 summarySlugLink: "[[kingdoms-of-death-ruocchio-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[kingdoms-of-death-ruocchio-1]]"]
+readSlugs: ["kingdoms-of-death-ruocchio-1"]
+readSlugsLinks: ["[[kingdoms-of-death-ruocchio-1]]"]
+currentRead: false
 coverSlug: "kingdoms-of-death-ruocchio-cover"
 ---
 

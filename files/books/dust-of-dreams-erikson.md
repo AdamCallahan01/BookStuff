@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780765316554"
 bookOwned: true
 hasSummary: false
+summarySlug: "dust-of-dreams-erikson-summary"
 summarySlugLink: "[[dust-of-dreams-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[dust-of-dreams-erikson-1]]"]
+readSlugs: ["dust-of-dreams-erikson-1"]
+readSlugsLinks: ["[[dust-of-dreams-erikson-1]]"]
+currentRead: false
 coverSlug: "dust-of-dreams-erikson-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "white-sand-volume-3-sanderson"
+readSlug: "white-sand-volume-3-sanderson-1"
 book: "[[white-sand-volume-3-sanderson]]"
 readNumber: 1
 score: 8

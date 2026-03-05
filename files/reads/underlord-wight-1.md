@@ -1,5 +1,6 @@
 ---
 bookSlug: "underlord-wight"
+readSlug: "underlord-wight-1"
 book: "[[underlord-wight]]"
 readNumber: 1
 score: 8

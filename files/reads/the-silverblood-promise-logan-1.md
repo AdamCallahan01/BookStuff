@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-silverblood-promise-logan"
+readSlug: "the-silverblood-promise-logan-1"
 book: "[[the-silverblood-promise-logan]]"
 readNumber: 1
 score: 3

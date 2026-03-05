@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781959001058"
 bookOwned: true
 hasSummary: true
+summarySlug: "wintersteel-wight-summary"
 summarySlugLink: "[[wintersteel-wight-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[wintersteel-wight-1]]"]
+readSlugs: ["wintersteel-wight-1"]
+readSlugsLinks: ["[[wintersteel-wight-1]]"]
+currentRead: false
 coverSlug: "wintersteel-wight-cover"
 ---
 

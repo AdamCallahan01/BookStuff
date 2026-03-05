@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-narrow-road-between-desires-rothfuss"
+readSlug: "the-narrow-road-between-desires-rothfuss-1"
 book: "[[the-narrow-road-between-desires-rothfuss]]"
 readNumber: 1
 score: 9

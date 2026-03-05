@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/25689056-the-inquisition?ref=nav
 isbn: "9781250076311"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-inquisition-matharu-summary"
 summarySlugLink: "[[the-inquisition-matharu-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[the-inquisition-matharu-1]]"]
+readSlugs: ["the-inquisition-matharu-1"]
+readSlugsLinks: ["[[the-inquisition-matharu-1]]"]
+currentRead: false
 coverSlug: "the-inquisition-matharu-cover"
 ---
 

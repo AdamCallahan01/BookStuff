@@ -10,13 +10,16 @@ pages: 358
 goodreads: "https://www.goodreads.com/book/show/56966228-scorching-sun"
 bookOwned: true
 hasSummary: false
+summarySlug: "scorching-sun-thorne-summary"
 summarySlugLink: "[[scorching-sun-thorne-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 2
 averageScore: 3.25
 allScores: [3.5,3]
-readSlugs: ["[[scorching-sun-thorne-1]]","[[scorching-sun-thorne-2]]"]
+readSlugs: ["scorching-sun-thorne-1","scorching-sun-thorne-2"]
+readSlugsLinks: ["[[scorching-sun-thorne-1]]","[[scorching-sun-thorne-2]]"]
+currentRead: false
 coverSlug: "scorching-sun-thorne-cover"
 ---
 

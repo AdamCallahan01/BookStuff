@@ -1,5 +1,6 @@
 ---
 bookSlug: "level-up-or-die-thorne"
+readSlug: "level-up-or-die-thorne-2"
 book: "[[level-up-or-die-thorne]]"
 readNumber: 2
 score: 4

@@ -1,5 +1,6 @@
 ---
 bookSlug: "dukes-and-ladders-ugland"
+readSlug: "dukes-and-ladders-ugland-1"
 book: "[[dukes-and-ladders-ugland]]"
 readNumber: 1
 score: 6.5

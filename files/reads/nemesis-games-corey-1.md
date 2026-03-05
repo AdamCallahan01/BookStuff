@@ -1,5 +1,6 @@
 ---
 bookSlug: "nemesis-games-corey"
+readSlug: "nemesis-games-corey-1"
 book: "[[nemesis-games-corey]]"
 readNumber: 1
 score: 8.5

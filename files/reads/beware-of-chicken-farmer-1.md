@@ -1,5 +1,6 @@
 ---
 bookSlug: "beware-of-chicken-farmer"
+readSlug: "beware-of-chicken-farmer-1"
 book: "[[beware-of-chicken-farmer]]"
 readNumber: 1
 score: 4

@@ -16,13 +16,16 @@ genre: "Fantasy"
 subgenre: "Epic"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-rains-of-liscor-aba-summary"
 summarySlugLink: "[[the-rains-of-liscor-aba-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-rains-of-liscor-aba-1]]"]
+readSlugs: ["the-rains-of-liscor-aba-1"]
+readSlugsLinks: ["[[the-rains-of-liscor-aba-1]]"]
+currentRead: false
 coverSlug: "the-rains-of-liscor-aba-cover"
 ---
 

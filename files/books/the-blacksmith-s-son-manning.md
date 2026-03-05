@@ -14,13 +14,16 @@ avgGoodreadsRating: "7.82"
 isbn: "9781463684341"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-blacksmith-s-son-manning-summary"
 summarySlugLink: "[[the-blacksmith-s-son-manning-summary]]"
 hasScore: true
 latestScore: 1
 readCount: 1
 averageScore: 1
 allScores: [1]
-readSlugs: ["[[the-blacksmith-s-son-manning-1]]"]
+readSlugs: ["the-blacksmith-s-son-manning-1"]
+readSlugsLinks: ["[[the-blacksmith-s-son-manning-1]]"]
+currentRead: false
 coverSlug: "the-blacksmith-s-son-manning-cover"
 ---
 

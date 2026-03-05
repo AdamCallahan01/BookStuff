@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-blacksmith-s-son-manning"
+readSlug: "the-blacksmith-s-son-manning-1"
 book: "[[the-blacksmith-s-son-manning]]"
 readNumber: 1
 score: 1

@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-wizard-of-earthsea-guin"
+readSlug: "a-wizard-of-earthsea-guin-1"
 book: "[[a-wizard-of-earthsea-guin]]"
 readNumber: 1
 score: 9.5

@@ -1,5 +1,6 @@
 ---
 bookSlug: "of-war-and-ruin-cahill"
+readSlug: "of-war-and-ruin-cahill-1"
 book: "[[of-war-and-ruin-cahill]]"
 readNumber: 1
 score: 8.5

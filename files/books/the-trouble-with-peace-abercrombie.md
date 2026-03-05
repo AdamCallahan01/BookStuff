@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.2"
 isbn: "9780316187183"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-trouble-with-peace-abercrombie-summary"
 summarySlugLink: "[[the-trouble-with-peace-abercrombie-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-trouble-with-peace-abercrombie-1]]"]
+readSlugs: ["the-trouble-with-peace-abercrombie-1"]
+readSlugsLinks: ["[[the-trouble-with-peace-abercrombie-1]]"]
+currentRead: false
 coverSlug: "the-trouble-with-peace-abercrombie-cover"
 ---
 

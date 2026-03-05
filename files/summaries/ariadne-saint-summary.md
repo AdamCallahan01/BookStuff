@@ -1,5 +1,6 @@
 ---
 bookSlug: "ariadne-saint"
+summarySlug: "ariadne-saint-summary"
 book: "[[ariadne-saint]]"
 ---
 

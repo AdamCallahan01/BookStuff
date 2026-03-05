@@ -1,5 +1,6 @@
 ---
 bookSlug: "proving-grounds-thorne"
+readSlug: "proving-grounds-thorne-2"
 book: "[[proving-grounds-thorne]]"
 readNumber: 2
 score: 3

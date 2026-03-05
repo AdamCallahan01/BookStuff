@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.02"
 isbn: "9780786849598"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-lost-colony-colfer-summary"
 summarySlugLink: "[[the-lost-colony-colfer-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-lost-colony-colfer-1]]"]
+readSlugs: ["the-lost-colony-colfer-1"]
+readSlugsLinks: ["[[the-lost-colony-colfer-1]]"]
+currentRead: false
 coverSlug: "the-lost-colony-colfer-cover"
 ---
 

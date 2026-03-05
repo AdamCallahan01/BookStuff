@@ -17,13 +17,16 @@ subgenre: "Cozy"
 narrator: "Ryan Kennard Burke"
 bookOwned: true
 hasSummary: true
+summarySlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt-summary"
 summarySlugLink: "[[how-to-be-a-farmer-in-a-fantasy-world-wyatt-summary]]"
 hasScore: true
 latestScore: 3.5
 readCount: 1
 averageScore: 3.5
 allScores: [3.5]
-readSlugs: ["[[how-to-be-a-farmer-in-a-fantasy-world-wyatt-1]]"]
+readSlugs: ["how-to-be-a-farmer-in-a-fantasy-world-wyatt-1"]
+readSlugsLinks: ["[[how-to-be-a-farmer-in-a-fantasy-world-wyatt-1]]"]
+currentRead: false
 coverSlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "king-of-duels-aba"
+summarySlug: "king-of-duels-aba-summary"
 book: "[[king-of-duels-aba]]"
 ---
 

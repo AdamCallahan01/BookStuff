@@ -1,5 +1,6 @@
 ---
 bookSlug: "bury-my-heart-at-fun-fun-mountain-amend"
+readSlug: "bury-my-heart-at-fun-fun-mountain-amend-1"
 book: "[[bury-my-heart-at-fun-fun-mountain-amend]]"
 readNumber: 1
 score: null

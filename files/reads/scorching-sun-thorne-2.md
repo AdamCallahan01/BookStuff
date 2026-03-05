@@ -1,5 +1,6 @@
 ---
 bookSlug: "scorching-sun-thorne"
+readSlug: "scorching-sun-thorne-2"
 book: "[[scorching-sun-thorne]]"
 readNumber: 2
 score: 3

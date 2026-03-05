@@ -1,5 +1,6 @@
 ---
 bookSlug: "bloodline-wight"
+readSlug: "bloodline-wight-1"
 book: "[[bloodline-wight]]"
 readNumber: 1
 score: 8

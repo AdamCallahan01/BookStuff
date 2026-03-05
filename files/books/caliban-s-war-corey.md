@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9781841499901"
 bookOwned: true
 hasSummary: true
+summarySlug: "caliban-s-war-corey-summary"
 summarySlugLink: "[[caliban-s-war-corey-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[caliban-s-war-corey-1]]"]
+readSlugs: ["caliban-s-war-corey-1"]
+readSlugsLinks: ["[[caliban-s-war-corey-1]]"]
+currentRead: false
 coverSlug: "caliban-s-war-corey-cover"
 ---
 

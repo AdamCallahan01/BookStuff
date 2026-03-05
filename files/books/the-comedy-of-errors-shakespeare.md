@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.44"
 isbn: "9781853262432"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-comedy-of-errors-shakespeare-summary"
 summarySlugLink: "[[the-comedy-of-errors-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-comedy-of-errors-shakespeare-1]]"]
+readSlugs: ["the-comedy-of-errors-shakespeare-1"]
+readSlugsLinks: ["[[the-comedy-of-errors-shakespeare-1]]"]
+currentRead: false
 coverSlug: "the-comedy-of-errors-shakespeare-cover"
 ---
 

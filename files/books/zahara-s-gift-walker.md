@@ -14,13 +14,16 @@ avgGoodreadsRating: "7.86"
 isbn: "9780578458595"
 bookOwned: false
 hasSummary: false
+summarySlug: "zahara-s-gift-walker-summary"
 summarySlugLink: "[[zahara-s-gift-walker-summary]]"
 hasScore: true
 latestScore: 2
 readCount: 1
 averageScore: 2
 allScores: [2]
-readSlugs: ["[[zahara-s-gift-walker-1]]"]
+readSlugs: ["zahara-s-gift-walker-1"]
+readSlugsLinks: ["[[zahara-s-gift-walker-1]]"]
+currentRead: false
 coverSlug: "zahara-s-gift-walker-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-final-empire-sanderson"
+readSlug: "the-final-empire-sanderson-1"
 book: "[[the-final-empire-sanderson]]"
 readNumber: 1
 score: 9

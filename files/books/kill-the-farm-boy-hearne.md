@@ -14,13 +14,16 @@ avgGoodreadsRating: "6.86"
 isbn: "9781524797751"
 bookOwned: true
 hasSummary: false
+summarySlug: "kill-the-farm-boy-hearne-summary"
 summarySlugLink: "[[kill-the-farm-boy-hearne-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[kill-the-farm-boy-hearne-1]]"]
+readSlugs: ["kill-the-farm-boy-hearne-1"]
+readSlugsLinks: ["[[kill-the-farm-boy-hearne-1]]"]
+currentRead: false
 coverSlug: "kill-the-farm-boy-hearne-cover"
 ---
 

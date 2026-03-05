@@ -1,5 +1,6 @@
 ---
 bookSlug: "occultist-mayes"
+readSlug: "occultist-mayes-1"
 book: "[[occultist-mayes]]"
 readNumber: 1
 score: 4.5

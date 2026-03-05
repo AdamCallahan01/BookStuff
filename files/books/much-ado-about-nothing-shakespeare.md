@@ -13,10 +13,13 @@ avgGoodreadsRating: "8.12"
 isbn: "9781853262548"
 bookOwned: true
 hasSummary: false
+summarySlug: "much-ado-about-nothing-shakespeare-summary"
 summarySlugLink: "[[much-ado-about-nothing-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[much-ado-about-nothing-shakespeare-1]]"]
+readSlugs: ["much-ado-about-nothing-shakespeare-1"]
+readSlugsLinks: ["[[much-ado-about-nothing-shakespeare-1]]"]
+currentRead: false
 coverSlug: "much-ado-about-nothing-shakespeare-cover"
 ---
 

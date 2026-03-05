@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-bands-of-mourning-sanderson"
+readSlug: "the-bands-of-mourning-sanderson-1"
 book: "[[the-bands-of-mourning-sanderson]]"
 readNumber: 1
 score: 8.5

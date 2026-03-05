@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9798807080011"
 bookOwned: true
 hasSummary: false
+summarySlug: "dragon-forged-holmberg-summary"
 summarySlugLink: "[[dragon-forged-holmberg-summary]]"
 hasScore: true
 latestScore: 2
 readCount: 1
 averageScore: 2
 allScores: [2]
-readSlugs: ["[[dragon-forged-holmberg-1]]"]
+readSlugs: ["dragon-forged-holmberg-1"]
+readSlugsLinks: ["[[dragon-forged-holmberg-1]]"]
+currentRead: false
 coverSlug: "dragon-forged-holmberg-cover"
 ---
 

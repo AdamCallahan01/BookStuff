@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-goblet-of-fire-rowling"
+readSlug: "harry-potter-and-the-goblet-of-fire-rowling-3"
 book: "[[harry-potter-and-the-goblet-of-fire-rowling]]"
 readNumber: 3
 score: 5

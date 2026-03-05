@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9780999851142"
 bookOwned: true
 hasSummary: false
+summarySlug: "uncrowned-wight-summary"
 summarySlugLink: "[[uncrowned-wight-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[uncrowned-wight-1]]"]
+readSlugs: ["uncrowned-wight-1"]
+readSlugsLinks: ["[[uncrowned-wight-1]]"]
+currentRead: false
 coverSlug: "uncrowned-wight-cover"
 ---
 

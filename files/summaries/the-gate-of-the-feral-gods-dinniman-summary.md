@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-gate-of-the-feral-gods-dinniman"
+summarySlug: "the-gate-of-the-feral-gods-dinniman-summary"
 book: "[[the-gate-of-the-feral-gods-dinniman]]"
 ---
 

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/39279599-the-jade-lord"
 isbn: "9781547222186"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-jade-lord-hunter-summary"
 summarySlugLink: "[[the-jade-lord-hunter-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-jade-lord-hunter-1]]"]
+readSlugs: ["the-jade-lord-hunter-1"]
+readSlugsLinks: ["[[the-jade-lord-hunter-1]]"]
+currentRead: false
 coverSlug: "the-jade-lord-hunter-cover"
 ---
 

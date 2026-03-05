@@ -1,5 +1,6 @@
 ---
 bookSlug: "skysworn-wight"
+readSlug: "skysworn-wight-1"
 book: "[[skysworn-wight]]"
 readNumber: 1
 score: 7.5

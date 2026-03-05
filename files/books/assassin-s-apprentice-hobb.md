@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780553573398"
 bookOwned: true
 hasSummary: false
+summarySlug: "assassin-s-apprentice-hobb-summary"
 summarySlugLink: "[[assassin-s-apprentice-hobb-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[assassin-s-apprentice-hobb-1]]"]
+readSlugs: ["assassin-s-apprentice-hobb-1"]
+readSlugsLinks: ["[[assassin-s-apprentice-hobb-1]]"]
+currentRead: false
 coverSlug: "assassin-s-apprentice-hobb-cover"
 ---
 

@@ -14,13 +14,16 @@ avgGoodreadsRating: "7.58"
 isbn: "9798409061401"
 bookOwned: true
 hasSummary: false
+summarySlug: "on-lavender-tides-riddle-summary"
 summarySlugLink: "[[on-lavender-tides-riddle-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[on-lavender-tides-riddle-1]]"]
+readSlugs: ["on-lavender-tides-riddle-1"]
+readSlugsLinks: ["[[on-lavender-tides-riddle-1]]"]
+currentRead: false
 coverSlug: "on-lavender-tides-riddle-cover"
 ---
 

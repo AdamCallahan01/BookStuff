@@ -1,5 +1,6 @@
 ---
 bookSlug: "oathbringer-sanderson"
+readSlug: "oathbringer-sanderson-2"
 book: "[[oathbringer-sanderson]]"
 readNumber: 2
 score: 9

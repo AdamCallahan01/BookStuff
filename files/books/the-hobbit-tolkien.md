@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.58"
 isbn: "9780547951966"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-hobbit-tolkien-summary"
 summarySlugLink: "[[the-hobbit-tolkien-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-hobbit-tolkien-1]]"]
+readSlugs: ["the-hobbit-tolkien-1"]
+readSlugsLinks: ["[[the-hobbit-tolkien-1]]"]
+currentRead: false
 coverSlug: "the-hobbit-tolkien-cover"
 ---
 

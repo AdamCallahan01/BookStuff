@@ -1,5 +1,6 @@
 ---
 bookSlug: "mother-of-learning-arc-4-kurmaic"
+readSlug: "mother-of-learning-arc-4-kurmaic-1"
 book: "[[mother-of-learning-arc-4-kurmaic]]"
 readNumber: 1
 score: 8.5

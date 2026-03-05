@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.08"
 isbn: "9781955252294"
 bookOwned: false
 hasSummary: false
+summarySlug: "mother-of-learning-arc-3-kurmaic-summary"
 summarySlugLink: "[[mother-of-learning-arc-3-kurmaic-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[mother-of-learning-arc-3-kurmaic-1]]"]
+readSlugs: ["mother-of-learning-arc-3-kurmaic-1"]
+readSlugsLinks: ["[[mother-of-learning-arc-3-kurmaic-1]]"]
+currentRead: false
 coverSlug: "mother-of-learning-arc-3-kurmaic-cover"
 ---
 

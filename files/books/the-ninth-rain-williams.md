@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.18"
 isbn: "9781472235176"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-ninth-rain-williams-summary"
 summarySlugLink: "[[the-ninth-rain-williams-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-ninth-rain-williams-1]]"]
+readSlugs: ["the-ninth-rain-williams-1"]
+readSlugsLinks: ["[[the-ninth-rain-williams-1]]"]
+currentRead: false
 coverSlug: "the-ninth-rain-williams-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "master-of-sorrows-call"
+readSlug: "master-of-sorrows-call-1"
 book: "[[master-of-sorrows-call]]"
 readNumber: 1
 score: 7

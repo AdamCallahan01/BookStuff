@@ -1,5 +1,6 @@
 ---
 bookSlug: "best-served-cold-abercrombie"
+readSlug: "best-served-cold-abercrombie-1"
 book: "[[best-served-cold-abercrombie]]"
 readNumber: 1
 score: 9

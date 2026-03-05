@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/61439040-1984?ref=nav_sb_ss_1_4"
 isbn: "9780452284234"
 bookOwned: false
 hasSummary: false
+summarySlug: "1984-orwell-summary"
 summarySlugLink: "[[1984-orwell-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[1984-orwell-1]]"]
+readSlugs: ["1984-orwell-1"]
+readSlugsLinks: ["[[1984-orwell-1]]"]
+currentRead: false
 coverSlug: "1984-orwell-cover"
 ---
 

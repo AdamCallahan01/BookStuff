@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/214489061-orconomics"
 isbn: "9781943363650"
 bookOwned: false
 hasSummary: false
+summarySlug: "orconomics-pike-summary"
 summarySlugLink: "[[orconomics-pike-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[orconomics-pike-1]]"]
+readSlugs: ["orconomics-pike-1"]
+readSlugsLinks: ["[[orconomics-pike-1]]"]
+currentRead: false
 coverSlug: "orconomics-pike-cover"
 ---
 

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.64"
 isbn: "9781974495221"
 bookOwned: true
 hasSummary: false
+summarySlug: "life-reset-kuznits-summary"
 summarySlugLink: "[[life-reset-kuznits-summary]]"
 hasScore: true
 latestScore: 4.5
 readCount: 1
 averageScore: 4.5
 allScores: [4.5]
-readSlugs: ["[[life-reset-kuznits-1]]"]
+readSlugs: ["life-reset-kuznits-1"]
+readSlugsLinks: ["[[life-reset-kuznits-1]]"]
+currentRead: false
 coverSlug: "life-reset-kuznits-cover"
 ---
 

@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9780756413057"
 bookOwned: false
 hasSummary: false
+summarySlug: "howling-dark-ruocchio-summary"
 summarySlugLink: "[[howling-dark-ruocchio-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[howling-dark-ruocchio-1]]"]
+readSlugs: ["howling-dark-ruocchio-1"]
+readSlugsLinks: ["[[howling-dark-ruocchio-1]]"]
+currentRead: false
 coverSlug: "howling-dark-ruocchio-cover"
 ---
 

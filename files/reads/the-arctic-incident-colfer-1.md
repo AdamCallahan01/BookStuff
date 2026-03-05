@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-arctic-incident-colfer"
+readSlug: "the-arctic-incident-colfer-1"
 book: "[[the-arctic-incident-colfer]]"
 readNumber: 1
 score: 7.5

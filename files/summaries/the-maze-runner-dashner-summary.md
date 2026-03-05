@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-maze-runner-dashner"
+summarySlug: "the-maze-runner-dashner-summary"
 book: "[[the-maze-runner-dashner]]"
 ---
 

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/61100299-dungeon-mauling"
 isbn: "9781945346101"
 bookOwned: true
 hasSummary: false
+summarySlug: "dungeon-mauling-ugland-summary"
 summarySlugLink: "[[dungeon-mauling-ugland-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[dungeon-mauling-ugland-1]]"]
+readSlugs: ["dungeon-mauling-ugland-1"]
+readSlugsLinks: ["[[dungeon-mauling-ugland-1]]"]
+currentRead: false
 coverSlug: "dungeon-mauling-ugland-cover"
 ---
 

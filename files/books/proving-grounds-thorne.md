@@ -10,13 +10,16 @@ pages: 222
 goodreads: "https://www.goodreads.com/book/show/50731407-proving-grounds"
 bookOwned: true
 hasSummary: false
+summarySlug: "proving-grounds-thorne-summary"
 summarySlugLink: "[[proving-grounds-thorne-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 2
 averageScore: 3.5
 allScores: [4,3]
-readSlugs: ["[[proving-grounds-thorne-1]]","[[proving-grounds-thorne-2]]"]
+readSlugs: ["proving-grounds-thorne-1","proving-grounds-thorne-2"]
+readSlugsLinks: ["[[proving-grounds-thorne-1]]","[[proving-grounds-thorne-2]]"]
+currentRead: false
 coverSlug: "proving-grounds-thorne-cover"
 ---
 

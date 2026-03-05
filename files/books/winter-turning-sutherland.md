@@ -14,13 +14,16 @@ avgGoodreadsRating: "9"
 isbn: "9780545685375"
 bookOwned: true
 hasSummary: false
+summarySlug: "winter-turning-sutherland-summary"
 summarySlugLink: "[[winter-turning-sutherland-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[winter-turning-sutherland-1]]"]
+readSlugs: ["winter-turning-sutherland-1"]
+readSlugsLinks: ["[[winter-turning-sutherland-1]]"]
+currentRead: false
 coverSlug: "winter-turning-sutherland-cover"
 ---
 

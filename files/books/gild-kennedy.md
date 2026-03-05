@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/199420132-gild"
 isbn: "9781464224416"
 bookOwned: false
 hasSummary: false
+summarySlug: "gild-kennedy-summary"
 summarySlugLink: "[[gild-kennedy-summary]]"
 hasScore: true
 latestScore: 0.5
 readCount: 1
 averageScore: 0.5
 allScores: [0.5]
-readSlugs: ["[[gild-kennedy-1]]"]
+readSlugs: ["gild-kennedy-1"]
+readSlugsLinks: ["[[gild-kennedy-1]]"]
+currentRead: false
 coverSlug: "gild-kennedy-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "black-sun-roanhorse"
+readSlug: "black-sun-roanhorse-1"
 book: "[[black-sun-roanhorse]]"
 readNumber: 1
 score: 6

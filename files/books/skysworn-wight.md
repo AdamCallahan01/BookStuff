@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781959001010"
 bookOwned: true
 hasSummary: false
+summarySlug: "skysworn-wight-summary"
 summarySlugLink: "[[skysworn-wight-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[skysworn-wight-1]]"]
+readSlugs: ["skysworn-wight-1"]
+readSlugsLinks: ["[[skysworn-wight-1]]"]
+currentRead: false
 coverSlug: "skysworn-wight-cover"
 ---
 

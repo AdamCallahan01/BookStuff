@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.4"
 isbn: "9781408883457"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-priory-of-the-orange-tree-shannon-summary"
 summarySlugLink: "[[the-priory-of-the-orange-tree-shannon-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[the-priory-of-the-orange-tree-shannon-1]]"]
+readSlugs: ["the-priory-of-the-orange-tree-shannon-1"]
+readSlugsLinks: ["[[the-priory-of-the-orange-tree-shannon-1]]"]
+currentRead: false
 coverSlug: "the-priory-of-the-orange-tree-shannon-cover"
 ---
 

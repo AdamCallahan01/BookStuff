@@ -1,5 +1,6 @@
 ---
 bookSlug: "banished-wisehart"
+readSlug: "banished-wisehart-1"
 book: "[[banished-wisehart]]"
 readNumber: 1
 score: 6.5

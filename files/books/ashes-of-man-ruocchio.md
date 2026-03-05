@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9780756416607"
 bookOwned: true
 hasSummary: false
+summarySlug: "ashes-of-man-ruocchio-summary"
 summarySlugLink: "[[ashes-of-man-ruocchio-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[ashes-of-man-ruocchio-1]]"]
+readSlugs: ["ashes-of-man-ruocchio-1"]
+readSlugsLinks: ["[[ashes-of-man-ruocchio-1]]"]
+currentRead: false
 coverSlug: "ashes-of-man-ruocchio-cover"
 ---
 

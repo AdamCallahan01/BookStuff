@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/44033470-the-sword-of-kaigen"
 isbn: "9781720193869"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-sword-of-kaigen-wang-summary"
 summarySlugLink: "[[the-sword-of-kaigen-wang-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[the-sword-of-kaigen-wang-1]]"]
+readSlugs: ["the-sword-of-kaigen-wang-1"]
+readSlugsLinks: ["[[the-sword-of-kaigen-wang-1]]"]
+currentRead: false
 coverSlug: "the-sword-of-kaigen-wang-cover"
 ---
 

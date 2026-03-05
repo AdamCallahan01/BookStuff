@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-sunlit-man-sanderson"
+readSlug: "the-sunlit-man-sanderson-1"
 book: "[[the-sunlit-man-sanderson]]"
 readNumber: 1
 score: 6.5

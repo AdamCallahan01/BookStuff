@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-wandering-inn-18-aba"
+summarySlug: "the-wandering-inn-18-aba-summary"
 book: "[[the-wandering-inn-18-aba]]"
 ---
 

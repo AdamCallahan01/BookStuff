@@ -1,5 +1,6 @@
 ---
 bookSlug: "wintersteel-wight"
+readSlug: "wintersteel-wight-1"
 book: "[[wintersteel-wight]]"
 readNumber: 1
 score: 9.5

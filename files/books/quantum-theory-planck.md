@@ -17,10 +17,13 @@ subgenre: "Physics"
 isbn: "9781787556829"
 bookOwned: true
 hasSummary: false
+summarySlug: "quantum-theory-planck-summary"
 summarySlugLink: "[[quantum-theory-planck-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[quantum-theory-planck-1]]"]
+readSlugs: ["quantum-theory-planck-1"]
+readSlugsLinks: ["[[quantum-theory-planck-1]]"]
+currentRead: false
 coverSlug: "quantum-theory-planck-cover"
 ---
 

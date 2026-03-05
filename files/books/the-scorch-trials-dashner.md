@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9780385738750"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-scorch-trials-dashner-summary"
 summarySlugLink: "[[the-scorch-trials-dashner-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-scorch-trials-dashner-1]]"]
+readSlugs: ["the-scorch-trials-dashner-1"]
+readSlugsLinks: ["[[the-scorch-trials-dashner-1]]"]
+currentRead: false
 coverSlug: "the-scorch-trials-dashner-cover"
 ---
 

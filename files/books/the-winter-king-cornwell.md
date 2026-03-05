@@ -17,13 +17,16 @@ subgenre: "Historical Fantasy"
 isbn: "9780312156961"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-winter-king-cornwell-summary"
 summarySlugLink: "[[the-winter-king-cornwell-summary]]"
 hasScore: true
 latestScore: 5.5
 readCount: 1
 averageScore: 5.5
 allScores: [5.5]
-readSlugs: ["[[the-winter-king-cornwell-1]]"]
+readSlugs: ["the-winter-king-cornwell-1"]
+readSlugsLinks: ["[[the-winter-king-cornwell-1]]"]
+currentRead: false
 coverSlug: "the-winter-king-cornwell-cover"
 ---
 

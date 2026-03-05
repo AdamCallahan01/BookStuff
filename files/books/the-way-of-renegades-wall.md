@@ -18,13 +18,16 @@ isbn: "9798375495415"
 narrator: "Steven Pacey"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-way-of-renegades-wall-summary"
 summarySlugLink: "[[the-way-of-renegades-wall-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-way-of-renegades-wall-1]]"]
+readSlugs: ["the-way-of-renegades-wall-1"]
+readSlugsLinks: ["[[the-way-of-renegades-wall-1]]"]
+currentRead: false
 coverSlug: "the-way-of-renegades-wall-cover"
 ---
 

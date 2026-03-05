@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-battlemage-matharu"
+readSlug: "the-battlemage-matharu-1"
 book: "[[the-battlemage-matharu]]"
 readNumber: 1
 score: 4

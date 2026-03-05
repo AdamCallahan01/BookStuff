@@ -1,5 +1,6 @@
 ---
 bookSlug: "gregor-and-the-code-of-claw-collins"
+readSlug: "gregor-and-the-code-of-claw-collins-1"
 book: "[[gregor-and-the-code-of-claw-collins]]"
 readNumber: 1
 score: 7

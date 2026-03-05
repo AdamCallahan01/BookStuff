@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/16029682-a-wizard-of-earthsea"
 isbn: "9780544084377"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-wizard-of-earthsea-guin-summary"
 summarySlugLink: "[[a-wizard-of-earthsea-guin-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[a-wizard-of-earthsea-guin-1]]"]
+readSlugs: ["a-wizard-of-earthsea-guin-1"]
+readSlugsLinks: ["[[a-wizard-of-earthsea-guin-1]]"]
+currentRead: false
 coverSlug: "a-wizard-of-earthsea-guin-cover"
 ---
 

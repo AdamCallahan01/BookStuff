@@ -1,5 +1,6 @@
 ---
 bookSlug: "gilded-ghost-kirrin"
+readSlug: "gilded-ghost-kirrin-1"
 book: "[[gilded-ghost-kirrin]]"
 readNumber: 1
 score: 7.5

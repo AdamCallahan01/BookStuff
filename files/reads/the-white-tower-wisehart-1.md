@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-white-tower-wisehart"
+readSlug: "the-white-tower-wisehart-1"
 book: "[[the-white-tower-wisehart]]"
 readNumber: 1
 score: 8

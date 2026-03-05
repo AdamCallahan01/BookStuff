@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-order-of-the-phoenix-rowling"
+readSlug: "harry-potter-and-the-order-of-the-phoenix-rowling-2"
 book: "[[harry-potter-and-the-order-of-the-phoenix-rowling]]"
 readNumber: 2
 score: 6

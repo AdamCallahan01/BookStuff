@@ -10,13 +10,16 @@ pages: 25
 goodreads: "https://www.goodreads.com/book/show/41970314-the-hope-of-elantris"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-hope-of-elantris-sanderson-summary"
 summarySlugLink: "[[the-hope-of-elantris-sanderson-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-hope-of-elantris-sanderson-1]]"]
+readSlugs: ["the-hope-of-elantris-sanderson-1"]
+readSlugsLinks: ["[[the-hope-of-elantris-sanderson-1]]"]
+currentRead: false
 coverSlug: "the-hope-of-elantris-sanderson-cover"
 ---
 

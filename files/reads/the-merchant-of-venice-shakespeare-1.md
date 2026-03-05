@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-merchant-of-venice-shakespeare"
+readSlug: "the-merchant-of-venice-shakespeare-1"
 book: "[[the-merchant-of-venice-shakespeare]]"
 readNumber: 1
 score: null

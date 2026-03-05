@@ -1,5 +1,6 @@
 ---
 bookSlug: "animal-farm-orwell"
+readSlug: "animal-farm-orwell-1"
 book: "[[animal-farm-orwell]]"
 readNumber: 1
 score: 7

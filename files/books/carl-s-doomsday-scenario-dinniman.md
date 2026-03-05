@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.12"
 isbn: "9798588333764"
 bookOwned: true
 hasSummary: false
+summarySlug: "carl-s-doomsday-scenario-dinniman-summary"
 summarySlugLink: "[[carl-s-doomsday-scenario-dinniman-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[carl-s-doomsday-scenario-dinniman-1]]"]
+readSlugs: ["carl-s-doomsday-scenario-dinniman-1"]
+readSlugsLinks: ["[[carl-s-doomsday-scenario-dinniman-1]]"]
+currentRead: false
 coverSlug: "carl-s-doomsday-scenario-dinniman-cover"
 ---
 

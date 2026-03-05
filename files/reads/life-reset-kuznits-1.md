@@ -1,5 +1,6 @@
 ---
 bookSlug: "life-reset-kuznits"
+readSlug: "life-reset-kuznits-1"
 book: "[[life-reset-kuznits]]"
 readNumber: 1
 score: 4.5

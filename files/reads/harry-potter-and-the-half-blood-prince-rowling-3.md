@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-half-blood-prince-rowling"
+readSlug: "harry-potter-and-the-half-blood-prince-rowling-3"
 book: "[[harry-potter-and-the-half-blood-prince-rowling]]"
 readNumber: 3
 score: 7.5

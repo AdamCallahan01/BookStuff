@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-last-light-aba"
+readSlug: "the-last-light-aba-1"
 book: "[[the-last-light-aba]]"
 readNumber: 1
 score: 10

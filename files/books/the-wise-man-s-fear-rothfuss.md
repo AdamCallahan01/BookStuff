@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear?ref=
 isbn: "9780756404734"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-wise-man-s-fear-rothfuss-summary"
 summarySlugLink: "[[the-wise-man-s-fear-rothfuss-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 2
 averageScore: 10
 allScores: [10,10]
-readSlugs: ["[[the-wise-man-s-fear-rothfuss-1]]","[[the-wise-man-s-fear-rothfuss-2]]"]
+readSlugs: ["the-wise-man-s-fear-rothfuss-1","the-wise-man-s-fear-rothfuss-2"]
+readSlugsLinks: ["[[the-wise-man-s-fear-rothfuss-1]]","[[the-wise-man-s-fear-rothfuss-2]]"]
+currentRead: false
 coverSlug: "the-wise-man-s-fear-rothfuss-cover"
 ---
 

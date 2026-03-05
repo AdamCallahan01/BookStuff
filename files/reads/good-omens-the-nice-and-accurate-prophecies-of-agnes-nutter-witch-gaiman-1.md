@@ -1,5 +1,6 @@
 ---
 bookSlug: "good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman"
+readSlug: "good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-1"
 book: "[[good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman]]"
 readNumber: 1
 score: 8

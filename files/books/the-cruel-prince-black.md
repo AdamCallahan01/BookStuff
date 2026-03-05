@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/26032825-the-cruel-prince?ref=na
 isbn: "9780316310277"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-cruel-prince-black-summary"
 summarySlugLink: "[[the-cruel-prince-black-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-cruel-prince-black-1]]"]
+readSlugs: ["the-cruel-prince-black-1"]
+readSlugsLinks: ["[[the-cruel-prince-black-1]]"]
+currentRead: false
 coverSlug: "the-cruel-prince-black-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "blood-over-bright-haven-wang"
+readSlug: "blood-over-bright-haven-wang-1"
 book: "[[blood-over-bright-haven-wang]]"
 readNumber: 1
 score: 10

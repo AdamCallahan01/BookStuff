@@ -1,5 +1,6 @@
 ---
 bookSlug: "disquiet-gods-ruocchio"
+readSlug: "disquiet-gods-ruocchio-1"
 book: "[[disquiet-gods-ruocchio]]"
 readNumber: 1
 score: 9.5

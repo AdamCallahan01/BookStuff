@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/30363362-a-conspiracy-of-kings"
 isbn: "9780062642998"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-conspiracy-of-kings-turner-summary"
 summarySlugLink: "[[a-conspiracy-of-kings-turner-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 2
 averageScore: 9.25
 allScores: [9.5,9]
-readSlugs: ["[[a-conspiracy-of-kings-turner-1]]","[[a-conspiracy-of-kings-turner-2]]"]
+readSlugs: ["a-conspiracy-of-kings-turner-1","a-conspiracy-of-kings-turner-2"]
+readSlugsLinks: ["[[a-conspiracy-of-kings-turner-1]]","[[a-conspiracy-of-kings-turner-2]]"]
+currentRead: false
 coverSlug: "a-conspiracy-of-kings-turner-cover"
 ---
 

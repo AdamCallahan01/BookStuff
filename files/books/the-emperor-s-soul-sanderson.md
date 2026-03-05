@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/13578175-the-emperor-s-soul"
 isbn: "9781616960926"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-emperor-s-soul-sanderson-summary"
 summarySlugLink: "[[the-emperor-s-soul-sanderson-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-emperor-s-soul-sanderson-1]]"]
+readSlugs: ["the-emperor-s-soul-sanderson-1"]
+readSlugsLinks: ["[[the-emperor-s-soul-sanderson-1]]"]
+currentRead: false
 coverSlug: "the-emperor-s-soul-sanderson-cover"
 ---
 

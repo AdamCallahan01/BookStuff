@@ -1,5 +1,6 @@
 ---
 bookSlug: "sharp-ends-abercrombie"
+readSlug: "sharp-ends-abercrombie-1"
 book: "[[sharp-ends-abercrombie]]"
 readNumber: 1
 score: 8.5

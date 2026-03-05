@@ -13,13 +13,16 @@ genre: "Fantasy"
 subgenre: "Epic"
 bookOwned: false
 hasSummary: true
+summarySlug: "the-wandering-inn-18-aba-summary"
 summarySlugLink: "[[the-wandering-inn-18-aba-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-wandering-inn-18-aba-1]]"]
+readSlugs: ["the-wandering-inn-18-aba-1"]
+readSlugsLinks: ["[[the-wandering-inn-18-aba-1]]"]
+currentRead: false
 coverSlug: "the-wandering-inn-18-aba-cover"
 ---
 

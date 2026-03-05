@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781959001027"
 bookOwned: true
 hasSummary: false
+summarySlug: "ghostwater-wight-summary"
 summarySlugLink: "[[ghostwater-wight-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[ghostwater-wight-1]]"]
+readSlugs: ["ghostwater-wight-1"]
+readSlugsLinks: ["[[ghostwater-wight-1]]"]
+currentRead: false
 coverSlug: "ghostwater-wight-cover"
 ---
 

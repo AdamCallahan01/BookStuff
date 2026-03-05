@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-priory-of-the-orange-tree-shannon"
+readSlug: "the-priory-of-the-orange-tree-shannon-1"
 book: "[[the-priory-of-the-orange-tree-shannon]]"
 readNumber: 1
 score: 6.5

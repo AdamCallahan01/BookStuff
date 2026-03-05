@@ -1,5 +1,6 @@
 ---
 bookSlug: "murtagh-paolini"
+readSlug: "murtagh-paolini-1"
 book: "[[murtagh-paolini]]"
 readNumber: 1
 score: 8

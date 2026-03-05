@@ -17,13 +17,16 @@ subgenre: "High"
 isbn: "9780553565218"
 bookOwned: false
 hasSummary: true
+summarySlug: "daggerspell-kerr-summary"
 summarySlugLink: "[[daggerspell-kerr-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[daggerspell-kerr-1]]"]
+readSlugs: ["daggerspell-kerr-1"]
+readSlugsLinks: ["[[daggerspell-kerr-1]]"]
+currentRead: false
 coverSlug: "daggerspell-kerr-cover"
 ---
 

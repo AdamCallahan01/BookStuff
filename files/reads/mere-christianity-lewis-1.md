@@ -1,5 +1,6 @@
 ---
 bookSlug: "mere-christianity-lewis"
+readSlug: "mere-christianity-lewis-1"
 book: "[[mere-christianity-lewis]]"
 readNumber: 1
 score: 8

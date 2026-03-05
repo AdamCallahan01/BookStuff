@@ -1,5 +1,6 @@
 ---
 bookSlug: "stardust-gaiman"
+readSlug: "stardust-gaiman-1"
 book: "[[stardust-gaiman]]"
 readNumber: 1
 score: 8

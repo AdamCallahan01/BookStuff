@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-mark-of-kings-chmilenko"
+readSlug: "a-mark-of-kings-chmilenko-1"
 book: "[[a-mark-of-kings-chmilenko]]"
 readNumber: 1
 score: 6.5

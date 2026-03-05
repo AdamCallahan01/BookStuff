@@ -17,13 +17,16 @@ subgenre: "Mythology"
 isbn: "9780140443615"
 bookOwned: true
 hasSummary: false
+summarySlug: "parzival-eschenbach-summary"
 summarySlugLink: "[[parzival-eschenbach-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[parzival-eschenbach-1]]"]
+readSlugs: ["parzival-eschenbach-1"]
+readSlugsLinks: ["[[parzival-eschenbach-1]]"]
+currentRead: false
 coverSlug: "parzival-eschenbach-cover"
 ---
 

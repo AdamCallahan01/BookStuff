@@ -17,13 +17,16 @@ subgenre: "Grimdark"
 isbn: "9781481465281"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-lonesome-crown-durfee-summary"
 summarySlugLink: "[[the-lonesome-crown-durfee-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-lonesome-crown-durfee-1]]"]
+readSlugs: ["the-lonesome-crown-durfee-1"]
+readSlugsLinks: ["[[the-lonesome-crown-durfee-1]]"]
+currentRead: false
 coverSlug: "the-lonesome-crown-durfee-cover"
 ---
 

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.82"
 isbn: "9780545349215"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-dark-secret-sutherland-summary"
 summarySlugLink: "[[the-dark-secret-sutherland-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-dark-secret-sutherland-1]]"]
+readSlugs: ["the-dark-secret-sutherland-1"]
+readSlugsLinks: ["[[the-dark-secret-sutherland-1]]"]
+currentRead: false
 coverSlug: "the-dark-secret-sutherland-cover"
 ---
 

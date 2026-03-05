@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/144349.The_Burning_Bridge"
 isbn: "9780399244551"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-burning-bridge-flanagan-summary"
 summarySlugLink: "[[the-burning-bridge-flanagan-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[the-burning-bridge-flanagan-1]]"]
+readSlugs: ["the-burning-bridge-flanagan-1"]
+readSlugsLinks: ["[[the-burning-bridge-flanagan-1]]"]
+currentRead: false
 coverSlug: "the-burning-bridge-flanagan-cover"
 ---
 

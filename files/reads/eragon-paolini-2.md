@@ -1,5 +1,6 @@
 ---
 bookSlug: "eragon-paolini"
+readSlug: "eragon-paolini-2"
 book: "[[eragon-paolini]]"
 readNumber: 2
 score: 7.5

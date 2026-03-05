@@ -1,5 +1,6 @@
 ---
 bookSlug: "dawnshard-sanderson"
+readSlug: "dawnshard-sanderson-1"
 book: "[[dawnshard-sanderson]]"
 readNumber: 1
 score: 7.5

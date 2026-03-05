@@ -1,5 +1,6 @@
 ---
 bookSlug: "halt-s-peril-flanagan"
+readSlug: "halt-s-peril-flanagan-1"
 book: "[[halt-s-peril-flanagan]]"
 readNumber: 1
 score: 6.5

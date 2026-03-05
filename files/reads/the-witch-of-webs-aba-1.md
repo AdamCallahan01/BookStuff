@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-witch-of-webs-aba"
+readSlug: "the-witch-of-webs-aba-1"
 book: "[[the-witch-of-webs-aba]]"
 readNumber: 1
 score: 8.5

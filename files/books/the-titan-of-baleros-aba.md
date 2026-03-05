@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108028"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-titan-of-baleros-aba-summary"
 summarySlugLink: "[[the-titan-of-baleros-aba-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-titan-of-baleros-aba-1]]"]
+readSlugs: ["the-titan-of-baleros-aba-1"]
+readSlugsLinks: ["[[the-titan-of-baleros-aba-1]]"]
+currentRead: false
 coverSlug: "the-titan-of-baleros-aba-cover"
 ---
 

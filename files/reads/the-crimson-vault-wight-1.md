@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-crimson-vault-wight"
+readSlug: "the-crimson-vault-wight-1"
 book: "[[the-crimson-vault-wight]]"
 readNumber: 1
 score: 5

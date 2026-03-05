@@ -1,5 +1,6 @@
 ---
 bookSlug: "warbreaker-sanderson"
+readSlug: "warbreaker-sanderson-2"
 book: "[[warbreaker-sanderson]]"
 readNumber: 2
 score: 7.5

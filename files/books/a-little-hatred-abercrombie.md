@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.9"
 isbn: "9780316187169"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-little-hatred-abercrombie-summary"
 summarySlugLink: "[[a-little-hatred-abercrombie-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[a-little-hatred-abercrombie-1]]"]
+readSlugs: ["a-little-hatred-abercrombie-1"]
+readSlugsLinks: ["[[a-little-hatred-abercrombie-1]]"]
+currentRead: false
 coverSlug: "a-little-hatred-abercrombie-cover"
 ---
 

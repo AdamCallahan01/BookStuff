@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-devils-abercrombie"
+readSlug: "the-devils-abercrombie-1"
 book: "[[the-devils-abercrombie]]"
 readNumber: 1
 score: 8

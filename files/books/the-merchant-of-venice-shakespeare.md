@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.56"
 isbn: "9780743477567"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-merchant-of-venice-shakespeare-summary"
 summarySlugLink: "[[the-merchant-of-venice-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-merchant-of-venice-shakespeare-1]]"]
+readSlugs: ["the-merchant-of-venice-shakespeare-1"]
+readSlugsLinks: ["[[the-merchant-of-venice-shakespeare-1]]"]
+currentRead: false
 coverSlug: "the-merchant-of-venice-shakespeare-cover"
 ---
 

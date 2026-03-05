@@ -1,5 +1,6 @@
 ---
 bookSlug: "norse-mythology-gaiman"
+readSlug: "norse-mythology-gaiman-1"
 book: "[[norse-mythology-gaiman]]"
 readNumber: 1
 score: 8

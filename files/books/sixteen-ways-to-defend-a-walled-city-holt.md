@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.14"
 isbn: "9780316270793"
 bookOwned: true
 hasSummary: false
+summarySlug: "sixteen-ways-to-defend-a-walled-city-holt-summary"
 summarySlugLink: "[[sixteen-ways-to-defend-a-walled-city-holt-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[sixteen-ways-to-defend-a-walled-city-holt-1]]"]
+readSlugs: ["sixteen-ways-to-defend-a-walled-city-holt-1"]
+readSlugsLinks: ["[[sixteen-ways-to-defend-a-walled-city-holt-1]]"]
+currentRead: false
 coverSlug: "sixteen-ways-to-defend-a-walled-city-holt-cover"
 ---
 

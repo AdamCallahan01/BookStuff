@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-wise-man-s-fear-rothfuss"
+readSlug: "the-wise-man-s-fear-rothfuss-1"
 book: "[[the-wise-man-s-fear-rothfuss]]"
 readNumber: 1
 score: 10

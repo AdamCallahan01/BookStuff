@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-way-of-renegades-wall"
+summarySlug: "the-way-of-renegades-wall-summary"
 book: "[[the-way-of-renegades-wall]]"
 ---
 

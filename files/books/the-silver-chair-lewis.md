@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/587317.The_Silver_Chair"
 isbn: "9780064471091"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-silver-chair-lewis-summary"
 summarySlugLink: "[[the-silver-chair-lewis-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-silver-chair-lewis-1]]"]
+readSlugs: ["the-silver-chair-lewis-1"]
+readSlugsLinks: ["[[the-silver-chair-lewis-1]]"]
+currentRead: false
 coverSlug: "the-silver-chair-lewis-cover"
 ---
 

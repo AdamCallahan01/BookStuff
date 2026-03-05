@@ -1,5 +1,6 @@
 ---
 bookSlug: "children-of-time-tchaikovsky"
+summarySlug: "children-of-time-tchaikovsky-summary"
 book: "[[children-of-time-tchaikovsky]]"
 ---
 

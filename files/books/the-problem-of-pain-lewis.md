@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/13650513-the-problem-of-pain?ref
 isbn: "9780007461264"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-problem-of-pain-lewis-summary"
 summarySlugLink: "[[the-problem-of-pain-lewis-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-problem-of-pain-lewis-1]]"]
+readSlugs: ["the-problem-of-pain-lewis-1"]
+readSlugsLinks: ["[[the-problem-of-pain-lewis-1]]"]
+currentRead: false
 coverSlug: "the-problem-of-pain-lewis-cover"
 ---
 

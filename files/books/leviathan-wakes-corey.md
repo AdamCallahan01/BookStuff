@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9781841499888"
 bookOwned: true
 hasSummary: true
+summarySlug: "leviathan-wakes-corey-summary"
 summarySlugLink: "[[leviathan-wakes-corey-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[leviathan-wakes-corey-1]]"]
+readSlugs: ["leviathan-wakes-corey-1"]
+readSlugsLinks: ["[[leviathan-wakes-corey-1]]"]
+currentRead: false
 coverSlug: "leviathan-wakes-corey-cover"
 ---
 

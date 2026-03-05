@@ -1,5 +1,6 @@
 ---
 bookSlug: "dungeon-mauling-ugland"
+readSlug: "dungeon-mauling-ugland-1"
 book: "[[dungeon-mauling-ugland]]"
 readNumber: 1
 score: 6.5

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/76715522-kingdom-of-ash"
 isbn: "9781639731060"
 bookOwned: true
 hasSummary: false
+summarySlug: "kingdom-of-ash-maas-summary"
 summarySlugLink: "[[kingdom-of-ash-maas-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[kingdom-of-ash-maas-1]]"]
+readSlugs: ["kingdom-of-ash-maas-1"]
+readSlugsLinks: ["[[kingdom-of-ash-maas-1]]"]
+currentRead: false
 coverSlug: "kingdom-of-ash-maas-cover"
 ---
 

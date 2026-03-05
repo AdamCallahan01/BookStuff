@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-gate-of-the-feral-gods-dinniman"
+readSlug: "the-gate-of-the-feral-gods-dinniman-1"
 book: "[[the-gate-of-the-feral-gods-dinniman]]"
 readNumber: 1
 score: 7

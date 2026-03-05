@@ -1,5 +1,6 @@
 ---
 bookSlug: "elric-of-melnibone-moorcock"
+readSlug: "elric-of-melnibone-moorcock-1"
 book: "[[elric-of-melnibone-moorcock]]"
 readNumber: 1
 score: 7

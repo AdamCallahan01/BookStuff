@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-goblin-emperor-addison"
+readSlug: "the-goblin-emperor-addison-1"
 book: "[[the-goblin-emperor-addison]]"
 readNumber: 1
 score: 1

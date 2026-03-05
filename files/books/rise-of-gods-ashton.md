@@ -17,13 +17,16 @@ subgenre: "Urban"
 isbn: "9780997173710"
 bookOwned: false
 hasSummary: false
+summarySlug: "rise-of-gods-ashton-summary"
 summarySlugLink: "[[rise-of-gods-ashton-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[rise-of-gods-ashton-1]]"]
+readSlugs: ["rise-of-gods-ashton-1"]
+readSlugsLinks: ["[[rise-of-gods-ashton-1]]"]
+currentRead: false
 coverSlug: "rise-of-gods-ashton-cover"
 ---
 

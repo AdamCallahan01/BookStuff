@@ -1,5 +1,6 @@
 ---
 bookSlug: "he-who-fights-with-monsters-shirtaloon"
+readSlug: "he-who-fights-with-monsters-shirtaloon-1"
 book: "[[he-who-fights-with-monsters-shirtaloon]]"
 readNumber: 1
 score: 5

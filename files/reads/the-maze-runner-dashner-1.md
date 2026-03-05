@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-maze-runner-dashner"
+readSlug: "the-maze-runner-dashner-1"
 book: "[[the-maze-runner-dashner]]"
 readNumber: 1
 score: 8

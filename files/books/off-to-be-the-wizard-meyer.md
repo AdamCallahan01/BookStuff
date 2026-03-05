@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/18616975-off-to-be-the-wizard?re
 isbn: "9781612184715"
 bookOwned: true
 hasSummary: false
+summarySlug: "off-to-be-the-wizard-meyer-summary"
 summarySlugLink: "[[off-to-be-the-wizard-meyer-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[off-to-be-the-wizard-meyer-1]]"]
+readSlugs: ["off-to-be-the-wizard-meyer-1"]
+readSlugsLinks: ["[[off-to-be-the-wizard-meyer-1]]"]
+currentRead: false
 coverSlug: "off-to-be-the-wizard-meyer-cover"
 ---
 

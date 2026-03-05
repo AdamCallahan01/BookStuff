@@ -1,5 +1,6 @@
 ---
 bookSlug: "one-more-last-time-ugland"
+readSlug: "one-more-last-time-ugland-1"
 book: "[[one-more-last-time-ugland]]"
 readNumber: 1
 score: 6

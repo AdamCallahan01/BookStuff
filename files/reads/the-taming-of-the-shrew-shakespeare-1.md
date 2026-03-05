@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-taming-of-the-shrew-shakespeare"
+readSlug: "the-taming-of-the-shrew-shakespeare-1"
 book: "[[the-taming-of-the-shrew-shakespeare]]"
 readNumber: 1
 score: null

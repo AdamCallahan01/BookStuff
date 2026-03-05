@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-chamber-of-secrets-rowling"
+readSlug: "harry-potter-and-the-chamber-of-secrets-rowling-3"
 book: "[[harry-potter-and-the-chamber-of-secrets-rowling]]"
 readNumber: 3
 score: 5

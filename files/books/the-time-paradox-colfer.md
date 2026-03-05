@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.16"
 isbn: "9781423108375"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-time-paradox-colfer-summary"
 summarySlugLink: "[[the-time-paradox-colfer-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-time-paradox-colfer-1]]"]
+readSlugs: ["the-time-paradox-colfer-1"]
+readSlugsLinks: ["[[the-time-paradox-colfer-1]]"]
+currentRead: false
 coverSlug: "the-time-paradox-colfer-cover"
 ---
 

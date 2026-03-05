@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/59661342-mother-of-learning?ref=
 isbn: "9781955252096"
 bookOwned: true
 hasSummary: false
+summarySlug: "mother-of-learning-arc-1-kurmaic-summary"
 summarySlugLink: "[[mother-of-learning-arc-1-kurmaic-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 2
 averageScore: 8
 allScores: [8,8]
-readSlugs: ["[[mother-of-learning-arc-1-kurmaic-1]]","[[mother-of-learning-arc-1-kurmaic-2]]"]
+readSlugs: ["mother-of-learning-arc-1-kurmaic-1","mother-of-learning-arc-1-kurmaic-2"]
+readSlugsLinks: ["[[mother-of-learning-arc-1-kurmaic-1]]","[[mother-of-learning-arc-1-kurmaic-2]]"]
+currentRead: false
 coverSlug: "mother-of-learning-arc-1-kurmaic-cover"
 ---
 

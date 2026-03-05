@@ -1,5 +1,6 @@
 ---
 bookSlug: "howl-s-moving-castle-jones"
+readSlug: "howl-s-moving-castle-jones-1"
 book: "[[howl-s-moving-castle-jones]]"
 readNumber: 1
 score: 8.5

@@ -17,13 +17,16 @@ subgenre: "Historical"
 isbn: "9780062678102"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-city-of-brass-chakraborty-summary"
 summarySlugLink: "[[the-city-of-brass-chakraborty-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-city-of-brass-chakraborty-1]]"]
+readSlugs: ["the-city-of-brass-chakraborty-1"]
+readSlugsLinks: ["[[the-city-of-brass-chakraborty-1]]"]
+currentRead: false
 coverSlug: "the-city-of-brass-chakraborty-cover"
 ---
 

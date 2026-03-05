@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-magician-s-nephew-lewis"
+readSlug: "the-magician-s-nephew-lewis-1"
 book: "[[the-magician-s-nephew-lewis]]"
 readNumber: 1
 score: 8.5

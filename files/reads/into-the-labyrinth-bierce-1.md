@@ -1,5 +1,6 @@
 ---
 bookSlug: "into-the-labyrinth-bierce"
+readSlug: "into-the-labyrinth-bierce-1"
 book: "[[into-the-labyrinth-bierce]]"
 readNumber: 1
 score: 4

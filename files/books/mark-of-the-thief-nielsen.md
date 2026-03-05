@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9780545561549"
 bookOwned: true
 hasSummary: false
+summarySlug: "mark-of-the-thief-nielsen-summary"
 summarySlugLink: "[[mark-of-the-thief-nielsen-summary]]"
 hasScore: true
 latestScore: 1.5
 readCount: 1
 averageScore: 1.5
 allScores: [1.5]
-readSlugs: ["[[mark-of-the-thief-nielsen-1]]"]
+readSlugs: ["mark-of-the-thief-nielsen-1"]
+readSlugsLinks: ["[[mark-of-the-thief-nielsen-1]]"]
+currentRead: false
 coverSlug: "mark-of-the-thief-nielsen-cover"
 ---
 

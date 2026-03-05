@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9780356504261"
 bookOwned: true
 hasSummary: true
+summarySlug: "babylon-s-ashes-corey-summary"
 summarySlugLink: "[[babylon-s-ashes-corey-summary]]"
 hasScore: true
 latestScore: 5.5
 readCount: 1
 averageScore: 5.5
 allScores: [5.5]
-readSlugs: ["[[babylon-s-ashes-corey-1]]"]
+readSlugs: ["babylon-s-ashes-corey-1"]
+readSlugsLinks: ["[[babylon-s-ashes-corey-1]]"]
+currentRead: false
 coverSlug: "babylon-s-ashes-corey-cover"
 ---
 

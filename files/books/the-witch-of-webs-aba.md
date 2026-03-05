@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108042"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-witch-of-webs-aba-summary"
 summarySlugLink: "[[the-witch-of-webs-aba-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[the-witch-of-webs-aba-1]]"]
+readSlugs: ["the-witch-of-webs-aba-1"]
+readSlugsLinks: ["[[the-witch-of-webs-aba-1]]"]
+currentRead: false
 coverSlug: "the-witch-of-webs-aba-cover"
 ---
 

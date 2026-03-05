@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-bare-hunt-ugland"
+readSlug: "the-bare-hunt-ugland-1"
 book: "[[the-bare-hunt-ugland]]"
 readNumber: 1
 score: 6.5

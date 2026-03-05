@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-book-that-broke-the-world-lawrence"
+readSlug: "the-book-that-broke-the-world-lawrence-1"
 book: "[[the-book-that-broke-the-world-lawrence]]"
 readNumber: 1
 score: 3

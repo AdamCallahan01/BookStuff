@@ -1,5 +1,6 @@
 ---
 bookSlug: "shadeslinger-kirrin"
+readSlug: "shadeslinger-kirrin-1"
 book: "[[shadeslinger-kirrin]]"
 readNumber: 1
 score: 6.5

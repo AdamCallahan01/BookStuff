@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/75178822-the-emperor-of-nihon-ja
 isbn: "9780142418598"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-emperor-of-nihon-ja-flanagan-summary"
 summarySlugLink: "[[the-emperor-of-nihon-ja-flanagan-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-emperor-of-nihon-ja-flanagan-1]]"]
+readSlugs: ["the-emperor-of-nihon-ja-flanagan-1"]
+readSlugsLinks: ["[[the-emperor-of-nihon-ja-flanagan-1]]"]
+currentRead: false
 coverSlug: "the-emperor-of-nihon-ja-flanagan-cover"
 ---
 

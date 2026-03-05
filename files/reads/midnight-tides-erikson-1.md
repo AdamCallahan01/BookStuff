@@ -1,5 +1,6 @@
 ---
 bookSlug: "midnight-tides-erikson"
+readSlug: "midnight-tides-erikson-1"
 book: "[[midnight-tides-erikson]]"
 readNumber: 1
 score: 9.5

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/29396.Furies_of_Calderon?ref=nav
 isbn: "9780441012688"
 bookOwned: true
 hasSummary: false
+summarySlug: "furies-of-calderon-butcher-summary"
 summarySlugLink: "[[furies-of-calderon-butcher-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[furies-of-calderon-butcher-1]]"]
+readSlugs: ["furies-of-calderon-butcher-1"]
+readSlugsLinks: ["[[furies-of-calderon-butcher-1]]"]
+currentRead: false
 coverSlug: "furies-of-calderon-butcher-cover"
 ---
 

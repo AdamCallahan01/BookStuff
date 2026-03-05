@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/12070.Good_Omens?ref=nav_sb_ss_1
 isbn: "9780060853976"
 bookOwned: true
 hasSummary: false
+summarySlug: "good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-summary"
 summarySlugLink: "[[good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-1]]"]
+readSlugs: ["good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-1"]
+readSlugsLinks: ["[[good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-1]]"]
+currentRead: false
 coverSlug: "good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gaiman-cover"
 ---
 

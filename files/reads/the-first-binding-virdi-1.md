@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-first-binding-virdi"
+readSlug: "the-first-binding-virdi-1"
 book: "[[the-first-binding-virdi]]"
 readNumber: 1
 score: 8

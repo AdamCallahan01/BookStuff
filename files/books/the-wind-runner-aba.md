@@ -16,13 +16,16 @@ genre: "Fantasy"
 subgenre: "Epic"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-wind-runner-aba-summary"
 summarySlugLink: "[[the-wind-runner-aba-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-wind-runner-aba-1]]"]
+readSlugs: ["the-wind-runner-aba-1"]
+readSlugsLinks: ["[[the-wind-runner-aba-1]]"]
+currentRead: false
 coverSlug: "the-wind-runner-aba-cover"
 ---
 

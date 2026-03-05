@@ -1,5 +1,6 @@
 ---
 bookSlug: "i-m-not-the-hero-kerper"
+readSlug: "i-m-not-the-hero-kerper-1"
 book: "[[i-m-not-the-hero-kerper]]"
 readNumber: 1
 score: 4.5

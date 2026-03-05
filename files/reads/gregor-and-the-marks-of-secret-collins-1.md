@@ -1,5 +1,6 @@
 ---
 bookSlug: "gregor-and-the-marks-of-secret-collins"
+readSlug: "gregor-and-the-marks-of-secret-collins-1"
 book: "[[gregor-and-the-marks-of-secret-collins]]"
 readNumber: 1
 score: 6.5

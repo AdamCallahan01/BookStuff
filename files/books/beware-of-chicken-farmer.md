@@ -17,13 +17,16 @@ subgenre: "Cozy"
 isbn: "9781039413993"
 bookOwned: true
 hasSummary: false
+summarySlug: "beware-of-chicken-farmer-summary"
 summarySlugLink: "[[beware-of-chicken-farmer-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[beware-of-chicken-farmer-1]]"]
+readSlugs: ["beware-of-chicken-farmer-1"]
+readSlugsLinks: ["[[beware-of-chicken-farmer-1]]"]
+currentRead: false
 coverSlug: "beware-of-chicken-farmer-cover"
 ---
 

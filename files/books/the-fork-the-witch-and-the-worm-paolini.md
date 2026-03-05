@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/26152839-the-fork-the-witch-and-
 isbn: "9781984894885"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-fork-the-witch-and-the-worm-paolini-summary"
 summarySlugLink: "[[the-fork-the-witch-and-the-worm-paolini-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-fork-the-witch-and-the-worm-paolini-1]]"]
+readSlugs: ["the-fork-the-witch-and-the-worm-paolini-1"]
+readSlugsLinks: ["[[the-fork-the-witch-and-the-worm-paolini-1]]"]
+currentRead: false
 coverSlug: "the-fork-the-witch-and-the-worm-paolini-cover"
 ---
 

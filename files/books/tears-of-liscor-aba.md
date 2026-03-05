@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108004"
 bookOwned: false
 hasSummary: false
+summarySlug: "tears-of-liscor-aba-summary"
 summarySlugLink: "[[tears-of-liscor-aba-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[tears-of-liscor-aba-1]]"]
+readSlugs: ["tears-of-liscor-aba-1"]
+readSlugsLinks: ["[[tears-of-liscor-aba-1]]"]
+currentRead: false
 coverSlug: "tears-of-liscor-aba-cover"
 ---
 

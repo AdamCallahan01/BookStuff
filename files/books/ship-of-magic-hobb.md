@@ -18,13 +18,16 @@ isbn: "9780006498858"
 narrator: "Anne Flosnik"
 bookOwned: true
 hasSummary: true
+summarySlug: "ship-of-magic-hobb-summary"
 summarySlugLink: "[[ship-of-magic-hobb-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[ship-of-magic-hobb-1]]"]
+readSlugs: ["ship-of-magic-hobb-1"]
+readSlugsLinks: ["[[ship-of-magic-hobb-1]]"]
+currentRead: false
 coverSlug: "ship-of-magic-hobb-cover"
 ---
 

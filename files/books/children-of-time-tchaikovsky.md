@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9781447273288"
 bookOwned: true
 hasSummary: true
+summarySlug: "children-of-time-tchaikovsky-summary"
 summarySlugLink: "[[children-of-time-tchaikovsky-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[children-of-time-tchaikovsky-1]]"]
+readSlugs: ["children-of-time-tchaikovsky-1"]
+readSlugsLinks: ["[[children-of-time-tchaikovsky-1]]"]
+currentRead: false
 coverSlug: "children-of-time-tchaikovsky-cover"
 ---
 

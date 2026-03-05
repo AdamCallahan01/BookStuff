@@ -1,5 +1,6 @@
 ---
 bookSlug: "jane-eyre-bronte"
+readSlug: "jane-eyre-bronte-1"
 book: "[[jane-eyre-bronte]]"
 readNumber: 1
 score: 8

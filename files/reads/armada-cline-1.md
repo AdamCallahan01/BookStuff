@@ -1,5 +1,6 @@
 ---
 bookSlug: "armada-cline"
+readSlug: "armada-cline-1"
 book: "[[armada-cline]]"
 readNumber: 1
 score: 6.5

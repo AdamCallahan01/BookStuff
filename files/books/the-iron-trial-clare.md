@@ -14,13 +14,16 @@ avgGoodreadsRating: "7.92"
 isbn: "9780545522250"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-iron-trial-clare-summary"
 summarySlugLink: "[[the-iron-trial-clare-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[the-iron-trial-clare-1]]"]
+readSlugs: ["the-iron-trial-clare-1"]
+readSlugsLinks: ["[[the-iron-trial-clare-1]]"]
+currentRead: false
 coverSlug: "the-iron-trial-clare-cover"
 ---
 

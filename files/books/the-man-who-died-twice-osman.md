@@ -17,13 +17,16 @@ subgenre: "Humor"
 isbn: "9780241425428"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-man-who-died-twice-osman-summary"
 summarySlugLink: "[[the-man-who-died-twice-osman-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[the-man-who-died-twice-osman-1]]"]
+readSlugs: ["the-man-who-died-twice-osman-1"]
+readSlugsLinks: ["[[the-man-who-died-twice-osman-1]]"]
+currentRead: false
 coverSlug: "the-man-who-died-twice-osman-cover"
 ---
 

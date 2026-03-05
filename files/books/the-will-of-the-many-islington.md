@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.28"
 isbn: "9781982141196"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-will-of-the-many-islington-summary"
 summarySlugLink: "[[the-will-of-the-many-islington-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 2
 averageScore: 10
 allScores: [10,10]
-readSlugs: ["[[the-will-of-the-many-islington-1]]","[[the-will-of-the-many-islington-2]]"]
+readSlugs: ["the-will-of-the-many-islington-1","the-will-of-the-many-islington-2"]
+readSlugsLinks: ["[[the-will-of-the-many-islington-1]]","[[the-will-of-the-many-islington-2]]"]
+currentRead: false
 coverSlug: "the-will-of-the-many-islington-cover"
 ---
 

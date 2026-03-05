@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/9969571-ready-player-one?ref=nav
 isbn: "9780307887436"
 bookOwned: true
 hasSummary: false
+summarySlug: "ready-player-one-cline-summary"
 summarySlugLink: "[[ready-player-one-cline-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 3
 averageScore: 7.83
 allScores: [9,7.5,7]
-readSlugs: ["[[ready-player-one-cline-1]]","[[ready-player-one-cline-2]]","[[ready-player-one-cline-3]]"]
+readSlugs: ["ready-player-one-cline-1","ready-player-one-cline-2","ready-player-one-cline-3"]
+readSlugsLinks: ["[[ready-player-one-cline-1]]","[[ready-player-one-cline-2]]","[[ready-player-one-cline-3]]"]
+currentRead: false
 coverSlug: "ready-player-one-cline-cover"
 ---
 

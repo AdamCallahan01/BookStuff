@@ -1,5 +1,6 @@
 ---
 bookSlug: "soulsmith-wight"
+readSlug: "soulsmith-wight-1"
 book: "[[soulsmith-wight]]"
 readNumber: 1
 score: 7

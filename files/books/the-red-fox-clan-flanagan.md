@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/38888254-the-red-fox-clan"
 isbn: "9781524741389"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-red-fox-clan-flanagan-summary"
 summarySlugLink: "[[the-red-fox-clan-flanagan-summary]]"
 hasScore: true
 latestScore: 4.5
 readCount: 1
 averageScore: 4.5
 allScores: [4.5]
-readSlugs: ["[[the-red-fox-clan-flanagan-1]]"]
+readSlugs: ["the-red-fox-clan-flanagan-1"]
+readSlugsLinks: ["[[the-red-fox-clan-flanagan-1]]"]
+currentRead: false
 coverSlug: "the-red-fox-clan-flanagan-cover"
 ---
 

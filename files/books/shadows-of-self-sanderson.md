@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/22887640-shadows-of-self"
 isbn: "9781473208223"
 bookOwned: true
 hasSummary: false
+summarySlug: "shadows-of-self-sanderson-summary"
 summarySlugLink: "[[shadows-of-self-sanderson-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[shadows-of-self-sanderson-1]]"]
+readSlugs: ["shadows-of-self-sanderson-1"]
+readSlugsLinks: ["[[shadows-of-self-sanderson-1]]"]
+currentRead: false
 coverSlug: "shadows-of-self-sanderson-cover"
 ---
 

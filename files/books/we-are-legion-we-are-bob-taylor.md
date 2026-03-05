@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.56"
 isbn: "9781680680584"
 bookOwned: true
 hasSummary: false
+summarySlug: "we-are-legion-we-are-bob-taylor-summary"
 summarySlugLink: "[[we-are-legion-we-are-bob-taylor-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[we-are-legion-we-are-bob-taylor-1]]"]
+readSlugs: ["we-are-legion-we-are-bob-taylor-1"]
+readSlugsLinks: ["[[we-are-legion-we-are-bob-taylor-1]]"]
+currentRead: false
 coverSlug: "we-are-legion-we-are-bob-taylor-cover"
 ---
 

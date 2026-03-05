@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/34314712-the-fifth-season"
 isbn: "9780316229296"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-fifth-season-jemisin-summary"
 summarySlugLink: "[[the-fifth-season-jemisin-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[the-fifth-season-jemisin-1]]"]
+readSlugs: ["the-fifth-season-jemisin-1"]
+readSlugsLinks: ["[[the-fifth-season-jemisin-1]]"]
+currentRead: false
 coverSlug: "the-fifth-season-jemisin-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "project-hail-mary-weir"
+readSlug: "project-hail-mary-weir-1"
 book: "[[project-hail-mary-weir]]"
 readNumber: 1
 score: 8.5

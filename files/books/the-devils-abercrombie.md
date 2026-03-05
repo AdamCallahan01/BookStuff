@@ -17,13 +17,16 @@ subgenre: "Adult"
 isbn: "9781250880055"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-devils-abercrombie-summary"
 summarySlugLink: "[[the-devils-abercrombie-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-devils-abercrombie-1]]"]
+readSlugs: ["the-devils-abercrombie-1"]
+readSlugsLinks: ["[[the-devils-abercrombie-1]]"]
+currentRead: false
 coverSlug: "the-devils-abercrombie-cover"
 ---
 

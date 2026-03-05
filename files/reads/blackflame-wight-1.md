@@ -1,5 +1,6 @@
 ---
 bookSlug: "blackflame-wight"
+readSlug: "blackflame-wight-1"
 book: "[[blackflame-wight]]"
 readNumber: 1
 score: 7.5

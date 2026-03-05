@@ -1,5 +1,6 @@
 ---
 bookSlug: "all-s-well-that-end-s-well-shakespeare"
+readSlug: "all-s-well-that-end-s-well-shakespeare-1"
 book: "[[all-s-well-that-end-s-well-shakespeare]]"
 readNumber: 1
 score: null

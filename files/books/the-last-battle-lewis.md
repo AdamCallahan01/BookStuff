@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/587318.The_Last_Battle"
 isbn: "9780064471084"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-last-battle-lewis-summary"
 summarySlugLink: "[[the-last-battle-lewis-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-last-battle-lewis-1]]"]
+readSlugs: ["the-last-battle-lewis-1"]
+readSlugsLinks: ["[[the-last-battle-lewis-1]]"]
+currentRead: false
 coverSlug: "the-last-battle-lewis-cover"
 ---
 

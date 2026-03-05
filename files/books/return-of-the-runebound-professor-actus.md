@@ -18,13 +18,16 @@ isbn: "9798883124913"
 narrator: "Ramon De Ocampo"
 bookOwned: true
 hasSummary: true
+summarySlug: "return-of-the-runebound-professor-actus-summary"
 summarySlugLink: "[[return-of-the-runebound-professor-actus-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[return-of-the-runebound-professor-actus-1]]"]
+readSlugs: ["return-of-the-runebound-professor-actus-1"]
+readSlugsLinks: ["[[return-of-the-runebound-professor-actus-1]]"]
+currentRead: false
 coverSlug: "return-of-the-runebound-professor-actus-cover"
 ---
 

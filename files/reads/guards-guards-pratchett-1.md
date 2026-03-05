@@ -1,5 +1,6 @@
 ---
 bookSlug: "guards-guards-pratchett"
+readSlug: "guards-guards-pratchett-1"
 book: "[[guards-guards-pratchett]]"
 readNumber: 1
 score: 8.5

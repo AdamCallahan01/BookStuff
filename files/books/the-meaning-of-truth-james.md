@@ -17,10 +17,13 @@ subgenre: "Philosophy"
 isbn: "9781573921381"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-meaning-of-truth-james-summary"
 summarySlugLink: "[[the-meaning-of-truth-james-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-meaning-of-truth-james-1]]"]
+readSlugs: ["the-meaning-of-truth-james-1"]
+readSlugsLinks: ["[[the-meaning-of-truth-james-1]]"]
+currentRead: false
 coverSlug: "the-meaning-of-truth-james-cover"
 ---
 

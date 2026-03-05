@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780593046357"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-crippled-god-erikson-summary"
 summarySlugLink: "[[the-crippled-god-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-crippled-god-erikson-1]]"]
+readSlugs: ["the-crippled-god-erikson-1"]
+readSlugsLinks: ["[[the-crippled-god-erikson-1]]"]
+currentRead: false
 coverSlug: "the-crippled-god-erikson-cover"
 ---
 

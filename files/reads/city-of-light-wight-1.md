@@ -1,5 +1,6 @@
 ---
 bookSlug: "city-of-light-wight"
+readSlug: "city-of-light-wight-1"
 book: "[[city-of-light-wight]]"
 readNumber: 1
 score: 3

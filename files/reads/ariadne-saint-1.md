@@ -1,5 +1,6 @@
 ---
 bookSlug: "ariadne-saint"
+readSlug: "ariadne-saint-1"
 book: "[[ariadne-saint]]"
 readNumber: 1
 score: 1.5

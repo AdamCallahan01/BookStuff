@@ -1,5 +1,6 @@
 ---
 bookSlug: "abaddon-s-gate-corey"
+summarySlug: "abaddon-s-gate-corey-summary"
 book: "[[abaddon-s-gate-corey]]"
 ---
 

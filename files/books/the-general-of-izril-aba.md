@@ -16,13 +16,16 @@ genre: "Fantasy"
 subgenre: "Epic"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-general-of-izril-aba-summary"
 summarySlugLink: "[[the-general-of-izril-aba-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-general-of-izril-aba-1]]"]
+readSlugs: ["the-general-of-izril-aba-1"]
+readSlugsLinks: ["[[the-general-of-izril-aba-1]]"]
+currentRead: false
 coverSlug: "the-general-of-izril-aba-cover"
 ---
 

@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780007562268"
 bookOwned: true
 hasSummary: false
+summarySlug: "royal-assassin-hobb-summary"
 summarySlugLink: "[[royal-assassin-hobb-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[royal-assassin-hobb-1]]"]
+readSlugs: ["royal-assassin-hobb-1"]
+readSlugsLinks: ["[[royal-assassin-hobb-1]]"]
+currentRead: false
 coverSlug: "royal-assassin-hobb-cover"
 ---
 

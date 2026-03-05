@@ -1,5 +1,6 @@
 ---
 bookSlug: "ghostwater-wight"
+readSlug: "ghostwater-wight-1"
 book: "[[ghostwater-wight]]"
 readNumber: 1
 score: 8

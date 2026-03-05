@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-lost-heir-sutherland"
+readSlug: "the-lost-heir-sutherland-1"
 book: "[[the-lost-heir-sutherland]]"
 readNumber: 1
 score: 4.5

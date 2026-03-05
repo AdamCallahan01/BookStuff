@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.96"
 isbn: "9780553813159"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-bonehunters-erikson-summary"
 summarySlugLink: "[[the-bonehunters-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-bonehunters-erikson-1]]"]
+readSlugs: ["the-bonehunters-erikson-1"]
+readSlugsLinks: ["[[the-bonehunters-erikson-1]]"]
+currentRead: false
 coverSlug: "the-bonehunters-erikson-cover"
 ---
 

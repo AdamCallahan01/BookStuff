@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-poppy-war-kuang"
+readSlug: "the-poppy-war-kuang-1"
 book: "[[the-poppy-war-kuang]]"
 readNumber: 1
 score: 6

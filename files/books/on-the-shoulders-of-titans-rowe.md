@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781982931421"
 bookOwned: true
 hasSummary: false
+summarySlug: "on-the-shoulders-of-titans-rowe-summary"
 summarySlugLink: "[[on-the-shoulders-of-titans-rowe-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[on-the-shoulders-of-titans-rowe-1]]"]
+readSlugs: ["on-the-shoulders-of-titans-rowe-1"]
+readSlugsLinks: ["[[on-the-shoulders-of-titans-rowe-1]]"]
+currentRead: false
 coverSlug: "on-the-shoulders-of-titans-rowe-cover"
 ---
 

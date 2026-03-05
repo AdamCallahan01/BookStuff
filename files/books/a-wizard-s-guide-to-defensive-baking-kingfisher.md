@@ -17,13 +17,16 @@ subgenre: "Cozy"
 isbn: "9781614505242"
 bookOwned: false
 hasSummary: false
+summarySlug: "a-wizard-s-guide-to-defensive-baking-kingfisher-summary"
 summarySlugLink: "[[a-wizard-s-guide-to-defensive-baking-kingfisher-summary]]"
 hasScore: true
 latestScore: 3.5
 readCount: 1
 averageScore: 3.5
 allScores: [3.5]
-readSlugs: ["[[a-wizard-s-guide-to-defensive-baking-kingfisher-1]]"]
+readSlugs: ["a-wizard-s-guide-to-defensive-baking-kingfisher-1"]
+readSlugsLinks: ["[[a-wizard-s-guide-to-defensive-baking-kingfisher-1]]"]
+currentRead: false
 coverSlug: "a-wizard-s-guide-to-defensive-baking-kingfisher-cover"
 ---
 

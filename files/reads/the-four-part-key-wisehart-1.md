@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-four-part-key-wisehart"
+readSlug: "the-four-part-key-wisehart-1"
 book: "[[the-four-part-key-wisehart]]"
 readNumber: 1
 score: 8.5

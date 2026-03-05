@@ -1,5 +1,6 @@
 ---
 bookSlug: "shackled-wisehart"
+readSlug: "shackled-wisehart-1"
 book: "[[shackled-wisehart]]"
 readNumber: 1
 score: 7

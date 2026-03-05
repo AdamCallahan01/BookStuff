@@ -10,13 +10,16 @@ pages: 184
 goodreads: "https://www.goodreads.com/book/show/38469951-shackled"
 bookOwned: false
 hasSummary: false
+summarySlug: "shackled-wisehart-summary"
 summarySlugLink: "[[shackled-wisehart-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[shackled-wisehart-1]]"]
+readSlugs: ["shackled-wisehart-1"]
+readSlugsLinks: ["[[shackled-wisehart-1]]"]
+currentRead: false
 coverSlug: "shackled-wisehart-cover"
 ---
 

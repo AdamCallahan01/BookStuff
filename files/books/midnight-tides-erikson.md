@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.84"
 isbn: "9780553813142"
 bookOwned: true
 hasSummary: false
+summarySlug: "midnight-tides-erikson-summary"
 summarySlugLink: "[[midnight-tides-erikson-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[midnight-tides-erikson-1]]"]
+readSlugs: ["midnight-tides-erikson-1"]
+readSlugsLinks: ["[[midnight-tides-erikson-1]]"]
+currentRead: false
 coverSlug: "midnight-tides-erikson-cover"
 ---
 

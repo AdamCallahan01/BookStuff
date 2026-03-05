@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/26082916-ready-player-two?ref=na
 isbn: "9781524761332"
 bookOwned: true
 hasSummary: false
+summarySlug: "ready-player-two-cline-summary"
 summarySlugLink: "[[ready-player-two-cline-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[ready-player-two-cline-1]]"]
+readSlugs: ["ready-player-two-cline-1"]
+readSlugsLinks: ["[[ready-player-two-cline-1]]"]
+currentRead: false
 coverSlug: "ready-player-two-cline-cover"
 ---
 

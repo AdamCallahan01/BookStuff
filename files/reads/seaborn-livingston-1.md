@@ -1,5 +1,6 @@
 ---
 bookSlug: "seaborn-livingston"
+readSlug: "seaborn-livingston-1"
 book: "[[seaborn-livingston]]"
 readNumber: 1
 score: 5

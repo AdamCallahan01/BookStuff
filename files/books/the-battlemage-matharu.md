@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/30335482-the-battlemage"
 isbn: "9781444924275"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-battlemage-matharu-summary"
 summarySlugLink: "[[the-battlemage-matharu-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-battlemage-matharu-1]]"]
+readSlugs: ["the-battlemage-matharu-1"]
+readSlugsLinks: ["[[the-battlemage-matharu-1]]"]
+currentRead: false
 coverSlug: "the-battlemage-matharu-cover"
 ---
 

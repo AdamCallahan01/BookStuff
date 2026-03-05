@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-iron-trial-clare"
+readSlug: "the-iron-trial-clare-1"
 book: "[[the-iron-trial-clare]]"
 readNumber: 1
 score: 5

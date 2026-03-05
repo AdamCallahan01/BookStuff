@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-strength-of-the-few-islington"
+summarySlug: "the-strength-of-the-few-islington-summary"
 book: "[[the-strength-of-the-few-islington]]"
 ---
 

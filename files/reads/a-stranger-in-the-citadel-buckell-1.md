@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-stranger-in-the-citadel-buckell"
+readSlug: "a-stranger-in-the-citadel-buckell-1"
 book: "[[a-stranger-in-the-citadel-buckell]]"
 readNumber: 1
 score: 7

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/37534833-oathbringer"
 isbn: "9781250297143"
 bookOwned: true
 hasSummary: false
+summarySlug: "oathbringer-sanderson-summary"
 summarySlugLink: "[[oathbringer-sanderson-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 2
 averageScore: 9.25
 allScores: [9.5,9]
-readSlugs: ["[[oathbringer-sanderson-1]]","[[oathbringer-sanderson-2]]"]
+readSlugs: ["oathbringer-sanderson-1","oathbringer-sanderson-2"]
+readSlugsLinks: ["[[oathbringer-sanderson-1]]","[[oathbringer-sanderson-2]]"]
+currentRead: false
 coverSlug: "oathbringer-sanderson-cover"
 ---
 

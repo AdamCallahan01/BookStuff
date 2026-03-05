@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-lightning-thief-riordan"
+readSlug: "the-lightning-thief-riordan-1"
 book: "[[the-lightning-thief-riordan]]"
 readNumber: 1
 score: 7.5

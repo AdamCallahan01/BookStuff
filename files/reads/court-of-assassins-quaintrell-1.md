@@ -1,5 +1,6 @@
 ---
 bookSlug: "court-of-assassins-quaintrell"
+readSlug: "court-of-assassins-quaintrell-1"
 book: "[[court-of-assassins-quaintrell]]"
 readNumber: 1
 score: 6

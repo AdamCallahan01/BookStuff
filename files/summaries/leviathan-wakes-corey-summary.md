@@ -1,5 +1,6 @@
 ---
 bookSlug: "leviathan-wakes-corey"
+summarySlug: "leviathan-wakes-corey-summary"
 book: "[[leviathan-wakes-corey]]"
 ---
 

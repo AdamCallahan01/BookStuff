@@ -1,5 +1,6 @@
 ---
 bookSlug: "wind-and-truth-sanderson"
+readSlug: "wind-and-truth-sanderson-1"
 book: "[[wind-and-truth-sanderson]]"
 readNumber: 1
 score: 7

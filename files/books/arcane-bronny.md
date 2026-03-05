@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/23617581-arcane"
 isbn: "9780993767609"
 bookOwned: true
 hasSummary: false
+summarySlug: "arcane-bronny-summary"
 summarySlugLink: "[[arcane-bronny-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 2
 averageScore: 6.5
 allScores: [7,6]
-readSlugs: ["[[arcane-bronny-1]]","[[arcane-bronny-2]]"]
+readSlugs: ["arcane-bronny-1","arcane-bronny-2"]
+readSlugsLinks: ["[[arcane-bronny-1]]","[[arcane-bronny-2]]"]
+currentRead: false
 coverSlug: "arcane-bronny-cover"
 ---
 

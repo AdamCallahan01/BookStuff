@@ -13,13 +13,16 @@ goodreads: "https://www.goodreads.com/book/show/58960282-the-wandering-inn"
 avgGoodreadsRating: "9.12"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-last-light-aba-summary"
 summarySlugLink: "[[the-last-light-aba-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[the-last-light-aba-1]]"]
+readSlugs: ["the-last-light-aba-1"]
+readSlugsLinks: ["[[the-last-light-aba-1]]"]
+currentRead: false
 coverSlug: "the-last-light-aba-cover"
 ---
 

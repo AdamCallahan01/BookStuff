@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/21535271-the-slow-regard-of-sile
 isbn: "9780756410438"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-slow-regard-of-silent-things-rothfuss-summary"
 summarySlugLink: "[[the-slow-regard-of-silent-things-rothfuss-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[the-slow-regard-of-silent-things-rothfuss-1]]"]
+readSlugs: ["the-slow-regard-of-silent-things-rothfuss-1"]
+readSlugsLinks: ["[[the-slow-regard-of-silent-things-rothfuss-1]]"]
+currentRead: false
 coverSlug: "the-slow-regard-of-silent-things-rothfuss-cover"
 ---
 

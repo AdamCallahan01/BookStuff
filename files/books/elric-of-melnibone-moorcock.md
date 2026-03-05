@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/30036.Elric_of_Melnibon_?ref=nav
 isbn: "9780441203987"
 bookOwned: true
 hasSummary: false
+summarySlug: "elric-of-melnibone-moorcock-summary"
 summarySlugLink: "[[elric-of-melnibone-moorcock-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[elric-of-melnibone-moorcock-1]]"]
+readSlugs: ["elric-of-melnibone-moorcock-1"]
+readSlugsLinks: ["[[elric-of-melnibone-moorcock-1]]"]
+currentRead: false
 coverSlug: "elric-of-melnibone-moorcock-cover"
 ---
 

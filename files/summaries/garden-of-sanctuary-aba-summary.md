@@ -1,5 +1,6 @@
 ---
 bookSlug: "garden-of-sanctuary-aba"
+summarySlug: "garden-of-sanctuary-aba-summary"
 book: "[[garden-of-sanctuary-aba]]"
 ---
 

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/44652.Fablehaven?ref=nav_sb_ss_1
 isbn: "9781590385814"
 bookOwned: true
 hasSummary: false
+summarySlug: "fablehaven-mull-summary"
 summarySlugLink: "[[fablehaven-mull-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[fablehaven-mull-1]]"]
+readSlugs: ["fablehaven-mull-1"]
+readSlugsLinks: ["[[fablehaven-mull-1]]"]
+currentRead: false
 coverSlug: "fablehaven-mull-cover"
 ---
 

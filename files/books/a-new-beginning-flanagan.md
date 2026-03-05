@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/41015844-the-royal-ranger"
 isbn: "9781101638613"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-new-beginning-flanagan-summary"
 summarySlugLink: "[[a-new-beginning-flanagan-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[a-new-beginning-flanagan-1]]"]
+readSlugs: ["a-new-beginning-flanagan-1"]
+readSlugsLinks: ["[[a-new-beginning-flanagan-1]]"]
+currentRead: false
 coverSlug: "a-new-beginning-flanagan-cover"
 ---
 

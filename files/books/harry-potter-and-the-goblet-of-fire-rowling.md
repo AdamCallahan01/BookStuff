@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of
 isbn: "9780439139595"
 bookOwned: true
 hasSummary: false
+summarySlug: "harry-potter-and-the-goblet-of-fire-rowling-summary"
 summarySlugLink: "[[harry-potter-and-the-goblet-of-fire-rowling-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 3
 averageScore: 5.83
 allScores: [6.5,6,5]
-readSlugs: ["[[harry-potter-and-the-goblet-of-fire-rowling-1]]","[[harry-potter-and-the-goblet-of-fire-rowling-2]]","[[harry-potter-and-the-goblet-of-fire-rowling-3]]"]
+readSlugs: ["harry-potter-and-the-goblet-of-fire-rowling-1","harry-potter-and-the-goblet-of-fire-rowling-2","harry-potter-and-the-goblet-of-fire-rowling-3"]
+readSlugsLinks: ["[[harry-potter-and-the-goblet-of-fire-rowling-1]]","[[harry-potter-and-the-goblet-of-fire-rowling-2]]","[[harry-potter-and-the-goblet-of-fire-rowling-3]]"]
+currentRead: false
 coverSlug: "harry-potter-and-the-goblet-of-fire-rowling-cover"
 ---
 

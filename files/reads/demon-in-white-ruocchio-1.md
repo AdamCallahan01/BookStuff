@@ -1,5 +1,6 @@
 ---
 bookSlug: "demon-in-white-ruocchio"
+readSlug: "demon-in-white-ruocchio-1"
 book: "[[demon-in-white-ruocchio]]"
 readNumber: 1
 score: 10

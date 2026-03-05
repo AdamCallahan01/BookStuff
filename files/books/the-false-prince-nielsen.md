@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.46"
 isbn: "9780545284134"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-false-prince-nielsen-summary"
 summarySlugLink: "[[the-false-prince-nielsen-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-false-prince-nielsen-1]]"]
+readSlugs: ["the-false-prince-nielsen-1"]
+readSlugsLinks: ["[[the-false-prince-nielsen-1]]"]
+currentRead: false
 coverSlug: "the-false-prince-nielsen-cover"
 ---
 

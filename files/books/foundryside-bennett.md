@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/37173847-foundryside?ref=nav_sb_
 isbn: "9781524760373"
 bookOwned: true
 hasSummary: false
+summarySlug: "foundryside-bennett-summary"
 summarySlugLink: "[[foundryside-bennett-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[foundryside-bennett-1]]"]
+readSlugs: ["foundryside-bennett-1"]
+readSlugsLinks: ["[[foundryside-bennett-1]]"]
+currentRead: false
 coverSlug: "foundryside-bennett-cover"
 ---
 

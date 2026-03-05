@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/76713323-empire-of-storms"
 isbn: "9781639731022"
 bookOwned: true
 hasSummary: false
+summarySlug: "empire-of-storms-maas-summary"
 summarySlugLink: "[[empire-of-storms-maas-summary]]"
 hasScore: true
 latestScore: 5.5
 readCount: 1
 averageScore: 5.5
 allScores: [5.5]
-readSlugs: ["[[empire-of-storms-maas-1]]"]
+readSlugs: ["empire-of-storms-maas-1"]
+readSlugsLinks: ["[[empire-of-storms-maas-1]]"]
+currentRead: false
 coverSlug: "empire-of-storms-maas-cover"
 ---
 

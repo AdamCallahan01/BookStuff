@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.62"
 isbn: "9780812550702"
 bookOwned: true
 hasSummary: false
+summarySlug: "ender-s-game-card-summary"
 summarySlugLink: "[[ender-s-game-card-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[ender-s-game-card-1]]"]
+readSlugs: ["ender-s-game-card-1"]
+readSlugsLinks: ["[[ender-s-game-card-1]]"]
+currentRead: false
 coverSlug: "ender-s-game-card-cover"
 ---
 

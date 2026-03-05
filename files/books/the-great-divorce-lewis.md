@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/1387600.The_Great_Divorce"
 isbn: "9780020868903"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-great-divorce-lewis-summary"
 summarySlugLink: "[[the-great-divorce-lewis-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-great-divorce-lewis-1]]"]
+readSlugs: ["the-great-divorce-lewis-1"]
+readSlugsLinks: ["[[the-great-divorce-lewis-1]]"]
+currentRead: false
 coverSlug: "the-great-divorce-lewis-cover"
 ---
 

@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9781423161615"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-last-guardian-colfer-summary"
 summarySlugLink: "[[the-last-guardian-colfer-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[the-last-guardian-colfer-1]]"]
+readSlugs: ["the-last-guardian-colfer-1"]
+readSlugsLinks: ["[[the-last-guardian-colfer-1]]"]
+currentRead: false
 coverSlug: "the-last-guardian-colfer-cover"
 ---
 

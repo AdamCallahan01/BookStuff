@@ -14,13 +14,16 @@ avgGoodreadsRating: "9.2"
 isbn: "9780316187244"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-wisdom-of-crowds-abercrombie-summary"
 summarySlugLink: "[[the-wisdom-of-crowds-abercrombie-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[the-wisdom-of-crowds-abercrombie-1]]"]
+readSlugs: ["the-wisdom-of-crowds-abercrombie-1"]
+readSlugsLinks: ["[[the-wisdom-of-crowds-abercrombie-1]]"]
+currentRead: false
 coverSlug: "the-wisdom-of-crowds-abercrombie-cover"
 ---
 

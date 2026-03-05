@@ -1,5 +1,6 @@
 ---
 bookSlug: "sanctuary-thorne"
+readSlug: "sanctuary-thorne-2"
 book: "[[sanctuary-thorne]]"
 readNumber: 2
 score: 4

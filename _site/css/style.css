@@ -7,6 +7,9 @@ body {
 
 /* Header / Top Bar */
 .site-header {
+  position: sticky;   /* sticks at top */
+  top: 0;             /* position at top of viewport */
+  z-index: 1000;      /* make sure it stays above content */
   background: #333;
   color: #fff;
   padding: 1rem;
@@ -98,4 +101,99 @@ main {
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 0.8rem;
+}
+
+/* individual book style */
+/* Main container */
+.book-main-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Book Header */
+.book-header {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Book Cover */
+.book-cover {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+/* Book Info */
+.book-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Collapsible sections */
+.book-reads-section details,
+.book-summary-section details {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  background: #f0f8ff;
+  transition: background 0.2s;
+}
+
+.book-read-summary,
+.book-summary-summary {
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  position: relative;
+}
+
+.book-read-summary:after,
+.book-summary-summary:after {
+  content: " ▶";
+  position: absolute;
+  right: 0;
+  transition: transform 0.2s;
+}
+
+.book-read-entry[open] .book-read-summary:after,
+.book-summary-entry[open] .book-summary-summary:after {
+  transform: rotate(90deg);
+}
+
+.book-read-content,
+.book-summary-content {
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  line-height: 1.4;
+}
+
+/* Minor style for links */
+a {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

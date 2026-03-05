@@ -1,5 +1,6 @@
 ---
 bookSlug: "shadows-upon-time-ruocchio"
+readSlug: "shadows-upon-time-ruocchio-1"
 book: "[[shadows-upon-time-ruocchio]]"
 readNumber: 1
 score: 10

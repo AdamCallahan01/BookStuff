@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/55399.Gardens_of_the_Moon?from_s
 isbn: "9780765348784"
 bookOwned: true
 hasSummary: false
+summarySlug: "gardens-of-the-moon-erikson-summary"
 summarySlugLink: "[[gardens-of-the-moon-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 2
 averageScore: 9.75
 allScores: [9.5,10]
-readSlugs: ["[[gardens-of-the-moon-erikson-1]]","[[gardens-of-the-moon-erikson-2]]"]
+readSlugs: ["gardens-of-the-moon-erikson-1","gardens-of-the-moon-erikson-2"]
+readSlugsLinks: ["[[gardens-of-the-moon-erikson-1]]","[[gardens-of-the-moon-erikson-2]]"]
+currentRead: false
 coverSlug: "gardens-of-the-moon-erikson-cover"
 ---
 

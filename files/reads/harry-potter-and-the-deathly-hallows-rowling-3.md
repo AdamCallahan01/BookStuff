@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-deathly-hallows-rowling"
+readSlug: "harry-potter-and-the-deathly-hallows-rowling-3"
 book: "[[harry-potter-and-the-deathly-hallows-rowling]]"
 readNumber: 3
 score: 6.5

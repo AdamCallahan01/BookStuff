@@ -11,10 +11,13 @@ goodreads: "https://www.goodreads.com/book/show/520990.Bury_My_Heart_at_Fun_Fun_
 isbn: "9780836217063"
 bookOwned: true
 hasSummary: false
+summarySlug: "bury-my-heart-at-fun-fun-mountain-amend-summary"
 summarySlugLink: "[[bury-my-heart-at-fun-fun-mountain-amend-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[bury-my-heart-at-fun-fun-mountain-amend-1]]"]
+readSlugs: ["bury-my-heart-at-fun-fun-mountain-amend-1"]
+readSlugsLinks: ["[[bury-my-heart-at-fun-fun-mountain-amend-1]]"]
+currentRead: false
 coverSlug: "bury-my-heart-at-fun-fun-mountain-amend-cover"
 ---
 

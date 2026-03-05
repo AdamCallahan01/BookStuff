@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/237087061-court-of-assassins"
 isbn: "9781916610408"
 bookOwned: true
 hasSummary: false
+summarySlug: "court-of-assassins-quaintrell-summary"
 summarySlugLink: "[[court-of-assassins-quaintrell-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[court-of-assassins-quaintrell-1]]"]
+readSlugs: ["court-of-assassins-quaintrell-1"]
+readSlugsLinks: ["[[court-of-assassins-quaintrell-1]]"]
+currentRead: false
 coverSlug: "court-of-assassins-quaintrell-cover"
 ---
 

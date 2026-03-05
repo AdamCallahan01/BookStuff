@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-bullet-that-missed-osman"
+readSlug: "the-bullet-that-missed-osman-1"
 book: "[[the-bullet-that-missed-osman]]"
 readNumber: 1
 format: "Book"

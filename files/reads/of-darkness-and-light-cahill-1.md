@@ -1,5 +1,6 @@
 ---
 bookSlug: "of-darkness-and-light-cahill"
+readSlug: "of-darkness-and-light-cahill-1"
 book: "[[of-darkness-and-light-cahill]]"
 readNumber: 1
 score: 8

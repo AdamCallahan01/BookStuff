@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/44279344-dungeon-world"
 isbn: "9781798039977"
 bookOwned: false
 hasSummary: false
+summarySlug: "dungeon-world-brooks-summary"
 summarySlugLink: "[[dungeon-world-brooks-summary]]"
 hasScore: true
 latestScore: 0
 readCount: 1
 averageScore: 0
 allScores: [0]
-readSlugs: ["[[dungeon-world-brooks-1]]"]
+readSlugs: ["dungeon-world-brooks-1"]
+readSlugsLinks: ["[[dungeon-world-brooks-1]]"]
+currentRead: false
 coverSlug: "dungeon-world-brooks-cover"
 ---
 

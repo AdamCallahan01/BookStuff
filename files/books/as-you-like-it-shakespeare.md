@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.62"
 isbn: "9780743484862"
 bookOwned: true
 hasSummary: false
+summarySlug: "as-you-like-it-shakespeare-summary"
 summarySlugLink: "[[as-you-like-it-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[as-you-like-it-shakespeare-1]]"]
+readSlugs: ["as-you-like-it-shakespeare-1"]
+readSlugsLinks: ["[[as-you-like-it-shakespeare-1]]"]
+currentRead: false
 coverSlug: "as-you-like-it-shakespeare-cover"
 ---
 

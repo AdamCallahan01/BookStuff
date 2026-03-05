@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.46"
 isbn: "9780439656245"
 bookOwned: true
 hasSummary: false
+summarySlug: "gregor-and-the-curse-of-the-warmbloods-collins-summary"
 summarySlugLink: "[[gregor-and-the-curse-of-the-warmbloods-collins-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[gregor-and-the-curse-of-the-warmbloods-collins-1]]"]
+readSlugs: ["gregor-and-the-curse-of-the-warmbloods-collins-1"]
+readSlugsLinks: ["[[gregor-and-the-curse-of-the-warmbloods-collins-1]]"]
+currentRead: false
 coverSlug: "gregor-and-the-curse-of-the-warmbloods-collins-cover"
 ---
 

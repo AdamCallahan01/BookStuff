@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/30363359-the-thief"
 isbn: "9780062642967"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-thief-turner-summary"
 summarySlugLink: "[[the-thief-turner-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 2
 averageScore: 9.25
 allScores: [9.5,9]
-readSlugs: ["[[the-thief-turner-1]]","[[the-thief-turner-2]]"]
+readSlugs: ["the-thief-turner-1","the-thief-turner-2"]
+readSlugsLinks: ["[[the-thief-turner-1]]","[[the-thief-turner-2]]"]
+currentRead: false
 coverSlug: "the-thief-turner-cover"
 ---
 

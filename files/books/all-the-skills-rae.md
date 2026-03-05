@@ -17,13 +17,16 @@ subgenre: "LitRPG"
 isbn: "9781039470217"
 bookOwned: true
 hasSummary: false
+summarySlug: "all-the-skills-rae-summary"
 summarySlugLink: "[[all-the-skills-rae-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 1
 averageScore: 4
 allScores: [4]
-readSlugs: ["[[all-the-skills-rae-1]]"]
+readSlugs: ["all-the-skills-rae-1"]
+readSlugsLinks: ["[[all-the-skills-rae-1]]"]
+currentRead: false
 coverSlug: "all-the-skills-rae-cover"
 ---
 

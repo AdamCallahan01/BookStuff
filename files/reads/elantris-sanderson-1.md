@@ -1,5 +1,6 @@
 ---
 bookSlug: "elantris-sanderson"
+readSlug: "elantris-sanderson-1"
 book: "[[elantris-sanderson]]"
 readNumber: 1
 score: 8

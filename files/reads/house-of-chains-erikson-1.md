@@ -1,5 +1,6 @@
 ---
 bookSlug: "house-of-chains-erikson"
+readSlug: "house-of-chains-erikson-1"
 book: "[[house-of-chains-erikson]]"
 readNumber: 1
 score: 10

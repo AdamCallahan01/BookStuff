@@ -1,5 +1,6 @@
 ---
 bookSlug: "greek-mythology-explained-ramenah"
+readSlug: "greek-mythology-explained-ramenah-1"
 book: "[[greek-mythology-explained-ramenah]]"
 readNumber: 1
 score: 8

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/45978.Eldest"
 isbn: "9780375840401"
 bookOwned: true
 hasSummary: false
+summarySlug: "eldest-paolini-summary"
 summarySlugLink: "[[eldest-paolini-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 2
 averageScore: 8.5
 allScores: [9,8]
-readSlugs: ["[[eldest-paolini-1]]","[[eldest-paolini-2]]"]
+readSlugs: ["eldest-paolini-1","eldest-paolini-2"]
+readSlugsLinks: ["[[eldest-paolini-1]]","[[eldest-paolini-2]]"]
+currentRead: false
 coverSlug: "eldest-paolini-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "empire-of-silence-ruocchio"
+readSlug: "empire-of-silence-ruocchio-1"
 book: "[[empire-of-silence-ruocchio]]"
 readNumber: 1
 score: 9.5

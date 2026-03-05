@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-silver-chair-lewis"
+readSlug: "the-silver-chair-lewis-1"
 book: "[[the-silver-chair-lewis]]"
 readNumber: 1
 score: 6

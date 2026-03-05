@@ -1,5 +1,6 @@
 ---
 bookSlug: "words-of-radiance-sanderson"
+readSlug: "words-of-radiance-sanderson-2"
 book: "[[words-of-radiance-sanderson]]"
 readNumber: 2
 score: 9

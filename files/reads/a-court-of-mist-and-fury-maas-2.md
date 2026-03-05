@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-court-of-mist-and-fury-maas"
+readSlug: "a-court-of-mist-and-fury-maas-2"
 book: "[[a-court-of-mist-and-fury-maas]]"
 readNumber: 2
 score: 2

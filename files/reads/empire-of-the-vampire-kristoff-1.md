@@ -1,5 +1,6 @@
 ---
 bookSlug: "empire-of-the-vampire-kristoff"
+readSlug: "empire-of-the-vampire-kristoff-1"
 book: "[[empire-of-the-vampire-kristoff]]"
 readNumber: 1
 score: 8.5

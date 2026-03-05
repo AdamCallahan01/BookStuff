@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/50410228-through-the-belly-of-th
 isbn: "9781733664431"
 bookOwned: true
 hasSummary: false
+summarySlug: "through-the-belly-of-the-beast-thorne-summary"
 summarySlugLink: "[[through-the-belly-of-the-beast-thorne-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 2
 averageScore: 3.5
 allScores: [4,3]
-readSlugs: ["[[through-the-belly-of-the-beast-thorne-1]]","[[through-the-belly-of-the-beast-thorne-2]]"]
+readSlugs: ["through-the-belly-of-the-beast-thorne-1","through-the-belly-of-the-beast-thorne-2"]
+readSlugsLinks: ["[[through-the-belly-of-the-beast-thorne-1]]","[[through-the-belly-of-the-beast-thorne-2]]"]
+currentRead: false
 coverSlug: "through-the-belly-of-the-beast-thorne-cover"
 ---
 

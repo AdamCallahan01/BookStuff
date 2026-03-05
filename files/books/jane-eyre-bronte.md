@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.3"
 isbn: "9780142437209"
 bookOwned: false
 hasSummary: false
+summarySlug: "jane-eyre-bronte-summary"
 summarySlugLink: "[[jane-eyre-bronte-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[jane-eyre-bronte-1]]"]
+readSlugs: ["jane-eyre-bronte-1"]
+readSlugsLinks: ["[[jane-eyre-bronte-1]]"]
+currentRead: false
 coverSlug: "jane-eyre-bronte-cover"
 ---
 

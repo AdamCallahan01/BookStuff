@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/55066606-ascendant?ref=nav_sb_ss
 isbn: "9781068756382"
 bookOwned: true
 hasSummary: false
+summarySlug: "ascendant-miller-summary"
 summarySlugLink: "[[ascendant-miller-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[ascendant-miller-1]]"]
+readSlugs: ["ascendant-miller-1"]
+readSlugsLinks: ["[[ascendant-miller-1]]"]
+currentRead: false
 coverSlug: "ascendant-miller-cover"
 ---
 

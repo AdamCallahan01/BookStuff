@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.68"
 isbn: "9780765348814"
 bookOwned: true
 hasSummary: false
+summarySlug: "house-of-chains-erikson-summary"
 summarySlugLink: "[[house-of-chains-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[house-of-chains-erikson-1]]"]
+readSlugs: ["house-of-chains-erikson-1"]
+readSlugsLinks: ["[[house-of-chains-erikson-1]]"]
+currentRead: false
 coverSlug: "house-of-chains-erikson-cover"
 ---
 

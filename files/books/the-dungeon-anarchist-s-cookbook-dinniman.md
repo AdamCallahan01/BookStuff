@@ -17,13 +17,16 @@ subgenre: "LitRPG"
 isbn: "9798724495066"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-dungeon-anarchist-s-cookbook-dinniman-summary"
 summarySlugLink: "[[the-dungeon-anarchist-s-cookbook-dinniman-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-dungeon-anarchist-s-cookbook-dinniman-1]]"]
+readSlugs: ["the-dungeon-anarchist-s-cookbook-dinniman-1"]
+readSlugsLinks: ["[[the-dungeon-anarchist-s-cookbook-dinniman-1]]"]
+currentRead: false
 coverSlug: "the-dungeon-anarchist-s-cookbook-dinniman-cover"
 ---
 

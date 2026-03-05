@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/3754026-beyond-the-shadows"
 isbn: "9780316033664"
 bookOwned: true
 hasSummary: false
+summarySlug: "beyond-the-shadows-weeks-summary"
 summarySlugLink: "[[beyond-the-shadows-weeks-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[beyond-the-shadows-weeks-1]]"]
+readSlugs: ["beyond-the-shadows-weeks-1"]
+readSlugsLinks: ["[[beyond-the-shadows-weeks-1]]"]
+currentRead: false
 coverSlug: "beyond-the-shadows-weeks-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "click-here-to-start-markell"
+readSlug: "click-here-to-start-markell-1"
 book: "[[click-here-to-start-markell]]"
 readNumber: 1
 score: 5

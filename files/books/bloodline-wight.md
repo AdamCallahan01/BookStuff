@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781959001072"
 bookOwned: true
 hasSummary: true
+summarySlug: "bloodline-wight-summary"
 summarySlugLink: "[[bloodline-wight-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[bloodline-wight-1]]"]
+readSlugs: ["bloodline-wight-1"]
+readSlugsLinks: ["[[bloodline-wight-1]]"]
+currentRead: false
 coverSlug: "bloodline-wight-cover"
 ---
 

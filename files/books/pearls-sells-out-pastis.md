@@ -11,10 +11,13 @@ goodreads: "https://www.goodreads.com/book/show/6500640-pearls-sells-out?ref=nav
 isbn: "9780740773969"
 bookOwned: true
 hasSummary: false
+summarySlug: "pearls-sells-out-pastis-summary"
 summarySlugLink: "[[pearls-sells-out-pastis-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[pearls-sells-out-pastis-1]]"]
+readSlugs: ["pearls-sells-out-pastis-1"]
+readSlugsLinks: ["[[pearls-sells-out-pastis-1]]"]
+currentRead: false
 coverSlug: "pearls-sells-out-pastis-cover"
 ---
 

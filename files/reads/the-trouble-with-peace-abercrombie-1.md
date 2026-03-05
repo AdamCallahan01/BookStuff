@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-trouble-with-peace-abercrombie"
+readSlug: "the-trouble-with-peace-abercrombie-1"
 book: "[[the-trouble-with-peace-abercrombie]]"
 readNumber: 1
 score: 9

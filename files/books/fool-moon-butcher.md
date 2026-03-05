@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/91477.Fool_Moon?ref=nav_sb_ss_1_
 isbn: "9780451458124"
 bookOwned: true
 hasSummary: false
+summarySlug: "fool-moon-butcher-summary"
 summarySlugLink: "[[fool-moon-butcher-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[fool-moon-butcher-1]]"]
+readSlugs: ["fool-moon-butcher-1"]
+readSlugsLinks: ["[[fool-moon-butcher-1]]"]
+currentRead: false
 coverSlug: "fool-moon-butcher-cover"
 ---
 

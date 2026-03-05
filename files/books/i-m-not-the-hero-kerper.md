@@ -17,13 +17,16 @@ subgenre: "LitRPG"
 isbn: "9781039425378"
 bookOwned: false
 hasSummary: true
+summarySlug: "i-m-not-the-hero-kerper-summary"
 summarySlugLink: "[[i-m-not-the-hero-kerper-summary]]"
 hasScore: true
 latestScore: 4.5
 readCount: 1
 averageScore: 4.5
 allScores: [4.5]
-readSlugs: ["[[i-m-not-the-hero-kerper-1]]"]
+readSlugs: ["i-m-not-the-hero-kerper-1"]
+readSlugsLinks: ["[[i-m-not-the-hero-kerper-1]]"]
+currentRead: false
 coverSlug: "i-m-not-the-hero-kerper-cover"
 ---
 

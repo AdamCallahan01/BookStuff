@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-opal-deception-colfer"
+readSlug: "the-opal-deception-colfer-1"
 book: "[[the-opal-deception-colfer]]"
 readNumber: 1
 score: 7.5

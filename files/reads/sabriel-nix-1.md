@@ -1,5 +1,6 @@
 ---
 bookSlug: "sabriel-nix"
+readSlug: "sabriel-nix-1"
 book: "[[sabriel-nix]]"
 readNumber: 1
 score: 8

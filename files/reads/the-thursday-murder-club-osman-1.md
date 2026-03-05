@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-thursday-murder-club-osman"
+readSlug: "the-thursday-murder-club-osman-1"
 book: "[[the-thursday-murder-club-osman]]"
 readNumber: 1
 score: 6.5

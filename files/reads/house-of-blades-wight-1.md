@@ -1,5 +1,6 @@
 ---
 bookSlug: "house-of-blades-wight"
+readSlug: "house-of-blades-wight-1"
 book: "[[house-of-blades-wight]]"
 readNumber: 1
 score: 6.5

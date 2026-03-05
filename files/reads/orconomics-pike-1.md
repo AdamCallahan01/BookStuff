@@ -1,5 +1,6 @@
 ---
 bookSlug: "orconomics-pike"
+readSlug: "orconomics-pike-1"
 book: "[[orconomics-pike]]"
 readNumber: 1
 score: 9

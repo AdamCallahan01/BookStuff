@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/76707900-queen-of-shadows"
 isbn: "9781639731008"
 bookOwned: true
 hasSummary: false
+summarySlug: "queen-of-shadows-maas-summary"
 summarySlugLink: "[[queen-of-shadows-maas-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[queen-of-shadows-maas-1]]"]
+readSlugs: ["queen-of-shadows-maas-1"]
+readSlugsLinks: ["[[queen-of-shadows-maas-1]]"]
+currentRead: false
 coverSlug: "queen-of-shadows-maas-cover"
 ---
 

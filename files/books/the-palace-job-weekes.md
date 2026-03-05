@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/18318648-the-palace-job?ac=1&fro
 isbn: "9781477848203"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-palace-job-weekes-summary"
 summarySlugLink: "[[the-palace-job-weekes-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-palace-job-weekes-1]]"]
+readSlugs: ["the-palace-job-weekes-1"]
+readSlugsLinks: ["[[the-palace-job-weekes-1]]"]
+currentRead: false
 coverSlug: "the-palace-job-weekes-cover"
 ---
 

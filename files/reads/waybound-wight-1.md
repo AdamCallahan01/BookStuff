@@ -1,5 +1,6 @@
 ---
 bookSlug: "waybound-wight"
+readSlug: "waybound-wight-1"
 book: "[[waybound-wight]]"
 readNumber: 1
 score: 7.5

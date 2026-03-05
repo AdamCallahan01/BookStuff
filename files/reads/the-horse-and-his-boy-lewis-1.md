@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-horse-and-his-boy-lewis"
+readSlug: "the-horse-and-his-boy-lewis-1"
 book: "[[the-horse-and-his-boy-lewis]]"
 readNumber: 1
 score: 9

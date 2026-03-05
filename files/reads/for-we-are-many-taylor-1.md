@@ -1,5 +1,6 @@
 ---
 bookSlug: "for-we-are-many-taylor"
+readSlug: "for-we-are-many-taylor-1"
 book: "[[for-we-are-many-taylor]]"
 readNumber: 1
 score: 7.5

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-wandering-inn-aba"
+readSlug: "the-wandering-inn-aba-1"
 book: "[[the-wandering-inn-aba]]"
 readNumber: 1
 score: 9.5

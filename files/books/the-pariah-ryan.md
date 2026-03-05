@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.4"
 isbn: "9780316430777"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-pariah-ryan-summary"
 summarySlugLink: "[[the-pariah-ryan-summary]]"
 hasScore: true
 latestScore: 5.5
 readCount: 1
 averageScore: 5.5
 allScores: [5.5]
-readSlugs: ["[[the-pariah-ryan-1]]"]
+readSlugs: ["the-pariah-ryan-1"]
+readSlugsLinks: ["[[the-pariah-ryan-1]]"]
+currentRead: false
 coverSlug: "the-pariah-ryan-cover"
 ---
 

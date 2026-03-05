@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/64216.Guards_Guards_?ref=nav_sb_
 isbn: "9780061020643"
 bookOwned: true
 hasSummary: false
+summarySlug: "guards-guards-pratchett-summary"
 summarySlugLink: "[[guards-guards-pratchett-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[guards-guards-pratchett-1]]"]
+readSlugs: ["guards-guards-pratchett-1"]
+readSlugsLinks: ["[[guards-guards-pratchett-1]]"]
+currentRead: false
 coverSlug: "guards-guards-pratchett-cover"
 ---
 

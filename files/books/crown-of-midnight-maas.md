@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/76705490-crown-of-midnight"
 isbn: "9781639730964"
 bookOwned: true
 hasSummary: false
+summarySlug: "crown-of-midnight-maas-summary"
 summarySlugLink: "[[crown-of-midnight-maas-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[crown-of-midnight-maas-1]]"]
+readSlugs: ["crown-of-midnight-maas-1"]
+readSlugsLinks: ["[[crown-of-midnight-maas-1]]"]
+currentRead: false
 coverSlug: "crown-of-midnight-maas-cover"
 ---
 

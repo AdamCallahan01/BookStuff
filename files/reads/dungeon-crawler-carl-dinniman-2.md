@@ -1,5 +1,6 @@
 ---
 bookSlug: "dungeon-crawler-carl-dinniman"
+readSlug: "dungeon-crawler-carl-dinniman-2"
 book: "[[dungeon-crawler-carl-dinniman]]"
 readNumber: 2
 score: 7

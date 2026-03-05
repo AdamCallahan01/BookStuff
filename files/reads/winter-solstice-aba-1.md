@@ -1,5 +1,6 @@
 ---
 bookSlug: "winter-solstice-aba"
+readSlug: "winter-solstice-aba-1"
 book: "[[winter-solstice-aba]]"
 readNumber: 1
 score: 8.5

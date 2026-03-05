@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/34673711-the-ember-blade?ref=nav
 isbn: "9781473214866"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-ember-blade-wooding-summary"
 summarySlugLink: "[[the-ember-blade-wooding-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[the-ember-blade-wooding-1]]"]
+readSlugs: ["the-ember-blade-wooding-1"]
+readSlugsLinks: ["[[the-ember-blade-wooding-1]]"]
+currentRead: false
 coverSlug: "the-ember-blade-wooding-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "furies-of-calderon-butcher"
+readSlug: "furies-of-calderon-butcher-1"
 book: "[[furies-of-calderon-butcher]]"
 readNumber: 1
 score: 7.5

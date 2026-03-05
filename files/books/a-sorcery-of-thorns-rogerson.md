@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/42201395-sorcery-of-thorns?ref=n
 isbn: "9781481497619"
 bookOwned: false
 hasSummary: false
+summarySlug: "a-sorcery-of-thorns-rogerson-summary"
 summarySlugLink: "[[a-sorcery-of-thorns-rogerson-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[a-sorcery-of-thorns-rogerson-1]]"]
+readSlugs: ["a-sorcery-of-thorns-rogerson-1"]
+readSlugsLinks: ["[[a-sorcery-of-thorns-rogerson-1]]"]
+currentRead: false
 coverSlug: "a-sorcery-of-thorns-rogerson-cover"
 ---
 

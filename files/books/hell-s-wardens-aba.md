@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9781961108066"
 bookOwned: false
 hasSummary: false
+summarySlug: "hell-s-wardens-aba-summary"
 summarySlugLink: "[[hell-s-wardens-aba-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[hell-s-wardens-aba-1]]"]
+readSlugs: ["hell-s-wardens-aba-1"]
+readSlugsLinks: ["[[hell-s-wardens-aba-1]]"]
+currentRead: false
 coverSlug: "hell-s-wardens-aba-cover"
 ---
 

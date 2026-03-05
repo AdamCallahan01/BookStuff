@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780007562275"
 bookOwned: true
 hasSummary: true
+summarySlug: "assassin-s-quest-hobb-summary"
 summarySlugLink: "[[assassin-s-quest-hobb-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[assassin-s-quest-hobb-1]]"]
+readSlugs: ["assassin-s-quest-hobb-1"]
+readSlugsLinks: ["[[assassin-s-quest-hobb-1]]"]
+currentRead: false
 coverSlug: "assassin-s-quest-hobb-cover"
 ---
 

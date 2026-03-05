@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/27272299-click-here-to-start?ref
 isbn: "9781101931875"
 bookOwned: true
 hasSummary: false
+summarySlug: "click-here-to-start-markell-summary"
 summarySlugLink: "[[click-here-to-start-markell-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[click-here-to-start-markell-1]]"]
+readSlugs: ["click-here-to-start-markell-1"]
+readSlugsLinks: ["[[click-here-to-start-markell-1]]"]
+currentRead: false
 coverSlug: "click-here-to-start-markell-cover"
 ---
 

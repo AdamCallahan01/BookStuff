@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-dungeon-anarchist-s-cookbook-dinniman"
+readSlug: "the-dungeon-anarchist-s-cookbook-dinniman-1"
 book: "[[the-dungeon-anarchist-s-cookbook-dinniman]]"
 readNumber: 1
 score: 7.5

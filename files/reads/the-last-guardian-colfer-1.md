@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-last-guardian-colfer"
+readSlug: "the-last-guardian-colfer-1"
 book: "[[the-last-guardian-colfer]]"
 readNumber: 1
 score: 4

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.64"
 isbn: "9781950914135"
 bookOwned: true
 hasSummary: false
+summarySlug: "ritualist-krout-summary"
 summarySlugLink: "[[ritualist-krout-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[ritualist-krout-1]]"]
+readSlugs: ["ritualist-krout-1"]
+readSlugsLinks: ["[[ritualist-krout-1]]"]
+currentRead: false
 coverSlug: "ritualist-krout-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-meaning-of-truth-james"
+readSlug: "the-meaning-of-truth-james-1"
 book: "[[the-meaning-of-truth-james]]"
 readNumber: 1
 score: null

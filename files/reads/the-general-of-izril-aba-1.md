@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-general-of-izril-aba"
+readSlug: "the-general-of-izril-aba-1"
 book: "[[the-general-of-izril-aba]]"
 readNumber: 1
 score: 9

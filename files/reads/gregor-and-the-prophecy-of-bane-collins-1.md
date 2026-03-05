@@ -1,5 +1,6 @@
 ---
 bookSlug: "gregor-and-the-prophecy-of-bane-collins"
+readSlug: "gregor-and-the-prophecy-of-bane-collins-1"
 book: "[[gregor-and-the-prophecy-of-bane-collins]]"
 readNumber: 1
 score: 6

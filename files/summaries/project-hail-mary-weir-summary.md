@@ -1,5 +1,6 @@
 ---
 bookSlug: "project-hail-mary-weir"
+summarySlug: "project-hail-mary-weir-summary"
 book: "[[project-hail-mary-weir]]"
 ---
 

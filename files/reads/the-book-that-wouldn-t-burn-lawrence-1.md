@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-book-that-wouldn-t-burn-lawrence"
+readSlug: "the-book-that-wouldn-t-burn-lawrence-1"
 book: "[[the-book-that-wouldn-t-burn-lawrence]]"
 readNumber: 1
 score: 4

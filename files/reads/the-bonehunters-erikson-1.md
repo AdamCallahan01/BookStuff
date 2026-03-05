@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-bonehunters-erikson"
+readSlug: "the-bonehunters-erikson-1"
 book: "[[the-bonehunters-erikson]]"
 readNumber: 1
 score: 10

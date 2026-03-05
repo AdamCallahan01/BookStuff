@@ -17,10 +17,13 @@ subgenre: "N/A"
 isbn: "9781566195768"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-interpretation-of-dreams-freud-summary"
 summarySlugLink: "[[the-interpretation-of-dreams-freud-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[the-interpretation-of-dreams-freud-1]]"]
+readSlugs: ["the-interpretation-of-dreams-freud-1"]
+readSlugsLinks: ["[[the-interpretation-of-dreams-freud-1]]"]
+currentRead: false
 coverSlug: "the-interpretation-of-dreams-freud-cover"
 ---
 

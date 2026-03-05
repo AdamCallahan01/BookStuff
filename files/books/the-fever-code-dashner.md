@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9780553513097"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-fever-code-dashner-summary"
 summarySlugLink: "[[the-fever-code-dashner-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-fever-code-dashner-1]]"]
+readSlugs: ["the-fever-code-dashner-1"]
+readSlugsLinks: ["[[the-fever-code-dashner-1]]"]
+currentRead: false
 coverSlug: "the-fever-code-dashner-cover"
 ---
 

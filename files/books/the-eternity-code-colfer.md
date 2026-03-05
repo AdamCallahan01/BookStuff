@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.1"
 isbn: "9780141321318"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-eternity-code-colfer-summary"
 summarySlugLink: "[[the-eternity-code-colfer-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-eternity-code-colfer-1]]"]
+readSlugs: ["the-eternity-code-colfer-1"]
+readSlugsLinks: ["[[the-eternity-code-colfer-1]]"]
+currentRead: false
 coverSlug: "the-eternity-code-colfer-cover"
 ---
 

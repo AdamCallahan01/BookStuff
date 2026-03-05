@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/127823.The_Icebound_Land"
 isbn: "9780399244568"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-icebound-land-flanagan-summary"
 summarySlugLink: "[[the-icebound-land-flanagan-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-icebound-land-flanagan-1]]"]
+readSlugs: ["the-icebound-land-flanagan-1"]
+readSlugsLinks: ["[[the-icebound-land-flanagan-1]]"]
+currentRead: false
 coverSlug: "the-icebound-land-flanagan-cover"
 ---
 

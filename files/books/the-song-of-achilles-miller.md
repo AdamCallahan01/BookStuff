@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/11887641-the-song-of-achilles"
 isbn: "9780062060617"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-song-of-achilles-miller-summary"
 summarySlugLink: "[[the-song-of-achilles-miller-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-song-of-achilles-miller-1]]"]
+readSlugs: ["the-song-of-achilles-miller-1"]
+readSlugsLinks: ["[[the-song-of-achilles-miller-1]]"]
+currentRead: false
 coverSlug: "the-song-of-achilles-miller-cover"
 ---
 

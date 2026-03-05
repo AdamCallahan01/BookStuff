@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-thousand-deaths-of-ardor-benn-whitesides"
+readSlug: "the-thousand-deaths-of-ardor-benn-whitesides-1"
 book: "[[the-thousand-deaths-of-ardor-benn-whitesides]]"
 readNumber: 1
 score: 10

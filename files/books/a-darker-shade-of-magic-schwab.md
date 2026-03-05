@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.12"
 isbn: "9780765376459"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-darker-shade-of-magic-schwab-summary"
 summarySlugLink: "[[a-darker-shade-of-magic-schwab-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[a-darker-shade-of-magic-schwab-1]]"]
+readSlugs: ["a-darker-shade-of-magic-schwab-1"]
+readSlugsLinks: ["[[a-darker-shade-of-magic-schwab-1]]"]
+currentRead: false
 coverSlug: "a-darker-shade-of-magic-schwab-cover"
 ---
 

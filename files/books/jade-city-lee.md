@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.18"
 isbn: "9780316440882"
 bookOwned: true
 hasSummary: false
+summarySlug: "jade-city-lee-summary"
 summarySlugLink: "[[jade-city-lee-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[jade-city-lee-1]]"]
+readSlugs: ["jade-city-lee-1"]
+readSlugsLinks: ["[[jade-city-lee-1]]"]
+currentRead: false
 coverSlug: "jade-city-lee-cover"
 ---
 

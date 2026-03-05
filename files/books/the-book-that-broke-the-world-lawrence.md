@@ -17,13 +17,16 @@ subgenre: "Romance"
 isbn: "9780008456764"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-book-that-broke-the-world-lawrence-summary"
 summarySlugLink: "[[the-book-that-broke-the-world-lawrence-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[the-book-that-broke-the-world-lawrence-1]]"]
+readSlugs: ["the-book-that-broke-the-world-lawrence-1"]
+readSlugsLinks: ["[[the-book-that-broke-the-world-lawrence-1]]"]
+currentRead: false
 coverSlug: "the-book-that-broke-the-world-lawrence-cover"
 ---
 

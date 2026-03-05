@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9798372692855"
 bookOwned: true
 hasSummary: true
+summarySlug: "mark-of-the-fool-2-clarke-summary"
 summarySlugLink: "[[mark-of-the-fool-2-clarke-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[mark-of-the-fool-2-clarke-1]]"]
+readSlugs: ["mark-of-the-fool-2-clarke-1"]
+readSlugsLinks: ["[[mark-of-the-fool-2-clarke-1]]"]
+currentRead: false
 coverSlug: "mark-of-the-fool-2-clarke-cover"
 ---
 

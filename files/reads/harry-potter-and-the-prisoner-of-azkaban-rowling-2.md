@@ -1,5 +1,6 @@
 ---
 bookSlug: "harry-potter-and-the-prisoner-of-azkaban-rowling"
+readSlug: "harry-potter-and-the-prisoner-of-azkaban-rowling-2"
 book: "[[harry-potter-and-the-prisoner-of-azkaban-rowling]]"
 readNumber: 2
 score: 7

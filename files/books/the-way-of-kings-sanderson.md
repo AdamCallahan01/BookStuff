@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/7235533-the-way-of-kings?ref=nav
 isbn: "9780765326355"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-way-of-kings-sanderson-summary"
 summarySlugLink: "[[the-way-of-kings-sanderson-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 2
 averageScore: 9.75
 allScores: [10,9.5]
-readSlugs: ["[[the-way-of-kings-sanderson-1]]","[[the-way-of-kings-sanderson-2]]"]
+readSlugs: ["the-way-of-kings-sanderson-1","the-way-of-kings-sanderson-2"]
+readSlugsLinks: ["[[the-way-of-kings-sanderson-1]]","[[the-way-of-kings-sanderson-2]]"]
+currentRead: false
 coverSlug: "the-way-of-kings-sanderson-cover"
 ---
 

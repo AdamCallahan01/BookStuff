@@ -17,13 +17,16 @@ subgenre: "Adventure"
 isbn: "9780593135204"
 bookOwned: true
 hasSummary: true
+summarySlug: "project-hail-mary-weir-summary"
 summarySlugLink: "[[project-hail-mary-weir-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[project-hail-mary-weir-1]]"]
+readSlugs: ["project-hail-mary-weir-1"]
+readSlugsLinks: ["[[project-hail-mary-weir-1]]"]
+currentRead: false
 coverSlug: "project-hail-mary-weir-cover"
 ---
 

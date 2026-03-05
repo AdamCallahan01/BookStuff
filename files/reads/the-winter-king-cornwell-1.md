@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-winter-king-cornwell"
+readSlug: "the-winter-king-cornwell-1"
 book: "[[the-winter-king-cornwell]]"
 readNumber: 1
 score: 5.5

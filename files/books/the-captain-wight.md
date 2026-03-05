@@ -17,13 +17,16 @@ subgenre: "Progression"
 isbn: "9781959001096"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-captain-wight-summary"
 summarySlugLink: "[[the-captain-wight-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-captain-wight-1]]"]
+readSlugs: ["the-captain-wight-1"]
+readSlugsLinks: ["[[the-captain-wight-1]]"]
+currentRead: false
 coverSlug: "the-captain-wight-cover"
 ---
 

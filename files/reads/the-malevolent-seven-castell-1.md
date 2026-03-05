@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-malevolent-seven-castell"
+readSlug: "the-malevolent-seven-castell-1"
 book: "[[the-malevolent-seven-castell]]"
 readNumber: 1
 score: 3

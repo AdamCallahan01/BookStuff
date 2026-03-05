@@ -1,5 +1,6 @@
 ---
 bookSlug: "blood-meridian-mccarthy"
+readSlug: "blood-meridian-mccarthy-1"
 book: "[[blood-meridian-mccarthy]]"
 readNumber: 1
 score: 8

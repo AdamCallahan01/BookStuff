@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9781529422771"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-malevolent-seven-castell-summary"
 summarySlugLink: "[[the-malevolent-seven-castell-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[the-malevolent-seven-castell-1]]"]
+readSlugs: ["the-malevolent-seven-castell-1"]
+readSlugsLinks: ["[[the-malevolent-seven-castell-1]]"]
+currentRead: false
 coverSlug: "the-malevolent-seven-castell-cover"
 ---
 

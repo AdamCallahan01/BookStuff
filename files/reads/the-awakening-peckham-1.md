@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-awakening-peckham"
+readSlug: "the-awakening-peckham-1"
 book: "[[the-awakening-peckham]]"
 readNumber: 1
 score: 1

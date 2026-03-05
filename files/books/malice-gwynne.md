@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/15750692-malice?ref=nav_sb_ss_3_
 isbn: "9780230758452"
 bookOwned: true
 hasSummary: false
+summarySlug: "malice-gwynne-summary"
 summarySlugLink: "[[malice-gwynne-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[malice-gwynne-1]]"]
+readSlugs: ["malice-gwynne-1"]
+readSlugsLinks: ["[[malice-gwynne-1]]"]
+currentRead: false
 coverSlug: "malice-gwynne-cover"
 ---
 

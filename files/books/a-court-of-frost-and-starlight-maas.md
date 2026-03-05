@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/50659471-a-court-of-frost-and-st
 isbn: "9781635575620"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-court-of-frost-and-starlight-maas-summary"
 summarySlugLink: "[[a-court-of-frost-and-starlight-maas-summary]]"
 hasScore: true
 latestScore: 2
 readCount: 2
 averageScore: 2
 allScores: [2,2]
-readSlugs: ["[[a-court-of-frost-and-starlight-maas-1]]","[[a-court-of-frost-and-starlight-maas-2]]"]
+readSlugs: ["a-court-of-frost-and-starlight-maas-1","a-court-of-frost-and-starlight-maas-2"]
+readSlugsLinks: ["[[a-court-of-frost-and-starlight-maas-1]]","[[a-court-of-frost-and-starlight-maas-2]]"]
+currentRead: false
 coverSlug: "a-court-of-frost-and-starlight-maas-cover"
 ---
 

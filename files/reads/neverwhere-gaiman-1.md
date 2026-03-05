@@ -1,5 +1,6 @@
 ---
 bookSlug: "neverwhere-gaiman"
+readSlug: "neverwhere-gaiman-1"
 book: "[[neverwhere-gaiman]]"
 readNumber: 1
 score: 8.5

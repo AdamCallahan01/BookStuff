@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9798862470079"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-dregs-of-empire-ruocchio-summary"
 summarySlugLink: "[[the-dregs-of-empire-ruocchio-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[the-dregs-of-empire-ruocchio-1]]"]
+readSlugs: ["the-dregs-of-empire-ruocchio-1"]
+readSlugsLinks: ["[[the-dregs-of-empire-ruocchio-1]]"]
+currentRead: false
 coverSlug: "the-dregs-of-empire-ruocchio-cover"
 ---
 

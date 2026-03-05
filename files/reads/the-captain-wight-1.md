@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-captain-wight"
+readSlug: "the-captain-wight-1"
 book: "[[the-captain-wight]]"
 readNumber: 1
 score: 6

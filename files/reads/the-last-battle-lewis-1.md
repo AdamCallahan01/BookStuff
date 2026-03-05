@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-last-battle-lewis"
+readSlug: "the-last-battle-lewis-1"
 book: "[[the-last-battle-lewis]]"
 readNumber: 1
 score: 8

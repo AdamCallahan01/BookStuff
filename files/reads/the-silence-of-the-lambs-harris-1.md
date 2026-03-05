@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-silence-of-the-lambs-harris"
+readSlug: "the-silence-of-the-lambs-harris-1"
 book: "[[the-silence-of-the-lambs-harris]]"
 readNumber: 1
 score: 10

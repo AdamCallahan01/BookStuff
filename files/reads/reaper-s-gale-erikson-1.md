@@ -1,5 +1,6 @@
 ---
 bookSlug: "reaper-s-gale-erikson"
+readSlug: "reaper-s-gale-erikson-1"
 book: "[[reaper-s-gale-erikson]]"
 readNumber: 1
 score: 10

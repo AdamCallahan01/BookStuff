@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-tunnels-beneath-wisehart"
+readSlug: "the-tunnels-beneath-wisehart-1"
 book: "[[the-tunnels-beneath-wisehart]]"
 readNumber: 1
 score: 8.5

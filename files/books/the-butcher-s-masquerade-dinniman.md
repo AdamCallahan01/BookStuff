@@ -17,13 +17,16 @@ subgenre: "LitRPG"
 isbn: "9798418566102"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-butcher-s-masquerade-dinniman-summary"
 summarySlugLink: "[[the-butcher-s-masquerade-dinniman-summary]]"
 hasScore: true
 latestScore: 6
 readCount: 1
 averageScore: 6
 allScores: [6]
-readSlugs: ["[[the-butcher-s-masquerade-dinniman-1]]"]
+readSlugs: ["the-butcher-s-masquerade-dinniman-1"]
+readSlugsLinks: ["[[the-butcher-s-masquerade-dinniman-1]]"]
+currentRead: false
 coverSlug: "the-butcher-s-masquerade-dinniman-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-dark-secret-sutherland"
+readSlug: "the-dark-secret-sutherland-1"
 book: "[[the-dark-secret-sutherland]]"
 readNumber: 1
 score: 4

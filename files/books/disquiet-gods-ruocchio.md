@@ -17,13 +17,16 @@ subgenre: "Space Opera"
 isbn: "9781982193324"
 bookOwned: true
 hasSummary: false
+summarySlug: "disquiet-gods-ruocchio-summary"
 summarySlugLink: "[[disquiet-gods-ruocchio-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[disquiet-gods-ruocchio-1]]"]
+readSlugs: ["disquiet-gods-ruocchio-1"]
+readSlugsLinks: ["[[disquiet-gods-ruocchio-1]]"]
+currentRead: false
 coverSlug: "disquiet-gods-ruocchio-cover"
 ---
 

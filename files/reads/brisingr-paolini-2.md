@@ -1,5 +1,6 @@
 ---
 bookSlug: "brisingr-paolini"
+readSlug: "brisingr-paolini-2"
 book: "[[brisingr-paolini]]"
 readNumber: 2
 score: 8.5

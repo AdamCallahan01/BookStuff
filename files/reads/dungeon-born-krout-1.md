@@ -1,5 +1,6 @@
 ---
 bookSlug: "dungeon-born-krout"
+readSlug: "dungeon-born-krout-1"
 book: "[[dungeon-born-krout]]"
 readNumber: 1
 score: 0

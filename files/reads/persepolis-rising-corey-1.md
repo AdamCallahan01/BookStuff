@@ -1,5 +1,6 @@
 ---
 bookSlug: "persepolis-rising-corey"
+readSlug: "persepolis-rising-corey-1"
 book: "[[persepolis-rising-corey]]"
 readNumber: 1
 format: "Book"

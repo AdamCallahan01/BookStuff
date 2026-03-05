@@ -1,5 +1,6 @@
 ---
 bookSlug: "moira-s-pen-turner"
+readSlug: "moira-s-pen-turner-1"
 book: "[[moira-s-pen-turner]]"
 readNumber: 1
 score: 8

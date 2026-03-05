@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-serpent-and-the-wings-of-night-broadbent"
+summarySlug: "the-serpent-and-the-wings-of-night-broadbent-summary"
 book: "[[the-serpent-and-the-wings-of-night-broadbent]]"
 ---
 

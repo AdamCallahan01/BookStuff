@@ -1,5 +1,6 @@
 ---
 bookSlug: "through-the-belly-of-the-beast-thorne"
+readSlug: "through-the-belly-of-the-beast-thorne-2"
 book: "[[through-the-belly-of-the-beast-thorne]]"
 readNumber: 2
 score: 3

@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/66694.Exile"
 isbn: "9780880389204"
 bookOwned: true
 hasSummary: false
+summarySlug: "exile-salvatore-summary"
 summarySlugLink: "[[exile-salvatore-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[exile-salvatore-1]]"]
+readSlugs: ["exile-salvatore-1"]
+readSlugsLinks: ["[[exile-salvatore-1]]"]
+currentRead: false
 coverSlug: "exile-salvatore-cover"
 ---
 

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.1"
 isbn: "9781423103998"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-opal-deception-colfer-summary"
 summarySlugLink: "[[the-opal-deception-colfer-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-opal-deception-colfer-1]]"]
+readSlugs: ["the-opal-deception-colfer-1"]
+readSlugsLinks: ["[[the-opal-deception-colfer-1]]"]
+currentRead: false
 coverSlug: "the-opal-deception-colfer-cover"
 ---
 

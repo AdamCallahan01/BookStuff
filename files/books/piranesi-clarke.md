@@ -17,13 +17,16 @@ subgenre: "Magical Realism"
 isbn: "9781635575637"
 bookOwned: true
 hasSummary: false
+summarySlug: "piranesi-clarke-summary"
 summarySlugLink: "[[piranesi-clarke-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[piranesi-clarke-1]]"]
+readSlugs: ["piranesi-clarke-1"]
+readSlugsLinks: ["[[piranesi-clarke-1]]"]
+currentRead: false
 coverSlug: "piranesi-clarke-cover"
 ---
 

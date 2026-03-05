@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-r
 isbn: "9781635575569"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-court-of-thorns-and-roses-maas-summary"
 summarySlugLink: "[[a-court-of-thorns-and-roses-maas-summary]]"
 hasScore: true
 latestScore: 4
 readCount: 2
 averageScore: 4.5
 allScores: [5,4]
-readSlugs: ["[[a-court-of-thorns-and-roses-maas-1]]","[[a-court-of-thorns-and-roses-maas-2]]"]
+readSlugs: ["a-court-of-thorns-and-roses-maas-1","a-court-of-thorns-and-roses-maas-2"]
+readSlugsLinks: ["[[a-court-of-thorns-and-roses-maas-1]]","[[a-court-of-thorns-and-roses-maas-2]]"]
+currentRead: false
 coverSlug: "a-court-of-thorns-and-roses-maas-cover"
 ---
 

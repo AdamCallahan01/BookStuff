@@ -13,13 +13,16 @@ goodreads: "https://www.goodreads.com/book/show/57913863-the-wandering-inn"
 avgGoodreadsRating: "9.16"
 bookOwned: false
 hasSummary: false
+summarySlug: "winter-solstice-aba-summary"
 summarySlugLink: "[[winter-solstice-aba-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[winter-solstice-aba-1]]"]
+readSlugs: ["winter-solstice-aba-1"]
+readSlugsLinks: ["[[winter-solstice-aba-1]]"]
+currentRead: false
 coverSlug: "winter-solstice-aba-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-ember-blade-wooding"
+readSlug: "the-ember-blade-wooding-1"
 book: "[[the-ember-blade-wooding]]"
 readNumber: 1
 score: 5

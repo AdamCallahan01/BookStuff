@@ -14,13 +14,16 @@ avgGoodreadsRating: "7.98"
 isbn: "9780451526342"
 bookOwned: false
 hasSummary: false
+summarySlug: "animal-farm-orwell-summary"
 summarySlugLink: "[[animal-farm-orwell-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[animal-farm-orwell-1]]"]
+readSlugs: ["animal-farm-orwell-1"]
+readSlugsLinks: ["[[animal-farm-orwell-1]]"]
+currentRead: false
 coverSlug: "animal-farm-orwell-cover"
 ---
 

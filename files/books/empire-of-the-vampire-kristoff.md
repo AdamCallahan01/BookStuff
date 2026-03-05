@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.62"
 isbn: "9781250245281"
 bookOwned: true
 hasSummary: true
+summarySlug: "empire-of-the-vampire-kristoff-summary"
 summarySlugLink: "[[empire-of-the-vampire-kristoff-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 2
 averageScore: 8.75
 allScores: [8.5,9]
-readSlugs: ["[[empire-of-the-vampire-kristoff-1]]","[[empire-of-the-vampire-kristoff-2]]"]
+readSlugs: ["empire-of-the-vampire-kristoff-1","empire-of-the-vampire-kristoff-2"]
+readSlugsLinks: ["[[empire-of-the-vampire-kristoff-1]]","[[empire-of-the-vampire-kristoff-2]]"]
+currentRead: false
 coverSlug: "empire-of-the-vampire-kristoff-cover"
 ---
 

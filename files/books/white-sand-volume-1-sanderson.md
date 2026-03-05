@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/28862254-white-sand-volume-1?ref
 isbn: "9781606908853"
 bookOwned: false
 hasSummary: false
+summarySlug: "white-sand-volume-1-sanderson-summary"
 summarySlugLink: "[[white-sand-volume-1-sanderson-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[white-sand-volume-1-sanderson-1]]"]
+readSlugs: ["white-sand-volume-1-sanderson-1"]
+readSlugsLinks: ["[[white-sand-volume-1-sanderson-1]]"]
+currentRead: false
 coverSlug: "white-sand-volume-1-sanderson-cover"
 ---
 

@@ -1,5 +1,6 @@
 ---
 bookSlug: "vampire-gate-thorne"
+readSlug: "vampire-gate-thorne-2"
 book: "[[vampire-gate-thorne]]"
 readNumber: 2
 score: 3

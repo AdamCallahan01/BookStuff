@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-darker-shade-of-magic-schwab"
+readSlug: "a-darker-shade-of-magic-schwab-1"
 book: "[[a-darker-shade-of-magic-schwab]]"
 readNumber: 1
 score: 5

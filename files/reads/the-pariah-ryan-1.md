@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-pariah-ryan"
+readSlug: "the-pariah-ryan-1"
 book: "[[the-pariah-ryan]]"
 readNumber: 1
 score: 5.5

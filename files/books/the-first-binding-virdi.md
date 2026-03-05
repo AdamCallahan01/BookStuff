@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/57693381-the-first-binding?from_
 isbn: "9781250796172"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-first-binding-virdi-summary"
 summarySlugLink: "[[the-first-binding-virdi-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-first-binding-virdi-1]]"]
+readSlugs: ["the-first-binding-virdi-1"]
+readSlugsLinks: ["[[the-first-binding-virdi-1]]"]
+currentRead: false
 coverSlug: "the-first-binding-virdi-cover"
 ---
 

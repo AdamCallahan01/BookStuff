@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-sea-of-monsters-riordan"
+readSlug: "the-sea-of-monsters-riordan-1"
 book: "[[the-sea-of-monsters-riordan]]"
 readNumber: 1
 score: 7.5

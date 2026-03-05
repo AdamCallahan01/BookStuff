@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.32"
 isbn: "9780316498616"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-practical-guide-to-conquering-the-world-holt-summary"
 summarySlugLink: "[[a-practical-guide-to-conquering-the-world-holt-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[a-practical-guide-to-conquering-the-world-holt-1]]"]
+readSlugs: ["a-practical-guide-to-conquering-the-world-holt-1"]
+readSlugsLinks: ["[[a-practical-guide-to-conquering-the-world-holt-1]]"]
+currentRead: false
 coverSlug: "a-practical-guide-to-conquering-the-world-holt-cover"
 ---
 

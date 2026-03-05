@@ -1,5 +1,6 @@
 ---
 bookSlug: "physics-aristotle"
+readSlug: "physics-aristotle-1"
 book: "[[physics-aristotle]]"
 readNumber: 1
 score: null

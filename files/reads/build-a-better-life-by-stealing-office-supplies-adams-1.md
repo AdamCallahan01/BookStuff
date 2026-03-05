@@ -1,5 +1,6 @@
 ---
 bookSlug: "build-a-better-life-by-stealing-office-supplies-adams"
+readSlug: "build-a-better-life-by-stealing-office-supplies-adams-1"
 book: "[[build-a-better-life-by-stealing-office-supplies-adams]]"
 readNumber: 1
 score: null

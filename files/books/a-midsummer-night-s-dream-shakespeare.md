@@ -13,10 +13,13 @@ avgGoodreadsRating: "7.9"
 isbn: "9780743477543"
 bookOwned: true
 hasSummary: false
+summarySlug: "a-midsummer-night-s-dream-shakespeare-summary"
 summarySlugLink: "[[a-midsummer-night-s-dream-shakespeare-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[a-midsummer-night-s-dream-shakespeare-1]]"]
+readSlugs: ["a-midsummer-night-s-dream-shakespeare-1"]
+readSlugsLinks: ["[[a-midsummer-night-s-dream-shakespeare-1]]"]
+currentRead: false
 coverSlug: "a-midsummer-night-s-dream-shakespeare-cover"
 ---
 

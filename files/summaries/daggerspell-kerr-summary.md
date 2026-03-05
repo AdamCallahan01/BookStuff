@@ -1,5 +1,6 @@
 ---
 bookSlug: "daggerspell-kerr"
+summarySlug: "daggerspell-kerr-summary"
 book: "[[daggerspell-kerr]]"
 ---
 

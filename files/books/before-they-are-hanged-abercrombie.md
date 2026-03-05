@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/24958073-before-they-are-hanged"
 isbn: "9780316387354"
 bookOwned: true
 hasSummary: false
+summarySlug: "before-they-are-hanged-abercrombie-summary"
 summarySlugLink: "[[before-they-are-hanged-abercrombie-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[before-they-are-hanged-abercrombie-1]]"]
+readSlugs: ["before-they-are-hanged-abercrombie-1"]
+readSlugsLinks: ["[[before-they-are-hanged-abercrombie-1]]"]
+currentRead: false
 coverSlug: "before-they-are-hanged-abercrombie-cover"
 ---
 

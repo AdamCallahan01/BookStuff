@@ -1,5 +1,6 @@
 ---
 bookSlug: "ender-s-game-card"
+readSlug: "ender-s-game-card-1"
 book: "[[ender-s-game-card]]"
 readNumber: 1
 score: 8.5

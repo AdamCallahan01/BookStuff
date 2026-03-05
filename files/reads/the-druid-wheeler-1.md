@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-druid-wheeler"
+readSlug: "the-druid-wheeler-1"
 book: "[[the-druid-wheeler]]"
 readNumber: 1
 score: 5.5

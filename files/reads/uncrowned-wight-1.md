@@ -1,5 +1,6 @@
 ---
 bookSlug: "uncrowned-wight"
+readSlug: "uncrowned-wight-1"
 book: "[[uncrowned-wight]]"
 readNumber: 1
 score: 8.5

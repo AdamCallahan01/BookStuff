@@ -13,13 +13,16 @@ goodreads: "https://www.goodreads.com/book/show/55924416-the-wandering-inn?ref=n
 avgGoodreadsRating: "9.16"
 bookOwned: true
 hasSummary: false
+summarySlug: "flowers-of-esthelm-aba-summary"
 summarySlugLink: "[[flowers-of-esthelm-aba-summary]]"
 hasScore: true
 latestScore: 9.5
 readCount: 1
 averageScore: 9.5
 allScores: [9.5]
-readSlugs: ["[[flowers-of-esthelm-aba-1]]"]
+readSlugs: ["flowers-of-esthelm-aba-1"]
+readSlugsLinks: ["[[flowers-of-esthelm-aba-1]]"]
+currentRead: false
 coverSlug: "flowers-of-esthelm-aba-cover"
 ---
 

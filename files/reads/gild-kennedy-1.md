@@ -1,5 +1,6 @@
 ---
 bookSlug: "gild-kennedy"
+readSlug: "gild-kennedy-1"
 book: "[[gild-kennedy]]"
 readNumber: 1
 score: 0.5

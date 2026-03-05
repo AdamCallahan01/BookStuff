@@ -1,5 +1,6 @@
 ---
 bookSlug: "sufficiently-advanced-magic-rowe"
+readSlug: "sufficiently-advanced-magic-rowe-2"
 book: "[[sufficiently-advanced-magic-rowe]]"
 readNumber: 2
 score: 8

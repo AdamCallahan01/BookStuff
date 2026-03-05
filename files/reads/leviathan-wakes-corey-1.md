@@ -1,5 +1,6 @@
 ---
 bookSlug: "leviathan-wakes-corey"
+readSlug: "leviathan-wakes-corey-1"
 book: "[[leviathan-wakes-corey]]"
 readNumber: 1
 score: 7

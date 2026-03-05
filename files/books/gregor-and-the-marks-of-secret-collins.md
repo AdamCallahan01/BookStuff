@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.5"
 isbn: "9780439791465"
 bookOwned: true
 hasSummary: false
+summarySlug: "gregor-and-the-marks-of-secret-collins-summary"
 summarySlugLink: "[[gregor-and-the-marks-of-secret-collins-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[gregor-and-the-marks-of-secret-collins-1]]"]
+readSlugs: ["gregor-and-the-marks-of-secret-collins-1"]
+readSlugsLinks: ["[[gregor-and-the-marks-of-secret-collins-1]]"]
+currentRead: false
 coverSlug: "gregor-and-the-marks-of-secret-collins-cover"
 ---
 

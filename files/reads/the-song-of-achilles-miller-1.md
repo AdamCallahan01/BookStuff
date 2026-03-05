@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-song-of-achilles-miller"
+readSlug: "the-song-of-achilles-miller-1"
 book: "[[the-song-of-achilles-miller]]"
 readNumber: 1
 score: 8

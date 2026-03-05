@@ -17,10 +17,13 @@ subgenre: "Science"
 isbn: "9780192823106"
 bookOwned: true
 hasSummary: false
+summarySlug: "physics-aristotle-summary"
 summarySlugLink: "[[physics-aristotle-summary]]"
 hasScore: false
 readCount: 1
-readSlugs: ["[[physics-aristotle-1]]"]
+readSlugs: ["physics-aristotle-1"]
+readSlugsLinks: ["[[physics-aristotle-1]]"]
+currentRead: false
 coverSlug: "physics-aristotle-cover"
 ---
 

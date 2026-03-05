@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.2"
 isbn: "9798985663211"
 bookOwned: true
 hasSummary: false
+summarySlug: "legends-lattes-baldree-summary"
 summarySlugLink: "[[legends-lattes-baldree-summary]]"
 hasScore: true
 latestScore: 8.5
 readCount: 1
 averageScore: 8.5
 allScores: [8.5]
-readSlugs: ["[[legends-lattes-baldree-1]]"]
+readSlugs: ["legends-lattes-baldree-1"]
+readSlugsLinks: ["[[legends-lattes-baldree-1]]"]
+currentRead: false
 coverSlug: "legends-lattes-baldree-cover"
 ---
 

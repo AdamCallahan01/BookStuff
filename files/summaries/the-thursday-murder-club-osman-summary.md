@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-thursday-murder-club-osman"
+summarySlug: "the-thursday-murder-club-osman-summary"
 book: "[[the-thursday-murder-club-osman]]"
 ---
 

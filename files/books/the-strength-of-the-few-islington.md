@@ -17,13 +17,16 @@ subgenre: "Academia"
 isbn: "9783985852482"
 bookOwned: true
 hasSummary: true
+summarySlug: "the-strength-of-the-few-islington-summary"
 summarySlugLink: "[[the-strength-of-the-few-islington-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-strength-of-the-few-islington-1]]"]
+readSlugs: ["the-strength-of-the-few-islington-1"]
+readSlugsLinks: ["[[the-strength-of-the-few-islington-1]]"]
+currentRead: false
 coverSlug: "the-strength-of-the-few-islington-cover"
 ---
 

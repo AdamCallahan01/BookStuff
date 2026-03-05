@@ -1,5 +1,6 @@
 ---
 bookSlug: "moon-rising-sutherland"
+readSlug: "moon-rising-sutherland-1"
 book: "[[moon-rising-sutherland]]"
 readNumber: 1
 score: 3

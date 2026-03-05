@@ -1,5 +1,6 @@
 ---
 bookSlug: "piranesi-clarke"
+readSlug: "piranesi-clarke-1"
 book: "[[piranesi-clarke]]"
 readNumber: 1
 score: 7.5

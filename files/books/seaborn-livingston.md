@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/61082852-seaborn"
 isbn: "9798472191456"
 bookOwned: false
 hasSummary: false
+summarySlug: "seaborn-livingston-summary"
 summarySlugLink: "[[seaborn-livingston-summary]]"
 hasScore: true
 latestScore: 5
 readCount: 1
 averageScore: 5
 allScores: [5]
-readSlugs: ["[[seaborn-livingston-1]]"]
+readSlugs: ["seaborn-livingston-1"]
+readSlugsLinks: ["[[seaborn-livingston-1]]"]
+currentRead: false
 coverSlug: "seaborn-livingston-cover"
 ---
 

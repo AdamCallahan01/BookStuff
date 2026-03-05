@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-kill-order-dashner"
+summarySlug: "the-kill-order-dashner-summary"
 book: "[[the-kill-order-dashner]]"
 ---
 

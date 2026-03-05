@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-lonesome-crown-durfee"
+summarySlug: "the-lonesome-crown-durfee-summary"
 book: "[[the-lonesome-crown-durfee]]"
 ---
 

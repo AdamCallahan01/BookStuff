@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_
 isbn: "9780439554930"
 bookOwned: true
 hasSummary: false
+summarySlug: "harry-potter-and-the-sorcerer-s-stone-rowling-summary"
 summarySlugLink: "[[harry-potter-and-the-sorcerer-s-stone-rowling-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 3
 averageScore: 7.17
 allScores: [7.5,7,7]
-readSlugs: ["[[harry-potter-and-the-sorcerer-s-stone-rowling-1]]","[[harry-potter-and-the-sorcerer-s-stone-rowling-2]]","[[harry-potter-and-the-sorcerer-s-stone-rowling-3]]"]
+readSlugs: ["harry-potter-and-the-sorcerer-s-stone-rowling-1","harry-potter-and-the-sorcerer-s-stone-rowling-2","harry-potter-and-the-sorcerer-s-stone-rowling-3"]
+readSlugsLinks: ["[[harry-potter-and-the-sorcerer-s-stone-rowling-1]]","[[harry-potter-and-the-sorcerer-s-stone-rowling-2]]","[[harry-potter-and-the-sorcerer-s-stone-rowling-3]]"]
+currentRead: false
 coverSlug: "harry-potter-and-the-sorcerer-s-stone-rowling-cover"
 ---
 

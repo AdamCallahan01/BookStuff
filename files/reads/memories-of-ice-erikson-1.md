@@ -1,5 +1,6 @@
 ---
 bookSlug: "memories-of-ice-erikson"
+readSlug: "memories-of-ice-erikson-1"
 book: "[[memories-of-ice-erikson]]"
 readNumber: 1
 score: 10

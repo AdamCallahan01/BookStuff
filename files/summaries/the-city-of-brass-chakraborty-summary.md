@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-city-of-brass-chakraborty"
+summarySlug: "the-city-of-brass-chakraborty-summary"
 book: "[[the-city-of-brass-chakraborty]]"
 ---
 

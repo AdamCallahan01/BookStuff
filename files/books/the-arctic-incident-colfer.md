@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.92"
 isbn: "9780786808557"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-arctic-incident-colfer-summary"
 summarySlugLink: "[[the-arctic-incident-colfer-summary]]"
 hasScore: true
 latestScore: 7.5
 readCount: 1
 averageScore: 7.5
 allScores: [7.5]
-readSlugs: ["[[the-arctic-incident-colfer-1]]"]
+readSlugs: ["the-arctic-incident-colfer-1"]
+readSlugsLinks: ["[[the-arctic-incident-colfer-1]]"]
+currentRead: false
 coverSlug: "the-arctic-incident-colfer-cover"
 ---
 

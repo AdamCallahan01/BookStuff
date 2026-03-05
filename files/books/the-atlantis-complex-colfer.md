@@ -17,13 +17,16 @@ subgenre: "YA"
 isbn: "9781423128199"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-atlantis-complex-colfer-summary"
 summarySlugLink: "[[the-atlantis-complex-colfer-summary]]"
 hasScore: true
 latestScore: 3
 readCount: 1
 averageScore: 3
 allScores: [3]
-readSlugs: ["[[the-atlantis-complex-colfer-1]]"]
+readSlugs: ["the-atlantis-complex-colfer-1"]
+readSlugsLinks: ["[[the-atlantis-complex-colfer-1]]"]
+currentRead: false
 coverSlug: "the-atlantis-complex-colfer-cover"
 ---
 

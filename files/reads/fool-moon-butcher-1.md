@@ -1,5 +1,6 @@
 ---
 bookSlug: "fool-moon-butcher"
+readSlug: "fool-moon-butcher-1"
 book: "[[fool-moon-butcher]]"
 readNumber: 1
 score: 8

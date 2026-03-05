@@ -17,13 +17,16 @@ subgenre: "Grimdark"
 isbn: "9781481465274"
 bookOwned: false
 hasSummary: true
+summarySlug: "the-blackest-heart-durfee-summary"
 summarySlugLink: "[[the-blackest-heart-durfee-summary]]"
 hasScore: true
 latestScore: 9
 readCount: 1
 averageScore: 9
 allScores: [9]
-readSlugs: ["[[the-blackest-heart-durfee-1]]"]
+readSlugs: ["the-blackest-heart-durfee-1"]
+readSlugsLinks: ["[[the-blackest-heart-durfee-1]]"]
+currentRead: false
 coverSlug: "the-blackest-heart-durfee-cover"
 ---
 

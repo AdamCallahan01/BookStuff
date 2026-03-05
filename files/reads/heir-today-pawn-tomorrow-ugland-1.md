@@ -1,5 +1,6 @@
 ---
 bookSlug: "heir-today-pawn-tomorrow-ugland"
+readSlug: "heir-today-pawn-tomorrow-ugland-1"
 book: "[[heir-today-pawn-tomorrow-ugland]]"
 readNumber: 1
 score: 6

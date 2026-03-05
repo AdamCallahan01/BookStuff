@@ -1,5 +1,6 @@
 ---
 bookSlug: "unsouled-wight"
+readSlug: "unsouled-wight-1"
 book: "[[unsouled-wight]]"
 readNumber: 1
 score: 5.5

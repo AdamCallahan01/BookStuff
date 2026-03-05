@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/76703559-throne-of-glass?ref=nav
 isbn: "9781639730940"
 bookOwned: true
 hasSummary: false
+summarySlug: "throne-of-glass-maas-summary"
 summarySlugLink: "[[throne-of-glass-maas-summary]]"
 hasScore: true
 latestScore: 7
 readCount: 1
 averageScore: 7
 allScores: [7]
-readSlugs: ["[[throne-of-glass-maas-1]]"]
+readSlugs: ["throne-of-glass-maas-1"]
+readSlugsLinks: ["[[throne-of-glass-maas-1]]"]
+currentRead: false
 coverSlug: "throne-of-glass-maas-cover"
 ---
 

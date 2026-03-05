@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-lion-the-witch-and-the-wardrobe-lewis"
+readSlug: "the-lion-the-witch-and-the-wardrobe-lewis-1"
 book: "[[the-lion-the-witch-and-the-wardrobe-lewis]]"
 readNumber: 1
 score: 8

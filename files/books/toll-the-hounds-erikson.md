@@ -17,13 +17,16 @@ subgenre: "Epic"
 isbn: "9780765310088"
 bookOwned: true
 hasSummary: false
+summarySlug: "toll-the-hounds-erikson-summary"
 summarySlugLink: "[[toll-the-hounds-erikson-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[toll-the-hounds-erikson-1]]"]
+readSlugs: ["toll-the-hounds-erikson-1"]
+readSlugsLinks: ["[[toll-the-hounds-erikson-1]]"]
+currentRead: false
 coverSlug: "toll-the-hounds-erikson-cover"
 ---
 

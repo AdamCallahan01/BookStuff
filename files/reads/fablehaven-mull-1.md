@@ -1,5 +1,6 @@
 ---
 bookSlug: "fablehaven-mull"
+readSlug: "fablehaven-mull-1"
 book: "[[fablehaven-mull]]"
 readNumber: 1
 score: 7

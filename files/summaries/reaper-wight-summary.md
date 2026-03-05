@@ -1,5 +1,6 @@
 ---
 bookSlug: "reaper-wight"
+summarySlug: "reaper-wight-summary"
 book: "[[reaper-wight]]"
 ---
 

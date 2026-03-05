@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-novice-matharu"
+readSlug: "the-novice-matharu-1"
 book: "[[the-novice-matharu]]"
 readNumber: 1
 score: 7

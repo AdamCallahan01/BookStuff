@@ -1,5 +1,6 @@
 ---
 bookSlug: "shadows-upon-time-ruocchio"
+summarySlug: "shadows-upon-time-ruocchio-summary"
 book: "[[shadows-upon-time-ruocchio]]"
 ---
 

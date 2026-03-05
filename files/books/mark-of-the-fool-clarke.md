@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/62631889-mark-of-the-fool"
 isbn: "9798353183174"
 bookOwned: true
 hasSummary: true
+summarySlug: "mark-of-the-fool-clarke-summary"
 summarySlugLink: "[[mark-of-the-fool-clarke-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 2
 averageScore: 7.75
 allScores: [7.5,8]
-readSlugs: ["[[mark-of-the-fool-clarke-1]]","[[mark-of-the-fool-clarke-2]]"]
+readSlugs: ["mark-of-the-fool-clarke-1","mark-of-the-fool-clarke-2"]
+readSlugsLinks: ["[[mark-of-the-fool-clarke-1]]","[[mark-of-the-fool-clarke-2]]"]
+currentRead: false
 coverSlug: "mark-of-the-fool-clarke-cover"
 ---
 

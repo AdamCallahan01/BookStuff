@@ -1,5 +1,6 @@
 ---
 bookSlug: "sense-and-sensibility-austen"
+readSlug: "sense-and-sensibility-austen-1"
 book: "[[sense-and-sensibility-austen]]"
 readNumber: 1
 score: 4

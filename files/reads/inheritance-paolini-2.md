@@ -1,5 +1,6 @@
 ---
 bookSlug: "inheritance-paolini"
+readSlug: "inheritance-paolini-2"
 book: "[[inheritance-paolini]]"
 readNumber: 2
 score: 8

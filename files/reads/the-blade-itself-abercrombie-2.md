@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-blade-itself-abercrombie"
+readSlug: "the-blade-itself-abercrombie-2"
 book: "[[the-blade-itself-abercrombie]]"
 readNumber: 2
 score: 9.5

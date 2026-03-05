@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-time-paradox-colfer"
+readSlug: "the-time-paradox-colfer-1"
 book: "[[the-time-paradox-colfer]]"
 readNumber: 1
 score: 8

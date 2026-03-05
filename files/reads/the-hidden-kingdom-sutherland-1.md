@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-hidden-kingdom-sutherland"
+readSlug: "the-hidden-kingdom-sutherland-1"
 book: "[[the-hidden-kingdom-sutherland]]"
 readNumber: 1
 score: 4

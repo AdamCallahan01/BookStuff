@@ -1,5 +1,6 @@
 ---
 bookSlug: "rhythm-of-war-sanderson"
+readSlug: "rhythm-of-war-sanderson-1"
 book: "[[rhythm-of-war-sanderson]]"
 readNumber: 1
 score: 9

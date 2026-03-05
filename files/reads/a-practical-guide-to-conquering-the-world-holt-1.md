@@ -1,5 +1,6 @@
 ---
 bookSlug: "a-practical-guide-to-conquering-the-world-holt"
+readSlug: "a-practical-guide-to-conquering-the-world-holt-1"
 book: "[[a-practical-guide-to-conquering-the-world-holt]]"
 readNumber: 1
 score: 8.5

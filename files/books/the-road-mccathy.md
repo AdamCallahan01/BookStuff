@@ -14,13 +14,16 @@ avgGoodreadsRating: "7.98"
 isbn: "9780307265432"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-road-mccathy-summary"
 summarySlugLink: "[[the-road-mccathy-summary]]"
 hasScore: true
 latestScore: 6.5
 readCount: 1
 averageScore: 6.5
 allScores: [6.5]
-readSlugs: ["[[the-road-mccathy-1]]"]
+readSlugs: ["the-road-mccathy-1"]
+readSlugsLinks: ["[[the-road-mccathy-1]]"]
+currentRead: false
 coverSlug: "the-road-mccathy-cover"
 ---
 

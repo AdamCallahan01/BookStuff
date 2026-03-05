@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-hanging-city-holmberg"
+readSlug: "the-hanging-city-holmberg-1"
 book: "[[the-hanging-city-holmberg]]"
 readNumber: 1
 score: 1

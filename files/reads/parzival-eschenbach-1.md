@@ -1,5 +1,6 @@
 ---
 bookSlug: "parzival-eschenbach"
+readSlug: "parzival-eschenbach-1"
 book: "[[parzival-eschenbach]]"
 readNumber: 1
 score: 6

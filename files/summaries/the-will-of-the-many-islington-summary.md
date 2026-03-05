@@ -1,5 +1,30 @@
 ---
 bookSlug: "the-will-of-the-many-islington"
+summarySlug: "the-will-of-the-many-islington-summary"
 book: "[[the-will-of-the-many-islington]]"
 ---
 
+The Will of the Many
+James Islington
+The Hierachry #1
+
+Princeps->Domidus->3->quartus->quintus->sextus->septimus->octavius
+50k		30k		2k	348	56		8	0
+Vis Telimus (Actually Diago prince of Sous) is an orphan living in latens, a part of Caten/The Hierarchy, a republic that has conquered the world by using will, the ability for people to give their strength to others, making powerful people. He works at a prison and is good at foundation (chess). A magnus quintus comes by asking to see a prisoner, and learns Vis is smart and adopts him. Vis fights in an arena at nights in his free time.
+
+Magnius Quintus Allquiscor Telimus is trying to sent someone to “the academy”, place for all the smart rich kids to get their placement for life. On the way, a big flying ship called a transvect gets shot down by a rebel group called the Anguis. Vis talks to one of them who claims she knows he is Diago, and wants him at the academy and more orders to follow. 
+
+Vis learns from a sextus who graduated from the academy with oilkiscors brother, Cirus. He committed suicide. Lanastia teaches him everything. Their is a thing called the labyrinth you navigate for a test. Vis and Equa the daughter of a rich guy, go to a festival in teh capital city of Caten but their is an attack by the anguis! He kills their leader Melior (On accident more of a suice), who was actually his fathers old advisor estevan. Vis is a hero, Catenicus, and the Anguis hate him (Except the top ranks who know who he is and the plan).
+
+Vis goes to the academy. First meal he punches a kid named Iden. Their are 5 classes, 3-7, Vis starts in 7. He befriends Calades, a 7th who dropped from 3 but is very smart. Vis gets to class 6 and starts to befriend Iden, but their professor is racist so he doesn’t let either kid advance. Vis sneaks out and explores the ruins on the island Sola vargas for AllKeeCore. Then the festival of the ancestors happens.
+
+He meets his adopted father and new mother, Reluqiua, who is the Anguis lady who attacked the transvect shuttle way earlier. On the way back he does a dangerous mission to ewxplore the island and finds a labyrinth justs like the academies but with real death and probably a big reward. Something about a  gate to Obequiem and Luquiem. Someone in class 4 dies by “suicide”., it was the anguis helpiung Vis out. All he has to do is win a sword fight to advance. The fight is rigged so the other guys automaton body won’t break. Vis pounds him into unconscious like a savage brute. Advances to 5. Quickly to 4. Much harder now, people actually competent. The 3rds, Indoll, Emeesa, and Belly, invite him to a summer home for a training break. The summer home is his old Palace on Sous. he goes, listens in to secret government meetings. Saves Emeesa from drowning, they become romantically engaged.
+
+Magnus QUintus OllCiScore Telimus tells him he has to run the new labyrinth during the Eudchiam, a final test for the top students. Vis challenges Belly to a foundation game to take her spot in class 3 and wins. Euduchiam Time::::
+
+Partnered with Caledus and Equa. They try to steal a tracking thing from the “Safety teams” of Sexti. Works, but seems off. Vis sneaks away and runs the labyrinth. An Alopie (Direwolf) he helped his first time here and named Diago shows up to Deus Ex Machina. He runs the labyrinth, but all that happens in the gate is words appear on his arm “Wait” then “RU..” he runs. Gets stabbed but escapes. Learns with Equa that the safety teams have been killed and anguis are killing everyone. But it is actually a military (The government has 3 bodies: Religion (academy), Military (Telimus family is one), and Governance (Caledus family is one) ) raid idea thing to steal power. Vis tracks Emeesa (his girlfriend) to the top of a tower and she uses Will to save him (not allowed for students to have). Then she sees something weird on his arm and pushes him off a tower into a river to kill him. Diago saves him again. He goes back to save Caledus but he isbadly wounded. Carries his dead bud back to the academy and is named Domitor (best) of the academy and can take his position of hcoosing. But he lost his arm. 1 arm Vis they call him. He chooses to work for Caledus’ Dad, the census taker of governance (big betrayal of both military and the anguis who think they own him). Viridian, Prinicplas of the academy and the one who OilQusckor originally thought killed his brother CeeRor talls Vis to join him and religion as he istrying to stop another Cataclysm (A big event that destroyed the world as we know it 302 years ago. 
+
+Epilogue:
+Vis went through a gate thing after the labyrinth. We cut to him in a different 2 worlds (Obequiem and Luecieun) and he meets Ceeror in one. Mysterious.
+
+The end.

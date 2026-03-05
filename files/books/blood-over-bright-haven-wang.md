@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.94"
 isbn: "9780593873359"
 bookOwned: false
 hasSummary: false
+summarySlug: "blood-over-bright-haven-wang-summary"
 summarySlugLink: "[[blood-over-bright-haven-wang-summary]]"
 hasScore: true
 latestScore: 10
 readCount: 1
 averageScore: 10
 allScores: [10]
-readSlugs: ["[[blood-over-bright-haven-wang-1]]"]
+readSlugs: ["blood-over-bright-haven-wang-1"]
+readSlugsLinks: ["[[blood-over-bright-haven-wang-1]]"]
+currentRead: false
 coverSlug: "blood-over-bright-haven-wang-cover"
 ---
 

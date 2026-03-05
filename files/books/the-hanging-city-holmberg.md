@@ -17,13 +17,16 @@ subgenre: "Romance"
 isbn: "9781662508714"
 bookOwned: false
 hasSummary: false
+summarySlug: "the-hanging-city-holmberg-summary"
 summarySlugLink: "[[the-hanging-city-holmberg-summary]]"
 hasScore: true
 latestScore: 1
 readCount: 1
 averageScore: 1
 allScores: [1]
-readSlugs: ["[[the-hanging-city-holmberg-1]]"]
+readSlugs: ["the-hanging-city-holmberg-1"]
+readSlugsLinks: ["[[the-hanging-city-holmberg-1]]"]
+currentRead: false
 coverSlug: "the-hanging-city-holmberg-cover"
 ---
 

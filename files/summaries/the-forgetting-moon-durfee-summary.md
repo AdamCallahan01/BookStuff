@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-forgetting-moon-durfee"
+summarySlug: "the-forgetting-moon-durfee-summary"
 book: "[[the-forgetting-moon-durfee]]"
 ---
 

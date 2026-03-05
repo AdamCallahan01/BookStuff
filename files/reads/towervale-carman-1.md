@@ -1,5 +1,6 @@
 ---
 bookSlug: "towervale-carman"
+readSlug: "towervale-carman-1"
 book: "[[towervale-carman]]"
 readNumber: 1
 score: 1

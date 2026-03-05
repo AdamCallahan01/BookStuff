@@ -11,13 +11,16 @@ goodreads: "https://www.goodreads.com/book/show/15839976-red-rising?ref=nav_sb_s
 isbn: "9780345539786"
 bookOwned: true
 hasSummary: false
+summarySlug: "red-rising-brown-summary"
 summarySlugLink: "[[red-rising-brown-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[red-rising-brown-1]]"]
+readSlugs: ["red-rising-brown-1"]
+readSlugsLinks: ["[[red-rising-brown-1]]"]
+currentRead: false
 coverSlug: "red-rising-brown-cover"
 ---
 

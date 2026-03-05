@@ -1,5 +1,6 @@
 ---
 bookSlug: "blood-of-liscor-aba"
+readSlug: "blood-of-liscor-aba-1"
 book: "[[blood-of-liscor-aba]]"
 readNumber: 1
 score: 10

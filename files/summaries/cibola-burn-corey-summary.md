@@ -1,5 +1,6 @@
 ---
 bookSlug: "cibola-burn-corey"
+summarySlug: "cibola-burn-corey-summary"
 book: "[[cibola-burn-corey]]"
 ---
 

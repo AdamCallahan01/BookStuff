@@ -1,5 +1,6 @@
 ---
 bookSlug: "foundryside-bennett"
+readSlug: "foundryside-bennett-1"
 book: "[[foundryside-bennett]]"
 readNumber: 1
 score: 8.5

@@ -14,13 +14,16 @@ avgGoodreadsRating: "8.4"
 isbn: "9780394820378"
 bookOwned: true
 hasSummary: false
+summarySlug: "the-phantom-tollbooth-juster-summary"
 summarySlugLink: "[[the-phantom-tollbooth-juster-summary]]"
 hasScore: true
 latestScore: 8
 readCount: 1
 averageScore: 8
 allScores: [8]
-readSlugs: ["[[the-phantom-tollbooth-juster-1]]"]
+readSlugs: ["the-phantom-tollbooth-juster-1"]
+readSlugsLinks: ["[[the-phantom-tollbooth-juster-1]]"]
+currentRead: false
 coverSlug: "the-phantom-tollbooth-juster-cover"
 ---
 

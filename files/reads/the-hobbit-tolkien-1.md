@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-hobbit-tolkien"
+readSlug: "the-hobbit-tolkien-1"
 book: "[[the-hobbit-tolkien]]"
 readNumber: 1
 score: 9

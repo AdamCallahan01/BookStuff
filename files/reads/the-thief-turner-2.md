@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-thief-turner"
+readSlug: "the-thief-turner-2"
 book: "[[the-thief-turner]]"
 readNumber: 2
 score: 9

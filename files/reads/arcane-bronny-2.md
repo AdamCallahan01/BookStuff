@@ -1,5 +1,6 @@
 ---
 bookSlug: "arcane-bronny"
+readSlug: "arcane-bronny-2"
 book: "[[arcane-bronny]]"
 readNumber: 2
 score: 6

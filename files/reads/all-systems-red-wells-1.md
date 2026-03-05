@@ -1,5 +1,6 @@
 ---
 bookSlug: "all-systems-red-wells"
+readSlug: "all-systems-red-wells-1"
 book: "[[all-systems-red-wells]]"
 readNumber: 1
 score: 6

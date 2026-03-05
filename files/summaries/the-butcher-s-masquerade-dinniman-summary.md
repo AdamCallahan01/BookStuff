@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-butcher-s-masquerade-dinniman"
+summarySlug: "the-butcher-s-masquerade-dinniman-summary"
 book: "[[the-butcher-s-masquerade-dinniman]]"
 ---
 

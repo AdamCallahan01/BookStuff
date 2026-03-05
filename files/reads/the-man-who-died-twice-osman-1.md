@@ -1,5 +1,6 @@
 ---
 bookSlug: "the-man-who-died-twice-osman"
+readSlug: "the-man-who-died-twice-osman-1"
 book: "[[the-man-who-died-twice-osman]]"
 readNumber: 1
 score: 5
