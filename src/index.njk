@@ -12,13 +12,23 @@ permalink: /
 {% if currentReads | length > 0 %}
   <div class="book-grid">
     {% for book in currentReads %}
+
+        {% set readForBook = null %}
+        {% for r in collections.reads %}
+          {% if r.data.bookSlug == book.data.bookSlug %}
+          {% set readForBook = r %}
+          {% endif %}
+        {% endfor %}
+
       <a href="{{ book.url }}" class="book-card">
         {% if book.data.coverSlug %}
           <img src="/files/covers/{{ book.data.coverSlug }}.jpg" alt="{{ book.data.title }} cover">
         {% endif %}
         <div class="overlay">
-          ⭐ {% if book.data.hasScore %}{{ book.data.averageScore }}{% else %}N/A{% endif %}
-          | 📖 {{ book.data.readCount }}
+          {% if readForBook %}
+            {% if readForBook.data.dateStarted %}🗓️ {{ readForBook.data.dateStarted }} |{% endif %}
+          {% endif %}
+          📖 {{ book.data.readCount }}
         </div>
         <h2>{{ book.data.title }}</h2>
         <p>{{ book.data.author }}</p>

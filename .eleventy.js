@@ -16,6 +16,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({"src/css": "css"});
 
+  eleventyConfig.addPassthroughCopy({"src/js": "js"});
+
   // Truthy filter
   eleventyConfig.addFilter("filterTruthy", function (collection, attribute) {
     if (!Array.isArray(collection)) return [];
@@ -102,7 +104,6 @@ export default function (eleventyConfig) {
     return getLatestForBook(b) - getLatestForBook(a);
   });
 });
-
 
   return {
     dir: {

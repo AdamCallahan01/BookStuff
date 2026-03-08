@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>{{ title }} — My Library</title>
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/elasticlunr.min.js" defer></script>
+  <script src="/js/search.js" defer></script>
 </head>
 <body>
   {% include "header.njk" %}
@@ -77,6 +79,8 @@
                 <p><strong>Days:</strong> {{ readForBook.data.days }}</p>
                 {% if readForBook.data.dateStarted and readForBook.data.dateFinished %}
                     <p><strong>Date:</strong> {{ readForBook.data.dateStarted }} -> {{ readForBook.data.dateFinished }}</p>
+                {% elif readForBook.data.dateStarted %}
+                    <p><strong>Date:</strong> {{ readForBook.data.dateStarted }} -></p>
                 {% else %}
                     <p><strong>Year Read:</strong> {{ readForBook.data.yearRead }}</p>
                 {% endif %}

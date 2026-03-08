@@ -17,17 +17,17 @@ subgenre: "Flintlock"
 isbn: "9798280214002"
 narrator: "Steven Pacey"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-sound-of-change-wall-summary"
 summarySlugLink: "[[the-sound-of-change-wall-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7.5
+allScores: [7.5]
 readSlugs: ["the-sound-of-change-wall-1"]
 readSlugsLinks: ["[[the-sound-of-change-wall-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-sound-of-change-wall-cover"
 ---
 

@@ -14,13 +14,13 @@ hasSummary: false
 summarySlug: "the-lightning-thief-riordan-summary"
 summarySlugLink: "[[the-lightning-thief-riordan-summary]]"
 hasScore: true
-latestScore: 7.5
-readCount: 1
-averageScore: 7.5
-allScores: [7.5]
-readSlugs: ["the-lightning-thief-riordan-1"]
-readSlugsLinks: ["[[the-lightning-thief-riordan-1]]"]
-currentRead: false
+latestScore: 0
+readCount: 2
+averageScore: 3.75
+allScores: [7.5,0]
+readSlugs: ["the-lightning-thief-riordan-1","the-lightning-thief-riordan-2"]
+readSlugsLinks: ["[[the-lightning-thief-riordan-1]]","[[the-lightning-thief-riordan-2]]"]
+currentRead: true
 coverSlug: "the-lightning-thief-riordan-cover"
 ---
 

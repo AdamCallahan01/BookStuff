@@ -16,17 +16,17 @@ genre: "Science Fiction"
 subgenre: "Space Opera"
 isbn: "9780316332828"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "persepolis-rising-corey-summary"
 summarySlugLink: "[[persepolis-rising-corey-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["persepolis-rising-corey-1"]
 readSlugsLinks: ["[[persepolis-rising-corey-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "persepolis-rising-corey-cover"
 ---
 

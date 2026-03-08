@@ -4,21 +4,41 @@
   <meta charset="UTF-8">
   <title>The Tempest — My Library</title>
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/elasticlunr.min.js" defer></script>
+  <script src="/js/search.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-  <div class="site-title">
-    <a href="/" class="nav-link">My Library</a>
-  </div>
-  <nav>
-    <a href="/" class="nav-link">Home</a>
-    <a href="/books/" class="nav-link">Books</a>
-    <a href="/series/" class="nav-link">Series</a>
-    <a href="/authors/" class="nav-link">Authors</a>
-    <a href="/lists/" class="nav-link">Lists</a>
-    <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
-    <a href="/about/" class="nav-link">About</a>
-  </nav>
+    <div class="site-title">
+        <a href="/" class="nav-link">My Library</a>
+    </div>
+
+        <div class="search-container">
+
+        <input type="text" id="searchInput" placeholder="Search books..." autocomplete="one-time-code" />
+
+        <div class="search-options-wrapper">
+            <button type="button" id="searchOptionsBtn">Options ▼</button>
+
+            <div class="search-options-dropdown" id="searchOptionsDropdown">
+            <label>
+                <input type="checkbox" id="includeSummaries">
+                Include summaries
+            </label>
+            </div>
+        </div>
+
+        <div id="searchResults" class="search-results-dropdown"></div>
+
+        </div>
+
+    <nav>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/books/" class="nav-link">Books</a>
+        <a href="/lists/" class="nav-link">Lists</a>
+        <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+        <a href="/about/" class="nav-link">About</a>
+    </nav>
 </header>
 
   <main class="book-main-container">
@@ -638,6 +658,10 @@
         
             
             
+            
+        
+            
+        
             
         
             
