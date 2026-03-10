@@ -43,6 +43,8 @@
   <main>
     <head>
   <script src="/js/bookFilter.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
 </head>
 
 <h1>All Books</h1>
@@ -59,18 +61,18 @@
   <option value="">All Authors</option>
   </select>
 
-  <select id="scoreFilter">
-  <option value="">Any Score</option>
-  <option value="4">4+</option>
-  <option value="3">3+</option>
-  </select>
+<div>
+  <label for="scoreSlider">Score Range:</label>
+  <div id="scoreSlider" style="width:300px;margin:10px 0;"></div>
+  <div id="scoreLabel"></div>
+</div>
 
   <select id="sortField">
   <option value="title">Title</option>
   <option value="series">Series</option>
-  <option value="averageScore">Average Score</option>
-  <option value="latestScore">Latest Score</option>
-  <option value="dateFinished">Date Finished</option>
+  <option value="averagescore">Average Score</option>
+  <option value="latestscore">Latest Score</option>
+  <option value="datefinished">Date Finished</option>
   </select>
 
   <select id="sortDirection">
@@ -80,6 +82,14 @@
 
   <button id="filterResetButton"> RESET </button>
 </div>
+<label>Number of books:</label>
+<label id="bookNumberLabel">0</label>
+<label>Number of pages:</label>
+<label id="pageCountLabel">0</label>
+<label>average pages:</label>
+<label id="pageAverageLabel">0</label>
+<label>Average Score:</label>
+<label id="scoreAverageLabel">0</label>
 
 
 
@@ -16464,7 +16474,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -17352,7 +17361,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -18240,7 +18248,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -19130,7 +19137,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -20018,7 +20024,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -20906,7 +20911,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -21796,7 +21800,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -22684,7 +22687,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -23574,7 +23576,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -24460,7 +24461,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -25350,7 +25350,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -26238,7 +26237,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -27128,7 +27126,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -28016,7 +28013,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -28904,7 +28900,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -29796,7 +29791,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -30684,7 +30678,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -31572,7 +31565,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -32458,7 +32450,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -33346,7 +33337,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -34234,7 +34224,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -35128,7 +35117,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -36014,7 +36002,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -36906,7 +36893,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -37798,7 +37784,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -38684,7 +38669,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -39578,7 +39562,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -40464,7 +40447,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -41358,7 +41340,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -42248,7 +42229,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -43136,7 +43116,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -44020,7 +43999,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -44908,7 +44886,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -45804,7 +45781,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -46692,7 +46668,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -47578,7 +47553,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -48466,7 +48440,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -49358,7 +49331,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -50246,7 +50218,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -51136,7 +51107,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -52024,7 +51994,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -52916,7 +52885,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -53804,7 +53772,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -54690,7 +54657,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -55578,7 +55544,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -56470,7 +56435,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -57360,7 +57324,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -58248,7 +58211,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -59136,7 +59098,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -60026,7 +59987,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -60914,7 +60874,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -61804,7 +61763,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -62692,7 +62650,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -63582,7 +63539,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -64470,7 +64426,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -65360,7 +65315,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -66248,7 +66202,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -67140,7 +67093,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -68028,7 +67980,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -68914,7 +68865,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -69802,7 +69752,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -70694,7 +70643,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -71584,7 +71532,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -72472,7 +72419,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -73358,7 +73304,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -74252,7 +74197,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -75140,7 +75084,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -76030,7 +75973,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -76914,7 +76856,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -77802,7 +77743,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -78696,7 +78636,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -79588,7 +79527,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -80478,7 +80416,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -81362,7 +81299,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -82258,7 +82194,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -83144,7 +83079,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -84038,7 +83972,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -84924,7 +84857,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -85816,7 +85748,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -86708,7 +86639,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -87594,7 +87524,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -88488,7 +88417,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -89374,7 +89302,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -90262,7 +90189,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -91154,7 +91080,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -92044,7 +91969,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -92932,7 +92856,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -93818,7 +93741,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -94710,7 +94632,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -95598,7 +95519,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -96488,7 +96408,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -97378,7 +97297,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -98268,7 +98186,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -99156,7 +99073,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -100040,7 +99956,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -100934,7 +100849,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -101818,7 +101732,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -102712,7 +102625,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -103602,7 +103514,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -104492,7 +104403,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -105382,7 +105292,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -106272,7 +106181,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -107162,7 +107070,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -108046,7 +107953,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -108938,7 +108844,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -109828,7 +109733,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -110718,7 +110622,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -111606,7 +111509,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -112496,7 +112398,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -113386,7 +113287,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -114280,7 +114180,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -115164,7 +115063,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -116054,7 +115952,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -116946,7 +116843,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -117836,7 +117732,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -118726,7 +118621,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -119614,7 +119508,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -120506,7 +120399,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -121392,7 +121284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -122280,7 +122171,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -123172,7 +123062,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -124062,7 +123951,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -124954,7 +124842,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -125840,7 +125727,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -126734,7 +126620,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -127620,7 +127505,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -128512,7 +128396,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -129402,7 +129285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -130292,7 +130174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -131182,7 +131063,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -132072,7 +131952,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -132962,7 +132841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -133852,7 +133730,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -134742,7 +134619,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -135632,7 +135508,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -136522,7 +136397,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -137412,7 +137286,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -138302,7 +138175,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -139192,7 +139064,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -140082,7 +139953,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -140974,7 +140844,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -141862,7 +141731,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -142754,7 +142622,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -143636,7 +143503,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -144524,7 +144390,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -145416,7 +145281,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -146310,7 +146174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -147198,7 +147061,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -148088,7 +147950,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -148972,7 +148833,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -149868,7 +149728,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -150754,7 +150613,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -151648,7 +151506,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -152534,7 +152391,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -153428,7 +153284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -154316,7 +154171,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -155206,7 +155060,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -156090,7 +155943,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -156984,7 +156836,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -157874,7 +157725,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -158764,7 +158614,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -159654,7 +159503,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -160546,7 +160394,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -161432,7 +161279,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -162326,7 +162172,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -163212,7 +163057,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -164104,7 +163948,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -164994,7 +164837,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -165886,7 +165728,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -166776,7 +166617,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -167660,7 +167500,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -168556,7 +168395,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -169442,7 +169280,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -170336,7 +170173,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -171222,7 +171058,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -172116,7 +171951,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -173006,7 +172840,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -173890,7 +173723,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -174784,7 +174616,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -175674,7 +175505,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -176566,7 +176396,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -177458,7 +177287,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -178340,7 +178168,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -179232,7 +179059,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -180124,7 +179950,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -181016,7 +180841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -181906,7 +181730,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -182790,7 +182613,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -183686,7 +183508,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -184576,7 +184397,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -185464,7 +185284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -186348,7 +186167,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -187242,7 +187060,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -188132,7 +187949,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -189022,7 +188838,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -189912,7 +189727,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -190804,7 +190618,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -191690,7 +191503,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -192582,7 +192394,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -193474,7 +193285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -194366,7 +194176,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -195248,7 +195057,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -196144,7 +195952,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -197034,7 +196841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -197916,7 +197722,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -198812,7 +198617,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -199702,7 +199506,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -200592,7 +200395,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -201482,7 +201284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -202372,7 +202173,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -203262,7 +203062,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -204152,7 +203951,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -205042,7 +204840,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -205932,7 +205729,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -206824,7 +206620,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -207710,7 +207505,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -208604,7 +208398,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -209490,7 +209283,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -210382,7 +210174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -211274,7 +211065,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -212160,7 +211950,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -213052,7 +212841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -213944,7 +213732,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -214834,7 +214621,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -215718,7 +215504,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -216614,7 +216399,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -217500,7 +217284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -218396,7 +218179,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -219280,7 +219062,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -220168,7 +219949,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -221062,7 +220842,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -221946,7 +221725,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -222840,7 +222618,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -223730,7 +223507,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -224620,7 +224396,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -225510,7 +225285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -226402,7 +226176,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -227288,7 +227061,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -228176,7 +227948,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -229072,7 +228843,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -229956,7 +229726,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -230850,7 +230619,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -231740,7 +231508,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -232622,7 +232389,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -233520,7 +233286,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -234406,7 +234171,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -235298,7 +235062,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -236188,7 +235951,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -237078,7 +236840,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -237968,7 +237729,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -238858,7 +238618,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -239746,7 +239505,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -240636,7 +240394,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -241528,7 +241285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -242418,7 +242174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -243302,7 +243057,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -244196,7 +243950,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -245088,7 +244841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -245974,7 +245726,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -246866,7 +246617,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -247756,7 +247506,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -248646,7 +248395,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -249536,7 +249284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -250426,7 +250173,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -251316,7 +251062,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -252206,7 +251951,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -253096,7 +252840,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -253986,7 +253729,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -254876,7 +254618,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -255766,7 +255507,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -256654,7 +256394,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -257544,7 +257283,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -258436,7 +258174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -259326,7 +259063,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -260210,7 +259946,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -261104,7 +260839,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -261994,7 +261728,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -262884,7 +262617,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -263774,7 +263506,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -264664,7 +264395,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -265554,7 +265284,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -266446,7 +266175,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -267338,7 +267066,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -268220,7 +267947,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -269116,7 +268842,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -270000,7 +269725,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -270896,7 +270620,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -271782,7 +271505,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -272674,7 +272396,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -273564,7 +273285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -274454,7 +274174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -275344,7 +275063,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -276238,7 +275956,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -277126,7 +276843,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -278010,7 +277726,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -278904,7 +278619,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -279788,7 +279502,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -280684,7 +280397,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -281574,7 +281286,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -282458,7 +282169,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -283352,7 +283062,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -284244,7 +283953,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -285134,7 +284842,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -286018,7 +285725,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -286912,7 +286618,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -287802,7 +287507,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -288692,7 +288396,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -289582,7 +289285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -290472,7 +290174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -291366,7 +291067,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -292250,7 +291950,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -293140,7 +292839,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -294032,7 +293730,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -294924,7 +294621,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -295814,7 +295510,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -296698,7 +296393,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -297592,7 +297286,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -298482,7 +298175,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -299372,7 +299064,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -300264,7 +299955,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -301154,7 +300844,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -302038,7 +301727,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -302932,7 +302620,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -303824,7 +303511,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -304710,7 +304396,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -305604,7 +305289,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -306490,7 +306174,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -307378,7 +307061,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -308270,7 +307952,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -309160,7 +308841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -310050,7 +309730,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -310940,7 +310619,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -311832,7 +311510,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -312722,7 +312399,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -313606,7 +313282,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -314502,7 +314177,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -315392,7 +315066,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -316282,7 +315955,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -317164,7 +316836,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -318062,7 +317733,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -318948,7 +318618,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -319840,7 +319509,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -320732,7 +320400,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -321618,7 +321285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -322512,7 +322178,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -323404,7 +323069,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -324286,7 +323950,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -325178,7 +324841,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -326070,7 +325732,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -326960,7 +326621,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -327850,7 +327510,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -328742,7 +328401,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -329628,7 +329286,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -330520,7 +330177,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -331410,7 +331066,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -332302,7 +331957,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -333192,7 +332846,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -334076,7 +333729,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -334972,7 +334624,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -335858,7 +335509,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -336750,7 +336400,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -337640,7 +337289,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -338530,7 +338178,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -339420,7 +339067,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -340312,7 +339958,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -341198,7 +340843,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -342090,7 +341734,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -342980,7 +342623,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -343870,7 +343512,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -344760,7 +344401,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -345652,7 +345292,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -346538,7 +346177,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -347432,7 +347070,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -348318,7 +347955,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -349210,7 +348846,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -350100,7 +349735,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -350992,7 +350626,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -351882,7 +351515,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -352772,7 +352404,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -353654,7 +353285,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -354554,7 +354184,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -355438,7 +355067,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -356334,7 +355962,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -357216,7 +356843,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -358108,7 +357734,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -359000,7 +358625,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -359892,7 +359516,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -360778,7 +360401,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -361674,7 +361296,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -362558,7 +362179,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -363448,7 +363068,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -364342,7 +363961,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -365228,7 +364846,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -366122,7 +365739,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -367008,7 +366624,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -367902,7 +367517,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -368792,7 +368406,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -369676,7 +369289,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -370570,7 +370182,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -371462,7 +371073,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -372348,7 +371958,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -373242,7 +372851,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -374132,7 +373740,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -375016,7 +374623,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -375912,7 +375518,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -376802,7 +376407,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -377686,7 +377290,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -378580,7 +378183,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -379470,7 +379072,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -380362,7 +379963,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -381252,7 +380852,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -382136,7 +381735,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -383032,7 +382630,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -383918,7 +383515,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -384812,7 +384408,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -385698,7 +385293,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -386590,7 +386184,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -387480,7 +387073,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -388370,7 +387962,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -389260,7 +388851,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -390150,7 +389740,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -391040,7 +390629,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -391932,7 +391520,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -392818,7 +392405,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -393710,7 +393296,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -394600,7 +394185,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -395490,7 +395074,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -396380,7 +395963,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -397272,7 +396854,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -398162,7 +397743,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -399046,7 +398626,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -399940,7 +399519,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -400832,7 +400410,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -401724,7 +401301,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -402606,7 +402182,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -403498,7 +403073,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -404390,7 +403964,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -405282,7 +404855,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -406172,7 +405744,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -407062,7 +406633,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -407944,7 +407514,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -408840,7 +408409,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -409730,7 +409298,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -410622,7 +410189,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -411508,7 +411074,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -412400,7 +411965,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -413290,7 +412854,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -414182,7 +413745,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -415068,7 +414630,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -415960,7 +415521,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -416852,7 +416412,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -417742,7 +417301,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -418626,7 +418184,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -419520,7 +419077,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -420412,7 +419968,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -421298,7 +420853,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -422192,7 +421746,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -423082,7 +422635,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -423966,7 +423518,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -424860,7 +424411,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -425752,7 +425302,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -426638,7 +426187,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -427530,7 +427078,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -428420,7 +427967,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -429310,7 +428856,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -430200,7 +429745,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -431094,7 +430638,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -431978,7 +431521,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -432868,7 +432410,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -433760,7 +433301,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -434650,7 +434190,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -435542,7 +435081,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -436428,7 +435966,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -437320,7 +436857,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -438210,7 +437746,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -438626,7 +438161,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     
@@ -439988,7 +439522,6 @@
     data-days="0"
     data-yearRead="0"
     data-hasReview="false"
-
   >
 
     

@@ -1,59 +1,10 @@
-// const grid = document.getElementById("booksView");
-// const sortField = document.getElementById("sortField");
-// const sortDirection = document.getElementById("sortDirection");
+// 1. Get grid of cards and make book index
+// 2. establish filter state
+// 3. get all control elements by id
+// 4. check url and set filters and control elements accordingly
+// 5. render correct book list
 
-// function sortBooks() {
-//   const field = sortField.value.toLowerCase();
-//   const direction = sortDirection.value;
-
-//   //console.log(grid);
-
-//   const books = Array.from(grid.querySelectorAll(".book-card"));
-
-//   books.sort((a, b) => {
-//     let valA = a.dataset[field];
-//     let valB = b.dataset[field];
-
-//     // numeric comparison if possible
-//     const numA = parseFloat(valA);
-//     const numB = parseFloat(valB);
-
-//     if (!isNaN(numA) && !isNaN(numB)) {
-//       return direction === "asc" ? numA - numB : numB - numA;
-//     }
-
-//     // string comparison
-//     return direction === "asc"
-//       ? valA.localeCompare(valB)
-//       : valB.localeCompare(valA);
-//   });
-
-//   books.forEach(book => grid.appendChild(book));
-// }
-
-// sortField.addEventListener("change", sortBooks);
-// sortDirection.addEventListener("change", sortBooks);
-
-// // Reads vs Books
-// const toggle = document.getElementById("combineToggle");
-// const booksView = document.getElementById("booksView");
-// const readsView = document.getElementById("readsView");
-
-// toggle.addEventListener("change", () => {
-//   if (toggle.checked) {
-//     booksView.style.display = "";
-//     readsView.style.display = "none";
-//   } else {
-//     booksView.style.display = "none";
-//     readsView.style.display = "";
-//   }
-// });
-
-
-//
-//    TESTING
-//
-
+// 1
 const cards = Array.from(document.querySelectorAll(".book-card"));
 
 const bookDataIndex = cards.map(el => ({
@@ -61,13 +12,17 @@ const bookDataIndex = cards.map(el => ({
   ...el.dataset
 }));
 
+/////////////////////////////////////////////////////////////////////
+
+// 2
 const state = {
   view: "books",
   search: "",
   author: "",
-  minScore: null,
+  minScore: 0,
+  maxScore: 10,
   sortField: "title",
-  sortDir: true //Ascending
+  sortDir: "asc" //Ascending
   //Num of reads
   //Series order
   //Score change read to read
@@ -77,83 +32,173 @@ const state = {
   //
 };
 
+////////////////////////////////////////////////////////////////
+
+// 3
+const combineToggle = document.getElementById("combineToggle");
+const searchTextInput = document.getElementById("booksSearchInput");
+const authorFilter = document.getElementById("authorFilter");
+const sortField = document.getElementById("sortField");
+const sortDirection = document.getElementById("sortDirection");
+//Score slider
+const slider = document.getElementById("scoreSlider");
+const scoreLabel = document.getElementById("scoreLabel");
+
+const resetButton = document.getElementById("filterResetButton");
+
+const bookNumberLabel = document.getElementById("bookNumberLabel");
+const pageCountLabel = document.getElementById("pageCountLabel");
+const pageAverageLabel = document.getElementById("pageAverageLabel");
+const scoreAverageLabel = document.getElementById("scoreAverageLabel");
+
+///////////////////////////////////////////////////////////////////////////
+
+const filterConfig = {
+  view: {
+    element: combineToggle,
+    state: "view",
+    default: "books"
+  },
+
+  search: {
+    element: searchTextInput,
+    state: "search",
+    default: ""
+  },
+
+  author: {
+    element: authorFilter,
+    state: "author",
+    default: ""
+  },
+
+  sort: {
+    element: sortField,
+    state: "sortField",
+    default: "title"
+  },
+
+  dir: {
+    element: sortDirection,
+    state: "sortDir",
+    default: "asc"
+  },
+
+  minScore: {
+    state: "minScore",
+    type: "number",
+    default: 0
+  },
+
+  maxScore: {
+    state: "maxScore",
+    type: "number",
+    default: 10
+  }
+};
+
+/////////////////////////////////////////////////////////////////////////////
 
 // Author filter
 const authors = [...new Set(bookDataIndex.map(i => i.author))].sort();
-const select = document.getElementById("authorFilter");
 
 authors.forEach(author=>{
   const opt = document.createElement("option");
   opt.value = author;
   opt.textContent = author;
-  select.appendChild(opt);
+  authorFilter.appendChild(opt);
 });
 
-//console.log(cards);
-//console.log(bookDataIndex);
+// Score Slider
+noUiSlider.create(slider, {
+  start: [0, 10],
+  connect: true,
+  step: 1,
+  range: {
+    min: 0,
+    max: 10
+  }
+});
 
-const combineToggle = document.getElementById("combineToggle");
-const searchTextInput = document.getElementById("booksSearchInput");
-const authorFilter = document.getElementById("authorFilter");
-const scoreFilter = document.getElementById("scoreFilter");
-const sortField = document.getElementById("sortField");
-const sortDirection = document.getElementById("sortDirection");
+// 4
+//check if we have saved filters
+setFiltersFromURL();
 
 combineToggle.addEventListener("change", updateState);
 authorFilter.addEventListener("change", updateState);
-scoreFilter.addEventListener("change", updateState);
 sortField.addEventListener("change", updateState);
 sortDirection.addEventListener("change", updateState);
 
-const resetButton = document.getElementById("filterResetButton");
 resetButton.addEventListener("click", resetFilters);
 
-function resetFilters() {
-  //console.log("reset filter");
+// Score slider listener
+slider.noUiSlider.on("update", function(values) {
+  //console.log("Slider updated");
+  const min = Math.round(values[0]);
+  const max = Math.round(values[1]);
 
+  if (min === 0 && max === 10) {
+    scoreLabel.textContent = "Any Score";
+  } else {
+    scoreLabel.textContent = `${min} – ${max}`;
+  }
+
+  state.minScore = min;
+  state.maxScore = max;
+  updateState();
+});
+
+////////////////////////////////////////////////////////
+
+// Set all filters and control to their defaults
+function resetFilters() {
+  // console.log("reset filter");
+
+  // reset state
   state.view = "books",
   state.search = "",
   state.author = "",
-  state.minScore = null,
+  state.minScore = 0,
+  state.maxScore = 10,
   state.sortField = "title",
-  state.sortDir = true
+  state.sortDir = "asc";
 
+  // reset visual controls
   combineToggle.checked = true;
   searchTextInput.value = "";
   authorFilter.selectedIndex = 0;
-  //scoreFilter
   sortField.selectedIndex = 0;
   sortDirection.selectedIndex = 0;
+  slider.noUiSlider.set([0, 10]);
 
   render();
 }
 
 //Check every field and set state accordingly
 function updateState() {
-  //console.log("updateState");
+  // console.log("updateState");
 
   const newView = combineToggle.checked ? "books" : "reads";
 
   const newSearch = searchTextInput.value.toLowerCase();
 
-  const newAuthor = authorFilter.options[authorFilter.selectedIndex].value.toLowerCase();
+  const newAuthor = (authorFilter.value || "").toLowerCase();
 
-//   newScore = scoreFilter.number();
+  const newField = (sortField.value || "").toLowerCase();
 
-  const newField = sortField.options[sortField.selectedIndex].value.toLowerCase();
-
-  const newSortDir = sortDirection.options[sortDirection.selectedIndex].value === "asc" ? true : false;
+  const newSortDir = (sortDirection.value || "") === "asc" ? "asc" : "desc";
 
   state.view = newView;
   state.search = newSearch;
   state.author = newAuthor;
-//   state.minScore = newScore;
+// min max score updated in own method
   state.sortField = newField;
   state.sortDir = newSortDir;
 
   render();
 }
 
+// Exclude any items not matching current state
 function filterItems() {
   //console.log("filterItems");
 
@@ -177,17 +222,22 @@ function filterItems() {
       const score = parseFloat(item.score || item.averagescore || 0);
       if (score < state.minScore) return false;
     }
+    if (state.maxScore) {
+      const score = parseFloat(item.score || item.averagescore || 0);
+      if (score > state.maxScore) return false;
+    }
 
     return true;
   });
 
 }
 
+// sort items by field and direction
 function sortItems(items) {
   //console.log("sortItems");
 
   const field = state.sortField;
-  const dir = state.sortDir ? 1: -1;
+  const dir = state.sortDir === "asc" ? 1: -1;
 
   return items.sort((a,b) => {
 
@@ -212,13 +262,14 @@ function sortItems(items) {
 
 }
 
+// Calls filter and sort, then displays book cards
 function render() {
   //console.log("render (method)");
 
   const grid = document.querySelector(".book-grid");
 
   const filtered = filterItems();
-  console.log(filtered);
+  //console.log(filtered);
   const sorted = sortItems(filtered);
 
   bookDataIndex.forEach(item => item.el.style.display = "none");
@@ -228,17 +279,94 @@ function render() {
     grid.appendChild(item.el);
   });
 
+  updateLabels(filtered);
+
+  updateURL();
 }
 
-function updateURL() {
-  console.log("updateURL");
+//Labels to show various stats
+function updateLabels(filtered) {
 
+  let totalScore = 0;
+  let pageCount = 0;
+
+  for( i = 0; i < filtered.length; i++ )
+  {
+    totalScore += Number(filtered[i].averagescore);
+    pageCount += Number(filtered[i].pages);
+  }
+
+
+  if( bookNumberLabel && filtered)
+    bookNumberLabel.textContent = filtered.length;
+
+  if( pageCountLabel && filtered)
+    pageCountLabel.textContent = pageCount;
+
+  if( pageAverageLabel && filtered)
+    pageAverageLabel.textContent = pageCount / filtered.length;
+
+  if( scoreAverageLabel && filtered)
+    scoreAverageLabel.textContent = totalScore / filtered.length;
+}
+
+// updates url with any filter and search fields
+function updateURL() {
+  //console.log("updateURL");
   const params = new URLSearchParams();
 
-  if (state.author) params.set("author", state.author);
-  if (state.minScore) params.set("score", state.minScore);
-  params.set("sort", state.sortField);
-  params.set("dir", state.sortDir);
+  // Loop through config for other filters
+  for (const [param, config] of Object.entries(filterConfig)) {
+    let value = state[config.state];
+
+    if (value == null || value === "" || value === config.default) {
+      continue; // skip default / empty
+    }
+
+    params.set(param, value);
+  }
 
   history.replaceState(null,"","?"+params.toString());
+}
+
+// Call when loading book page, check if we have a changed state and handle accordingly
+function setFiltersFromURL()
+{
+  //console.log("Setting filters from URL");
+  const params = new URLSearchParams(window.location.search);
+
+  for (const [param, config] of Object.entries(filterConfig))
+  {
+    let value = params.get(param);
+
+    if (value == null)
+      value = config.default;
+
+    if (value == null)
+      continue;
+
+    if (config.type === "number")
+      value = Number(value);
+
+    if (config.element)
+      config.element.value = value;
+
+    if (config.state)
+      state[config.state] = value;
+  } 
+
+  // view toggle (custom logic)
+  const view = params.get("view");
+  if (view)
+  {
+    state.view = view;
+    combineToggle.checked = view === "books";
+  }
+
+  // slider (range control)
+  const minScore = state.minScore ?? 0;
+  const maxScore = state.maxScore ?? 10;
+  slider.noUiSlider.set([minScore, maxScore]);
+
+  render();
 }
