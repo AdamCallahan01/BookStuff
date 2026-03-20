@@ -10,6 +10,7 @@ pages: 320
 goodreads: "https://www.goodreads.com/book/show/28185.The_Titan_s_Curse"
 isbn: "9781423101451"
 bookOwned: true
+otherSeries: "Percy Jackson"
 hasSummary: false
 summarySlug: "the-titan-s-curse-riordan-summary"
 summarySlugLink: "[[the-titan-s-curse-riordan-summary]]"

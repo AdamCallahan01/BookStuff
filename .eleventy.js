@@ -14,6 +14,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("files/covers");
 
+  eleventyConfig.addPassthroughCopy("files/other");
+
   eleventyConfig.addPassthroughCopy({"src/css": "css"});
 
   eleventyConfig.addPassthroughCopy({"src/js": "js"});
@@ -103,6 +105,18 @@ export default function (eleventyConfig) {
   return [...books].sort((a, b) => {
     return getLatestForBook(b) - getLatestForBook(a);
   });
+});
+
+eleventyConfig.addFilter("bookByTitle", function(title, books) {
+  return books.find(b => b.data.title === title);
+});
+
+eleventyConfig.addFilter("booksBySeries", function(series, books) {
+  return books.filter(b => b.data.series && b.data.series === series);
+});
+
+eleventyConfig.addFilter("year", function() {
+  return new Date().getFullYear();
 });
 
   return {

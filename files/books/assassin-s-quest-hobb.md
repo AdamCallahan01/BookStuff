@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780007562275"
 bookOwned: true
+otherSeries: "The Realm of the Elderlings"
 hasSummary: true
 summarySlug: "assassin-s-quest-hobb-summary"
 summarySlugLink: "[[assassin-s-quest-hobb-summary]]"

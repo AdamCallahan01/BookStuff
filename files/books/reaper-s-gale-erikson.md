@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780593046319"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "reaper-s-gale-erikson-summary"
 summarySlugLink: "[[reaper-s-gale-erikson-summary]]"

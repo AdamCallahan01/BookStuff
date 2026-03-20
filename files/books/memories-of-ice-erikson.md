@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/175983.Memories_of_Ice"
 avgGoodreadsRating: "8.92"
 isbn: "9780765348807"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "memories-of-ice-erikson-summary"
 summarySlugLink: "[[memories-of-ice-erikson-summary]]"

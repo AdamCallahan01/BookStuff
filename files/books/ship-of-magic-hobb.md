@@ -17,6 +17,7 @@ subgenre: "Epic"
 isbn: "9780006498858"
 narrator: "Anne Flosnik"
 bookOwned: true
+otherSeries: "The Realm of the Elderlings"
 hasSummary: true
 summarySlug: "ship-of-magic-hobb-summary"
 summarySlugLink: "[[ship-of-magic-hobb-summary]]"

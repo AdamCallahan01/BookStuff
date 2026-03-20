@@ -9,6 +9,7 @@ seriesNumber: "1.5"
 pages: 25
 goodreads: "https://www.goodreads.com/book/show/41970314-the-hope-of-elantris"
 bookOwned: false
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-hope-of-elantris-sanderson-summary"
 summarySlugLink: "[[the-hope-of-elantris-sanderson-summary]]"

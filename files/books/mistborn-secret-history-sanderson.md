@@ -10,6 +10,7 @@ pages: 160
 goodreads: "https://www.goodreads.com/book/show/42028213-mistborn"
 isbn: "9781473225046"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "mistborn-secret-history-sanderson-summary"
 summarySlugLink: "[[mistborn-secret-history-sanderson-summary]]"

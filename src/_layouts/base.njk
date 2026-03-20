@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ title or "My Library" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Library" }}</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+  <link rel="shortcut icon" href="/files/other/favicon.ico">
+
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/elasticlunr.min.js" defer></script>
-  <script src="/js/search.js" defer></script>
-</head>
+  <script src="/js/search.js" defer></script></head>
 <body>
   {% include "header.njk" %}
   <main>

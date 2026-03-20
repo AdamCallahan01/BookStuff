@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/35606041-a-little-hatred"
 avgGoodreadsRating: "8.9"
 isbn: "9780316187169"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "a-little-hatred-abercrombie-summary"
 summarySlugLink: "[[a-little-hatred-abercrombie-summary]]"

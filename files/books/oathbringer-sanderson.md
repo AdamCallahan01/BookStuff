@@ -10,6 +10,7 @@ pages: 1243
 goodreads: "https://www.goodreads.com/book/show/37534833-oathbringer"
 isbn: "9781250297143"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "oathbringer-sanderson-summary"
 summarySlugLink: "[[oathbringer-sanderson-summary]]"

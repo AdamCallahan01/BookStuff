@@ -10,6 +10,7 @@ pages: 160
 goodreads: "https://www.goodreads.com/book/show/33551363-white-sand-volume-2"
 isbn: "9781524103422"
 bookOwned: false
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "white-sand-volume-2-sanderson-summary"
 summarySlugLink: "[[white-sand-volume-2-sanderson-summary]]"

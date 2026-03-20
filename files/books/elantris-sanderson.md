@@ -10,6 +10,7 @@ pages: 638
 goodreads: "https://www.goodreads.com/book/show/68427.Elantris?ref=nav_sb_ss_1_8"
 isbn: "9780765350374"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "elantris-sanderson-summary"
 summarySlugLink: "[[elantris-sanderson-summary]]"

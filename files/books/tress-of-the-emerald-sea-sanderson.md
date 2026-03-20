@@ -10,6 +10,7 @@ pages: 483
 goodreads: "https://www.goodreads.com/book/show/127280617-tress-of-the-emerald-sea"
 isbn: "9781250899668"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "tress-of-the-emerald-sea-sanderson-summary"
 summarySlugLink: "[[tress-of-the-emerald-sea-sanderson-summary]]"

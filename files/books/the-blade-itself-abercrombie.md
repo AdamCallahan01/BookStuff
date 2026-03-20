@@ -10,6 +10,7 @@ pages: 515
 goodreads: "https://www.goodreads.com/book/show/944073.The_Blade_Itself?ref=nav_sb_ss_1_12"
 isbn: "9780575079793"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "the-blade-itself-abercrombie-summary"
 summarySlugLink: "[[the-blade-itself-abercrombie-summary]]"

@@ -10,6 +10,7 @@ pages: 383
 goodreads: "https://www.goodreads.com/book/show/22887640-shadows-of-self"
 isbn: "9781473208223"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "shadows-of-self-sanderson-summary"
 summarySlugLink: "[[shadows-of-self-sanderson-summary]]"

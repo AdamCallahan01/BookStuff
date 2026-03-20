@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/60531420-the-sunlit-man"
 avgGoodreadsRating: "8.64"
 isbn: "9781938570391"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-sunlit-man-sanderson-summary"
 summarySlugLink: "[[the-sunlit-man-sanderson-summary]]"

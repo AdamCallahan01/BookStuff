@@ -10,6 +10,7 @@ pages: 448
 goodreads: "https://www.goodreads.com/book/show/26541448-the-bands-of-mourning"
 isbn: "9781473208278"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-bands-of-mourning-sanderson-summary"
 summarySlugLink: "[[the-bands-of-mourning-sanderson-summary]]"

@@ -10,6 +10,7 @@ pages: 171
 goodreads: "https://www.goodreads.com/book/show/58740026-dawnshard"
 isbn: "9781250850553"
 bookOwned: false
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "dawnshard-sanderson-summary"
 summarySlugLink: "[[dawnshard-sanderson-summary]]"

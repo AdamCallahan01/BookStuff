@@ -8,49 +8,73 @@ permalink: /books/
   <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
 </head>
 
-<h1>All Books</h1>
+<h1 id="pageTitle">All Books</h1>
 
 <div class="controls">
-  <label>
-    <input type="checkbox" id="combineToggle" checked>
-    Combine reads
-  </label>
 
-  <input id="booksSearchInput" oninput="updateState()" placeholder="Search..." autocomplete="one-time-code">
+  <div class="control-group filters">
+    <h3>Filters</h3>
 
-  <select id="authorFilter">
-  <option value="">All Authors</option>
-  </select>
+    <label>
+      <input type="checkbox" id="combineToggle" checked>
+      Combine reads
+    </label>
 
-<div>
-  <label for="scoreSlider">Score Range:</label>
-  <div id="scoreSlider" style="width:300px;margin:10px 0;"></div>
-  <div id="scoreLabel"></div>
+    <label>
+      <input type="checkbox" id="noScoresToggle" checked>
+      Include N/A Score
+    </label>
+
+    <input id="booksSearchInput" oninput="updateState()" placeholder="Search..." autocomplete="one-time-code">
+
+    <select id="authorFilter">
+      <option value="">All Authors</option>
+    </select>
+
+    <select id="seriesFilter">
+      <option value="">All Series</option>
+    </select>
+
+    <select id="otherFilter">
+      <option value="">Other...</option>
+    </select>
+
+    <div class="slider-group">
+      <label for="scoreSlider">Score Range:</label>
+      <div id="scoreSlider"></div>
+      <div id="scoreLabel"></div>
+    </div>
+
+  </div>
+
+  <div class="control-group sorting">
+    <h3>Sort</h3>
+
+    <select id="sortField">
+      <option value="title">Title</option>
+      <option value="series">Series</option>
+      <option value="seriesNumber">Series Number</option>
+      <option value="averagescore">Average Score</option>
+      <option value="latestscore">Latest Score</option>
+      <option value="datefinished">Date Finished</option>
+    </select>
+
+    <select id="sortDirection">
+      <option value="asc">Ascending</option>
+      <option value="desc">Descending</option>
+    </select>
+
+    <button id="filterResetButton">Reset</button>
+  </div>
+
 </div>
 
-  <select id="sortField">
-  <option value="title">Title</option>
-  <option value="series">Series</option>
-  <option value="averagescore">Average Score</option>
-  <option value="latestscore">Latest Score</option>
-  <option value="datefinished">Date Finished</option>
-  </select>
-
-  <select id="sortDirection">
-  <option value="asc">Ascending</option>
-  <option value="desc">Descending</option>
-  </select>
-
-  <button id="filterResetButton"> RESET </button>
+<div class="stats">
+  <span>Books: <strong id="bookNumberLabel">0</strong></span>
+  <span>Pages: <strong id="pageCountLabel">0</strong></span>
+  <span>Avg Pages: <strong id="pageAverageLabel">0</strong></span>
+  <span>Avg Score: <strong id="scoreAverageLabel">0</strong></span>
 </div>
-<label>Number of books:</label>
-<label id="bookNumberLabel">0</label>
-<label>Number of pages:</label>
-<label id="pageCountLabel">0</label>
-<label>average pages:</label>
-<label id="pageAverageLabel">0</label>
-<label>Average Score:</label>
-<label id="scoreAverageLabel">0</label>
 
 {# 
   BOOKS LAYOUT 
@@ -79,6 +103,7 @@ permalink: /books/
       data-owned="{{ book.data.owned | lower }}"
       data-averagescore="{{ book.data.averageScore or 0 }}"
       data-latestscore="{{ book.data.latestScore or 0 }}"
+      data-otherseries="{{ book.data.otherSeries | lower }}"
     >
 
       {% if book.data.coverSlug %}

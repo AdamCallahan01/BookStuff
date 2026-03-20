@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/50358101-the-trouble-with-peace"
 avgGoodreadsRating: "9.2"
 isbn: "9780316187183"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "the-trouble-with-peace-abercrombie-summary"
 summarySlugLink: "[[the-trouble-with-peace-abercrombie-summary]]"

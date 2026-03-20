@@ -10,6 +10,7 @@ pages: 666
 goodreads: "https://www.goodreads.com/book/show/55399.Gardens_of_the_Moon?from_search=true&from_srp=true&qid=vJ6wqU9mCv&rank=1"
 isbn: "9780765348784"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "gardens-of-the-moon-erikson-summary"
 summarySlugLink: "[[gardens-of-the-moon-erikson-summary]]"

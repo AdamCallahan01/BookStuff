@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/en/book/show/9300768"
 avgGoodreadsRating: "8.66"
 isbn: "9780316123358"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "the-heroes-abercrombie-summary"
 summarySlugLink: "[[the-heroes-abercrombie-summary]]"

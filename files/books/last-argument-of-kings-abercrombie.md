@@ -10,6 +10,7 @@ pages: 536
 goodreads: "https://www.goodreads.com/book/show/24958074-last-argument-of-kings"
 isbn: "9780316387408"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "last-argument-of-kings-abercrombie-summary"
 summarySlugLink: "[[last-argument-of-kings-abercrombie-summary]]"

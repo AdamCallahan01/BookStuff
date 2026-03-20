@@ -10,6 +10,7 @@ pages: 441
 goodreads: "https://www.goodreads.com/book/show/24958073-before-they-are-hanged"
 isbn: "9780316387354"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "before-they-are-hanged-abercrombie-summary"
 summarySlugLink: "[[before-they-are-hanged-abercrombie-summary]]"

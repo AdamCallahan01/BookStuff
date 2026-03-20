@@ -10,6 +10,7 @@ pages: 672
 goodreads: "https://www.goodreads.com/book/show/28595941-arcanum-unbounded?ref=nav_sb_ss_1_12"
 isbn: "9780765391162"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "arcanum-unbounded-sanderson-summary"
 summarySlugLink: "[[arcanum-unbounded-sanderson-summary]]"

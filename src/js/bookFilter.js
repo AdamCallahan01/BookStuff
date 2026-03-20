@@ -12,32 +12,14 @@ const bookDataIndex = cards.map(el => ({
   ...el.dataset
 }));
 
-/////////////////////////////////////////////////////////////////////
-
-// 2
-const state = {
-  view: "books",
-  search: "",
-  author: "",
-  minScore: 0,
-  maxScore: 10,
-  sortField: "title",
-  sortDir: "asc" //Ascending
-  //Num of reads
-  //Series order
-  //Score change read to read
-  //time reading
-  //length (pages)
-  //year released
-  //
-};
-
 ////////////////////////////////////////////////////////////////
 
 // 3
 const combineToggle = document.getElementById("combineToggle");
 const searchTextInput = document.getElementById("booksSearchInput");
 const authorFilter = document.getElementById("authorFilter");
+const seriesFilter = document.getElementById("seriesFilter");
+const otherFilter = document.getElementById("otherFilter");
 const sortField = document.getElementById("sortField");
 const sortDirection = document.getElementById("sortDirection");
 //Score slider
@@ -45,11 +27,6 @@ const slider = document.getElementById("scoreSlider");
 const scoreLabel = document.getElementById("scoreLabel");
 
 const resetButton = document.getElementById("filterResetButton");
-
-const bookNumberLabel = document.getElementById("bookNumberLabel");
-const pageCountLabel = document.getElementById("pageCountLabel");
-const pageAverageLabel = document.getElementById("pageAverageLabel");
-const scoreAverageLabel = document.getElementById("scoreAverageLabel");
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -69,6 +46,18 @@ const filterConfig = {
   author: {
     element: authorFilter,
     state: "author",
+    default: ""
+  },
+
+  series: {
+    element: seriesFilter,
+    state: "series",
+    default: ""
+  },
+
+  other: {
+    element: otherFilter,
+    state: "other",
     default: ""
   },
 
@@ -97,6 +86,26 @@ const filterConfig = {
   }
 };
 
+// Define state
+const state = Object.fromEntries(
+  Object.values(filterConfig).map(cfg => [cfg.state, cfg.default])
+);
+
+//   view: "books",
+//   search: "",
+//   author: "",
+//   series: "",
+//   minScore: 0,
+//   maxScore: 10,
+//   sortField: "title",
+//   sortDir: "asc" //Ascending
+//   //Num of reads
+//   //Series order / number
+//   //Score change read to read
+//   //time reading
+//   //length (pages)
+//   //year released
+
 /////////////////////////////////////////////////////////////////////////////
 
 // Author filter
@@ -107,6 +116,27 @@ authors.forEach(author=>{
   opt.value = author;
   opt.textContent = author;
   authorFilter.appendChild(opt);
+});
+
+// Series Filter
+const series = [...new Set(bookDataIndex.map(i => i.series))].sort();
+
+series.forEach(series=>{
+  const opt = document.createElement("option");
+  opt.value = series;
+  opt.textContent = series;
+  seriesFilter.appendChild(opt);
+});
+
+// Other Filter
+const other = [...new Set(bookDataIndex.map(i => i.otherseries))].sort();
+console.log(other);
+
+other.forEach(other=>{
+  const opt = document.createElement("option");
+  opt.value = other;
+  opt.textContent = other;
+  otherFilter.appendChild(opt);
 });
 
 // Score Slider
@@ -126,6 +156,8 @@ setFiltersFromURL();
 
 combineToggle.addEventListener("change", updateState);
 authorFilter.addEventListener("change", updateState);
+seriesFilter.addEventListener("change", updateState);
+otherFilter.addEventListener("change", updateState);
 sortField.addEventListener("change", updateState);
 sortDirection.addEventListener("change", updateState);
 
@@ -154,19 +186,26 @@ slider.noUiSlider.on("update", function(values) {
 function resetFilters() {
   // console.log("reset filter");
 
+  // Reset state to defaults
+  Object.keys(filterConfig).forEach(key => {
+    const { state: stateKey, default: defaultValue } = filterConfig[key];
+    state[stateKey] = defaultValue;
+  });
+
   // reset state
-  state.view = "books",
-  state.search = "",
-  state.author = "",
-  state.minScore = 0,
-  state.maxScore = 10,
-  state.sortField = "title",
-  state.sortDir = "asc";
+  // state.view = "books",
+  // state.search = "",
+  // state.author = "",
+  // state.minScore = 0,
+  // state.maxScore = 10,
+  // state.sortField = "title",
+  // state.sortDir = "asc";
 
   // reset visual controls
   combineToggle.checked = true;
   searchTextInput.value = "";
   authorFilter.selectedIndex = 0;
+  seriesFilter.selectedIndex = 0;
   sortField.selectedIndex = 0;
   sortDirection.selectedIndex = 0;
   slider.noUiSlider.set([0, 10]);
@@ -184,6 +223,10 @@ function updateState() {
 
   const newAuthor = (authorFilter.value || "").toLowerCase();
 
+  const newSeries = (seriesFilter.value || "").toLowerCase();
+
+  const newOther = (otherFilter.value || "").toLowerCase();
+
   const newField = (sortField.value || "").toLowerCase();
 
   const newSortDir = (sortDirection.value || "") === "asc" ? "asc" : "desc";
@@ -191,6 +234,8 @@ function updateState() {
   state.view = newView;
   state.search = newSearch;
   state.author = newAuthor;
+  state.series = newSeries;
+  state.other = newOther;
 // min max score updated in own method
   state.sortField = newField;
   state.sortDir = newSortDir;
@@ -216,6 +261,12 @@ function filterItems() {
 
     // Author filter
     if (state.author && item.author !== state.author) return false;
+
+    // Series Filter
+    if (state.series && item.series !== state.series) return false;
+
+    // Other Filter
+    if (state.other && item.otherseries !== state.other) return false;
 
     // Score range
     if (state.minScore) {
@@ -269,7 +320,7 @@ function render() {
   const grid = document.querySelector(".book-grid");
 
   const filtered = filterItems();
-  //console.log(filtered);
+  console.log(filtered);
   const sorted = sortItems(filtered);
 
   bookDataIndex.forEach(item => item.el.style.display = "none");
@@ -286,6 +337,10 @@ function render() {
 
 //Labels to show various stats
 function updateLabels(filtered) {
+  const bookNumberLabel = document.getElementById("bookNumberLabel");
+  const pageCountLabel = document.getElementById("pageCountLabel");
+  const pageAverageLabel = document.getElementById("pageAverageLabel");
+  const scoreAverageLabel = document.getElementById("scoreAverageLabel");
 
   let totalScore = 0;
   let pageCount = 0;
@@ -308,6 +363,26 @@ function updateLabels(filtered) {
 
   if( scoreAverageLabel && filtered)
     scoreAverageLabel.textContent = totalScore / filtered.length;
+
+  updateTitle();
+}
+
+//Title of page
+function updateTitle() {
+  const series = document.getElementById("seriesFilter").value;
+  const sort = document.getElementById("sortField").value;
+
+  let title = "All Books";
+
+  if (series) {
+    title = `Series: ${series}`;
+  } else if (sort === "averagescore") {
+    title = "Books by Average Score";
+  } else if (sort === "latestscore") {
+    title = "Books by Latest Score";
+  }
+
+  document.getElementById("pageTitle").textContent = title;
 }
 
 // updates url with any filter and search fields

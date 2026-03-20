@@ -10,6 +10,7 @@ pages: 688
 goodreads: "https://www.goodreads.com/book/show/6976882-warbreaker"
 isbn: "9780765360038"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "warbreaker-sanderson-summary"
 summarySlugLink: "[[warbreaker-sanderson-summary]]"

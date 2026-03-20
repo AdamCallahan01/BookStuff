@@ -10,6 +10,7 @@ pages: 160
 goodreads: "https://www.goodreads.com/book/show/28862254-white-sand-volume-1?ref=nav_sb_ss_1_10"
 isbn: "9781606908853"
 bookOwned: false
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "white-sand-volume-1-sanderson-summary"
 summarySlugLink: "[[white-sand-volume-1-sanderson-summary]]"

@@ -10,6 +10,7 @@ pages: 332
 goodreads: "https://www.goodreads.com/book/show/12065807-the-alloy-of-law"
 isbn: "9780575105836"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-alloy-of-law-sanderson-summary"
 summarySlugLink: "[[the-alloy-of-law-sanderson-summary]]"

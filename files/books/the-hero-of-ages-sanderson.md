@@ -10,6 +10,7 @@ pages: 556
 goodreads: "https://www.goodreads.com/book/show/3362870-the-hero-of-ages"
 isbn: "9780765356147"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-hero-of-ages-sanderson-summary"
 summarySlugLink: "[[the-hero-of-ages-sanderson-summary]]"

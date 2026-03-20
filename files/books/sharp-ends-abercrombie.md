@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Grimdark"
 isbn: "9780316390811"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: true
 summarySlug: "sharp-ends-abercrombie-summary"
 summarySlugLink: "[[sharp-ends-abercrombie-summary]]"

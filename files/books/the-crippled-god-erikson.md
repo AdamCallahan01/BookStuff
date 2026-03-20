@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780593046357"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "the-crippled-god-erikson-summary"
 summarySlugLink: "[[the-crippled-god-erikson-summary]]"

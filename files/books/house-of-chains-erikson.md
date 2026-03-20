@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/55398.House_of_Chains"
 avgGoodreadsRating: "8.68"
 isbn: "9780765348814"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "house-of-chains-erikson-summary"
 summarySlugLink: "[[house-of-chains-erikson-summary]]"

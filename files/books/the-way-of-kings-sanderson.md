@@ -10,6 +10,7 @@ pages: 1007
 goodreads: "https://www.goodreads.com/book/show/7235533-the-way-of-kings?ref=nav_sb_ss_1_11"
 isbn: "9780765326355"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-way-of-kings-sanderson-summary"
 summarySlugLink: "[[the-way-of-kings-sanderson-summary]]"

@@ -10,6 +10,7 @@ pages: 192
 goodreads: "https://www.goodreads.com/book/show/13578175-the-emperor-s-soul"
 isbn: "9781616960926"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-emperor-s-soul-sanderson-summary"
 summarySlugLink: "[[the-emperor-s-soul-sanderson-summary]]"

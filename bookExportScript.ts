@@ -31,6 +31,7 @@ interface SheetRow {
   narrator?: string;
   owned?: string;
   hasScore?: boolean;
+  otherSeries?: string;
 
   // Read info
   score?: number;
@@ -269,6 +270,7 @@ async function run(): Promise<void> {
         isbn: first.isbn,
         narrator: first.narrator,
         bookOwned,
+        otherSeries: first.otherSeries,
 
         hasSummary,
         summarySlug,

@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780765310088"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "toll-the-hounds-erikson-summary"
 summarySlugLink: "[[toll-the-hounds-erikson-summary]]"

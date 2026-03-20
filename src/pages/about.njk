@@ -1,4 +1,35 @@
 ---
 layout: base.njk
 permalink: /about/
+title: About
 ---
+
+<section class="content-section">
+  <h1>{{ title }}</h1>
+
+  <p>
+    Intro text for this page.
+  </p>
+
+  <h2>Key Items</h2>
+
+<dl class="item-list">
+  <dt><strong>Item Title One</strong></dt>
+  <dd>Description for the first item.</dd>
+
+  <dt><strong>Item Title Two</strong></dt>
+  <dd>Description for the second item.</dd>
+
+  <dt><strong>Item Title Three</strong></dt>
+  <dd>Description for the third item.</dd>
+</dl>
+
+  <div class="info-section">
+    <p>
+      information section
+    </p>
+  </div>
+
+</section>
+
+{% include "footer.njk" %}

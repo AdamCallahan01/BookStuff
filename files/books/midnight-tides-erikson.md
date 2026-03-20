@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/345299.Midnight_Tides"
 avgGoodreadsRating: "8.84"
 isbn: "9780553813142"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "midnight-tides-erikson-summary"
 summarySlugLink: "[[midnight-tides-erikson-summary]]"

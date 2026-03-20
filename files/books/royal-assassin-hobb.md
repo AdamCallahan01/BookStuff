@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780007562268"
 bookOwned: true
+otherSeries: "The Realm of the Elderlings"
 hasSummary: false
 summarySlug: "royal-assassin-hobb-summary"
 summarySlugLink: "[[royal-assassin-hobb-summary]]"

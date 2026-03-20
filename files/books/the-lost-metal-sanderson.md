@@ -10,6 +10,7 @@ pages: 507
 goodreads: "https://www.goodreads.com/book/show/59797676-the-lost-metal"
 isbn: "9781473215290"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-lost-metal-sanderson-summary"
 summarySlugLink: "[[the-lost-metal-sanderson-summary]]"

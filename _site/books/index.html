@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Library</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+  <link rel="shortcut icon" href="/files/other/favicon.ico">
+
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/elasticlunr.min.js" defer></script>
-  <script src="/js/search.js" defer></script>
-</head>
+  <script src="/js/search.js" defer></script></head>
 <body>
   <header class="site-header">
     <div class="site-title">
@@ -47,49 +52,73 @@
   <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
 </head>
 
-<h1>All Books</h1>
+<h1 id="pageTitle">All Books</h1>
 
 <div class="controls">
-  <label>
-    <input type="checkbox" id="combineToggle" checked>
-    Combine reads
-  </label>
 
-  <input id="booksSearchInput" oninput="updateState()" placeholder="Search..." autocomplete="one-time-code">
+  <div class="control-group filters">
+    <h3>Filters</h3>
 
-  <select id="authorFilter">
-  <option value="">All Authors</option>
-  </select>
+    <label>
+      <input type="checkbox" id="combineToggle" checked>
+      Combine reads
+    </label>
 
-<div>
-  <label for="scoreSlider">Score Range:</label>
-  <div id="scoreSlider" style="width:300px;margin:10px 0;"></div>
-  <div id="scoreLabel"></div>
+    <label>
+      <input type="checkbox" id="noScoresToggle" checked>
+      Include N/A Score
+    </label>
+
+    <input id="booksSearchInput" oninput="updateState()" placeholder="Search..." autocomplete="one-time-code">
+
+    <select id="authorFilter">
+      <option value="">All Authors</option>
+    </select>
+
+    <select id="seriesFilter">
+      <option value="">All Series</option>
+    </select>
+
+    <select id="otherFilter">
+      <option value="">Other...</option>
+    </select>
+
+    <div class="slider-group">
+      <label for="scoreSlider">Score Range:</label>
+      <div id="scoreSlider"></div>
+      <div id="scoreLabel"></div>
+    </div>
+
+  </div>
+
+  <div class="control-group sorting">
+    <h3>Sort</h3>
+
+    <select id="sortField">
+      <option value="title">Title</option>
+      <option value="series">Series</option>
+      <option value="seriesNumber">Series Number</option>
+      <option value="averagescore">Average Score</option>
+      <option value="latestscore">Latest Score</option>
+      <option value="datefinished">Date Finished</option>
+    </select>
+
+    <select id="sortDirection">
+      <option value="asc">Ascending</option>
+      <option value="desc">Descending</option>
+    </select>
+
+    <button id="filterResetButton">Reset</button>
+  </div>
+
 </div>
 
-  <select id="sortField">
-  <option value="title">Title</option>
-  <option value="series">Series</option>
-  <option value="averagescore">Average Score</option>
-  <option value="latestscore">Latest Score</option>
-  <option value="datefinished">Date Finished</option>
-  </select>
-
-  <select id="sortDirection">
-  <option value="asc">Ascending</option>
-  <option value="desc">Descending</option>
-  </select>
-
-  <button id="filterResetButton"> RESET </button>
+<div class="stats">
+  <span>Books: <strong id="bookNumberLabel">0</strong></span>
+  <span>Pages: <strong id="pageCountLabel">0</strong></span>
+  <span>Avg Pages: <strong id="pageAverageLabel">0</strong></span>
+  <span>Avg Score: <strong id="scoreAverageLabel">0</strong></span>
 </div>
-<label>Number of books:</label>
-<label id="bookNumberLabel">0</label>
-<label>Number of pages:</label>
-<label id="pageCountLabel">0</label>
-<label>average pages:</label>
-<label id="pageAverageLabel">0</label>
-<label>Average Score:</label>
-<label id="scoreAverageLabel">0</label>
 
 
 
@@ -116,6 +145,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -155,6 +185,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -194,6 +225,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -233,6 +265,7 @@
       data-owned=""
       data-averagescore="2.5"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -272,6 +305,7 @@
       data-owned=""
       data-averagescore="1.75"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -311,6 +345,7 @@
       data-owned=""
       data-averagescore="4.5"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -350,6 +385,7 @@
       data-owned=""
       data-averagescore="2.25"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -389,6 +425,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -428,6 +465,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="first law"
     >
 
       
@@ -467,6 +505,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -506,6 +545,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -545,6 +585,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -584,6 +625,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -623,6 +665,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -662,6 +705,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -701,6 +745,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries=""
     >
 
       
@@ -740,6 +785,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3.5"
+      data-otherseries=""
     >
 
       
@@ -779,6 +825,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -818,6 +865,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -857,6 +905,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -896,6 +945,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -935,6 +985,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -974,6 +1025,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -1013,6 +1065,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="cosmere"
     >
 
       
@@ -1052,6 +1105,7 @@
       data-owned=""
       data-averagescore="1.5"
       data-latestscore="1.5"
+      data-otherseries=""
     >
 
       
@@ -1091,6 +1145,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -1130,6 +1185,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -1169,6 +1225,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -1208,6 +1265,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -1247,6 +1305,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -1286,6 +1345,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="the realm of the elderlings"
     >
 
       
@@ -1325,6 +1385,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="the realm of the elderlings"
     >
 
       
@@ -1364,6 +1425,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -1403,6 +1465,7 @@
       data-owned=""
       data-averagescore="5.5"
       data-latestscore="5.5"
+      data-otherseries=""
     >
 
       
@@ -1442,6 +1505,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -1481,6 +1545,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="first law"
     >
 
       
@@ -1520,6 +1585,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="first law"
     >
 
       
@@ -1559,6 +1625,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -1598,6 +1665,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -1637,6 +1705,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -1676,6 +1745,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -1715,6 +1785,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -1754,6 +1825,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -1793,6 +1865,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -1832,6 +1905,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -1871,6 +1945,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -1910,6 +1985,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -1949,6 +2025,7 @@
       data-owned=""
       data-averagescore="8.75"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -1988,6 +2065,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -2027,6 +2105,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -2066,6 +2145,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -2105,6 +2185,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -2144,6 +2225,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -2183,6 +2265,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -2222,6 +2305,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -2261,6 +2345,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -2300,6 +2385,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -2339,6 +2425,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -2378,6 +2465,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -2417,6 +2505,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -2456,6 +2545,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -2495,6 +2585,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -2534,6 +2625,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -2573,6 +2665,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -2612,6 +2705,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -2651,6 +2745,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -2690,6 +2785,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries=""
     >
 
       
@@ -2729,6 +2825,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -2768,6 +2865,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -2807,6 +2905,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -2846,6 +2945,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -2885,6 +2985,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -2924,6 +3025,7 @@
       data-owned=""
       data-averagescore="6.25"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -2963,6 +3065,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -3002,6 +3105,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -3041,6 +3145,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -3080,6 +3185,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -3119,6 +3225,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -3158,6 +3265,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -3197,6 +3305,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -3236,6 +3345,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries="cosmere"
     >
 
       
@@ -3275,6 +3385,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -3314,6 +3425,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -3353,6 +3465,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -3392,6 +3505,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries=""
     >
 
       
@@ -3431,6 +3545,7 @@
       data-owned=""
       data-averagescore="5.5"
       data-latestscore="5.5"
+      data-otherseries=""
     >
 
       
@@ -3448,6 +3563,46 @@
 
       <h2 class="book-title">Empire of Storms</h2>
       <p class="book-author">Sarah J. Maas</p>
+
+    </a>
+  
+    <a href="/books/empire-of-the-damned-kristoff/" class="book-card"
+      data-type="book"
+      data-title="empire of the damned"
+      data-author="jay kristoff"
+      data-series="empire of the vampire"
+      data-seriesNumber="2"
+      data-pages="709"
+      data-yearPublished="2024"
+      data-publisher="st. martin&#39;s press"
+      data-avgGoodreadsRating="9.1"
+      data-numGoodreadsRatings="33987"
+      data-hasSummary="false"
+      data-hasScore="true"
+      data-readCount="1"
+      data-genre="fantasy"
+      data-subgenre="dark"
+      data-owned=""
+      data-averagescore="0"
+      data-latestscore="0"
+      data-otherseries=""
+    >
+
+      
+        <img
+          class="book-cover"
+          src="/files/covers/empire-of-the-damned-kristoff-cover.jpg"
+          alt="Empire of the Damned cover"
+        >
+      
+
+      <div class="overlay">
+        ⭐ 0
+        | 📖 1
+      </div>
+
+      <h2 class="book-title">Empire of the Damned</h2>
+      <p class="book-author">Jay Kristoff</p>
 
     </a>
   
@@ -3470,6 +3625,7 @@
       data-owned=""
       data-averagescore="8.75"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -3509,6 +3665,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -3548,6 +3705,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -3587,6 +3745,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -3626,6 +3785,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -3665,6 +3825,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -3704,6 +3865,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -3743,6 +3905,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -3782,6 +3945,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -3821,6 +3985,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries=""
     >
 
       
@@ -3860,6 +4025,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -3899,6 +4065,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -3938,6 +4105,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -3977,6 +4145,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -4016,6 +4185,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -4055,6 +4225,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -4094,6 +4265,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -4133,6 +4305,7 @@
       data-owned=""
       data-averagescore="9.75"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -4172,6 +4345,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -4211,6 +4385,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -4250,6 +4425,7 @@
       data-owned=""
       data-averagescore="0.5"
       data-latestscore="0.5"
+      data-otherseries=""
     >
 
       
@@ -4289,6 +4465,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -4328,6 +4505,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -4367,6 +4545,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -4406,6 +4585,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -4445,6 +4625,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -4484,6 +4665,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -4523,6 +4705,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -4562,6 +4745,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -4601,6 +4785,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -4640,6 +4825,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -4679,6 +4865,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -4718,6 +4905,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -4757,6 +4945,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -4796,6 +4985,7 @@
       data-owned=""
       data-averagescore="5.17"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -4835,6 +5025,7 @@
       data-owned=""
       data-averagescore="7.33"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -4874,6 +5065,7 @@
       data-owned=""
       data-averagescore="5.83"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -4913,6 +5105,7 @@
       data-owned=""
       data-averagescore="8.17"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -4952,6 +5145,7 @@
       data-owned=""
       data-averagescore="6.17"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -4991,6 +5185,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -5030,6 +5225,7 @@
       data-owned=""
       data-averagescore="7.17"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -5069,6 +5265,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -5108,6 +5305,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -5147,6 +5345,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -5186,6 +5385,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -5225,6 +5425,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -5264,6 +5465,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -5303,6 +5505,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -5342,6 +5545,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -5381,6 +5585,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3.5"
+      data-otherseries=""
     >
 
       
@@ -5420,6 +5625,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -5459,6 +5665,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -5498,6 +5705,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -5537,6 +5745,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -5576,6 +5785,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -5615,6 +5825,7 @@
       data-owned=""
       data-averagescore="4.5"
       data-latestscore="4.5"
+      data-otherseries=""
     >
 
       
@@ -5654,6 +5865,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -5693,6 +5905,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -5732,6 +5945,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -5771,6 +5985,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -5810,6 +6025,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -5849,6 +6065,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -5888,6 +6105,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -5927,6 +6145,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -5966,6 +6185,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -6005,6 +6225,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -6044,6 +6265,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -6083,6 +6305,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="first law"
     >
 
       
@@ -6122,6 +6345,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -6161,6 +6385,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -6200,6 +6425,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -6239,6 +6465,7 @@
       data-owned=""
       data-averagescore="4.5"
       data-latestscore="4.5"
+      data-otherseries=""
     >
 
       
@@ -6278,6 +6505,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -6317,6 +6545,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -6356,6 +6585,7 @@
       data-owned=""
       data-averagescore="7.75"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -6395,6 +6625,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -6434,6 +6665,7 @@
       data-owned=""
       data-averagescore="1.5"
       data-latestscore="1.5"
+      data-otherseries=""
     >
 
       
@@ -6473,6 +6705,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -6512,6 +6745,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -6551,6 +6785,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -6590,6 +6825,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -6629,6 +6865,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries="malazan"
     >
 
       
@@ -6668,6 +6905,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -6707,6 +6945,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -6746,6 +6985,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -6785,6 +7025,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -6824,6 +7065,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -6863,6 +7105,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -6902,6 +7145,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -6941,6 +7185,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -6980,6 +7225,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -7019,6 +7265,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -7058,6 +7305,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -7097,6 +7345,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -7136,6 +7385,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -7175,6 +7425,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -7214,6 +7465,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -7253,6 +7505,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries="cosmere"
     >
 
       
@@ -7292,6 +7545,7 @@
       data-owned=""
       data-averagescore="4.5"
       data-latestscore="4.5"
+      data-otherseries=""
     >
 
       
@@ -7331,6 +7585,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -7370,6 +7625,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -7409,6 +7665,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -7448,6 +7705,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -7487,6 +7745,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -7526,6 +7785,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -7565,6 +7825,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -7604,6 +7865,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -7643,6 +7905,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -7682,6 +7945,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -7721,6 +7985,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -7760,6 +8025,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -7799,6 +8065,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -7838,6 +8105,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -7877,6 +8145,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -7916,6 +8185,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -7955,6 +8225,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -7994,6 +8265,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -8033,6 +8305,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -8072,6 +8345,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -8111,6 +8385,7 @@
       data-owned=""
       data-averagescore="7.83"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -8150,6 +8425,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -8189,6 +8465,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -8228,6 +8505,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -8267,6 +8545,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="first law"
     >
 
       
@@ -8306,6 +8585,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -8345,6 +8625,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -8384,6 +8665,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -8423,6 +8705,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -8462,6 +8745,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -8501,6 +8785,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -8540,6 +8825,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -8579,6 +8865,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -8618,6 +8905,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries="the realm of the elderlings"
     >
 
       
@@ -8657,6 +8945,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -8696,6 +8985,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -8735,6 +9025,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -8774,6 +9065,7 @@
       data-owned=""
       data-averagescore="3.25"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -8813,6 +9105,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -8852,6 +9145,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -8891,6 +9185,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -8930,6 +9225,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -8969,6 +9265,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -9008,6 +9305,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3.5"
+      data-otherseries=""
     >
 
       
@@ -9047,6 +9345,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -9086,6 +9385,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -9125,6 +9425,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="first law"
     >
 
       
@@ -9164,6 +9465,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -9203,6 +9505,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="the realm of the elderlings"
     >
 
       
@@ -9242,6 +9545,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -9281,6 +9585,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -9320,6 +9625,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -9359,6 +9665,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -9398,6 +9705,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -9437,6 +9745,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -9476,6 +9785,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -9515,6 +9825,7 @@
       data-owned=""
       data-averagescore="7.25"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -9554,6 +9865,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -9593,6 +9905,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -9632,6 +9945,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -9671,6 +9985,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="cosmere"
     >
 
       
@@ -9710,6 +10025,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -9749,6 +10065,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -9788,6 +10105,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -9827,6 +10145,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -9866,6 +10185,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -9905,6 +10225,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -9944,6 +10265,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -9983,6 +10305,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -10022,6 +10345,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -10061,6 +10385,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -10100,6 +10425,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -10139,6 +10465,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -10178,6 +10505,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -10217,6 +10545,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9.5"
+      data-otherseries="first law"
     >
 
       
@@ -10256,6 +10585,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -10295,6 +10625,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -10334,6 +10665,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -10373,6 +10705,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -10404,14 +10737,15 @@
       data-publisher="viking"
       data-avgGoodreadsRating="8.7"
       data-numGoodreadsRatings="278617"
-      data-hasSummary="false"
+      data-hasSummary="true"
       data-hasScore="true"
       data-readCount="1"
       data-genre="mystery"
       data-subgenre="humor"
       data-owned=""
-      data-averagescore="0"
-      data-latestscore="0"
+      data-averagescore="5"
+      data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -10423,7 +10757,7 @@
       
 
       <div class="overlay">
-        ⭐ 0
+        ⭐ 5
         | 📖 1
       </div>
 
@@ -10451,6 +10785,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -10490,6 +10825,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -10529,6 +10865,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -10568,6 +10905,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -10607,6 +10945,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -10646,6 +10985,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -10685,6 +11025,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -10724,6 +11065,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -10763,6 +11105,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -10802,6 +11145,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -10841,6 +11185,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -10880,6 +11225,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -10919,6 +11265,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -10958,6 +11305,7 @@
       data-owned=""
       data-averagescore="5.5"
       data-latestscore="5.5"
+      data-otherseries=""
     >
 
       
@@ -10997,6 +11345,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -11036,6 +11385,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -11075,6 +11425,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -11114,6 +11465,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries="cosmere"
     >
 
       
@@ -11153,6 +11505,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -11192,6 +11545,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -11231,6 +11585,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -11270,6 +11625,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -11309,6 +11665,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="cosmere"
     >
 
       
@@ -11348,6 +11705,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -11387,6 +11745,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -11426,6 +11785,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -11465,6 +11825,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -11504,6 +11865,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -11543,6 +11905,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -11582,6 +11945,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -11621,6 +11985,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -11660,6 +12025,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -11699,6 +12065,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -11738,6 +12105,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -11777,6 +12145,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="first law"
     >
 
       
@@ -11816,6 +12185,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -11855,6 +12225,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -11894,6 +12265,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -11933,6 +12305,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries="cosmere"
     >
 
       
@@ -11972,6 +12345,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -12011,6 +12385,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -12050,6 +12425,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -12089,6 +12465,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -12128,6 +12505,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -12167,6 +12545,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -12206,6 +12585,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -12245,6 +12625,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -12284,6 +12665,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -12323,6 +12705,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -12362,6 +12745,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -12401,6 +12785,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -12440,6 +12825,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -12471,14 +12857,15 @@
       data-publisher=""
       data-avgGoodreadsRating=""
       data-numGoodreadsRatings=""
-      data-hasSummary="false"
+      data-hasSummary="true"
       data-hasScore="true"
       data-readCount="2"
       data-genre=""
       data-subgenre=""
       data-owned=""
-      data-averagescore="3.75"
-      data-latestscore="0"
+      data-averagescore="7"
+      data-latestscore="6.5"
+      data-otherseries="percy jackson"
     >
 
       
@@ -12490,7 +12877,7 @@
       
 
       <div class="overlay">
-        ⭐ 3.75
+        ⭐ 7
         | 📖 2
       </div>
 
@@ -12518,6 +12905,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -12557,6 +12945,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -12596,6 +12985,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -12635,6 +13025,7 @@
       data-owned=""
       data-averagescore="4.5"
       data-latestscore="4.5"
+      data-otherseries=""
     >
 
       
@@ -12674,6 +13065,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -12713,6 +13105,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -12752,6 +13145,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -12791,6 +13185,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -12830,6 +13225,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -12869,6 +13265,7 @@
       data-owned=""
       data-averagescore="5"
       data-latestscore="5"
+      data-otherseries=""
     >
 
       
@@ -12908,6 +13305,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -12947,6 +13345,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -12986,6 +13385,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -13025,6 +13425,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -13064,6 +13465,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -13103,6 +13505,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -13142,6 +13545,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -13181,6 +13585,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -13220,6 +13625,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -13259,6 +13665,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -13298,6 +13705,7 @@
       data-owned=""
       data-averagescore="5.5"
       data-latestscore="5.5"
+      data-otherseries=""
     >
 
       
@@ -13337,6 +13745,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -13376,6 +13785,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -13415,6 +13825,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -13454,6 +13865,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -13493,6 +13905,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -13532,6 +13945,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -13571,6 +13985,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -13610,6 +14025,7 @@
       data-owned=""
       data-averagescore="4.5"
       data-latestscore="4.5"
+      data-otherseries=""
     >
 
       
@@ -13649,6 +14065,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -13688,6 +14105,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -13727,6 +14145,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -13766,6 +14185,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -13805,6 +14225,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -13844,6 +14265,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -13883,6 +14305,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries="percy jackson"
     >
 
       
@@ -13922,6 +14345,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3.5"
+      data-otherseries=""
     >
 
       
@@ -13961,6 +14385,7 @@
       data-owned=""
       data-averagescore="4"
       data-latestscore="4"
+      data-otherseries=""
     >
 
       
@@ -14000,6 +14425,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -14039,6 +14465,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -14078,6 +14505,7 @@
       data-owned=""
       data-averagescore="6"
       data-latestscore="6"
+      data-otherseries=""
     >
 
       
@@ -14117,6 +14545,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -14156,6 +14585,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -14195,6 +14625,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -14234,6 +14665,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -14273,6 +14705,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -14312,6 +14745,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -14351,6 +14785,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -14390,6 +14825,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -14429,6 +14865,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -14468,6 +14905,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -14507,6 +14945,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -14546,6 +14985,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -14585,6 +15025,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -14624,6 +15065,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -14663,6 +15105,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -14702,6 +15145,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries="percy jackson"
     >
 
       
@@ -14741,6 +15185,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="first law"
     >
 
       
@@ -14780,6 +15225,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -14819,6 +15265,7 @@
       data-owned=""
       data-averagescore="0"
       data-latestscore="0"
+      data-otherseries=""
     >
 
       
@@ -14858,6 +15305,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -14897,6 +15345,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -14936,6 +15385,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries=""
     >
 
       
@@ -14975,6 +15425,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -15014,6 +15465,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -15053,6 +15505,7 @@
       data-owned=""
       data-averagescore="9.75"
       data-latestscore="9.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -15092,6 +15545,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -15131,6 +15585,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -15170,6 +15625,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -15209,6 +15665,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -15248,6 +15705,7 @@
       data-owned=""
       data-averagescore="7.75"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -15287,6 +15745,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -15326,6 +15785,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -15365,6 +15825,7 @@
       data-owned=""
       data-averagescore="5.5"
       data-latestscore="5.5"
+      data-otherseries=""
     >
 
       
@@ -15404,6 +15865,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries="first law"
     >
 
       
@@ -15443,6 +15905,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries=""
     >
 
       
@@ -15482,6 +15945,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -15521,6 +15985,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries=""
     >
 
       
@@ -15560,6 +16025,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries=""
     >
 
       
@@ -15599,6 +16065,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -15638,6 +16105,7 @@
       data-owned=""
       data-averagescore="10"
       data-latestscore="10"
+      data-otherseries="malazan"
     >
 
       
@@ -15677,6 +16145,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -15716,6 +16185,7 @@
       data-owned=""
       data-averagescore="1"
       data-latestscore="1"
+      data-otherseries=""
     >
 
       
@@ -15755,6 +16225,7 @@
       data-owned=""
       data-averagescore="9"
       data-latestscore="9"
+      data-otherseries="cosmere"
     >
 
       
@@ -15794,6 +16265,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -15833,6 +16305,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries=""
     >
 
       
@@ -15872,6 +16345,7 @@
       data-owned=""
       data-averagescore="5.5"
       data-latestscore="5.5"
+      data-otherseries=""
     >
 
       
@@ -15911,6 +16385,7 @@
       data-owned=""
       data-averagescore="3.5"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -15950,6 +16425,7 @@
       data-owned=""
       data-averagescore="7.75"
       data-latestscore="7.5"
+      data-otherseries="cosmere"
     >
 
       
@@ -15989,6 +16465,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -16028,6 +16505,7 @@
       data-owned=""
       data-averagescore="7.5"
       data-latestscore="7.5"
+      data-otherseries=""
     >
 
       
@@ -16067,6 +16545,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries="cosmere"
     >
 
       
@@ -16106,6 +16585,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries="cosmere"
     >
 
       
@@ -16145,6 +16625,7 @@
       data-owned=""
       data-averagescore="8"
       data-latestscore="8"
+      data-otherseries="cosmere"
     >
 
       
@@ -16184,6 +16665,7 @@
       data-owned=""
       data-averagescore="6.5"
       data-latestscore="6.5"
+      data-otherseries=""
     >
 
       
@@ -16223,6 +16705,7 @@
       data-owned=""
       data-averagescore="7"
       data-latestscore="7"
+      data-otherseries="cosmere"
     >
 
       
@@ -16262,6 +16745,7 @@
       data-owned=""
       data-averagescore="8.5"
       data-latestscore="8.5"
+      data-otherseries=""
     >
 
       
@@ -16301,6 +16785,7 @@
       data-owned=""
       data-averagescore="3"
       data-latestscore="3"
+      data-otherseries=""
     >
 
       
@@ -16340,6 +16825,7 @@
       data-owned=""
       data-averagescore="9.5"
       data-latestscore="9.5"
+      data-otherseries=""
     >
 
       
@@ -16379,6 +16865,7 @@
       data-owned=""
       data-averagescore="9.25"
       data-latestscore="9"
+      data-otherseries="cosmere"
     >
 
       
@@ -16418,6 +16905,7 @@
       data-owned=""
       data-averagescore="2"
       data-latestscore="2"
+      data-otherseries=""
     >
 
       
@@ -17331,6 +17819,8 @@
   
     
   
+    
+  
 
   
     
@@ -17380,6 +17870,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -19105,6 +19597,8 @@
   
     
   
+    
+  
 
   
     
@@ -19992,6 +20486,8 @@
   
     
   
+    
+  
 
   
     
@@ -20043,6 +20539,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -21766,6 +22264,8 @@
   
     
   
+    
+  
 
   
     
@@ -21819,6 +22319,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -23540,6 +24042,8 @@
   
     
   
+    
+  
 
   
     
@@ -23595,6 +24099,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -25314,6 +25820,8 @@
   
     
   
+    
+  
 
   
     
@@ -25369,6 +25877,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -27088,6 +27598,8 @@
   
     
   
+    
+  
 
   
     
@@ -27975,6 +28487,8 @@
   
     
   
+    
+  
 
   
     
@@ -28032,6 +28546,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -29749,6 +30265,8 @@
   
     
   
+    
+  
 
   
     
@@ -30636,6 +31154,8 @@
   
     
   
+    
+  
 
   
     
@@ -30697,6 +31217,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -32410,6 +32932,8 @@
   
     
   
+    
+  
 
   
     
@@ -33297,6 +33821,8 @@
   
     
   
+    
+  
 
   
     
@@ -33356,6 +33882,8 @@
     <p class="book-author">J. K. Rowling</p>
 
   </a>
+    
+  
     
   
     
@@ -35071,6 +35599,8 @@
   
     
   
+    
+  
 
   
     
@@ -35958,6 +36488,8 @@
   
     
   
+    
+  
 
   
     
@@ -36021,6 +36553,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -37732,6 +38266,8 @@
   
     
   
+    
+  
 
   
     
@@ -38619,6 +39155,8 @@
   
     
   
+    
+  
 
   
     
@@ -38688,6 +39226,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -40393,6 +40933,8 @@
   
     
   
+    
+  
 
   
     
@@ -40466,6 +41008,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -42167,6 +42711,8 @@
   
     
   
+    
+  
 
   
     
@@ -42248,6 +42794,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -43941,6 +44489,8 @@
   
     
   
+    
+  
 
   
     
@@ -44018,6 +44568,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -45715,6 +46267,8 @@
   
     
   
+    
+  
 
   
     
@@ -45800,6 +46354,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -47489,6 +48045,8 @@
   
     
   
+    
+  
 
   
     
@@ -47572,6 +48130,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -49263,6 +49823,8 @@
   
     
   
+    
+  
 
   
     
@@ -49350,6 +49912,8 @@
     <p class="book-author">Sarah J. Maas</p>
 
   </a>
+    
+  
     
   
     
@@ -51037,6 +51601,8 @@
   
     
   
+    
+  
 
   
     
@@ -51126,6 +51692,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -52811,6 +53379,8 @@
   
     
   
+    
+  
 
   
     
@@ -52904,6 +53474,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -54585,6 +55157,8 @@
   
     
   
+    
+  
 
   
     
@@ -54676,6 +55250,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -56359,6 +56935,8 @@
   
     
   
+    
+  
 
   
     
@@ -56454,6 +57032,8 @@
     <p class="book-author">Margaret Rogerson</p>
 
   </a>
+    
+  
     
   
     
@@ -57343,6 +57923,8 @@
     <p class="book-author">Ernest Cline</p>
 
   </a>
+    
+  
     
   
     
@@ -59020,6 +59602,8 @@
   
     
   
+    
+  
 
   
     
@@ -59117,6 +59701,8 @@
     <p class="book-author">Ernest Cline</p>
 
   </a>
+    
+  
     
   
     
@@ -60006,6 +60592,8 @@
     <p class="book-author">Christopher Paolini</p>
 
   </a>
+    
+  
     
   
     
@@ -61681,6 +62269,8 @@
   
     
   
+    
+  
 
   
     
@@ -61782,6 +62372,8 @@
     <p class="book-author">Christopher Paolini</p>
 
   </a>
+    
+  
     
   
     
@@ -63455,6 +64047,8 @@
   
     
   
+    
+  
 
   
     
@@ -63558,6 +64152,8 @@
     <p class="book-author">Christopher Paolini</p>
 
   </a>
+    
+  
     
   
     
@@ -65229,6 +65825,8 @@
   
     
   
+    
+  
 
   
     
@@ -65334,6 +65932,8 @@
     <p class="book-author">Christopher Paolini</p>
 
   </a>
+    
+  
     
   
     
@@ -67003,6 +67603,8 @@
   
     
   
+    
+  
 
   
     
@@ -67112,6 +67714,8 @@
     <p class="book-author">Megan Whalen Turner</p>
 
   </a>
+    
+  
     
   
     
@@ -68777,6 +69381,8 @@
   
     
   
+    
+  
 
   
     
@@ -68884,6 +69490,8 @@
     <p class="book-author">Megan Whalen Turner</p>
 
   </a>
+    
+  
     
   
     
@@ -70551,6 +71159,8 @@
   
     
   
+    
+  
 
   
     
@@ -71438,6 +72048,8 @@
   
     
   
+    
+  
 
   
     
@@ -72325,6 +72937,8 @@
   
     
   
+    
+  
 
   
     
@@ -72438,6 +73052,8 @@
     <p class="book-author">Megan Whalen Turner</p>
 
   </a>
+    
+  
     
   
     
@@ -74099,6 +74715,8 @@
   
     
   
+    
+  
 
   
     
@@ -74216,6 +74834,8 @@
     <p class="book-author">Megan Whalen Turner</p>
 
   </a>
+    
+  
     
   
     
@@ -75873,6 +76493,8 @@
   
     
   
+    
+  
 
   
     
@@ -76760,6 +77382,8 @@
   
     
   
+    
+  
 
   
     
@@ -76875,6 +77499,8 @@
     <p class="book-author">Megan Whalen Turner</p>
 
   </a>
+    
+  
     
   
     
@@ -78534,6 +79160,8 @@
   
     
   
+    
+  
 
   
     
@@ -78655,6 +79283,8 @@
     <p class="book-author">J. A. Hunter</p>
 
   </a>
+    
+  
     
   
     
@@ -80308,6 +80938,8 @@
   
     
   
+    
+  
 
   
     
@@ -81195,6 +81827,8 @@
   
     
   
+    
+  
 
   
     
@@ -81318,6 +81952,8 @@
     <p class="book-author">Ernest Cline</p>
 
   </a>
+    
+  
     
   
     
@@ -82969,6 +83605,8 @@
   
     
   
+    
+  
 
   
     
@@ -83098,6 +83736,8 @@
     <p class="book-author">John Flanagan</p>
 
   </a>
+    
+  
     
   
     
@@ -84743,6 +85383,8 @@
   
     
   
+    
+  
 
   
     
@@ -84876,6 +85518,8 @@
     <p class="book-author">John Flanagan</p>
 
   </a>
+    
+  
     
   
     
@@ -86517,6 +87161,8 @@
   
     
   
+    
+  
 
   
     
@@ -87404,6 +88050,8 @@
   
     
   
+    
+  
 
   
     
@@ -87543,6 +88191,8 @@
     <p class="book-author">John Flanagan</p>
 
   </a>
+    
+  
     
   
     
@@ -89178,6 +89828,8 @@
   
     
   
+    
+  
 
   
     
@@ -89321,6 +89973,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -90952,6 +91606,8 @@
   
     
   
+    
+  
 
   
     
@@ -91099,6 +91755,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -91988,6 +92646,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -93613,6 +94273,8 @@
   
     
   
+    
+  
 
   
     
@@ -93760,6 +94422,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -94651,6 +95315,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -96274,6 +96940,8 @@
   
     
   
+    
+  
 
   
     
@@ -96427,6 +97095,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -98048,6 +98718,8 @@
   
     
   
+    
+  
 
   
     
@@ -98205,6 +98877,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -99822,6 +100496,8 @@
   
     
   
+    
+  
 
   
     
@@ -99975,6 +100651,8 @@
     <p class="book-author">Apollos Thorne</p>
 
   </a>
+    
+  
     
   
     
@@ -101596,6 +102274,8 @@
   
     
   
+    
+  
 
   
     
@@ -101751,6 +102431,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -103370,6 +104052,8 @@
   
     
   
+    
+  
 
   
     
@@ -103533,6 +104217,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -105144,6 +105830,8 @@
   
     
   
+    
+  
 
   
     
@@ -105311,6 +105999,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -106918,6 +107608,8 @@
   
     
   
+    
+  
 
   
     
@@ -107805,6 +108497,8 @@
   
     
   
+    
+  
 
   
     
@@ -107972,6 +108666,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -109579,6 +110275,8 @@
   
     
   
+    
+  
 
   
     
@@ -109752,6 +110450,8 @@
     <p class="book-author">Tobias S. Buckell</p>
 
   </a>
+    
+  
     
   
     
@@ -110641,6 +111341,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -112240,6 +112942,8 @@
   
     
   
+    
+  
 
   
     
@@ -112417,6 +113121,8 @@
     <p class="book-author">K. F. Breene</p>
 
   </a>
+    
+  
     
   
     
@@ -114014,6 +114720,8 @@
   
     
   
+    
+  
 
   
     
@@ -114901,6 +115609,8 @@
   
     
   
+    
+  
 
   
     
@@ -115082,6 +115792,8 @@
     <p class="book-author">K. F. Breene</p>
 
   </a>
+    
+  
     
   
     
@@ -116675,6 +117387,8 @@
   
     
   
+    
+  
 
   
     
@@ -116862,6 +117576,8 @@
     <p class="book-author">Jeff Wheeler</p>
 
   </a>
+    
+  
     
   
     
@@ -118449,6 +119165,8 @@
   
     
   
+    
+  
 
   
     
@@ -119336,6 +120054,8 @@
   
     
   
+    
+  
 
   
     
@@ -119527,6 +120247,8 @@
     <p class="book-author">Sever Bronny</p>
 
   </a>
+    
+  
     
   
     
@@ -121110,6 +121832,8 @@
   
     
   
+    
+  
 
   
     
@@ -121303,6 +122027,8 @@
     <p class="book-author">Michael Wisehart</p>
 
   </a>
+    
+  
     
   
     
@@ -122884,6 +123610,8 @@
   
     
   
+    
+  
 
   
     
@@ -123081,6 +123809,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -124658,6 +125388,8 @@
   
     
   
+    
+  
 
   
     
@@ -125545,6 +126277,8 @@
   
     
   
+    
+  
 
   
     
@@ -125746,6 +126480,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -127319,6 +128055,8 @@
   
     
   
+    
+  
 
   
     
@@ -127524,6 +128262,8 @@
     <p class="book-author">Scott Adams</p>
 
   </a>
+    
+  
     
   
     
@@ -129093,6 +129833,8 @@
   
     
   
+    
+  
 
   
     
@@ -129304,6 +130046,8 @@
     <p class="book-author">Stephen Pastis</p>
 
   </a>
+    
+  
     
   
     
@@ -130867,6 +131611,8 @@
   
     
   
+    
+  
 
   
     
@@ -131082,6 +131828,8 @@
     <p class="book-author">Jim Butcher</p>
 
   </a>
+    
+  
     
   
     
@@ -132641,6 +133389,8 @@
   
     
   
+    
+  
 
   
     
@@ -132860,6 +133610,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -134415,6 +135167,8 @@
   
     
   
+    
+  
 
   
     
@@ -134638,6 +135392,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -136189,6 +136945,8 @@
   
     
   
+    
+  
 
   
     
@@ -136416,6 +137174,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -137963,6 +138723,8 @@
   
     
   
+    
+  
 
   
     
@@ -138194,6 +138956,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -139737,6 +140501,8 @@
   
     
   
+    
+  
 
   
     
@@ -139972,6 +140738,8 @@
     <p class="book-author">Brent Weeks</p>
 
   </a>
+    
+  
     
   
     
@@ -140863,6 +141631,8 @@
     <p class="book-author">Patrick Rothfuss</p>
 
   </a>
+    
+  
     
   
     
@@ -142398,6 +143168,8 @@
   
     
   
+    
+  
 
   
     
@@ -143285,6 +144057,8 @@
   
     
   
+    
+  
 
   
     
@@ -143522,6 +144296,8 @@
     <p class="book-author">Scott Lynch</p>
 
   </a>
+    
+  
     
   
     
@@ -145059,6 +145835,8 @@
   
     
   
+    
+  
 
   
     
@@ -145300,6 +146078,8 @@
     <p class="book-author">Brandon Mull</p>
 
   </a>
+    
+  
     
   
     
@@ -146833,6 +147613,8 @@
   
     
   
+    
+  
 
   
     
@@ -147080,6 +147862,8 @@
     <p class="book-author">Joe Abercrombie</p>
 
   </a>
+    
+  
     
   
     
@@ -148607,6 +149391,8 @@
   
     
   
+    
+  
 
   
     
@@ -148852,6 +149638,8 @@
     <p class="book-author">Christopher Buehlman</p>
 
   </a>
+    
+  
     
   
     
@@ -150381,6 +151169,8 @@
   
     
   
+    
+  
 
   
     
@@ -150632,6 +151422,8 @@
     <p class="book-author">Neil Gaiman</p>
 
   </a>
+    
+  
     
   
     
@@ -152155,6 +152947,8 @@
   
     
   
+    
+  
 
   
     
@@ -152410,6 +153204,8 @@
     <p class="book-author">Lev Grossman</p>
 
   </a>
+    
+  
     
   
     
@@ -153303,6 +154099,8 @@
     <p class="book-author">Patrick Rothfuss</p>
 
   </a>
+    
+  
     
   
     
@@ -154816,6 +155614,8 @@
   
     
   
+    
+  
 
   
     
@@ -155703,6 +156503,8 @@
   
     
   
+    
+  
 
   
     
@@ -155962,6 +156764,8 @@
     <p class="book-author">John Flanagan</p>
 
   </a>
+    
+  
     
   
     
@@ -157477,6 +158281,8 @@
   
     
   
+    
+  
 
   
     
@@ -157744,6 +158550,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -159251,6 +160059,8 @@
   
     
   
+    
+  
 
   
     
@@ -159522,6 +160332,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -161025,6 +161837,8 @@
   
     
   
+    
+  
 
   
     
@@ -161298,6 +162112,8 @@
     <p class="book-author">Chris Wooding</p>
 
   </a>
+    
+  
     
   
     
@@ -162799,6 +163615,8 @@
   
     
   
+    
+  
 
   
     
@@ -163076,6 +163894,8 @@
     <p class="book-author">C. S. Lewis</p>
 
   </a>
+    
+  
     
   
     
@@ -164573,6 +165393,8 @@
   
     
   
+    
+  
 
   
     
@@ -164856,6 +165678,8 @@
     <p class="book-author">Kyle Kirrin</p>
 
   </a>
+    
+  
     
   
     
@@ -166347,6 +167171,8 @@
   
     
   
+    
+  
 
   
     
@@ -167234,6 +168060,8 @@
   
     
   
+    
+  
 
   
     
@@ -167519,6 +168347,8 @@
     <p class="book-author">Kyle Kirrin</p>
 
   </a>
+    
+  
     
   
     
@@ -169008,6 +169838,8 @@
   
     
   
+    
+  
 
   
     
@@ -169299,6 +170131,8 @@
     <p class="book-author">C. S. Lewis</p>
 
   </a>
+    
+  
     
   
     
@@ -170782,6 +171616,8 @@
   
     
   
+    
+  
 
   
     
@@ -171077,6 +171913,8 @@
     <p class="book-author">Kyle Kirrin</p>
 
   </a>
+    
+  
     
   
     
@@ -172556,6 +173394,8 @@
   
     
   
+    
+  
 
   
     
@@ -173443,6 +174283,8 @@
   
     
   
+    
+  
 
   
     
@@ -173742,6 +174584,8 @@
     <p class="book-author">C. S. Lewis</p>
 
   </a>
+    
+  
     
   
     
@@ -175217,6 +176061,8 @@
   
     
   
+    
+  
 
   
     
@@ -175524,6 +176370,8 @@
     <p class="book-author">Diana Wynne Jones</p>
 
   </a>
+    
+  
     
   
     
@@ -176991,6 +177839,8 @@
   
     
   
+    
+  
 
   
     
@@ -177878,6 +178728,8 @@
   
     
   
+    
+  
 
   
     
@@ -178187,6 +179039,8 @@
     <p class="book-author">Gideon The Ninth</p>
 
   </a>
+    
+  
     
   
     
@@ -179652,6 +180506,8 @@
   
     
   
+    
+  
 
   
     
@@ -179969,6 +180825,8 @@
     <p class="book-author">C. S. Lewis</p>
 
   </a>
+    
+  
     
   
     
@@ -181426,6 +182284,8 @@
   
     
   
+    
+  
 
   
     
@@ -182313,6 +183173,8 @@
   
     
   
+    
+  
 
   
     
@@ -182632,6 +183494,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -184087,6 +184951,8 @@
   
     
   
+    
+  
 
   
     
@@ -184416,6 +185282,8 @@
     <p class="book-author">Steven Erikson</p>
 
   </a>
+    
+  
     
   
     
@@ -185861,6 +186729,8 @@
   
     
   
+    
+  
 
   
     
@@ -186186,6 +187056,8 @@
     <p class="book-author">C. S. Lewis</p>
 
   </a>
+    
+  
     
   
     
@@ -187635,6 +188507,8 @@
   
     
   
+    
+  
 
   
     
@@ -187968,6 +188842,8 @@
     <p class="book-author">Michael Wisehart</p>
 
   </a>
+    
+  
     
   
     
@@ -189409,6 +190285,8 @@
   
     
   
+    
+  
 
   
     
@@ -189746,6 +190624,8 @@
     <p class="book-author">Michael Wisehart</p>
 
   </a>
+    
+  
     
   
     
@@ -191183,6 +192063,8 @@
   
     
   
+    
+  
 
   
     
@@ -191522,6 +192404,8 @@
     <p class="book-author">Scott Meyer</p>
 
   </a>
+    
+  
     
   
     
@@ -192957,6 +193841,8 @@
   
     
   
+    
+  
 
   
     
@@ -193304,6 +194190,8 @@
     <p class="book-author">Joe Abercrombie</p>
 
   </a>
+    
+  
     
   
     
@@ -194731,6 +195619,8 @@
   
     
   
+    
+  
 
   
     
@@ -195076,6 +195966,8 @@
     <p class="book-author">Taran Matharu</p>
 
   </a>
+    
+  
     
   
     
@@ -196505,6 +197397,8 @@
   
     
   
+    
+  
 
   
     
@@ -197392,6 +198286,8 @@
   
     
   
+    
+  
 
   
     
@@ -197741,6 +198637,8 @@
     <p class="book-author">Eric Ugland</p>
 
   </a>
+    
+  
     
   
     
@@ -199166,6 +200064,8 @@
   
     
   
+    
+  
 
   
     
@@ -199525,6 +200425,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -200940,6 +201842,8 @@
   
     
   
+    
+  
 
   
     
@@ -201303,6 +202207,8 @@
     <p class="book-author">John Flanagan</p>
 
   </a>
+    
+  
     
   
     
@@ -202714,6 +203620,8 @@
   
     
   
+    
+  
 
   
     
@@ -203081,6 +203989,8 @@
     <p class="book-author">Jonathan Brooks</p>
 
   </a>
+    
+  
     
   
     
@@ -204488,6 +205398,8 @@
   
     
   
+    
+  
 
   
     
@@ -204859,6 +205771,8 @@
     <p class="book-author">Jonathan Brooks</p>
 
   </a>
+    
+  
     
   
     
@@ -206262,6 +207176,8 @@
   
     
   
+    
+  
 
   
     
@@ -207149,6 +208065,8 @@
   
     
   
+    
+  
 
   
     
@@ -207524,6 +208442,8 @@
     <p class="book-author">R. F. Kuang</p>
 
   </a>
+    
+  
     
   
     
@@ -208923,6 +209843,8 @@
   
     
   
+    
+  
 
   
     
@@ -209302,6 +210224,8 @@
     <p class="book-author">Bryce O&#39;Connor, Luke Chmilenko</p>
 
   </a>
+    
+  
     
   
     
@@ -210697,6 +211621,8 @@
   
     
   
+    
+  
 
   
     
@@ -211584,6 +212510,8 @@
   
     
   
+    
+  
 
   
     
@@ -211969,6 +212897,8 @@
     <p class="book-author">Douglas Adams</p>
 
   </a>
+    
+  
     
   
     
@@ -213358,6 +214288,8 @@
   
     
   
+    
+  
 
   
     
@@ -213751,6 +214683,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -215132,6 +216066,8 @@
   
     
   
+    
+  
 
   
     
@@ -215523,6 +216459,8 @@
     <p class="book-author">Patrick Carman</p>
 
   </a>
+    
+  
     
   
     
@@ -216906,6 +217844,8 @@
   
     
   
+    
+  
 
   
     
@@ -217303,6 +218243,8 @@
     <p class="book-author">Scott Lynch</p>
 
   </a>
+    
+  
     
   
     
@@ -218680,6 +219622,8 @@
   
     
   
+    
+  
 
   
     
@@ -219081,6 +220025,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -220454,6 +221400,8 @@
   
     
   
+    
+  
 
   
     
@@ -221341,6 +222289,8 @@
   
     
   
+    
+  
 
   
     
@@ -221744,6 +222694,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -223115,6 +224067,8 @@
   
     
   
+    
+  
 
   
     
@@ -223492,14 +224446,14 @@
     data-publisher=""
     data-avgGoodreadsRating=""
     data-numGoodreadsRatings=""
-    data-hasSummary="false"
+    data-hasSummary="true"
     data-hasScore="true"
     data-readCount="2"
     data-genre=""
     data-subgenre=""
     data-owned=""
-    data-averagescore="3.75"
-    data-latestscore="0"
+    data-averagescore="7"
+    data-latestscore="6.5"
     data-score="7.5"
     data-datefinished="6/12/2023"
     data-readNumber="0"
@@ -223526,6 +224480,8 @@
     <p class="book-author">Rick Riordan</p>
 
   </a>
+    
+  
     
   
     
@@ -224889,6 +225845,8 @@
   
     
   
+    
+  
 
   
     
@@ -225304,6 +226262,8 @@
     <p class="book-author">Rick Riordan</p>
 
   </a>
+    
+  
     
   
     
@@ -226663,6 +227623,8 @@
   
     
   
+    
+  
 
   
     
@@ -227080,6 +228042,8 @@
     <p class="book-author">Domagoj Kurmaic</p>
 
   </a>
+    
+  
     
   
     
@@ -228437,6 +229401,8 @@
   
     
   
+    
+  
 
   
     
@@ -229324,6 +230290,8 @@
   
     
   
+    
+  
 
   
     
@@ -229745,6 +230713,8 @@
     <p class="book-author">Tyler Whitesides</p>
 
   </a>
+    
+  
     
   
     
@@ -231098,6 +232068,8 @@
   
     
   
+    
+  
 
   
     
@@ -231985,6 +232957,8 @@
   
     
   
+    
+  
 
   
     
@@ -232408,6 +233382,8 @@
     <p class="book-author">Eric Ugland</p>
 
   </a>
+    
+  
     
   
     
@@ -233759,6 +234735,8 @@
   
     
   
+    
+  
 
   
     
@@ -234190,6 +235168,8 @@
     <p class="book-author">Kyle Kirrin</p>
 
   </a>
+    
+  
     
   
     
@@ -235533,6 +236513,8 @@
   
     
   
+    
+  
 
   
     
@@ -235970,6 +236952,8 @@
     <p class="book-author">David R. Slayton</p>
 
   </a>
+    
+  
     
   
     
@@ -237307,6 +238291,8 @@
   
     
   
+    
+  
 
   
     
@@ -237748,6 +238734,8 @@
     <p class="book-author">Eric Ugland</p>
 
   </a>
+    
+  
     
   
     
@@ -239081,6 +240069,8 @@
   
     
   
+    
+  
 
   
     
@@ -239524,6 +240514,8 @@
     <p class="book-author">Matt Dinniman</p>
 
   </a>
+    
+  
     
   
     
@@ -240855,6 +241847,8 @@
   
     
   
+    
+  
 
   
     
@@ -241304,6 +242298,8 @@
     <p class="book-author">Taran Matharu</p>
 
   </a>
+    
+  
     
   
     
@@ -242629,6 +243625,8 @@
   
     
   
+    
+  
 
   
     
@@ -243076,6 +244074,8 @@
     <p class="book-author">Robert Jackson Bennett</p>
 
   </a>
+    
+  
     
   
     
@@ -244403,6 +245403,8 @@
   
     
   
+    
+  
 
   
     
@@ -245290,6 +246292,8 @@
   
     
   
+    
+  
 
   
     
@@ -245745,6 +246749,8 @@
     <p class="book-author">Michael R. Miller</p>
 
   </a>
+    
+  
     
   
     
@@ -247064,6 +248070,8 @@
   
     
   
+    
+  
 
   
     
@@ -247525,6 +248533,8 @@
     <p class="book-author">Patrick Weekes</p>
 
   </a>
+    
+  
     
   
     
@@ -248838,6 +249848,8 @@
   
     
   
+    
+  
 
   
     
@@ -249303,6 +250315,8 @@
     <p class="book-author">Joe Abercrombie</p>
 
   </a>
+    
+  
     
   
     
@@ -250612,6 +251626,8 @@
   
     
   
+    
+  
 
   
     
@@ -251081,6 +252097,8 @@
     <p class="book-author">Taran Matharu</p>
 
   </a>
+    
+  
     
   
     
@@ -252386,6 +253404,8 @@
   
     
   
+    
+  
 
   
     
@@ -252859,6 +253879,8 @@
     <p class="book-author">Oliver Mayes</p>
 
   </a>
+    
+  
     
   
     
@@ -254160,6 +255182,8 @@
   
     
   
+    
+  
 
   
     
@@ -254637,6 +255661,8 @@
     <p class="book-author">Garth Nix</p>
 
   </a>
+    
+  
     
   
     
@@ -255934,6 +256960,8 @@
   
     
   
+    
+  
 
   
     
@@ -256413,6 +257441,8 @@
     <p class="book-author">J. M. Clarke</p>
 
   </a>
+    
+  
     
   
     
@@ -257708,6 +258738,8 @@
   
     
   
+    
+  
 
   
     
@@ -258193,6 +259225,8 @@
     <p class="book-author">Christopher Paolini</p>
 
   </a>
+    
+  
     
   
     
@@ -259482,6 +260516,8 @@
   
     
   
+    
+  
 
   
     
@@ -259965,6 +261001,8 @@
     <p class="book-author">Christopher Paolini</p>
 
   </a>
+    
+  
     
   
     
@@ -261256,6 +262294,8 @@
   
     
   
+    
+  
 
   
     
@@ -261747,6 +262787,8 @@
     <p class="book-author">Christopher Ruocchio</p>
 
   </a>
+    
+  
     
   
     
@@ -263030,6 +264072,8 @@
   
     
   
+    
+  
 
   
     
@@ -263525,6 +264569,8 @@
     <p class="book-author">Tui T. Sutherland</p>
 
   </a>
+    
+  
     
   
     
@@ -264804,6 +265850,8 @@
   
     
   
+    
+  
 
   
     
@@ -265303,6 +266351,8 @@
     <p class="book-author">Michael G. Manning</p>
 
   </a>
+    
+  
     
   
     
@@ -266578,6 +267628,8 @@
   
     
   
+    
+  
 
   
     
@@ -267465,6 +268517,8 @@
   
     
   
+    
+  
 
   
     
@@ -267966,6 +269020,8 @@
     <p class="book-author">Tui T. Sutherland</p>
 
   </a>
+    
+  
     
   
     
@@ -269239,6 +270295,8 @@
   
     
   
+    
+  
 
   
     
@@ -269744,6 +270802,8 @@
     <p class="book-author">Tui T. Sutherland</p>
 
   </a>
+    
+  
     
   
     
@@ -271013,6 +272073,8 @@
   
     
   
+    
+  
 
   
     
@@ -271524,6 +272586,8 @@
     <p class="book-author">Tui T. Sutherland</p>
 
   </a>
+    
+  
     
   
     
@@ -272787,6 +273851,8 @@
   
     
   
+    
+  
 
   
     
@@ -273304,6 +274370,8 @@
     <p class="book-author">William Shakespeare</p>
 
   </a>
+    
+  
     
   
     
@@ -274561,6 +275629,8 @@
   
     
   
+    
+  
 
   
     
@@ -275082,6 +276152,8 @@
     <p class="book-author">J.R.R. Tolkien</p>
 
   </a>
+    
+  
     
   
     
@@ -276335,6 +277407,8 @@
   
     
   
+    
+  
 
   
     
@@ -277222,6 +278296,8 @@
   
     
   
+    
+  
 
   
     
@@ -277745,6 +278821,8 @@
     <p class="book-author">A. J. Walker</p>
 
   </a>
+    
+  
     
   
     
@@ -278996,6 +280074,8 @@
   
     
   
+    
+  
 
   
     
@@ -279521,6 +280601,8 @@
     <p class="book-author">Patrick Rothfuss</p>
 
   </a>
+    
+  
     
   
     
@@ -280770,6 +281852,8 @@
   
     
   
+    
+  
 
   
     
@@ -281657,6 +282741,8 @@
   
     
   
+    
+  
 
   
     
@@ -282188,6 +283274,8 @@
     <p class="book-author">William Shakespeare</p>
 
   </a>
+    
+  
     
   
     
@@ -283431,6 +284519,8 @@
   
     
   
+    
+  
 
   
     
@@ -283972,6 +285062,8 @@
     <p class="book-author">Suzanne Collins</p>
 
   </a>
+    
+  
     
   
     
@@ -285205,6 +286297,8 @@
   
     
   
+    
+  
 
   
     
@@ -285744,6 +286838,8 @@
     <p class="book-author">William Shakespeare</p>
 
   </a>
+    
+  
     
   
     
@@ -286979,6 +288075,8 @@
   
     
   
+    
+  
 
   
     
@@ -287526,6 +288624,8 @@
     <p class="book-author">Cormac McCathy</p>
 
   </a>
+    
+  
     
   
     
@@ -288753,6 +289853,8 @@
   
     
   
+    
+  
 
   
     
@@ -289304,6 +290406,8 @@
     <p class="book-author">Suzanne Collins</p>
 
   </a>
+    
+  
     
   
     
@@ -290527,6 +291631,8 @@
   
     
   
+    
+  
 
   
     
@@ -291414,6 +292520,8 @@
   
     
   
+    
+  
 
   
     
@@ -291969,6 +293077,8 @@
     <p class="book-author">William Shakespeare</p>
 
   </a>
+    
+  
     
   
     
@@ -293188,6 +294298,8 @@
   
     
   
+    
+  
 
   
     
@@ -293749,6 +294861,8 @@
     <p class="book-author">Suzanne Collins</p>
 
   </a>
+    
+  
     
   
     
@@ -294962,6 +296076,8 @@
   
     
   
+    
+  
 
   
     
@@ -295849,6 +296965,8 @@
   
     
   
+    
+  
 
   
     
@@ -296412,6 +297530,8 @@
     <p class="book-author">William Shakespeare</p>
 
   </a>
+    
+  
     
   
     
@@ -297623,6 +298743,8 @@
   
     
   
+    
+  
 
   
     
@@ -298194,6 +299316,8 @@
     <p class="book-author">Dakota Krout</p>
 
   </a>
+    
+  
     
   
     
@@ -299397,6 +300521,8 @@
   
     
   
+    
+  
 
   
     
@@ -299974,6 +301100,8 @@
     <p class="book-author">Holly Black, Cassandra Clare</p>
 
   </a>
+    
+  
     
   
     
@@ -301171,6 +302299,8 @@
   
     
   
+    
+  
 
   
     
@@ -301746,6 +302876,8 @@
     <p class="book-author">Frederick Douglass</p>
 
   </a>
+    
+  
     
   
     
@@ -302945,6 +304077,8 @@
   
     
   
+    
+  
 
   
     
@@ -303832,6 +304966,8 @@
   
     
   
+    
+  
 
   
     
@@ -304415,6 +305551,8 @@
     <p class="book-author">Joe Abercrombie</p>
 
   </a>
+    
+  
     
   
     
@@ -305606,6 +306744,8 @@
   
     
   
+    
+  
 
   
     
@@ -306493,6 +307633,8 @@
   
     
   
+    
+  
 
   
     
@@ -307080,6 +308222,8 @@
     <p class="book-author">Jay Kristoff</p>
 
   </a>
+    
+  
     
   
     
@@ -308267,6 +309411,8 @@
   
     
   
+    
+  
 
   
     
@@ -308860,6 +310006,8 @@
     <p class="book-author">Eoin Colfer</p>
 
   </a>
+    
+  
     
   
     
@@ -310041,6 +311189,8 @@
   
     
   
+    
+  
 
   
     
@@ -310638,6 +311788,8 @@
     <p class="book-author">Steven Erikson</p>
 
   </a>
+    
+  
     
   
     
@@ -311815,6 +312967,8 @@
   
     
   
+    
+  
 
   
     
@@ -312702,6 +313856,8 @@
   
     
   
+    
+  
 
   
     
@@ -313301,6 +314457,8 @@
     <p class="book-author">Anthony Ryan</p>
 
   </a>
+    
+  
     
   
     
@@ -314476,6 +315634,8 @@
   
     
   
+    
+  
 
   
     
@@ -315085,6 +316245,8 @@
     <p class="book-author">Steven Erikson</p>
 
   </a>
+    
+  
     
   
     
@@ -316250,6 +317412,8 @@
   
     
   
+    
+  
 
   
     
@@ -316855,6 +318019,8 @@
     <p class="book-author">Eoin Colfer</p>
 
   </a>
+    
+  
     
   
     
@@ -318024,6 +319190,8 @@
   
     
   
+    
+  
 
   
     
@@ -318637,6 +319805,8 @@
     <p class="book-author">Joe Abercrombie</p>
 
   </a>
+    
+  
     
   
     
@@ -319798,6 +320968,8 @@
   
     
   
+    
+  
 
   
     
@@ -320685,6 +321857,8 @@
   
     
   
+    
+  
 
   
     
@@ -321304,6 +322478,8 @@
     <p class="book-author">Dennis E. Taylor</p>
 
   </a>
+    
+  
     
   
     
@@ -322459,6 +323635,8 @@
   
     
   
+    
+  
 
   
     
@@ -323346,6 +324524,8 @@
   
     
   
+    
+  
 
   
     
@@ -323969,6 +325149,8 @@
     <p class="book-author">Katherine Addison</p>
 
   </a>
+    
+  
     
   
     
@@ -325120,6 +326302,8 @@
   
     
   
+    
+  
 
   
     
@@ -325751,6 +326935,8 @@
     <p class="book-author">Fonda Lee</p>
 
   </a>
+    
+  
     
   
     
@@ -326894,6 +328080,8 @@
   
     
   
+    
+  
 
   
     
@@ -327529,6 +328717,8 @@
     <p class="book-author">Hunter Mythos</p>
 
   </a>
+    
+  
     
   
     
@@ -328668,6 +329858,8 @@
   
     
   
+    
+  
 
   
     
@@ -329305,6 +330497,8 @@
     <p class="book-author">Eoin Colfer</p>
 
   </a>
+    
+  
     
   
     
@@ -330442,6 +331636,8 @@
   
     
   
+    
+  
 
   
     
@@ -331085,6 +332281,8 @@
     <p class="book-author">Eoin Colfer</p>
 
   </a>
+    
+  
     
   
     
@@ -332216,6 +333414,8 @@
   
     
   
+    
+  
 
   
     
@@ -333103,6 +334303,8 @@
   
     
   
+    
+  
 
   
     
@@ -333748,6 +334950,8 @@
     <p class="book-author">Alec Hutson</p>
 
   </a>
+    
+  
     
   
     
@@ -334877,6 +336081,8 @@
   
     
   
+    
+  
 
   
     
@@ -335528,6 +336734,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -336651,6 +337859,8 @@
   
     
   
+    
+  
 
   
     
@@ -337308,6 +338518,8 @@
     <p class="book-author">Steven Erikson</p>
 
   </a>
+    
+  
     
   
     
@@ -338425,6 +339637,8 @@
   
     
   
+    
+  
 
   
     
@@ -339086,6 +340300,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -340199,6 +341415,8 @@
   
     
   
+    
+  
 
   
     
@@ -340862,6 +342080,8 @@
     <p class="book-author">Travis Baldree</p>
 
   </a>
+    
+  
     
   
     
@@ -341973,6 +343193,8 @@
   
     
   
+    
+  
 
   
     
@@ -342642,6 +343864,8 @@
     <p class="book-author">Brandon Sanderson</p>
 
   </a>
+    
+  
     
   
     
@@ -343747,6 +344971,8 @@
   
     
   
+    
+  
 
   
     
@@ -344420,6 +345646,8 @@
     <p class="book-author">Andrew Rowe</p>
 
   </a>
+    
+  
     
   
     
@@ -345521,6 +346749,8 @@
   
     
   
+    
+  
 
   
     
@@ -346196,6 +347426,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -347295,6 +348527,8 @@
   
     
   
+    
+  
 
   
     
@@ -347974,6 +349208,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -349069,6 +350305,8 @@
   
     
   
+    
+  
 
   
     
@@ -349754,6 +350992,8 @@
     <p class="book-author">Sebastien de Castell</p>
 
   </a>
+    
+  
     
   
     
@@ -350843,6 +352083,8 @@
   
     
   
+    
+  
 
   
     
@@ -351534,6 +352776,8 @@
     <p class="book-author">Wolfram von Eschenbach</p>
 
   </a>
+    
+  
     
   
     
@@ -352617,6 +353861,8 @@
   
     
   
+    
+  
 
   
     
@@ -353304,6 +354550,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -354391,6 +355639,8 @@
   
     
   
+    
+  
 
   
     
@@ -355086,6 +356336,8 @@
     <p class="book-author">Steven Erikson</p>
 
   </a>
+    
+  
     
   
     
@@ -356165,6 +357417,8 @@
   
     
   
+    
+  
 
   
     
@@ -356862,6 +358116,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -357939,6 +359195,8 @@
   
     
   
+    
+  
 
   
     
@@ -358644,6 +359902,8 @@
     <p class="book-author">Christopher Ruocchio</p>
 
   </a>
+    
+  
     
   
     
@@ -359713,6 +360973,8 @@
   
     
   
+    
+  
 
   
     
@@ -360420,6 +361682,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -361487,6 +362751,8 @@
   
     
   
+    
+  
 
   
     
@@ -362198,6 +363464,8 @@
     <p class="book-author">Oleg Sapphire, Alexey Kovtunov</p>
 
   </a>
+    
+  
     
   
     
@@ -363261,6 +364529,8 @@
   
     
   
+    
+  
 
   
     
@@ -364148,6 +365418,8 @@
   
     
   
+    
+  
 
   
     
@@ -364865,6 +366137,8 @@
     <p class="book-author">Cormac McCarthy</p>
 
   </a>
+    
+  
     
   
     
@@ -365922,6 +367196,8 @@
   
     
   
+    
+  
 
   
     
@@ -366643,6 +367919,8 @@
     <p class="book-author">Christopher Ruocchio</p>
 
   </a>
+    
+  
     
   
     
@@ -367696,6 +368974,8 @@
   
     
   
+    
+  
 
   
     
@@ -368583,6 +369863,8 @@
   
     
   
+    
+  
 
   
     
@@ -369308,6 +370590,8 @@
     <p class="book-author">Jennifer A. Nielsen</p>
 
   </a>
+    
+  
     
   
     
@@ -370357,6 +371641,8 @@
   
     
   
+    
+  
 
   
     
@@ -371244,6 +372530,8 @@
   
     
   
+    
+  
 
   
     
@@ -371977,6 +373265,8 @@
     <p class="book-author">Matt Dinniman</p>
 
   </a>
+    
+  
     
   
     
@@ -373018,6 +374308,8 @@
   
     
   
+    
+  
 
   
     
@@ -373905,6 +375197,8 @@
   
     
   
+    
+  
 
   
     
@@ -374642,6 +375936,8 @@
     <p class="book-author">Joe Abercrombie</p>
 
   </a>
+    
+  
     
   
     
@@ -375679,6 +376975,8 @@
   
     
   
+    
+  
 
   
     
@@ -376566,6 +377864,8 @@
   
     
   
+    
+  
 
   
     
@@ -377309,6 +378609,8 @@
     <p class="book-author">Robin Hobb</p>
 
   </a>
+    
+  
     
   
     
@@ -378340,6 +379642,8 @@
   
     
   
+    
+  
 
   
     
@@ -379091,6 +380395,8 @@
     <p class="book-author">Charlie N. Holmberg</p>
 
   </a>
+    
+  
     
   
     
@@ -380114,6 +381420,8 @@
   
     
   
+    
+  
 
   
     
@@ -381001,6 +382309,8 @@
   
     
   
+    
+  
 
   
     
@@ -381754,6 +383064,8 @@
     <p class="book-author">Ryan Cahill</p>
 
   </a>
+    
+  
     
   
     
@@ -382775,6 +384087,8 @@
   
     
   
+    
+  
 
   
     
@@ -383534,6 +384848,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -384549,6 +385865,8 @@
   
     
   
+    
+  
 
   
     
@@ -385312,6 +386630,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -386323,6 +387643,8 @@
   
     
   
+    
+  
 
   
     
@@ -387092,6 +388414,8 @@
     <p class="book-author">Brian Lee Durfee</p>
 
   </a>
+    
+  
     
   
     
@@ -388097,6 +389421,8 @@
   
     
   
+    
+  
 
   
     
@@ -388870,6 +390196,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -389871,6 +391199,8 @@
   
     
   
+    
+  
 
   
     
@@ -390648,6 +391978,8 @@
     <p class="book-author">Aristotle</p>
 
   </a>
+    
+  
     
   
     
@@ -391645,6 +392977,8 @@
   
     
   
+    
+  
 
   
     
@@ -392424,6 +393758,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -393419,6 +394755,8 @@
   
     
   
+    
+  
 
   
     
@@ -394204,6 +395542,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -395193,6 +396533,8 @@
   
     
   
+    
+  
 
   
     
@@ -395982,6 +397324,8 @@
     <p class="book-author">Pirate Aba</p>
 
   </a>
+    
+  
     
   
     
@@ -396967,6 +398311,8 @@
   
     
   
+    
+  
 
   
     
@@ -397854,6 +399200,8 @@
   
     
   
+    
+  
 
   
     
@@ -398645,6 +399993,8 @@
     <p class="book-author">Niels Bohr, Max Planck</p>
 
   </a>
+    
+  
     
   
     
@@ -399628,6 +400978,8 @@
   
     
   
+    
+  
 
   
     
@@ -400429,6 +401781,8 @@
     <p class="book-author">Isaac Newton</p>
 
   </a>
+    
+  
     
   
     
@@ -401402,6 +402756,8 @@
   
     
   
+    
+  
 
   
     
@@ -402201,6 +403557,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -403176,6 +404534,8 @@
   
     
   
+    
+  
 
   
     
@@ -403983,6 +405343,8 @@
     <p class="book-author">Mark Lawrence</p>
 
   </a>
+    
+  
     
   
     
@@ -404950,6 +406312,8 @@
   
     
   
+    
+  
 
   
     
@@ -405763,6 +407127,8 @@
     <p class="book-author">Will Wight</p>
 
   </a>
+    
+  
     
   
     
@@ -406724,6 +408090,8 @@
   
     
   
+    
+  
 
   
     
@@ -407533,6 +408901,8 @@
     <p class="book-author">James Dashner</p>
 
   </a>
+    
+  
     
   
     
@@ -408498,6 +409868,8 @@
   
     
   
+    
+  
 
   
     
@@ -409317,6 +410689,8 @@
     <p class="book-author">James Dashner</p>
 
   </a>
+    
+  
     
   
     
@@ -410272,6 +411646,8 @@
   
     
   
+    
+  
 
   
     
@@ -411093,6 +412469,8 @@
     <p class="book-author">Andy Weir</p>
 
   </a>
+    
+  
     
   
     
@@ -412046,6 +413424,8 @@
   
     
   
+    
+  
 
   
     
@@ -412873,6 +414253,8 @@
     <p class="book-author">William James</p>
 
   </a>
+    
+  
     
   
     
@@ -413820,6 +415202,8 @@
   
     
   
+    
+  
 
   
     
@@ -414649,6 +416033,8 @@
     <p class="book-author">Matt Dinniman</p>
 
   </a>
+    
+  
     
   
     
@@ -415594,6 +416980,8 @@
   
     
   
+    
+  
 
   
     
@@ -416431,6 +417819,8 @@
     <p class="book-author">James Islington</p>
 
   </a>
+    
+  
     
   
     
@@ -417368,6 +418758,8 @@
   
     
   
+    
+  
 
   
     
@@ -418203,6 +419595,8 @@
     <p class="book-author">James Dashner</p>
 
   </a>
+    
+  
     
   
     
@@ -419142,6 +420536,8 @@
   
     
   
+    
+  
 
   
     
@@ -420029,6 +421425,8 @@
   
     
   
+    
+  
 
   
     
@@ -420872,6 +422270,8 @@
     <p class="book-author">Tommy Kerper</p>
 
   </a>
+    
+  
     
   
     
@@ -421803,6 +423203,8 @@
   
     
   
+    
+  
 
   
     
@@ -422690,6 +424092,8 @@
   
     
   
+    
+  
 
   
     
@@ -423537,6 +424941,8 @@
     <p class="book-author">Christopher Ruocchio</p>
 
   </a>
+    
+  
     
   
     
@@ -424464,6 +425870,8 @@
   
     
   
+    
+  
 
   
     
@@ -425351,6 +426759,8 @@
   
     
   
+    
+  
 
   
     
@@ -426206,6 +427616,8 @@
     <p class="book-author">James S.A. Corey</p>
 
   </a>
+    
+  
     
   
     
@@ -427125,6 +428537,8 @@
   
     
   
+    
+  
 
   
     
@@ -427986,6 +429400,8 @@
     <p class="book-author">Shawn Wyatt</p>
 
   </a>
+    
+  
     
   
     
@@ -428899,6 +430315,8 @@
   
     
   
+    
+  
 
   
     
@@ -429764,6 +431182,8 @@
     <p class="book-author">S.A. Chakraborty</p>
 
   </a>
+    
+  
     
   
     
@@ -430673,6 +432093,8 @@
   
     
   
+    
+  
 
   
     
@@ -431540,6 +432962,8 @@
     <p class="book-author">Richard Osman</p>
 
   </a>
+    
+  
     
   
     
@@ -432447,6 +433871,8 @@
   
     
   
+    
+  
 
   
     
@@ -433320,6 +434746,8 @@
     <p class="book-author">Steve D. Wall</p>
 
   </a>
+    
+  
     
   
     
@@ -434221,6 +435649,8 @@
   
     
   
+    
+  
 
   
     
@@ -435100,6 +436530,8 @@
     <p class="book-author">James S.A. Corey</p>
 
   </a>
+    
+  
     
   
     
@@ -435995,6 +437427,8 @@
   
     
   
+    
+  
 
   
     
@@ -436842,16 +438276,16 @@
     data-publisher="viking"
     data-avgGoodreadsRating="8.7"
     data-numGoodreadsRatings="278617"
-    data-hasSummary="false"
+    data-hasSummary="true"
     data-hasScore="true"
     data-readCount="1"
     data-genre="mystery"
     data-subgenre="humor"
     data-owned=""
-    data-averagescore="0"
-    data-latestscore="0"
-    data-score="0"
-    data-datefinished=""
+    data-averagescore="5"
+    data-latestscore="5"
+    data-score="5"
+    data-datefinished="3/8/2026"
     data-readNumber="0"
     data-format=""
     data-days="0"
@@ -436868,14 +438302,16 @@
     
 
     <div class="overlay">
-      ⭐ N/A
-      | 📅 
+      ⭐ 5
+      | 📅 3/8/2026
     </div>
 
     <h2 class="book-title">The Bullet That Missed</h2>
     <p class="book-author">Richard Osman</p>
 
   </a>
+    
+  
     
   
     
@@ -437769,6 +439205,8 @@
   
     
   
+    
+  
 
   
     
@@ -438146,16 +439584,16 @@
     data-publisher=""
     data-avgGoodreadsRating=""
     data-numGoodreadsRatings=""
-    data-hasSummary="false"
+    data-hasSummary="true"
     data-hasScore="true"
     data-readCount="2"
     data-genre=""
     data-subgenre=""
     data-owned=""
-    data-averagescore="3.75"
-    data-latestscore="0"
-    data-score="0"
-    data-datefinished=""
+    data-averagescore="7"
+    data-latestscore="6.5"
+    data-score="6.5"
+    data-datefinished="3/8/2026"
     data-readNumber="0"
     data-format=""
     data-days="0"
@@ -438172,14 +439610,16 @@
     
 
     <div class="overlay">
-      ⭐ N/A
-      | 📅 
+      ⭐ 6.5
+      | 📅 3/8/2026
     </div>
 
     <h2 class="book-title">The Lightning Thief</h2>
     <p class="book-author">Rick Riordan</p>
 
   </a>
+    
+  
     
   
     
@@ -439539,6 +440979,897 @@
 
     <h2 class="book-title">The Adventures of Amina al-Sirafi</h2>
     <p class="book-author">S.A. Chakraborty</p>
+
+  </a>
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  <a href="/books/empire-of-the-damned-kristoff/" class="book-card"
+    data-type="read"
+    data-slug="empire-of-the-damned-kristoff"
+    data-title="empire of the damned"
+    data-author="jay kristoff"
+    data-series="empire of the vampire"
+    data-seriesNumber="2"
+    data-pages="709"
+    data-yearPublished="2024"
+    data-publisher="st. martin&#39;s press"
+    data-avgGoodreadsRating="9.1"
+    data-numGoodreadsRatings="33987"
+    data-hasSummary="false"
+    data-hasScore="true"
+    data-readCount="1"
+    data-genre="fantasy"
+    data-subgenre="dark"
+    data-owned=""
+    data-averagescore="0"
+    data-latestscore="0"
+    data-score="0"
+    data-datefinished=""
+    data-readNumber="0"
+    data-format=""
+    data-days="0"
+    data-yearRead="0"
+    data-hasReview="false"
+  >
+
+    
+      <img
+        class="book-cover"
+        src="/files/covers/empire-of-the-damned-kristoff-cover.jpg"
+        alt="Empire of the Damned cover"
+      >
+    
+
+    <div class="overlay">
+      ⭐ N/A
+      | 📅 
+    </div>
+
+    <h2 class="book-title">Empire of the Damned</h2>
+    <p class="book-author">Jay Kristoff</p>
 
   </a>
     

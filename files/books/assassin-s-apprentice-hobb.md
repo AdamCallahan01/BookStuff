@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780553573398"
 bookOwned: true
+otherSeries: "The Realm of the Elderlings"
 hasSummary: false
 summarySlug: "assassin-s-apprentice-hobb-summary"
 summarySlugLink: "[[assassin-s-apprentice-hobb-summary]]"

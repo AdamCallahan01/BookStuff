@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/478951.The_Bonehunters"
 avgGoodreadsRating: "8.96"
 isbn: "9780553813159"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "the-bonehunters-erikson-summary"
 summarySlugLink: "[[the-bonehunters-erikson-summary]]"

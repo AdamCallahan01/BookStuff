@@ -10,6 +10,7 @@ pages: 1087
 goodreads: "https://www.goodreads.com/book/show/17332218-words-of-radiance"
 isbn: "9780765326362"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "words-of-radiance-sanderson-summary"
 summarySlugLink: "[[words-of-radiance-sanderson-summary]]"

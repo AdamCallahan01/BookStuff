@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/55401.Deadhouse_Gates"
 avgGoodreadsRating: "8.52"
 isbn: "9780765310026"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "deadhouse-gates-erikson-summary"
 summarySlugLink: "[[deadhouse-gates-erikson-summary]]"

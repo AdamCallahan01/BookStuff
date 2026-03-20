@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780765316554"
 bookOwned: true
+otherSeries: "Malazan"
 hasSummary: false
 summarySlug: "dust-of-dreams-erikson-summary"
 summarySlugLink: "[[dust-of-dreams-erikson-summary]]"

@@ -10,6 +10,7 @@ pages: 160
 goodreads: "https://www.goodreads.com/book/show/43106809-white-sand-volume-3"
 isbn: "9781524110062"
 bookOwned: false
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "white-sand-volume-3-sanderson-summary"
 summarySlugLink: "[[white-sand-volume-3-sanderson-summary]]"

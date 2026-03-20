@@ -10,6 +10,7 @@ pages: 541
 goodreads: "https://www.goodreads.com/book/show/68428.Mistborn?ref=nav_sb_ss_1_12"
 isbn: "9780765311788"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-final-empire-sanderson-summary"
 summarySlugLink: "[[the-final-empire-sanderson-summary]]"

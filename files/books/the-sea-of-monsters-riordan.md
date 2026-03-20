@@ -10,6 +10,7 @@ pages: 279
 goodreads: "https://www.goodreads.com/book/show/40727118-the-sea-of-monsters"
 isbn: "9780120000319"
 bookOwned: true
+otherSeries: "Percy Jackson"
 hasSummary: false
 summarySlug: "the-sea-of-monsters-riordan-summary"
 summarySlugLink: "[[the-sea-of-monsters-riordan-summary]]"

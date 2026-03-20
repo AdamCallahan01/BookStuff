@@ -16,6 +16,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781250319180"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "wind-and-truth-sanderson-summary"
 summarySlugLink: "[[wind-and-truth-sanderson-summary]]"

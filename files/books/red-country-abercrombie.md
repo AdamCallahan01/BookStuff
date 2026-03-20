@@ -13,6 +13,7 @@ goodreads: "https://www.goodreads.com/book/show/13521459-red-country"
 avgGoodreadsRating: "8.62"
 isbn: "9780316214445"
 bookOwned: true
+otherSeries: "First Law"
 hasSummary: false
 summarySlug: "red-country-abercrombie-summary"
 summarySlugLink: "[[red-country-abercrombie-summary]]"
