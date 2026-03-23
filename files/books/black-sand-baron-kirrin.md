@@ -5,7 +5,7 @@ bookSlug: "black-sand-baron-kirrin"
 title: "Black Sand Baron"
 author: "Kyle Kirrin"
 series: "The Ripple System"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 835
 goodreads: "https://www.goodreads.com/book/show/59450543-black-sand-baron"
 isbn: "9781913695286"

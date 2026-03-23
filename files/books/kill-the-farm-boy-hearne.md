@@ -5,7 +5,7 @@ bookSlug: "kill-the-farm-boy-hearne"
 title: "Kill the Farm Boy"
 author: "Delilah S. Dawson, Kevin Hearne"
 series: "The Tales of Pell"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 384
 yearPublished: 2018
 publisher: "Del Rey"

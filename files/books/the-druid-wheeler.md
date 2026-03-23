@@ -5,7 +5,7 @@ bookSlug: "the-druid-wheeler"
 title: "The Druid"
 author: "Jeff Wheeler"
 series: "The Dawning of Muirwood"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 333
 goodreads: "https://www.goodreads.com/book/show/59028267-the-druid?ref=nav_sb_ss_1_17"
 isbn: "9781542034746"

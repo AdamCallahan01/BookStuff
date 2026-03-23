@@ -5,7 +5,7 @@ bookSlug: "the-merry-wives-of-windsor-shakespeare"
 title: "The Merry Wives of Windsor"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 156
 yearPublished: 1597
 goodreads: "https://www.goodreads.com/book/show/104778.The_Merry_Wives_of_Windsor?ref=nav_sb_ss_1_17"

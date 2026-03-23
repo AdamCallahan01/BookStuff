@@ -5,7 +5,7 @@ bookSlug: "malice-gwynne"
 title: "Malice"
 author: "John Gwynne"
 series: "The Faithful and the Fallen"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 672
 goodreads: "https://www.goodreads.com/book/show/15750692-malice?ref=nav_sb_ss_3_6"
 isbn: "9780230758452"

@@ -5,7 +5,7 @@ bookSlug: "the-wandering-inn-aba"
 title: "The Wandering Inn"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 1235
 goodreads: "https://www.goodreads.com/book/show/41033158-the-wandering-inn?ref=nav_sb_ss_1_13"
 bookOwned: true

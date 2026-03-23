@@ -5,7 +5,7 @@ bookSlug: "into-the-labyrinth-bierce"
 title: "Into the Labyrinth"
 author: "James Bierce"
 series: "Mage Errant"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 216
 goodreads: "https://www.goodreads.com/book/show/42267952-into-the-labyrinth?ref=nav_sb_ss_1_12"
 bookOwned: true

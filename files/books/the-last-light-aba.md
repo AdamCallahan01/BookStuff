@@ -5,7 +5,7 @@ bookSlug: "the-last-light-aba"
 title: "The Last Light"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 1791
 yearPublished: 2021
 publisher: "Self"

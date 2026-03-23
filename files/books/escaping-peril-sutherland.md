@@ -5,7 +5,7 @@ bookSlug: "escaping-peril-sutherland"
 title: "Escaping Peril"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 260
 yearPublished: 2016
 publisher: "Scholastic"

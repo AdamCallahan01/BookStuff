@@ -5,7 +5,7 @@ bookSlug: "the-blade-itself-abercrombie"
 title: "The Blade Itself"
 author: "Joe Abercrombie"
 series: "The First Law"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 515
 goodreads: "https://www.goodreads.com/book/show/944073.The_Blade_Itself?ref=nav_sb_ss_1_12"
 isbn: "9780575079793"

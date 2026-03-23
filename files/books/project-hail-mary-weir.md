@@ -5,7 +5,7 @@ bookSlug: "project-hail-mary-weir"
 title: "Project Hail Mary"
 author: "Andy Weir"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 496
 yearPublished: 2021
 publisher: "Ballantine"

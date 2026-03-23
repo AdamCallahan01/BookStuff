@@ -5,7 +5,7 @@ bookSlug: "rhythm-of-war-sanderson"
 title: "Rhythm of War"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 1219
 goodreads: "https://www.goodreads.com/book/show/49021976-rhythm-of-war?ref=nav_sb_ss_1_13"
 isbn: "9780765326386"

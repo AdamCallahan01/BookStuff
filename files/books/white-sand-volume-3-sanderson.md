@@ -5,7 +5,7 @@ bookSlug: "white-sand-volume-3-sanderson"
 title: "White Sand, Volume 3"
 author: "Brandon Sanderson"
 series: "White Sand"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 160
 goodreads: "https://www.goodreads.com/book/show/43106809-white-sand-volume-3"
 isbn: "9781524110062"

@@ -5,7 +5,7 @@ bookSlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt"
 title: "How To Be a Farmer in a Fantasy World"
 author: "Shawn Wyatt"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 298
 yearPublished: 2022
 publisher: "Self"

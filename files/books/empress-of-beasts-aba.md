@@ -5,7 +5,7 @@ bookSlug: "empress-of-beasts-aba"
 title: "Empress of Beasts"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "13"
+seriesNumber: 13
 pages: 1119
 yearPublished: 2024
 publisher: "Self"

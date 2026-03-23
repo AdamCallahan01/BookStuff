@@ -5,7 +5,7 @@ bookSlug: "the-meaning-of-truth-james"
 title: "The Meaning of Truth"
 author: "William James"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 330
 yearPublished: 1909
 publisher: "Prometheus"

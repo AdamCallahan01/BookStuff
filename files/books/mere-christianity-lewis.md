@@ -5,7 +5,7 @@ bookSlug: "mere-christianity-lewis"
 title: "Mere Christianity"
 author: "C. S. Lewis"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 191
 goodreads: "https://www.goodreads.com/book/show/11138.Mere_Christianity?ref=nav_sb_ss_1_8"
 isbn: "9780684823782"

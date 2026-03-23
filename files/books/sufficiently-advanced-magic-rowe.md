@@ -5,7 +5,7 @@ bookSlug: "sufficiently-advanced-magic-rowe"
 title: "Sufficiently Advanced Magic"
 author: "Andrew Rowe"
 series: "Arcane Ascension"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 625
 goodreads: "https://www.goodreads.com/book/show/35610002-sufficiently-advanced-magic"
 isbn: "9781521118764"

@@ -5,7 +5,7 @@ bookSlug: "the-dregs-of-empire-ruocchio"
 title: "The Dregs of Empire"
 author: "Christopher Ruocchio"
 series: "Sun Eater"
-seriesNumber: "5.6"
+seriesNumber: 5.6
 pages: 332
 yearPublished: 2023
 publisher: "Self"

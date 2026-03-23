@@ -5,7 +5,7 @@ bookSlug: "the-dungeon-anarchist-s-cookbook-dinniman"
 title: "The Dungeon Anarchist's Cookbook"
 author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 534
 yearPublished: 2021
 publisher: "Dandy House"

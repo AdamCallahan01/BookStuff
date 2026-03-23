@@ -5,7 +5,7 @@ bookSlug: "ghostwater-wight"
 title: "Ghostwater"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 310
 yearPublished: 2018
 publisher: "Hidden Gnome"

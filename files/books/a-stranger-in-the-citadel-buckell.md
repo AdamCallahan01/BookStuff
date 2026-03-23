@@ -5,7 +5,7 @@ bookSlug: "a-stranger-in-the-citadel-buckell"
 title: "A Stranger in the Citadel"
 author: "Tobias S. Buckell"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 256
 goodreads: "https://www.goodreads.com/book/show/139595692-a-stranger-in-the-citadel?ref=nav_sb_ss_3_19"
 isbn: "9781616963989"

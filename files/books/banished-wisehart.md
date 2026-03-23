@@ -5,7 +5,7 @@ bookSlug: "banished-wisehart"
 title: "Banished"
 author: "Michael Wisehart"
 series: "Street Rats of Aramoor"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 351
 goodreads: "https://www.goodreads.com/book/show/53662446-banished?ref=nav_sb_ss_1_17"
 isbn: "9780998150536"

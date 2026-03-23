@@ -5,7 +5,7 @@ bookSlug: "mistborn-secret-history-sanderson"
 title: "Mistborn: Secret History"
 author: "Brandon Sanderson"
 series: "Cosmere"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 160
 goodreads: "https://www.goodreads.com/book/show/42028213-mistborn"
 isbn: "9781473225046"

@@ -5,7 +5,7 @@ bookSlug: "a-practical-guide-to-conquering-the-world-holt"
 title: "A Practical Guide to Conquering the World"
 author: "K. J. Parker (Tom Holt)"
 series: "The Siege"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 350
 yearPublished: 2022
 publisher: "Orbit"

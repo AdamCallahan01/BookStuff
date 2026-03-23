@@ -5,7 +5,7 @@ bookSlug: "the-witch-of-webs-aba"
 title: "The Witch of Webs"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "12"
+seriesNumber: 12
 pages: 1703
 yearPublished: 2024
 publisher: "Self"

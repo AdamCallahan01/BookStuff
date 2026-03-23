@@ -5,7 +5,7 @@ bookSlug: "the-republic-of-thieves-lynch"
 title: "The Republic of Thieves"
 author: "Scott Lynch"
 series: "Gentleman Bastard"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 650
 goodreads: "https://www.goodreads.com/book/show/2890090-the-republic-of-thieves"
 isbn: "9780553804690"

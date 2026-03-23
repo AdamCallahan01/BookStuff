@@ -5,7 +5,7 @@ bookSlug: "sense-and-sensibility-austen"
 title: "Sense and Sensibility"
 author: "Jane Austen"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 409
 yearPublished: 1811
 publisher: "Penguin"

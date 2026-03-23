@@ -5,7 +5,7 @@ bookSlug: "shadeslinger-kirrin"
 title: "Shadeslinger"
 author: "Kyle Kirrin"
 series: "The Ripple System"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 646
 goodreads: "https://www.goodreads.com/book/show/57584583-shadeslinger"
 isbn: "9781913695088"

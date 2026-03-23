@@ -5,7 +5,7 @@ bookSlug: "home-siege-home-ugland"
 title: "Home, Siege Home"
 author: "Eric Ugland"
 series: "The Good Guys"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 370
 goodreads: "https://www.goodreads.com/book/show/70890972-home-siege-home"
 isbn: "9781945346132"

@@ -5,7 +5,7 @@ bookSlug: "demon-in-white-ruocchio"
 title: "Demon in White"
 author: "Christopher Ruocchio"
 series: "Sun Eater"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 784
 yearPublished: 2020
 publisher: "Gollancz"

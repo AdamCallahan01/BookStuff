@@ -5,7 +5,7 @@ bookSlug: "greek-mythology-explained-ramenah"
 title: "Greek Mythology Explained"
 author: "Marios Christou, David Ramenah"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 352
 goodreads: "https://www.goodreads.com/book/show/42682571-greek-mythology-explained"
 isbn: "9781633538962"

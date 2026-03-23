@@ -5,7 +5,7 @@ bookSlug: "the-captain-wight"
 title: "The Captain"
 author: "Will Wight"
 series: "The Last Horizon"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 467
 yearPublished: 2023
 publisher: "Hidden Gnome"

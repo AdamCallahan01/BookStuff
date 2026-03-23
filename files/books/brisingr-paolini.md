@@ -5,7 +5,7 @@ bookSlug: "brisingr-paolini"
 title: "Brisingr"
 author: "Christopher Paolini"
 series: "The Inheritance Cycle"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 748
 goodreads: "https://www.goodreads.com/book/show/2248573.Brisingr"
 isbn: "9780375826726"

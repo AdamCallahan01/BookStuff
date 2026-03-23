@@ -5,7 +5,7 @@ bookSlug: "quantum-theory-planck"
 title: "Quantum Theory"
 author: "Niels Bohr, Max Planck"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 192
 yearPublished: 2019
 publisher: "Flame Tree"

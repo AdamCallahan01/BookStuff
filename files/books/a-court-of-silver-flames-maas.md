@@ -5,7 +5,7 @@ bookSlug: "a-court-of-silver-flames-maas"
 title: "A Court of Silver Flames"
 author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 757
 goodreads: "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames"
 isbn: "9781681196282"

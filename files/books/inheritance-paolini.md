@@ -5,7 +5,7 @@ bookSlug: "inheritance-paolini"
 title: "Inheritance"
 author: "Christopher Paolini"
 series: "The Inheritance Cycle"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 849
 goodreads: "https://www.goodreads.com/book/show/7664041-inheritance"
 isbn: "9780375856112"

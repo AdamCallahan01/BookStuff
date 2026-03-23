@@ -5,7 +5,7 @@ bookSlug: "soulsmith-wight"
 title: "Soulsmith"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 284
 goodreads: "https://www.goodreads.com/book/show/36274086-soulsmith"
 isbn: "9780989671774"

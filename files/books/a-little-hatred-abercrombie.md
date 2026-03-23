@@ -5,7 +5,7 @@ bookSlug: "a-little-hatred-abercrombie"
 title: "A Little Hatred"
 author: "Joe Abercrombie"
 series: "The Age of Madness"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 480
 yearPublished: 2019
 publisher: "Orbit"

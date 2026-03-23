@@ -5,7 +5,7 @@ bookSlug: "the-hobbit-tolkien"
 title: "The Hobbit"
 author: "J.R.R. Tolkien"
 series: "The Lord of the Rings"
-seriesNumber: "0"
+seriesNumber: 0
 pages: 366
 yearPublished: 1937
 publisher: "Houghton Mifflin"

@@ -5,7 +5,7 @@ bookSlug: "on-lavender-tides-riddle"
 title: "On Lavender Tides"
 author: "Travis M. Riddle"
 series: "Jekua"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 398
 yearPublished: 2022
 publisher: "Self"

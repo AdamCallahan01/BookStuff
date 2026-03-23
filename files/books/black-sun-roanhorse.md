@@ -5,7 +5,7 @@ bookSlug: "black-sun-roanhorse"
 title: "Black Sun"
 author: "Rebecca Roanhorse"
 series: "Between Earth and Sky"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 454
 yearPublished: 2020
 publisher: "Saga Press"

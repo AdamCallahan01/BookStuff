@@ -5,7 +5,7 @@ bookSlug: "the-ember-blade-wooding"
 title: "The Ember Blade"
 author: "Chris Wooding"
 series: "The Darkwater Legacy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 824
 goodreads: "https://www.goodreads.com/book/show/34673711-the-ember-blade?ref=nav_sb_ss_1_11"
 isbn: "9781473214866"

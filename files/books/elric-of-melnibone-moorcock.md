@@ -5,7 +5,7 @@ bookSlug: "elric-of-melnibone-moorcock"
 title: "Elric of Melniboné"
 author: "Michael Moorcock"
 series: "The Elric Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 181
 goodreads: "https://www.goodreads.com/book/show/30036.Elric_of_Melnibon_?ref=nav_sb_ss_1_5"
 isbn: "9780441203987"

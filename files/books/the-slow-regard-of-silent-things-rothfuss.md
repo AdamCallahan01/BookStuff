@@ -5,7 +5,7 @@ bookSlug: "the-slow-regard-of-silent-things-rothfuss"
 title: "The Slow Regard of Silent Things"
 author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
-seriesNumber: "2.5"
+seriesNumber: 2.5
 pages: 159
 goodreads: "https://www.goodreads.com/book/show/21535271-the-slow-regard-of-silent-things?ref=nav_sb_ss_1_21"
 isbn: "9780756410438"

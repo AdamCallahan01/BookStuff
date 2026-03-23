@@ -5,7 +5,7 @@ bookSlug: "the-black-prism-weeks"
 title: "The Black Prism"
 author: "Brent Weeks"
 series: "Lightbringer"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 629
 goodreads: "https://www.goodreads.com/book/show/16131107-the-black-prism"
 isbn: "9780316246279"

@@ -5,7 +5,7 @@ bookSlug: "gild-kennedy"
 title: "Gild"
 author: "Raven Kennedy"
 series: "The Plated Prisoner"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 402
 goodreads: "https://www.goodreads.com/book/show/199420132-gild"
 isbn: "9781464224416"

@@ -5,7 +5,7 @@ bookSlug: "the-gate-of-the-feral-gods-dinniman"
 title: "The Gate of the Feral Gods"
 author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 586
 yearPublished: 2021
 publisher: "Dandy House"

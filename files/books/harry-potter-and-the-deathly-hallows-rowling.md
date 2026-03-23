@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-deathly-hallows-rowling"
 title: "Harry Potter and the Deathly Hallows"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 759
 goodreads: "https://www.goodreads.com/book/show/58613224-harry-potter-and-the-deathly-hallows"
 isbn: "9780545010221"

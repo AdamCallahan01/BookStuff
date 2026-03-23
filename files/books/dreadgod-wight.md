@@ -5,7 +5,7 @@ bookSlug: "dreadgod-wight"
 title: "Dreadgod"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "11"
+seriesNumber: 11
 pages: 464
 yearPublished: 2022
 publisher: "Hidden Gnome"

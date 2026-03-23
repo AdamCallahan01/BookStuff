@@ -5,7 +5,7 @@ bookSlug: "red-rising-brown"
 title: "Red Rising"
 author: "Pierce Brown"
 series: "Red Rising Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 382
 goodreads: "https://www.goodreads.com/book/show/15839976-red-rising?ref=nav_sb_ss_1_10"
 isbn: "9780345539786"

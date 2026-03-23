@@ -5,7 +5,7 @@ bookSlug: "jade-city-lee"
 title: "Jade City"
 author: "Fonda Lee"
 series: "The Green Bone Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 540
 yearPublished: 2017
 publisher: "Orbit"

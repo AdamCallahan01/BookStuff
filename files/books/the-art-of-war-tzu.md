@@ -5,7 +5,7 @@ bookSlug: "the-art-of-war-tzu"
 title: "The Art of War"
 author: "Sun Tzu"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 273
 goodreads: "https://www.goodreads.com/book/show/35608147-the-art-of-war"
 isbn: "9781542097529"

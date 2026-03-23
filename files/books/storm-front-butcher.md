@@ -5,7 +5,7 @@ bookSlug: "storm-front-butcher"
 title: "Storm Front"
 author: "Jim Butcher"
 series: "The Dresden Files"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 355
 goodreads: "https://www.goodreads.com/book/show/47212.Storm_Front?ref=nav_sb_ss_1_11"
 isbn: "9780451457813"

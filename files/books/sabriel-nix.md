@@ -5,7 +5,7 @@ bookSlug: "sabriel-nix"
 title: "Sabriel"
 author: "Garth Nix"
 series: "The Old Kingdom"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 491
 goodreads: "https://www.goodreads.com/book/show/518848.Sabriel?ref=nav_sb_ss_1_7"
 isbn: "9780064471831"

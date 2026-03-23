@@ -5,7 +5,7 @@ bookSlug: "the-titan-s-curse-riordan"
 title: "The Titan's Curse"
 author: "Rick Riordan"
 series: "Percy Jackson and the Olympians"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 320
 goodreads: "https://www.goodreads.com/book/show/28185.The_Titan_s_Curse"
 isbn: "9781423101451"

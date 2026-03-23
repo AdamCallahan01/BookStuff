@@ -5,7 +5,7 @@ bookSlug: "chosen-breene"
 title: "Chosen"
 author: "K. F. Breene"
 series: "The Warrior Chronicles"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 411
 goodreads: "https://www.goodreads.com/book/show/22668541-chosen?ref=nav_sb_ss_1_13"
 isbn: "9781508923022"

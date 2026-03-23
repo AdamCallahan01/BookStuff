@@ -5,7 +5,7 @@ bookSlug: "gregor-and-the-curse-of-the-warmbloods-collins"
 title: "Gregor and the Curse of the Warmbloods"
 author: "Suzanne Collins"
 series: "Underland Chronicles"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 358
 yearPublished: 2005
 publisher: "Scholastic"

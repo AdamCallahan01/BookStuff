@@ -5,7 +5,7 @@ bookSlug: "throne-of-glass-maas"
 title: "Throne of Glass"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 406
 goodreads: "https://www.goodreads.com/book/show/76703559-throne-of-glass?ref=nav_sb_ss_1_15"
 isbn: "9781639730940"

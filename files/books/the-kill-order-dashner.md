@@ -5,7 +5,7 @@ bookSlug: "the-kill-order-dashner"
 title: "The Kill Order"
 author: "James Dashner"
 series: "The Maze Runner"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 327
 yearPublished: 2012
 publisher: "Delacorte"

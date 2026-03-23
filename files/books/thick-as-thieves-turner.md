@@ -5,7 +5,7 @@ bookSlug: "thick-as-thieves-turner"
 title: "Thick as Thieves"
 author: "Megan Whalen Turner"
 series: "The Queen's Thief"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 337
 goodreads: "https://www.goodreads.com/book/show/8306741-thick-as-thieves"
 isbn: "9780062568243"

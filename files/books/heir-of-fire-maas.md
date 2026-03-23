@@ -5,7 +5,7 @@ bookSlug: "heir-of-fire-maas"
 title: "Heir of Fire"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 576
 goodreads: "https://www.goodreads.com/book/show/61756735-heir-of-fire"
 isbn: "9781639730995"

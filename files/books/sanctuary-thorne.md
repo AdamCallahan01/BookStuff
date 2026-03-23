@@ -5,7 +5,7 @@ bookSlug: "sanctuary-thorne"
 title: "Sanctuary"
 author: "Apollos Thorne"
 series: "Underworld"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 549
 goodreads: "https://www.goodreads.com/book/show/50410226-sanctuary"
 isbn: "9781733664448"

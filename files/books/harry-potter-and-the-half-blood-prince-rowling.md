@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-half-blood-prince-rowling"
 title: "Harry Potter and the Half-Blood Prince"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 652
 goodreads: "https://www.goodreads.com/book/show/49852.Harry_Potter_and_the_Half_Blood_Prince"
 isbn: "9780439784542"

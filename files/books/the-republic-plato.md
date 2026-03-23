@@ -5,7 +5,7 @@ bookSlug: "the-republic-plato"
 title: "The Republic"
 author: "Plato"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 416
 yearPublished: 401
 publisher: "Self"

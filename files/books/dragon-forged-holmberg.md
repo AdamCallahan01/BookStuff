@@ -5,7 +5,7 @@ bookSlug: "dragon-forged-holmberg"
 title: "Dragon Forged"
 author: "Dan Michaelson, D. K. Holmberg"
 series: "Blood of the Ancients"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 286
 yearPublished: 2022
 publisher: "ASH"

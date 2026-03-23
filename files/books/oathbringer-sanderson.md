@@ -5,7 +5,7 @@ bookSlug: "oathbringer-sanderson"
 title: "Oathbringer"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 1243
 goodreads: "https://www.goodreads.com/book/show/37534833-oathbringer"
 isbn: "9781250297143"

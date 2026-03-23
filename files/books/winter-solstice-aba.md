@@ -5,7 +5,7 @@ bookSlug: "winter-solstice-aba"
 title: "Winter Solstice"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 1109
 yearPublished: 2021
 publisher: "Self"

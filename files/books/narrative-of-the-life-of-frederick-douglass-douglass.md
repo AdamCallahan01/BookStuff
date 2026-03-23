@@ -5,7 +5,7 @@ bookSlug: "narrative-of-the-life-of-frederick-douglass-douglass"
 title: "Narrative of the Life of Frederick Douglass"
 author: "Frederick Douglass"
 series: "The Autobiographies"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 158
 yearPublished: 1845
 publisher: "Prestwick"

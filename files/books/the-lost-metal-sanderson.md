@@ -5,7 +5,7 @@ bookSlug: "the-lost-metal-sanderson"
 title: "The Lost Metal"
 author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 507
 goodreads: "https://www.goodreads.com/book/show/59797676-the-lost-metal"
 isbn: "9781473215290"

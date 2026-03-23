@@ -5,7 +5,7 @@ bookSlug: "the-alloy-of-law-sanderson"
 title: "The Alloy of Law"
 author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 332
 goodreads: "https://www.goodreads.com/book/show/12065807-the-alloy-of-law"
 isbn: "9780575105836"

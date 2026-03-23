@@ -5,7 +5,7 @@ bookSlug: "neverwhere-gaiman"
 title: "Neverwhere"
 author: "Neil Gaiman"
 series: "London Below"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 370
 goodreads: "https://www.goodreads.com/book/show/14497.Neverwhere?ref=nav_sb_ss_1_10"
 isbn: "9780060557812"

@@ -5,7 +5,7 @@ bookSlug: "animal-farm-orwell"
 title: "Animal Farm"
 author: "George Orwell"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 141
 yearPublished: 1945
 publisher: "Signet Classics"

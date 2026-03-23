@@ -5,7 +5,7 @@ bookSlug: "the-magicians-grossman"
 title: "The Magicians"
 author: "Lev Grossman"
 series: "The Magicians"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 402
 goodreads: "https://www.goodreads.com/book/show/6101718-the-magicians?ref=nav_sb_ss_2_13"
 isbn: "9780670020553"

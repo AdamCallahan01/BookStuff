@@ -5,7 +5,7 @@ bookSlug: "good-omens-the-nice-and-accurate-prophecies-of-agnes-nutter-witch-gai
 title: "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch"
 author: "Terry Pratchett, Neil Gaiman"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 384
 goodreads: "https://www.goodreads.com/book/show/12070.Good_Omens?ref=nav_sb_ss_1_10"
 isbn: "9780060853976"

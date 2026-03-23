@@ -5,7 +5,7 @@ bookSlug: "foundryside-bennett"
 title: "Foundryside"
 author: "Robert Jackson Bennett"
 series: "The Founders Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 501
 goodreads: "https://www.goodreads.com/book/show/37173847-foundryside?ref=nav_sb_ss_1_7"
 isbn: "9781524760373"

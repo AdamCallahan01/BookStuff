@@ -5,7 +5,7 @@ bookSlug: "the-lion-the-witch-and-the-wardrobe-lewis"
 title: "The Lion, The Witch and the Wardrobe"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 206
 goodreads: "https://www.goodreads.com/book/show/132080146-the-lion-the-witch-and-the-wardrobe"
 isbn: "9780060764890"

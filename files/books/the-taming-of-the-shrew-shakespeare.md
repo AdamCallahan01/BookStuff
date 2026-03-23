@@ -5,7 +5,7 @@ bookSlug: "the-taming-of-the-shrew-shakespeare"
 title: "The Taming of the Shrew"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 291
 yearPublished: 1593
 goodreads: "https://www.goodreads.com/book/show/47021.The_Taming_of_the_Shrew?ref=nav_sb_ss_1_12"

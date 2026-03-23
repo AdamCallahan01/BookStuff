@@ -5,7 +5,7 @@ bookSlug: "the-city-of-brass-chakraborty"
 title: "The City of Brass"
 author: "S.A. Chakraborty"
 series: "The Daevabad Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 532
 yearPublished: 2017
 publisher: "Harper Voyager"
@@ -20,10 +20,10 @@ hasSummary: true
 summarySlug: "the-city-of-brass-chakraborty-summary"
 summarySlugLink: "[[the-city-of-brass-chakraborty-summary]]"
 hasScore: true
-latestScore: 4
+latestScore: 3.5
 readCount: 1
-averageScore: 4
-allScores: [4]
+averageScore: 3.5
+allScores: [3.5]
 readSlugs: ["the-city-of-brass-chakraborty-1"]
 readSlugsLinks: ["[[the-city-of-brass-chakraborty-1]]"]
 currentRead: false

@@ -5,7 +5,7 @@ bookSlug: "empire-of-the-vampire-kristoff"
 title: "Empire of the Vampire"
 author: "Jay Kristoff"
 series: "Empire of the Vampire"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 739
 yearPublished: 2021
 publisher: "St. Martin's Press"

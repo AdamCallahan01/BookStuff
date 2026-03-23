@@ -5,7 +5,7 @@ bookSlug: "the-wandering-inn-19-aba"
 title: "The Wandering Inn 19"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "19"
+seriesNumber: 19
 pages: 1160
 yearPublished: 2026
 publisher: "Self"

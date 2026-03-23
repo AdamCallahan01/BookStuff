@@ -5,7 +5,7 @@ bookSlug: "shadow-s-edge-weeks"
 title: "Shadow's Edge"
 author: "Brent Weeks"
 series: "Night Angel"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 636
 goodreads: "https://www.goodreads.com/book/show/3754016-shadow-s-edge"
 isbn: "9780316033657"

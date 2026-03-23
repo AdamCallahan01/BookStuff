@@ -5,7 +5,7 @@ bookSlug: "the-priory-of-the-orange-tree-shannon"
 title: "The Priory of the Orange Tree"
 author: "Samantha Shannon"
 series: "The Roots of Chaos"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 848
 yearPublished: 2019
 publisher: "Bloomsbury"

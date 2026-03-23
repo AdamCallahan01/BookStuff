@@ -5,7 +5,7 @@ bookSlug: "surprised-by-joy-lewis"
 title: "Surprised by Joy"
 author: "C. S. Lewis"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 185
 goodreads: "https://www.goodreads.com/book/show/121732.Surprised_by_Joy?ref=nav_sb_ss_1_16"
 isbn: "9780006280835"

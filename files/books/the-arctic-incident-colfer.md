@@ -5,7 +5,7 @@ bookSlug: "the-arctic-incident-colfer"
 title: "The Arctic Incident"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 398
 yearPublished: 2002
 publisher: "Hyperion"

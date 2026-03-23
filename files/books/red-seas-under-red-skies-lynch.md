@@ -5,7 +5,7 @@ bookSlug: "red-seas-under-red-skies-lynch"
 title: "Red Seas Under Red Skies"
 author: "Scott Lynch"
 series: "Gentleman Bastard"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 578
 goodreads: "https://www.goodreads.com/book/show/887877.Red_Seas_Under_Red_Skies"
 isbn: "9780553804683"

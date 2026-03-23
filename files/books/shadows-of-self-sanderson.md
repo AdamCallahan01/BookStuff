@@ -5,7 +5,7 @@ bookSlug: "shadows-of-self-sanderson"
 title: "Shadows of Self"
 author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 383
 goodreads: "https://www.goodreads.com/book/show/22887640-shadows-of-self"
 isbn: "9781473208223"

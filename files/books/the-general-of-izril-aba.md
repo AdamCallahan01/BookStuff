@@ -5,7 +5,7 @@ bookSlug: "the-general-of-izril-aba"
 title: "The General of Izril"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 1080
 yearPublished: 2022
 publisher: "Self"

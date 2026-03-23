@@ -5,7 +5,7 @@ bookSlug: "dungeon-born-krout"
 title: "Dungeon Born"
 author: "Dakota Krout"
 series: "The Divine Dungeon"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 404
 yearPublished: 2016
 publisher: "Mountaindale"

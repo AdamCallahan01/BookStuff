@@ -5,7 +5,7 @@ bookSlug: "seaborn-livingston"
 title: "Seaborn"
 author: "Michael Livingston"
 series: "The Seaborn Cycle"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 300
 goodreads: "https://www.goodreads.com/book/show/61082852-seaborn"
 isbn: "9798472191456"

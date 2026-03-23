@@ -5,7 +5,7 @@ bookSlug: "the-well-of-ascension-sanderson"
 title: "The Well of Ascension"
 author: "Brandon Sanderson"
 series: "Mistborn"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 590
 goodreads: "https://www.goodreads.com/book/show/2115046.The_Well_of_Ascension"
 isbn: "9780765356130"

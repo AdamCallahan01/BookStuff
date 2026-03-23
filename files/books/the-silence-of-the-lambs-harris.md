@@ -5,7 +5,7 @@ bookSlug: "the-silence-of-the-lambs-harris"
 title: "The Silence of the Lambs"
 author: "Thomas Harris"
 series: "Hannibal Lecter"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 421
 goodreads: "https://www.goodreads.com/book/show/9440817-the-silence-of-the-lambs"
 isbn: "9781429957656"

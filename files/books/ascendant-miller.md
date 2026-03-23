@@ -5,7 +5,7 @@ bookSlug: "ascendant-miller"
 title: "Ascendant"
 author: "Michael R. Miller"
 series: "Songs of Chaos"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 554
 goodreads: "https://www.goodreads.com/book/show/55066606-ascendant?ref=nav_sb_ss_1_9"
 isbn: "9781068756382"

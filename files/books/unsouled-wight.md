@@ -5,7 +5,7 @@ bookSlug: "unsouled-wight"
 title: "Unsouled"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 294
 goodreads: "https://www.goodreads.com/book/show/35683460-unsouled"
 isbn: "9780989671767"

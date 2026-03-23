@@ -5,7 +5,7 @@ bookSlug: "king-of-duels-aba"
 title: "King of Duels"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "16"
+seriesNumber: 16
 pages: 1304
 yearPublished: 2025
 publisher: "Self"

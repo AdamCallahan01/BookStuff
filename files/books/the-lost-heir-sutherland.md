@@ -5,7 +5,7 @@ bookSlug: "the-lost-heir-sutherland"
 title: "The Lost Heir"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 321
 yearPublished: 2013
 publisher: "Scholastic"

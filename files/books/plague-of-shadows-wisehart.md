@@ -5,7 +5,7 @@ bookSlug: "plague-of-shadows-wisehart"
 title: "Plague of Shadows"
 author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 723
 goodreads: "https://www.goodreads.com/book/show/49682048-plague-of-shadows"
 isbn: "9780998150550"

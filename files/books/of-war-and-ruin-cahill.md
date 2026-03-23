@@ -5,7 +5,7 @@ bookSlug: "of-war-and-ruin-cahill"
 title: "Of War and Ruin"
 author: "Ryan Cahill"
 series: "The Bound and the Broken"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 1483
 yearPublished: 2023
 publisher: "Self"

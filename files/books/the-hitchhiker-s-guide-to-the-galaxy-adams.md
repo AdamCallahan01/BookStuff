@@ -5,7 +5,7 @@ bookSlug: "the-hitchhiker-s-guide-to-the-galaxy-adams"
 title: "The Hitchhiker's Guide to the Galaxy"
 author: "Douglas Adams"
 series: "The Hitchhiker's Guide to the Galaxy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 142
 goodreads: "https://www.goodreads.com/book/show/14.The_Hitchhiker_s_Guide_to_the_Galaxy"
 isbn: "9781400052929"

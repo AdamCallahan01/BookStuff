@@ -5,7 +5,7 @@ bookSlug: "caliban-s-war-corey"
 title: "Caliban's War"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 624
 yearPublished: 2012
 publisher: "Orbit/Little, Brown Book Group"

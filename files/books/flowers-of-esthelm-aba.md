@@ -5,7 +5,7 @@ bookSlug: "flowers-of-esthelm-aba"
 title: "Flowers of Esthelm"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 974
 yearPublished: 2020
 publisher: "Self"

@@ -5,7 +5,7 @@ bookSlug: "the-king-of-attolia-turner"
 title: "The King of Attolia"
 author: "Megan Whalen Turner"
 series: "The Queen's Thief"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 387
 goodreads: "https://www.goodreads.com/book/show/30363361-the-king-of-attolia"
 isbn: "9780062642981"

@@ -5,7 +5,7 @@ bookSlug: "the-book-that-broke-the-world-lawrence"
 title: "The Book That Broke the World"
 author: "Mark Lawrence"
 series: "The Library Trilogy"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 384
 yearPublished: 2024
 publisher: "HarperVoyager"

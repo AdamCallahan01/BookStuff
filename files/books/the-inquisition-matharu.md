@@ -5,7 +5,7 @@ bookSlug: "the-inquisition-matharu"
 title: "The Inquisition"
 author: "Taran Matharu"
 series: "Summoner"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 368
 goodreads: "https://www.goodreads.com/book/show/25689056-the-inquisition?ref=nav_sb_ss_1_15"
 isbn: "9781250076311"

@@ -5,7 +5,7 @@ bookSlug: "empire-of-storms-maas"
 title: "Empire of Storms"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 693
 goodreads: "https://www.goodreads.com/book/show/76713323-empire-of-storms"
 isbn: "9781639731022"

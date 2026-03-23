@@ -5,7 +5,7 @@ bookSlug: "fablehaven-mull"
 title: "Fablehaven"
 author: "Brandon Mull"
 series: "Fablehaven"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 351
 goodreads: "https://www.goodreads.com/book/show/44652.Fablehaven?ref=nav_sb_ss_1_10"
 isbn: "9781590385814"

@@ -5,7 +5,7 @@ bookSlug: "the-thursday-murder-club-osman"
 title: "The Thursday Murder Club"
 author: "Richard Osman"
 series: "Thursday Murder Club"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 382
 yearPublished: 2020
 publisher: "Penguin Books"

@@ -5,7 +5,7 @@ bookSlug: "the-scorch-trials-dashner"
 title: "The Scorch Trials"
 author: "James Dashner"
 series: "The Maze Runner"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 362
 yearPublished: 2010
 publisher: "Delacorte"

@@ -5,7 +5,7 @@ bookSlug: "vampire-gate-thorne"
 title: "Vampire Gate"
 author: "Apollos Thorne"
 series: "Underworld"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 267
 goodreads: "https://www.goodreads.com/book/show/54293336-vampire-gate"
 bookOwned: true

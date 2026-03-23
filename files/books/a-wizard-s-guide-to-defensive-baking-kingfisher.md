@@ -5,7 +5,7 @@ bookSlug: "a-wizard-s-guide-to-defensive-baking-kingfisher"
 title: "A Wizard’s Guide to Defensive Baking"
 author: "T. Kingfisher"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 306
 yearPublished: 2020
 publisher: "Argyll"

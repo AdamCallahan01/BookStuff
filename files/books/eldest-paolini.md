@@ -5,7 +5,7 @@ bookSlug: "eldest-paolini"
 title: "Eldest"
 author: "Christopher Paolini"
 series: "The Inheritance Cycle"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 704
 goodreads: "https://www.goodreads.com/book/show/45978.Eldest"
 isbn: "9780375840401"

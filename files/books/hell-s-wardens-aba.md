@@ -5,7 +5,7 @@ bookSlug: "hell-s-wardens-aba"
 title: "Hell's Wardens"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "14"
+seriesNumber: 14
 pages: 1007
 yearPublished: 2024
 publisher: "Self"

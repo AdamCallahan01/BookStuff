@@ -5,7 +5,7 @@ bookSlug: "all-systems-red-wells"
 title: "All Systems Red"
 author: "Martha Wells"
 series: "The Murderbot Diaries"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 144
 goodreads: "https://www.goodreads.com/book/show/40653269-all-systems-red"
 isbn: "9781250214713"

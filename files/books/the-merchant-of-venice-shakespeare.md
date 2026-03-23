@@ -5,7 +5,7 @@ bookSlug: "the-merchant-of-venice-shakespeare"
 title: "The Merchant of Venice"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 247
 yearPublished: 1596
 goodreads: "https://www.goodreads.com/book/show/24128.The_Merchant_of_Venice?ref=nav_sb_ss_1_15"

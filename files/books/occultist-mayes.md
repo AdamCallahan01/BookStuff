@@ -5,7 +5,7 @@ bookSlug: "occultist-mayes"
 title: "Occultist"
 author: "Oliver Mayes"
 series: "Saga Online"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 471
 goodreads: "https://www.goodreads.com/book/show/55861239-der-okkultist-saga-online-i"
 isbn: "9788076192324"

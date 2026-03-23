@@ -5,7 +5,7 @@ bookSlug: "gregor-the-overlander-collins"
 title: "Gregor the Overlander"
 author: "Suzanne Collins"
 series: "Underland Chronicles"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 326
 yearPublished: 2003
 publisher: "Scholastic"

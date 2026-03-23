@@ -5,7 +5,7 @@ bookSlug: "the-icebound-land-flanagan"
 title: "The Icebound Land"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 266
 goodreads: "https://www.goodreads.com/book/show/127823.The_Icebound_Land"
 isbn: "9780399244568"

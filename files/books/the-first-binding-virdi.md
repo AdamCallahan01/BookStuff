@@ -5,7 +5,7 @@ bookSlug: "the-first-binding-virdi"
 title: "The First Binding"
 author: "R. R. Virdi"
 series: "Tales of Tremaine"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 832
 goodreads: "https://www.goodreads.com/book/show/57693381-the-first-binding?from_search=true&from_srp=true&qid=l7mqwsFWuq&rank=2"
 isbn: "9781250796172"

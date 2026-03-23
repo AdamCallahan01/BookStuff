@@ -5,7 +5,7 @@ bookSlug: "the-time-paradox-colfer"
 title: "The Time Paradox"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 391
 yearPublished: 2008
 publisher: "Hyperion"

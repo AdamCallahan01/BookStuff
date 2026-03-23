@@ -5,7 +5,7 @@ bookSlug: "the-false-prince-nielsen"
 title: "The False Prince"
 author: "Jennifer A. Nielsen"
 series: "Ascendance"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 342
 yearPublished: 2012
 publisher: "Scholastic"

@@ -5,7 +5,7 @@ bookSlug: "white-trash-warlock-slayton"
 title: "White Trash Warlock"
 author: "David R. Slayton"
 series: "Adam Binder"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 320
 goodreads: "https://www.goodreads.com/book/show/53255694-white-trash-warlock?ref=nav_sb_ss_1_16"
 isbn: "9781094067964"

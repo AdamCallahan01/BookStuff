@@ -5,7 +5,7 @@ bookSlug: "uncrowned-wight"
 title: "Uncrowned"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 336
 yearPublished: 2019
 publisher: "Hidden Gnome"

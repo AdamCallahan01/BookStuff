@@ -5,7 +5,7 @@ bookSlug: "the-assassin-s-blade-maas"
 title: "The Assassin's Blade"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "0.5"
+seriesNumber: 0.5
 pages: 451
 goodreads: "https://www.goodreads.com/book/show/126062562-the-assassin-s-blade"
 isbn: "9781619632219"

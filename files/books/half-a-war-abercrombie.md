@@ -5,7 +5,7 @@ bookSlug: "half-a-war-abercrombie"
 title: "Half a War"
 author: "Joe Abercrombie"
 series: "Shattered Sea"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 513
 goodreads: "https://www.goodreads.com/book/show/23278586-half-a-war"
 isbn: "9780804178457"

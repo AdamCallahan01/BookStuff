@@ -5,7 +5,7 @@ bookSlug: "the-death-cure-dashner"
 title: "The Death Cure"
 author: "James Dashner"
 series: "The Maze Runner"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 325
 yearPublished: 2011
 publisher: "Delacorte"

@@ -5,7 +5,7 @@ bookSlug: "the-adventures-of-amina-al-sirafi-chakraborty"
 title: "The Adventures of Amina al-Sirafi"
 author: "S.A. Chakraborty"
 series: "Amina al-Sirafi"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 496
 yearPublished: 2023
 publisher: "Harper Voyager"
@@ -17,17 +17,17 @@ subgenre: "Historical"
 isbn: "9780062963529"
 narrator: "Lameece Issaq, Amin El Gamal"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-adventures-of-amina-al-sirafi-chakraborty-summary"
 summarySlugLink: "[[the-adventures-of-amina-al-sirafi-chakraborty-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4
+allScores: [4]
 readSlugs: ["the-adventures-of-amina-al-sirafi-chakraborty-1"]
 readSlugsLinks: ["[[the-adventures-of-amina-al-sirafi-chakraborty-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-adventures-of-amina-al-sirafi-chakraborty-cover"
 ---
 

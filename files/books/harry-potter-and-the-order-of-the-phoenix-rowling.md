@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-order-of-the-phoenix-rowling"
 title: "Harry Potter and the Order of the Phoenix"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 912
 goodreads: "https://www.goodreads.com/book/show/58613451-harry-potter-and-the-order-of-the-phoenix"
 isbn: "9780439358064"

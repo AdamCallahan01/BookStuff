@@ -5,7 +5,7 @@ bookSlug: "the-thousand-deaths-of-ardor-benn-whitesides"
 title: "The Thousand Deaths of Ardor Benn"
 author: "Tyler Whitesides"
 series: "Kingdom of Grit"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 784
 goodreads: "https://www.goodreads.com/book/show/35838132-the-thousand-deaths-of-ardor-benn?ref=nav_sb_ss_1_10"
 isbn: "9780316520256"

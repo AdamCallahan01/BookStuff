@@ -5,7 +5,7 @@ bookSlug: "measure-for-measure-shakespeare"
 title: "Measure for Measure"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 278
 yearPublished: 1604
 goodreads: "https://www.goodreads.com/book/show/91571.Measure_for_Measure?ref=nav_sb_ss_1_15"

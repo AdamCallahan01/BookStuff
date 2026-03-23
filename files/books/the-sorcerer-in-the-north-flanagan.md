@@ -5,7 +5,7 @@ bookSlug: "the-sorcerer-in-the-north-flanagan"
 title: "The Sorcerer in the North"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 304
 goodreads: "https://www.goodreads.com/book/show/6089263-the-sorcerer-of-the-north"
 isbn: "9780142414293"

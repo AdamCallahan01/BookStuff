@@ -5,7 +5,7 @@ bookSlug: "a-sorcery-of-thorns-rogerson"
 title: "A Sorcery of Thorns"
 author: "Margaret Rogerson"
 series: "Sorcery of Thorns"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 456
 goodreads: "https://www.goodreads.com/book/show/42201395-sorcery-of-thorns?ref=nav_sb_ss_1_17"
 isbn: "9781481497619"

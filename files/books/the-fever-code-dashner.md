@@ -5,7 +5,7 @@ bookSlug: "the-fever-code-dashner"
 title: "The Fever Code"
 author: "James Dashner"
 series: "The Maze Runner"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 347
 yearPublished: 2016
 publisher: "Delacorte Press"

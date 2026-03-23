@@ -5,7 +5,7 @@ bookSlug: "mother-of-learning-arc-2-kurmaic"
 title: "Mother of Learning: ARC 2"
 author: "Domagoj Kurmaić"
 series: "Mother of Learning"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 664
 yearPublished: 2022
 publisher: "Wraithmarked"

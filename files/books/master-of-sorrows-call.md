@@ -5,7 +5,7 @@ bookSlug: "master-of-sorrows-call"
 title: "Master of Sorrows"
 author: "Justin Call"
 series: "The Silent Gods"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 448
 goodreads: "https://www.goodreads.com/book/show/52905319-master-of-sorrows"
 isbn: "9781982591786"

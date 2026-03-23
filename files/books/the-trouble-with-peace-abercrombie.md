@@ -5,7 +5,7 @@ bookSlug: "the-trouble-with-peace-abercrombie"
 title: "The Trouble With Peace"
 author: "Joe Abercrombie"
 series: "The Age of Madness"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 506
 yearPublished: 2020
 publisher: "Gollancz"

@@ -5,7 +5,7 @@ bookSlug: "the-dark-secret-sutherland"
 title: "The Dark Secret"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 336
 yearPublished: 2013
 publisher: "Scholastic"

@@ -5,7 +5,7 @@ bookSlug: "the-two-gentleman-of-verona-shakespeare"
 title: "The Two Gentleman of Verona"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 245
 yearPublished: 1594
 goodreads: "https://www.goodreads.com/book/show/82346.The_Two_Gentlemen_of_Verona?ref=nav_sb_ss_2_11"

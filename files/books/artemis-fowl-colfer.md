@@ -5,7 +5,7 @@ bookSlug: "artemis-fowl-colfer"
 title: "Artemis Fowl"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 396
 yearPublished: 2001
 publisher: "Miramax"

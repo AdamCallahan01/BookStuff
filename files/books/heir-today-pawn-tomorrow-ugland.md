@@ -5,7 +5,7 @@ bookSlug: "heir-today-pawn-tomorrow-ugland"
 title: "Heir Today, Pawn Tomorrow"
 author: "Eric Ugland"
 series: "The Good Guys"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 254
 goodreads: "https://www.goodreads.com/book/show/61100297-heir-today-pawn-tomorrow"
 isbn: "9781945346095"

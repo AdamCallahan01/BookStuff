@@ -5,7 +5,7 @@ bookSlug: "empire-of-the-damned-kristoff"
 title: "Empire of the Damned"
 author: "Jay Kristoff"
 series: "Empire of the Vampire"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 709
 yearPublished: 2024
 publisher: "St. Martin's Press"
@@ -16,17 +16,17 @@ genre: "Fantasy"
 subgenre: "Dark"
 isbn: "9781250245335"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "empire-of-the-damned-kristoff-summary"
 summarySlugLink: "[[empire-of-the-damned-kristoff-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 9.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 9.5
+allScores: [9.5]
 readSlugs: ["empire-of-the-damned-kristoff-1"]
 readSlugsLinks: ["[[empire-of-the-damned-kristoff-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "empire-of-the-damned-kristoff-cover"
 ---
 

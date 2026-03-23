@@ -5,7 +5,7 @@ bookSlug: "crown-of-midnight-maas"
 title: "Crown of Midnight"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 420
 goodreads: "https://www.goodreads.com/book/show/76705490-crown-of-midnight"
 isbn: "9781639730964"

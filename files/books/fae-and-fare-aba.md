@@ -5,7 +5,7 @@ bookSlug: "fae-and-fare-aba"
 title: "Fae and Fare"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 1718
 yearPublished: 2019
 publisher: "Self"

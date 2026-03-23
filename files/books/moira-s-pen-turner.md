@@ -5,7 +5,7 @@ bookSlug: "moira-s-pen-turner"
 title: "Moira's Pen"
 author: "Megan Whalen Turner"
 series: "Queen's Thief"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 224
 yearPublished: 2022
 publisher: "Greenwillow"

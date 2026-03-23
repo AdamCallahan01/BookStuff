@@ -5,7 +5,7 @@ bookSlug: "sojourn-salvatore"
 title: "Sojourn"
 author: "R. A. Salvatore"
 series: "The Legend of Drizzt"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 320
 goodreads: "https://www.goodreads.com/book/show/66695.Sojourn?ref=nav_sb_ss_1_7"
 isbn: "9781560760474"

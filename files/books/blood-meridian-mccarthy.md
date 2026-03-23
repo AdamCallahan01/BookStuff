@@ -5,7 +5,7 @@ bookSlug: "blood-meridian-mccarthy"
 title: "Blood Meridian"
 author: "Cormac McCarthy"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 351
 yearPublished: 1985
 publisher: "Vintage"

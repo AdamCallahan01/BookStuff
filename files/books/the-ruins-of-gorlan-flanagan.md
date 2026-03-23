@@ -5,7 +5,7 @@ bookSlug: "the-ruins-of-gorlan-flanagan"
 title: "The Ruins of Gorlan"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 249
 goodreads: "https://www.goodreads.com/book/show/60400.The_Ruins_of_Gorlan"
 isbn: "9780142406632"

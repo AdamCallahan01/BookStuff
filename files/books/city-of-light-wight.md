@@ -5,7 +5,7 @@ bookSlug: "city-of-light-wight"
 title: "City of Light"
 author: "Will Wight"
 series: "Traveler's Gate"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 394
 goodreads: "https://www.goodreads.com/book/show/22881816-city-of-light"
 isbn: "9780989671712"

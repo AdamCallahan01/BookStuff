@@ -5,7 +5,7 @@ bookSlug: "the-hidden-kingdom-sutherland"
 title: "The Hidden Kingdom"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 336
 yearPublished: 2013
 publisher: "Scholastic"

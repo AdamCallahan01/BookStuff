@@ -5,7 +5,7 @@ bookSlug: "the-siege-of-macindaw-flanagan"
 title: "The Siege of Macindaw"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 320
 goodreads: "https://www.goodreads.com/book/show/57061322-the-siege-of-macindaw"
 isbn: "9780142415245"

@@ -5,7 +5,7 @@ bookSlug: "a-court-of-mist-and-fury-maas"
 title: "A Court of Mist and Fury"
 author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 626
 goodreads: "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury"
 isbn: "9781635575583"

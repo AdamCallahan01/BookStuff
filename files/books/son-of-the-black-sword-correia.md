@@ -5,7 +5,7 @@ bookSlug: "son-of-the-black-sword-correia"
 title: "Son of the Black Sword"
 author: "Larry Correia"
 series: "Saga of the Forgotten Warrior"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 432
 goodreads: "https://www.goodreads.com/book/show/27276240-son-of-the-black-sword"
 isbn: "9781476781570"

@@ -5,7 +5,7 @@ bookSlug: "the-tunnels-beneath-wisehart"
 title: "The Tunnels Beneath"
 author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 826
 goodreads: "https://www.goodreads.com/book/show/67991308-the-tunnels-beneath"
 isbn: "9798986107424"

@@ -5,7 +5,7 @@ bookSlug: "build-a-better-life-by-stealing-office-supplies-adams"
 title: "Build a Better Life by Stealing Office Supplies"
 author: "Scott Adams"
 series: "Dilbert"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 112
 goodreads: "https://www.goodreads.com/book/show/456567.Build_a_Better_Life_by_Stealing_Office_Supplies?ref=nav_sb_ss_1_26"
 isbn: "9780836217575"

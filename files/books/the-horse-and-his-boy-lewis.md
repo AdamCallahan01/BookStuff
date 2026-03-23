@@ -5,7 +5,7 @@ bookSlug: "the-horse-and-his-boy-lewis"
 title: "The Horse and His Boy"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 224
 goodreads: "https://www.goodreads.com/book/show/587315.The_Horse_and_His_Boy"
 isbn: "9780064471060"

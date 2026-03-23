@@ -5,7 +5,7 @@ bookSlug: "wind-and-truth-sanderson"
 title: "Wind and Truth"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 1344
 yearPublished: 2024
 publisher: "Tor"

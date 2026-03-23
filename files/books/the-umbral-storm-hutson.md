@@ -5,7 +5,7 @@ bookSlug: "the-umbral-storm-hutson"
 title: "The Umbral Storm"
 author: "Alec Hutson"
 series: "The Sharded Few"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 656
 yearPublished: 2022
 publisher: "Self"

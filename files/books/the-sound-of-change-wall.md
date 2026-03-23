@@ -5,7 +5,7 @@ bookSlug: "the-sound-of-change-wall"
 title: "The Sound of Change"
 author: "Steve D. Wall"
 series: "The Bards and Dragons Saga"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 674
 yearPublished: 2025
 publisher: "Self"

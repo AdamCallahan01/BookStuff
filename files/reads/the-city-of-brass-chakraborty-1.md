@@ -3,7 +3,7 @@ bookSlug: "the-city-of-brass-chakraborty"
 readSlug: "the-city-of-brass-chakraborty-1"
 book: "[[the-city-of-brass-chakraborty]]"
 readNumber: 1
-score: 4
+score: 3.5
 format: "Book"
 dateStarted: "1/28/2026"
 dateFinished: "2/5/2026"

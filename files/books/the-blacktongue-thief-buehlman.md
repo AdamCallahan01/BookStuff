@@ -5,7 +5,7 @@ bookSlug: "the-blacktongue-thief-buehlman"
 title: "The Blacktongue Thief"
 author: "Christopher Buehlman"
 series: "Blacktongue"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 416
 goodreads: "https://www.goodreads.com/book/show/55077697-the-blacktongue-thief?ref=nav_sb_ss_1_11"
 isbn: "9781250621191"

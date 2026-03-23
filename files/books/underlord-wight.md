@@ -5,7 +5,7 @@ bookSlug: "underlord-wight"
 title: "Underlord"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 400
 yearPublished: 2019
 publisher: "Hidden Gnome"

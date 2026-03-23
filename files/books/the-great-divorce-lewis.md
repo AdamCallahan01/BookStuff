@@ -5,7 +5,7 @@ bookSlug: "the-great-divorce-lewis"
 title: "The Great Divorce"
 author: "C. S. Lewis"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 146
 goodreads: "https://www.goodreads.com/book/show/1387600.The_Great_Divorce"
 isbn: "9780020868903"

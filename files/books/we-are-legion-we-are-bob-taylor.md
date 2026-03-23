@@ -5,7 +5,7 @@ bookSlug: "we-are-legion-we-are-bob-taylor"
 title: "We Are Legion (We Are Bob)"
 author: "Dennis E. Taylor"
 series: "Bobiverse"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 383
 yearPublished: 2016
 publisher: "Worldbuilders"

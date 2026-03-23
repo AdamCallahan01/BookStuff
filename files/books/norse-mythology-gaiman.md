@@ -5,7 +5,7 @@ bookSlug: "norse-mythology-gaiman"
 title: "Norse Mythology"
 author: "Neil Gaiman"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 301
 yearPublished: 2017
 publisher: "W. W. Norton"

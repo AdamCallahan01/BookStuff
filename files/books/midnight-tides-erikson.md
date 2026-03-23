@@ -5,7 +5,7 @@ bookSlug: "midnight-tides-erikson"
 title: "Midnight Tides"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 960
 yearPublished: 2004
 publisher: "Bantam"

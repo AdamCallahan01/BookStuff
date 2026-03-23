@@ -5,7 +5,7 @@ bookSlug: "a-midsummer-night-s-dream-shakespeare"
 title: "A Midsummer Night's Dream"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 240
 yearPublished: 1595
 goodreads: "https://www.goodreads.com/book/show/1622.A_Midsummer_Night_s_Dream?ref=nav_sb_ss_1_9"

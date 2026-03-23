@@ -5,7 +5,7 @@ bookSlug: "return-of-the-runebound-professor-actus"
 title: "Return of the Runebound Professor"
 author: "Actus"
 series: "The Return of the Runebound Professor"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 752
 yearPublished: 2024
 publisher: "Aethon Books"

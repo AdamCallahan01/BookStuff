@@ -5,7 +5,7 @@ bookSlug: "a-wizard-of-earthsea-guin"
 title: "A Wizard of Earthsea"
 author: "Ursula K. Le Guin"
 series: "Earthsea Cycle"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 183
 goodreads: "https://www.goodreads.com/book/show/16029682-a-wizard-of-earthsea"
 isbn: "9780544084377"

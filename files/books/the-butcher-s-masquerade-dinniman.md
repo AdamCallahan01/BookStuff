@@ -5,7 +5,7 @@ bookSlug: "the-butcher-s-masquerade-dinniman"
 title: "The Butcher's Masquerade"
 author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 732
 yearPublished: 2022
 publisher: "Dandy House"

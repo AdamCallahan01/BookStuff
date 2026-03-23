@@ -5,7 +5,7 @@ bookSlug: "gregor-and-the-prophecy-of-bane-collins"
 title: "Gregor and The Prophecy of Bane"
 author: "Suzanne Collins"
 series: "Underland Chronicles"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 312
 yearPublished: 2004
 publisher: "Scholastic"

@@ -5,7 +5,7 @@ bookSlug: "armada-cline"
 title: "Armada"
 author: "Ernest Cline"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 355
 goodreads: "https://www.goodreads.com/book/show/16278318-armada?ref=nav_sb_ss_1_6"
 isbn: "9780804137256"

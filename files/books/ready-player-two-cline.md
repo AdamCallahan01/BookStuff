@@ -5,7 +5,7 @@ bookSlug: "ready-player-two-cline"
 title: "Ready Player Two"
 author: "Ernest Cline"
 series: "Ready Player One"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 370
 goodreads: "https://www.goodreads.com/book/show/26082916-ready-player-two?ref=nav_sb_ss_1_16"
 isbn: "9781524761332"

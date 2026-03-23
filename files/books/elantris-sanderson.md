@@ -5,7 +5,7 @@ bookSlug: "elantris-sanderson"
 title: "Elantris"
 author: "Brandon Sanderson"
 series: "Elantris"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 638
 goodreads: "https://www.goodreads.com/book/show/68427.Elantris?ref=nav_sb_ss_1_8"
 isbn: "9780765350374"

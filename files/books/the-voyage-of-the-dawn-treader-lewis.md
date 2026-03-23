@@ -5,7 +5,7 @@ bookSlug: "the-voyage-of-the-dawn-treader-lewis"
 title: "The Voyage of the Dawn Treader"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 248
 goodreads: "https://www.goodreads.com/book/show/444329.The_Voyage_of_the_Dawn_Treader"
 isbn: "9780064471077"

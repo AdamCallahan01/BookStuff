@@ -5,7 +5,7 @@ bookSlug: "the-battlemage-matharu"
 title: "The Battlemage"
 author: "Taran Matharu"
 series: "Summoner"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 385
 goodreads: "https://www.goodreads.com/book/show/30335482-the-battlemage"
 isbn: "9781444924275"

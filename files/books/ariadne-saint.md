@@ -5,7 +5,7 @@ bookSlug: "ariadne-saint"
 title: "Ariadne"
 author: "Jennifer Saint"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 308
 yearPublished: 2021
 publisher: "Flatiron"

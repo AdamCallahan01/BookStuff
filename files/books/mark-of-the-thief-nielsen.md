@@ -5,7 +5,7 @@ bookSlug: "mark-of-the-thief-nielsen"
 title: "Mark of the Thief"
 author: "Jennifer A. Nielsen"
 series: "Mark of the Thief"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 352
 yearPublished: 2015
 publisher: "Scholastic"

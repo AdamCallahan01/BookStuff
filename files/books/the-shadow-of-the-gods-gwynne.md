@@ -5,7 +5,7 @@ bookSlug: "the-shadow-of-the-gods-gwynne"
 title: "The Shadow of the Gods"
 author: "John Gwynne"
 series: "Bloodsworn Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 480
 goodreads: "https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods?ref=nav_sb_ss_1_18"
 isbn: "9780356514185"

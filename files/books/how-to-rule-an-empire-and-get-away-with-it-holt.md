@@ -5,7 +5,7 @@ bookSlug: "how-to-rule-an-empire-and-get-away-with-it-holt"
 title: "How to Rule an Empire and Get Away With It"
 author: "K. J. Parker (Tom Holt)"
 series: "The Siege"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 354
 yearPublished: 2020
 publisher: "Orbit"

@@ -5,7 +5,7 @@ bookSlug: "best-served-cold-abercrombie"
 title: "Best Served Cold"
 author: "Joe Abercrombie"
 series: "First Law World"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 534
 yearPublished: 2009
 publisher: "Gollancz"

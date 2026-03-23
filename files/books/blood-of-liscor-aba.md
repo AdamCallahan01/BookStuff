@@ -5,7 +5,7 @@ bookSlug: "blood-of-liscor-aba"
 title: "Blood of Liscor"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 1684
 yearPublished: 2022
 publisher: "Self"

@@ -5,7 +5,7 @@ bookSlug: "four-the-loot-ugland"
 title: "Four: the Loot"
 author: "Eric Ugland"
 series: "The Good Guys"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 276
 goodreads: "https://www.goodreads.com/book/show/64565598-four"
 isbn: "9781945346118"

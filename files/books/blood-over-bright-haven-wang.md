@@ -5,7 +5,7 @@ bookSlug: "blood-over-bright-haven-wang"
 title: "Blood Over Bright Haven"
 author: "M. L. Wang"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 448
 yearPublished: 2023
 publisher: "Del Rey"

@@ -5,7 +5,7 @@ bookSlug: "dungeon-crawler-carl-dinniman"
 title: "Dungeon Crawler Carl"
 author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 446
 goodreads: "https://www.goodreads.com/book/show/57964597-dungeon-crawler-carl"
 isbn: "9798707228315"

@@ -5,7 +5,7 @@ bookSlug: "furies-of-calderon-butcher"
 title: "Furies of Calderon"
 author: "Jim Butcher"
 series: "Codex Alera"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 688
 goodreads: "https://www.goodreads.com/book/show/29396.Furies_of_Calderon?ref=nav_sb_ss_1_18"
 isbn: "9780441012688"

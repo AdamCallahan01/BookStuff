@@ -5,7 +5,7 @@ bookSlug: "the-hero-of-ages-sanderson"
 title: "The Hero of Ages"
 author: "Brandon Sanderson"
 series: "Mistborn"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 556
 goodreads: "https://www.goodreads.com/book/show/3362870-the-hero-of-ages"
 isbn: "9780765356147"

@@ -5,7 +5,7 @@ bookSlug: "the-final-empire-sanderson"
 title: "The Final Empire"
 author: "Brandon Sanderson"
 series: "Mistborn"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 541
 goodreads: "https://www.goodreads.com/book/show/68428.Mistborn?ref=nav_sb_ss_1_12"
 isbn: "9780765311788"

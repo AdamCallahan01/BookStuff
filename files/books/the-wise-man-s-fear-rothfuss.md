@@ -5,7 +5,7 @@ bookSlug: "the-wise-man-s-fear-rothfuss"
 title: "The Wise Man's Fear"
 author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 994
 goodreads: "https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear?ref=nav_sb_ss_1_9"
 isbn: "9780756404734"

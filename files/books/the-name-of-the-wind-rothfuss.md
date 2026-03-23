@@ -5,7 +5,7 @@ bookSlug: "the-name-of-the-wind-rothfuss"
 title: "The Name of the Wind"
 author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 662
 goodreads: "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind?ref=nav_sb_ss_1_10"
 isbn: "9780756404079"

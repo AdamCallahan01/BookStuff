@@ -5,7 +5,7 @@ bookSlug: "mark-of-the-fool-2-clarke"
 title: "Mark of the Fool 2"
 author: "J.M. Clarke"
 series: "Mark of the Fool"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 795
 yearPublished: 2023
 publisher: "Aethon Books"

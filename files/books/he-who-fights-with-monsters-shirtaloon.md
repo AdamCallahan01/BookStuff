@@ -5,7 +5,7 @@ bookSlug: "he-who-fights-with-monsters-shirtaloon"
 title: "He Who Fights with Monsters"
 author: "Shirtaloon"
 series: "He Who Fights with Monsters"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 680
 goodreads: "https://www.goodreads.com/book/show/57599993-he-who-fights-with-monsters"
 isbn: "9798712811786"

@@ -5,7 +5,7 @@ bookSlug: "rogue-ascension-mythos"
 title: "Rogue Ascension"
 author: "Hunter Mythos"
 series: "Rogue Ascension"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 485
 yearPublished: 2023
 publisher: "Self"

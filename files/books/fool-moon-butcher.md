@@ -5,7 +5,7 @@ bookSlug: "fool-moon-butcher"
 title: "Fool Moon"
 author: "Jim Butcher"
 series: "The Dresden Files"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 401
 goodreads: "https://www.goodreads.com/book/show/91477.Fool_Moon?ref=nav_sb_ss_1_9"
 isbn: "9780451458124"

@@ -5,7 +5,7 @@ bookSlug: "through-the-belly-of-the-beast-thorne"
 title: "Through the Belly of the Beast"
 author: "Apollos Thorne"
 series: "Underworld"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 356
 goodreads: "https://www.goodreads.com/book/show/50410228-through-the-belly-of-the-beast"
 isbn: "9781733664431"

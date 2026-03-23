@@ -5,7 +5,7 @@ bookSlug: "arcane-bronny"
 title: "Arcane"
 author: "Sever Bronny"
 series: "The Arinthian Line"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 362
 goodreads: "https://www.goodreads.com/book/show/23617581-arcane"
 isbn: "9780993767609"

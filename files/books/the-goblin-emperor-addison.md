@@ -5,7 +5,7 @@ bookSlug: "the-goblin-emperor-addison"
 title: "The Goblin Emperor"
 author: "Katherine Addison"
 series: "The Chronicles of Osreth"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 446
 yearPublished: 2014
 publisher: "Tor"

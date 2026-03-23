@@ -5,7 +5,7 @@ bookSlug: "the-hope-of-elantris-sanderson"
 title: "The Hope of Elantris"
 author: "Brandon Sanderson"
 series: "Elantris"
-seriesNumber: "1.5"
+seriesNumber: 1.5
 pages: 25
 goodreads: "https://www.goodreads.com/book/show/41970314-the-hope-of-elantris"
 bookOwned: false

@@ -5,7 +5,7 @@ bookSlug: "daggerspell-kerr"
 title: "Daggerspell"
 author: "Katherine Kerr"
 series: "Deverry Cycle"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 454
 yearPublished: 1986
 publisher: "Spectra"

@@ -5,7 +5,7 @@ bookSlug: "of-blood-and-fire-cahill"
 title: "Of Blood and Fire"
 author: "Ryan Cahill"
 series: "The Bound and the Broken"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 541
 yearPublished: 2021
 publisher: "Self"

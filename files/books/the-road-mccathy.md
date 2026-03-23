@@ -5,7 +5,7 @@ bookSlug: "the-road-mccathy"
 title: "The Road"
 author: "Cormac McCathy"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 241
 yearPublished: 2006
 publisher: "Alfred A. Knopf"

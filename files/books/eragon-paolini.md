@@ -5,7 +5,7 @@ bookSlug: "eragon-paolini"
 title: "Eragon"
 author: "Christopher Paolini"
 series: "The Inheritance Cycle"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 503
 goodreads: "https://www.goodreads.com/book/show/113436.Eragon?ref=nav_sb_ss_1_6"
 isbn: "9780375826696"

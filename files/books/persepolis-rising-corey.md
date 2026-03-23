@@ -5,7 +5,7 @@ bookSlug: "persepolis-rising-corey"
 title: "Persepolis Rising"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 608
 yearPublished: 2017
 publisher: "Orbit Books"

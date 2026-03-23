@@ -5,7 +5,7 @@ bookSlug: "the-fork-the-witch-and-the-worm-paolini"
 title: "The Fork, the Witch, and the Worm"
 author: "Christopher Paolini"
 series: "The Inheritance Cycle"
-seriesNumber: "4.5"
+seriesNumber: 4.5
 pages: 288
 goodreads: "https://www.goodreads.com/book/show/26152839-the-fork-the-witch-and-the-worm"
 isbn: "9781984894885"

@@ -5,7 +5,7 @@ bookSlug: "between-two-fires-buehlman"
 title: "Between Two Fires"
 author: "Christopher Buehlman"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 432
 yearPublished: 2012
 publisher: "Ace"

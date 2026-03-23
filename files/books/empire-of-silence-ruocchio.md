@@ -5,7 +5,7 @@ bookSlug: "empire-of-silence-ruocchio"
 title: "Empire of Silence"
 author: "Christopher Ruocchio"
 series: "The Sun Eater"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 753
 yearPublished: 2018
 publisher: "DAW"

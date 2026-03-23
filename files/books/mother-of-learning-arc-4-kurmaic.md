@@ -5,7 +5,7 @@ bookSlug: "mother-of-learning-arc-4-kurmaic"
 title: "Mother of Learning: ARC 4"
 author: "Domagoj Kurmaić"
 series: "Mother of Learning"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 601
 yearPublished: 2023
 publisher: "Wraithmarked"

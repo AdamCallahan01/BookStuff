@@ -5,7 +5,7 @@ bookSlug: "the-burning-bridge-flanagan"
 title: "The Burning Bridge"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 262
 goodreads: "https://www.goodreads.com/book/show/144349.The_Burning_Bridge"
 isbn: "9780399244551"

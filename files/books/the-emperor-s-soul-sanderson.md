@@ -5,7 +5,7 @@ bookSlug: "the-emperor-s-soul-sanderson"
 title: "The Emperor's Soul"
 author: "Brandon Sanderson"
 series: "Elantris"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 192
 goodreads: "https://www.goodreads.com/book/show/13578175-the-emperor-s-soul"
 isbn: "9781616960926"

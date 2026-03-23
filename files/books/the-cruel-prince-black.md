@@ -5,7 +5,7 @@ bookSlug: "the-cruel-prince-black"
 title: "The Cruel Prince"
 author: "Holly Black"
 series: "The Folk of the Air"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 370
 goodreads: "https://www.goodreads.com/book/show/26032825-the-cruel-prince?ref=nav_sb_ss_1_12"
 isbn: "9780316310277"

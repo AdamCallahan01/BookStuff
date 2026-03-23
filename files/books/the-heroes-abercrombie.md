@@ -5,7 +5,7 @@ bookSlug: "the-heroes-abercrombie"
 title: "The Heroes"
 author: "Joe Abercrombie"
 series: "First Law World"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 581
 yearPublished: 2011
 publisher: "Orbit"

@@ -5,7 +5,7 @@ bookSlug: "erak-s-ransom-flanagan"
 title: "Erak's Ransom"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 441
 goodreads: "https://www.goodreads.com/book/show/49124094-erak-s-ransom"
 isbn: "9780142415252"

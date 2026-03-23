@@ -5,7 +5,7 @@ bookSlug: "blackflame-wight"
 title: "Blackflame"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 370
 goodreads: "https://www.goodreads.com/book/show/36274089-blackflame"
 isbn: "9780989671781"

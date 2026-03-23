@@ -5,7 +5,7 @@ bookSlug: "toll-the-hounds-erikson"
 title: "Toll the Hounds"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 1295
 yearPublished: 2008
 publisher: "Tor"

@@ -5,7 +5,7 @@ bookSlug: "ritualist-krout"
 title: "Ritualist"
 author: "Dakota Krout"
 series: "The Completionist Chronicles"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 392
 yearPublished: 2018
 publisher: "Mountindale"

@@ -5,7 +5,7 @@ bookSlug: "nomad-mather"
 title: "Nomad"
 author: "Mather Mather"
 series: "Nomad"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 342
 goodreads: "https://www.goodreads.com/book/show/26091512-nomad"
 isbn: "9781987942040"

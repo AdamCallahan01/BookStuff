@@ -1,10 +1,4 @@
 // 1. Get grid of cards and make book index
-// 2. establish filter state
-// 3. get all control elements by id
-// 4. check url and set filters and control elements accordingly
-// 5. render correct book list
-
-// 1
 const cards = Array.from(document.querySelectorAll(".book-card"));
 
 const bookDataIndex = cards.map(el => ({
@@ -12,77 +6,131 @@ const bookDataIndex = cards.map(el => ({
   ...el.dataset
 }));
 
-////////////////////////////////////////////////////////////////
+//I need to fix how I store data in my markdowns but this for now
+const getNumber = (v) => {
+  const n = parseFloat(v);
+  return isNaN(n) ? null : n;
+};
 
-// 3
-const combineToggle = document.getElementById("combineToggle");
-const searchTextInput = document.getElementById("booksSearchInput");
-const authorFilter = document.getElementById("authorFilter");
-const seriesFilter = document.getElementById("seriesFilter");
-const otherFilter = document.getElementById("otherFilter");
-const sortField = document.getElementById("sortField");
-const sortDirection = document.getElementById("sortDirection");
-//Score slider
-const slider = document.getElementById("scoreSlider");
-const scoreLabel = document.getElementById("scoreLabel");
+const getString = (v) => (v ?? "").toString();
 
-const resetButton = document.getElementById("filterResetButton");
+const sortStrategies = {
+  title: (a, b) =>
+    getString(a.title).localeCompare(getString(b.title)),
+
+  averagescore: (a, b) =>
+    getNumber(a.averagescore) - getNumber(b.averagescore),
+
+  latestscore: (a, b) =>
+    getNumber(a.score) - getNumber(b.score),
+
+  series: (a, b) => {
+    // PRIMARY: series name
+    const seriesCompare =
+      getString(a.series).localeCompare(getString(b.series));
+
+    if (seriesCompare !== 0) return seriesCompare;
+
+    // SECONDARY: series number
+    const nA = getNumber(a.seriesNumber);
+    const nB = getNumber(b.seriesNumber);
+
+    if (nA != null && nB != null) {
+      console.log(nA + "         " + nB + "    NOT Missing numbers");
+      return nA - nB;
+    }
+
+    console.log("Missing numbers");
+
+    // fallback if missing numbers
+    return getString(a.title).localeCompare(getString(b.title));
+  }
+};
 
 ///////////////////////////////////////////////////////////////////////////
 
+// 2. Establish filter config, this will create default state and save current filtering state
 const filterConfig = {
   view: {
-    element: combineToggle,
+    element: "combineToggle",
     state: "view",
-    default: "books"
+    default: "books",
+    filter: (item, value) => {
+      if (value === "books") return item.type === "book";
+      if (value === "reads") return item.type === "read";
+      if (value === "series") return item.type === "series";
+      if (value === "authors") return item.type === "author";
+      return true;
+    }
   },
 
   search: {
-    element: searchTextInput,
+    element: "booksSearchInput",
     state: "search",
-    default: ""
+    default: "",
+    filter: (item, value) => {
+      if (!value) return true;
+      const text = `${item.title} ${item.author} ${item.series}`.toLowerCase();
+      return text.includes(value.toLowerCase());
+    }
   },
 
   author: {
-    element: authorFilter,
+    element: "authorFilter",
     state: "author",
-    default: ""
+    default: "",
+    dataKey: "author",
+    filter: (item, value) => !value || item.author === value
   },
 
   series: {
-    element: seriesFilter,
+    element: "seriesFilter",
     state: "series",
-    default: ""
+    default: "",
+    dataKey: "series",
+    filter: (item, value) => !value || ( item.series === value || item.otherseries === value )
   },
 
-  other: {
-    element: otherFilter,
-    state: "other",
-    default: ""
-  },
-
-  sort: {
-    element: sortField,
-    state: "sortField",
-    default: "title"
-  },
-
-  dir: {
-    element: sortDirection,
-    state: "sortDir",
-    default: "asc"
+  yearRead: {
+    element: "yearReadFilter",
+    state: "yearRead",
+    default: "",
+    dataKey: "yearread",
+    filter: (item, value) => !value || item.yearread === value
   },
 
   minScore: {
     state: "minScore",
     type: "number",
-    default: 0
+    default: 0,
+    filter: (item, value) => {
+      if (!value) return true;
+      const score = parseFloat(item.score || item.averagescore || 0);
+      return score >= value;
+    }
   },
 
   maxScore: {
     state: "maxScore",
     type: "number",
-    default: 10
+    default: 10,
+    filter: (item, value) => {
+      if (!value) return true;
+      const score = parseFloat(item.score || item.averagescore || 0);
+      return score <= value;
+    }
+  },
+
+  sort: {
+    element: "sortField",
+    state: "sortField",
+    default: "title"
+  },
+
+  dir: {
+    element: "sortDirection",
+    state: "sortDir",
+    default: "asc"
   }
 };
 
@@ -91,6 +139,7 @@ const state = Object.fromEntries(
   Object.values(filterConfig).map(cfg => [cfg.state, cfg.default])
 );
 
+// Defaults:
 //   view: "books",
 //   search: "",
 //   author: "",
@@ -108,38 +157,28 @@ const state = Object.fromEntries(
 
 /////////////////////////////////////////////////////////////////////////////
 
-// Author filter
-const authors = [...new Set(bookDataIndex.map(i => i.author))].sort();
+//Populate dropdowns
+const populateSelect = (data, key, selectEl) => {
+  [...new Set(data.map(item => item[key]).filter(Boolean))]
+    .sort()
+    .forEach(value => {
+      const opt = document.createElement("option");
+      opt.value = value;
+      opt.textContent = value;
+      selectEl.appendChild(opt);
+    });
+};
 
-authors.forEach(author=>{
-  const opt = document.createElement("option");
-  opt.value = author;
-  opt.textContent = author;
-  authorFilter.appendChild(opt);
-});
+Object.values(filterConfig)
+  .filter(cfg => cfg.dataKey)
+  .forEach(cfg => {
+    const el = document.getElementById(cfg.element);
+    populateSelect(bookDataIndex, cfg.dataKey, el);
+  });
 
-// Series Filter
-const series = [...new Set(bookDataIndex.map(i => i.series))].sort();
-
-series.forEach(series=>{
-  const opt = document.createElement("option");
-  opt.value = series;
-  opt.textContent = series;
-  seriesFilter.appendChild(opt);
-});
-
-// Other Filter
-const other = [...new Set(bookDataIndex.map(i => i.otherseries))].sort();
-console.log(other);
-
-other.forEach(other=>{
-  const opt = document.createElement("option");
-  opt.value = other;
-  opt.textContent = other;
-  otherFilter.appendChild(opt);
-});
-
-// Score Slider
+//Score slider
+const slider = document.getElementById("scoreSlider");
+const scoreLabel = document.getElementById("scoreLabel");
 noUiSlider.create(slider, {
   start: [0, 10],
   connect: true,
@@ -149,19 +188,6 @@ noUiSlider.create(slider, {
     max: 10
   }
 });
-
-// 4
-//check if we have saved filters
-setFiltersFromURL();
-
-combineToggle.addEventListener("change", updateState);
-authorFilter.addEventListener("change", updateState);
-seriesFilter.addEventListener("change", updateState);
-otherFilter.addEventListener("change", updateState);
-sortField.addEventListener("change", updateState);
-sortDirection.addEventListener("change", updateState);
-
-resetButton.addEventListener("click", resetFilters);
 
 // Score slider listener
 slider.noUiSlider.on("update", function(values) {
@@ -177,141 +203,133 @@ slider.noUiSlider.on("update", function(values) {
 
   state.minScore = min;
   state.maxScore = max;
-  updateState();
+  setState();
 });
 
 ////////////////////////////////////////////////////////
 
 // Set all filters and control to their defaults
 function resetFilters() {
-  // console.log("reset filter");
-
+  //console.log("reset filter");
   // Reset state to defaults
   Object.keys(filterConfig).forEach(key => {
     const { state: stateKey, default: defaultValue } = filterConfig[key];
     state[stateKey] = defaultValue;
   });
 
-  // reset state
-  // state.view = "books",
-  // state.search = "",
-  // state.author = "",
-  // state.minScore = 0,
-  // state.maxScore = 10,
-  // state.sortField = "title",
-  // state.sortDir = "asc";
-
-  // reset visual controls
-  combineToggle.checked = true;
-  searchTextInput.value = "";
-  authorFilter.selectedIndex = 0;
-  seriesFilter.selectedIndex = 0;
-  sortField.selectedIndex = 0;
-  sortDirection.selectedIndex = 0;
-  slider.noUiSlider.set([0, 10]);
+  setControlsFromState();
 
   render();
 }
 
-//Check every field and set state accordingly
-function updateState() {
-  // console.log("updateState");
-
-  const newView = combineToggle.checked ? "books" : "reads";
-
-  const newSearch = searchTextInput.value.toLowerCase();
-
-  const newAuthor = (authorFilter.value || "").toLowerCase();
-
-  const newSeries = (seriesFilter.value || "").toLowerCase();
-
-  const newOther = (otherFilter.value || "").toLowerCase();
-
-  const newField = (sortField.value || "").toLowerCase();
-
-  const newSortDir = (sortDirection.value || "") === "asc" ? "asc" : "desc";
-
-  state.view = newView;
-  state.search = newSearch;
-  state.author = newAuthor;
-  state.series = newSeries;
-  state.other = newOther;
-// min max score updated in own method
-  state.sortField = newField;
-  state.sortDir = newSortDir;
-
+//set state based on UI changes
+function setState(updates) {
+  if( !empowerControls ) return;
+  //console.log("Set State reached");
+  Object.assign(state, updates);
+  setControlsFromState();
   render();
-}
+};
 
-// Exclude any items not matching current state
-function filterItems() {
-  //console.log("filterItems");
+// State should always be correct so match controls to current state
+function setControlsFromState() {
+  //console.log("set Controls From State");
+  Object.values(filterConfig).forEach(cfg => {
+    const el = document.getElementById(cfg.element);
+    if (!el) return;
 
-  return bookDataIndex.filter(item => {
+    if (el.type === "checkbox") {
+      el.checked = state[cfg.state] === "books"; 
+    } else if (el.type === "input") {
 
-    // Combined books vs reads
-    if (state.view === "books" && item.type !== "book") return false;
-    if (state.view === "reads" && item.type !== "read") return false;
-
-    //Search, can be expanded to include more
-    if (state.search) {
-      const text = item.title + " " + item.author + item.series;
-      if (!text.includes(state.search)) return false;
+    } else {
+      el.value = state[cfg.state];
     }
-
-    // Author filter
-    if (state.author && item.author !== state.author) return false;
-
-    // Series Filter
-    if (state.series && item.series !== state.series) return false;
-
-    // Other Filter
-    if (state.other && item.otherseries !== state.other) return false;
-
-    // Score range
-    if (state.minScore) {
-      const score = parseFloat(item.score || item.averagescore || 0);
-      if (score < state.minScore) return false;
-    }
-    if (state.maxScore) {
-      const score = parseFloat(item.score || item.averagescore || 0);
-      if (score > state.maxScore) return false;
-    }
-
-    return true;
   });
+};
 
-}
+// Connect our UI elements so they can change the state when user inputs
+function bindUI() {
+  //console.log("Bind UI reached");
+  empowerControls = true;
 
-// sort items by field and direction
+  Object.values(filterConfig).forEach(cfg => {
+    if (!cfg.element) return;
+
+    const el = document.getElementById(cfg.element);
+
+    const eventType =
+      el.type === "text" ? "input" :
+      el.type === "checkbox" ? "change" :
+      "change";
+
+    el.addEventListener(eventType, () => {
+      let value;
+
+      if (el.type === "checkbox") {
+        value = el.checked ? "books" : "entries";
+      } else if (cfg.type === "number") {
+        value = Number(el.value);
+      } else {
+        value = el.value;
+      }
+
+      setState({ [cfg.state]: value });
+    });
+  });
+  render();
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// 4. check if we have saved filters and initialize
+var empowerControls = false;
+setFiltersFromURL();
+bindUI();
+
+/////////////////////////////////////////////////////////////
+// Filter and Sort Logic
+
+// Exclude any items not matching current state, called by render()
+function filterItems() {
+  return bookDataIndex.filter(item =>
+    Object.values(filterConfig).every(cfg =>
+      !cfg.filter || cfg.filter(item, state[cfg.state])
+    )
+  );
+};
+
+// sort items by field and direction, called by render()
 function sortItems(items) {
-  //console.log("sortItems");
-
   const field = state.sortField;
-  const dir = state.sortDir === "asc" ? 1: -1;
+  const dir = state.sortDir === "asc" ? 1 : -1;
 
-  return items.sort((a,b) => {
+  const comparator = sortStrategies[field];
 
-    let A = a[field] || "";
-    let B = b[field] || "";
-
-    const nA = parseFloat(A);
-    const nB = parseFloat(B);
-
+  return items.sort((a, b) => {
     let result;
 
-    if (!isNaN(nA) && !isNaN(nB)) {
-      result = nA - nB;
+    if (comparator) {
+      result = comparator(a, b);
     } else {
-      result = A.localeCompare(B);
+      // fallback generic behavior
+      const A = getString(a[field]);
+      const B = getString(b[field]);
+
+      const nA = getNumber(A);
+      const nB = getNumber(B);
+
+      result =
+        nA != null && nB != null
+          ? nA - nB
+          : A.localeCompare(B);
     }
 
     if (result !== 0) return result * dir;
 
-    return a.title.localeCompare(b.title);
+    // global tiebreaker
+    return getString(a.title).localeCompare(getString(b.title));
   });
-
-}
+};
 
 // Calls filter and sort, then displays book cards
 function render() {
@@ -334,6 +352,9 @@ function render() {
 
   updateURL();
 }
+
+//////////////////////////////////////////////////////////////////////////////
+// Display Labels
 
 //Labels to show various stats
 function updateLabels(filtered) {
@@ -384,6 +405,9 @@ function updateTitle() {
 
   document.getElementById("pageTitle").textContent = title;
 }
+
+////////////////////////////////////////////////////////////////////////////////////
+//URL logic
 
 // updates url with any filter and search fields
 function updateURL() {
@@ -443,5 +467,6 @@ function setFiltersFromURL()
   const maxScore = state.maxScore ?? 10;
   slider.noUiSlider.set([minScore, maxScore]);
 
-  render();
+  //render();
+  setState(state);
 }

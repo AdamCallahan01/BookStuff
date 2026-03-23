@@ -5,7 +5,7 @@ bookSlug: "the-opal-deception-colfer"
 title: "The Opal Deception"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 528
 yearPublished: 2005
 publisher: "Miramax"

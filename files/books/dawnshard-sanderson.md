@@ -5,7 +5,7 @@ bookSlug: "dawnshard-sanderson"
 title: "Dawnshard"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
-seriesNumber: "3.5"
+seriesNumber: 3.5
 pages: 171
 goodreads: "https://www.goodreads.com/book/show/58740026-dawnshard"
 isbn: "9781250850553"

@@ -5,7 +5,7 @@ bookSlug: "the-sword-of-kaigen-wang"
 title: "The Sword of Kaigen"
 author: "M. L. Wang"
 series: "Theonite"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 651
 goodreads: "https://www.goodreads.com/book/show/44033470-the-sword-of-kaigen"
 isbn: "9781720193869"

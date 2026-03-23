@@ -5,7 +5,7 @@ bookSlug: "the-lies-of-locke-lamora-lynch"
 title: "The Lies of Locke Lamora"
 author: "Scott Lynch"
 series: "Gentleman Bastard"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 752
 goodreads: "https://www.goodreads.com/book/show/127455.The_Lies_of_Locke_Lamora"
 isbn: "9780553804676"

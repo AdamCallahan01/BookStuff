@@ -5,7 +5,7 @@ bookSlug: "the-last-battle-lewis"
 title: "The Last Battle"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 288
 goodreads: "https://www.goodreads.com/book/show/587318.The_Last_Battle"
 isbn: "9780064471084"

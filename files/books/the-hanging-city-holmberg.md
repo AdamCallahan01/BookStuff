@@ -5,7 +5,7 @@ bookSlug: "the-hanging-city-holmberg"
 title: "The Hanging City"
 author: "Charlie N. Holmberg"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 344
 yearPublished: 2023
 publisher: "47North"

@@ -5,7 +5,7 @@ bookSlug: "the-crippled-god-erikson"
 title: "The Crippled God"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "10"
+seriesNumber: 10
 pages: 1198
 yearPublished: 2011
 publisher: "Bantam Press"

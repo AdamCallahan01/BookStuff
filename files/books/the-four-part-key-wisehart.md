@@ -5,7 +5,7 @@ bookSlug: "the-four-part-key-wisehart"
 title: "The Four-Part Key"
 author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 1136
 goodreads: "https://www.goodreads.com/book/show/59659815-the-four-part-key"
 isbn: "9780998150574"

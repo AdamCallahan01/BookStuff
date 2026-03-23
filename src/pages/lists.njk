@@ -107,16 +107,58 @@ permalink: /lists/
 
 {% set topSeries = [
 "Malazan Book of the Fallen",
-"Realm of the Elderlings",
-"First Law (includes age of madness)",
+"The Realm of the Elderlings",
+"First Law",
 "Gentleman Bastard",
-"Kingkiller Chronicles (all 2 of them)",
+"The Kingkiller Chronicle",
 "Sun Eater",
 "The Wandering Inn",
 "Cosmere",
 "The Queen's Thief",
-"Cradle"
+"Cradle",
+"The Five Warrior Angels",
+"Hierarchy",
+"Mother of Learning",
+"The Bound and the Broken",
+"The Aldoran Chronicles",
+"The Chronicles of Narnia",
+"The Siege",
+"Earthsea Cycle",
+"Mark of the Fool",
+"The Expanse",
+"Ranger's Apprentice",
+"The Inheritance Cycle",
+"Dungeon Crawler Carl",
+"Harry Potter",
+"Shattered Sea",
+"The Legend of Drizzt",
+"The Maze Runner"
 ] %}
+
+{% set topStandalones  = [
+"Babel",
+"The Hobbit",
+"The Silence of the Lambs",
+"Blood Over Bright Haven",
+"Ender's Game",
+"Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+"Project Hail Mary",
+"Howl's Moving Castle",
+"1984",
+"Between Two Fires"
+] %}
+
+{% set harryPotterOrder  = [
+"Harry Potter and the Half-Blood Prince",
+"Harry Potter and the Deathly Hallows",
+"Harry Potter and the Prisoner of Azkaban",
+"Harry Potter and the Sorcerer's Stone",
+"Harry Potter and the Order of the Phoenix",
+"Harry Potter and the Goblet of Fire",
+"Harry Potter and the Chamber of Secrets"
+] %}
+
+{########################## TOP 100 ##################################}
 
 <div class="rankings-wrapper">
 
@@ -162,40 +204,131 @@ permalink: /lists/
     </ol>
   </div>
 
+{########################### SERIES #######################################}
+
   <div class="ranking-panel">
     <h2>Favorite Series</h2>
 
     <ol class="ranked-list ranked-series">
     {% for series in topSeries %}
       {% set curSeries = series | booksBySeries(collections.books) %}
-      <li class="rank-item">
-        <div class="rank-item-inner">
+        <li class="rank-item">
+          <div class="rank-item-inner">
 
-          <div class="series-mosaic">
-            {% for book in curSeries %}
-              <img
-                src="/files/covers/{{ book.data.coverSlug }}.jpg"
-                alt="{{ book.data.title }} cover"
-              >
-            {% endfor %}
-          </div>
-
-          <div class="rank-text">
-            <div class="rank-title">
-              <a href="/books/?series={{ series | lower | urlencode }}">{{ series }}</a>
+            <div class="series-mosaic">
+              {% for book in curSeries %}
+                <img
+                  src="/files/covers/{{ book.data.coverSlug }}.jpg"
+                  alt="{{ book.data.title }} cover"
+                >
+              {% endfor %}
             </div>
 
-            <div class="rank-meta">
-              {{ curSeries[0].data.author }}
-            </div>
-          </div>
+            <div class="rank-text">
+              <div class="rank-title">
+                <a href="/books/?series={{ series | lower | urlencode }}">{{ series }}</a>
+              </div>
 
-        </div>
-      </li>
+              <div class="rank-meta">
+                {{ curSeries[0].data.author }}
+              </div>
+            </div>
+
+          </div>
+        </li>
 
     {% endfor %}
     </ol>
-
   </div>
+
+{############################ STANDALONES #####################################}
+
+  <div class="ranking-panel">
+    <h2>Favorite Standalone Books</h2>
+
+    <ol class="ranked-list">
+
+    {% for title in topStandalones %}
+      {% set book = title | bookByTitle(collections.books) %}
+
+      <li class="rank-item">
+
+        <div class="rank-item-inner">
+
+          {% if book and book.data.coverSlug %}
+            <img
+              class="book-cover-list"
+              src="/files/covers/{{ book.data.coverSlug }}.jpg"
+              alt="{{ book.data.title }} cover"
+            >
+          {% endif %}
+
+          <div class="rank-text">
+            {% if book %}
+              <div class="rank-title">
+                <a href="{{ book.url }}">{{ book.data.title }}</a>
+              </div>
+              <div class="rank-meta">
+                {{ book.data.series }} — {{ book.data.author }}
+              </div>
+            {% else %}
+              <div class="rank-title">{{ title }}</div>
+            {% endif %}
+          </div>
+
+        </div>
+
+      </li>
+
+    {% endfor %}
+
+    </ol>
+  </div>
+
+{####################### HARRY POTTER #################################}
+
+  <div class="ranking-panel">
+    <h2>Harry Potter</h2>
+
+    <ol class="ranked-list">
+
+    {% for title in harryPotterOrder %}
+      {% set book = title | bookByTitle(collections.books) %}
+
+      <li class="rank-item">
+
+        <div class="rank-item-inner">
+
+          {% if book and book.data.coverSlug %}
+            <img
+              class="book-cover-list"
+              src="/files/covers/{{ book.data.coverSlug }}.jpg"
+              alt="{{ book.data.title }} cover"
+            >
+          {% endif %}
+
+          <div class="rank-text">
+            {% if book %}
+              <div class="rank-title">
+                <a href="{{ book.url }}">{{ book.data.title }}</a>
+              </div>
+              <div class="rank-meta">
+                {{ book.data.series }} — {{ book.data.author }}
+              </div>
+            {% else %}
+              <div class="rank-title">{{ title }}</div>
+            {% endif %}
+          </div>
+
+        </div>
+
+      </li>
+
+    {% endfor %}
+
+    </ol>
+  </div>
+
+{#############################################################################################}
 
 </div>

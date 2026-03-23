@@ -5,7 +5,7 @@ bookSlug: "royal-assassin-hobb"
 title: "Royal Assassin"
 author: "Robin Hobb"
 series: "The Farseer Trilogy"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 675
 yearPublished: 1996
 publisher: "Spectra"

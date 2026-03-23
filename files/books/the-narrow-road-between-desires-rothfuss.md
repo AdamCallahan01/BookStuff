@@ -5,7 +5,7 @@ bookSlug: "the-narrow-road-between-desires-rothfuss"
 title: "The Narrow Road Between Desires"
 author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
-seriesNumber: "2.6"
+seriesNumber: 2.6
 pages: 240
 yearPublished: 2023
 publisher: "DAW"

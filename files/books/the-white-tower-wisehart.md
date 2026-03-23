@@ -5,7 +5,7 @@ bookSlug: "the-white-tower-wisehart"
 title: "The White Tower"
 author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 645
 goodreads: "https://www.goodreads.com/book/show/33531228-the-white-tower"
 isbn: "9780998150512"

@@ -5,7 +5,7 @@ bookSlug: "the-tempest-shakespeare"
 title: "The Tempest"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 218
 yearPublished: 1611
 goodreads: "https://www.goodreads.com/book/show/3767572-the-tempest"

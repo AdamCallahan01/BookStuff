@@ -5,7 +5,7 @@ bookSlug: "the-crimson-vault-wight"
 title: "The Crimson Vault"
 author: "Will Wight"
 series: "Traveler's Gate"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 386
 goodreads: "https://www.goodreads.com/book/show/21079502-the-crimson-vault"
 isbn: "9780989671798"

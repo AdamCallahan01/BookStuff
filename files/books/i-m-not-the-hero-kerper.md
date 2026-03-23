@@ -5,7 +5,7 @@ bookSlug: "i-m-not-the-hero-kerper"
 title: "I'm Not the Hero"
 author: "Tommy Kerper"
 series: "I'm Not the Hero"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 644
 yearPublished: 2023
 publisher: "Podium Publishing"

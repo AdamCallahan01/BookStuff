@@ -5,7 +5,7 @@ bookSlug: "reaper-s-gale-erikson"
 title: "Reaper's Gale"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 1280
 yearPublished: 2007
 publisher: "Bantam Press"

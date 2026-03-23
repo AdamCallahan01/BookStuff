@@ -5,7 +5,7 @@ bookSlug: "guards-guards-pratchett"
 title: "Guards! Guards!"
 author: "Terry Pratchett"
 series: "Discworld"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 376
 goodreads: "https://www.goodreads.com/book/show/64216.Guards_Guards_?ref=nav_sb_ss_1_6"
 isbn: "9780061020643"

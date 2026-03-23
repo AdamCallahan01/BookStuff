@@ -5,7 +5,7 @@ bookSlug: "the-devils-abercrombie"
 title: "The Devils"
 author: "Joe Abercrombie"
 series: "The Devils"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 525
 yearPublished: 2025
 publisher: "Broken Binding"

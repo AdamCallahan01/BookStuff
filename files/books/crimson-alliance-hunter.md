@@ -5,7 +5,7 @@ bookSlug: "crimson-alliance-hunter"
 title: "Crimson Alliance"
 author: "J. A. Hunter"
 series: "Viridian Gate Online"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 358
 goodreads: "https://www.goodreads.com/book/show/39279287-crimson-alliance"
 isbn: "9781543225501"

@@ -5,7 +5,7 @@ bookSlug: "the-bare-hunt-ugland"
 title: "The Bare Hunt"
 author: "Eric Ugland"
 series: "The Good Guys"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 386
 goodreads: "https://www.goodreads.com/book/show/65137119-the-bare-hunt"
 isbn: "9781945346149"

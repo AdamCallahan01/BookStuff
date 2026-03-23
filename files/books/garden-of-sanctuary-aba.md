@@ -5,7 +5,7 @@ bookSlug: "garden-of-sanctuary-aba"
 title: "Garden of Sanctuary"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "15"
+seriesNumber: 15
 pages: 1215
 yearPublished: 2025
 publisher: "Self"

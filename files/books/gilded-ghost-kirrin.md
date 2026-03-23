@@ -5,7 +5,7 @@ bookSlug: "gilded-ghost-kirrin"
 title: "Gilded Ghost"
 author: "Kyle Kirrin"
 series: "The Ripple System"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 862
 goodreads: "https://www.goodreads.com/book/show/62645486-gilded-ghost"
 isbn: "9781913695453"

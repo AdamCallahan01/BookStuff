@@ -5,7 +5,7 @@ bookSlug: "gregor-and-the-marks-of-secret-collins"
 title: "Gregor and the Marks of Secret"
 author: "Suzanne Collins"
 series: "Underland Chronicles"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 343
 yearPublished: 2006
 publisher: "Scholastic"

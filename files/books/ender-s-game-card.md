@@ -5,7 +5,7 @@ bookSlug: "ender-s-game-card"
 title: "Ender's Game"
 author: "Orson Scott Card"
 series: "Ender's Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 324
 yearPublished: 1985
 publisher: "Tor"

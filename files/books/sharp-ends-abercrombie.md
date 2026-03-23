@@ -5,7 +5,7 @@ bookSlug: "sharp-ends-abercrombie"
 title: "Sharp Ends"
 author: "Joe Abercrombie"
 series: "First Law World"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 304
 yearPublished: 2016
 publisher: "Orbit"

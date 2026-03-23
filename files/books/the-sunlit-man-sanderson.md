@@ -5,7 +5,7 @@ bookSlug: "the-sunlit-man-sanderson"
 title: "The Sunlit Man"
 author: "Brandon Sanderson"
 series: "Cosmere"
-seriesNumber: "30"
+seriesNumber: 30
 pages: 447
 yearPublished: 2023
 publisher: "Dragonsteel"

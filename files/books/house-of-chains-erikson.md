@@ -5,7 +5,7 @@ bookSlug: "house-of-chains-erikson"
 title: "House of Chains"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 1015
 yearPublished: 2002
 publisher: "Tom Doherty"

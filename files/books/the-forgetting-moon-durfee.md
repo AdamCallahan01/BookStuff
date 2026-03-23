@@ -5,7 +5,7 @@ bookSlug: "the-forgetting-moon-durfee"
 title: "The Forgetting Moon"
 author: "Brian Lee Durfee"
 series: "The Five Warrior Angels"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 800
 yearPublished: 2016
 publisher: "Saga Press"

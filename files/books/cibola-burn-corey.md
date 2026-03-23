@@ -5,7 +5,7 @@ bookSlug: "cibola-burn-corey"
 title: "Cibola Burn"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 581
 yearPublished: 2014
 publisher: "Orbit"

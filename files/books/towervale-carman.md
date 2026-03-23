@@ -5,7 +5,7 @@ bookSlug: "towervale-carman"
 title: "Towervale"
 author: "Patrick Carman"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 256
 goodreads: "https://www.goodreads.com/book/show/44173850-towervale"
 isbn: "9780578463889"

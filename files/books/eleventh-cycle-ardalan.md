@@ -5,7 +5,7 @@ bookSlug: "eleventh-cycle-ardalan"
 title: "Eleventh Cycle"
 author: "Kian N. Ardalan"
 series: "Mistland"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 779
 yearPublished: 2023
 publisher: "Self"

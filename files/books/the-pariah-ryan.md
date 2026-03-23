@@ -5,7 +5,7 @@ bookSlug: "the-pariah-ryan"
 title: "The Pariah"
 author: "Anthony Ryan"
 series: "Covenant of Steel"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 600
 yearPublished: 2021
 publisher: "Orbit"

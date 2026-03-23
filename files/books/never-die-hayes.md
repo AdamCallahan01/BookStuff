@@ -5,7 +5,7 @@ bookSlug: "never-die-hayes"
 title: "Never Die"
 author: "Rob J. Hayes"
 series: "Mortal Techniques"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 331
 yearPublished: 2019
 publisher: "Self"

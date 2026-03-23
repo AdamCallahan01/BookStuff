@@ -5,7 +5,7 @@ bookSlug: "homeland-salvatore"
 title: "Homeland"
 author: "R. A. Salvatore"
 series: "The Legend of Drizzt"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 343
 goodreads: "https://www.goodreads.com/book/show/317547.Homeland"
 isbn: "9780880389051"

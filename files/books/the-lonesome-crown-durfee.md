@@ -5,7 +5,7 @@ bookSlug: "the-lonesome-crown-durfee"
 title: "The Lonesome Crown"
 author: "Brian Lee Durfee"
 series: "The Five Warrior Angels"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 1052
 yearPublished: 2022
 publisher: "Saga Press"

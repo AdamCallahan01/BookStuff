@@ -5,7 +5,7 @@ bookSlug: "shackled-wisehart"
 title: "Shackled"
 author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
-seriesNumber: "0.5"
+seriesNumber: 0.5
 pages: 184
 goodreads: "https://www.goodreads.com/book/show/38469951-shackled"
 bookOwned: false

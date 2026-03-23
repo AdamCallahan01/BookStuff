@@ -5,7 +5,7 @@ bookSlug: "the-wisdom-of-crowds-abercrombie"
 title: "The Wisdom of Crowds"
 author: "Joe Abercrombie"
 series: "The Age of Madness"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 520
 yearPublished: 2021
 publisher: "Gollancz"

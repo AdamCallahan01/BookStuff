@@ -5,7 +5,7 @@ bookSlug: "the-song-of-achilles-miller"
 title: "The Song of Achilles"
 author: "Madeline Miller"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 408
 goodreads: "https://www.goodreads.com/book/show/11887641-the-song-of-achilles"
 isbn: "9780062060617"

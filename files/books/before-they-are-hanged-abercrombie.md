@@ -5,7 +5,7 @@ bookSlug: "before-they-are-hanged-abercrombie"
 title: "Before They Are Hanged"
 author: "Joe Abercrombie"
 series: "The First Law"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 441
 goodreads: "https://www.goodreads.com/book/show/24958073-before-they-are-hanged"
 isbn: "9780316387354"

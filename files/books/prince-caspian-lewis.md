@@ -5,7 +5,7 @@ bookSlug: "prince-caspian-lewis"
 title: "Prince Caspian"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 240
 goodreads: "https://www.goodreads.com/book/show/836898.Prince_Caspian"
 isbn: "9780064471053"

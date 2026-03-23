@@ -5,7 +5,7 @@ bookSlug: "sixteen-ways-to-defend-a-walled-city-holt"
 title: "Sixteen Ways to Defend a Walled City"
 author: "K. J. Parker (Tom Holt)"
 series: "The Siege"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 350
 yearPublished: 2019
 publisher: "Orbit"

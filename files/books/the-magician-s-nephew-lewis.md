@@ -5,7 +5,7 @@ bookSlug: "the-magician-s-nephew-lewis"
 title: "The Magician's Nephew"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 221
 goodreads: "https://www.goodreads.com/book/show/509797.The_Magician_s_Nephew"
 isbn: "9780064471107"

@@ -5,7 +5,7 @@ bookSlug: "the-rains-of-liscor-aba"
 title: "The Rains of Liscor"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 1163
 yearPublished: 2022
 publisher: "Self"

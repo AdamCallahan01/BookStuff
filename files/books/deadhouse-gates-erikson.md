@@ -5,7 +5,7 @@ bookSlug: "deadhouse-gates-erikson"
 title: "Deadhouse Gates"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 604
 yearPublished: 2000
 publisher: "Tor"

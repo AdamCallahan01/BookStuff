@@ -5,7 +5,7 @@ bookSlug: "lady-of-fire-aba"
 title: "Lady of Fire"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "17"
+seriesNumber: 17
 pages: 1781
 yearPublished: 2025
 publisher: "Self"

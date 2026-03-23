@@ -5,7 +5,7 @@ bookSlug: "the-dragonet-prophecy-sutherland"
 title: "The Dragonet Prophecy"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 336
 yearPublished: 2012
 publisher: "Scholastic"

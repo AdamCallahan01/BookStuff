@@ -5,7 +5,7 @@ bookSlug: "legends-lattes-baldree"
 title: "Legends & Lattes"
 author: "Travis Baldree"
 series: "Legends & Lattes"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 296
 yearPublished: 2022
 publisher: "Tor"

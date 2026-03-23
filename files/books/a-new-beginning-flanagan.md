@@ -5,7 +5,7 @@ bookSlug: "a-new-beginning-flanagan"
 title: "A New Beginning"
 author: "John Flanagan"
 series: "The Royal Ranger"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 460
 goodreads: "https://www.goodreads.com/book/show/41015844-the-royal-ranger"
 isbn: "9781101638613"

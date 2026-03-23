@@ -5,7 +5,7 @@ bookSlug: "tower-of-dawn-maas"
 title: "Tower of Dawn"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 663
 goodreads: "https://www.goodreads.com/book/show/76714487-tower-of-dawn"
 isbn: "9781639731046"

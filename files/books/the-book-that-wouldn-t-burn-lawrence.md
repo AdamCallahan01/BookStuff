@@ -5,7 +5,7 @@ bookSlug: "the-book-that-wouldn-t-burn-lawrence"
 title: "The Book That Wouldn't Burn"
 author: "Mark Lawrence"
 series: "The Library Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 559
 yearPublished: 2023
 publisher: "Ace"

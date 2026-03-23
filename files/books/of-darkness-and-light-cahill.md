@@ -5,7 +5,7 @@ bookSlug: "of-darkness-and-light-cahill"
 title: "Of Darkness and Light"
 author: "Ryan Cahill"
 series: "The Bound and the Broken"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 828
 yearPublished: 2021
 publisher: "Self"

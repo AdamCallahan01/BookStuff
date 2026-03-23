@@ -5,7 +5,7 @@ bookSlug: "abaddon-s-gate-corey"
 title: "Abaddon's Gate"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 539
 yearPublished: 2013
 publisher: "Orbit"

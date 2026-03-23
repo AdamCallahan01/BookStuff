@@ -5,7 +5,7 @@ bookSlug: "a-court-of-wings-and-ruin-maas"
 title: "A Court of Wings and Ruin"
 author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 703
 goodreads: "https://www.goodreads.com/book/show/50659472-a-court-of-wings-and-ruin"
 isbn: "9781635575606"

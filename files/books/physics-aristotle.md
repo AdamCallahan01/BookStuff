@@ -5,7 +5,7 @@ bookSlug: "physics-aristotle"
 title: "Physics"
 author: "Aristotle"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 382
 yearPublished: 341
 publisher: "Self"

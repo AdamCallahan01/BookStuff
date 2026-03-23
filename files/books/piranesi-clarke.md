@@ -5,7 +5,7 @@ bookSlug: "piranesi-clarke"
 title: "Piranesi"
 author: "Susanna Clarke"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 272
 yearPublished: 2020
 publisher: "Bloomsbury"

@@ -5,7 +5,7 @@ bookSlug: "jane-eyre-bronte"
 title: "Jane Eyre"
 author: "Charlotte Bronte"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 532
 yearPublished: 1847
 publisher: "Penguin"

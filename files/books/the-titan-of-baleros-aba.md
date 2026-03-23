@@ -5,7 +5,7 @@ bookSlug: "the-titan-of-baleros-aba"
 title: "The Titan of Baleros"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "11"
+seriesNumber: 11
 pages: 1526
 yearPublished: 2023
 publisher: "Self"

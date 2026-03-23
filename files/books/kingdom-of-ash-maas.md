@@ -5,7 +5,7 @@ bookSlug: "kingdom-of-ash-maas"
 title: "Kingdom of Ash"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 984
 goodreads: "https://www.goodreads.com/book/show/76715522-kingdom-of-ash"
 isbn: "9781639731060"

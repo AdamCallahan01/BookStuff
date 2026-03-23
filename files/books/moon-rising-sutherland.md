@@ -5,7 +5,7 @@ bookSlug: "moon-rising-sutherland"
 title: "Moon Rising"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 336
 yearPublished: 2015
 publisher: "Scholastic"

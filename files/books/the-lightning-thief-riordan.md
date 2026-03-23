@@ -5,7 +5,7 @@ bookSlug: "the-lightning-thief-riordan"
 title: "The Lightning Thief"
 author: "Rick Riordan"
 series: "Percy Jackson and the Olympians"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 377
 goodreads: "https://www.goodreads.com/book/show/28187.The_Lightning_Thief"
 isbn: "9780786838653"

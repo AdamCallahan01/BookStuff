@@ -5,7 +5,7 @@ bookSlug: "shattersoul-kirrin"
 title: "Shattersoul"
 author: "Kyle Kirrin"
 series: "The Ripple System"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 877
 goodreads: "https://www.goodreads.com/book/show/171670888-shattersoul"
 isbn: "9781913695538"

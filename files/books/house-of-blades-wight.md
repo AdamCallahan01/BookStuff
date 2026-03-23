@@ -5,7 +5,7 @@ bookSlug: "house-of-blades-wight"
 title: "House of Blades"
 author: "Will Wight"
 series: "Traveler's Gate"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 294
 goodreads: "https://www.goodreads.com/book/show/18428608-house-of-blades"
 isbn: "9780989671705"

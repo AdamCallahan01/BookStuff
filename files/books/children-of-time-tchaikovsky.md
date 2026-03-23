@@ -5,7 +5,7 @@ bookSlug: "children-of-time-tchaikovsky"
 title: "Children of Time"
 author: "Adrian Tchaikovsky"
 series: "Children of Time"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 608
 yearPublished: 2015
 publisher: "PanMacmillan"

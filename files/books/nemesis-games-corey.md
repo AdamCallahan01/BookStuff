@@ -5,7 +5,7 @@ bookSlug: "nemesis-games-corey"
 title: "Nemesis Games"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 536
 yearPublished: 2015
 publisher: "Orbit"

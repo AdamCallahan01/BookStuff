@@ -5,7 +5,7 @@ bookSlug: "bloodline-wight"
 title: "Bloodline"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "9"
+seriesNumber: 9
 pages: 378
 yearPublished: 2021
 publisher: "Hidden Gnome"

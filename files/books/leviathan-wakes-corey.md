@@ -5,7 +5,7 @@ bookSlug: "leviathan-wakes-corey"
 title: "Leviathan Wakes"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 561
 yearPublished: 2011
 publisher: "Orbit"

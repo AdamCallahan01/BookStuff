@@ -5,7 +5,7 @@ bookSlug: "the-blackest-heart-durfee"
 title: "The Blackest Heart"
 author: "Brian Lee Durfee"
 series: "The Five Warrior Angels"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 960
 yearPublished: 2019
 publisher: "Saga Press"

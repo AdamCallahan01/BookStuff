@@ -5,7 +5,7 @@ bookSlug: "the-atlantis-complex-colfer"
 title: "The Atlantis Complex"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 357
 yearPublished: 2010
 publisher: "Hyperion"

@@ -5,7 +5,7 @@ bookSlug: "shadow-lands-breene"
 title: "Shadow Lands"
 author: "K. F. Breene"
 series: "The Warrior Chronicles"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 326
 goodreads: "https://www.goodreads.com/book/show/25589581-shadow-lands"
 isbn: "9781514629772"

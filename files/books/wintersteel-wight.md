@@ -5,7 +5,7 @@ bookSlug: "wintersteel-wight"
 title: "Wintersteel"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 540
 yearPublished: 2020
 publisher: "Hidden Gnome"

@@ -5,7 +5,7 @@ bookSlug: "tress-of-the-emerald-sea-sanderson"
 title: "Tress of the Emerald Sea"
 author: "Brandon Sanderson"
 series: "Cosmere"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 483
 goodreads: "https://www.goodreads.com/book/show/127280617-tress-of-the-emerald-sea"
 isbn: "9781250899668"

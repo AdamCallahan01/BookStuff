@@ -5,7 +5,7 @@ bookSlug: "out-of-the-silent-planet-lewis"
 title: "Out of the Silent Planet"
 author: "C. S. Lewis"
 series: "The Space Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 160
 goodreads: "https://www.goodreads.com/book/show/206961.Out_of_the_Silent_Planet"
 isbn: "9780020869108"

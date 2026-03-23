@@ -5,7 +5,7 @@ bookSlug: "babylon-s-ashes-corey"
 title: "Babylon's Ashes"
 author: "James S.A. Corey"
 series: "The Expanse"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 532
 yearPublished: 2016
 publisher: "Orbit"

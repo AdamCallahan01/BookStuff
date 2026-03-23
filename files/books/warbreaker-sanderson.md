@@ -5,7 +5,7 @@ bookSlug: "warbreaker-sanderson"
 title: "Warbreaker"
 author: "Brandon Sanderson"
 series: "Warbreaker"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 688
 goodreads: "https://www.goodreads.com/book/show/6976882-warbreaker"
 isbn: "9780765360038"

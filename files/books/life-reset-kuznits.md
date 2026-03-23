@@ -5,7 +5,7 @@ bookSlug: "life-reset-kuznits"
 title: "Life Reset"
 author: "Shemer Kuznits"
 series: "New Era Online"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 718
 yearPublished: 2017
 publisher: "Self"

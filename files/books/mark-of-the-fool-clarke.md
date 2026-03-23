@@ -5,7 +5,7 @@ bookSlug: "mark-of-the-fool-clarke"
 title: "Mark of the Fool"
 author: "J. M. Clarke"
 series: "Mark of the Fool"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 722
 goodreads: "https://www.goodreads.com/book/show/62631889-mark-of-the-fool"
 isbn: "9798353183174"

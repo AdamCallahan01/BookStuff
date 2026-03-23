@@ -5,7 +5,7 @@ bookSlug: "the-strength-of-the-few-islington"
 title: "The Strength of the Few"
 author: "James Islington"
 series: "Hierarchy"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 720
 yearPublished: 2023
 publisher: "Text Publishing"

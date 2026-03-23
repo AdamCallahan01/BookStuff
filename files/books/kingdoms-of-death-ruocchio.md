@@ -5,7 +5,7 @@ bookSlug: "kingdoms-of-death-ruocchio"
 title: "Kingdoms of Death"
 author: "Christopher Ruocchio"
 series: "Sun Eater"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 544
 yearPublished: 2022
 publisher: "Gollancz"

@@ -5,7 +5,7 @@ bookSlug: "the-bonehunters-erikson"
 title: "The Bonehunters"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 1203
 yearPublished: 2006
 publisher: "Bantam"

@@ -15,17 +15,19 @@ permalink: /books/
   <div class="control-group filters">
     <h3>Filters</h3>
 
-    <label>
-      <input type="checkbox" id="combineToggle" checked>
-      Combine reads
-    </label>
+    <select id="combineToggle">
+      <option value="books">Books</option>
+      <option value="series">Series</option>
+      <option value="reads">Reads</option>
+      <option value="authors">Authors</option>
+    </select>
 
     <label>
       <input type="checkbox" id="noScoresToggle" checked>
       Include N/A Score
     </label>
 
-    <input id="booksSearchInput" oninput="updateState()" placeholder="Search..." autocomplete="one-time-code">
+    <input id="booksSearchInput" placeholder="Search..." autocomplete="one-time-code">
 
     <select id="authorFilter">
       <option value="">All Authors</option>
@@ -35,15 +37,15 @@ permalink: /books/
       <option value="">All Series</option>
     </select>
 
-    <select id="otherFilter">
-      <option value="">Other...</option>
-    </select>
-
     <div class="slider-group">
       <label for="scoreSlider">Score Range:</label>
       <div id="scoreSlider"></div>
       <div id="scoreLabel"></div>
     </div>
+
+    <select id="yearReadFilter">
+      <option value="">Any</option>
+    </select>
 
   </div>
 
@@ -64,8 +66,9 @@ permalink: /books/
       <option value="desc">Descending</option>
     </select>
 
-    <button id="filterResetButton">Reset</button>
   </div>
+
+  <button id="filterResetButton" onclick="resetFilters()">Reset</button>
 
 </div>
 
@@ -76,9 +79,7 @@ permalink: /books/
   <span>Avg Score: <strong id="scoreAverageLabel">0</strong></span>
 </div>
 
-{# 
-  BOOKS LAYOUT 
-#}
+{################################ BOOKS LAYOUT ##########################################}
 
 {% set sortedBooks = collections.books | sort(attribute="data.title") %}
 
@@ -89,7 +90,7 @@ permalink: /books/
       data-title="{{ book.data.title | lower }}"
       data-author="{{ book.data.author | lower }}"
       data-series="{{ book.data.series | lower }}"
-      data-seriesNumber="{{ book.data.seriesNumber | lower }}"
+      data-seriesNumber="{{ book.data.seriesNumber or 0 }}"
       data-pages="{{ book.data.pages or 0 }}"
       data-yearPublished="{{ book.data.yearPublished or 0 }}"
       data-publisher="{{ book.data.publisher | lower }}"
@@ -104,6 +105,7 @@ permalink: /books/
       data-averagescore="{{ book.data.averageScore or 0 }}"
       data-latestscore="{{ book.data.latestScore or 0 }}"
       data-otherseries="{{ book.data.otherSeries | lower }}"
+      data-yearRead="2026"
     >
 
       {% if book.data.coverSlug %}
@@ -126,43 +128,41 @@ permalink: /books/
   {% endfor %}
 </div>
 
-{# 
-  READS LAYOUT 
-#}
+{################################ READS LAYOUT ##########################################}
 
 <div id="readsView" class="book-grid" style="display:none;">
 
 {% for read in collections.reads %}
   {% for book in collections.books %}
     {% if book.data.bookSlug == read.data.bookSlug %}
-  <a href="{{ book.url }}" class="book-card"
-    data-type="read"
-    data-slug="{{ read.data.bookSlug }}"
-    data-title="{{ book.data.title | lower }}"
-    data-author="{{ book.data.author | lower }}"
-    data-series="{{ book.data.series | lower }}"
-    data-seriesNumber="{{ book.data.seriesNumber | lower }}"
-    data-pages="{{ book.data.pages or 0 }}"
-    data-yearPublished="{{ book.data.yearPublished or 0 }}"
-    data-publisher="{{ book.data.publisher | lower }}"
-    data-avgGoodreadsRating="{{ book.data.avgGoodreadsRating | lower }}"
-    data-numGoodreadsRatings="{{ book.data.numGoodreadsRatings | lower }}"
-    data-hasSummary="{{ book.data.hasSummary or false }}"
-    data-hasScore="{{ book.data.hasScore or false }}"
-    data-readCount="{{ book.data.readCount or 0 }}"
-    data-genre="{{ book.data.genre | lower }}"
-    data-subgenre="{{ book.data.subgenre | lower }}"
-    data-owned="{{ book.data.owned | lower }}"
-    data-averagescore="{{ book.data.averageScore or 0 }}"
-    data-latestscore="{{ book.data.latestScore or 0 }}"
-    data-score="{{ read.data.score or 0 }}"
-    data-datefinished="{{ read.data.dateFinished }}"
-    data-readNumber="{{ book.data.readNumber or 0 }}"
-    data-format="{{ book.data.format | lower }}"
-    data-days="{{ book.data.days or 0 }}"
-    data-yearRead="{{ book.data.yearRead or 0 }}"
-    data-hasReview="{{ book.data.hasReview or false }}"
-  >
+    <a href="{{ book.url }}" class="book-card"
+      data-type="read"
+      data-slug="{{ read.data.bookSlug }}"
+      data-title="{{ book.data.title | lower }}"
+      data-author="{{ book.data.author | lower }}"
+      data-series="{{ book.data.series | lower }}"
+      data-seriesNumber="{{ book.data.seriesNumber or 0 }}"
+      data-pages="{{ book.data.pages or 0 }}"
+      data-yearPublished="{{ book.data.yearPublished or 0 }}"
+      data-publisher="{{ book.data.publisher | lower }}"
+      data-avgGoodreadsRating="{{ book.data.avgGoodreadsRating | lower }}"
+      data-numGoodreadsRatings="{{ book.data.numGoodreadsRatings | lower }}"
+      data-hasSummary="{{ book.data.hasSummary or false }}"
+      data-hasScore="{{ book.data.hasScore or false }}"
+      data-readCount="{{ book.data.readCount or 0 }}"
+      data-genre="{{ book.data.genre | lower }}"
+      data-subgenre="{{ book.data.subgenre | lower }}"
+      data-owned="{{ book.data.owned | lower }}"
+      data-averagescore="{{ book.data.averageScore or 0 }}"
+      data-latestscore="{{ book.data.latestScore or 0 }}"
+      data-score="{{ read.data.score or 0 }}"
+      data-datefinished="{{ read.data.dateFinished }}"
+      data-readNumber="{{ read.data.readNumber or 0 }}"
+      data-format="{{ read.data.format | lower }}"
+      data-days="{{ read.data.days or 0 }}"
+      data-yearRead="{{ read.data.yearRead or 0 }}"
+      data-hasReview="{{ book.data.hasReview or false }}"
+    >
 
     {% if book.data.coverSlug %}
       <img
@@ -183,5 +183,69 @@ permalink: /books/
   </a>
     {% endif %}
   {% endfor %}
+{% endfor %}
+</div>
+
+{################################ SERIES LAYOUT ##########################################}
+
+<div id="seriesView" class="book-grid" style="display:none;">
+{% for series in collections.series %}
+  <a href="/books/?series={{ series.name | lower | urlencode }}" class="book-card"
+      data-type="series"
+      data-series="{{ series.name | lower }}"
+      data-author="{{ series.books[0].data.author | lower }}"
+      data-averagescore="{{ series.averageScore or 0 }}"
+      data-count="{{ series.count or 0 }}"
+    >
+
+    <div class="series-cover">
+      {% for book in series.books %}
+        <img
+          src="/files/covers/{{ book.data.coverSlug }}.jpg"
+          alt="{{ book.data.title }} cover"
+        >
+      {% endfor %}
+    </div>
+
+    <div class="overlay">
+      ⭐ {{ series.averageScore or "N/A" }}
+      | 📅 {{ series.count }}
+    </div>
+
+    <h2 class="book-title">{{ series.name }}</h2>
+    <p class="book-author">{{ series.books[0].data.author }}</p>
+
+    </a>
+{% endfor %}
+</div>
+
+{################################ AUTHORS LAYOUT ##########################################}
+
+<div id="authorsView" class="book-grid" style="display:none;">
+{% for author in collections.authors %}
+  <a href="/books/?author={{ author.name | lower | urlencode }}" class="book-card"
+      data-type="author"
+      data-author="{{ author.name | lower }}"
+      data-averagescore="{{ author.averageScore or 0 }}"
+      data-count="{{ author.count or 0 }}"
+    >
+
+    <div class="series-cover">
+      {% for book in author.books %}
+        <img
+          src="/files/covers/{{ book.data.coverSlug }}.jpg"
+          alt="{{ book.data.title }} cover"
+        >
+      {% endfor %}
+    </div>
+
+    <div class="overlay">
+      ⭐ {{ author.averageScore or "N/A" }}
+      | 📅 {{ author.count }}
+    </div>
+
+    <h2 class="book-title">{{ author.name }}</h2>
+
+    </a>
 {% endfor %}
 </div>

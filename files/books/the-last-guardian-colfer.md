@@ -5,7 +5,7 @@ bookSlug: "the-last-guardian-colfer"
 title: "The Last Guardian"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 328
 yearPublished: 2012
 publisher: "Hyperion"

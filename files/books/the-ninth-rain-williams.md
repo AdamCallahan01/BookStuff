@@ -5,7 +5,7 @@ bookSlug: "the-ninth-rain-williams"
 title: "The Ninth Rain"
 author: "Jen Williams"
 series: "The Winnowing Flame Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 544
 yearPublished: 2017
 publisher: "Headline"

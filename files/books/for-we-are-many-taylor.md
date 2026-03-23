@@ -5,7 +5,7 @@ bookSlug: "for-we-are-many-taylor"
 title: "For We Are Many"
 author: "Dennis E. Taylor"
 series: "Bobiverse"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 350
 yearPublished: 2017
 publisher: "Worldbuilders"

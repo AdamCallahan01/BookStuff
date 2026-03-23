@@ -5,7 +5,7 @@ bookSlug: "the-silver-chair-lewis"
 title: "The Silver Chair"
 author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 243
 goodreads: "https://www.goodreads.com/book/show/587317.The_Silver_Chair"
 isbn: "9780064471091"

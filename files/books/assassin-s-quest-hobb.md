@@ -5,7 +5,7 @@ bookSlug: "assassin-s-quest-hobb"
 title: "Assassin's Quest"
 author: "Robin Hobb"
 series: "The Farseer Trilogy"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 757
 yearPublished: 1997
 publisher: "Spectra"

@@ -5,7 +5,7 @@ bookSlug: "a-darker-shade-of-magic-schwab"
 title: "A Darker Shade of Magic"
 author: "V. S. Schwab"
 series: "Shades of Magic"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 400
 yearPublished: 2015
 publisher: "Tor"

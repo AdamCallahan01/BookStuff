@@ -5,7 +5,7 @@ bookSlug: "the-weight-of-glory-lewis"
 title: "The Weight of Glory"
 author: "C. S. Lewis"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 208
 goodreads: "https://www.goodreads.com/book/show/18654696-the-weight-of-glory"
 bookOwned: true

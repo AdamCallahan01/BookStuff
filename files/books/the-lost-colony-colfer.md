@@ -5,7 +5,7 @@ bookSlug: "the-lost-colony-colfer"
 title: "The Lost Colony"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 385
 yearPublished: 2006
 publisher: "Miramax"

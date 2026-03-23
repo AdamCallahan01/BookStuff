@@ -5,7 +5,7 @@ bookSlug: "carl-s-doomsday-scenario-dinniman"
 title: "Carl's Doomsday Scenario"
 author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 364
 yearPublished: 2021
 publisher: "Dandy House"

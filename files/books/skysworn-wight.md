@@ -5,7 +5,7 @@ bookSlug: "skysworn-wight"
 title: "Skysworn"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 292
 yearPublished: 2017
 publisher: "Hidden Gnome"

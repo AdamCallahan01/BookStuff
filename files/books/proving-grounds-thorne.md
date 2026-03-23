@@ -5,7 +5,7 @@ bookSlug: "proving-grounds-thorne"
 title: "Proving Grounds"
 author: "Apollos Thorne"
 series: "Underworld"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 222
 goodreads: "https://www.goodreads.com/book/show/50731407-proving-grounds"
 bookOwned: true

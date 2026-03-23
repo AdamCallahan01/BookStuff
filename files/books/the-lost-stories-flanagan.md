@@ -5,7 +5,7 @@ bookSlug: "the-lost-stories-flanagan"
 title: "The Lost Stories"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "11"
+seriesNumber: 11
 pages: 422
 goodreads: "https://www.goodreads.com/book/show/11309018-the-lost-stories"
 isbn: "9780399256189"

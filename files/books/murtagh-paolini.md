@@ -5,7 +5,7 @@ bookSlug: "murtagh-paolini"
 title: "Murtagh"
 author: "Christopher Paolini"
 series: "The Inheritance Cycle"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 688
 goodreads: "https://www.goodreads.com/book/show/123206298-murtagh"
 isbn: "9781774882993"

@@ -5,7 +5,7 @@ bookSlug: "hunted-breene"
 title: "Hunted"
 author: "K. F. Breene"
 series: "The Warrior Chronicles"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 381
 goodreads: "https://www.goodreads.com/book/show/27677279-hunted"
 isbn: "9781511778077"

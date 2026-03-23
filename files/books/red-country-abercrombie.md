@@ -5,7 +5,7 @@ bookSlug: "red-country-abercrombie"
 title: "Red Country"
 author: "Joe Abercrombie"
 series: "First Law World"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 469
 yearPublished: 2012
 publisher: "Orbit"

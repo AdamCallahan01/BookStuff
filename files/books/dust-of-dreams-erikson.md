@@ -5,7 +5,7 @@ bookSlug: "dust-of-dreams-erikson"
 title: "Dust of Dreams"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "9"
+seriesNumber: 9
 pages: 1280
 yearPublished: 2009
 publisher: "Tom Doherty"

@@ -5,7 +5,7 @@ bookSlug: "level-up-or-die-thorne"
 title: "Level Up or Die!"
 author: "Apollos Thorne"
 series: "Underworld"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 204
 goodreads: "https://www.goodreads.com/book/show/50410231-level-up-or-die"
 isbn: "9781733664417"

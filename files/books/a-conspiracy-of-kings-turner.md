@@ -5,7 +5,7 @@ bookSlug: "a-conspiracy-of-kings-turner"
 title: "A Conspiracy of Kings"
 author: "Megan Whalen Turner"
 series: "The Queen's Thief"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 316
 goodreads: "https://www.goodreads.com/book/show/30363362-a-conspiracy-of-kings"
 isbn: "9780062642998"

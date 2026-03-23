@@ -5,7 +5,7 @@ bookSlug: "gregor-and-the-code-of-claw-collins"
 title: "Gregor and the Code of Claw"
 author: "Suzanne Collins"
 series: "Underland Chronicles"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 412
 yearPublished: 2007
 publisher: "Scholastic"

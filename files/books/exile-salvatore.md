@@ -5,7 +5,7 @@ bookSlug: "exile-salvatore"
 title: "Exile"
 author: "R. A. Salvatore"
 series: "The Legend of Drizzt"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 353
 goodreads: "https://www.goodreads.com/book/show/66694.Exile"
 isbn: "9780880389204"

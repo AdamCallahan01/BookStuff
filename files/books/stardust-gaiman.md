@@ -5,7 +5,7 @@ bookSlug: "stardust-gaiman"
 title: "Stardust"
 author: "Neil Gaiman"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 248
 goodreads: "https://www.goodreads.com/book/show/3629286-stardust"
 isbn: "9780061689246"

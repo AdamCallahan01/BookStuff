@@ -5,7 +5,7 @@ bookSlug: "memories-of-ice-erikson"
 title: "Memories of Ice"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 925
 yearPublished: 2001
 publisher: "Tor"

@@ -5,7 +5,7 @@ bookSlug: "the-silverblood-promise-logan"
 title: "The Silverblood Promise"
 author: "James Logan"
 series: "The Last Legacy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 528
 yearPublished: 2024
 publisher: "Tor"

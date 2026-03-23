@@ -5,7 +5,7 @@ bookSlug: "the-interpretation-of-dreams-freud"
 title: "The Interpretation of Dreams"
 author: "Sigmund Freud"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 630
 yearPublished: 1899
 publisher: "Macmillan"

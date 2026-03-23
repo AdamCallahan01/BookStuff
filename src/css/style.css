@@ -126,6 +126,29 @@ main {
   flex-shrink: 0;
 }
 
+.series-cover {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 2px;
+
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.series-mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Book Info */
 .book-info {
   flex: 1;
@@ -191,6 +214,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* ////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
 /* Search Bar */
 .site-header .logo a {
   color: white;
@@ -449,7 +474,7 @@ a:hover {
 /* Wrapper and panels */
 .rankings-wrapper {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   margin-top: 2rem;
 }

@@ -5,7 +5,7 @@ bookSlug: "scorching-sun-thorne"
 title: "Scorching Sun"
 author: "Apollos Thorne"
 series: "Underworld"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 358
 goodreads: "https://www.goodreads.com/book/show/56966228-scorching-sun"
 bookOwned: true

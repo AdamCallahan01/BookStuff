@@ -5,7 +5,7 @@ bookSlug: "words-of-radiance-sanderson"
 title: "Words of Radiance"
 author: "Brandon Sanderson"
 series: "The Stormlight Archive"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 1087
 goodreads: "https://www.goodreads.com/book/show/17332218-words-of-radiance"
 isbn: "9780765326362"

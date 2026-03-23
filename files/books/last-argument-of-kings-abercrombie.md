@@ -5,7 +5,7 @@ bookSlug: "last-argument-of-kings-abercrombie"
 title: "Last Argument of Kings"
 author: "Joe Abercrombie"
 series: "The First Law"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 536
 goodreads: "https://www.goodreads.com/book/show/24958074-last-argument-of-kings"
 isbn: "9780316387408"

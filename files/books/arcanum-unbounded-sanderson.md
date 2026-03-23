@@ -5,7 +5,7 @@ bookSlug: "arcanum-unbounded-sanderson"
 title: "Arcanum Unbounded"
 author: "Brandon Sanderson"
 series: "Cosmere"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 672
 goodreads: "https://www.goodreads.com/book/show/28595941-arcanum-unbounded?ref=nav_sb_ss_1_12"
 isbn: "9780765391162"

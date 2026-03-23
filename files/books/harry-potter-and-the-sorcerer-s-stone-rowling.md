@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-sorcerer-s-stone-rowling"
 title: "Harry Potter and the Sorcerer's Stone"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 333
 goodreads: "https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone"
 isbn: "9780439554930"

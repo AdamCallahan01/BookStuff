@@ -5,7 +5,7 @@ bookSlug: "tears-of-liscor-aba"
 title: "Tears of Liscor"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "9"
+seriesNumber: 9
 pages: 1651
 yearPublished: 2023
 publisher: "Self"

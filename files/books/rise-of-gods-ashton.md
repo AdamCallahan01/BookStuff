@@ -5,7 +5,7 @@ bookSlug: "rise-of-gods-ashton"
 title: "Rise of Gods"
 author: "Dyrk Ashton"
 series: "Paternus Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 504
 yearPublished: 2016
 publisher: "Paternus Books"

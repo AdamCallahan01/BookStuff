@@ -5,7 +5,7 @@ bookSlug: "the-blacksmith-s-son-manning"
 title: "The Blacksmith's Son"
 author: "Michael G. Manning"
 series: "Mageborn"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 386
 yearPublished: 2011
 publisher: "Self"

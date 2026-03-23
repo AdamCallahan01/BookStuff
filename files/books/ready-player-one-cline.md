@@ -5,7 +5,7 @@ bookSlug: "ready-player-one-cline"
 title: "Ready Player One"
 author: "Ernest Cline"
 series: "Ready Player One"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 374
 goodreads: "https://www.goodreads.com/book/show/9969571-ready-player-one?ref=nav_sb_ss_1_16"
 isbn: "9780307887436"

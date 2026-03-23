@@ -5,7 +5,7 @@ bookSlug: "daughter-of-the-empire-wurts"
 title: "Daughter of the Empire"
 author: "Raymond E. Feist, Janny Wurts"
 series: "The Empire Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 421
 goodreads: "https://www.goodreads.com/book/show/589979.Daughter_of_the_Empire?ref=nav_sb_ss_1_22"
 isbn: "9780553272116"

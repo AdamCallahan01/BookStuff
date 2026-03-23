@@ -5,7 +5,7 @@ bookSlug: "ship-of-magic-hobb"
 title: "Ship of Magic"
 author: "Robin Hobb"
 series: "Liveship Traders"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 880
 yearPublished: 1998
 publisher: "Voyager"

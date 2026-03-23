@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-goblet-of-fire-rowling"
 title: "Harry Potter and the Goblet of Fire"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 734
 goodreads: "https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire"
 isbn: "9780439139595"

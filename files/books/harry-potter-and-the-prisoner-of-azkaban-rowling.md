@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-prisoner-of-azkaban-rowling"
 title: "Harry Potter and the Prisoner of Azkaban"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 435
 goodreads: "https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban"
 isbn: "9780439655484"

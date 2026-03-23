@@ -5,7 +5,7 @@ bookSlug: "beyond-the-shadows-weeks"
 title: "Beyond the Shadows"
 author: "Brent Weeks"
 series: "Night Angel"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 689
 goodreads: "https://www.goodreads.com/book/show/3754026-beyond-the-shadows"
 isbn: "9780316033664"

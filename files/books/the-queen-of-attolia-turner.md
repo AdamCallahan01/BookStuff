@@ -5,7 +5,7 @@ bookSlug: "the-queen-of-attolia-turner"
 title: "The Queen of Attolia"
 author: "Megan Whalen Turner"
 series: "The Queen's Thief"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 362
 goodreads: "https://www.goodreads.com/book/show/30363360-the-queen-of-attolia"
 isbn: "9780062642974"

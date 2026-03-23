@@ -5,7 +5,7 @@ bookSlug: "return-of-the-thief-turner"
 title: "Return of the Thief"
 author: "Megan Whalen Turner"
 series: "The Queen's Thief"
-seriesNumber: "6"
+seriesNumber: 6
 pages: 464
 goodreads: "https://www.goodreads.com/book/show/11503920-return-of-the-thief"
 isbn: "9780062874474"

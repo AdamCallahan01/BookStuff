@@ -5,7 +5,7 @@ bookSlug: "parzival-eschenbach"
 title: "Parzival"
 author: "Wolfram von Eschenbach"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 448
 yearPublished: 1215
 publisher: "Penguin"

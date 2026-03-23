@@ -5,7 +5,7 @@ bookSlug: "the-way-of-shadows-weeks"
 title: "The Way of Shadows"
 author: "Brent Weeks"
 series: "Night Angel"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 645
 goodreads: "https://www.goodreads.com/book/show/3227063-the-way-of-shadows?ref=nav_sb_ss_1_14"
 isbn: "9780316033671"

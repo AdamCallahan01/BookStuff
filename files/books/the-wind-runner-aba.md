@@ -5,7 +5,7 @@ bookSlug: "the-wind-runner-aba"
 title: "The Wind Runner"
 author: "Pirate Aba"
 series: "The Wandering Inn"
-seriesNumber: "10"
+seriesNumber: 10
 pages: 1334
 yearPublished: 2023
 publisher: "Self"

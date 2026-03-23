@@ -5,7 +5,7 @@ bookSlug: "the-problem-of-pain-lewis"
 title: "The Problem of Pain"
 author: "C. S. Lewis"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 162
 goodreads: "https://www.goodreads.com/book/show/13650513-the-problem-of-pain?ref=nav_sb_ss_1_15"
 isbn: "9780007461264"

@@ -5,7 +5,7 @@ bookSlug: "the-winter-king-cornwell"
 title: "The Winter King"
 author: "Bernard Cornwell"
 series: "The Warlord Chronicles #1"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 431
 yearPublished: 1994
 publisher: "St. Martins"

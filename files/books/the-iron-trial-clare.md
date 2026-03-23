@@ -5,7 +5,7 @@ bookSlug: "the-iron-trial-clare"
 title: "The Iron Trial"
 author: "Holly Black, Cassandra Clare"
 series: "Magisterium"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 295
 yearPublished: 2014
 publisher: "Scholastic"

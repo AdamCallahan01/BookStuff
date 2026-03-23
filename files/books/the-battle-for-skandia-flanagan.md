@@ -5,7 +5,7 @@ bookSlug: "the-battle-for-skandia-flanagan"
 title: "The Battle for Skandia"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 294
 goodreads: "https://www.goodreads.com/book/show/3815319-the-battle-for-skandia"
 isbn: "9780142413401"

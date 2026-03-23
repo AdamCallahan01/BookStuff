@@ -5,7 +5,7 @@ bookSlug: "the-phantom-tollbooth-juster"
 title: "The Phantom Tollbooth"
 author: "Norton Juster"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 248
 yearPublished: 1961
 publisher: "Random House"

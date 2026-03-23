@@ -5,7 +5,7 @@ bookSlug: "love-s-labour-s-lost-shakespeare"
 title: "Love's Labour's Lost"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 392
 yearPublished: 1598
 goodreads: "https://www.goodreads.com/book/show/1383325.Love_s_Labour_s_Lost"

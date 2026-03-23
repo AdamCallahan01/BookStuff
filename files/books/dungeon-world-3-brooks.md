@@ -5,7 +5,7 @@ bookSlug: "dungeon-world-3-brooks"
 title: "Dungeon World 3"
 author: "Jonathan Brooks"
 series: "Dungeon World"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 480
 goodreads: "https://www.goodreads.com/book/show/49794703-dungeon-world-3"
 isbn: "9781686593819"

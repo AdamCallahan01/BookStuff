@@ -5,7 +5,7 @@ bookSlug: "the-eternity-code-colfer"
 title: "The Eternity Code"
 author: "Eoin Colfer"
 series: "Artemis Fowl"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 329
 yearPublished: 2006
 publisher: "Puffin"

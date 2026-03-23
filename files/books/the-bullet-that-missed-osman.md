@@ -5,7 +5,7 @@ bookSlug: "the-bullet-that-missed-osman"
 title: "The Bullet That Missed"
 author: "Richard Osman"
 series: "Thursday Murder Club"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 413
 yearPublished: 2022
 publisher: "Viking"

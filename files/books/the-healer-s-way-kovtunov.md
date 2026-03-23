@@ -5,7 +5,7 @@ bookSlug: "the-healer-s-way-kovtunov"
 title: "The Healer's Way"
 author: "Oleg Sapphire, Alexey Kovtunov"
 series: "The Healer's Way"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 497
 yearPublished: 2023
 publisher: "Magic Dome"

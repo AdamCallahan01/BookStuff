@@ -5,7 +5,7 @@ bookSlug: "the-maze-runner-dashner"
 title: "The Maze Runner"
 author: "James Dashner"
 series: "The Maze Runner"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 384
 yearPublished: 2009
 publisher: "Delacorte"

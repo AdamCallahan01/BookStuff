@@ -5,7 +5,7 @@ bookSlug: "assassin-s-apprentice-hobb"
 title: "Assassin's Apprentice"
 author: "Robin Hobb"
 series: "The Farseer Trilogy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 435
 yearPublished: 1995
 publisher: "Spectra"

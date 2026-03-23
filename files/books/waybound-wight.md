@@ -5,7 +5,7 @@ bookSlug: "waybound-wight"
 title: "Waybound"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "12"
+seriesNumber: 12
 pages: 518
 yearPublished: 2023
 publisher: "Hidden Gnome"

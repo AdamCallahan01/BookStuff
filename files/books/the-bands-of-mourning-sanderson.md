@@ -5,7 +5,7 @@ bookSlug: "the-bands-of-mourning-sanderson"
 title: "The Bands of Mourning"
 author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
-seriesNumber: "3"
+seriesNumber: 3
 pages: 448
 goodreads: "https://www.goodreads.com/book/show/26541448-the-bands-of-mourning"
 isbn: "9781473208278"

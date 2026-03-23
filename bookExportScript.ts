@@ -256,7 +256,7 @@ async function run(): Promise<void> {
         title: first.title,
         author: first.author,
         series: first.series,
-        seriesNumber: first.seriesNumber,
+        seriesNumber: first.seriesNumber ? Number(first.seriesNumber) : "N/A",
         pages: first.pages ? Number(first.pages) : undefined,
         yearPublished: first.yearPublished
           ? Number(first.yearPublished)

@@ -5,7 +5,7 @@ bookSlug: "winter-turning-sutherland"
 title: "Winter Turning"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "7"
+seriesNumber: 7
 pages: 336
 yearPublished: 2015
 publisher: "Scholastic"

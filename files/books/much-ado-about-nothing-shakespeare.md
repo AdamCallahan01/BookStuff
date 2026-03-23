@@ -5,7 +5,7 @@ bookSlug: "much-ado-about-nothing-shakespeare"
 title: "Much Ado About Nothing"
 author: "William Shakespeare"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 246
 yearPublished: 1598
 goodreads: "https://www.goodreads.com/book/show/12957.Much_Ado_About_Nothing?ref=nav_sb_ss_1_19"

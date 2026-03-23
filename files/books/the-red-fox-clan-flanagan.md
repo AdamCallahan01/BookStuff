@@ -5,7 +5,7 @@ bookSlug: "the-red-fox-clan-flanagan"
 title: "The Red Fox Clan"
 author: "John Flanagan"
 series: "The Royal Ranger"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 352
 goodreads: "https://www.goodreads.com/book/show/38888254-the-red-fox-clan"
 isbn: "9781524741389"

@@ -5,7 +5,7 @@ bookSlug: "the-palace-job-weekes"
 title: "The Palace Job"
 author: "Patrick Weekes"
 series: "Rogues of the Republic"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 438
 goodreads: "https://www.goodreads.com/book/show/18318648-the-palace-job?ac=1&from_search=true&qid=xnVL0E3Sp6&rank=1"
 isbn: "9781477848203"

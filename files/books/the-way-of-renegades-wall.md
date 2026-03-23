@@ -5,7 +5,7 @@ bookSlug: "the-way-of-renegades-wall"
 title: "The Way of Renegades"
 author: "Steve D. Wall"
 series: "The Bards and Dragons Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 468
 yearPublished: 2023
 publisher: "Self"

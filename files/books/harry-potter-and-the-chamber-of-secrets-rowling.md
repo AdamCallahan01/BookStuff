@@ -5,7 +5,7 @@ bookSlug: "harry-potter-and-the-chamber-of-secrets-rowling"
 title: "Harry Potter and the Chamber of Secrets"
 author: "J. K. Rowling"
 series: "Harry Potter"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 352
 goodreads: "https://www.goodreads.com/book/show/4.Harry_Potter_and_the_Chamber_of_Secrets"
 isbn: "9780439554893"

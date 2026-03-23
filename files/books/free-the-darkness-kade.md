@@ -5,7 +5,7 @@ bookSlug: "free-the-darkness-kade"
 title: "Free the Darkness"
 author: "Kel Kade"
 series: "King's Dark Tidings"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 483
 goodreads: "https://www.goodreads.com/book/show/61460991-free-the-darkness"
 isbn: "9781952687013"

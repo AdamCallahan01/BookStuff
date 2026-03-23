@@ -5,7 +5,7 @@ bookSlug: "dukes-and-ladders-ugland"
 title: "Dukes and Ladders"
 author: "Eric Ugland"
 series: "The Good Guys"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 340
 goodreads: "https://www.goodreads.com/book/show/70881687-dukes-and-ladders"
 isbn: "9781945346125"

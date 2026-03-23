@@ -5,7 +5,7 @@ bookSlug: "zahara-s-gift-walker"
 title: "Zahara's Gift"
 author: "A. J. Walker"
 series: "Bond of a Dragon"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 263
 yearPublished: 2018
 publisher: "Mystic Lake"

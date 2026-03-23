@@ -5,7 +5,7 @@ bookSlug: "the-will-of-the-many-islington"
 title: "The Will of the Many"
 author: "James Islington"
 series: "Hierarchy"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 639
 yearPublished: 2023
 publisher: "Gallery / Saga Press"

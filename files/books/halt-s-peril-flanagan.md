@@ -5,7 +5,7 @@ bookSlug: "halt-s-peril-flanagan"
 title: "Halt's Peril"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "9"
+seriesNumber: 9
 pages: 440
 goodreads: "https://www.goodreads.com/book/show/39952016-halt-s-peril"
 isbn: "9780142418581"

@@ -5,7 +5,7 @@ bookSlug: "the-man-who-died-twice-osman"
 title: "The Man Who Died Twice"
 author: "Richard Osman"
 series: "Thursday Murder Club"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 422
 yearPublished: 2021
 publisher: "Penguin"

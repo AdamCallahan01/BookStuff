@@ -5,7 +5,7 @@ bookSlug: "the-principia-newton"
 title: "The Principia"
 author: "Isaac Newton"
 series: "N/A"
-seriesNumber: "N/A"
+seriesNumber: null
 pages: 974
 yearPublished: 1687
 publisher: "Self"

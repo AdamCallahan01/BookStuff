@@ -5,7 +5,7 @@ bookSlug: "invasion-breene"
 title: "Invasion"
 author: "K. F. Breene"
 series: "The Warrior Chronicles"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 366
 goodreads: "https://www.goodreads.com/book/show/28154870-invasion"
 isbn: "9781518687938"

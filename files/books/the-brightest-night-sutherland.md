@@ -5,7 +5,7 @@ bookSlug: "the-brightest-night-sutherland"
 title: "The Brightest Night"
 author: "Tui T. Sutherland"
 series: "Wings of Fire"
-seriesNumber: "5"
+seriesNumber: 5
 pages: 336
 yearPublished: 2014
 publisher: "Scholastic"

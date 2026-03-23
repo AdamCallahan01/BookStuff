@@ -5,7 +5,7 @@ bookSlug: "the-emperor-of-nihon-ja-flanagan"
 title: "The Emperor of Nihon-Ja"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "10"
+seriesNumber: 10
 pages: 487
 goodreads: "https://www.goodreads.com/book/show/75178822-the-emperor-of-nihon-ja"
 isbn: "9780142418598"

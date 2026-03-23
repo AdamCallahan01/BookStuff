@@ -5,7 +5,7 @@ bookSlug: "gardens-of-the-moon-erikson"
 title: "Gardens of the Moon"
 author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 666
 goodreads: "https://www.goodreads.com/book/show/55399.Gardens_of_the_Moon?from_search=true&from_srp=true&qid=vJ6wqU9mCv&rank=1"
 isbn: "9780765348784"

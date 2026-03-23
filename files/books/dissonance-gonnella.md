@@ -5,7 +5,7 @@ bookSlug: "dissonance-gonnella"
 title: "Dissonance"
 author: "Nicoli Gonnella"
 series: "Unbound"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 778
 yearPublished: 2022
 publisher: "Mountaindale"

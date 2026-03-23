@@ -5,7 +5,7 @@ bookSlug: "half-the-world-abercrombie"
 title: "Half the World"
 author: "Joe Abercrombie"
 series: "Shattered Sea"
-seriesNumber: "2"
+seriesNumber: 2
 pages: 366
 goodreads: "https://www.goodreads.com/book/show/22055283-half-the-world"
 isbn: "9780804178426"

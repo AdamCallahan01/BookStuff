@@ -5,7 +5,7 @@ bookSlug: "orconomics-pike"
 title: "Orconomics"
 author: "J. Zachary Pike"
 series: "The Dark Profit Saga"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 340
 goodreads: "https://www.goodreads.com/book/show/214489061-orconomics"
 isbn: "9781943363650"

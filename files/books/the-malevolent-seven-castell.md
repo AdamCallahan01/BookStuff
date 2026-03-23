@@ -5,7 +5,7 @@ bookSlug: "the-malevolent-seven-castell"
 title: "The Malevolent Seven"
 author: "Sebastien de Castell"
 series: "The Malevolent Seven"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 384
 yearPublished: 2023
 publisher: "Jo Fletcher Books"

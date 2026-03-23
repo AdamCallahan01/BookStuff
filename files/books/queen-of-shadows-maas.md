@@ -5,7 +5,7 @@ bookSlug: "queen-of-shadows-maas"
 title: "Queen of Shadows"
 author: "Sarah J. Maas"
 series: "Throne of Glass"
-seriesNumber: "4"
+seriesNumber: 4
 pages: 648
 goodreads: "https://www.goodreads.com/book/show/76707900-queen-of-shadows"
 isbn: "9781639731008"

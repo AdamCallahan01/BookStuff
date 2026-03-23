@@ -5,7 +5,7 @@ bookSlug: "beware-of-chicken-farmer"
 title: "Beware of Chicken"
 author: "Casual Farmer"
 series: "Beware of Chicken"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 485
 yearPublished: 2022
 publisher: "Podium"

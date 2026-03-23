@@ -5,7 +5,7 @@ bookSlug: "mother-of-learning-arc-1-kurmaic"
 title: "Mother of Learning: Arc 1"
 author: "Domagoj Kurmaic"
 series: "Mother of Learning"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 644
 goodreads: "https://www.goodreads.com/book/show/59661342-mother-of-learning?ref=nav_sb_ss_1_18"
 isbn: "9781955252096"

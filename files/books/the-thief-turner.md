@@ -5,7 +5,7 @@ bookSlug: "the-thief-turner"
 title: "The Thief"
 author: "Megan Whalen Turner"
 series: "The Queen's Thief"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 280
 goodreads: "https://www.goodreads.com/book/show/30363359-the-thief"
 isbn: "9780062642967"

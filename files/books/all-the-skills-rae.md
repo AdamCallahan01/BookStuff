@@ -5,7 +5,7 @@ bookSlug: "all-the-skills-rae"
 title: "All the Skills"
 author: "Honour Rae"
 series: "All the Skills"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 513
 yearPublished: 2022
 publisher: "Avocado Ink"

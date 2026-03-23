@@ -5,7 +5,7 @@ bookSlug: "reaper-wight"
 title: "Reaper"
 author: "Will Wight"
 series: "Cradle"
-seriesNumber: "10"
+seriesNumber: 10
 pages: 465
 yearPublished: 2021
 publisher: "Hidden Gnome"

@@ -5,7 +5,7 @@ bookSlug: "the-kings-of-clonmel-flanagan"
 title: "The Kings of Clonmel"
 author: "John Flanagan"
 series: "Ranger's Apprentice"
-seriesNumber: "8"
+seriesNumber: 8
 pages: 320
 goodreads: "https://www.goodreads.com/book/show/20213572-the-kings-of-clonmel"
 isbn: "9781101187722"

@@ -5,7 +5,7 @@ bookSlug: "white-sand-volume-1-sanderson"
 title: "White Sand, Volume 1"
 author: "Brandon Sanderson"
 series: "White Sand"
-seriesNumber: "1"
+seriesNumber: 1
 pages: 160
 goodreads: "https://www.goodreads.com/book/show/28862254-white-sand-volume-1?ref=nav_sb_ss_1_10"
 isbn: "9781606908853"
