@@ -17,17 +17,17 @@ subgenre: "Progression"
 isbn: "9781039466500"
 narrator: "Gary Furlong"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "elevation-of-mana-a-progression-fantasy-agent-summary"
 summarySlugLink: "[[elevation-of-mana-a-progression-fantasy-agent-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 2.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 2.5
+allScores: [2.5]
 readSlugs: ["elevation-of-mana-a-progression-fantasy-agent-1"]
 readSlugsLinks: ["[[elevation-of-mana-a-progression-fantasy-agent-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "elevation-of-mana-a-progression-fantasy-agent-cover"
 ---
 

@@ -1,0 +1,21 @@
+<script>
+    const trivia = {{ triviaFlat | dump | safe }};
+    const randomTrivia = trivia[Math.floor(Math.random() * trivia.length)];
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const el = document.getElementById("random-trivia");
+
+        el.innerHTML = `
+      <div class="trivia-card">
+        <p><strong>${randomTrivia.question}</strong></p>
+        <p class="meta">${randomTrivia.series} — ${randomTrivia.book}</p>
+        <p class="answer">${randomTrivia.answer}</p>
+      </div>
+    `;
+    });
+</script>
+
+<aside>
+    <h3>Random Trivia</h3>
+    <div id="random-trivia">Loading...</div>
+</aside>

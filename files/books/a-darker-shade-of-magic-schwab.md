@@ -3,7 +3,7 @@ layout: "book.njk"
 permalink: "/books/a-darker-shade-of-magic-schwab/"
 bookSlug: "a-darker-shade-of-magic-schwab"
 title: "A Darker Shade of Magic"
-author: "V. S. Schwab"
+author: "V. E. Schwab"
 series: "Shades of Magic"
 seriesNumber: 1
 pages: 400

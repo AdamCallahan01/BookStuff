@@ -1,0 +1,115 @@
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Lists Page */
+/* Wrapper and panels */
+.rankings-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.ranking-panel {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+
+.ranking-panel h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Ordered list styling */
+.ranked-list {
+  margin: 0;
+  padding-left: 1.8rem;
+}
+
+.rank-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.75rem;
+}
+
+/* Inner container: cover + text */
+.rank-item-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+/* Book cover thumbnail */
+.book-cover-list {
+  width: 60px;       /* fixed width */
+  height: 90px;      /* fixed height */
+  object-fit: cover; /* maintain aspect ratio, crop if needed */
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* Text content */
+.rank-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title link */
+.rank-title a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.rank-title a:hover {
+  text-decoration: underline;
+}
+
+/* Metadata (series + author) */
+.rank-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 2px;
+}
+
+/* Top series list simpler */
+.ranked-series li {
+  margin-bottom: 0.4rem;
+}
+
+/* Responsive: stack panels on small screens */
+@media (max-width: 900px) {
+  .rankings-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .rank-item-inner {
+    gap: 0.5rem;
+  }
+
+  .book-cover {
+    width: 50px;
+    height: 75px;
+  }
+}
+
+.series-mosaic {
+  width: 60px;
+  height: 90px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 2px;
+
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.series-mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

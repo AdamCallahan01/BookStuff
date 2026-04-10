@@ -4,7 +4,7 @@ permalink: "/books/on-the-shoulders-of-titans-rowe/"
 bookSlug: "on-the-shoulders-of-titans-rowe"
 title: "On the Shoulders of Titans"
 author: "Andrew Rowe"
-series: "Sufficiently Advanced Magic"
+series: "Arcane Ascension"
 seriesNumber: 2
 pages: 742
 yearPublished: 2018

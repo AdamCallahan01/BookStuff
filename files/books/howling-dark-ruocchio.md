@@ -4,7 +4,7 @@ permalink: "/books/howling-dark-ruocchio/"
 bookSlug: "howling-dark-ruocchio"
 title: "Howling Dark"
 author: "Christopher Ruocchio"
-series: "Sun Eater"
+series: "The Sun Eater"
 seriesNumber: 2
 pages: 688
 yearPublished: 2019

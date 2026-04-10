@@ -1,0 +1,29 @@
+<script>
+  const randomBooks = {{ collections.books | bookClientData | dump | safe }};
+  const random = randomBooks[Math.floor(Math.random() * randomBooks.length)];
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const el = document.getElementById("random-book");
+
+    el.innerHTML = `
+      <a href="${random.url}" class="book-card">
+        ${random.coverSlug ? `
+          <img src="/files/covers/${random.coverSlug}.jpg" alt="${random.title} cover">
+        ` : ""}
+
+        <div class="overlay">
+          ⭐ ${random.hasScore ? random.averageScore : "N/A"}
+          | 📖 ${random.readCount}
+        </div>
+
+        <h2>${random.title}</h2>
+        <p>${random.author}</p>
+      </a>
+    `;
+  });
+</script>
+ 
+<aside class="book-card">
+  <h3>Random Book</h3>
+  <p id="random-book">Loading...</p>
+</aside>

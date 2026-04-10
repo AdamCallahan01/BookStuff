@@ -19,9 +19,16 @@
       {% endif %}
       <div class="book-info">
         <h1 class="book-title">{{ title }}</h1>
+        <a class="book-author" href="/books/?author={{ author | lower | urlencode }}">
+            <strong>Author:</strong> {{ author }}
+        </a>
         <p class="book-author"><strong>Author:</strong> {{ author }}</p>
         {% if series != "N/A" %}
-          <p class="book-series"><strong>Series:</strong> {{ series }} {% if seriesNumber != "N/A" %} ({{ seriesNumber }}){% endif %}</p>
+          <a class="book-series" href="/books/?series={{ series | lower | urlencode }}">
+            <strong>Series:</strong> {{ series }}
+            {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
+          </a>
+          <p class="book-series"><strong>Series:</strong> {{ series }} {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}</p>
         {% endif %}
         <p class="book-pages"><strong>Pages:</strong> {{ pages }}</p>
         <p class="book-year-pub"><strong>Published:</strong> {{ yearPublished }} | <strong>Publisher:</strong> {{ publisher }}</p>

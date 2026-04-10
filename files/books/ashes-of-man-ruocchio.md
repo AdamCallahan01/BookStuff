@@ -4,7 +4,7 @@ permalink: "/books/ashes-of-man-ruocchio/"
 bookSlug: "ashes-of-man-ruocchio"
 title: "Ashes of Man"
 author: "Christopher Ruocchio"
-series: "Sun Eater"
+series: "The Sun Eater"
 seriesNumber: 5
 pages: 544
 yearPublished: 2022

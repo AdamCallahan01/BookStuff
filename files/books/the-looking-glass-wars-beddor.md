@@ -16,17 +16,17 @@ genre: "Fantasy"
 subgenre: "YA"
 isbn: "9780803731530"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-looking-glass-wars-beddor-summary"
 summarySlugLink: "[[the-looking-glass-wars-beddor-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 6.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 6.5
+allScores: [6.5]
 readSlugs: ["the-looking-glass-wars-beddor-1"]
 readSlugsLinks: ["[[the-looking-glass-wars-beddor-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-looking-glass-wars-beddor-cover"
 ---
 

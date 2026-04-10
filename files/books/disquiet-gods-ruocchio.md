@@ -4,7 +4,7 @@ permalink: "/books/disquiet-gods-ruocchio/"
 bookSlug: "disquiet-gods-ruocchio"
 title: "Disquiet Gods"
 author: "Christopher Ruocchio"
-series: "Sun Eater"
+series: "The Sun Eater"
 seriesNumber: 6
 pages: 704
 yearPublished: 2024

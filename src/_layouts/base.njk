@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or "Library" }}</title>
+  <title>{{ "Library" }}</title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/files/covers/favicon.png">
@@ -11,11 +11,13 @@
 
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/elasticlunr.min.js" defer></script>
-  <script src="/js/search.js" defer></script></head>
-<body>
-  {% include "header.njk" %}
-  <main>
+  <script src="/js/search.js" defer></script>
+</head>
+
+
+{% include "header.njk" %}
+<main class="base-layout">
+  {% block content %}
     {{ content | safe }}
-  </main>
-</body>
-</html>
+  {% endblock %}
+</main>

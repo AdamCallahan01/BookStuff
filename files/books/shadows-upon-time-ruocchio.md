@@ -4,7 +4,7 @@ permalink: "/books/shadows-upon-time-ruocchio/"
 bookSlug: "shadows-upon-time-ruocchio"
 title: "Shadows Upon Time"
 author: "Christopher Ruocchio"
-series: "Sun Eater"
+series: "The Sun Eater"
 seriesNumber: 7
 pages: 928
 yearPublished: 2025

@@ -8,7 +8,11 @@
   <script src="/js/search.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
+  <head>
+    <link rel="stylesheet" href="/css/header.css">
+</head>
+
+<header class="site-header">
     <div class="site-title">
         <a href="/" class="nav-link">My Library</a>
     </div>
@@ -50,9 +54,16 @@
       
       <div class="book-info">
         <h1 class="book-title">The Hobbit</h1>
+        <a class="book-author" href="/books/?author=j.r.r.%20tolkien">
+            <strong>Author:</strong> J.R.R. Tolkien
+        </a>
         <p class="book-author"><strong>Author:</strong> J.R.R. Tolkien</p>
         
-          <p class="book-series"><strong>Series:</strong> The Lord of the Rings  (0)</p>
+          <a class="book-series" href="/books/?series=the%20lord%20of%20the%20rings">
+            <strong>Series:</strong> The Lord of the Rings
+             (# 0)
+          </a>
+          <p class="book-series"><strong>Series:</strong> The Lord of the Rings  (# 0)</p>
         
         <p class="book-pages"><strong>Pages:</strong> 366</p>
         <p class="book-year-pub"><strong>Published:</strong> 1937 | <strong>Publisher:</strong> Houghton Mifflin</p>
@@ -666,6 +677,16 @@
         
             
             
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             
