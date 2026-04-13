@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+  <link rel="shortcut icon" href="/files/other/favicon.ico">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/elasticlunr.min.js" defer></script>
+  <script src="/js/search.js" defer></script>
+</head>
+
+
+<head>
+    <link rel="stylesheet" href="/css/header.css">
+</head>
+
+<header class="site-header">
+    <div class="site-title">
+        <a href="/" class="nav-link">My Library</a>
+    </div>
+
+        <div class="search-container">
+
+        <input type="text" id="searchInput" placeholder="Search books..." autocomplete="one-time-code" />
+
+        <div class="search-options-wrapper">
+            <button type="button" id="searchOptionsBtn">Options ▼</button>
+
+            <div class="search-options-dropdown" id="searchOptionsDropdown">
+            <label>
+                <input type="checkbox" id="includeSummaries">
+                Include summaries
+            </label>
+            </div>
+        </div>
+
+        <div id="searchResults" class="search-results-dropdown"></div>
+
+        </div>
+
+    <nav>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/books/" class="nav-link">Books</a>
+        <a href="/lists/" class="nav-link">Lists</a>
+        <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+        <a href="/about/" class="nav-link">About</a>
+    </nav>
+</header>
+<main class="base-layout">
+  
+    
+<body>
+  <main class="three-column-layout">
+
+    <aside></aside>
+
+    <div>
+      <div class="book-header">
+        
+          <img class="book-cover" src="/files/covers/tiamat-s-wrath-corey-cover.jpg" alt="Tiamat&#39;s Wrath cover">
+        
+        <div class="book-info">
+          <h1 class="book-title">Tiamat&#39;s Wrath</h1>
+          <a class="book-author" href="/books/?author=james%20s.a.%20corey">
+            <strong>Author:</strong>
+            James S.A. Corey
+          </a>
+          <p class="book-author">
+            <strong>Author:</strong>
+            James S.A. Corey</p>
+          
+            <a class="book-series" href="/books/?series=the%20expanse">
+              <strong>Series:</strong>
+              The Expanse
+               (# 8)
+            </a>
+            <p class="book-series">
+              <strong>Series:</strong>
+              The Expanse
+               (# 8)
+            </p>
+          
+          <p class="book-pages">
+            <strong>Pages:</strong>
+            534</p>
+          <p class="book-year-pub">
+            <strong>Published:</strong>
+            2019 | <strong>Publisher:</strong>
+            Orbit Books</p>
+          <p class="book-genre">
+            <strong>Genre:</strong>
+            Science Fiction
+             / Space Opera
+            
+          </p>
+          <p class="book-isbn">
+            <strong>ISBN:</strong>
+            9780316332873</p>
+          <p class="book-goodreads">
+            <strong>Goodreads:</strong>
+            <a href="https://www.goodreads.com/book/show/28335698-tiamat-s-wrath" target="_blank">Link</a>
+          | Rating: 9.14 (83577 ratings)
+        </p>
+          <p class="book-score">
+            <strong>Latest Score:</strong>
+            0
+             | <strong>Average Score:</strong>
+            0
+             | <strong>Read Count:</strong>
+            1</p>
+          <p class="book-owned">
+            <strong>Owned:</strong>
+            Yes
+          </p>
+        </div>
+      </div>
+
+      <!-- ===== Reads Section ===== -->
+      
+        <section class="book-reads-section">
+          <h2 class="section-title">Read History</h2>
+          
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                
+              
+            
+
+            
+              <details class="book-read-entry">
+                <summary class="book-read-summary">
+                  
+                Read 1
+                  
+                  
+                | Score: 
+                  
+                </summary>
+                <div class="book-read-content">
+                  
+                    <em>No review provided.</em>
+                  
+                  <p>
+                    <strong>Format:</strong>
+                    Book</p>
+                  <p>
+                    <strong>Days:</strong>
+                    </p>
+                  
+                    <p>
+                      <strong>Date:</strong>
+                      4/8/2026 -></p>
+                  
+                </div>
+              </details>
+            
+          
+        </section>
+      
+
+      <!-- ===== Summary Section ===== -->
+      
+    </div>
+
+    <aside></aside>
+
+  </main>
+</body>
+</html>
+  
+</main>

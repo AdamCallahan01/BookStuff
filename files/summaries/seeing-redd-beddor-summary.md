@@ -4,3 +4,31 @@ summarySlug: "seeing-redd-beddor-summary"
 book: "[[seeing-redd-beddor]]"
 ---
 
+Seeing Redd
+Frank Beddor
+The Looking Glass Wars #2
+Seeing Redd Summary
+
+Queen Alyss Heart is back in control of Wonderland. The kingdom has spent the last several months cleaning up and rebuilding from Redd’s tyranny, but are still watchful since they don’t know what happened to Redd after jumping into the Heart Crystal. Alyss and Bibwit hold a party at the newly rebuilt Heart Palace to say thank you to the citizens and spread kindness. She has officially made Dodge Anders the captain of her palace guard, and Homburg Molly is her new bodyguard since Hatter Maddigan asked for personal time off to mourn. During the party Alyss receives a visit from King Arch who shows off his new bodyguards, Blister and Ripkins, who can burn and cut respectively. He also tries to make her feel uninformed and questions her advisors, as he leaves he finds a button belonging to Homburg Molly.
+
+A bunch of outer outposts manned by Wonderland card soldiers get attacked. Initial reports show that the aggressors are Glass Eyes (Redd’s inventions). Alyss and Dodge both lie to each other to try to make the other one stay in the palace, then both go to defend the city. Alyss lures a bunch of Glass Eyes to a big building then kills them all with her imagination. Dodge thinks this means Redd is back and wants to hunt The Cat, but Alyss persuades him to stay here for now. In the chaos Jack of Diamonds was freed from the crystal mines where he was being kept.
+
+King Arch actually planned the attack on Wonderland. He also freed Jack of Diamonds and meets with the Diamond family. He gives the Lady of Diamonds a box and says do not open it but make sure it gets to Homburg Molly. Molly is training at the reestablished Millinery, and completes the hardest simulation level they have. Lady of Diamonds shows up and gives her the box and says it is only for Alyss, no one else. Molly is suspicious and opens the box in the Crystal Continuum on the way home, causing a big explosion that kicks everyone out of the continuum and knocks her unconscious. Arch used the button to scent some seeker birds and Ripkins and Blister kidnap Molly.
+
+Hatter is mourning at the top of Talon Point, the tallest mountain in Wonderland. It is where he used to meet his lover, Weaver. She was a civilian who worked for the Millinery. He finds her diary and learns she was pregnant, and their daughter’s name is Molly. He assumes Weaver is dead. Hatter returns to Wonderland to find Molly. Meanwhile, Molly wakes up in Boarderland (ruled by King Arch), wearing a straightjacket-esque suit. Arch introduces her to Weaver, who is still alive.
+
+In Paris, a painter is having trouble painted what he was commissioned for. He keeps drawing blurs that form into two people. Eventually he paints life size renditions of Redd and The Cat, and they break out of the painting and are free in Paris. They explore, and find Vollrath, a member of the Tutor species, like Bibwit, who fled Wonderland long ago. He agrees to help them form an army on Earth using exiled Wonderlanders and cruel Earth people.
+
+King Arch calls Alyss and tells her that Homburg Molly was kidnapped by a neighboring kingdom, but asked him to serve as a mediator. He says Hatter should come to Boarderland to negotiate for her release. Alyss says no after learning Molly is Hatter’s daughter, worried his emotions may get in the way. Alyss and Dodge are having a romantic meal, when they learn Hatter left anyway. Hatter meets with King Arch, who knows he is Molly’s father and reunites him with Weaver, subtly threatening Molly’s life, so Hatter is forced to work with him. Weaver does not believe Arch is the one who kidnapped Molly.
+
+Redd learns from Vollrath that she can still go through her Looking Glass maze and gain it’s powers. They just need to learn from the caterpillars where it is. Arch tells Alyss that the Diamonds are hiding in his country and gives her permission to arrest them. They capture the Lord and Lady but Jack escapes and runs into the Whispering Woods.
+
+Arch gives Hatter a mission to activate a bomb called WILMA. Seems like a nuke made of caterpillar thread. Hatter has to tie a green thread in a specific pattern over Heart Palace. Hatter agrees but then doubles back to hunt for Molly. Redd is ready to enter Wonderland. She and a few of her select elites use Earth puddles to get back to the Pool of Tears and kill the outpost of soldiers there. They meet Jack of Diamonds who avails them of the political situation and says Redd should let him unite the nomadic tribes of Boarderland against King Arch. Redd agrees and goes to the valley of mushrooms to find where her maze is. Only the green caterpillar helps her. It is in her memory. Redd finds it, retrieves her scepter, and is now more powerful than ever. 
+
+Hatter finds Molly and him and Weaver work together to free her. They battle their way free and hideout. Jack convinced all the tribes to work together and when Redd shows up to meet with Arch, she shows him his people now support her. Arch submits, and Redd lets him kill Jack of Diamonds. Then they go to attack Wonderland.
+
+Alyss got a mysterious visit from the blue caterpillar saying she must court defeat to win victory or something. Dodge runs off to find and kill The Cat. Redd summons all of her Earth forces, and the Wonderland troops are losing all over. Redd seems to be stronger than Alyss. Dodge is getting distracted by a decoy cat. 
+
+Hatter and Molly start doing damage to the rear of the Boarderland forces. They are killing a ton of them, when a bomb rolls near Molly, and Weaver sacrifices herself to save Molly. She actually dies this time.
+
+Alyss orders all the troops to retreat, but make it look like they are still fighting. When they are almost to Heart Palace she tells Hatter to go tie the green thread, but over Talon Point instead of Heart Palace. He does and huge explosion rocks the world. Imagination powers no longer seem to work, and Redd, thinking that Alyss did this and is not affected, retreats to rebuild her forces. Arch senses weakness and plans to overthrow her. 

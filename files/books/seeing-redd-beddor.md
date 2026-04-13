@@ -16,17 +16,17 @@ genre: "Fantasy"
 subgenre: "YA"
 isbn: "9780803731554"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "seeing-redd-beddor-summary"
 summarySlugLink: "[[seeing-redd-beddor-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4.5
+allScores: [4.5]
 readSlugs: ["seeing-redd-beddor-1"]
 readSlugsLinks: ["[[seeing-redd-beddor-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "seeing-redd-beddor-cover"
 ---
 

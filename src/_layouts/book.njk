@@ -1,123 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ title }} — My Library</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="/js/elasticlunr.min.js" defer></script>
-  <script src="/js/search.js" defer></script>
-</head>
+---
+layout: base.njk
+---
+
 <body>
-  {% include "header.njk" %}
+  <main class="three-column-layout">
 
-  <main class="book-main-container">
+    <aside></aside>
 
-    <!-- Book Header -->
-    <div class="book-header">
-      {% if coverSlug %}
-        <img class="book-cover" src="/files/covers/{{ coverSlug }}.jpg" alt="{{ title }} cover">
-      {% endif %}
-      <div class="book-info">
-        <h1 class="book-title">{{ title }}</h1>
-        <a class="book-author" href="/books/?author={{ author | lower | urlencode }}">
-            <strong>Author:</strong> {{ author }}
-        </a>
-        <p class="book-author"><strong>Author:</strong> {{ author }}</p>
-        {% if series != "N/A" %}
-          <a class="book-series" href="/books/?series={{ series | lower | urlencode }}">
-            <strong>Series:</strong> {{ series }}
-            {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
-          </a>
-          <p class="book-series"><strong>Series:</strong> {{ series }} {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}</p>
+    <div>
+      <div class="book-header">
+        {% if coverSlug %}
+          <img class="book-cover" src="/files/covers/{{ coverSlug }}.jpg" alt="{{ title }} cover">
         {% endif %}
-        <p class="book-pages"><strong>Pages:</strong> {{ pages }}</p>
-        <p class="book-year-pub"><strong>Published:</strong> {{ yearPublished }} | <strong>Publisher:</strong> {{ publisher }}</p>
-        <p class="book-genre"><strong>Genre:</strong> {{ genre }}{% if subgenre %} / {{ subgenre }}{% endif %}</p>
-        <p class="book-isbn"><strong>ISBN:</strong> {{ isbn }}</p>
-        <p class="book-goodreads">
-          <strong>Goodreads:</strong> <a href="{{ goodreads }}" target="_blank">Link</a>
+        <div class="book-info">
+          <h1 class="book-title">{{ title }}</h1>
+          <a class="book-author" href="/books/?author={{ author | lower | urlencode }}">
+            <strong>Author:</strong>
+            {{ author }}
+          </a>
+          <p class="book-author">
+            <strong>Author:</strong>
+            {{ author }}</p>
+          {% if series != "N/A" %}
+            <a class="book-series" href="/books/?series={{ series | lower | urlencode }}">
+              <strong>Series:</strong>
+              {{ series }}
+              {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
+            </a>
+            <p class="book-series">
+              <strong>Series:</strong>
+              {{ series }}
+              {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
+            </p>
+          {% endif %}
+          <p class="book-pages">
+            <strong>Pages:</strong>
+            {{ pages }}</p>
+          <p class="book-year-pub">
+            <strong>Published:</strong>
+            {{ yearPublished }} | <strong>Publisher:</strong>
+            {{ publisher }}</p>
+          <p class="book-genre">
+            <strong>Genre:</strong>
+            {{ genre }}
+            {% if subgenre %} / {{ subgenre }}
+            {% endif %}
+          </p>
+          <p class="book-isbn">
+            <strong>ISBN:</strong>
+            {{ isbn }}</p>
+          <p class="book-goodreads">
+            <strong>Goodreads:</strong>
+            <a href="{{ goodreads }}" target="_blank">Link</a>
           | Rating: {{ avgGoodreadsRating }} ({{ numGoodreadsRatings }} ratings)
         </p>
-        <p class="book-score"><strong>Latest Score:</strong> {% if hasScore %}{{ latestScore }}{% else %}N/A{% endif %} | <strong>Average Score:</strong> {% if hasScore %}{{ averageScore }}{% else %}N/A{% endif %} | <strong>Read Count:</strong> {{ readCount }}</p>
-        <p class="book-owned"><strong>Owned:</strong> {% if bookOwned %}Yes{% else %}No{% endif %}</p>
+          <p class="book-score">
+            <strong>Latest Score:</strong>
+            {% if hasScore %}{{ latestScore }}
+            {% else %}N/A{% endif %} | <strong>Average Score:</strong>
+            {% if hasScore %}{{ averageScore }}
+            {% else %}N/A{% endif %} | <strong>Read Count:</strong>
+            {{ readCount }}</p>
+          <p class="book-owned">
+            <strong>Owned:</strong>
+            {% if bookOwned %}Yes{% else %}No{% endif %}
+          </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Optional Book Content 
-    {% if content %}
-      <section class="book-content">
-        {{ content | safe }}
-      </section>
-    {% endif %} -->
+      <!-- ===== Reads Section ===== -->
+      {% if readSlugs and readSlugs | length > 0 %}
+        <section class="book-reads-section">
+          <h2 class="section-title">Read History</h2>
+          {% for readSlug in readSlugs %}
+            {% set readForBook = null %}
+            {% for r in collections.reads %}
+              {% if r.data.readSlug == readSlug %}
+                {% set readForBook = r %}
+              {% endif %}
+            {% endfor %}
 
-    <!-- ===== Reads Section ===== -->
-    {% if readSlugs and readSlugs | length > 0 %}
-    <section class="book-reads-section">
-        <h2 class="section-title">Read History</h2>
-        {% for readSlug in readSlugs %}
-        {% set readForBook = null %}
-        {% for r in collections.reads %}
-            {% if r.data.readSlug == readSlug %}
-            {% set readForBook = r %}
-            {% endif %}
-        {% endfor %}
-
-        {% if readForBook %}
-            <details class="book-read-entry">
-            <summary class="book-read-summary">
-                {% if readForBook.data.yearRead %}
-                {{ readForBook.data.yearRead }}
-                {% else %}
+            {% if readForBook %}
+              <details class="book-read-entry">
+                <summary class="book-read-summary">
+                  {% if readForBook.data.yearRead %}
+                    {{ readForBook.data.yearRead }}
+                  {% else %}
                 Read {{ readForBook.data.readNumber }}
-                {% endif %}
-                {% if hasScore %}
+                  {% endif %}
+                  {% if hasScore %}
                 | Score: {{ readForBook.data.score }}
-                {% else %}
+                  {% else %}
                 | Score: N/A
                 {% endif %}
-            </summary>
-            <div class="book-read-content">
-                {% if readForBook.data.hasReview %}
-                {{ readForBook.templateContent | safe }}
-                {% else %}
-                <em>No review provided.</em>
-                {% endif %}
-                <p><strong>Format:</strong> {{ readForBook.data.format }}</p>
-                <p><strong>Days:</strong> {{ readForBook.data.days }}</p>
-                {% if readForBook.data.dateStarted and readForBook.data.dateFinished %}
-                    <p><strong>Date:</strong> {{ readForBook.data.dateStarted }} -> {{ readForBook.data.dateFinished }}</p>
-                {% elif readForBook.data.dateStarted %}
-                    <p><strong>Date:</strong> {{ readForBook.data.dateStarted }} -></p>
-                {% else %}
-                    <p><strong>Year Read:</strong> {{ readForBook.data.yearRead }}</p>
-                {% endif %}
-            </div>
-            </details>
-        {% endif %}
-        {% endfor %}
-    </section>
-    {% endif %}
-
-    <!-- ===== Summary Section ===== -->
-    {% if hasSummary %}
-    {% set summary = null %}
-    {% for s in collections.summaries %}
-        {% if s.data.summarySlug == summarySlug %}
-        {% set summary = s %}
-        {% endif %}
-    {% endfor %}
-
-    {% if summary %}
-        <section class="book-summary-section">
-        <details class="book-summary-entry">
-            <summary class="book-summary-summary">Summary</summary>
-            <div class="book-summary-content">
-            {{ summary.templateContent | safe }}
-            </div>
-        </details>
+                </summary>
+                <div class="book-read-content">
+                  {% if readForBook.data.hasReview %}
+                    {{ readForBook.templateContent | safe }}
+                  {% else %}
+                    <em>No review provided.</em>
+                  {% endif %}
+                  <p>
+                    <strong>Format:</strong>
+                    {{ readForBook.data.format }}</p>
+                  <p>
+                    <strong>Days:</strong>
+                    {{ readForBook.data.days }}</p>
+                  {% if readForBook.data.dateStarted and readForBook.data.dateFinished %}
+                    <p>
+                      <strong>Date:</strong>
+                      {{ readForBook.data.dateStarted }} -> {{ readForBook.data.dateFinished }}</p>
+                  {% elif readForBook.data.dateStarted %}
+                    <p>
+                      <strong>Date:</strong>
+                      {{ readForBook.data.dateStarted }} -></p>
+                  {% else %}
+                    <p>
+                      <strong>Year Read:</strong>
+                      {{ readForBook.data.yearRead }}</p>
+                  {% endif %}
+                </div>
+              </details>
+            {% endif %}
+          {% endfor %}
         </section>
-    {% endif %}
-    {% endif %}
+      {% endif %}
+
+      <!-- ===== Summary Section ===== -->
+      {% if hasSummary %}
+        {% set summary = null %}
+        {% for s in collections.summaries %}
+          {% if s.data.summarySlug == summarySlug %}
+            {% set summary = s %}
+          {% endif %}
+        {% endfor %}
+
+        {% if summary %}
+          <section class="book-summary-section">
+            <details class="book-summary-entry">
+              <summary class="book-summary-summary">Summary</summary>
+              <div class="book-summary-content">
+                {{ summary.templateContent | safe }}
+              </div>
+            </details>
+          </section>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <aside></aside>
 
   </main>
 </body>
