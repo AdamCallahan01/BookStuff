@@ -7,6 +7,7 @@ author: "Susanna Clarke"
 series: "N/A"
 seriesNumber: null
 pages: 272
+wordCount: 85000
 yearPublished: 2020
 publisher: "Bloomsbury"
 goodreads: "https://www.goodreads.com/book/show/50202953-piranesi"

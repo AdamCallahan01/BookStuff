@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 8
 pages: 1295
+wordCount: 391000
 yearPublished: 2008
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/938544.Toll_the_Hounds"

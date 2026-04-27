@@ -7,6 +7,7 @@ author: "Tui T. Sutherland"
 series: "Wings of Fire"
 seriesNumber: 7
 pages: 336
+wordCount: 67755
 yearPublished: 2015
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/23604435-winter-turning"

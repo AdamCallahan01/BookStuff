@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "The Age of Madness"
 seriesNumber: 1
 pages: 480
+wordCount: 177800
 yearPublished: 2019
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/35606041-a-little-hatred"

@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 7
 pages: 357
+wordCount: 76367
 yearPublished: 2010
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/7005865-the-atlantis-complex"

@@ -7,6 +7,7 @@ author: "Brandon Sanderson"
 series: "Cosmere"
 seriesNumber: 30
 pages: 447
+wordCount: 101582
 yearPublished: 2023
 publisher: "Dragonsteel"
 goodreads: "https://www.goodreads.com/book/show/60531420-the-sunlit-man"

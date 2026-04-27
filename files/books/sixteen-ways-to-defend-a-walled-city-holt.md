@@ -7,6 +7,7 @@ author: "K. J. Parker (Tom Holt)"
 series: "The Siege"
 seriesNumber: 1
 pages: 350
+wordCount: 106400
 yearPublished: 2019
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/37946419-sixteen-ways-to-defend-a-walled-city?ref=nav_sb_ss_1_11"

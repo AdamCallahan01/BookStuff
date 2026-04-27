@@ -7,6 +7,7 @@ author: "James Islington"
 series: "Hierarchy"
 seriesNumber: 2
 pages: 720
+wordCount: 250000
 yearPublished: 2023
 publisher: "Text Publishing"
 goodreads: "https://www.goodreads.com/book/show/231308549-the-strength-of-the-few"

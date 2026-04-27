@@ -7,6 +7,7 @@ author: "Brian Lee Durfee"
 series: "The Five Warrior Angels"
 seriesNumber: 1
 pages: 800
+wordCount: 250000
 yearPublished: 2016
 publisher: "Saga Press"
 goodreads: "https://www.goodreads.com/book/show/27206615-the-forgetting-moon?ref=nav_sb_ss_1_19"

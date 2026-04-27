@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 2
 pages: 688
+wordCount: 264990
 yearPublished: 2019
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/42298449-howling-dark"

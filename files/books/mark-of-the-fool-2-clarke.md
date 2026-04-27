@@ -7,6 +7,7 @@ author: "J.M. Clarke"
 series: "Mark of the Fool"
 seriesNumber: 2
 pages: 795
+wordCount: 238500
 yearPublished: 2023
 publisher: "Aethon Books"
 goodreads: "https://www.goodreads.com/book/show/62834271-mark-of-the-fool-2"

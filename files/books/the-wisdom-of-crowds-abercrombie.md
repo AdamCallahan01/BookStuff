@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "The Age of Madness"
 seriesNumber: 3
 pages: 520
+wordCount: 199200
 yearPublished: 2021
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/56597275-the-wisdom-of-crowds"

@@ -7,13 +7,14 @@ author: "Joe Abercrombie"
 series: "The Devils"
 seriesNumber: 1
 pages: 525
+wordCount: 250000
 yearPublished: 2025
 publisher: "Broken Binding"
 goodreads: "https://www.goodreads.com/book/show/233800039-the-devils"
 avgGoodreadsRating: "8.72"
 numGoodreadsRatings: "3,981"
 genre: "Fantasy"
-subgenre: "Adult"
+subgenre: "Dark"
 isbn: "9781250880055"
 bookOwned: true
 hasSummary: false

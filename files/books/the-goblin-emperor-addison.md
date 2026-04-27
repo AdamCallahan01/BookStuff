@@ -7,6 +7,7 @@ author: "Katherine Addison"
 series: "The Chronicles of Osreth"
 seriesNumber: 1
 pages: 446
+wordCount: 142825
 yearPublished: 2014
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/17910048-the-goblin-emperor"

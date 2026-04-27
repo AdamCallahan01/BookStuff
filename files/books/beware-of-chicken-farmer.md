@@ -7,6 +7,7 @@ author: "Casual Farmer"
 series: "Beware of Chicken"
 seriesNumber: 1
 pages: 485
+wordCount: 115000
 yearPublished: 2022
 publisher: "Podium"
 goodreads: "https://www.goodreads.com/book/show/60888209-beware-of-chicken?ref=nav_sb_ss_1_17"

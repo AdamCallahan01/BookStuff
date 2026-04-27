@@ -7,6 +7,7 @@ author: "Suzanne Collins"
 series: "Underland Chronicles"
 seriesNumber: 4
 pages: 343
+wordCount: 85750
 yearPublished: 2006
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/319644.Gregor_and_the_Marks_of_Secret?ref=nav_sb_ss_1_13"

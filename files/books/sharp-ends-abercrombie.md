@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "First Law World"
 seriesNumber: 7
 pages: 304
+wordCount: 102805
 yearPublished: 2016
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/26030742-sharp-ends"

@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 1
 pages: 396
+wordCount: 118404
 yearPublished: 2001
 publisher: "Miramax"
 goodreads: "https://www.goodreads.com/book/show/18376853-artemis-fowl"

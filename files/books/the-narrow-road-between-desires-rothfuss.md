@@ -7,6 +7,7 @@ author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
 seriesNumber: 2.6
 pages: 240
+wordCount: 35000
 yearPublished: 2023
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/157265081-the-narrow-road-between-desires?ref=nav_sb_ss_1_21"

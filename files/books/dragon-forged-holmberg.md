@@ -7,6 +7,7 @@ author: "Dan Michaelson, D. K. Holmberg"
 series: "Blood of the Ancients"
 seriesNumber: 1
 pages: 286
+wordCount: 78650
 yearPublished: 2022
 publisher: "ASH"
 goodreads: "https://www.goodreads.com/book/show/61783155-dragon-forged"

@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 9
 pages: 378
+wordCount: 105000
 yearPublished: 2021
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/141821002-bloodline"

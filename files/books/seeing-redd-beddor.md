@@ -7,6 +7,7 @@ author: "Frank Beddor"
 series: "The Looking Glass Wars"
 seriesNumber: 2
 pages: 371
+wordCount: 115000
 yearPublished: 2007
 publisher: "Dial Books"
 goodreads: "https://www.goodreads.com/book/show/289695.Seeing_Redd"

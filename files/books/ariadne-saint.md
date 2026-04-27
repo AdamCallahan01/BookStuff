@@ -7,6 +7,7 @@ author: "Jennifer Saint"
 series: "N/A"
 seriesNumber: null
 pages: 308
+wordCount: 95000
 yearPublished: 2021
 publisher: "Flatiron"
 goodreads: "https://www.goodreads.com/book/show/54860614-ariadne?ref=nav_sb_ss_1_7"

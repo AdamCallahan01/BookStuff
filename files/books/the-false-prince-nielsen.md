@@ -7,6 +7,7 @@ author: "Jennifer A. Nielsen"
 series: "Ascendance"
 seriesNumber: 1
 pages: 342
+wordCount: 88000
 yearPublished: 2012
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/12432220-the-false-prince"

@@ -7,6 +7,7 @@ author: "Ryan Cahill"
 series: "The Bound and the Broken"
 seriesNumber: 3
 pages: 1483
+wordCount: 430000
 yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/123248442-of-war-and-ruin"

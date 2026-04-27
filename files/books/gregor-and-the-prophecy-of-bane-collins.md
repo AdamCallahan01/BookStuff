@@ -7,6 +7,7 @@ author: "Suzanne Collins"
 series: "Underland Chronicles"
 seriesNumber: 2
 pages: 312
+wordCount: 80000
 yearPublished: 2004
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/385742.Gregor_and_the_Prophecy_of_Bane?ref=nav_sb_ss_1_16"

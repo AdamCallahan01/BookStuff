@@ -7,6 +7,7 @@ author: "Dyrk Ashton"
 series: "Paternus Trilogy"
 seriesNumber: 1
 pages: 504
+wordCount: 150000
 yearPublished: 2016
 publisher: "Paternus Books"
 goodreads: "https://www.goodreads.com/en/book/show/35621572-rise-of-gods"

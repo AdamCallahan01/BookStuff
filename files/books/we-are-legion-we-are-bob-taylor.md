@@ -7,6 +7,7 @@ author: "Dennis E. Taylor"
 series: "Bobiverse"
 seriesNumber: 1
 pages: 383
+wordCount: 90000
 yearPublished: 2016
 publisher: "Worldbuilders"
 goodreads: "https://www.goodreads.com/book/show/35014337-we-are-legion-we-are-bob"

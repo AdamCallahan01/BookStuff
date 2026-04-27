@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 4
 pages: 292
+wordCount: 86760
 yearPublished: 2017
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/123289362-skysworn"

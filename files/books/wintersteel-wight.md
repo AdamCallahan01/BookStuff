@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 8
 pages: 540
+wordCount: 145000
 yearPublished: 2020
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/123877214-wintersteel"

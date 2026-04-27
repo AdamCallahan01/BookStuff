@@ -7,6 +7,7 @@ author: "Nicoli Gonnella"
 series: "Unbound"
 seriesNumber: 1
 pages: 778
+wordCount: 213950
 yearPublished: 2022
 publisher: "Mountaindale"
 goodreads: "https://www.goodreads.com/book/show/60824343-dissonance"

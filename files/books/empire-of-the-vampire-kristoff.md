@@ -7,6 +7,7 @@ author: "Jay Kristoff"
 series: "Empire of the Vampire"
 seriesNumber: 1
 pages: 739
+wordCount: 220961
 yearPublished: 2021
 publisher: "St. Martin's Press"
 goodreads: "https://www.goodreads.com/en/book/show/56269205"

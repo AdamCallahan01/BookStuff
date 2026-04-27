@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 5.6
 pages: 332
+wordCount: 84896
 yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/202102422-the-dregs-of-empire"

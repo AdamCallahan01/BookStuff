@@ -7,6 +7,7 @@ author: "Tui T. Sutherland"
 series: "Wings of Fire"
 seriesNumber: 2
 pages: 321
+wordCount: 65182
 yearPublished: 2013
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/15809617-the-lost-heir"

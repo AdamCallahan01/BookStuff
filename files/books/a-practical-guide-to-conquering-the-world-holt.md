@@ -7,6 +7,7 @@ author: "K. J. Parker (Tom Holt)"
 series: "The Siege"
 seriesNumber: 3
 pages: 350
+wordCount: 106400
 yearPublished: 2022
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/48897284-a-practical-guide-to-conquering-the-world?ref=nav_sb_ss_1_30"

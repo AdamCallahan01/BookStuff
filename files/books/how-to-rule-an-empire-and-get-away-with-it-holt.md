@@ -7,6 +7,7 @@ author: "K. J. Parker (Tom Holt)"
 series: "The Siege"
 seriesNumber: 2
 pages: 354
+wordCount: 106440
 yearPublished: 2020
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/49088677-how-to-rule-an-empire-and-get-away-with-it?ref=nav_sb_ss_3_17"

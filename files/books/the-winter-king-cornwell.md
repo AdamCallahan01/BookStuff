@@ -7,6 +7,7 @@ author: "Bernard Cornwell"
 series: "The Warlord Chronicles #1"
 seriesNumber: 1
 pages: 431
+wordCount: 108250
 yearPublished: 1994
 publisher: "St. Martins"
 goodreads: "https://www.goodreads.com/book/show/205788549-the-winter-king"

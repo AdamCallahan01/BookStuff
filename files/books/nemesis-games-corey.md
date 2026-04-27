@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 5
 pages: 536
+wordCount: 161000
 yearPublished: 2015
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/22886612-nemesis-games"

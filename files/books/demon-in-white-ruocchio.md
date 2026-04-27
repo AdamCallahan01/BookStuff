@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 3
 pages: 784
+wordCount: 295785
 yearPublished: 2020
 publisher: "Gollancz"
 goodreads: "goodreads.com/book/show/48982144-demon-in-white"

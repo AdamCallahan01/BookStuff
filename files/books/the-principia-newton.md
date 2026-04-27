@@ -7,6 +7,7 @@ author: "Isaac Newton"
 series: "N/A"
 seriesNumber: null
 pages: 974
+wordCount: 116000
 yearPublished: 1687
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/231083.The_Principia_"

@@ -1,0 +1,33 @@
+---
+bookSlug: "the-crown-conspiracy-sullivan"
+summarySlug: "the-crown-conspiracy-sullivan-summary"
+book: "[[the-crown-conspiracy-sullivan]]"
+---
+
+The Crown Conspiracy
+Michael J. Sullivan
+The Riyria Revelations #1
+
+The Crown Conspiracy Summary
+
+Royalist - Monarchy, ruled by single family
+Imperialist - Support the church and want to find the Heir of Novron
+Nationalist - Commoners wanted democracy
+
+Two riders get stopped in the woods by a group of outlaws and we learn the riders are Hadrian Blackwater and Royce Melborn, a pair of thieves known as Ryiria. When the outlaws learn who they are they let them know since they are fairly notorious. They just completed a mission of stealing letters from a very tall tower owned by the noble Archibald Balantine. They return to their base in Melford (capital city of the royalist kingdom of Melengar), the Rose and Thorn, a dingy tavern owned by Gwen DeLancy. Gwen is kind of the big prostitute boss in the city and owns a lot of stuff. They share their earnings with their small crew of helpers.
+
+Hadrian gets approached by a man offering them a lot of money for a relatively easy job of stealing the sword of Count Pickering from the castle chapel, where the man hid it. Royce does not like to jump into jobs without background research but Hadrian talks him into it. They sneak into the castle and get to the chapel safely where they find the dead body of King Amrath. They immediately try to run but a dwarf sounds the alarm and they are caught by castle guards and locked in the dungeon.
+
+Prince Alric is awoken by the noise and upset his father is dead. He orders that in the morning Royce and Hadrian will be executed in public. His sister, Princess Arista, comes and tell them she knows they are innocent, since she was already aware someone within the castle wanted their line dead. She helps them escape on the condition they kidnap Alric to keep him safe, and they are forced to agree. They successfully get out of the castle with their gear and Alrich unconscious.
+
+They travel by boat for a while, before talking to Alric and realizing that most likely Arista organized the murder of the king and now knows where they will end up on the river. They exit the boat and set up decoys, which get shot full of arrows a bit later. Royce steals the horses from the group and they ride to the nearby Winds Abbey, and discover it was burned down by Imperialist troops recently. The only one left is a noble’s third son Myron, a monk with an eidetic memory who has never left the abbey before. Myron tells them there used to be an empire united by Novron, the mortal son of the god Nephron, but he died and now the church looks to find his heir.
+
+They take Myron with them and continue to the prison Arista told them to go to since they have no better plan. They find a magic ancient prison almost 1,000 years old that almost no one knows about, with apparently immortal guards for a single prisoner. They ask to meet Esrahaddon, a wizard, and are allowed to since Alric is technically king. They learn that he was imprisoned for a crime he did not commit, murdering the emperor of an ancient empire. This has founded a religion about finding the Heir of Novron, who will reunite the land under a single banner of the church. Esrahaddon helps them escape the prison using powerful magic after Alric frees them, then helps them out by using logic to show that the dwarf, Magnus, killed the king with the help of Alric’s uncle Percy Braga. The group begins to return to the castle to expose the Archduke Braga.
+
+Meanwhile, Arista stole the blade used to kill her father and uses magic to figure out who orchestrated the plan. While she is waiting her uncle Percy shows up and they talk and she also figures out he planned this. He locks her in her tower and says he will be executing her for witchcraft tomorrow after a trial.
+
+Riyria, Alric, and Myron arrive at an inn and Alric announces who he is and joins a group of his soldiers headed for the castle, with Myron in tow since he has no where else to go. Shortly after they leave the inn the soldiers reveal they are loyal to Percy Braga and are about to kill Alric when Royce and Hadrian show up with some locals and save the day. The group ride to Drondil Fields where Count Pickering lives with his sons, who are good friends of the royal family and Alric. Pickering is upset and agrees to help Alric. He organizes the local nobles to prepare to march on Melford and save Arista. Hadrian is also very, very good with a sword. Royce and Hadrian take off early to save Arista in case the nobles are too slow.
+
+Percy Braga meets with Bishop Saldur, his conspirator, and they have a plan to make all kingdoms Imperialist and reunite the empire with Braga at its head. Archibald Balantine shows up and agrees to help them however he can (he is from the neighboring Imperialist nation). They begin Arista’s trial and the evidence seems to prove she is guilty of killing the king and helping Royce and Hadrian kill Alric. Braga captures two people he think are Riyria in the sewers, but then receives a note saying Arista is free and goes to investigate. He realizes that the two guards going with the dwarf Magnus up to the tower are Royce and Hadrian and him and Hadrian begin to duel. Royce rushes to save Arista, but Magnus has been trapping the tower, and its steps begin to fall as Royce walks on them. He uses a rope and him and Arista manage to barely get to the locked door at the bottom of the tower when Hadrian saves them. 
+
+Meanwhile, Alric and Pickering attack the castle walls, and Royce and Hadrian’s friends organized the common folk to riot in the city. Alric reveals himself and is able to stop most of the fighting because people are loyal to him, and him and Pickering rush to the castle. Braga screams that he was just trying to save the world, and that Alric and Arista are not human. Pickering duels Braga and beheads him, but all the other conspirators of the crime are either unknown or escape. Alric is crowned king and begins to rebuild the kingdom. Myron is given money and workers to rebuild the abbey, and Archibald Balantine wakes up one day with Percy Braga’s head in his lap and a note saying don’t mess with Melengar. THE END.

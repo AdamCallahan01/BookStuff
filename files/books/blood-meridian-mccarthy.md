@@ -7,6 +7,7 @@ author: "Cormac McCarthy"
 series: "N/A"
 seriesNumber: null
 pages: 351
+wordCount: 116404
 yearPublished: 1985
 publisher: "Vintage"
 goodreads: "https://www.goodreads.com/book/show/28715.Blood_Meridian_or_the_Evening_Redness_in_the_West"

@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 1
 pages: 561
+wordCount: 145500
 yearPublished: 2011
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/8855321-leviathan-wakes"

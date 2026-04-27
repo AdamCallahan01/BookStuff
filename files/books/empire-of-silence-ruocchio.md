@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 1
 pages: 753
+wordCount: 225147
 yearPublished: 2018
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/36454667-empire-of-silence?ref=nav_sb_ss_1_17"

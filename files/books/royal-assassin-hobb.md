@@ -7,6 +7,7 @@ author: "Robin Hobb"
 series: "The Farseer Trilogy"
 seriesNumber: 2
 pages: 675
+wordCount: 254765
 yearPublished: 1996
 publisher: "Spectra"
 goodreads: "https://www.goodreads.com/book/show/22016387-royal-assassin"

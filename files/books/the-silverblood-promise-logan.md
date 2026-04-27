@@ -7,6 +7,7 @@ author: "James Logan"
 series: "The Last Legacy"
 seriesNumber: 1
 pages: 528
+wordCount: 163000
 yearPublished: 2024
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/195790755-the-silverblood-promise"

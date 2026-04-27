@@ -7,6 +7,7 @@ author: "Dakota Krout"
 series: "The Completionist Chronicles"
 seriesNumber: 1
 pages: 392
+wordCount: 100000
 yearPublished: 2018
 publisher: "Mountindale"
 goodreads: "https://www.goodreads.com/book/show/38739408-ritualist?from_search=true&from_srp=true&qid=TrF4k3Crs2&rank=1"

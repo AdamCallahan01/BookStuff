@@ -7,6 +7,7 @@ author: "Suzanne Collins"
 series: "Underland Chronicles"
 seriesNumber: 1
 pages: 326
+wordCount: 84000
 yearPublished: 2003
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/262430.Gregor_the_Overlander?from_search=true&from_srp=true&qid=zZtFStQ04l&rank=1"

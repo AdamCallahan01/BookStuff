@@ -7,6 +7,7 @@ author: "James Dashner"
 series: "The Maze Runner"
 seriesNumber: 4
 pages: 327
+wordCount: 86710
 yearPublished: 2012
 publisher: "Delacorte"
 goodreads: "https://www.goodreads.com/book/show/13089710-the-kill-order"

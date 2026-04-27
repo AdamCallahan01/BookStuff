@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 4
 pages: 544
+wordCount: 208311
 yearPublished: 2022
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/57443696-kingdoms-of-death"

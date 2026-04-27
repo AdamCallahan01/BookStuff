@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 5
 pages: 544
+wordCount: 209248
 yearPublished: 2022
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/60427253-ashes-of-man"

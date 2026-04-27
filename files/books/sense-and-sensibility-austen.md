@@ -7,6 +7,7 @@ author: "Jane Austen"
 series: "N/A"
 seriesNumber: null
 pages: 409
+wordCount: 122646
 yearPublished: 1811
 publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/14935.Sense_and_Sensibility"

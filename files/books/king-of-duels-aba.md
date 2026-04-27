@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 16
 pages: 1304
+wordCount: 309135
 yearPublished: 2025
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/231765213-king-of-duels"

@@ -7,6 +7,7 @@ author: "Travis Baldree"
 series: "Legends & Lattes"
 seriesNumber: 1
 pages: 296
+wordCount: 73664
 yearPublished: 2022
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/60314494-legends-lattes"

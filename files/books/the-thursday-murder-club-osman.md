@@ -7,6 +7,7 @@ author: "Richard Osman"
 series: "Thursday Murder Club"
 seriesNumber: 1
 pages: 382
+wordCount: 111926
 yearPublished: 2020
 publisher: "Penguin Books"
 goodreads: "https://www.goodreads.com/book/show/46016436-the-thursday-murder-club"

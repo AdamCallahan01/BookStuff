@@ -7,6 +7,7 @@ author: "Jen Williams"
 series: "The Winnowing Flame Trilogy"
 seriesNumber: 1
 pages: 544
+wordCount: 162656
 yearPublished: 2017
 publisher: "Headline"
 goodreads: "https://www.goodreads.com/book/show/29758013-the-ninth-rain"

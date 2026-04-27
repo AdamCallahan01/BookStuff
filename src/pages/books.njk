@@ -21,10 +21,22 @@ permalink: /books/
   <aside class="sidebar">
     <h2>Filters</h2>
 
-    <div class="slider-group">
+    <div class="slider-group-">
       <label for="scoreSlider">Score Range:</label>
       <div id="scoreSlider"></div>
       <div id="scoreLabel"></div>
+    </div>
+
+    <div class="slider-group">
+      <label for="pageSlider">Page Range:</label>
+      <div id="pageSlider"></div>
+      <div id="pageLabel"></div>
+    </div>
+
+    <div id="countSliderParent" class="slider-group">
+      <label for="countSlider">Count:</label>
+      <div id="countSlider"></div>
+      <div id="countLabel"></div>
     </div>
 
     <div class="sidebar-checkbox-group">
@@ -94,9 +106,9 @@ permalink: /books/
           >
 
           <div class="search-filter-options">
-            <label><input id="booksSearchTitle" type="checkbox" value="title" checked> Title</label>
-            <label><input id="booksSearchAuthor" type="checkbox" value="author" checked> Author</label>
-            <label><input id="booksSearchSeries" type="checkbox" value="series" checked> Series</label>
+            <label><input id="booksSearchTitle" type="checkbox" value="true" checked>Title</label>
+            <label><input id="booksSearchAuthor" type="checkbox" value="true" checked>Author</label>
+            <label><input id="booksSearchSeries" type="checkbox" value="true" checked>Series</label>
           </div>
         </div>
 
@@ -155,7 +167,7 @@ permalink: /books/
           data-numGoodreadsRatings="{{ book.data.numGoodreadsRatings | lower }}"
           data-hasSummary="{{ book.data.hasSummary or false }}"
           data-hasScore="{{ book.data.hasScore or false }}"
-          data-readCount="{{ book.data.readCount or 0 }}"
+          data-count="{{ book.data.readCount or 0 }}"
           data-genre="{{ book.data.genre | lower }}"
           data-subgenre="{{ book.data.subgenre | lower }}"
           data-owned="{{ book.data.bookOwned or false }}"
@@ -206,7 +218,7 @@ permalink: /books/
               data-readCount="{{ book.data.readCount or 0 }}"
               data-genre="{{ book.data.genre | lower }}"
               data-subgenre="{{ book.data.subgenre | lower }}"
-              data-owned="{{ book.data.owned | lower }}"
+              data-owned="{{ book.data.bookOwned or false }}"
               data-averagescore="{{ book.data.averageScore or 0 }}"
               data-latestscore="{{ book.data.latestScore or 0 }}"
               data-score="{{ read.data.score or 0 }}"
@@ -248,7 +260,10 @@ permalink: /books/
           data-title="{{ series.name | lower }}"
           data-author="{{ series.books[0].data.author | lower }}"
           data-averagescore="{{ series.averageScore or 0 }}"
+          data-hasscore="{{ series.averageScore or false }}"
           data-count="{{ series.count or 0 }}"
+          data-pages="{{ series.pages or 0 }}"
+          data-avgpages="{{ series.avgpages or 0 }}"
         >
 
           <div class="series-cover">
@@ -279,7 +294,10 @@ permalink: /books/
           data-author="{{ author.name | lower }}"
           data-title="{{ author.name | lower }}"
           data-averagescore="{{ author.averageScore or 0 }}"
+          data-hasscore="{{ author.averageScore or false }}"
           data-count="{{ author.count or 0 }}"
+          data-pages="{{ author.pages or 0 }}"
+          data-avgpages="{{ author.avgpages or 0 }}"
         >
 
           <div class="series-cover">

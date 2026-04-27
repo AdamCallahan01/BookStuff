@@ -7,6 +7,7 @@ author: "Charlotte Bronte"
 series: "N/A"
 seriesNumber: null
 pages: 532
+wordCount: 190339
 yearPublished: 1847
 publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/10210.Jane_Eyre?from_search=true&from_srp=true&qid=ABDksDDMAg&rank=1"

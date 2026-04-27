@@ -7,6 +7,7 @@ author: "Robin Hobb"
 series: "The Farseer Trilogy"
 seriesNumber: 3
 pages: 757
+wordCount: 339000
 yearPublished: 1997
 publisher: "Spectra"
 goodreads: "https://www.goodreads.com/book/show/22016392-assassin-s-quest"

@@ -74,7 +74,7 @@ function bookSlug(title: string, author: string): string {
 function writeMarkdown(
   path: string,
   frontmatter: Frontmatter,
-  body: string = ""
+  body: string = "",
 ): void {
   const clean = Object.entries(frontmatter)
     .filter(([_, v]) => v !== undefined && v !== null && v !== "")
@@ -92,12 +92,17 @@ async function fetchSheet(): Promise<SheetRow[]> {
 
   return parse(text, {
     columns: true,
-    skip_empty_lines: true
+    skip_empty_lines: true,
   }) as SheetRow[];
 }
 
 // Get cover images for books
-async function getCover(title: string, author: string, slug: string, isbn?: string) {
+async function getCover(
+  title: string,
+  author: string,
+  slug: string,
+  isbn?: string,
+) {
   //Extra check to avoid unnecessary calls
   const coverPath = path.join("files/covers", `${slug}.jpg`);
   if (fs.existsSync(coverPath)) {
@@ -202,9 +207,7 @@ async function run(): Promise<void> {
       return `[[${slug}-${readNumber}]]`;
     });
 
-    const scores = reads
-      .map(r => Number(r.score))
-      .filter(n => !isNaN(n));
+    const scores = reads.map((r) => Number(r.score)).filter((n) => !isNaN(n));
 
     // Set to true if there is at least one numeric score
     const hasScore = scores.length > 0;
@@ -213,18 +216,14 @@ async function run(): Promise<void> {
 
     const averageScore =
       scores.length > 0
-        ? Number(
-            (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2)
-          )
+        ? Number((scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2))
         : undefined;
 
     const latestScore =
-      scores.length > 0
-        ? scores[scores.length - 1]
-        : undefined;
+      scores.length > 0 ? scores[scores.length - 1] : undefined;
 
     const hasSummary = reads.some(
-      r => r.hasSummary && r.hasSummary.trim() !== ""
+      (r) => r.hasSummary && r.hasSummary.trim() !== "",
     );
 
     const summarySlug = `${slug}-summary`;
@@ -233,12 +232,10 @@ async function run(): Promise<void> {
     const coverSlug = `${slug}-cover`;
     const coverSlugLink = `![[${coverSlug}.jpg]]`;
 
-    const bookOwned = reads.some(
-      r => r.owned && r.owned.trim() !== ""
-    );
+    const bookOwned = reads.some((r) => r.owned && r.owned.trim() !== "");
 
     const currentRead: Boolean = reads.some(
-      r => r.currentlyReading && r.currentlyReading.trim() !== ""
+      (r) => r.currentlyReading && r.currentlyReading.trim() !== "",
     );
 
     // Error catching
@@ -248,16 +245,19 @@ async function run(): Promise<void> {
 
     // BOOK FILE
     writeMarkdown(
-      `files/books/${slug}.md`, 
+      `files/books/${slug}.md`,
       {
         layout: "book.njk", //11ty stuff
-        permalink: `/books/${slug}/`,  //11ty stuff
+        permalink: `/books/${slug}/`, //11ty stuff
         bookSlug: slug,
         title: first.title,
         author: first.author,
         series: first.series,
         seriesNumber: first.seriesNumber ? Number(first.seriesNumber) : "N/A",
         pages: first.pages ? Number(first.pages) : undefined,
+        wordCount: first.words
+          ? Number(String(first.words).replace(/,/g, ""))
+          : undefined,
         yearPublished: first.yearPublished
           ? Number(first.yearPublished)
           : undefined,
@@ -285,19 +285,19 @@ async function run(): Promise<void> {
         readSlugsLinks,
         currentRead,
 
-        coverSlug
+        coverSlug,
       },
-      coverSlugLink
+      coverSlugLink,
     );
 
     // Check for cover
     if (!fs.existsSync(`files/covers/${coverSlug}.jpg`)) {
-      await getCover(first.title, first.author, coverSlug, first.isbn)
+      await getCover(first.title, first.author, coverSlug, first.isbn);
     }
 
     // SUMMARY FILE
     const summaryRow = reads.find(
-      r => r.summaryContent && r.summaryContent.trim() !== ""
+      (r) => r.summaryContent && r.summaryContent.trim() !== "",
     );
 
     const summaryContent = summaryRow?.summaryContent ?? "";
@@ -307,22 +307,18 @@ async function run(): Promise<void> {
     if (createBlankSummaryFile) {
       writeMarkdown(
         `files/summaries/${summarySlug}.md`,
-        { bookSlug: slug,
-          summarySlug,
-          book: `[[${slug}]]` },
-        summaryContent
+        { bookSlug: slug, summarySlug, book: `[[${slug}]]` },
+        summaryContent,
       );
-    }
-    else {
+    } else {
       console.log("Bad");
       if (hasSummary) {
-      writeMarkdown(
-        `files/summaries/${summarySlug}.md`,
-        { bookSlug: slug,
-          book: `[[${slug}]]` },
-        summaryContent
-      );
-    }
+        writeMarkdown(
+          `files/summaries/${summarySlug}.md`,
+          { bookSlug: slug, book: `[[${slug}]]` },
+          summaryContent,
+        );
+      }
     }
 
     // READ FILES
@@ -330,8 +326,7 @@ async function run(): Promise<void> {
       const readNumber = index + 1;
       const readSlug = `${slug}-${readNumber}`;
 
-      const hasReview =
-        row.hasReview && row.hasReview.trim() !== "";
+      const hasReview = row.hasReview && row.hasReview.trim() !== "";
 
       writeMarkdown(
         `files/reads/${readSlug}.md`,
@@ -344,19 +339,17 @@ async function run(): Promise<void> {
           format: row.format,
           dateStarted: row.dateStarted,
           dateFinished: row.dateFinished,
-          yearRead: row.yearRead
-            ? Number(row.yearRead)
-            : undefined,
+          yearRead: row.yearRead ? Number(row.yearRead) : undefined,
           days: row.days ? Number(row.days) : undefined,
-          hasReview
+          hasReview,
         },
-        row.reviewContent
+        row.reviewContent,
       );
     });
   }
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.error(err);
   process.exit(1);
 });

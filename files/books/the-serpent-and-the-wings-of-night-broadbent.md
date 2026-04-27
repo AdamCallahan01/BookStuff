@@ -7,6 +7,7 @@ author: "Clarissa Broadbent"
 series: "Crowns of Nyaxia"
 seriesNumber: 1
 pages: 504
+wordCount: 150000
 yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/62066366-the-serpent-and-the-wings-of-night"

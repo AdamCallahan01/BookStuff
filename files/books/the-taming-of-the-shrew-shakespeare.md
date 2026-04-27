@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 291
+wordCount: 21055
 yearPublished: 1593
 goodreads: "https://www.goodreads.com/book/show/47021.The_Taming_of_the_Shrew?ref=nav_sb_ss_1_12"
 avgGoodreadsRating: "7.5"

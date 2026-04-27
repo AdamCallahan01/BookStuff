@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 2
 pages: 624
+wordCount: 171000
 yearPublished: 2012
 publisher: "Orbit/Little, Brown Book Group"
 goodreads: "https://www.goodreads.com/book/show/12591698-caliban-s-war"

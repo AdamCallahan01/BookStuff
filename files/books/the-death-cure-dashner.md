@@ -7,6 +7,7 @@ author: "James Dashner"
 series: "The Maze Runner"
 seriesNumber: 3
 pages: 325
+wordCount: 87385
 yearPublished: 2011
 publisher: "Delacorte"
 goodreads: "https://www.goodreads.com/book/show/7864437-the-death-cure"

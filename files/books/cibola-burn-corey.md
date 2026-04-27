@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 4
 pages: 581
+wordCount: 171000
 yearPublished: 2014
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/23197305-cibola-burn"

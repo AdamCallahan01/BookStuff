@@ -7,6 +7,7 @@ author: "Ryan Cahill"
 series: "The Bound and the Broken"
 seriesNumber: 2
 pages: 828
+wordCount: 250000
 yearPublished: 2021
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60066687-of-darkness-and-light"

@@ -7,6 +7,7 @@ author: "Tui T. Sutherland"
 series: "Wings of Fire"
 seriesNumber: 1
 pages: 336
+wordCount: 67755
 yearPublished: 2012
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/13228487-the-dragonet-prophecy?ref=nav_sb_ss_1_22"

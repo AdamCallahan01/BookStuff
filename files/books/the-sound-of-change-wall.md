@@ -7,6 +7,7 @@ author: "Steve D. Wall"
 series: "The Bards and Dragons Saga"
 seriesNumber: 2
 pages: 674
+wordCount: 200000
 yearPublished: 2025
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/233207007-the-sound-of-change"

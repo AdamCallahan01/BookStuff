@@ -46,18 +46,68 @@ body {
   background: #fff;
 }
 
+/*///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
+/* left trivia sidebar */
+
 .left-sidebar {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 
   position: sticky;
-  top: 20rem;
+  top: 10rem;
 
   padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.trivia-card {
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.trivia-card .question {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #111827;
+}
+
+.trivia-card .meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.answer-toggle {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.answer-toggle summary {
+  cursor: pointer;
+  user-select: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.answer {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #f9fafb;
+  border-left: 3px solid #2563eb;
+  border-radius: 6px;
+  color: #111827;
 }
 
 /* style for links */

@@ -7,6 +7,7 @@ author: "Richard Osman"
 series: "Thursday Murder Club"
 seriesNumber: 3
 pages: 413
+wordCount: 121000
 yearPublished: 2022
 publisher: "Viking"
 goodreads: "https://www.goodreads.com/book/show/58957615-the-bullet-that-missed?ref=nav_sb_ss_1_22"

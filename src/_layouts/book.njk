@@ -2,10 +2,20 @@
 layout: base.njk
 ---
 
+{% set curSeries = series | booksBySeries(collections.books) %}
+{% set currentNumber = seriesNumber | int %}
+{% set prevBook = curSeries[currentNumber - 2] %}
+{% set nextBook = curSeries[currentNumber] %}
+
 <body>
   <main class="three-column-layout">
 
-    <aside></aside>
+    <aside class="right-sidebar">
+      {% if prevBook %}
+        {% set book = prevBook %}
+        {% include "bookCard.njk" %}
+      {% endif %}
+    </aside>
 
     <div>
       <div class="book-header">
@@ -14,28 +24,28 @@ layout: base.njk
         {% endif %}
         <div class="book-info">
           <h1 class="book-title">{{ title }}</h1>
-          <a class="book-author" href="/books/?author={{ author | lower | urlencode }}">
+          <p class="book-series">
             <strong>Author:</strong>
-            {{ author }}
-          </a>
-          <p class="book-author">
-            <strong>Author:</strong>
-            {{ author }}</p>
-          {% if series != "N/A" %}
-            <a class="book-series" href="/books/?series={{ series | lower | urlencode }}">
-              <strong>Series:</strong>
-              {{ series }}
-              {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
+            <a class="book-author" href="/books/?author={{ author | lower | urlencode }}">
+              {{ author }}
             </a>
+          </p>
+          {% if series != "N/A" %}
             <p class="book-series">
               <strong>Series:</strong>
-              {{ series }}
-              {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
+              <a class="book-series" href="/books/?series={{ series | lower | urlencode }}">
+                {{ series }}
+                {% if seriesNumber != "N/A" %} (# {{ seriesNumber }}){% endif %}
+              </a>
             </p>
           {% endif %}
           <p class="book-pages">
             <strong>Pages:</strong>
             {{ pages }}</p>
+          <p class="book-pages">
+            <strong>Word count:</strong>
+            {{ wordCount }}
+          </p>
           <p class="book-year-pub">
             <strong>Published:</strong>
             {{ yearPublished }} | <strong>Publisher:</strong>
@@ -148,8 +158,14 @@ layout: base.njk
       {% endif %}
     </div>
 
-    <aside></aside>
+    <aside class="right-sidebar">
+      {% if nextBook %}
+        {% set book = nextBook %}
+        {% include "bookCard.njk" %}
+      {% else %}
+        {% include "randomBook.njk" %}
+      {% endif %}
+    </aside>
 
   </main>
 </body>
-</html>

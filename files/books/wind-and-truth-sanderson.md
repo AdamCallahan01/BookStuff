@@ -7,6 +7,7 @@ author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 seriesNumber: 5
 pages: 1344
+wordCount: 491000
 yearPublished: 2024
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/203578847-wind-and-truth"

@@ -7,6 +7,7 @@ author: "Christopher Buehlman"
 series: "N/A"
 seriesNumber: null
 pages: 432
+wordCount: 130000
 yearPublished: 2012
 publisher: "Ace"
 goodreads: "https://www.goodreads.com/book/show/54408033-between-two-fires"

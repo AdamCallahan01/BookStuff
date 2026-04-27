@@ -7,6 +7,7 @@ author: "Rebecca Roanhorse"
 series: "Between Earth and Sky"
 seriesNumber: 1
 pages: 454
+wordCount: 110742
 yearPublished: 2020
 publisher: "Saga Press"
 goodreads: "https://www.goodreads.com/book/show/50892360-black-sun"

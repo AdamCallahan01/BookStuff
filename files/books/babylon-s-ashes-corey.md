@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 6
 pages: 532
+wordCount: 167000
 yearPublished: 2016
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/25877663-babylon-s-ashes"

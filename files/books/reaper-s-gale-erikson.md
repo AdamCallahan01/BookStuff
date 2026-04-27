@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 7
 pages: 1280
+wordCount: 382365
 yearPublished: 2007
 publisher: "Bantam Press"
 goodreads: "https://www.goodreads.com/book/show/459064.Reaper_s_Gale"

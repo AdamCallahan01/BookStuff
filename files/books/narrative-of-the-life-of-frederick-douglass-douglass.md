@@ -7,6 +7,7 @@ author: "Frederick Douglass"
 series: "The Autobiographies"
 seriesNumber: 1
 pages: 158
+wordCount: 40412
 yearPublished: 1845
 publisher: "Prestwick"
 goodreads: "https://www.goodreads.com/book/show/36529.Narrative_of_the_Life_of_Frederick_Douglass?ref=nav_sb_ss_1_10"

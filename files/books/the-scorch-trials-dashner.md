@@ -7,6 +7,7 @@ author: "James Dashner"
 series: "The Maze Runner"
 seriesNumber: 2
 pages: 362
+wordCount: 96869
 yearPublished: 2010
 publisher: "Delacorte"
 goodreads: "https://www.goodreads.com/book/show/7631105-the-scorch-trials"

@@ -7,6 +7,7 @@ author: "Delilah S. Dawson, Kevin Hearne"
 series: "The Tales of Pell"
 seriesNumber: 1
 pages: 384
+wordCount: 114816
 yearPublished: 2018
 publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/34431692-kill-the-farm-boy"

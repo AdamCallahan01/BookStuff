@@ -7,6 +7,7 @@ author: "George Orwell"
 series: "N/A"
 seriesNumber: null
 pages: 141
+wordCount: 29966
 yearPublished: 1945
 publisher: "Signet Classics"
 goodreads: "https://www.goodreads.com/book/show/170448.Animal_Farm?ref=nav_sb_ss_1_7"

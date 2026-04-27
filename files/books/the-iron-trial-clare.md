@@ -7,6 +7,7 @@ author: "Holly Black, Cassandra Clare"
 series: "Magisterium"
 seriesNumber: 1
 pages: 295
+wordCount: 83311
 yearPublished: 2014
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/20578940-the-iron-trial?ref=nav_sb_ss_1_11"

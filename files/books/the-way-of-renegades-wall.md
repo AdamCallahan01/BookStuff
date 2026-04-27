@@ -7,6 +7,7 @@ author: "Steve D. Wall"
 series: "The Bards and Dragons Saga"
 seriesNumber: 1
 pages: 468
+wordCount: 140000
 yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/123179883-the-way-of-renegades"

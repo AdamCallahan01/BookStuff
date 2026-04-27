@@ -7,6 +7,7 @@ author: "Actus"
 series: "The Return of the Runebound Professor"
 seriesNumber: 1
 pages: 752
+wordCount: 210000
 yearPublished: 2024
 publisher: "Aethon Books"
 goodreads: "https://www.goodreads.com/book/show/210157328-return-of-the-runebound-professor"

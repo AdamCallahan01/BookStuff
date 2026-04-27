@@ -7,6 +7,7 @@ author: "Mark Lawrence"
 series: "The Library Trilogy"
 seriesNumber: 2
 pages: 384
+wordCount: 100000
 yearPublished: 2024
 publisher: "HarperVoyager"
 goodreads: "https://www.goodreads.com/book/show/157031755-the-book-that-broke-the-world"

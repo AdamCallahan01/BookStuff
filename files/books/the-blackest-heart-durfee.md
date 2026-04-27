@@ -7,6 +7,7 @@ author: "Brian Lee Durfee"
 series: "The Five Warrior Angels"
 seriesNumber: 2
 pages: 960
+wordCount: 300000
 yearPublished: 2019
 publisher: "Saga Press"
 goodreads: "https://www.goodreads.com/book/show/38205011-the-blackest-heart"

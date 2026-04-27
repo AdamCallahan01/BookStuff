@@ -7,6 +7,7 @@ author: "Kian N. Ardalan"
 series: "Mistland"
 seriesNumber: 1
 pages: 779
+wordCount: 231474
 yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/en/book/show/59425056-eleventh-cycle"

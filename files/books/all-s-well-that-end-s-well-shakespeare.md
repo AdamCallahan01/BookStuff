@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 282
+wordCount: 23009
 yearPublished: 1604
 goodreads: "https://www.goodreads.com/book/show/104790.All_s_Well_That_Ends_Well?ref=nav_sb_ss_1_19"
 avgGoodreadsRating: "7.12"

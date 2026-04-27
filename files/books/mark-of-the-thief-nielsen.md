@@ -7,6 +7,7 @@ author: "Jennifer A. Nielsen"
 series: "Mark of the Thief"
 seriesNumber: 1
 pages: 352
+wordCount: 79951
 yearPublished: 2015
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/22749522-mark-of-the-thief"

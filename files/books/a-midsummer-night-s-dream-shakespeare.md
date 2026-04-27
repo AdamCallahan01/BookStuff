@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 240
+wordCount: 16511
 yearPublished: 1595
 goodreads: "https://www.goodreads.com/book/show/1622.A_Midsummer_Night_s_Dream?ref=nav_sb_ss_1_9"
 avgGoodreadsRating: "7.9"

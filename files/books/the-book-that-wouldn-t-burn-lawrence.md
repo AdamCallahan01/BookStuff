@@ -7,6 +7,7 @@ author: "Mark Lawrence"
 series: "The Library Trilogy"
 seriesNumber: 1
 pages: 559
+wordCount: 184000
 yearPublished: 2023
 publisher: "Ace"
 goodreads: "https://www.goodreads.com/book/show/61612864-the-book-that-wouldn-t-burn?ref=nav_sb_ss_1_13"

@@ -7,6 +7,7 @@ author: "Sigmund Freud"
 series: "N/A"
 seriesNumber: null
 pages: 630
+wordCount: 172000
 yearPublished: 1899
 publisher: "Macmillan"
 goodreads: "https://www.goodreads.com/book/show/93981.The_Interpretation_of_Dreams"

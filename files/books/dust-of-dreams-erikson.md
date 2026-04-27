@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 9
 pages: 1280
+wordCount: 376130
 yearPublished: 2009
 publisher: "Tom Doherty"
 goodreads: "https://www.goodreads.com/book/show/4703427-dust-of-dreams"

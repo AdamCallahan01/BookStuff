@@ -7,6 +7,7 @@ author: "Dennis E. Taylor"
 series: "Bobiverse"
 seriesNumber: 2
 pages: 350
+wordCount: 85000
 yearPublished: 2017
 publisher: "Worldbuilders"
 goodreads: "https://www.goodreads.com/book/show/34878094-for-we-are-many"

@@ -7,6 +7,7 @@ author: "Andy Weir"
 series: "N/A"
 seriesNumber: null
 pages: 496
+wordCount: 124000
 yearPublished: 2021
 publisher: "Ballantine"
 goodreads: "https://www.goodreads.com/book/show/54493401-project-hail-mary"

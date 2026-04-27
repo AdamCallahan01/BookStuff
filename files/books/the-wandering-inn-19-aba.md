@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 19
 pages: 1160
+wordCount: 348000
 yearPublished: 2026
 publisher: "Self"
 genre: "Fantasy"

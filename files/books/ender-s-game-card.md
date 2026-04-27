@@ -7,6 +7,7 @@ author: "Orson Scott Card"
 series: "Ender's Saga"
 seriesNumber: 1
 pages: 324
+wordCount: 100758
 yearPublished: 1985
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/375802.Ender_s_Game?ref=nav_sb_ss_1_12"

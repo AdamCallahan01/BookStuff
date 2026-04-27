@@ -7,6 +7,7 @@ author: "S.A. Chakraborty"
 series: "Amina al-Sirafi"
 seriesNumber: 1
 pages: 496
+wordCount: 148000
 yearPublished: 2023
 publisher: "Harper Voyager"
 goodreads: "https://www.goodreads.com/book/show/61319728-the-adventures-of-amina-al-sirafi"

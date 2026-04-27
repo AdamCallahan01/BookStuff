@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 4
 pages: 528
+wordCount: 110000
 yearPublished: 2005
 publisher: "Miramax"
 goodreads: "https://www.goodreads.com/book/show/114954.The_Opal_Deception"

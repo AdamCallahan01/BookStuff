@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 3
 pages: 539
+wordCount: 165000
 yearPublished: 2013
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/12591719-abaddon-s-gate"

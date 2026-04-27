@@ -7,6 +7,7 @@ author: "Dakota Krout"
 series: "The Divine Dungeon"
 seriesNumber: 1
 pages: 404
+wordCount: 100000
 yearPublished: 2016
 publisher: "Mountaindale"
 goodreads: "https://www.goodreads.com/book/show/45712252-dungeon-born"

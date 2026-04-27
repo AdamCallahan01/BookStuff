@@ -7,6 +7,7 @@ author: "Robert A. Heinlein"
 series: "The Forever War"
 seriesNumber: 1
 pages: 264
+wordCount: 84769
 yearPublished: 1959
 publisher: "Ace Books"
 goodreads: "https://www.goodreads.com/book/show/17214.Starship_Troopers"

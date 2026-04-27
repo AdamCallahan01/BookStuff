@@ -7,6 +7,7 @@ author: "A. J. Walker"
 series: "Bond of a Dragon"
 seriesNumber: 1
 pages: 263
+wordCount: 70000
 yearPublished: 2018
 publisher: "Mystic Lake"
 goodreads: "https://www.goodreads.com/book/show/45553735-zahara-s-gift"

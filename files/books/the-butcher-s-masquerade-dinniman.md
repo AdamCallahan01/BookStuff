@@ -7,6 +7,7 @@ author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
 seriesNumber: 5
 pages: 732
+wordCount: 213513
 yearPublished: 2022
 publisher: "Dandy House"
 goodreads: "https://www.goodreads.com/book/show/60547837-the-butcher-s-masquerade"

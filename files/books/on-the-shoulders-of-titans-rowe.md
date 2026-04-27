@@ -7,6 +7,7 @@ author: "Andrew Rowe"
 series: "Arcane Ascension"
 seriesNumber: 2
 pages: 742
+wordCount: 253000
 yearPublished: 2018
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/40187583-on-the-shoulders-of-titans"

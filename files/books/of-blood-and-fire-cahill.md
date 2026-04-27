@@ -7,6 +7,7 @@ author: "Ryan Cahill"
 series: "The Bound and the Broken"
 seriesNumber: 1
 pages: 541
+wordCount: 174028
 yearPublished: 2021
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/57465589-of-blood-and-fire"

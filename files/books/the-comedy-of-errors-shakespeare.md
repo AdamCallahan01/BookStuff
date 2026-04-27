@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 112
+wordCount: 14701
 yearPublished: 1594
 goodreads: "https://www.goodreads.com/book/show/82356.The_Comedy_of_Errors?ref=nav_sb_ss_1_20"
 avgGoodreadsRating: "7.44"

@@ -7,6 +7,7 @@ author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
 seriesNumber: 3
 pages: 534
+wordCount: 150000
 yearPublished: 2021
 publisher: "Dandy House"
 goodreads: "https://www.goodreads.com/book/show/57809856-the-dungeon-anarchist-s-cookbook"

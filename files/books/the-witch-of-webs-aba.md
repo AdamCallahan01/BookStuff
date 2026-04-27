@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 12
 pages: 1703
+wordCount: 328515
 yearPublished: 2024
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/209352535-the-witch-of-webs"

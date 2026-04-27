@@ -7,6 +7,7 @@ author: "M. L. Wang"
 series: "N/A"
 seriesNumber: null
 pages: 448
+wordCount: 150000
 yearPublished: 2023
 publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/208430658-blood-over-bright-haven"

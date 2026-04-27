@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 6
 pages: 1203
+wordCount: 365400
 yearPublished: 2006
 publisher: "Bantam"
 goodreads: "https://www.goodreads.com/book/show/478951.The_Bonehunters"

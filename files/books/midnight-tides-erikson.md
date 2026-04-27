@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 5
 pages: 960
+wordCount: 270135
 yearPublished: 2004
 publisher: "Bantam"
 goodreads: "https://www.goodreads.com/book/show/345299.Midnight_Tides"

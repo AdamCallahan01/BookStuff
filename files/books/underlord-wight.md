@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 6
 pages: 400
+wordCount: 103130
 yearPublished: 2019
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/123329476-underlord"

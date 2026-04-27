@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 2
 pages: 398
+wordCount: 104000
 yearPublished: 2002
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/76863.The_Arctic_Incident"

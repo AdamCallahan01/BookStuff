@@ -7,6 +7,7 @@ author: "Samantha Shannon"
 series: "The Roots of Chaos"
 seriesNumber: 1
 pages: 848
+wordCount: 253552
 yearPublished: 2019
 publisher: "Bloomsbury"
 goodreads: "https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree"

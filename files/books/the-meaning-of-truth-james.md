@@ -7,6 +7,7 @@ author: "William James"
 series: "N/A"
 seriesNumber: null
 pages: 330
+wordCount: 74250
 yearPublished: 1909
 publisher: "Prometheus"
 goodreads: "https://www.goodreads.com/book/show/980387.The_Meaning_of_Truth"

@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "First Law World"
 seriesNumber: 5
 pages: 581
+wordCount: 203400
 yearPublished: 2011
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/en/book/show/9300768"

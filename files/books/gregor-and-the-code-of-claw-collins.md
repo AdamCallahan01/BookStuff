@@ -7,6 +7,7 @@ author: "Suzanne Collins"
 series: "Underland Chronicles"
 seriesNumber: 5
 pages: 412
+wordCount: 103000
 yearPublished: 2007
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/537070.Gregor_and_the_Code_of_Claw?ref=nav_sb_ss_1_11"

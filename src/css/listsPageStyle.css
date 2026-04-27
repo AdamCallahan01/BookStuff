@@ -1,20 +1,46 @@
-
 /*/////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* Lists Page */
 /* Wrapper and panels */
 .rankings-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   margin-top: 2rem;
+  align-items: start;
+
+  column-count: 3;
+  column-gap: 2rem;
 }
 
 .ranking-panel {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+
   background: #fafafa;
   border: 1px solid #ddd;
   padding: 1.5rem;
   border-radius: 6px;
+
+  padding: 0.75rem 1rem;
+  overflow: hidden;
+
+  transition:
+    border-radius 250ms ease,
+    box-shadow 250ms ease,
+    transform 250ms ease;
+}
+
+/* Remove default marker triangle */
+.ranking-panel summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hide default disclosure arrow */
+.ranking-panel summary::-webkit-details-marker {
+  display: none;
 }
 
 .ranking-panel h2 {
@@ -22,6 +48,70 @@
   margin-bottom: 1rem;
 }
 
+/*//////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////*/
+/* animation */
+/* Collapsed state */
+.ranking-panel:not([open]) {
+  border-radius: 999px; /* “bubble pill” */
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Expanded state gives more structure */
+.ranking-panel[open] {
+  border-radius: 14px;
+}
+
+/* Animation wrapper for content */
+.ranking-panel .ranked-list {
+  margin: 0;
+  padding-left: 1.8rem;
+
+  /* animation trick */
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 300ms ease;
+}
+
+/* When open, expand */
+.ranking-panel[open] .ranked-list {
+  grid-template-rows: 1fr;
+}
+
+/* Needed for smooth collapse/expand */
+.ranking-panel .ranked-list > * {
+  overflow: hidden;
+}
+
+/* Optional “pop-in” effect for items */
+.ranking-panel[open] .rank-item {
+  animation: popIn 280ms ease both;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.ranking-panel summary::after {
+  content: "▾";
+  margin-left: auto;
+  transition: transform 200ms ease;
+}
+
+.ranking-panel[open] summary::after {
+  transform: rotate(180deg);
+}
+
+/*//////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////*/
 /* Ordered list styling */
 .ranked-list {
   margin: 0;
@@ -43,8 +133,8 @@
 
 /* Book cover thumbnail */
 .book-cover-list {
-  width: 60px;       /* fixed width */
-  height: 90px;      /* fixed height */
+  width: 60px; /* fixed width */
+  height: 90px; /* fixed height */
   object-fit: cover; /* maintain aspect ratio, crop if needed */
   border-radius: 4px;
   flex-shrink: 0;

@@ -7,6 +7,7 @@ author: "Robin Hobb"
 series: "Liveship Traders"
 seriesNumber: 1
 pages: 880
+wordCount: 307400
 yearPublished: 1998
 publisher: "Voyager"
 goodreads: "https://www.goodreads.com/book/show/45100.Ship_of_Magic"

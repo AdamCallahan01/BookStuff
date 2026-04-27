@@ -7,6 +7,7 @@ author: "Hunter Mythos"
 series: "Rogue Ascension"
 seriesNumber: 1
 pages: 485
+wordCount: 120000
 yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/199702146-rogue-ascension-book-1"

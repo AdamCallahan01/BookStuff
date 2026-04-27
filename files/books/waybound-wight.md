@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 12
 pages: 518
+wordCount: 140000
 yearPublished: 2023
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/173195300-waybound"

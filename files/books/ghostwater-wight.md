@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 5
 pages: 310
+wordCount: 90870
 yearPublished: 2018
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/127409108-ghostwater"

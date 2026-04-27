@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 7
 pages: 928
+wordCount: 432000
 yearPublished: 2025
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/222685709-shadows-upon-time"

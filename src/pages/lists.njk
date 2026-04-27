@@ -6,15 +6,16 @@ permalink: /lists/
   <link rel="stylesheet" href="/css/listsPageStyle.css">
 </head>
 
-
 {% macro renderList(items, title, isSeries) %}
   {% if isSeries %}
-    <div class="ranking-panel">
-      <h2>{{ title }}</h2>
+    <details class="ranking-panel">
+      <summary class="ranking-header">
+        <h2>{{ title }}</h2>
+      </summary>
 
       <ol class="ranked-list ranked-series">
-      {% for series in items %}
-        {% set curSeries = series | booksBySeries(collections.books) %}
+        {% for series in items %}
+          {% set curSeries = series | booksBySeries(collections.books) %}
           <li class="rank-item">
             <div class="rank-item-inner">
 
@@ -40,53 +41,55 @@ permalink: /lists/
             </div>
           </li>
 
-      {% endfor %}
+        {% endfor %}
       </ol>
-    </div>
+    </details>
 
   {% else %}
 
-  <div class="ranking-panel">
-    <h2>{{ title }}</h2>
+    <details class="ranking-panel">
+      <summary class="ranking-header">
+        <h2>{{ title }}</h2>
+      </summary>
 
-    <ol class="ranked-list">
+      <ol class="ranked-list">
 
-    {% for title in items %}
-      {% set book = title | bookByTitle(collections.books) %}
+        {% for title in items %}
+          {% set book = title | bookByTitle(collections.books) %}
 
-      <li class="rank-item">
+          <li class="rank-item">
 
-        <div class="rank-item-inner">
+            <div class="rank-item-inner">
 
-          {% if book and book.data.coverSlug %}
-            <img
+              {% if book and book.data.coverSlug %}
+                <img
               class="book-cover-list"
               src="/files/covers/{{ book.data.coverSlug }}.jpg"
               alt="{{ book.data.title }} cover"
             >
-          {% endif %}
+              {% endif %}
 
-          <div class="rank-text">
-            {% if book %}
-              <div class="rank-title">
-                <a href="{{ book.url }}">{{ book.data.title }}</a>
+              <div class="rank-text">
+                {% if book %}
+                  <div class="rank-title">
+                    <a href="{{ book.url }}">{{ book.data.title }}</a>
+                  </div>
+                  <div class="rank-meta">
+                    {{ book.data.series }} — {{ book.data.author }}
+                  </div>
+                {% else %}
+                  <div class="rank-title">{{ title }}</div>
+                {% endif %}
               </div>
-              <div class="rank-meta">
-                {{ book.data.series }} — {{ book.data.author }}
-              </div>
-            {% else %}
-              <div class="rank-title">{{ title }}</div>
-            {% endif %}
-          </div>
 
-        </div>
+            </div>
 
-      </li>
+          </li>
 
-    {% endfor %}
+        {% endfor %}
 
-    </ol>
-  </div>
+      </ol>
+    </details>
 
   {% endif %}
 {% endmacro %}
@@ -94,7 +97,7 @@ permalink: /lists/
 {########################## LISTS ##################################}
 
 <div class="rankings-wrapper">
-  
+
   {% for list in lists %}
     {{ renderList(list.items, list.title, list.isSeries) }}
   {% endfor %}

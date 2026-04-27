@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 8
 pages: 328
+wordCount: 70026
 yearPublished: 2012
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/9307674-the-last-guardian"

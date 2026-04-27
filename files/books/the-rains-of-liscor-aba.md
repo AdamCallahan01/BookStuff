@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 7
 pages: 1163
+wordCount: 294955
 yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60851520-the-wandering-inn"

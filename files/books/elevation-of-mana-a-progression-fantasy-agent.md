@@ -7,6 +7,7 @@ author: "Wandering Agent"
 series: "Elevation of Mana"
 seriesNumber: 9
 pages: 303
+wordCount: 89000
 yearPublished: 2024
 publisher: "Podium Publishing"
 goodreads: "https://www.goodreads.com/book/show/210619319-elevation-of-mana"

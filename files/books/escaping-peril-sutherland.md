@@ -7,6 +7,7 @@ author: "Tui T. Sutherland"
 series: "Wings of Fire"
 seriesNumber: 8
 pages: 260
+wordCount: 45000
 yearPublished: 2016
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/25711360-escaping-peril"

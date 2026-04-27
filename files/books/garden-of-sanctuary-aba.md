@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 15
 pages: 1215
+wordCount: 293414
 yearPublished: 2025
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/222679474-garden-of-sanctuary?ref=nav_sb_ss_1_19"

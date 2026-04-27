@@ -7,6 +7,7 @@ author: "Suzanne Collins"
 series: "Underland Chronicles"
 seriesNumber: 3
 pages: 358
+wordCount: 92000
 yearPublished: 2005
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/385706.Gregor_and_the_Curse_of_the_Warmbloods"

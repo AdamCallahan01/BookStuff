@@ -7,6 +7,7 @@ author: "Niels Bohr, Max Planck"
 series: "N/A"
 seriesNumber: null
 pages: 192
+wordCount: 75000
 yearPublished: 2019
 publisher: "Flame Tree"
 goodreads: "https://www.goodreads.com/book/show/44331577-quantum-theory"

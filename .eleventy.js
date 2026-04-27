@@ -48,6 +48,8 @@ export default function (eleventyConfig) {
             books: [],
             totalScore: 0,
             scoredCount: 0,
+            pages: 0,
+            totalCount: 0,
           });
         }
 
@@ -60,12 +62,20 @@ export default function (eleventyConfig) {
           entry.totalScore += book.data.averageScore;
           entry.scoredCount++;
         }
+
+        if (typeof book.data.pages === "number") {
+          entry.pages += book.data.pages;
+          entry.totalCount++;
+        }
       });
     });
 
     return Array.from(seriesMap.values()).map((series) => {
       const avg =
         series.scoredCount > 0 ? series.totalScore / series.scoredCount : null;
+
+      const avgPages =
+        series.totalCount > 0 ? series.pages / series.totalCount : null;
 
       return {
         name: series.name,
@@ -74,6 +84,8 @@ export default function (eleventyConfig) {
         ),
         count: series.books.length,
         averageScore: avg ? Number(avg.toFixed(2)) : null,
+        pages: series.pages,
+        avgPages: avgPages ? Number(avgPages.toFixed(2)) : null,
       };
     });
   });
@@ -95,6 +107,8 @@ export default function (eleventyConfig) {
           books: [],
           totalScore: 0,
           scoredCount: 0,
+          pages: 0,
+          totalCount: 0,
         });
       }
 
@@ -107,23 +121,34 @@ export default function (eleventyConfig) {
         entry.totalScore += book.data.averageScore;
         entry.scoredCount++;
       }
+
+      if (typeof book.data.pages === "number") {
+        entry.pages += book.data.pages;
+        entry.totalCount++;
+      }
     });
 
     return Array.from(authorsMap.values()).map((author) => {
       const avg =
         author.scoredCount > 0 ? author.totalScore / author.scoredCount : null;
 
+      const avgPages =
+        author.totalCount > 0 ? author.pages / author.totalCount : null;
+
       return {
         name: author.name,
         books: author.books,
         count: author.books.length,
         averageScore: avg ? Number(avg.toFixed(2)) : null,
+        pages: author.pages,
+        avgPages: avgPages ? Number(avgPages.toFixed(2)) : null,
       };
     });
   });
 
   eleventyConfig.addPassthroughCopy("files/covers");
 
+  //Favicon
   eleventyConfig.addPassthroughCopy("files/other");
 
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
@@ -140,39 +165,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("filterNotTruthy", function (collection, attribute) {
     if (!Array.isArray(collection)) return [];
     return collection.filter((item) => !item?.data?.[attribute]);
-  });
-
-  // Sort descending by numeric attribute
-  eleventyConfig.addFilter(
-    "sortByNumberDesc",
-    function (collection, attribute) {
-      if (!Array.isArray(collection)) return [];
-      return [...collection].sort((a, b) => {
-        const aVal = Number(a?.data?.[attribute] ?? 0);
-        const bVal = Number(b?.data?.[attribute] ?? 0);
-        return bVal - aVal;
-      });
-    },
-  );
-
-  // Sort descending by yearRead (computed from reads)
-  eleventyConfig.addFilter("sortByLatestYearReadDesc", function (books, reads) {
-    if (!Array.isArray(books)) return [];
-
-    return [...books].sort((a, b) => {
-      const getLatestYear = (book) => {
-        if (!Array.isArray(book?.data?.readSlugs)) return 0;
-
-        const years = book.data.readSlugs.map((slug) => {
-          const match = reads.find((r) => r.data.readSlug === slug);
-          return match?.data?.yearRead ?? 0;
-        });
-
-        return years.length ? Math.max(...years) : 0;
-      };
-
-      return getLatestYear(b) - getLatestYear(a);
-    });
   });
 
   eleventyConfig.addFilter("sortByLatestReadDesc", function (books, reads) {
@@ -225,17 +217,22 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("booksBySeries", function (series, books) {
-    return books.filter(
-      (b) =>
-        b.data.series &&
-        (b.data.series === series || b.data.otherSeries === series),
-    );
+    return books
+      .filter(
+        (b) =>
+          b.data.series &&
+          (b.data.series === series || b.data.otherSeries === series),
+      )
+      .sort((a, b) => {
+        return Number(a.data.seriesNumber) - Number(b.data.seriesNumber);
+      });
   });
 
   eleventyConfig.addFilter("year", function () {
     return new Date().getFullYear();
   });
 
+  //Used by randomBook.njk
   eleventyConfig.addFilter("bookClientData", function (books) {
     return books.map((book) => ({
       title: book.data.title,

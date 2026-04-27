@@ -7,6 +7,7 @@ author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
 seriesNumber: 4
 pages: 586
+wordCount: 164598
 yearPublished: 2021
 publisher: "Dandy House"
 goodreads: "https://www.goodreads.com/book/show/58477587-the-gate-of-the-feral-gods"

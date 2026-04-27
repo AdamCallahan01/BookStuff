@@ -1,0 +1,15 @@
+---
+bookSlug: "leviathan-falls-corey"
+readSlug: "leviathan-falls-corey-1"
+book: "[[leviathan-falls-corey]]"
+readNumber: 1
+score: 7.5
+format: "Kindle"
+dateStarted: "4/16/2026"
+dateFinished: "4/22/2026"
+yearRead: 2026
+days: 6
+hasReview: true
+---
+
+The end of The Expanse. The ending was exactly what you could expect for our main character, even as early as the first book. It was very open (Not necessarily a bad thing), very abrupt, and felt a tad rushed. Maybe I am just used to fantasy epics where the final book is twice the length of many others and the final chapter is 200 pages, but it felt like the ending of the series didn’t get any more screen time than any other important event. Especially considering that a chunk of the first half of the book did not feel necessary or all that important to me. I am sure some people will be bothered by the amount of loose ends and unknowns floating about, but I don’t have an issue with that. Leaving the future up to the reader’s imagination can be great (Don’t do what Harry Potter did ever in anything). Overall, a solid space opera series. I doubt I will ever revisit it but I enjoyed most of the books and the character growth between the Rocinante’s crew is great.

@@ -7,6 +7,7 @@ author: "Anthony Ryan"
 series: "Covenant of Steel"
 seriesNumber: 1
 pages: 600
+wordCount: 179400
 yearPublished: 2021
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/en/book/show/56229688"

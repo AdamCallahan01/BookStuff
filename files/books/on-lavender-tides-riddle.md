@@ -7,6 +7,7 @@ author: "Travis M. Riddle"
 series: "Jekua"
 seriesNumber: 1
 pages: 398
+wordCount: 100000
 yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60548126-on-lavender-tides"

@@ -7,6 +7,7 @@ author: "Tommy Kerper"
 series: "I'm Not the Hero"
 seriesNumber: 1
 pages: 644
+wordCount: 161000
 yearPublished: 2023
 publisher: "Podium Publishing"
 goodreads: "https://www.goodreads.com/book/show/202370352-i-m-not-the-hero"

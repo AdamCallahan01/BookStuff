@@ -7,6 +7,7 @@ author: "Richard Osman"
 series: "Thursday Murder Club"
 seriesNumber: 4
 pages: 421
+wordCount: 123000
 yearPublished: 2023
 publisher: "Viking"
 goodreads: "https://www.goodreads.com/book/show/62226126-the-last-devil-to-die"

@@ -7,6 +7,7 @@ author: "Tui T. Sutherland"
 series: "Wings of Fire"
 seriesNumber: 4
 pages: 336
+wordCount: 67755
 yearPublished: 2013
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/17675467-the-dark-secret"

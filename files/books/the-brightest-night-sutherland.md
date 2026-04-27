@@ -7,6 +7,7 @@ author: "Tui T. Sutherland"
 series: "Wings of Fire"
 seriesNumber: 5
 pages: 336
+wordCount: 67755
 yearPublished: 2014
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/18527497-the-brightest-night"

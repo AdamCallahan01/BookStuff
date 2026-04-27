@@ -7,6 +7,7 @@ author: "T. Kingfisher"
 series: "N/A"
 seriesNumber: null
 pages: 306
+wordCount: 82008
 yearPublished: 2020
 publisher: "Argyll"
 goodreads: "https://www.goodreads.com/book/show/54369251-a-wizard-s-guide-to-defensive-baking"

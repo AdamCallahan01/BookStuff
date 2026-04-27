@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 14
 pages: 1007
+wordCount: 227807
 yearPublished: 2024
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/216967891-hell-s-wardens"

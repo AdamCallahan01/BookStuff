@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 7
 pages: 336
+wordCount: 93571
 yearPublished: 2019
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/52745375-uncrowned"

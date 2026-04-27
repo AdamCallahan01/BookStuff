@@ -7,6 +7,7 @@ author: "Jay Kristoff"
 series: "Empire of the Vampire"
 seriesNumber: 3
 pages: 800
+wordCount: 260000
 yearPublished: 2025
 publisher: "St. Martin's Press"
 goodreads: "https://www.goodreads.com/book/show/222376766-empire-of-the-dawn"

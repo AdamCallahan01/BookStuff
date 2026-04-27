@@ -7,6 +7,7 @@ author: "Charlie N. Holmberg"
 series: "N/A"
 seriesNumber: null
 pages: 344
+wordCount: 90000
 yearPublished: 2023
 publisher: "47North"
 goodreads: "https://www.goodreads.com/book/show/63127235-the-hanging-city?ref=nav_sb_ss_1_12"

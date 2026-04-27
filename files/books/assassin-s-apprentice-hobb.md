@@ -7,6 +7,7 @@ author: "Robin Hobb"
 series: "The Farseer Trilogy"
 seriesNumber: 1
 pages: 435
+wordCount: 150510
 yearPublished: 1995
 publisher: "Spectra"
 goodreads: "https://www.goodreads.com/book/show/77197.Assassin_s_Apprentice"

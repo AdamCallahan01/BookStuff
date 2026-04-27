@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 8
 pages: 534
+wordCount: 164000
 yearPublished: 2019
 publisher: "Orbit Books"
 goodreads: "https://www.goodreads.com/book/show/28335698-tiamat-s-wrath"
@@ -16,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Space Opera"
 isbn: "9780316332873"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "tiamat-s-wrath-corey-summary"
 summarySlugLink: "[[tiamat-s-wrath-corey-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["tiamat-s-wrath-corey-1"]
 readSlugsLinks: ["[[tiamat-s-wrath-corey-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "tiamat-s-wrath-corey-cover"
 ---
 

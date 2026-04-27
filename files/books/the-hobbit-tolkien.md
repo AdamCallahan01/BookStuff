@@ -7,6 +7,7 @@ author: "J.R.R. Tolkien"
 series: "The Lord of the Rings"
 seriesNumber: 0
 pages: 366
+wordCount: 95022
 yearPublished: 1937
 publisher: "Houghton Mifflin"
 goodreads: "https://www.goodreads.com/book/show/16053513-the-hobbit"

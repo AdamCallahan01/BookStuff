@@ -7,6 +7,7 @@ author: "V. E. Schwab"
 series: "Shades of Magic"
 seriesNumber: 1
 pages: 400
+wordCount: 104000
 yearPublished: 2015
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/22055262-a-darker-shade-of-magic?ref=nav_sb_ss_1_16"

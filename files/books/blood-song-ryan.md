@@ -7,26 +7,28 @@ author: "Anthony Ryan"
 series: "Raven's Shadow"
 seriesNumber: 1
 pages: 591
+wordCount: 222000
 yearPublished: 2011
 publisher: "Anthony  Ryan"
 goodreads: "https://www.goodreads.com/book/show/13569581-blood-song"
 avgGoodreadsRating: "8.82"
 numGoodreadsRatings: "92729"
 genre: "Fantasy"
+subgenre: "Religious"
 isbn: "9781466085664"
 narrator: "Steven Brand"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "blood-song-ryan-summary"
 summarySlugLink: "[[blood-song-ryan-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 9
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 9
+allScores: [9]
 readSlugs: ["blood-song-ryan-1"]
 readSlugsLinks: ["[[blood-song-ryan-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "blood-song-ryan-cover"
 ---
 

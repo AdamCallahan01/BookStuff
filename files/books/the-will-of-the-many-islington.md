@@ -7,6 +7,7 @@ author: "James Islington"
 series: "Hierarchy"
 seriesNumber: 1
 pages: 639
+wordCount: 240000
 yearPublished: 2023
 publisher: "Gallery / Saga Press"
 goodreads: "https://www.goodreads.com/book/show/58416952-the-will-of-the-many?ref=nav_sb_ss_1_19"

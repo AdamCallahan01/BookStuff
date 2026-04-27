@@ -7,6 +7,7 @@ author: "Christopher Ruocchio"
 series: "The Sun Eater"
 seriesNumber: 6
 pages: 704
+wordCount: 288359
 yearPublished: 2024
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/176443792-disquiet-gods"

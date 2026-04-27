@@ -7,6 +7,7 @@ author: "Agatha Christie"
 series: "Hercule Poirot"
 seriesNumber: 10
 pages: 274
+wordCount: 58154
 yearPublished: 1934
 publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express"

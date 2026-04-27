@@ -7,6 +7,7 @@ author: "James S.A. Corey"
 series: "The Expanse"
 seriesNumber: 7
 pages: 608
+wordCount: 169000
 yearPublished: 2017
 publisher: "Orbit Books"
 goodreads: "https://www.goodreads.com/book/show/28335696-persepolis-rising"

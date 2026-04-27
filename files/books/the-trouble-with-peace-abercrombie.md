@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "The Age of Madness"
 seriesNumber: 2
 pages: 506
+wordCount: 195300
 yearPublished: 2020
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/50358101-the-trouble-with-peace"

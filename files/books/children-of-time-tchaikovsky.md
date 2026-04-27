@@ -7,6 +7,7 @@ author: "Adrian Tchaikovsky"
 series: "Children of Time"
 seriesNumber: 1
 pages: 608
+wordCount: 163372
 yearPublished: 2015
 publisher: "PanMacmillan"
 goodreads: "https://www.goodreads.com/book/show/25499718-children-of-time"

@@ -7,6 +7,7 @@ author: "Brian Lee Durfee"
 series: "The Five Warrior Angels"
 seriesNumber: 3
 pages: 1052
+wordCount: 325000
 yearPublished: 2022
 publisher: "Saga Press"
 goodreads: "https://www.goodreads.com/en/book/show/60320363-the-lonesome-crown"

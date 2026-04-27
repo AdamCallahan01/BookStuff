@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 392
+wordCount: 21459
 yearPublished: 1598
 goodreads: "https://www.goodreads.com/book/show/1383325.Love_s_Labour_s_Lost"
 avgGoodreadsRating: "7.04"

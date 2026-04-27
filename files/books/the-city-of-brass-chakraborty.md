@@ -7,6 +7,7 @@ author: "S.A. Chakraborty"
 series: "The Daevabad Trilogy"
 seriesNumber: 1
 pages: 532
+wordCount: 170520
 yearPublished: 2017
 publisher: "Harper Voyager"
 goodreads: "https://www.goodreads.com/book/show/32718027-the-city-of-brass"

@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "First Law World"
 seriesNumber: 6
 pages: 469
+wordCount: 172100
 yearPublished: 2012
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/13521459-red-country"

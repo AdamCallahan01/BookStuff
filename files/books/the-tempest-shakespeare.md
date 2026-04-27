@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 218
+wordCount: 16633
 yearPublished: 1611
 goodreads: "https://www.goodreads.com/book/show/3767572-the-tempest"
 avgGoodreadsRating: "7.58"

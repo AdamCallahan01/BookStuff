@@ -7,6 +7,7 @@ author: "Sebastien de Castell"
 series: "The Malevolent Seven"
 seriesNumber: 1
 pages: 384
+wordCount: 109457
 yearPublished: 2023
 publisher: "Jo Fletcher Books"
 goodreads: "https://www.goodreads.com/en/book/show/61124074-the-malevolent-seven"

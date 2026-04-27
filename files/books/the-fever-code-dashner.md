@@ -7,6 +7,7 @@ author: "James Dashner"
 series: "The Maze Runner"
 seriesNumber: 5
 pages: 347
+wordCount: 86565
 yearPublished: 2016
 publisher: "Delacorte Press"
 goodreads: "https://www.goodreads.com/book/show/23267628-the-fever-code"

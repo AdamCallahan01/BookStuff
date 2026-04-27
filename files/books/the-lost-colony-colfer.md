@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 5
 pages: 385
+wordCount: 83441
 yearPublished: 2006
 publisher: "Miramax"
 goodreads: "https://www.goodreads.com/book/show/613898.The_Lost_Colony"

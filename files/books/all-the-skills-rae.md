@@ -7,6 +7,7 @@ author: "Honour Rae"
 series: "All the Skills"
 seriesNumber: 1
 pages: 513
+wordCount: 150000
 yearPublished: 2022
 publisher: "Avocado Ink"
 goodreads: "https://www.goodreads.com/book/show/210216566-all-the-skills"

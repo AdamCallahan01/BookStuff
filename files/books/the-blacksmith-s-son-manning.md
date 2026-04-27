@@ -7,6 +7,7 @@ author: "Michael G. Manning"
 series: "Mageborn"
 seriesNumber: 1
 pages: 386
+wordCount: 75000
 yearPublished: 2011
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/12558539-the-blacksmith-s-son"

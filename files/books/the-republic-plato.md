@@ -7,6 +7,7 @@ author: "Plato"
 series: "N/A"
 seriesNumber: null
 pages: 416
+wordCount: 130280
 yearPublished: 401
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/30289.The_Republic"

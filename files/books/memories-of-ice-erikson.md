@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 3
 pages: 925
+wordCount: 358000
 yearPublished: 2001
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/175983.Memories_of_Ice"

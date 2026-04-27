@@ -7,6 +7,7 @@ author: "Frank Beddor"
 series: "The Looking Glass Wars"
 seriesNumber: 1
 pages: 384
+wordCount: 116000
 yearPublished: 2004
 publisher: "Dial Books"
 goodreads: "https://www.goodreads.com/book/show/44170.The_Looking_Glass_Wars"

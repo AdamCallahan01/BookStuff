@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "The Last Horizon"
 seriesNumber: 1
 pages: 467
+wordCount: 105300
 yearPublished: 2023
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/125005151-the-captain"

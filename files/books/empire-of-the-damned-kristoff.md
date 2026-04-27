@@ -7,6 +7,7 @@ author: "Jay Kristoff"
 series: "Empire of the Vampire"
 seriesNumber: 2
 pages: 709
+wordCount: 210000
 yearPublished: 2024
 publisher: "St. Martin's Press"
 goodreads: "https://www.goodreads.com/book/show/126918599-empire-of-the-damned"

@@ -7,6 +7,7 @@ author: "Rob J. Hayes"
 series: "Mortal Techniques"
 seriesNumber: 1
 pages: 331
+wordCount: 90000
 yearPublished: 2019
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/43069198-never-die"

@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 6
 pages: 391
+wordCount: 97936
 yearPublished: 2008
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/4957406-the-time-paradox"

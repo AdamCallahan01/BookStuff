@@ -7,6 +7,7 @@ author: "Richard Osman"
 series: "Thursday Murder Club"
 seriesNumber: 2
 pages: 422
+wordCount: 96000
 yearPublished: 2021
 publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/55457493-the-man-who-died-twice?ref=nav_sb_ss_1_19"

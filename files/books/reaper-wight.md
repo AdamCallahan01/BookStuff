@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 10
 pages: 465
+wordCount: 123000
 yearPublished: 2021
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/123381879-reaper"

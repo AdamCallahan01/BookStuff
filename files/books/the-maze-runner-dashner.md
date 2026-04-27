@@ -7,6 +7,7 @@ author: "James Dashner"
 series: "The Maze Runner"
 seriesNumber: 1
 pages: 384
+wordCount: 101182
 yearPublished: 2009
 publisher: "Delacorte"
 goodreads: "https://www.goodreads.com/book/show/6186357-the-maze-runner"

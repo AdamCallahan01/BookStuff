@@ -7,6 +7,7 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 17
 pages: 1781
+wordCount: 359000
 yearPublished: 2025
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/240029407-lady-of-fire"

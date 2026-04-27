@@ -7,6 +7,7 @@ author: "Katherine Kerr"
 series: "Deverry Cycle"
 seriesNumber: 1
 pages: 454
+wordCount: 140000
 yearPublished: 1986
 publisher: "Spectra"
 goodreads: "https://www.goodreads.com/book/show/498214.Daggerspell"

@@ -7,6 +7,7 @@ author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
 seriesNumber: 2
 pages: 364
+wordCount: 105894
 yearPublished: 2021
 publisher: "Dandy House"
 goodreads: "https://www.goodreads.com/book/show/57768380-carl-s-doomsday-scenario"

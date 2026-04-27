@@ -7,6 +7,7 @@ author: "Fonda Lee"
 series: "The Green Bone Saga"
 seriesNumber: 1
 pages: 540
+wordCount: 207000
 yearPublished: 2017
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/43587154-jade-city"

@@ -7,6 +7,7 @@ author: "Eoin Colfer"
 series: "Artemis Fowl"
 seriesNumber: 3
 pages: 329
+wordCount: 84000
 yearPublished: 2006
 publisher: "Puffin"
 goodreads: "https://www.goodreads.com/book/show/227865.The_Eternity_Code"

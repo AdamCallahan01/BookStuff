@@ -7,6 +7,7 @@ author: "Aristotle"
 series: "N/A"
 seriesNumber: null
 pages: 382
+wordCount: 150000
 yearPublished: 341
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/366330.Physics?ref=nav_sb_ss_3_17"

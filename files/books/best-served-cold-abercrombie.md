@@ -7,6 +7,7 @@ author: "Joe Abercrombie"
 series: "First Law World"
 seriesNumber: 4
 pages: 534
+wordCount: 228000
 yearPublished: 2009
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/2315892.Best_Served_Cold"

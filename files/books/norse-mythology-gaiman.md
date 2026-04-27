@@ -7,6 +7,7 @@ author: "Neil Gaiman"
 series: "N/A"
 seriesNumber: null
 pages: 301
+wordCount: 76000
 yearPublished: 2017
 publisher: "W. W. Norton"
 goodreads: "https://www.goodreads.com/book/show/30809689-norse-mythology"

@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 2
 pages: 604
+wordCount: 272000
 yearPublished: 2000
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/55401.Deadhouse_Gates"

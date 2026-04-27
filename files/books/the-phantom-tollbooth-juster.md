@@ -7,6 +7,7 @@ author: "Norton Juster"
 series: "N/A"
 seriesNumber: null
 pages: 248
+wordCount: 42156
 yearPublished: 1961
 publisher: "Random House"
 goodreads: "https://www.goodreads.com/book/show/378.The_Phantom_Tollbooth"

@@ -7,6 +7,7 @@ author: "Shemer Kuznits"
 series: "New Era Online"
 seriesNumber: 1
 pages: 718
+wordCount: 225000
 yearPublished: 2017
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/37889102-life-reset"

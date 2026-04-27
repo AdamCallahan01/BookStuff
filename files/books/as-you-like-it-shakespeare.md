@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 263
+wordCount: 21690
 yearPublished: 1599
 goodreads: "https://www.goodreads.com/book/show/42607.As_You_Like_It?ref=nav_sb_ss_1_14"
 avgGoodreadsRating: "7.62"

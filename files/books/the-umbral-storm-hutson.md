@@ -7,6 +7,7 @@ author: "Alec Hutson"
 series: "The Sharded Few"
 seriesNumber: 1
 pages: 656
+wordCount: 146500
 yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60969058-the-umbral-storm"

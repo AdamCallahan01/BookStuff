@@ -7,6 +7,7 @@ author: "Oleg Sapphire, Alexey Kovtunov"
 series: "The Healer's Way"
 seriesNumber: 1
 pages: 497
+wordCount: 79000
 yearPublished: 2023
 publisher: "Magic Dome"
 goodreads: "https://www.goodreads.com/book/show/199114221-the-healer-s-way-1"

@@ -7,6 +7,7 @@ author: "Domagoj Kurmaić"
 series: "Mother of Learning"
 seriesNumber: 4
 pages: 601
+wordCount: 180000
 yearPublished: 2023
 publisher: "Wraithmarked"
 goodreads: "https://www.goodreads.com/book/show/123179712-mother-of-learning"

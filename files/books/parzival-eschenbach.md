@@ -7,6 +7,7 @@ author: "Wolfram von Eschenbach"
 series: "N/A"
 seriesNumber: null
 pages: 448
+wordCount: 150000
 yearPublished: 1215
 publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/560089.Parzival?ref=nav_sb_ss_1_8"

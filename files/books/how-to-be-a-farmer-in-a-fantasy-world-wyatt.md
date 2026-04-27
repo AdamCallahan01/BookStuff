@@ -7,6 +7,7 @@ author: "Shawn Wyatt"
 series: "N/A"
 seriesNumber: null
 pages: 298
+wordCount: 90000
 yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/61767023-how-to-be-a-farmer-in-a-fantasy-world"

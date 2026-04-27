@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 247
+wordCount: 21291
 yearPublished: 1596
 goodreads: "https://www.goodreads.com/book/show/24128.The_Merchant_of_Venice?ref=nav_sb_ss_1_15"
 avgGoodreadsRating: "7.56"

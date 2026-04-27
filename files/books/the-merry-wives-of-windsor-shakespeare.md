@@ -7,6 +7,7 @@ author: "William Shakespeare"
 series: "N/A"
 seriesNumber: null
 pages: 156
+wordCount: 21845
 yearPublished: 1597
 goodreads: "https://www.goodreads.com/book/show/104778.The_Merry_Wives_of_Windsor?ref=nav_sb_ss_1_17"
 avgGoodreadsRating: "7.1"

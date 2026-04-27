@@ -7,6 +7,7 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 11
 pages: 464
+wordCount: 125000
 yearPublished: 2022
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/124926653-dreadgod"

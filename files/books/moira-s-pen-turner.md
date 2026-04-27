@@ -4,9 +4,10 @@ permalink: "/books/moira-s-pen-turner/"
 bookSlug: "moira-s-pen-turner"
 title: "Moira's Pen"
 author: "Megan Whalen Turner"
-series: "Queen's Thief"
+series: "The Queen's Thief"
 seriesNumber: null
 pages: 224
+wordCount: 70000
 yearPublished: 2022
 publisher: "Greenwillow"
 goodreads: "https://www.goodreads.com/en/book/show/60395737-moira-s-pen"

@@ -7,6 +7,7 @@ author: "Steven Erikson"
 series: "Malazan Book of the Fallen"
 seriesNumber: 4
 pages: 1015
+wordCount: 305225
 yearPublished: 2002
 publisher: "Tom Doherty"
 goodreads: "https://www.goodreads.com/book/show/55398.House_of_Chains"
