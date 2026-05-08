@@ -5,7 +5,10 @@ book: "[[the-lies-of-locke-lamora-lynch]]"
 readNumber: 1
 score: 10
 format: "Book"
+dateStarted: "8/7/2022"
+dateFinished: "8/12/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

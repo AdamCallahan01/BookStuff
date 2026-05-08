@@ -5,6 +5,9 @@ book: "[[harry-potter-and-the-half-blood-prince-rowling]]"
 readNumber: 1
 score: 9
 format: "Audible"
+dateStarted: "3/15/2021"
+dateFinished: "3/21/2021"
 yearRead: 2021
+days: 6
 ---
 

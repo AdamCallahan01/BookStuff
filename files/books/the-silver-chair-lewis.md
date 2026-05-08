@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
 seriesNumber: 5
 pages: 243
+wordCount: 51000
+yearPublished: 1953
+publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/587317.The_Silver_Chair"
+avgGoodreadsRating: "7.92"
+numGoodreadsRatings: "335723"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780064471091"
 bookOwned: true
 hasSummary: false

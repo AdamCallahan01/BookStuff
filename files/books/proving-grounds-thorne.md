@@ -7,7 +7,14 @@ author: "Apollos Thorne"
 series: "Underworld"
 seriesNumber: 4
 pages: 222
+wordCount: 60000
+yearPublished: 2020
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/50731407-proving-grounds"
+avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "1937"
+genre: "Fantasy"
+subgenre: "LitRPG"
 bookOwned: true
 hasSummary: false
 summarySlug: "proving-grounds-thorne-summary"

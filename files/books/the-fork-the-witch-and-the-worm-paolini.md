@@ -7,7 +7,14 @@ author: "Christopher Paolini"
 series: "The Inheritance Cycle"
 seriesNumber: 4.5
 pages: 288
+wordCount: 40000
+yearPublished: 2018
+publisher: "Knopf Books for Young Readers"
 goodreads: "https://www.goodreads.com/book/show/26152839-the-fork-the-witch-and-the-worm"
+avgGoodreadsRating: "7.62"
+numGoodreadsRatings: "39881"
+genre: "Fantasy"
+subgenre: "Collection"
 isbn: "9781984894885"
 bookOwned: true
 hasSummary: false

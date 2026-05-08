@@ -12,6 +12,9 @@ yearPublished: 2021
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/57913863-the-wandering-inn"
 avgGoodreadsRating: "9.16"
+numGoodreadsRatings: "4902"
+genre: "Fantasy"
+subgenre: "Epic"
 bookOwned: false
 hasSummary: false
 summarySlug: "winter-solstice-aba-summary"

@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Good Guys"
 seriesNumber: 5
 pages: 340
+wordCount: 75000
+yearPublished: 2019
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/70881687-dukes-and-ladders"
+avgGoodreadsRating: "8.78"
+numGoodreadsRatings: "4509"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346125"
 bookOwned: true
 hasSummary: false

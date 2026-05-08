@@ -7,7 +7,14 @@ author: "Marios Christou, David Ramenah"
 series: "N/A"
 seriesNumber: null
 pages: 352
+wordCount: 110000
+yearPublished: 2019
+publisher: "TMA Press"
 goodreads: "https://www.goodreads.com/book/show/42682571-greek-mythology-explained"
+avgGoodreadsRating: "7.46"
+numGoodreadsRatings: "560"
+genre: "Mythology"
+subgenre: "Fantasy"
 isbn: "9781633538962"
 bookOwned: true
 hasSummary: false

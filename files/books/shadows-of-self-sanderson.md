@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
 seriesNumber: 2
 pages: 383
+wordCount: 110019
+yearPublished: 2015
+publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/22887640-shadows-of-self"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "216193"
+genre: "Fantasy"
+subgenre: "Flintlock"
 isbn: "9781473208223"
 bookOwned: true
 otherSeries: "Cosmere"

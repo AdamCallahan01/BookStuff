@@ -7,7 +7,14 @@ author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
 seriesNumber: 0.5
 pages: 184
+wordCount: 50000
+yearPublished: 2016
+publisher: "Michael Wisehart"
 goodreads: "https://www.goodreads.com/book/show/38469951-shackled"
+avgGoodreadsRating: "7.86"
+numGoodreadsRatings: "630"
+genre: "Fantasy"
+subgenre: "Novella"
 bookOwned: false
 hasSummary: false
 summarySlug: "shackled-wisehart-summary"

@@ -7,7 +7,14 @@ author: "Nicholas Eames"
 series: "The Band"
 seriesNumber: 1
 pages: 502
+wordCount: 155005
+yearPublished: 2017
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/30841984-kings-of-the-wyld?ref=nav_sb_ss_1_17"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "68678"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9780316362474"
 bookOwned: true
 hasSummary: false

@@ -12,6 +12,9 @@ yearPublished: 2005
 publisher: "Miramax"
 goodreads: "https://www.goodreads.com/book/show/114954.The_Opal_Deception"
 avgGoodreadsRating: "8.1"
+numGoodreadsRatings: "143627"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781423103998"
 bookOwned: true
 hasSummary: false

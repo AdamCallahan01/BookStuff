@@ -12,7 +12,7 @@ yearPublished: 2009
 publisher: "Tom Doherty"
 goodreads: "https://www.goodreads.com/book/show/4703427-dust-of-dreams"
 avgGoodreadsRating: "8.6"
-numGoodreadsRatings: "31,470"
+numGoodreadsRatings: "31470"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780765316554"

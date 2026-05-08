@@ -12,6 +12,9 @@ yearPublished: 2002
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/76863.The_Arctic_Incident"
 avgGoodreadsRating: "8.92"
+numGoodreadsRatings: "160926"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780786808557"
 bookOwned: true
 hasSummary: false

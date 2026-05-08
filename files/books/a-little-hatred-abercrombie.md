@@ -12,6 +12,9 @@ yearPublished: 2019
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/35606041-a-little-hatred"
 avgGoodreadsRating: "8.9"
+numGoodreadsRatings: "62943"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780316187169"
 bookOwned: true
 otherSeries: "First Law"

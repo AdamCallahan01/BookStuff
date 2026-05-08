@@ -5,7 +5,10 @@ book: "[[chosen-breene]]"
 readNumber: 1
 score: 2
 format: "Audible"
+dateStarted: "6/6/2022"
+dateFinished: "6/11/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

@@ -12,7 +12,7 @@ yearPublished: 2021
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/57465589-of-blood-and-fire"
 avgGoodreadsRating: "8.18"
-numGoodreadsRatings: "17,453"
+numGoodreadsRatings: "17453"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781838381806"

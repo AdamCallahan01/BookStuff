@@ -12,7 +12,7 @@ yearPublished: 2023
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/125005151-the-captain"
 avgGoodreadsRating: "8.58"
-numGoodreadsRatings: "8,367"
+numGoodreadsRatings: "8367"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781959001096"

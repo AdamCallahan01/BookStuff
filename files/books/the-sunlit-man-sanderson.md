@@ -12,9 +12,11 @@ yearPublished: 2023
 publisher: "Dragonsteel"
 goodreads: "https://www.goodreads.com/book/show/60531420-the-sunlit-man"
 avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "87735"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781938570391"
 bookOwned: true
-otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "the-sunlit-man-sanderson-summary"
 summarySlugLink: "[[the-sunlit-man-sanderson-summary]]"

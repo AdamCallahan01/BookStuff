@@ -12,7 +12,7 @@ yearPublished: 2018
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/127409108-ghostwater"
 avgGoodreadsRating: "9.12"
-numGoodreadsRatings: "32,440"
+numGoodreadsRatings: "32440"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781959001027"

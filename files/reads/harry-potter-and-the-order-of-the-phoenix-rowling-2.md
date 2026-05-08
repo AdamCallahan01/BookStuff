@@ -5,7 +5,10 @@ book: "[[harry-potter-and-the-order-of-the-phoenix-rowling]]"
 readNumber: 2
 score: 6
 format: "E-book"
+dateStarted: "5/11/2022"
+dateFinished: "5/16/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

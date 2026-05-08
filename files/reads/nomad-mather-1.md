@@ -5,7 +5,10 @@ book: "[[nomad-mather]]"
 readNumber: 1
 score: 3
 format: "Audible"
+dateStarted: "5/29/2022"
+dateFinished: "6/3/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

@@ -12,6 +12,9 @@ yearPublished: 2001
 publisher: "Miramax"
 goodreads: "https://www.goodreads.com/book/show/18376853-artemis-fowl"
 avgGoodreadsRating: "7.72"
+numGoodreadsRatings: "564159"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780141312125"
 bookOwned: true
 hasSummary: false

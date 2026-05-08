@@ -12,6 +12,9 @@ yearPublished: 2020
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/49088677-how-to-rule-an-empire-and-get-away-with-it?ref=nav_sb_ss_3_17"
 avgGoodreadsRating: "8.2"
+numGoodreadsRatings: "4235"
+genre: "Fantasy"
+subgenre: "Humor"
 isbn: "9780316498678"
 bookOwned: true
 hasSummary: false

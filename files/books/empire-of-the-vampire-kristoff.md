@@ -12,6 +12,9 @@ yearPublished: 2021
 publisher: "St. Martin's Press"
 goodreads: "https://www.goodreads.com/en/book/show/56269205"
 avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "83630"
+genre: "Fantasy"
+subgenre: "Dark"
 isbn: "9781250245281"
 bookOwned: true
 hasSummary: true

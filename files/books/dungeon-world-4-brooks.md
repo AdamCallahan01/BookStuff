@@ -7,7 +7,14 @@ author: "Jonathan Brooks"
 series: "Dungeon World"
 seriesNumber: 4
 pages: 522
+wordCount: 120000
+yearPublished: 2019
+publisher: "Independently published"
 goodreads: "https://www.goodreads.com/book/show/53059683-dungeon-world-4"
+avgGoodreadsRating: "8.58"
+numGoodreadsRatings: "1288"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781710568196"
 bookOwned: false
 hasSummary: false

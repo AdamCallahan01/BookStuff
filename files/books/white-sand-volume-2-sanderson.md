@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "White Sand"
 seriesNumber: 2
 pages: 160
+wordCount: 20000
+yearPublished: 2018
+publisher: "Dynamite Entertainment"
 goodreads: "https://www.goodreads.com/book/show/33551363-white-sand-volume-2"
+avgGoodreadsRating: "7.06"
+numGoodreadsRatings: "14964"
+genre: "Fantasy"
+subgenre: "Graphic Novel"
 isbn: "9781524103422"
 bookOwned: false
 otherSeries: "Cosmere"

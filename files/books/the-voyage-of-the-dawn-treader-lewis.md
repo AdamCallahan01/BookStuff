@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
 seriesNumber: 4
 pages: 248
+wordCount: 54000
+yearPublished: 1952
+publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/444329.The_Voyage_of_the_Dawn_Treader"
+avgGoodreadsRating: "8.18"
+numGoodreadsRatings: "513601"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780064471077"
 bookOwned: true
 hasSummary: false

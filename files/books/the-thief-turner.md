@@ -7,7 +7,14 @@ author: "Megan Whalen Turner"
 series: "The Queen's Thief"
 seriesNumber: 1
 pages: 280
+wordCount: 70000
+yearPublished: 1996
+publisher: "Greenwillow Books"
 goodreads: "https://www.goodreads.com/book/show/30363359-the-thief"
+avgGoodreadsRating: "7.7"
+numGoodreadsRatings: "94532"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780062642967"
 bookOwned: true
 hasSummary: false

@@ -12,6 +12,9 @@ yearPublished: 2015
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/22055262-a-darker-shade-of-magic?ref=nav_sb_ss_1_16"
 avgGoodreadsRating: "8.12"
+numGoodreadsRatings: "438488"
+genre: "Fantasy"
+subgenre: "Urban"
 isbn: "9780765376459"
 bookOwned: true
 hasSummary: false

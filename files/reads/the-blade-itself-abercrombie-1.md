@@ -5,7 +5,10 @@ book: "[[the-blade-itself-abercrombie]]"
 readNumber: 1
 score: 9
 format: "Audible"
+dateStarted: "8/13/2022"
+dateFinished: "8/18/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

@@ -12,7 +12,7 @@ yearPublished: 2018
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/40187583-on-the-shoulders-of-titans"
 avgGoodreadsRating: "8.44"
-numGoodreadsRatings: "14,432"
+numGoodreadsRatings: "14432"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781982931421"

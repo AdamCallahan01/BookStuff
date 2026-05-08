@@ -11,6 +11,9 @@ wordCount: 23009
 yearPublished: 1604
 goodreads: "https://www.goodreads.com/book/show/104790.All_s_Well_That_Ends_Well?ref=nav_sb_ss_1_19"
 avgGoodreadsRating: "7.12"
+numGoodreadsRatings: "20415"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780743484978"
 bookOwned: true
 hasSummary: false

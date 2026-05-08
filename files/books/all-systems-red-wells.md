@@ -7,7 +7,14 @@ author: "Martha Wells"
 series: "The Murderbot Diaries"
 seriesNumber: 1
 pages: 144
+wordCount: 31468
+yearPublished: 2017
+publisher: "Tordotcom"
 goodreads: "https://www.goodreads.com/book/show/40653269-all-systems-red"
+avgGoodreadsRating: "8.22"
+numGoodreadsRatings: "387098"
+genre: "Science Fiction"
+subgenre: "Novella"
 isbn: "9781250214713"
 bookOwned: true
 hasSummary: false

@@ -11,6 +11,9 @@ wordCount: 17121
 yearPublished: 1594
 goodreads: "https://www.goodreads.com/book/show/82346.The_Two_Gentlemen_of_Verona?ref=nav_sb_ss_2_11"
 avgGoodreadsRating: "6.8"
+numGoodreadsRatings: "17589"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780671722951"
 bookOwned: true
 hasSummary: false

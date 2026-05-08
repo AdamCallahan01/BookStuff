@@ -7,7 +7,14 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 1
 pages: 294
+wordCount: 89097
+yearPublished: 2016
+publisher: "Hidden Gnome Publishing"
 goodreads: "https://www.goodreads.com/book/show/35683460-unsouled"
+avgGoodreadsRating: "8.28"
+numGoodreadsRatings: "59242"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780989671767"
 bookOwned: true
 hasSummary: false

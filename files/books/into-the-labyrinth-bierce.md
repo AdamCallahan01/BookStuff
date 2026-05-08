@@ -7,7 +7,15 @@ author: "James Bierce"
 series: "Mage Errant"
 seriesNumber: 1
 pages: 216
+wordCount: 56000
+yearPublished: 2018
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/42267952-into-the-labyrinth?ref=nav_sb_ss_1_12"
+avgGoodreadsRating: "8.34"
+numGoodreadsRatings: "12998"
+genre: "Fantasy"
+subgenre: "Progression"
+isbn: "9781731550941"
 bookOwned: true
 hasSummary: false
 summarySlug: "into-the-labyrinth-bierce-summary"

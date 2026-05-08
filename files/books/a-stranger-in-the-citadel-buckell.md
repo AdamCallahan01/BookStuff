@@ -7,7 +7,14 @@ author: "Tobias S. Buckell"
 series: "N/A"
 seriesNumber: null
 pages: 256
+wordCount: 30000
+yearPublished: 2021
+publisher: "Tachyon Publications"
 goodreads: "https://www.goodreads.com/book/show/139595692-a-stranger-in-the-citadel?ref=nav_sb_ss_3_19"
+avgGoodreadsRating: "6.86"
+numGoodreadsRatings: "390"
+genre: "Fantasy"
+subgenre: "Dystopian"
 isbn: "9781616963989"
 bookOwned: false
 hasSummary: false

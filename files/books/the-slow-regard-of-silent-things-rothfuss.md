@@ -7,7 +7,14 @@ author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
 seriesNumber: 2.5
 pages: 159
+wordCount: 31755
+yearPublished: 2014
+publisher: "DAW Books"
 goodreads: "https://www.goodreads.com/book/show/21535271-the-slow-regard-of-silent-things?ref=nav_sb_ss_1_21"
+avgGoodreadsRating: "7.72"
+numGoodreadsRatings: "162169"
+genre: "Fantasy"
+subgenre: "Novella"
 isbn: "9780756410438"
 bookOwned: true
 hasSummary: false

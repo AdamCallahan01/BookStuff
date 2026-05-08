@@ -11,6 +11,9 @@ wordCount: 21157
 yearPublished: 1598
 goodreads: "https://www.goodreads.com/book/show/12957.Much_Ado_About_Nothing?ref=nav_sb_ss_1_19"
 avgGoodreadsRating: "8.12"
+numGoodreadsRatings: "260869"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9781853262548"
 bookOwned: true
 hasSummary: false

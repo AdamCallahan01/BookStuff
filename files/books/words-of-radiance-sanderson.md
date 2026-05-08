@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 seriesNumber: 2
 pages: 1087
+wordCount: 399431
+yearPublished: 2014
+publisher: "Tor Books"
 goodreads: "https://www.goodreads.com/book/show/17332218-words-of-radiance"
+avgGoodreadsRating: "9.52"
+numGoodreadsRatings: "508022"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765326362"
 bookOwned: true
 otherSeries: "Cosmere"

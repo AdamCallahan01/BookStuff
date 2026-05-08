@@ -7,7 +7,14 @@ author: "Shirtaloon"
 series: "He Who Fights with Monsters"
 seriesNumber: 1
 pages: 680
+wordCount: 260000
+yearPublished: 2021
+publisher: "Independently published"
 goodreads: "https://www.goodreads.com/book/show/57599993-he-who-fights-with-monsters"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "43734"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9798712811786"
 bookOwned: true
 hasSummary: false

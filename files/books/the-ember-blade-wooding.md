@@ -7,7 +7,14 @@ author: "Chris Wooding"
 series: "The Darkwater Legacy"
 seriesNumber: 1
 pages: 824
+wordCount: 230000
+yearPublished: 2018
+publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/34673711-the-ember-blade?ref=nav_sb_ss_1_11"
+avgGoodreadsRating: "8.4"
+numGoodreadsRatings: "6659"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9781473214866"
 bookOwned: true
 hasSummary: false

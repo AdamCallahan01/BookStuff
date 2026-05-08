@@ -12,6 +12,9 @@ yearPublished: 2018
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/36454667-empire-of-silence?ref=nav_sb_ss_1_17"
 avgGoodreadsRating: "8.12"
+numGoodreadsRatings: "57568"
+genre: "Science Fiction"
+subgenre: "Space Opera"
 isbn: "9780756413026"
 bookOwned: true
 hasSummary: false

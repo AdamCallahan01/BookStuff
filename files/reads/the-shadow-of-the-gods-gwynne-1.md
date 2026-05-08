@@ -5,7 +5,10 @@ book: "[[the-shadow-of-the-gods-gwynne]]"
 readNumber: 1
 score: 4
 format: "Audible"
+dateStarted: "7/20/2022"
+dateFinished: "7/25/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

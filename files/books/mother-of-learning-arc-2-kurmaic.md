@@ -12,6 +12,9 @@ yearPublished: 2022
 publisher: "Wraithmarked"
 goodreads: "https://www.goodreads.com/book/show/60236906-mother-of-learning"
 avgGoodreadsRating: "9.04"
+numGoodreadsRatings: "9360"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9781955252225"
 bookOwned: false
 hasSummary: false

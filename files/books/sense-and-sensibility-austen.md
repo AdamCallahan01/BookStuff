@@ -12,6 +12,9 @@ yearPublished: 1811
 publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/14935.Sense_and_Sensibility"
 avgGoodreadsRating: "8.16"
+numGoodreadsRatings: "1314246"
+genre: "Fiction"
+subgenre: "Romance"
 isbn: "9780141439662"
 bookOwned: true
 hasSummary: false

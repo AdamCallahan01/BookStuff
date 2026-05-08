@@ -5,7 +5,10 @@ book: "[[harry-potter-and-the-goblet-of-fire-rowling]]"
 readNumber: 2
 score: 6
 format: "E-book"
+dateStarted: "5/9/2022"
+dateFinished: "5/14/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

@@ -7,7 +7,14 @@ author: "Caroline Peckham"
 series: "Zodiac Academy"
 seriesNumber: 1
 pages: 436
+wordCount: 80000
+yearPublished: 2019
+publisher: "King's Hollow"
 goodreads: "https://www.goodreads.com/book/show/211662690-the-awakening"
+avgGoodreadsRating: "7.64"
+numGoodreadsRatings: "456271"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781916926257"
 bookOwned: false
 hasSummary: false

@@ -5,7 +5,10 @@ book: "[[city-of-light-wight]]"
 readNumber: 1
 score: 3
 format: "Audible"
+dateStarted: "7/26/2022"
+dateFinished: "7/31/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

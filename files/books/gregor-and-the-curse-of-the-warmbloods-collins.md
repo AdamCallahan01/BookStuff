@@ -12,6 +12,9 @@ yearPublished: 2005
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/385706.Gregor_and_the_Curse_of_the_Warmbloods"
 avgGoodreadsRating: "8.46"
+numGoodreadsRatings: "52753"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439656245"
 bookOwned: true
 hasSummary: false

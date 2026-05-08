@@ -7,7 +7,14 @@ author: "R. F. Kuang"
 series: "The Poppy War"
 seriesNumber: 1
 pages: 545
+wordCount: 164865
+yearPublished: 2018
+publisher: "Harper Voyager"
 goodreads: "https://www.goodreads.com/book/show/35068705-the-poppy-war?ref=nav_sb_ss_1_9"
+avgGoodreadsRating: "8.32"
+numGoodreadsRatings: "514286"
+genre: "Fantasy"
+subgenre: "Dark"
 isbn: "9780062662590"
 bookOwned: true
 hasSummary: false

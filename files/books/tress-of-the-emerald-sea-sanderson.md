@@ -7,10 +7,16 @@ author: "Brandon Sanderson"
 series: "Cosmere"
 seriesNumber: null
 pages: 483
+wordCount: 107227
+yearPublished: 2023
+publisher: "Tor Books"
 goodreads: "https://www.goodreads.com/book/show/127280617-tress-of-the-emerald-sea"
+avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "308199"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781250899668"
 bookOwned: true
-otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "tress-of-the-emerald-sea-sanderson-summary"
 summarySlugLink: "[[tress-of-the-emerald-sea-sanderson-summary]]"

@@ -12,7 +12,7 @@ yearPublished: 1994
 publisher: "St. Martins"
 goodreads: "https://www.goodreads.com/book/show/205788549-the-winter-king"
 avgGoodreadsRating: "8.52"
-numGoodreadsRatings: "52,400"
+numGoodreadsRatings: "52400"
 genre: "Historical Fiction"
 subgenre: "Historical Fantasy"
 isbn: "9780312156961"

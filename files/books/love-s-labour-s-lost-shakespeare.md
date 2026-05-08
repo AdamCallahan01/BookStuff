@@ -11,6 +11,9 @@ wordCount: 21459
 yearPublished: 1598
 goodreads: "https://www.goodreads.com/book/show/1383325.Love_s_Labour_s_Lost"
 avgGoodreadsRating: "7.04"
+numGoodreadsRatings: "16266"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780192838803"
 bookOwned: true
 hasSummary: false

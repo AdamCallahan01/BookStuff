@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Good Guys"
 seriesNumber: 2
 pages: 254
+wordCount: 70000
+yearPublished: 2018
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/61100297-heir-today-pawn-tomorrow"
+avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "5256"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346095"
 bookOwned: true
 hasSummary: false

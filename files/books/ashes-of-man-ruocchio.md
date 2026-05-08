@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/60427253-ashes-of-man"
 avgGoodreadsRating: "9.04"
-numGoodreadsRatings: "7,031"
+numGoodreadsRatings: "7031"
 genre: "Sci-Fantasy"
 subgenre: "Space Opera"
 isbn: "9780756416607"

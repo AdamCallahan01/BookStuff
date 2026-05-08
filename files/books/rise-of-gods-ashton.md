@@ -12,7 +12,7 @@ yearPublished: 2016
 publisher: "Paternus Books"
 goodreads: "https://www.goodreads.com/en/book/show/35621572-rise-of-gods"
 avgGoodreadsRating: "7.92"
-numGoodreadsRatings: "2,633"
+numGoodreadsRatings: "2633"
 genre: "Fantasy"
 subgenre: "Urban"
 isbn: "9780997173710"

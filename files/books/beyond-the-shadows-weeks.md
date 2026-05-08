@@ -7,7 +7,14 @@ author: "Brent Weeks"
 series: "Night Angel"
 seriesNumber: 3
 pages: 689
+wordCount: 198000
+yearPublished: 2008
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/3754026-beyond-the-shadows"
+avgGoodreadsRating: "8.54"
+numGoodreadsRatings: "104555"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780316033664"
 bookOwned: true
 hasSummary: false

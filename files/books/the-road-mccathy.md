@@ -12,6 +12,9 @@ yearPublished: 2006
 publisher: "Alfred A. Knopf"
 goodreads: "https://www.goodreads.com/book/show/6288.The_Road?ref=nav_sb_ss_1_8"
 avgGoodreadsRating: "7.98"
+numGoodreadsRatings: "1059966"
+genre: "Fiction"
+subgenre: "Dystopian"
 isbn: "9780307265432"
 bookOwned: false
 hasSummary: false

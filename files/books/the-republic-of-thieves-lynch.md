@@ -7,7 +7,14 @@ author: "Scott Lynch"
 series: "Gentleman Bastard"
 seriesNumber: 3
 pages: 650
+wordCount: 218000
+yearPublished: 2013
+publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/2890090-the-republic-of-thieves"
+avgGoodreadsRating: "8.42"
+numGoodreadsRatings: "123121"
+genre: "Fantasy"
+subgenre: "Heist"
 isbn: "9780553804690"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
 seriesNumber: 3
 pages: 1136
+wordCount: 335000
+yearPublished: 2021
+publisher: "Easthaven Publishing"
 goodreads: "https://www.goodreads.com/book/show/59659815-the-four-part-key"
+avgGoodreadsRating: "9.16"
+numGoodreadsRatings: "2535"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780998150574"
 bookOwned: true
 hasSummary: false

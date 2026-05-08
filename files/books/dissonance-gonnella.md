@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "Mountaindale"
 goodreads: "https://www.goodreads.com/book/show/60824343-dissonance"
 avgGoodreadsRating: "8.76"
-numGoodreadsRatings: "7,866"
+numGoodreadsRatings: "7866"
 genre: "Fantasy"
 subgenre: "LitRPG"
 isbn: "9781637660904"

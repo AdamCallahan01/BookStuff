@@ -12,7 +12,7 @@ yearPublished: 2024
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/176443792-disquiet-gods"
 avgGoodreadsRating: "9.16"
-numGoodreadsRatings: "5,643"
+numGoodreadsRatings: "5643"
 genre: "Sci-Fantasy"
 subgenre: "Space Opera"
 isbn: "9781982193324"

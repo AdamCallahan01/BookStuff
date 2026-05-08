@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Bad Guys"
 seriesNumber: 1
 pages: 446
+wordCount: 130000
+yearPublished: 2020
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/58642548-scamps-scoundrels"
+avgGoodreadsRating: "8.8"
+numGoodreadsRatings: "3850"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346170"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Larry Correia"
 series: "Saga of the Forgotten Warrior"
 seriesNumber: 1
 pages: 432
+wordCount: 150000
+yearPublished: 2015
+publisher: "Baen"
 goodreads: "https://www.goodreads.com/book/show/27276240-son-of-the-black-sword"
+avgGoodreadsRating: "8.46"
+numGoodreadsRatings: "10593"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781476781570"
 bookOwned: true
 hasSummary: false

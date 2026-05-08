@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Good Guys"
 seriesNumber: 4
 pages: 276
+wordCount: 75000
+yearPublished: 2019
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/64565598-four"
+avgGoodreadsRating: "8.78"
+numGoodreadsRatings: "4632"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346118"
 bookOwned: true
 hasSummary: false

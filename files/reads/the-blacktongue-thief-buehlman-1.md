@@ -5,7 +5,10 @@ book: "[[the-blacktongue-thief-buehlman]]"
 readNumber: 1
 score: 8
 format: "Audible"
+dateStarted: "8/15/2022"
+dateFinished: "8/20/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

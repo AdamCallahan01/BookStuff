@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "N/A"
 seriesNumber: null
 pages: 191
+wordCount: 60000
+yearPublished: 1952
+publisher: "Touchstone Books"
 goodreads: "https://www.goodreads.com/book/show/11138.Mere_Christianity?ref=nav_sb_ss_1_8"
+avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "464759"
+genre: "Nonfiction"
+subgenre: "Religion"
 isbn: "9780684823782"
 bookOwned: false
 hasSummary: false

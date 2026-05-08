@@ -7,7 +7,14 @@ author: "R. A. Salvatore"
 series: "The Legend of Drizzt"
 seriesNumber: 1
 pages: 343
+wordCount: 94919
+yearPublished: 1990
+publisher: "Wizards of the Coast"
 goodreads: "https://www.goodreads.com/book/show/317547.Homeland"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "100322"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9780880389051"
 bookOwned: true
 hasSummary: false

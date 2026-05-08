@@ -7,7 +7,14 @@ author: "J. K. Rowling"
 series: "Harry Potter"
 seriesNumber: 5
 pages: 912
+wordCount: 257154
+yearPublished: 2003
+publisher: "Scholastic Inc."
 goodreads: "https://www.goodreads.com/book/show/58613451-harry-potter-and-the-order-of-the-phoenix"
+avgGoodreadsRating: "9"
+numGoodreadsRatings: "3855079"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439358064"
 bookOwned: true
 hasSummary: false

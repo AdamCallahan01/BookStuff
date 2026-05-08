@@ -12,6 +12,9 @@ yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60969058-the-umbral-storm"
 avgGoodreadsRating: "8.76"
+numGoodreadsRatings: "1662"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9781734257434"
 bookOwned: true
 hasSummary: false

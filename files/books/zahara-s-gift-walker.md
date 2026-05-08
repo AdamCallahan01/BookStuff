@@ -12,6 +12,9 @@ yearPublished: 2018
 publisher: "Mystic Lake"
 goodreads: "https://www.goodreads.com/book/show/45553735-zahara-s-gift"
 avgGoodreadsRating: "7.86"
+numGoodreadsRatings: "1174"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780578458595"
 bookOwned: false
 hasSummary: false

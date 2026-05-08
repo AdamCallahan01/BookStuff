@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "Throne of Glass"
 seriesNumber: 3
 pages: 576
+wordCount: 163266
+yearPublished: 2014
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/61756735-heir-of-fire"
+avgGoodreadsRating: "8.9"
+numGoodreadsRatings: "1652901"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781639730995"
 bookOwned: true
 hasSummary: false

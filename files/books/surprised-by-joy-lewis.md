@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "N/A"
 seriesNumber: null
 pages: 185
+wordCount: 76000
+yearPublished: 1913
+publisher: "Geoffrey Bles"
 goodreads: "https://www.goodreads.com/book/show/121732.Surprised_by_Joy?ref=nav_sb_ss_1_16"
+avgGoodreadsRating: "8.12"
+numGoodreadsRatings: "70238"
+genre: "Nonfiction"
+subgenre: "Religion"
 isbn: "9780006280835"
 bookOwned: false
 hasSummary: false

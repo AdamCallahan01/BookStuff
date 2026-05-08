@@ -5,7 +5,10 @@ book: "[[the-hope-of-elantris-sanderson]]"
 readNumber: 1
 score: 6
 format: "E-book"
+dateStarted: "5/21/2022"
+dateFinished: "5/26/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

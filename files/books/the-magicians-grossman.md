@@ -7,7 +7,14 @@ author: "Lev Grossman"
 series: "The Magicians"
 seriesNumber: 1
 pages: 402
+wordCount: 151380
+yearPublished: 2009
+publisher: "Viking"
 goodreads: "https://www.goodreads.com/book/show/6101718-the-magicians?ref=nav_sb_ss_2_13"
+avgGoodreadsRating: "7.06"
+numGoodreadsRatings: "280544"
+genre: "Fantasy"
+subgenre: "Urban"
 isbn: "9780670020553"
 bookOwned: true
 hasSummary: false

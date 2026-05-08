@@ -12,6 +12,9 @@ yearPublished: 2002
 publisher: "Tom Doherty"
 goodreads: "https://www.goodreads.com/book/show/55398.House_of_Chains"
 avgGoodreadsRating: "8.68"
+numGoodreadsRatings: "56430"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765348814"
 bookOwned: true
 otherSeries: "Malazan"

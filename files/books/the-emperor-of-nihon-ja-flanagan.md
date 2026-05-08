@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 10
 pages: 487
+wordCount: 110000
+yearPublished: 2011
+publisher: "Viking Books for Young Readers"
 goodreads: "https://www.goodreads.com/book/show/75178822-the-emperor-of-nihon-ja"
+avgGoodreadsRating: "8.82"
+numGoodreadsRatings: "59989"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142418598"
 bookOwned: true
 hasSummary: false

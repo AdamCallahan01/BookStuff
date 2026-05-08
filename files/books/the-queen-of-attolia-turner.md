@@ -7,7 +7,14 @@ author: "Megan Whalen Turner"
 series: "The Queen's Thief"
 seriesNumber: 2
 pages: 362
+wordCount: 70000
+yearPublished: 2000
+publisher: "Greenwillow Books"
 goodreads: "https://www.goodreads.com/book/show/30363360-the-queen-of-attolia"
+avgGoodreadsRating: "8.34"
+numGoodreadsRatings: "50421"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780062642974"
 bookOwned: true
 hasSummary: false

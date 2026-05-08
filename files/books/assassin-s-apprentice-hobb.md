@@ -12,7 +12,7 @@ yearPublished: 1995
 publisher: "Spectra"
 goodreads: "https://www.goodreads.com/book/show/77197.Assassin_s_Apprentice"
 avgGoodreadsRating: "8.38"
-numGoodreadsRatings: "370,263"
+numGoodreadsRatings: "370263"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780553573398"

@@ -5,7 +5,10 @@ book: "[[he-who-fights-with-monsters-shirtaloon]]"
 readNumber: 1
 score: 5
 format: "Audible"
+dateStarted: "5/23/2022"
+dateFinished: "5/28/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

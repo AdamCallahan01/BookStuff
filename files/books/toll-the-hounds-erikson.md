@@ -12,7 +12,7 @@ yearPublished: 2008
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/938544.Toll_the_Hounds"
 avgGoodreadsRating: "8.74"
-numGoodreadsRatings: "35,532"
+numGoodreadsRatings: "35532"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780765310088"

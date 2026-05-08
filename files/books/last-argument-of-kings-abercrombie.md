@@ -7,7 +7,14 @@ author: "Joe Abercrombie"
 series: "The First Law"
 seriesNumber: 3
 pages: 536
+wordCount: 234100
+yearPublished: 2008
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/24958074-last-argument-of-kings"
+avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "207295"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780316387408"
 bookOwned: true
 otherSeries: "First Law"

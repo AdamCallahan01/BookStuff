@@ -12,6 +12,9 @@ yearPublished: 2017
 publisher: "Worldbuilders"
 goodreads: "https://www.goodreads.com/book/show/34878094-for-we-are-many"
 avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "77577"
+genre: "Science Fiction"
+subgenre: "Space Opera"
 isbn: "9781680680591"
 bookOwned: true
 hasSummary: false

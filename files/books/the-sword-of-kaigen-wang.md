@@ -7,7 +7,14 @@ author: "M. L. Wang"
 series: "Theonite"
 seriesNumber: null
 pages: 651
+wordCount: 200000
+yearPublished: 2019
+publisher: "Independently Published"
 goodreads: "https://www.goodreads.com/book/show/44033470-the-sword-of-kaigen"
+avgGoodreadsRating: "8.86"
+numGoodreadsRatings: "101172"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781720193869"
 bookOwned: true
 hasSummary: false

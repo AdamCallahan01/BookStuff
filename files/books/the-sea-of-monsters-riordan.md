@@ -7,7 +7,14 @@ author: "Rick Riordan"
 series: "Percy Jackson and the Olympians"
 seriesNumber: 2
 pages: 279
+wordCount: 63976
+yearPublished: 2006
+publisher: "Disney-Hyperion"
 goodreads: "https://www.goodreads.com/book/show/40727118-the-sea-of-monsters"
+avgGoodreadsRating: "8.48"
+numGoodreadsRatings: "1396315"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780120000319"
 bookOwned: true
 otherSeries: "Percy Jackson"

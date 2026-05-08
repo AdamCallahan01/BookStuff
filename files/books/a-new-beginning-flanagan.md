@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "The Royal Ranger"
 seriesNumber: 1
 pages: 460
+wordCount: 130000
+yearPublished: 2013
+publisher: "Puffin Books"
 goodreads: "https://www.goodreads.com/book/show/41015844-the-royal-ranger"
+avgGoodreadsRating: "8.54"
+numGoodreadsRatings: "38526"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781101638613"
 bookOwned: true
 hasSummary: false

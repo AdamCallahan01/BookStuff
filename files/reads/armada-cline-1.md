@@ -5,7 +5,10 @@ book: "[[armada-cline]]"
 readNumber: 1
 score: 6.5
 format: "Book"
+dateStarted: "8/17/2022"
+dateFinished: "8/22/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

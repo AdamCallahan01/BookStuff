@@ -5,7 +5,10 @@ book: "[[red-rising-brown]]"
 readNumber: 1
 score: 8
 format: "Audible"
+dateStarted: "9/4/2022"
+dateFinished: "9/9/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

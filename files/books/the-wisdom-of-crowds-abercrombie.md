@@ -12,6 +12,9 @@ yearPublished: 2021
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/56597275-the-wisdom-of-crowds"
 avgGoodreadsRating: "9.2"
+numGoodreadsRatings: "42184"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780316187244"
 bookOwned: true
 otherSeries: "First Law"

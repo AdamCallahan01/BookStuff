@@ -11,6 +11,9 @@ wordCount: 21780
 yearPublished: 1604
 goodreads: "https://www.goodreads.com/book/show/91571.Measure_for_Measure?ref=nav_sb_ss_1_15"
 avgGoodreadsRating: "7.34"
+numGoodreadsRatings: "31837"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780743484909"
 bookOwned: true
 hasSummary: false

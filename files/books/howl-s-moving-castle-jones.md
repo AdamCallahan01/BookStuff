@@ -7,7 +7,14 @@ author: "Diana Wynne Jones"
 series: "Howl's Moving Castle"
 seriesNumber: 1
 pages: 329
+wordCount: 75480
+yearPublished: 1986
+publisher: "Harper Trophy"
 goodreads: "https://www.goodreads.com/book/show/6294.Howl_s_Moving_Castle?ref=nav_sb_ss_1_20"
+avgGoodreadsRating: "8.56"
+numGoodreadsRatings: "458610"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780064410342"
 bookOwned: true
 hasSummary: false

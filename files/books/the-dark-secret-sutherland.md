@@ -12,6 +12,9 @@ yearPublished: 2013
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/17675467-the-dark-secret"
 avgGoodreadsRating: "8.82"
+numGoodreadsRatings: "40909"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545349215"
 bookOwned: true
 hasSummary: false

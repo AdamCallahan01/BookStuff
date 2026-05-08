@@ -12,6 +12,9 @@ yearPublished: 2021
 publisher: "Dandy House"
 goodreads: "https://www.goodreads.com/book/show/57768380-carl-s-doomsday-scenario"
 avgGoodreadsRating: "9.12"
+numGoodreadsRatings: "235720"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9798588333764"
 bookOwned: true
 hasSummary: false

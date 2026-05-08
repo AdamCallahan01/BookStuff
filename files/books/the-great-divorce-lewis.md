@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "N/A"
 seriesNumber: null
 pages: 146
+wordCount: 35000
+yearPublished: 1946
+publisher: "Scribner"
 goodreads: "https://www.goodreads.com/book/show/1387600.The_Great_Divorce"
+avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "188561"
+genre: "Nonfiction"
+subgenre: "Religion"
 isbn: "9780020868903"
 bookOwned: true
 hasSummary: false

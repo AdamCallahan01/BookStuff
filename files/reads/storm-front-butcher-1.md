@@ -5,7 +5,10 @@ book: "[[storm-front-butcher]]"
 readNumber: 1
 score: 7.5
 format: "Book"
+dateStarted: "8/3/2022"
+dateFinished: "8/8/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

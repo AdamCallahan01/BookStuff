@@ -7,7 +7,14 @@ author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
 seriesNumber: 2
 pages: 723
+wordCount: 215000
+yearPublished: 2019
+publisher: "Easthaven Publishing"
 goodreads: "https://www.goodreads.com/book/show/49682048-plague-of-shadows"
+avgGoodreadsRating: "8.76"
+numGoodreadsRatings: "3328"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780998150550"
 bookOwned: true
 hasSummary: false

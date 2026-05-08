@@ -7,7 +7,14 @@ author: "Kyle Kirrin"
 series: "The Ripple System"
 seriesNumber: 3
 pages: 862
+wordCount: 250000
+yearPublished: 2022
+publisher: "Portal Books"
 goodreads: "https://www.goodreads.com/book/show/62645486-gilded-ghost"
+avgGoodreadsRating: "8.92"
+numGoodreadsRatings: "2508"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781913695453"
 bookOwned: true
 hasSummary: false

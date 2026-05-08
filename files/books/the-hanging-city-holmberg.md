@@ -11,8 +11,8 @@ wordCount: 90000
 yearPublished: 2023
 publisher: "47North"
 goodreads: "https://www.goodreads.com/book/show/63127235-the-hanging-city?ref=nav_sb_ss_1_12"
-avgGoodreadsRating: "3.95"
-numGoodreadsRatings: "14,940"
+avgGoodreadsRating: "7.9"
+numGoodreadsRatings: "14940"
 genre: "Fantasy"
 subgenre: "Romance"
 isbn: "9781662508714"

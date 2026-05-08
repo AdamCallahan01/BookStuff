@@ -5,7 +5,10 @@ book: "[[scorching-sun-thorne]]"
 readNumber: 1
 score: 3.5
 format: "Audible"
+dateStarted: "5/3/2022"
+dateFinished: "5/8/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

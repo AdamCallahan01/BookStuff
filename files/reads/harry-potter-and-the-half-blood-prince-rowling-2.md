@@ -5,7 +5,10 @@ book: "[[harry-potter-and-the-half-blood-prince-rowling]]"
 readNumber: 2
 score: 8
 format: "E-book"
+dateStarted: "5/13/2022"
+dateFinished: "5/18/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

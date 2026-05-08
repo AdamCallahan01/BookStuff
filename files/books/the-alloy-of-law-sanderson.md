@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
 seriesNumber: 1
 pages: 332
+wordCount: 94652
+yearPublished: 2011
+publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/12065807-the-alloy-of-law"
+avgGoodreadsRating: "8.38"
+numGoodreadsRatings: "299689"
+genre: "Fantasy"
+subgenre: "Flintlock"
 isbn: "9780575105836"
 bookOwned: true
 otherSeries: "Cosmere"

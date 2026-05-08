@@ -7,7 +7,14 @@ author: "Christopher Paolini"
 series: "The Inheritance Cycle"
 seriesNumber: 1
 pages: 503
+wordCount: 157220
+yearPublished: 2002
+publisher: "Alfred A. Knopf"
 goodreads: "https://www.goodreads.com/book/show/113436.Eragon?ref=nav_sb_ss_1_6"
+avgGoodreadsRating: "7.94"
+numGoodreadsRatings: "1961431"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780375826696"
 bookOwned: true
 hasSummary: false

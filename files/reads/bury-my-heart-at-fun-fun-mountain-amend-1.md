@@ -5,7 +5,10 @@ book: "[[bury-my-heart-at-fun-fun-mountain-amend]]"
 readNumber: 1
 score: null
 format: "Book"
+dateStarted: "7/8/2022"
+dateFinished: "7/13/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

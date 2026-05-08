@@ -12,7 +12,7 @@ yearPublished: 2017
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/123289362-skysworn"
 avgGoodreadsRating: "8.76"
-numGoodreadsRatings: "33,293"
+numGoodreadsRatings: "33293"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781959001010"

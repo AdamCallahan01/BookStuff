@@ -12,6 +12,9 @@ yearPublished: 2011
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/12558539-the-blacksmith-s-son"
 avgGoodreadsRating: "7.82"
+numGoodreadsRatings: "13787"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781463684341"
 bookOwned: true
 hasSummary: false

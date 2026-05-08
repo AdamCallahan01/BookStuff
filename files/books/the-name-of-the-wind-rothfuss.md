@@ -7,7 +7,14 @@ author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
 seriesNumber: 1
 pages: 662
+wordCount: 250000
+yearPublished: 2007
+publisher: "Penguin Group DAW"
 goodreads: "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind?ref=nav_sb_ss_1_10"
+avgGoodreadsRating: "9.04"
+numGoodreadsRatings: "1099471"
+genre: "Fantasy"
+subgenre: "Academia"
 isbn: "9780756404079"
 bookOwned: true
 hasSummary: false

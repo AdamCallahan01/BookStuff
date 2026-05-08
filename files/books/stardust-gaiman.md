@@ -7,7 +7,14 @@ author: "Neil Gaiman"
 series: "N/A"
 seriesNumber: null
 pages: 248
+wordCount: 63317
+yearPublished: 1999
+publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/3629286-stardust"
+avgGoodreadsRating: "8.18"
+numGoodreadsRatings: "484778"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780061689246"
 bookOwned: true
 hasSummary: false

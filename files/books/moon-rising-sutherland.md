@@ -12,6 +12,9 @@ yearPublished: 2015
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/22323659-moon-rising"
 avgGoodreadsRating: "9.2"
+numGoodreadsRatings: "34957"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545685344"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
 seriesNumber: 4
 pages: 507
+wordCount: 156381
+yearPublished: 2022
+publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/59797676-the-lost-metal"
+avgGoodreadsRating: "8.96"
+numGoodreadsRatings: "126335"
+genre: "Fantasy"
+subgenre: "Flintlock"
 isbn: "9781473215290"
 bookOwned: true
 otherSeries: "Cosmere"

@@ -5,7 +5,10 @@ book: "[[the-magicians-grossman]]"
 readNumber: 1
 score: 5
 format: "Book"
+dateStarted: "8/23/2022"
+dateFinished: "8/28/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

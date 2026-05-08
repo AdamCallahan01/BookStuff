@@ -5,7 +5,10 @@ book: "[[the-hero-of-ages-sanderson]]"
 readNumber: 1
 score: 9.5
 format: "Book"
+dateStarted: "7/28/2022"
+dateFinished: "8/2/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

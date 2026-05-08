@@ -5,7 +5,10 @@ book: "[[arcane-bronny]]"
 readNumber: 1
 score: 7
 format: "Book"
+dateStarted: "6/20/2022"
+dateFinished: "6/25/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

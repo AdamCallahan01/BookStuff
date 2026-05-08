@@ -5,7 +5,10 @@ book: "[[the-fifth-season-jemisin]]"
 readNumber: 1
 score: 7
 format: "Audible"
+dateStarted: "6/16/2022"
+dateFinished: "6/21/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

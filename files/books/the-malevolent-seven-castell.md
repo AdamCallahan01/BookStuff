@@ -12,7 +12,7 @@ yearPublished: 2023
 publisher: "Jo Fletcher Books"
 goodreads: "https://www.goodreads.com/en/book/show/61124074-the-malevolent-seven"
 avgGoodreadsRating: "8.04"
-numGoodreadsRatings: "4,919"
+numGoodreadsRatings: "4919"
 genre: "Fantasy"
 subgenre: "YA"
 isbn: "9781529422771"

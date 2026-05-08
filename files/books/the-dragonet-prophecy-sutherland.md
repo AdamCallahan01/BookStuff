@@ -12,6 +12,9 @@ yearPublished: 2012
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/13228487-the-dragonet-prophecy?ref=nav_sb_ss_1_22"
 avgGoodreadsRating: "8.48"
+numGoodreadsRatings: "84796"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545349185"
 bookOwned: true
 hasSummary: false

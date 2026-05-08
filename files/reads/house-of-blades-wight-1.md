@@ -5,7 +5,10 @@ book: "[[house-of-blades-wight]]"
 readNumber: 1
 score: 6.5
 format: "Audible"
+dateStarted: "7/22/2022"
+dateFinished: "7/27/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

@@ -7,10 +7,16 @@ author: "Brandon Sanderson"
 series: "Cosmere"
 seriesNumber: null
 pages: 160
+wordCount: 44981
+yearPublished: 2016
+publisher: "Orion Group Ltd"
 goodreads: "https://www.goodreads.com/book/show/42028213-mistborn"
+avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "104283"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781473225046"
 bookOwned: true
-otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "mistborn-secret-history-sanderson-summary"
 summarySlugLink: "[[mistborn-secret-history-sanderson-summary]]"

@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
 seriesNumber: 1
 pages: 206
+wordCount: 38000
+yearPublished: 1950
+publisher: "Mi rigs dpe skrun khan"
 goodreads: "https://www.goodreads.com/book/show/132080146-the-lion-the-witch-and-the-wardrobe"
+avgGoodreadsRating: "8.48"
+numGoodreadsRatings: "3186618"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780060764890"
 bookOwned: true
 hasSummary: false

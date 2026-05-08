@@ -12,7 +12,7 @@ yearPublished: 2010
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/7005865-the-atlantis-complex"
 avgGoodreadsRating: "7.94"
-numGoodreadsRatings: "62,050"
+numGoodreadsRatings: "62050"
 genre: "Fantasy"
 subgenre: "YA"
 isbn: "9781423128199"

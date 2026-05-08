@@ -7,7 +7,14 @@ author: "Sever Bronny"
 series: "The Arinthian Line"
 seriesNumber: 1
 pages: 362
+wordCount: 110000
+yearPublished: 2014
+publisher: "Sever Bronny Ltd."
 goodreads: "https://www.goodreads.com/book/show/23617581-arcane"
+avgGoodreadsRating: "8.26"
+numGoodreadsRatings: "3764"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780993767609"
 bookOwned: true
 hasSummary: false

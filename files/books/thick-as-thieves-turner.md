@@ -7,7 +7,14 @@ author: "Megan Whalen Turner"
 series: "The Queen's Thief"
 seriesNumber: 5
 pages: 337
+wordCount: 70000
+yearPublished: 2017
+publisher: "Greenwillow Books"
 goodreads: "https://www.goodreads.com/book/show/8306741-thick-as-thieves"
+avgGoodreadsRating: "8.34"
+numGoodreadsRatings: "16944"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780062568243"
 bookOwned: true
 hasSummary: false

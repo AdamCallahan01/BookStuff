@@ -12,6 +12,9 @@ yearPublished: 1937
 publisher: "Houghton Mifflin"
 goodreads: "https://www.goodreads.com/book/show/16053513-the-hobbit"
 avgGoodreadsRating: "8.58"
+numGoodreadsRatings: "4530679"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780547951966"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "K. F. Breene"
 series: "The Warrior Chronicles"
 seriesNumber: 3
 pages: 326
+wordCount: 120000
+yearPublished: 2015
+publisher: "CreateSpace Independent Publishing Platform"
 goodreads: "https://www.goodreads.com/book/show/25589581-shadow-lands"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "12556"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781514629772"
 bookOwned: false
 hasSummary: false

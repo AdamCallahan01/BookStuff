@@ -7,7 +7,14 @@ author: "Will Wight"
 series: "Traveler's Gate"
 seriesNumber: 1
 pages: 294
+wordCount: 90000
+yearPublished: 2013
+publisher: "Hidden Gnome Publishing"
 goodreads: "https://www.goodreads.com/book/show/18428608-house-of-blades"
+avgGoodreadsRating: "8.14"
+numGoodreadsRatings: "18451"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780989671705"
 bookOwned: false
 hasSummary: false

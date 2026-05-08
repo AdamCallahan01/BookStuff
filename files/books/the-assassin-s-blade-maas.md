@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "Throne of Glass"
 seriesNumber: 0.5
 pages: 451
+wordCount: 118431
+yearPublished: 2014
+publisher: "Bloomsbury Children’s Books"
 goodreads: "https://www.goodreads.com/book/show/126062562-the-assassin-s-blade"
+avgGoodreadsRating: "8.4"
+numGoodreadsRatings: "1257320"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781619632219"
 bookOwned: true
 hasSummary: false

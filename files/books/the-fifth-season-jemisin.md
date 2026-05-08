@@ -7,7 +7,14 @@ author: "N. K. Jemisin"
 series: "The Broken Earth"
 seriesNumber: 1
 pages: 468
+wordCount: 134415
+yearPublished: 2015
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/34314712-the-fifth-season"
+avgGoodreadsRating: "8.56"
+numGoodreadsRatings: "343421"
+genre: "Fantasy"
+subgenre: "Dystopian"
 isbn: "9780316229296"
 bookOwned: true
 hasSummary: false

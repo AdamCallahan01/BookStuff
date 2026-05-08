@@ -7,7 +7,14 @@ author: "Megan Whalen Turner"
 series: "The Queen's Thief"
 seriesNumber: 6
 pages: 464
+wordCount: 70000
+yearPublished: 2020
+publisher: "Greenwillow Books"
 goodreads: "https://www.goodreads.com/book/show/11503920-return-of-the-thief"
+avgGoodreadsRating: "8.96"
+numGoodreadsRatings: "12454"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780062874474"
 bookOwned: true
 hasSummary: false

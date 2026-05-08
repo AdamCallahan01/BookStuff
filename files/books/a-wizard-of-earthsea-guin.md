@@ -7,7 +7,14 @@ author: "Ursula K. Le Guin"
 series: "Earthsea Cycle"
 seriesNumber: 1
 pages: 183
+wordCount: 63365
+yearPublished: 1968
+publisher: "Clarion Books"
 goodreads: "https://www.goodreads.com/book/show/16029682-a-wizard-of-earthsea"
+avgGoodreadsRating: "8.02"
+numGoodreadsRatings: "368027"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780544084377"
 bookOwned: true
 hasSummary: false

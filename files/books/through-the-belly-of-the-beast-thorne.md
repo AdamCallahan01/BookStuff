@@ -7,7 +7,14 @@ author: "Apollos Thorne"
 series: "Underworld"
 seriesNumber: 2
 pages: 356
+wordCount: 60000
+yearPublished: 2018
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/50410228-through-the-belly-of-the-beast"
+avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "2820"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781733664431"
 bookOwned: true
 hasSummary: false

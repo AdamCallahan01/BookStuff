@@ -7,7 +7,14 @@ author: "Joe Abercrombie"
 series: "Shattered Sea"
 seriesNumber: 3
 pages: 513
+wordCount: 80000
+yearPublished: 2015
+publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/23278586-half-a-war"
+avgGoodreadsRating: "8.06"
+numGoodreadsRatings: "38271"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780804178457"
 bookOwned: true
 hasSummary: false

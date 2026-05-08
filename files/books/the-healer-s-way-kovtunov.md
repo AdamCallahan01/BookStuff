@@ -12,7 +12,7 @@ yearPublished: 2023
 publisher: "Magic Dome"
 goodreads: "https://www.goodreads.com/book/show/199114221-the-healer-s-way-1"
 avgGoodreadsRating: "8.3"
-numGoodreadsRatings: "1,871"
+numGoodreadsRatings: "1871"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9788076932227"

@@ -7,7 +7,14 @@ author: "K. F. Breene"
 series: "The Warrior Chronicles"
 seriesNumber: 2
 pages: 381
+wordCount: 120000
+yearPublished: 2015
+publisher: "CreateSpace Independent Publishing Platform"
 goodreads: "https://www.goodreads.com/book/show/27677279-hunted"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "13852"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781511778077"
 bookOwned: false
 hasSummary: false

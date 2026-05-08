@@ -12,6 +12,9 @@ yearPublished: 1847
 publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/10210.Jane_Eyre?from_search=true&from_srp=true&qid=ABDksDDMAg&rank=1"
 avgGoodreadsRating: "8.3"
+numGoodreadsRatings: "2364656"
+genre: "Fiction"
+subgenre: "Romance"
 isbn: "9780142437209"
 bookOwned: false
 hasSummary: false

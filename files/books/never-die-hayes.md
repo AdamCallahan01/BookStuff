@@ -12,6 +12,9 @@ yearPublished: 2019
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/43069198-never-die"
 avgGoodreadsRating: "7.88"
+numGoodreadsRatings: "4721"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780957666832"
 bookOwned: false
 hasSummary: false

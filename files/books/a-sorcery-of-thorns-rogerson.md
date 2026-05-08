@@ -7,7 +7,14 @@ author: "Margaret Rogerson"
 series: "Sorcery of Thorns"
 seriesNumber: 1
 pages: 456
+wordCount: 131064
+yearPublished: 2019
+publisher: "Margaret K. McElderry Books"
 goodreads: "https://www.goodreads.com/book/show/42201395-sorcery-of-thorns?ref=nav_sb_ss_1_17"
+avgGoodreadsRating: "8.08"
+numGoodreadsRatings: "161902"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781481497619"
 bookOwned: false
 hasSummary: false

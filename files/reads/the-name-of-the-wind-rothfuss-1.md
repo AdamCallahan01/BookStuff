@@ -5,7 +5,10 @@ book: "[[the-name-of-the-wind-rothfuss]]"
 readNumber: 1
 score: 10
 format: "Audible"
+dateStarted: "8/5/2022"
+dateFinished: "8/10/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

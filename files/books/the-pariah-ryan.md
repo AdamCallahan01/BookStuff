@@ -12,6 +12,9 @@ yearPublished: 2021
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/en/book/show/56229688"
 avgGoodreadsRating: "8.4"
+numGoodreadsRatings: "18435"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780316430777"
 bookOwned: true
 hasSummary: false

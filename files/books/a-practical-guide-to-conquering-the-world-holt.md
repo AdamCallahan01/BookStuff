@@ -12,6 +12,9 @@ yearPublished: 2022
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/48897284-a-practical-guide-to-conquering-the-world?ref=nav_sb_ss_1_30"
 avgGoodreadsRating: "8.32"
+numGoodreadsRatings: "2940"
+genre: "Fantasy"
+subgenre: "Humor"
 isbn: "9780316498616"
 bookOwned: true
 hasSummary: false

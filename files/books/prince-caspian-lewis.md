@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
 seriesNumber: 3
 pages: 240
+wordCount: 46000
+yearPublished: 1951
+publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/836898.Prince_Caspian"
+avgGoodreadsRating: "7.96"
+numGoodreadsRatings: "492029"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780064471053"
 bookOwned: true
 hasSummary: false

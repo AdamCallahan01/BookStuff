@@ -7,7 +7,14 @@ author: "Michael Wisehart"
 series: "Street Rats of Aramoor"
 seriesNumber: 1
 pages: 351
+wordCount: 110000
+yearPublished: 2017
+publisher: "Michael Wisehart"
 goodreads: "https://www.goodreads.com/book/show/53662446-banished?ref=nav_sb_ss_1_17"
+avgGoodreadsRating: "8.8"
+numGoodreadsRatings: "3321"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780998150536"
 bookOwned: false
 hasSummary: false

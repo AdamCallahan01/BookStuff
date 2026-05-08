@@ -12,7 +12,7 @@ yearPublished: 2025
 publisher: "Broken Binding"
 goodreads: "https://www.goodreads.com/book/show/233800039-the-devils"
 avgGoodreadsRating: "8.72"
-numGoodreadsRatings: "3,981"
+numGoodreadsRatings: "3981"
 genre: "Fantasy"
 subgenre: "Dark"
 isbn: "9781250880055"

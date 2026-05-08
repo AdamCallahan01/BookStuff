@@ -7,7 +7,14 @@ author: "Ernest Cline"
 series: "N/A"
 seriesNumber: null
 pages: 355
+wordCount: 90000
+yearPublished: 2015
+publisher: "Crown Publishing"
 goodreads: "https://www.goodreads.com/book/show/16278318-armada?ref=nav_sb_ss_1_6"
+avgGoodreadsRating: "7.12"
+numGoodreadsRatings: "129508"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780804137256"
 bookOwned: true
 hasSummary: false

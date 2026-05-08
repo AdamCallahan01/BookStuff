@@ -7,7 +7,14 @@ author: "Jim Butcher"
 series: "The Dresden Files"
 seriesNumber: 2
 pages: 401
+wordCount: 102149
+yearPublished: 2001
+publisher: "Roc"
 goodreads: "https://www.goodreads.com/book/show/91477.Fool_Moon?ref=nav_sb_ss_1_9"
+avgGoodreadsRating: "7.94"
+numGoodreadsRatings: "214790"
+genre: "Fantasy"
+subgenre: "Urban"
 isbn: "9780451458124"
 bookOwned: true
 hasSummary: false

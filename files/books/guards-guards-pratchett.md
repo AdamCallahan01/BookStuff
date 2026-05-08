@@ -7,7 +7,14 @@ author: "Terry Pratchett"
 series: "Discworld"
 seriesNumber: 8
 pages: 376
+wordCount: 100000
+yearPublished: 1989
+publisher: "Victor Gollancz Ltd"
 goodreads: "https://www.goodreads.com/book/show/64216.Guards_Guards_?ref=nav_sb_ss_1_6"
+avgGoodreadsRating: "8.68"
+numGoodreadsRatings: "240060"
+genre: "Fantasy"
+subgenre: "Humor"
 isbn: "9780061020643"
 bookOwned: true
 hasSummary: false

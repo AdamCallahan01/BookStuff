@@ -7,7 +7,14 @@ author: "Michael Wisehart"
 series: "The Aldoran Chronicles"
 seriesNumber: 4
 pages: 826
+wordCount: 240000
+yearPublished: 2022
+publisher: "Easthaven Publishing"
 goodreads: "https://www.goodreads.com/book/show/67991308-the-tunnels-beneath"
+avgGoodreadsRating: "9.28"
+numGoodreadsRatings: "2164"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9798986107424"
 bookOwned: false
 hasSummary: false

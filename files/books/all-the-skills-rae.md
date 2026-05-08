@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "Avocado Ink"
 goodreads: "https://www.goodreads.com/book/show/210216566-all-the-skills"
 avgGoodreadsRating: "9.1"
-numGoodreadsRatings: "8,324"
+numGoodreadsRatings: "8324"
 genre: "Fantasy"
 subgenre: "LitRPG"
 isbn: "9781039470217"

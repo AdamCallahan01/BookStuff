@@ -12,6 +12,9 @@ yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/199702146-rogue-ascension-book-1"
 avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "2827"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9798864295731"
 bookOwned: true
 hasSummary: false

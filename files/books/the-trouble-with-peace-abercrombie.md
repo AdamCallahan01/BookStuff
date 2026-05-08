@@ -12,6 +12,9 @@ yearPublished: 2020
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/50358101-the-trouble-with-peace"
 avgGoodreadsRating: "9.2"
+numGoodreadsRatings: "47332"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780316187183"
 bookOwned: true
 otherSeries: "First Law"

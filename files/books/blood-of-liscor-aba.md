@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/61880401-the-wandering-inn"
 avgGoodreadsRating: "9.44"
-numGoodreadsRatings: "1,948"
+numGoodreadsRatings: "1948"
 genre: "Fantasy"
 subgenre: "Epic"
 bookOwned: false

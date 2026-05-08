@@ -7,7 +7,14 @@ author: "J. A. Hunter"
 series: "Viridian Gate Online"
 seriesNumber: 3
 pages: 274
+wordCount: 70000
+yearPublished: 2042
+publisher: "CreateSpace Independent Publishing Platform"
 goodreads: "https://www.goodreads.com/book/show/39279599-the-jade-lord"
+avgGoodreadsRating: "8.4"
+numGoodreadsRatings: "3908"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781547222186"
 bookOwned: false
 hasSummary: false

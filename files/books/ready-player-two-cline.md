@@ -7,7 +7,14 @@ author: "Ernest Cline"
 series: "Ready Player One"
 seriesNumber: 2
 pages: 370
+wordCount: 133977
+yearPublished: 2020
+publisher: "Ballantine Books"
 goodreads: "https://www.goodreads.com/book/show/26082916-ready-player-two?ref=nav_sb_ss_1_16"
+avgGoodreadsRating: "6.88"
+numGoodreadsRatings: "190210"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781524761332"
 bookOwned: true
 hasSummary: false

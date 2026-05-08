@@ -12,6 +12,9 @@ yearPublished: 2017
 publisher: "W. W. Norton"
 goodreads: "https://www.goodreads.com/book/show/30809689-norse-mythology"
 avgGoodreadsRating: "8.22"
+numGoodreadsRatings: "345738"
+genre: "Mythology"
+subgenre: "Fantasy"
 isbn: "9780393609097"
 bookOwned: true
 hasSummary: false

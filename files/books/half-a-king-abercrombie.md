@@ -7,7 +7,14 @@ author: "Joe Abercrombie"
 series: "Shattered Sea"
 seriesNumber: 1
 pages: 416
+wordCount: 80000
+yearPublished: 2014
+publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/18666047-half-a-king"
+avgGoodreadsRating: "7.94"
+numGoodreadsRatings: "75774"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780804178327"
 bookOwned: true
 hasSummary: false

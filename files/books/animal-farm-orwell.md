@@ -12,6 +12,9 @@ yearPublished: 1945
 publisher: "Signet Classics"
 goodreads: "https://www.goodreads.com/book/show/170448.Animal_Farm?ref=nav_sb_ss_1_7"
 avgGoodreadsRating: "7.98"
+numGoodreadsRatings: "4665533"
+genre: "Fiction"
+subgenre: "Humor"
 isbn: "9780451526342"
 bookOwned: false
 hasSummary: false

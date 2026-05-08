@@ -7,7 +7,14 @@ author: "Bryce O'Connor, Luke Chmilenko"
 series: "The Shattered Reigns"
 seriesNumber: 1
 pages: 582
+wordCount: 170000
+yearPublished: 2019
+publisher: "Bryce O'Connor \\u0026 Luke Chmilenko"
 goodreads: "https://www.goodreads.com/book/show/44674365-a-mark-of-kings"
+avgGoodreadsRating: "8.44"
+numGoodreadsRatings: "5054"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780998810690"
 bookOwned: true
 hasSummary: false

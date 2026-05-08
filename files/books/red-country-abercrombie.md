@@ -12,6 +12,9 @@ yearPublished: 2012
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/13521459-red-country"
 avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "67642"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780316214445"
 bookOwned: true
 otherSeries: "First Law"

@@ -7,7 +7,14 @@ author: "Ernest Cline"
 series: "Ready Player One"
 seriesNumber: 1
 pages: 374
+wordCount: 136000
+yearPublished: 2044
+publisher: "Crown Publishers"
 goodreads: "https://www.goodreads.com/book/show/9969571-ready-player-one?ref=nav_sb_ss_1_16"
+avgGoodreadsRating: "8.44"
+numGoodreadsRatings: "1320913"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9780307887436"
 bookOwned: true
 hasSummary: false

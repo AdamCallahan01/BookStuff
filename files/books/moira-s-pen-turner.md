@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "Greenwillow"
 goodreads: "https://www.goodreads.com/en/book/show/60395737-moira-s-pen"
 avgGoodreadsRating: "8.08"
-numGoodreadsRatings: "1,556"
+numGoodreadsRatings: "1556"
 genre: "Fantasy"
 subgenre: "Collection"
 isbn: "9780062885609"

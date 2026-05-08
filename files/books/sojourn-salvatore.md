@@ -7,7 +7,14 @@ author: "R. A. Salvatore"
 series: "The Legend of Drizzt"
 seriesNumber: 3
 pages: 320
+wordCount: 96000
+yearPublished: 1991
+publisher: "Wizards of the Coast"
 goodreads: "https://www.goodreads.com/book/show/66695.Sojourn?ref=nav_sb_ss_1_7"
+avgGoodreadsRating: "8.44"
+numGoodreadsRatings: "74322"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781560760474"
 bookOwned: true
 hasSummary: false

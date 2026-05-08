@@ -7,7 +7,14 @@ author: "Rick Riordan"
 series: "Percy Jackson and the Olympians"
 seriesNumber: 1
 pages: 377
+wordCount: 87223
+yearPublished: 2005
+publisher: "Disney Hyperion Books"
 goodreads: "https://www.goodreads.com/book/show/28187.The_Lightning_Thief"
+avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "3494829"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780786838653"
 bookOwned: true
 otherSeries: "Percy Jackson"

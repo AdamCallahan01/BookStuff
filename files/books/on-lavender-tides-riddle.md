@@ -12,6 +12,9 @@ yearPublished: 2022
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60548126-on-lavender-tides"
 avgGoodreadsRating: "7.58"
+numGoodreadsRatings: "479"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9798409061401"
 bookOwned: true
 hasSummary: false

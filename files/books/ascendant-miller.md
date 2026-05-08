@@ -7,7 +7,14 @@ author: "Michael R. Miller"
 series: "Songs of Chaos"
 seriesNumber: 1
 pages: 554
+wordCount: 175000
+yearPublished: 2020
+publisher: "Monolith Books"
 goodreads: "https://www.goodreads.com/book/show/55066606-ascendant?ref=nav_sb_ss_1_9"
+avgGoodreadsRating: "8.66"
+numGoodreadsRatings: "12543"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9781068756382"
 bookOwned: true
 hasSummary: false

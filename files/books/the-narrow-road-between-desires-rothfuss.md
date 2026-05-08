@@ -12,6 +12,9 @@ yearPublished: 2023
 publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/157265081-the-narrow-road-between-desires?ref=nav_sb_ss_1_21"
 avgGoodreadsRating: "8.16"
+numGoodreadsRatings: "35536"
+genre: "Fantasy"
+subgenre: "Novella"
 isbn: "9780756419189"
 bookOwned: true
 hasSummary: false

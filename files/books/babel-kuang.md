@@ -7,7 +7,14 @@ author: "R. F. Kuang"
 series: "N/A"
 seriesNumber: null
 pages: 544
+wordCount: 200000
+yearPublished: 2022
+publisher: "Harper Voyager"
 goodreads: "https://www.goodreads.com/book/show/57945316-babel?ref=nav_sb_ss_1_5"
+avgGoodreadsRating: "8.26"
+numGoodreadsRatings: "504607"
+genre: "Fantasy"
+subgenre: "Academia"
 isbn: "9780063021426"
 bookOwned: true
 hasSummary: false

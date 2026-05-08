@@ -12,6 +12,9 @@ yearPublished: 2008
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/4957406-the-time-paradox"
 avgGoodreadsRating: "8.16"
+numGoodreadsRatings: "95898"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781423108375"
 bookOwned: true
 hasSummary: false

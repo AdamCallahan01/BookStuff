@@ -12,6 +12,9 @@ yearPublished: 2013
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/16100976-the-hidden-kingdom"
 avgGoodreadsRating: "9.04"
+numGoodreadsRatings: "45265"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545349208"
 bookOwned: true
 hasSummary: false

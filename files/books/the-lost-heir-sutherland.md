@@ -12,6 +12,9 @@ yearPublished: 2013
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/15809617-the-lost-heir"
 avgGoodreadsRating: "8.88"
+numGoodreadsRatings: "50824"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545349192"
 bookOwned: true
 hasSummary: false

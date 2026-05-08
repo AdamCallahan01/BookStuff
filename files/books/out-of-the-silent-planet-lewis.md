@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Space Trilogy"
 seriesNumber: 1
 pages: 160
+wordCount: 57383
+yearPublished: 1984
+publisher: "Macmillan Publishing Company"
 goodreads: "https://www.goodreads.com/book/show/206961.Out_of_the_Silent_Planet"
+avgGoodreadsRating: "7.86"
+numGoodreadsRatings: "109331"
+genre: "Science Fiction"
+subgenre: "Fantasy"
 isbn: "9780020869108"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Rick Riordan"
 series: "Percy Jackson and the Olympians"
 seriesNumber: 3
 pages: 320
+wordCount: 72995
+yearPublished: 2007
+publisher: "Miramax Books"
 goodreads: "https://www.goodreads.com/book/show/28185.The_Titan_s_Curse"
+avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "1241341"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781423101451"
 bookOwned: true
 otherSeries: "Percy Jackson"

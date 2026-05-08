@@ -7,7 +7,14 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 3
 pages: 370
+wordCount: 111484
+yearPublished: 2017
+publisher: "Hidden Gnome Publishing"
 goodreads: "https://www.goodreads.com/book/show/36274089-blackflame"
+avgGoodreadsRating: "9"
+numGoodreadsRatings: "39598"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780989671781"
 bookOwned: true
 hasSummary: false

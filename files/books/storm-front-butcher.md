@@ -7,7 +7,14 @@ author: "Jim Butcher"
 series: "The Dresden Files"
 seriesNumber: 1
 pages: 355
+wordCount: 86961
+yearPublished: 2000
+publisher: "Penguin ROC"
 goodreads: "https://www.goodreads.com/book/show/47212.Storm_Front?ref=nav_sb_ss_1_11"
+avgGoodreadsRating: "7.94"
+numGoodreadsRatings: "384890"
+genre: "Fantasy"
+subgenre: "Urban"
 isbn: "9780451457813"
 bookOwned: true
 hasSummary: false

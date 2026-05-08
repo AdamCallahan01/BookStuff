@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/57443696-kingdoms-of-death"
 avgGoodreadsRating: "8.94"
-numGoodreadsRatings: "7,912"
+numGoodreadsRatings: "7912"
 genre: "Sci-Fantasy"
 subgenre: "Space Opera"
 isbn: "9781473218352"

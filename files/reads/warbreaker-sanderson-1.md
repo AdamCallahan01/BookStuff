@@ -5,7 +5,10 @@ book: "[[warbreaker-sanderson]]"
 readNumber: 1
 score: 8
 format: "Book"
+dateStarted: "6/4/2022"
+dateFinished: "6/9/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

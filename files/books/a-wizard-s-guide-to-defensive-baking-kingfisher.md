@@ -12,7 +12,7 @@ yearPublished: 2020
 publisher: "Argyll"
 goodreads: "https://www.goodreads.com/book/show/54369251-a-wizard-s-guide-to-defensive-baking"
 avgGoodreadsRating: "8.12"
-numGoodreadsRatings: "58,842"
+numGoodreadsRatings: "58842"
 genre: "Fantasy"
 subgenre: "Cozy"
 isbn: "9781614505242"

@@ -5,7 +5,10 @@ book: "[[the-awakening-peckham]]"
 readNumber: 1
 score: 1
 format: "E-book"
+dateStarted: "7/12/2022"
+dateFinished: "7/17/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

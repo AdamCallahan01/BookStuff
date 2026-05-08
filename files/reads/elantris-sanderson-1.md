@@ -5,7 +5,10 @@ book: "[[elantris-sanderson]]"
 readNumber: 1
 score: 8
 format: "Book"
+dateStarted: "5/19/2022"
+dateFinished: "5/24/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

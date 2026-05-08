@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "Podium"
 goodreads: "https://www.goodreads.com/book/show/60888209-beware-of-chicken?ref=nav_sb_ss_1_17"
 avgGoodreadsRating: "9.02"
-numGoodreadsRatings: "11,228"
+numGoodreadsRatings: "11228"
 genre: "Fantasy"
 subgenre: "Cozy"
 isbn: "9781039413993"

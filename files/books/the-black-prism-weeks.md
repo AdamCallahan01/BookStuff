@@ -7,7 +7,14 @@ author: "Brent Weeks"
 series: "Lightbringer"
 seriesNumber: 1
 pages: 629
+wordCount: 205000
+yearPublished: 2010
+publisher: "Orbit Books"
 goodreads: "https://www.goodreads.com/book/show/16131107-the-black-prism"
+avgGoodreadsRating: "8.46"
+numGoodreadsRatings: "133122"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780316246279"
 bookOwned: true
 hasSummary: false

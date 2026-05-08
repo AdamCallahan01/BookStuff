@@ -7,7 +7,14 @@ author: "Apollos Thorne"
 series: "Underworld"
 seriesNumber: 3
 pages: 549
+wordCount: 70000
+yearPublished: 2019
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/50410226-sanctuary"
+avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "2272"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781733664448"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Megan Whalen Turner"
 series: "The Queen's Thief"
 seriesNumber: 4
 pages: 316
+wordCount: 70000
+yearPublished: 2010
+publisher: "Greenwillow Books"
 goodreads: "https://www.goodreads.com/book/show/30363362-a-conspiracy-of-kings"
+avgGoodreadsRating: "8.2"
+numGoodreadsRatings: "29021"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780062642998"
 bookOwned: true
 hasSummary: false

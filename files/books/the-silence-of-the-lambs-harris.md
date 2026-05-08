@@ -7,7 +7,14 @@ author: "Thomas Harris"
 series: "Hannibal Lecter"
 seriesNumber: 1
 pages: 421
+wordCount: 119040
+yearPublished: 1988
+publisher: "St. Martin’s Griffin"
 goodreads: "https://www.goodreads.com/book/show/9440817-the-silence-of-the-lambs"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "593934"
+genre: "Thriller"
+subgenre: "Dark"
 isbn: "9781429957656"
 bookOwned: false
 hasSummary: false

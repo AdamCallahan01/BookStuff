@@ -7,7 +7,14 @@ author: "Scott Lynch"
 series: "Gentleman Bastard"
 seriesNumber: 2
 pages: 578
+wordCount: 200000
+yearPublished: 2007
+publisher: "Bantam Spectra"
 goodreads: "https://www.goodreads.com/book/show/887877.Red_Seas_Under_Red_Skies"
+avgGoodreadsRating: "8.5"
+numGoodreadsRatings: "162664"
+genre: "Fantasy"
+subgenre: "Heist"
 isbn: "9780553804683"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Taran Matharu"
 series: "Summoner"
 seriesNumber: 3
 pages: 385
+wordCount: 113000
+yearPublished: 2017
+publisher: "Hatchette Children's Group"
 goodreads: "https://www.goodreads.com/book/show/30335482-the-battlemage"
+avgGoodreadsRating: "8.6"
+numGoodreadsRatings: "19635"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781444924275"
 bookOwned: false
 hasSummary: false

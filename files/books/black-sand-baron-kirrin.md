@@ -7,7 +7,14 @@ author: "Kyle Kirrin"
 series: "The Ripple System"
 seriesNumber: 2
 pages: 835
+wordCount: 246000
+yearPublished: 2021
+publisher: "Portal Books"
 goodreads: "https://www.goodreads.com/book/show/59450543-black-sand-baron"
+avgGoodreadsRating: "9.04"
+numGoodreadsRatings: "3419"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781913695286"
 bookOwned: true
 hasSummary: false

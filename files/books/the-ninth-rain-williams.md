@@ -12,6 +12,9 @@ yearPublished: 2017
 publisher: "Headline"
 goodreads: "https://www.goodreads.com/book/show/29758013-the-ninth-rain"
 avgGoodreadsRating: "8.18"
+numGoodreadsRatings: "10471"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9781472235176"
 bookOwned: true
 hasSummary: false

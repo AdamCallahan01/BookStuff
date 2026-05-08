@@ -7,7 +7,14 @@ author: "Philip C. Quaintrell"
 series: "The Ranger Archives"
 seriesNumber: 1
 pages: 525
+wordCount: 155000
+yearPublished: 2022
+publisher: "Quaintrell Publishings"
 goodreads: "https://www.goodreads.com/book/show/237087061-court-of-assassins"
+avgGoodreadsRating: "8.98"
+numGoodreadsRatings: "3744"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9781916610408"
 bookOwned: true
 hasSummary: false

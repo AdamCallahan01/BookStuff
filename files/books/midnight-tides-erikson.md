@@ -12,6 +12,9 @@ yearPublished: 2004
 publisher: "Bantam"
 goodreads: "https://www.goodreads.com/book/show/345299.Midnight_Tides"
 avgGoodreadsRating: "8.84"
+numGoodreadsRatings: "48948"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780553813142"
 bookOwned: true
 otherSeries: "Malazan"

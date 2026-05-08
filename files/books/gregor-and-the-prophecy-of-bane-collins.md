@@ -12,6 +12,9 @@ yearPublished: 2004
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/385742.Gregor_and_the_Prophecy_of_Bane?ref=nav_sb_ss_1_16"
 avgGoodreadsRating: "8.42"
+numGoodreadsRatings: "52871"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439650762"
 bookOwned: true
 hasSummary: false

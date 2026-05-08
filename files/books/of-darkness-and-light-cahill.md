@@ -12,7 +12,7 @@ yearPublished: 2021
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/60066687-of-darkness-and-light"
 avgGoodreadsRating: "8.88"
-numGoodreadsRatings: "10,380"
+numGoodreadsRatings: "10380"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781838381851"

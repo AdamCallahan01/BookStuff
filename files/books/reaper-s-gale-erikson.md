@@ -12,7 +12,7 @@ yearPublished: 2007
 publisher: "Bantam Press"
 goodreads: "https://www.goodreads.com/book/show/459064.Reaper_s_Gale"
 avgGoodreadsRating: "8.78"
-numGoodreadsRatings: "36,911"
+numGoodreadsRatings: "36911"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780593046319"

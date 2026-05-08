@@ -17,17 +17,17 @@ genre: "Nonfiction"
 subgenre: "History"
 isbn: "9780465058785"
 bookOwned: false
-hasSummary: false
+hasSummary: true
 summarySlug: "endurance-shackleton-s-incredible-voyage-lansing-summary"
 summarySlugLink: "[[endurance-shackleton-s-incredible-voyage-lansing-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["endurance-shackleton-s-incredible-voyage-lansing-1"]
 readSlugsLinks: ["[[endurance-shackleton-s-incredible-voyage-lansing-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "endurance-shackleton-s-incredible-voyage-lansing-cover"
 ---
 

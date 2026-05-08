@@ -5,7 +5,10 @@ book: "[[the-way-of-shadows-weeks]]"
 readNumber: 1
 score: 8
 format: "Audible"
+dateStarted: "8/1/2022"
+dateFinished: "8/6/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

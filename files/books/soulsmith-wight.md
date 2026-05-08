@@ -7,7 +7,14 @@ author: "Will Wight"
 series: "Cradle"
 seriesNumber: 2
 pages: 284
+wordCount: 86534
+yearPublished: 2016
+publisher: "Hidden Gnome Publishing"
 goodreads: "https://www.goodreads.com/book/show/36274086-soulsmith"
+avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "43013"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780989671774"
 bookOwned: true
 hasSummary: false

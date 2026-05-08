@@ -12,7 +12,7 @@ yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/202102422-the-dregs-of-empire"
 avgGoodreadsRating: "8.5"
-numGoodreadsRatings: "1,445"
+numGoodreadsRatings: "1445"
 genre: "Sci-Fantasy"
 subgenre: "Space Opera"
 isbn: "9798862470079"

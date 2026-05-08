@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
 seriesNumber: 6
 pages: 221
+wordCount: 64000
+yearPublished: 1955
+publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/509797.The_Magician_s_Nephew"
+avgGoodreadsRating: "8.12"
+numGoodreadsRatings: "617122"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780064471107"
 bookOwned: true
 hasSummary: false

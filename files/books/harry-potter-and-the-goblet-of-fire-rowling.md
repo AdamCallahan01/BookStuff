@@ -7,7 +7,14 @@ author: "J. K. Rowling"
 series: "Harry Potter"
 seriesNumber: 4
 pages: 734
+wordCount: 190637
+yearPublished: 2000
+publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire"
+avgGoodreadsRating: "9.14"
+numGoodreadsRatings: "4265305"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439139595"
 bookOwned: true
 hasSummary: false

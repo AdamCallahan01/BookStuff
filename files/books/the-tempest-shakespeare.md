@@ -11,6 +11,9 @@ wordCount: 16633
 yearPublished: 1611
 goodreads: "https://www.goodreads.com/book/show/3767572-the-tempest"
 avgGoodreadsRating: "7.58"
+numGoodreadsRatings: "230546"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780199535903"
 bookOwned: true
 hasSummary: false

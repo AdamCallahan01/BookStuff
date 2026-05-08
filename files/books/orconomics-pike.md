@@ -7,7 +7,14 @@ author: "J. Zachary Pike"
 series: "The Dark Profit Saga"
 seriesNumber: 1
 pages: 340
+wordCount: 108000
+yearPublished: 2014
+publisher: "Riyria Enterprises LLC"
 goodreads: "https://www.goodreads.com/book/show/214489061-orconomics"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "10470"
+genre: "Fantasy"
+subgenre: "Humor"
 isbn: "9781943363650"
 bookOwned: false
 hasSummary: false

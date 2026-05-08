@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
 seriesNumber: 3.5
 pages: 232
+wordCount: 57763
+yearPublished: 2018
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/50659471-a-court-of-frost-and-starlight"
+avgGoodreadsRating: "7.42"
+numGoodreadsRatings: "2226176"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781635575620"
 bookOwned: true
 hasSummary: false

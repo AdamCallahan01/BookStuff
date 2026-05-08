@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Warbreaker"
 seriesNumber: 1
 pages: 688
+wordCount: 196014
+yearPublished: 2009
+publisher: "Tor Fantasy"
 goodreads: "https://www.goodreads.com/book/show/6976882-warbreaker"
+avgGoodreadsRating: "8.58"
+numGoodreadsRatings: "291405"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765360038"
 bookOwned: true
 otherSeries: "Cosmere"

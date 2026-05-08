@@ -7,7 +7,14 @@ author: "J. K. Rowling"
 series: "Harry Potter"
 seriesNumber: 2
 pages: 352
+wordCount: 84799
+yearPublished: 1998
+publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/4.Harry_Potter_and_the_Chamber_of_Secrets"
+avgGoodreadsRating: "8.86"
+numGoodreadsRatings: "4572078"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439554893"
 bookOwned: true
 hasSummary: false

@@ -12,6 +12,9 @@ yearPublished: 2016
 publisher: "Worldbuilders"
 goodreads: "https://www.goodreads.com/book/show/35014337-we-are-legion-we-are-bob"
 avgGoodreadsRating: "8.56"
+numGoodreadsRatings: "133658"
+genre: "Science Fiction"
+subgenre: "Space Opera"
 isbn: "9781680680584"
 bookOwned: true
 hasSummary: false

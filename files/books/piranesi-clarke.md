@@ -12,7 +12,7 @@ yearPublished: 2020
 publisher: "Bloomsbury"
 goodreads: "https://www.goodreads.com/book/show/50202953-piranesi"
 avgGoodreadsRating: "8.44"
-numGoodreadsRatings: "404,429"
+numGoodreadsRatings: "404429"
 genre: "Fantasy"
 subgenre: "Magical Realism"
 isbn: "9781635575637"

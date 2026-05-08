@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
 seriesNumber: 3
 pages: 703
+wordCount: 199464
+yearPublished: 2017
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/50659472-a-court-of-wings-and-ruin"
+avgGoodreadsRating: "8.92"
+numGoodreadsRatings: "2811750"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781635575606"
 bookOwned: true
 hasSummary: false

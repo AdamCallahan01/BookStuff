@@ -12,7 +12,7 @@ yearPublished: 1985
 publisher: "Vintage"
 goodreads: "https://www.goodreads.com/book/show/28715.Blood_Meridian_or_the_Evening_Redness_in_the_West"
 avgGoodreadsRating: "8.32"
-numGoodreadsRatings: "195,164"
+numGoodreadsRatings: "195164"
 genre: "Historical Fiction"
 subgenre: "Western"
 isbn: "9780679641049"

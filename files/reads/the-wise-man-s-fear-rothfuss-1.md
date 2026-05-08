@@ -5,7 +5,10 @@ book: "[[the-wise-man-s-fear-rothfuss]]"
 readNumber: 1
 score: 10
 format: "Audible"
+dateStarted: "8/25/2022"
+dateFinished: "8/30/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

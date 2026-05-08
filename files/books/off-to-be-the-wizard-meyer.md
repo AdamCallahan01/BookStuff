@@ -7,7 +7,14 @@ author: "Scott Meyer"
 series: "Magic 2.0"
 seriesNumber: 1
 pages: 373
+wordCount: 80000
+yearPublished: 2013
+publisher: "47North"
 goodreads: "https://www.goodreads.com/book/show/18616975-off-to-be-the-wizard?ref=nav_sb_ss_1_18"
+avgGoodreadsRating: "8"
+numGoodreadsRatings: "42866"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781612184715"
 bookOwned: true
 hasSummary: false

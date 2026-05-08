@@ -7,7 +7,14 @@ author: "George Orwell"
 series: "N/A"
 seriesNumber: null
 pages: 368
+wordCount: 100000
+yearPublished: 1984
+publisher: "Plume"
 goodreads: "https://www.goodreads.com/book/show/61439040-1984?ref=nav_sb_ss_1_4"
+avgGoodreadsRating: "8.4"
+numGoodreadsRatings: "5598479"
+genre: "Science Fiction"
+subgenre: "Dystopian"
 isbn: "9780452284234"
 bookOwned: false
 hasSummary: false

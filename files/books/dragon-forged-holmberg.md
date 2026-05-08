@@ -12,7 +12,7 @@ yearPublished: 2022
 publisher: "ASH"
 goodreads: "https://www.goodreads.com/book/show/61783155-dragon-forged"
 avgGoodreadsRating: "8.16"
-numGoodreadsRatings: "2,084"
+numGoodreadsRatings: "2084"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9798807080011"

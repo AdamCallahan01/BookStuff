@@ -7,7 +7,14 @@ author: "Apollos Thorne"
 series: "Underworld"
 seriesNumber: 5
 pages: 267
+wordCount: 60000
+yearPublished: 2020
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/54293336-vampire-gate"
+avgGoodreadsRating: "8.98"
+numGoodreadsRatings: "1646"
+genre: "Fantasy"
+subgenre: "LitRPG"
 bookOwned: true
 hasSummary: false
 summarySlug: "vampire-gate-thorne-summary"

@@ -12,6 +12,9 @@ yearPublished: 2016
 publisher: "Mountaindale"
 goodreads: "https://www.goodreads.com/book/show/45712252-dungeon-born"
 avgGoodreadsRating: "8.44"
+numGoodreadsRatings: "14245"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9781950914005"
 bookOwned: false
 hasSummary: false

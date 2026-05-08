@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Mistborn"
 seriesNumber: 3
 pages: 556
+wordCount: 225372
+yearPublished: 2008
+publisher: "Tor Fantasy"
 goodreads: "https://www.goodreads.com/book/show/3362870-the-hero-of-ages"
+avgGoodreadsRating: "9.12"
+numGoodreadsRatings: "620196"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765356147"
 bookOwned: true
 otherSeries: "Cosmere"

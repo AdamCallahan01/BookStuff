@@ -12,7 +12,7 @@ yearPublished: 2024
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/215345163-the-empress-of-beasts?ref=nav_sb_ss_1_17"
 avgGoodreadsRating: "9.14"
-numGoodreadsRatings: "1,299"
+numGoodreadsRatings: "1299"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781961108059"

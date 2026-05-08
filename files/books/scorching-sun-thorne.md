@@ -7,7 +7,14 @@ author: "Apollos Thorne"
 series: "Underworld"
 seriesNumber: 6
 pages: 358
+wordCount: 60000
+yearPublished: 2021
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/56966228-scorching-sun"
+avgGoodreadsRating: "9.32"
+numGoodreadsRatings: "1631"
+genre: "Fantasy"
+subgenre: "LitRPG"
 bookOwned: true
 hasSummary: false
 summarySlug: "scorching-sun-thorne-summary"

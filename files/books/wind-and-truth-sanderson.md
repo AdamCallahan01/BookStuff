@@ -12,7 +12,7 @@ yearPublished: 2024
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/203578847-wind-and-truth"
 avgGoodreadsRating: "9.12"
-numGoodreadsRatings: "22,880"
+numGoodreadsRatings: "22880"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781250319180"

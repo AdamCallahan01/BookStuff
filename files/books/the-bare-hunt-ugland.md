@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Good Guys"
 seriesNumber: 7
 pages: 386
+wordCount: 80000
+yearPublished: 2019
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/65137119-the-bare-hunt"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "4074"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346149"
 bookOwned: true
 hasSummary: false

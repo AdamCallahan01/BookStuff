@@ -12,6 +12,9 @@ yearPublished: 1845
 publisher: "Prestwick"
 goodreads: "https://www.goodreads.com/book/show/36529.Narrative_of_the_Life_of_Frederick_Douglass?ref=nav_sb_ss_1_10"
 avgGoodreadsRating: "8.22"
+numGoodreadsRatings: "137032"
+genre: "Nonfiction"
+subgenre: "Biography"
 isbn: "9781580495769"
 bookOwned: false
 hasSummary: false

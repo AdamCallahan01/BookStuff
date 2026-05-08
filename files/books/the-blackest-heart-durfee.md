@@ -12,7 +12,7 @@ yearPublished: 2019
 publisher: "Saga Press"
 goodreads: "https://www.goodreads.com/book/show/38205011-the-blackest-heart"
 avgGoodreadsRating: "8.52"
-numGoodreadsRatings: "1,856"
+numGoodreadsRatings: "1856"
 genre: "Fantasy"
 subgenre: "Grimdark"
 isbn: "9781481465274"

@@ -1,3 +1,5 @@
+import markdownIt from "markdown-it";
+
 export default function (eleventyConfig) {
   eleventyConfig.addCollection("books", (collectionApi) =>
     collectionApi.getFilteredByGlob("files/books/*.md"),
@@ -228,6 +230,48 @@ export default function (eleventyConfig) {
       });
   });
 
+  eleventyConfig.addFilter("booksByAuthor", function (book, books) {
+    return books.filter((b) => {
+      const sameAuthor = b.data.author === book.author;
+      const differentTitle = b.data.title !== book.title;
+      const validSeries =
+        book.series === "N/A" || b.data.series !== book.series;
+
+      return sameAuthor && differentTitle && validSeries;
+    });
+  });
+
+  eleventyConfig.addFilter("booksByGenre", function (book, books) {
+    return books.filter((b) => {
+      const sameGenre =
+        b.data.genre &&
+        (b.data.genre === book.genre || b.data.subgenre === book.genre);
+      const differentTitle = b.data.title !== book.title;
+      const validSeries =
+        book.series === "N/A" || b.data.series !== book.series;
+
+      return sameGenre && differentTitle && validSeries;
+    });
+  });
+
+  eleventyConfig.addFilter("booksBySubgenre", function (book, books) {
+    return books.filter((b) => {
+      const sameGenre =
+        b.data.subgenre &&
+        (b.data.genre === book.subgenre || b.data.subgenre === book.subgenre);
+      const differentTitle = b.data.title !== book.title;
+      const validSeries =
+        book.series === "N/A" || b.data.series !== book.series;
+
+      return sameGenre && differentTitle && validSeries;
+    });
+  });
+
+  eleventyConfig.addFilter("randomItem", function (items) {
+    if (!items || !items.length) return null;
+    return items[Math.floor(Math.random() * items.length)];
+  });
+
   eleventyConfig.addFilter("year", function () {
     return new Date().getFullYear();
   });
@@ -243,6 +287,32 @@ export default function (eleventyConfig) {
       hasScore: book.data.hasScore,
       readCount: book.data.readCount,
     }));
+  });
+
+  // Keeps newlines in summaries correct
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt({
+      breaks: true,
+    }),
+  );
+
+  eleventyConfig.addFilter("numberFormat", (value) => {
+    const num = Number(value);
+    return isNaN(num) ? value : num.toLocaleString("en-US");
+  });
+
+  eleventyConfig.addFilter("groupTrivia", function (data) {
+    const grouped = {};
+
+    data.forEach((item) => {
+      if (!grouped[item.series]) grouped[item.series] = {};
+      if (!grouped[item.series][item.title])
+        grouped[item.series][item.title] = [];
+      grouped[item.series][item.title].push(item);
+    });
+
+    return grouped;
   });
 
   return {

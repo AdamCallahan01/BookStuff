@@ -5,7 +5,10 @@ book: "[[white-sand-volume-1-sanderson]]"
 readNumber: 1
 score: 8
 format: "Book"
+dateStarted: "6/26/2022"
+dateFinished: "7/1/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

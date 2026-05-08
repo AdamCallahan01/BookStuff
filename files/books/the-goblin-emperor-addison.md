@@ -12,6 +12,9 @@ yearPublished: 2014
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/17910048-the-goblin-emperor"
 avgGoodreadsRating: "8.14"
+numGoodreadsRatings: "56090"
+genre: "Fantasy"
+subgenre: "Political"
 isbn: "9780765326997"
 bookOwned: false
 hasSummary: false

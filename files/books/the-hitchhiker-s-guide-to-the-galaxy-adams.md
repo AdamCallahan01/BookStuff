@@ -7,7 +7,14 @@ author: "Douglas Adams"
 series: "The Hitchhiker's Guide to the Galaxy"
 seriesNumber: 1
 pages: 142
+wordCount: 50895
+yearPublished: 1979
+publisher: "Crown"
 goodreads: "https://www.goodreads.com/book/show/14.The_Hitchhiker_s_Guide_to_the_Galaxy"
+avgGoodreadsRating: "8.44"
+numGoodreadsRatings: "2042837"
+genre: "Science Fiction"
+subgenre: "Humor"
 isbn: "9781400052929"
 bookOwned: true
 hasSummary: false

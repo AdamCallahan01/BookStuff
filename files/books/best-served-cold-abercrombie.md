@@ -12,6 +12,9 @@ yearPublished: 2009
 publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/2315892.Best_Served_Cold"
 avgGoodreadsRating: "8.46"
+numGoodreadsRatings: "114813"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780575082458"
 bookOwned: true
 otherSeries: "First Law"

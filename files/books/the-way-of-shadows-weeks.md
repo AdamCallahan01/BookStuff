@@ -7,7 +7,14 @@ author: "Brent Weeks"
 series: "Night Angel"
 seriesNumber: 1
 pages: 645
+wordCount: 156000
+yearPublished: 2008
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/3227063-the-way-of-shadows?ref=nav_sb_ss_1_14"
+avgGoodreadsRating: "8.3"
+numGoodreadsRatings: "177936"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780316033671"
 bookOwned: true
 hasSummary: false

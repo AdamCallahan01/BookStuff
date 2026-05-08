@@ -6,13 +6,43 @@ layout: base.njk
 {% set currentNumber = seriesNumber | int %}
 {% set prevBook = curSeries[currentNumber - 2] %}
 {% set nextBook = curSeries[currentNumber] %}
+{% set currentBook = {
+  title: title,
+  author: author,
+  series: series,
+  genre: genre,
+  subgenre: subgenre
+} %}
 
 <body>
   <main class="three-column-layout">
 
     <aside class="right-sidebar">
       {% if prevBook %}
+        <h3>Previous Book</h3>
         {% set book = prevBook %}
+
+      {% else %}
+        {% set recommendation = currentBook | booksByAuthor(collections.books) | randomItem %}
+        {% set heading = "Same Author" %}
+
+        {% if not recommendation %}
+          {% set recommendation = currentBook | booksBySubgenre(collections.books) | randomItem %}
+          {% set heading = "Same Subgenre" %}
+        {% endif %}
+
+        {% if not recommendation %}
+          {% set recommendation = currentBook | booksByGenre(collections.books) | randomItem %}
+          {% set heading = "Same Genre" %}
+        {% endif %}
+
+        {% if recommendation %}
+          <h3>{{ heading }}</h3>
+          {% set book = recommendation %}
+        {% endif %}
+      {% endif %}
+
+      {% if book %}
         {% include "bookCard.njk" %}
       {% endif %}
     </aside>
@@ -44,7 +74,7 @@ layout: base.njk
             {{ pages }}</p>
           <p class="book-pages">
             <strong>Word count:</strong>
-            {{ wordCount }}
+            {{ wordCount | numberFormat }}
           </p>
           <p class="book-year-pub">
             <strong>Published:</strong>
@@ -62,7 +92,7 @@ layout: base.njk
           <p class="book-goodreads">
             <strong>Goodreads:</strong>
             <a href="{{ goodreads }}" target="_blank">Link</a>
-          | Rating: {{ avgGoodreadsRating }} ({{ numGoodreadsRatings }} ratings)
+          | Rating: {{ avgGoodreadsRating }} ({{ numGoodreadsRatings | numberFormat }} ratings)
         </p>
           <p class="book-score">
             <strong>Latest Score:</strong>
@@ -160,6 +190,7 @@ layout: base.njk
 
     <aside class="right-sidebar">
       {% if nextBook %}
+        <h3>Next Book</h3>
         {% set book = nextBook %}
         {% include "bookCard.njk" %}
       {% else %}

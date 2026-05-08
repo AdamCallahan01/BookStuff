@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Mistborn"
 seriesNumber: 1
 pages: 541
+wordCount: 210103
+yearPublished: 2006
+publisher: "Tor Books"
 goodreads: "https://www.goodreads.com/book/show/68428.Mistborn?ref=nav_sb_ss_1_12"
+avgGoodreadsRating: "8.98"
+numGoodreadsRatings: "1023153"
+genre: "Fantasy"
+subgenre: "Heist"
 isbn: "9780765311788"
 bookOwned: true
 otherSeries: "Cosmere"

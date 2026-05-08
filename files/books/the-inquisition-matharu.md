@@ -7,7 +7,14 @@ author: "Taran Matharu"
 series: "Summoner"
 seriesNumber: 2
 pages: 368
+wordCount: 108000
+yearPublished: 2016
+publisher: "Feiwel & Friends"
 goodreads: "https://www.goodreads.com/book/show/25689056-the-inquisition?ref=nav_sb_ss_1_15"
+avgGoodreadsRating: "8.6"
+numGoodreadsRatings: "23660"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781250076311"
 bookOwned: false
 hasSummary: false

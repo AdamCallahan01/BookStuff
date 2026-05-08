@@ -12,6 +12,9 @@ yearPublished: 2023
 publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/208430658-blood-over-bright-haven"
 avgGoodreadsRating: "8.94"
+numGoodreadsRatings: "152555"
+genre: "Fantasy"
+subgenre: "Academia"
 isbn: "9780593873359"
 bookOwned: false
 hasSummary: false

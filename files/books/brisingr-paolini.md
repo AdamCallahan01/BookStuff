@@ -7,7 +7,14 @@ author: "Christopher Paolini"
 series: "The Inheritance Cycle"
 seriesNumber: 3
 pages: 748
+wordCount: 254000
+yearPublished: 2008
+publisher: "Alfred A. Knopf"
 goodreads: "https://www.goodreads.com/book/show/2248573.Brisingr"
+avgGoodreadsRating: "8.22"
+numGoodreadsRatings: "420712"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780375826726"
 bookOwned: true
 hasSummary: false

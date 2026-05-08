@@ -5,7 +5,10 @@ book: "[[the-emperor-of-nihon-ja-flanagan]]"
 readNumber: 1
 score: 7.5
 format: "Book"
+dateStarted: "8/29/2022"
+dateFinished: "9/3/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

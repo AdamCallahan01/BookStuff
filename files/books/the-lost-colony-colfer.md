@@ -12,6 +12,9 @@ yearPublished: 2006
 publisher: "Miramax"
 goodreads: "https://www.goodreads.com/book/show/613898.The_Lost_Colony"
 avgGoodreadsRating: "8.02"
+numGoodreadsRatings: "160641"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780786849598"
 bookOwned: true
 hasSummary: false

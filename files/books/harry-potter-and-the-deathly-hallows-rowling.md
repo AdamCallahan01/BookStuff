@@ -7,7 +7,14 @@ author: "J. K. Rowling"
 series: "Harry Potter"
 seriesNumber: 7
 pages: 759
+wordCount: 198227
+yearPublished: 2007
+publisher: "Scholastic Inc."
 goodreads: "https://www.goodreads.com/book/show/58613224-harry-potter-and-the-deathly-hallows"
+avgGoodreadsRating: "9.24"
+numGoodreadsRatings: "4164118"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545010221"
 bookOwned: true
 hasSummary: true

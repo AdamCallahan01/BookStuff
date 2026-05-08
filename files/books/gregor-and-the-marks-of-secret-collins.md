@@ -12,6 +12,9 @@ yearPublished: 2006
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/319644.Gregor_and_the_Marks_of_Secret?ref=nav_sb_ss_1_13"
 avgGoodreadsRating: "8.5"
+numGoodreadsRatings: "41947"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439791465"
 bookOwned: true
 hasSummary: false

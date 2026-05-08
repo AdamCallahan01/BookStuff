@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 1
 pages: 249
+wordCount: 70000
+yearPublished: 2004
+publisher: "Puffin Books"
 goodreads: "https://www.goodreads.com/book/show/60400.The_Ruins_of_Gorlan"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "177915"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142406632"
 bookOwned: true
 hasSummary: false

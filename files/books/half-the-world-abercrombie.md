@@ -7,7 +7,14 @@ author: "Joe Abercrombie"
 series: "Shattered Sea"
 seriesNumber: 2
 pages: 366
+wordCount: 73000
+yearPublished: 2015
+publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/22055283-half-the-world"
+avgGoodreadsRating: "8.38"
+numGoodreadsRatings: "46355"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780804178426"
 bookOwned: true
 hasSummary: false

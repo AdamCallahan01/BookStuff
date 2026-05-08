@@ -7,7 +7,14 @@ author: "Patrick Rothfuss"
 series: "The Kingkiller Chronicle"
 seriesNumber: 2
 pages: 994
+wordCount: 397179
+yearPublished: 2011
+publisher: "DAW Books"
 goodreads: "https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear?ref=nav_sb_ss_1_9"
+avgGoodreadsRating: "9.1"
+numGoodreadsRatings: "629716"
+genre: "Fantasy"
+subgenre: "Academia"
 isbn: "9780756404734"
 bookOwned: true
 hasSummary: false

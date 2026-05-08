@@ -7,7 +7,14 @@ author: "Justin Call"
 series: "The Silent Gods"
 seriesNumber: 1
 pages: 448
+wordCount: 140000
+yearPublished: 2019
+publisher: "Blackstone Publishing"
 goodreads: "https://www.goodreads.com/book/show/52905319-master-of-sorrows"
+avgGoodreadsRating: "7.7"
+numGoodreadsRatings: "3976"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781982591786"
 bookOwned: false
 hasSummary: false

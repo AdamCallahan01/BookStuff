@@ -12,7 +12,7 @@ yearPublished: 2012
 publisher: "Hyperion"
 goodreads: "https://www.goodreads.com/book/show/9307674-the-last-guardian"
 avgGoodreadsRating: "8.32"
-numGoodreadsRatings: "59,877"
+numGoodreadsRatings: "59877"
 genre: "Fantasy"
 subgenre: "YA"
 isbn: "9781423161615"

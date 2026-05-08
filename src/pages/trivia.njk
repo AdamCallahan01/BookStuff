@@ -1,0 +1,41 @@
+---
+layout: base.njk
+permalink: /trivia/
+title: Trivia
+---
+
+<head>
+    <link rel="stylesheet" href="/css/triviaStyle.css">
+</head>
+
+{% set grouped = trivia | groupTrivia %}
+
+{% for series, books in grouped %}
+    <details>
+        <summary>{{ series }}</summary>
+
+        {% for title, questions in books %}
+            <details style="margin-left: 1rem;">
+                <summary>{{ title }}</summary>
+
+                <ul>
+                    {% for q in questions %}
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                {{ q.question }}
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                {{ q.answer }} ({{ q.difficulty }})
+              </span>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </details>
+        {% endfor %}
+
+    </details>
+{% endfor %}

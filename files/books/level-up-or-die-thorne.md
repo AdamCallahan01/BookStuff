@@ -7,7 +7,14 @@ author: "Apollos Thorne"
 series: "Underworld"
 seriesNumber: 1
 pages: 204
+wordCount: 50000
+yearPublished: 2017
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/50410231-level-up-or-die"
+avgGoodreadsRating: "8.22"
+numGoodreadsRatings: "4289"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781733664417"
 bookOwned: false
 hasSummary: false

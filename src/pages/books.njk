@@ -228,6 +228,7 @@ permalink: /books/
               data-days="{{ read.data.days or 0 }}"
               data-yearRead="{{ read.data.yearRead or 0 }}"
               data-hasReview="{{ read.data.hasReview or false }}"
+              data-otherseries="{{ book.data.otherSeries | lower }}"
             >
 
               {% if book.data.coverSlug %}
@@ -239,7 +240,8 @@ permalink: /books/
               {% endif %}
 
               <div class="overlay">
-                ⭐ {{ read.data.score or "N/A" }}
+            ⭐ {% if book.data.hasScore %}{{ book.data.averageScore }}
+                {% else %}N/A{% endif %}
                 | 📅 {{ read.data.dateFinished }}
                 | {{ formatIcons[read.data.format] or "❓" }}
               </div>

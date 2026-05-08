@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 8
 pages: 320
+wordCount: 70000
+yearPublished: 2008
+publisher: "Viking Books for Young Readers"
 goodreads: "https://www.goodreads.com/book/show/20213572-the-kings-of-clonmel"
+avgGoodreadsRating: "8.6"
+numGoodreadsRatings: "65491"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781101187722"
 bookOwned: true
 hasSummary: false

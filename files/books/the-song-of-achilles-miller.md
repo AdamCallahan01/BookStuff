@@ -7,7 +7,14 @@ author: "Madeline Miller"
 series: "N/A"
 seriesNumber: null
 pages: 408
+wordCount: 105000
+yearPublished: 2011
+publisher: "Ecco"
 goodreads: "https://www.goodreads.com/book/show/11887641-the-song-of-achilles"
+avgGoodreadsRating: "8.6"
+numGoodreadsRatings: "2072408"
+genre: "Mythology"
+subgenre: "Fantasy"
 isbn: "9780062060617"
 bookOwned: false
 hasSummary: false

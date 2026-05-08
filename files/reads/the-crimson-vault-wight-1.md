@@ -5,7 +5,10 @@ book: "[[the-crimson-vault-wight]]"
 readNumber: 1
 score: 5
 format: "Audible"
+dateStarted: "7/24/2022"
+dateFinished: "7/29/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

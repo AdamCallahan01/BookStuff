@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 seriesNumber: 1
 pages: 1007
+wordCount: 386470
+yearPublished: 2010
+publisher: "Tor Books"
 goodreads: "https://www.goodreads.com/book/show/7235533-the-way-of-kings?ref=nav_sb_ss_1_11"
+avgGoodreadsRating: "9.32"
+numGoodreadsRatings: "695652"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765326355"
 bookOwned: true
 otherSeries: "Cosmere"

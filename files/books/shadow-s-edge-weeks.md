@@ -7,7 +7,14 @@ author: "Brent Weeks"
 series: "Night Angel"
 seriesNumber: 2
 pages: 636
+wordCount: 178000
+yearPublished: 2008
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/3754016-shadow-s-edge"
+avgGoodreadsRating: "8.5"
+numGoodreadsRatings: "109968"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780316033657"
 bookOwned: true
 hasSummary: false

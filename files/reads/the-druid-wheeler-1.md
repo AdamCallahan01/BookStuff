@@ -5,7 +5,10 @@ book: "[[the-druid-wheeler]]"
 readNumber: 1
 score: 5.5
 format: "E-book"
+dateStarted: "6/18/2022"
+dateFinished: "6/23/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

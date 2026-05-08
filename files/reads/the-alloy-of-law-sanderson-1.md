@@ -5,7 +5,10 @@ book: "[[the-alloy-of-law-sanderson]]"
 readNumber: 1
 score: 9
 format: "Book"
+dateStarted: "9/2/2022"
+dateFinished: "9/7/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

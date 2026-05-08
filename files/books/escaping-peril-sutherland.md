@@ -12,6 +12,9 @@ yearPublished: 2016
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/25711360-escaping-peril"
 avgGoodreadsRating: "9.02"
+numGoodreadsRatings: "30768"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545685467"
 bookOwned: true
 hasSummary: false

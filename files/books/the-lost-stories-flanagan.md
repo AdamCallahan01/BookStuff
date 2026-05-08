@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 11
 pages: 422
+wordCount: 107234
+yearPublished: 2011
+publisher: "Philomel"
 goodreads: "https://www.goodreads.com/book/show/11309018-the-lost-stories"
+avgGoodreadsRating: "8.5"
+numGoodreadsRatings: "38510"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780399256189"
 bookOwned: true
 hasSummary: false

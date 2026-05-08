@@ -5,7 +5,10 @@ book: "[[the-well-of-ascension-sanderson]]"
 readNumber: 1
 score: 8.5
 format: "Book"
+dateStarted: "7/18/2022"
+dateFinished: "7/23/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

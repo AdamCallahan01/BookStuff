@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "The Chronicles of Narnia"
 seriesNumber: 7
 pages: 288
+wordCount: 43000
+yearPublished: 1956
+publisher: "HarperCollins"
 goodreads: "https://www.goodreads.com/book/show/587318.The_Last_Battle"
+avgGoodreadsRating: "8.02"
+numGoodreadsRatings: "310229"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780064471084"
 bookOwned: true
 hasSummary: false

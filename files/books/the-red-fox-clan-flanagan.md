@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "The Royal Ranger"
 seriesNumber: 2
 pages: 352
+wordCount: 120000
+yearPublished: 2018
+publisher: "Viking Books for Young Readers"
 goodreads: "https://www.goodreads.com/book/show/38888254-the-red-fox-clan"
+avgGoodreadsRating: "8.48"
+numGoodreadsRatings: "12692"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781524741389"
 bookOwned: true
 hasSummary: false

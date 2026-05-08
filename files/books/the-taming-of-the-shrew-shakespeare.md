@@ -11,6 +11,9 @@ wordCount: 21055
 yearPublished: 1593
 goodreads: "https://www.goodreads.com/book/show/47021.The_Taming_of_the_Shrew?ref=nav_sb_ss_1_12"
 avgGoodreadsRating: "7.5"
+numGoodreadsRatings: "182126"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780743477574"
 bookOwned: true
 hasSummary: false

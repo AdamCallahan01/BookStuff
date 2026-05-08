@@ -1,65 +1,203 @@
 export default [
   {
+    series: "Cradle",
+    author: "Will Wight",
+    title: "Soulsmith",
+    question:
+      "Which character has a name pronounced similarly to a national capital?",
+    answer: "Yerin / Yaren (Nauru)",
+    difficulty: "Hard",
+  },
+  {
     series: "Discworld",
-    books: [
-      {
-        title: "Guards! Guards!",
-        questions: [
-          {
-            question: "What is the name of the large dwarf?",
-            answer: "Carrot",
-            difficulty: "easy",
-          },
-          {
-            question: "Who is the captain of the Night Watch?",
-            answer: "Sam Vimes",
-            difficulty: "easy",
-          },
-        ],
-      },
-      {
-        title: "Mort",
-        questions: [
-          {
-            question: "Who takes Mort as an apprentice?",
-            answer: "Death",
-            difficulty: "easy",
-          },
-        ],
-      },
-    ],
+    author: "Terry Pratchett",
+    title: "Guards! Guards!",
+    question: "What is the name of the large dwarf?",
+    answer: "Carrot",
+    difficulty: "Easy",
+  },
+  {
+    series: "Discworld",
+    author: "Terry Pratchett",
+    title: "Guards! Guards!",
+    question: "Who is the captain of the Night Watch?",
+    answer: "Sam Vimes",
+    difficulty: "Easy",
+  },
+  {
+    series: "Discworld",
+    author: "Terry Pratchett",
+    title: "Mort",
+    question: "Who takes Mort as an apprentice?",
+    answer: "Death",
+    difficulty: "Easy",
+  },
+  {
+    series: "Mistborn",
+    author: "Brandon Sanderson",
+    title: "The Well of Ascension",
+    question: "Who is the main characters boyfriends half-brothers father?",
+    answer: "Lord Straff",
+    difficulty: "Medium",
+  },
+  {
+    series: "Mistborn",
+    author: "Brandon Sanderson",
+    title: "The Final Empire",
+    question: "What are the two metals used for Pushing and Pulling?",
+    answer: "Iron and Steel",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question:
+      "What is the proper term to use as a Common when Addressing a Noble?",
+    answer: "Nkosi",
+    difficulty: "Medium",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question: "What is the name of Tau's Father?",
+    answer: "Aren",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question: "What is the name of the ship Queen Taifa arrives on?",
+    answer: "Targon",
+    difficulty: "Hard",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question: "What Scale is Tau a member of?",
+    answer: "Scale Jayyed",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question: "What are the names of the three most common types of magic?",
+    answer: "Enervate, Enrage, Entreat",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question:
+      "What is the name of the realm of Ukufa? (The place you draw power from to perform magic, and the land where demons roam)",
+    answer: "Isihogo",
+    difficulty: "Medium",
+  },
+  {
+    series: "The Burning",
+    author: "Evan Winter",
+    title: "The Rage of Dragons",
+    question: "List all of the Chosen Castes from top to bottom",
+    answer:
+      "Queen (& Royal Family), Royal Nobles, GIfted, Ingonyama, Greater Nobles, Petty Nobles, Ihashe, High Governor, Low Governor, High Harvester, Low Harvester, High Common, Low Common, Drudge",
+    difficulty: "Hard",
   },
   {
     series: "The Expanse",
-    books: [
-      {
-        title: "Leviathan Wakes",
-        questions: [
-          {
-            question:
-              "What is the name of the ice hauler Jim works on at the start of the series?",
-            answer: "The Canterbury",
-            difficulty: "medium",
-          },
-          {
-            question:
-              "What does Jim rename the martian ship he and his crew use to flee to Tycho Station?",
-            answer: "The Rocinante",
-            difficulty: "easy",
-          },
-        ],
-      },
-      {
-        title: "Cibola Burn",
-        questions: [
-          {
-            question:
-              "What name does the UN try to give to the central planet of the novel?",
-            answer: "New Terra",
-            difficulty: "Medium",
-          },
-        ],
-      },
-    ],
+    author: "James S. A. Corey",
+    title: "Leviathan Wakes",
+    question:
+      "What is the name of the ice hauler Jim works on at the start of the series?",
+    answer: "The Canterbury",
+    difficulty: "Medium",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Leviathan Wakes",
+    question:
+      "What does Jim rename the martian ship he and his crew use to flee to Tycho Station?",
+    answer: "The Rocinante",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Cibola Burn",
+    question:
+      "What name does the UN try to give to the central planet of the novel?",
+    answer: "New Terra",
+    difficulty: "Medium",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Leviathan Wakes",
+    question: "What moon was the protomolecule discovered in?",
+    answer: "Phoebe",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Leviathan Wakes",
+    question: "What is Detective Miller's first name?",
+    answer: "Josephus",
+    difficulty: "Medium",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Nemesis Games",
+    question: "What is the name of Alex's ex wife?",
+    answer: "Talissa",
+    difficulty: "Hard",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Leviathan Wakes",
+    question: "What is the name of the company owned by Jules-Pierre Mao?",
+    answer: "Mao-Kwikowski Mercantile",
+    difficulty: "Medium",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Nemesis Games",
+    question: "What is the name of Naomi's son?",
+    answer: "Filip",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Persepolis Rising",
+    question: "What is the name of the new empire formed by Winston Duarte?",
+    answer: "Laconia",
+    difficulty: "Easy",
+  },
+  {
+    series: "The Expanse",
+    author: "James S. A. Corey",
+    title: "Tiamat's Wrath",
+    question:
+      "What is the name of the system Elvi finds contains only a neutron star?",
+    answer: "Tecoma System",
+    difficulty: "Hard",
+  },
+  {
+    series: "Hyperion Cantos",
+    author: "Dan Simmons",
+    title: "Hyperion",
+    question:
+      "What were the original names of the 3 continents on the planet Hyperion?",
+    answer: "Creighton, Allensen, and Lopez",
+    difficulty: "Hard",
   },
 ];

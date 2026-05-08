@@ -5,7 +5,10 @@ book: "[[fool-moon-butcher]]"
 readNumber: 1
 score: 8
 format: "Book"
+dateStarted: "8/21/2022"
+dateFinished: "8/26/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

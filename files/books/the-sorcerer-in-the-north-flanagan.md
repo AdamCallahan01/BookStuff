@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 5
 pages: 304
+wordCount: 70000
+yearPublished: 2006
+publisher: "Puffin Books"
 goodreads: "https://www.goodreads.com/book/show/6089263-the-sorcerer-of-the-north"
+avgGoodreadsRating: "8.56"
+numGoodreadsRatings: "84429"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142414293"
 bookOwned: true
 hasSummary: false

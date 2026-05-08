@@ -7,7 +7,14 @@ author: "J. K. Rowling"
 series: "Harry Potter"
 seriesNumber: 3
 pages: 435
+wordCount: 107253
+yearPublished: 1999
+publisher: "Scholastic Inc."
 goodreads: "https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban"
+avgGoodreadsRating: "9.16"
+numGoodreadsRatings: "4933752"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439655484"
 bookOwned: true
 hasSummary: false

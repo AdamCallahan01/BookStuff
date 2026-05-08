@@ -12,6 +12,9 @@ yearPublished: 2000
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/55401.Deadhouse_Gates"
 avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "85986"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765310026"
 bookOwned: true
 otherSeries: "Malazan"

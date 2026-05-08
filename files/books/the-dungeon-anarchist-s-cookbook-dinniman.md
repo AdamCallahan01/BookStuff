@@ -12,7 +12,7 @@ yearPublished: 2021
 publisher: "Dandy House"
 goodreads: "https://www.goodreads.com/book/show/57809856-the-dungeon-anarchist-s-cookbook"
 avgGoodreadsRating: "8.96"
-numGoodreadsRatings: "3,547"
+numGoodreadsRatings: "3547"
 genre: "Fantasy"
 subgenre: "LitRPG"
 isbn: "9798724495066"

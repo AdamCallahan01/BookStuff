@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
 seriesNumber: 2
 pages: 626
+wordCount: 186220
+yearPublished: 2016
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/50659468-a-court-of-mist-and-fury"
+avgGoodreadsRating: "9.26"
+numGoodreadsRatings: "3325552"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781635575583"
 bookOwned: true
 hasSummary: false

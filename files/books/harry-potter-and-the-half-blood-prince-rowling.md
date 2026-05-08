@@ -7,7 +7,14 @@ author: "J. K. Rowling"
 series: "Harry Potter"
 seriesNumber: 6
 pages: 652
+wordCount: 169441
+yearPublished: 2005
+publisher: "Arthur A. Levine Books"
 goodreads: "https://www.goodreads.com/book/show/49852.Harry_Potter_and_the_Half_Blood_Prince"
+avgGoodreadsRating: "9.16"
+numGoodreadsRatings: "3710143"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439784542"
 bookOwned: true
 hasSummary: true

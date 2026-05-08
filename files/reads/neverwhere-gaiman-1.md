@@ -5,7 +5,10 @@ book: "[[neverwhere-gaiman]]"
 readNumber: 1
 score: 8.5
 format: "Book"
+dateStarted: "8/19/2022"
+dateFinished: "8/24/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

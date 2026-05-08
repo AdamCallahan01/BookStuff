@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Good Guys"
 seriesNumber: 6
 pages: 370
+wordCount: 80000
+yearPublished: 2019
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/70890972-home-siege-home"
+avgGoodreadsRating: "8.76"
+numGoodreadsRatings: "4337"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346132"
 bookOwned: true
 hasSummary: false

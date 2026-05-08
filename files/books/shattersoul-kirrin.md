@@ -7,7 +7,14 @@ author: "Kyle Kirrin"
 series: "The Ripple System"
 seriesNumber: 4
 pages: 877
+wordCount: 255000
+yearPublished: 2023
+publisher: "Portal Books"
 goodreads: "https://www.goodreads.com/book/show/171670888-shattersoul"
+avgGoodreadsRating: "8.92"
+numGoodreadsRatings: "1764"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781913695538"
 bookOwned: true
 hasSummary: false

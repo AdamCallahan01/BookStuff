@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 4
 pages: 294
+wordCount: 70000
+yearPublished: 2006
+publisher: "Puffin Books"
 goodreads: "https://www.goodreads.com/book/show/3815319-the-battle-for-skandia"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "108448"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142413401"
 bookOwned: true
 hasSummary: false

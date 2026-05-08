@@ -12,6 +12,9 @@ yearPublished: 2012
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/12432220-the-false-prince"
 avgGoodreadsRating: "8.46"
+numGoodreadsRatings: "111668"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545284134"
 bookOwned: true
 hasSummary: false

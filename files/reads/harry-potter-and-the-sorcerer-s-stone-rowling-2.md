@@ -5,7 +5,10 @@ book: "[[harry-potter-and-the-sorcerer-s-stone-rowling]]"
 readNumber: 2
 score: 7
 format: "E-book"
+dateStarted: "5/1/2022"
+dateFinished: "5/6/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

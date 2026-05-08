@@ -12,6 +12,9 @@ yearPublished: 2018
 publisher: "Del Rey"
 goodreads: "https://www.goodreads.com/book/show/34431692-kill-the-farm-boy"
 avgGoodreadsRating: "6.86"
+numGoodreadsRatings: "11326"
+genre: "Fantasy"
+subgenre: "Humor"
 isbn: "9781524797751"
 bookOwned: true
 hasSummary: false

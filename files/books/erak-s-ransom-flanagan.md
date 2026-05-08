@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 7
 pages: 441
+wordCount: 70000
+yearPublished: 2007
+publisher: "Viking Books for Young Readers"
 goodreads: "https://www.goodreads.com/book/show/49124094-erak-s-ransom"
+avgGoodreadsRating: "8.66"
+numGoodreadsRatings: "71294"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142415252"
 bookOwned: true
 hasSummary: false

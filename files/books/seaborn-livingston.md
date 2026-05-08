@@ -7,7 +7,14 @@ author: "Michael Livingston"
 series: "The Seaborn Cycle"
 seriesNumber: 1
 pages: 300
+wordCount: 100000
+yearPublished: 2020
+publisher: "Independently Published"
 goodreads: "https://www.goodreads.com/book/show/61082852-seaborn"
+avgGoodreadsRating: "7.06"
+numGoodreadsRatings: "698"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9798472191456"
 bookOwned: false
 hasSummary: false

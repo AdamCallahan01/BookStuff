@@ -12,6 +12,9 @@ yearPublished: 2001
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/175983.Memories_of_Ice"
 avgGoodreadsRating: "8.92"
+numGoodreadsRatings: "68394"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765348807"
 bookOwned: true
 otherSeries: "Malazan"

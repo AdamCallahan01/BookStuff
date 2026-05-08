@@ -12,6 +12,9 @@ yearPublished: 2014
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/18527497-the-brightest-night"
 avgGoodreadsRating: "9.12"
+numGoodreadsRatings: "38794"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545349222"
 bookOwned: true
 hasSummary: false

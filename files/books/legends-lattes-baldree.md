@@ -12,6 +12,9 @@ yearPublished: 2022
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/60314494-legends-lattes"
 avgGoodreadsRating: "8.2"
+numGoodreadsRatings: "344103"
+genre: "Fantasy"
+subgenre: "Cozy"
 isbn: "9798985663211"
 bookOwned: true
 hasSummary: false

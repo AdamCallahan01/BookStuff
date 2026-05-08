@@ -12,6 +12,9 @@ yearPublished: 2020
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/55924416-the-wandering-inn?ref=nav_sb_ss_5_17"
 avgGoodreadsRating: "9.16"
+numGoodreadsRatings: "8471"
+genre: "Fantasy"
+subgenre: "Epic"
 bookOwned: true
 hasSummary: false
 summarySlug: "flowers-of-esthelm-aba-summary"

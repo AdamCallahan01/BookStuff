@@ -7,7 +7,14 @@ author: "Jonathan Brooks"
 series: "Dungeon World"
 seriesNumber: 2
 pages: 461
+wordCount: 100000
+yearPublished: 2019
+publisher: "Independently Published"
 goodreads: "https://www.goodreads.com/book/show/50029725-dungeon-world-2"
+avgGoodreadsRating: "8.36"
+numGoodreadsRatings: "1894"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781099433689"
 bookOwned: false
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "Throne of Glass"
 seriesNumber: 4
 pages: 648
+wordCount: 183840
+yearPublished: 2015
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/76707900-queen-of-shadows"
+avgGoodreadsRating: "9.24"
+numGoodreadsRatings: "1488811"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781639731008"
 bookOwned: true
 hasSummary: false

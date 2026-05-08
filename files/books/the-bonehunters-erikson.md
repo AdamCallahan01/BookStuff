@@ -12,6 +12,9 @@ yearPublished: 2006
 publisher: "Bantam"
 goodreads: "https://www.goodreads.com/book/show/478951.The_Bonehunters"
 avgGoodreadsRating: "8.96"
+numGoodreadsRatings: "46474"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780553813159"
 bookOwned: true
 otherSeries: "Malazan"

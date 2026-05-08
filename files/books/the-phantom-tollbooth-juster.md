@@ -12,6 +12,9 @@ yearPublished: 1961
 publisher: "Random House"
 goodreads: "https://www.goodreads.com/book/show/378.The_Phantom_Tollbooth"
 avgGoodreadsRating: "8.4"
+numGoodreadsRatings: "309865"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780394820378"
 bookOwned: true
 hasSummary: false

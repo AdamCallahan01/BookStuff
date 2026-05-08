@@ -5,7 +5,10 @@ book: "[[master-of-sorrows-call]]"
 readNumber: 1
 score: 7
 format: "Audible"
+dateStarted: "6/24/2022"
+dateFinished: "6/29/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

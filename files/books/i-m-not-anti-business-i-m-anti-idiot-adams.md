@@ -7,7 +7,14 @@ author: "Scott Adams"
 series: "Dilbert"
 seriesNumber: 11
 pages: 128
+wordCount: 10000
+yearPublished: 1998
+publisher: "Andrews McMeel Publishing"
 goodreads: "https://www.goodreads.com/book/show/85585.I_m_Not_Anti_Business_I_m_Anti_Idiot?ref=nav_sb_ss_1_12"
+avgGoodreadsRating: "8"
+numGoodreadsRatings: "764"
+genre: "Fantasy"
+subgenre: "Graphic Novel"
 isbn: "9780836251821"
 bookOwned: true
 hasSummary: false

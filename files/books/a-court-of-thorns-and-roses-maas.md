@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "A Court of Thorns and Roses"
 seriesNumber: 1
 pages: 419
+wordCount: 130423
+yearPublished: 2015
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses?ref=nav_sb_ss_1_10"
+avgGoodreadsRating: "8.3"
+numGoodreadsRatings: "4381332"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781635575569"
 bookOwned: true
 hasSummary: false

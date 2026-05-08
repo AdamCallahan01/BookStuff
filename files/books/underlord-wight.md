@@ -12,7 +12,7 @@ yearPublished: 2019
 publisher: "Hidden Gnome"
 goodreads: "https://www.goodreads.com/book/show/123329476-underlord"
 avgGoodreadsRating: "9.22"
-numGoodreadsRatings: "31,760"
+numGoodreadsRatings: "31760"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781959001034"

@@ -7,7 +7,14 @@ author: "C. S. Lewis"
 series: "N/A"
 seriesNumber: null
 pages: 162
+wordCount: 40500
+yearPublished: 1940
+publisher: "Collins"
 goodreads: "https://www.goodreads.com/book/show/13650513-the-problem-of-pain?ref=nav_sb_ss_1_15"
+avgGoodreadsRating: "8.26"
+numGoodreadsRatings: "75161"
+genre: "Nonfiction"
+subgenre: "Religion"
 isbn: "9780007461264"
 bookOwned: true
 hasSummary: false

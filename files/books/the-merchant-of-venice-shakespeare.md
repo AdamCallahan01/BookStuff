@@ -11,6 +11,9 @@ wordCount: 21291
 yearPublished: 1596
 goodreads: "https://www.goodreads.com/book/show/24128.The_Merchant_of_Venice?ref=nav_sb_ss_1_15"
 avgGoodreadsRating: "7.56"
+numGoodreadsRatings: "204998"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780743477567"
 bookOwned: true
 hasSummary: false

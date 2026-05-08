@@ -7,7 +7,14 @@ author: "Pirate Aba"
 series: "The Wandering Inn"
 seriesNumber: 1
 pages: 1235
+wordCount: 454824
+yearPublished: 2018
+publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/41033158-the-wandering-inn?ref=nav_sb_ss_1_13"
+avgGoodreadsRating: "8.42"
+numGoodreadsRatings: "15339"
+genre: "Fantasy"
+subgenre: "LitRPG"
 bookOwned: true
 hasSummary: false
 summarySlug: "the-wandering-inn-aba-summary"

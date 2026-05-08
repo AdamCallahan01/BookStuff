@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 seriesNumber: 3
 pages: 1243
+wordCount: 454440
+yearPublished: 2017
+publisher: "Tor Books"
 goodreads: "https://www.goodreads.com/book/show/37534833-oathbringer"
+avgGoodreadsRating: "9.2"
+numGoodreadsRatings: "372812"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9781250297143"
 bookOwned: true
 otherSeries: "Cosmere"

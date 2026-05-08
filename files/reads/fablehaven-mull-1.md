@@ -5,7 +5,10 @@ book: "[[fablehaven-mull]]"
 readNumber: 1
 score: 7
 format: "Book"
+dateStarted: "8/11/2022"
+dateFinished: "8/16/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

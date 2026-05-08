@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+    <link rel="shortcut icon" href="/files/other/favicon.ico">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/elasticlunr.min.js" defer></script>
+    <script src="/js/search.js" defer></script>
+  </head>
+
+  <head>
+    <link rel="stylesheet" href="/css/header.css">
+</head>
+
+<header class="site-header">
+    <div class="site-title">
+        <a href="/" class="nav-link">My Library</a>
+    </div>
+
+    <div class="search-container">
+
+        <input type="text" id="searchInput" placeholder="Search books..." autocomplete="one-time-code"/>
+
+        <div class="search-options-wrapper">
+            <button type="button" id="searchOptionsBtn">Options ▼</button>
+
+            <div class="search-options-dropdown" id="searchOptionsDropdown">
+                <label>
+                    <input type="checkbox" id="includeSummaries">
+                Include summaries
+            </label>
+            </div>
+        </div>
+
+        <div id="searchResults" class="search-results-dropdown"></div>
+
+    </div>
+
+    <nav>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/books/" class="nav-link">Books</a>
+        <a href="/lists/" class="nav-link">Lists</a>
+        <a href="/trivia/" class="nav-link">Trivia</a>
+        <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+        <a href="/about/" class="nav-link">About</a>
+    </nav>
+</header>
+  <main class="base-layout">
+    
+      
+<head>
+    <link rel="stylesheet" href="/css/triviaStyle.css">
+</head>
+
+
+
+
+    <details>
+        <summary>Cradle</summary>
+
+        
+            <details style="margin-left: 1rem;">
+                <summary>Soulsmith</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                Which character has a name pronounced similarly to a national capital?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Yerin / Yaren (Nauru) (Hard)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+
+    </details>
+
+    <details>
+        <summary>Discworld</summary>
+
+        
+            <details style="margin-left: 1rem;">
+                <summary>Guards! Guards!</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the large dwarf?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Carrot (Easy)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                Who is the captain of the Night Watch?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Sam Vimes (Easy)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+            <details style="margin-left: 1rem;">
+                <summary>Mort</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                Who takes Mort as an apprentice?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Death (Easy)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+
+    </details>
+
+    <details>
+        <summary>Mistborn</summary>
+
+        
+            <details style="margin-left: 1rem;">
+                <summary>The Well of Ascension</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                Who is the main characters boyfriends half-brothers father?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Lord Straff (Medium)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+            <details style="margin-left: 1rem;">
+                <summary>The Final Empire</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What are the two metals used for Pushing and Pulling?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Iron and Steel (Easy)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+
+    </details>
+
+    <details>
+        <summary>The Burning</summary>
+
+        
+            <details style="margin-left: 1rem;">
+                <summary>The Rage of Dragons</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the proper term to use as a Common when Addressing a Noble?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Nkosi (Medium)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of Tau&#39;s Father?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Aren (Easy)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the ship Queen Taifa arrives on?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Targon (Hard)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What Scale is Tau a member of?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Scale Jayyed (Easy)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What are the names of the three most common types of magic?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Enervate, Enrage, Entreat (Easy)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the realm of Ukufa? (The place you draw power from to perform magic, and the land where demons roam)
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Isihogo (Medium)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                List all of the Chosen Castes from top to bottom
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Queen (&amp; Royal Family), Royal Nobles, GIfted, Ingonyama, Greater Nobles, Petty Nobles, Ihashe, High Governor, Low Governor, High Harvester, Low Harvester, High Common, Low Common, Drudge (Hard)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+
+    </details>
+
+    <details>
+        <summary>The Expanse</summary>
+
+        
+            <details style="margin-left: 1rem;">
+                <summary>Leviathan Wakes</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the ice hauler Jim works on at the start of the series?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                The Canterbury (Medium)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What does Jim rename the martian ship he and his crew use to flee to Tycho Station?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                The Rocinante (Easy)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What moon was the protomolecule discovered in?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Phoebe (Easy)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is Detective Miller&#39;s first name?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Josephus (Medium)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the company owned by Jules-Pierre Mao?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Mao-Kwikowski Mercantile (Medium)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+            <details style="margin-left: 1rem;">
+                <summary>Cibola Burn</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What name does the UN try to give to the central planet of the novel?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                New Terra (Medium)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+            <details style="margin-left: 1rem;">
+                <summary>Nemesis Games</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of Alex&#39;s ex wife?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Talissa (Hard)
+              </span>
+                        </li>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of Naomi&#39;s son?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Filip (Easy)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+            <details style="margin-left: 1rem;">
+                <summary>Persepolis Rising</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the new empire formed by Winston Duarte?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Laconia (Easy)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+            <details style="margin-left: 1rem;">
+                <summary>Tiamat&#39;s Wrath</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What is the name of the system Elvi finds contains only a neutron star?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Tecoma System (Hard)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+
+    </details>
+
+    <details>
+        <summary>Hyperion Cantos</summary>
+
+        
+            <details style="margin-left: 1rem;">
+                <summary>Hyperion</summary>
+
+                <ul>
+                    
+                        <li class="trivia-item" tabindex="0">
+                            <span class="question">
+                                <strong>Q:</strong>
+                                What were the original names of the 3 continents on the planet Hyperion?
+                            </span>
+                            <br>
+                            <span class="answer">
+                                <strong>A:</strong>
+                                Creighton, Allensen, and Lopez (Hard)
+              </span>
+                        </li>
+                    
+                </ul>
+
+            </details>
+        
+
+    </details>
+
+    
+  </main>
+
+</html>

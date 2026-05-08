@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 9
 pages: 440
+wordCount: 110000
+yearPublished: 2009
+publisher: "Puffin Books"
 goodreads: "https://www.goodreads.com/book/show/39952016-halt-s-peril"
+avgGoodreadsRating: "8.78"
+numGoodreadsRatings: "65166"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142418581"
 bookOwned: true
 hasSummary: false

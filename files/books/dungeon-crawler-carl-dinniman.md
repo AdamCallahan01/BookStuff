@@ -7,7 +7,14 @@ author: "Matt Dinniman"
 series: "Dungeon Crawler Carl"
 seriesNumber: 1
 pages: 446
+wordCount: 133354
+yearPublished: 2020
+publisher: "Independently Published"
 goodreads: "https://www.goodreads.com/book/show/57964597-dungeon-crawler-carl"
+avgGoodreadsRating: "8.92"
+numGoodreadsRatings: "357866"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9798707228315"
 bookOwned: true
 hasSummary: false

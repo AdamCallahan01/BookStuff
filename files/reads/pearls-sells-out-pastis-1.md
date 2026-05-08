@@ -5,7 +5,10 @@ book: "[[pearls-sells-out-pastis]]"
 readNumber: 1
 score: null
 format: "Book"
+dateStarted: "7/10/2022"
+dateFinished: "7/15/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

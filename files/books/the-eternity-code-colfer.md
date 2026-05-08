@@ -12,6 +12,9 @@ yearPublished: 2006
 publisher: "Puffin"
 goodreads: "https://www.goodreads.com/book/show/227865.The_Eternity_Code"
 avgGoodreadsRating: "8.1"
+numGoodreadsRatings: "141584"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780141321318"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "Throne of Glass"
 seriesNumber: 6
 pages: 663
+wordCount: 191282
+yearPublished: 2017
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/76714487-tower-of-dawn"
+avgGoodreadsRating: "8.56"
+numGoodreadsRatings: "1129693"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781639731046"
 bookOwned: true
 hasSummary: false

@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "The Stormlight Archive"
 seriesNumber: 4
 pages: 1219
+wordCount: 455891
+yearPublished: 2020
+publisher: "Tor Books"
 goodreads: "https://www.goodreads.com/book/show/49021976-rhythm-of-war?ref=nav_sb_ss_1_13"
+avgGoodreadsRating: "9.14"
+numGoodreadsRatings: "251646"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780765326386"
 bookOwned: true
 hasSummary: false

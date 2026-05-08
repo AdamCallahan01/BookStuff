@@ -12,7 +12,7 @@ yearPublished: 2024
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/195790755-the-silverblood-promise"
 avgGoodreadsRating: "7.96"
-numGoodreadsRatings: "3,641"
+numGoodreadsRatings: "3641"
 genre: "Fantasy"
 subgenre: "Heist"
 isbn: "9781250345806"

@@ -7,7 +7,14 @@ author: "Will Wight"
 series: "Traveler's Gate"
 seriesNumber: 2
 pages: 386
+wordCount: 100000
+yearPublished: 2013
+publisher: "Hidden Gnome Publishing"
 goodreads: "https://www.goodreads.com/book/show/21079502-the-crimson-vault"
+avgGoodreadsRating: "8.36"
+numGoodreadsRatings: "13959"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780989671798"
 bookOwned: false
 hasSummary: false

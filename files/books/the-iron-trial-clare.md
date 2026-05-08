@@ -12,6 +12,9 @@ yearPublished: 2014
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/20578940-the-iron-trial?ref=nav_sb_ss_1_11"
 avgGoodreadsRating: "7.92"
+numGoodreadsRatings: "82420"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780545522250"
 bookOwned: true
 hasSummary: false

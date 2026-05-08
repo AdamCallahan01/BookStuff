@@ -12,7 +12,7 @@ yearPublished: 2016
 publisher: "Saga Press"
 goodreads: "https://www.goodreads.com/book/show/27206615-the-forgetting-moon?ref=nav_sb_ss_1_19"
 avgGoodreadsRating: "7.94"
-numGoodreadsRatings: "3,427"
+numGoodreadsRatings: "3427"
 genre: "Fantasy"
 subgenre: "Grimdark"
 isbn: "9781481465229"

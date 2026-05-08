@@ -7,7 +7,14 @@ author: "Scott Lynch"
 series: "Gentleman Bastard"
 seriesNumber: 1
 pages: 752
+wordCount: 190000
+yearPublished: 2006
+publisher: "Bantam Spectra"
 goodreads: "https://www.goodreads.com/book/show/127455.The_Lies_of_Locke_Lamora"
+avgGoodreadsRating: "8.6"
+numGoodreadsRatings: "349855"
+genre: "Fantasy"
+subgenre: "Heist"
 isbn: "9780553804676"
 bookOwned: true
 hasSummary: false

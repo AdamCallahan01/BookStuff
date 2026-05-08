@@ -7,7 +7,14 @@ author: "Sun Tzu"
 series: "N/A"
 seriesNumber: null
 pages: 273
+wordCount: 15000
+yearPublished: 1910
+publisher: "AmazonClassics"
 goodreads: "https://www.goodreads.com/book/show/35608147-the-art-of-war"
+avgGoodreadsRating: "7.88"
+numGoodreadsRatings: "583427"
+genre: "Nonfiction"
+subgenre: "Philosophy"
 isbn: "9781542097529"
 bookOwned: false
 hasSummary: false

@@ -12,6 +12,9 @@ yearPublished: 2019
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/37946419-sixteen-ways-to-defend-a-walled-city?ref=nav_sb_ss_1_11"
 avgGoodreadsRating: "8.14"
+numGoodreadsRatings: "12715"
+genre: "Fantasy"
+subgenre: "Humor"
 isbn: "9780316270793"
 bookOwned: true
 hasSummary: false

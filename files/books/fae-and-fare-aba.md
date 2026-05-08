@@ -12,6 +12,9 @@ yearPublished: 2019
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/41180829-the-wandering-inn"
 avgGoodreadsRating: "9.04"
+numGoodreadsRatings: "9278"
+genre: "Fantasy"
+subgenre: "Epic"
 bookOwned: true
 hasSummary: false
 summarySlug: "fae-and-fare-aba-summary"

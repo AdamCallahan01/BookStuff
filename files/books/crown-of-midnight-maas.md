@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "Throne of Glass"
 seriesNumber: 2
 pages: 420
+wordCount: 114494
+yearPublished: 2013
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/76705490-crown-of-midnight"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "1864120"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781639730964"
 bookOwned: true
 hasSummary: false

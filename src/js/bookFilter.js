@@ -338,6 +338,18 @@ const sortConfig = {
     label: "Year Published",
     views: ["book", "read"],
   },
+  goodreadsScore: {
+    key: "avggoodreadsrating",
+    type: "number",
+    label: "Average Goodreads Rating",
+    views: ["book", "read"],
+  },
+  goodreadsNumber: {
+    key: "numgoodreadsratings",
+    type: "number",
+    label: "Number of Goodreads Ratings",
+    views: ["book", "read"],
+  },
 };
 
 function buildComparator({ key, type }) {
@@ -885,7 +897,7 @@ function updateURL() {
 
 // Call when loading book page, check if we have a changed state and handle accordingly
 function setFiltersFromURL() {
-  console.log("set filter from URL");
+  //console.log("set filter from URL");
   const params = new URLSearchParams(window.location.search);
 
   for (const [param, cfg] of Object.entries(filterConfig)) {
@@ -914,6 +926,9 @@ function setFiltersFromURL() {
     }
 
     state[cfg.state] = value;
+    if (cfg.control === "primary") {
+      handleViewChange();
+    }
   }
 }
 
@@ -947,7 +962,7 @@ function initialize() {
   setFiltersFromURL();
   updateStateAndRender();
 }
-//console.log(dataIndex);
+console.log(dataIndex);
 
 function updateStateAndRender() {
   //console.log("update State and Render");

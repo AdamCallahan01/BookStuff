@@ -5,7 +5,10 @@ book: "[[the-white-tower-wisehart]]"
 readNumber: 1
 score: 8
 format: "Audible"
+dateStarted: "6/22/2022"
+dateFinished: "6/27/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

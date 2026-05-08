@@ -12,6 +12,9 @@ yearPublished: 2017
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/37889102-life-reset"
 avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "8969"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781974495221"
 bookOwned: true
 hasSummary: false

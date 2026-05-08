@@ -7,7 +7,14 @@ author: "Jonathan Brooks"
 series: "Dungeon World"
 seriesNumber: 3
 pages: 480
+wordCount: 110000
+yearPublished: 2019
+publisher: "Independently published"
 goodreads: "https://www.goodreads.com/book/show/49794703-dungeon-world-3"
+avgGoodreadsRating: "8.3"
+numGoodreadsRatings: "1524"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781686593819"
 bookOwned: false
 hasSummary: false

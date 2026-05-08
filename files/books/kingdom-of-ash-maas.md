@@ -7,7 +7,14 @@ author: "Sarah J. Maas"
 series: "Throne of Glass"
 seriesNumber: 7
 pages: 984
+wordCount: 272682
+yearPublished: 2018
+publisher: "Bloomsbury Publishing"
 goodreads: "https://www.goodreads.com/book/show/76715522-kingdom-of-ash"
+avgGoodreadsRating: "9.42"
+numGoodreadsRatings: "1158074"
+genre: "Fantasy"
+subgenre: "Romance"
 isbn: "9781639731060"
 bookOwned: true
 hasSummary: false

@@ -12,6 +12,9 @@ yearPublished: 2021
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/58960282-the-wandering-inn"
 avgGoodreadsRating: "9.12"
+numGoodreadsRatings: "4548"
+genre: "Fantasy"
+subgenre: "Epic"
 bookOwned: false
 hasSummary: false
 summarySlug: "the-last-light-aba-summary"

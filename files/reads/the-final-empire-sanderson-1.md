@@ -5,7 +5,10 @@ book: "[[the-final-empire-sanderson]]"
 readNumber: 1
 score: 9
 format: "Audible"
+dateStarted: "5/27/2022"
+dateFinished: "6/1/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

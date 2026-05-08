@@ -7,7 +7,14 @@ author: "Domagoj Kurmaic"
 series: "Mother of Learning"
 seriesNumber: 1
 pages: 644
+wordCount: 192556
+yearPublished: 2021
+publisher: "Wraithmarked Creative, LLC"
 goodreads: "https://www.goodreads.com/book/show/59661342-mother-of-learning?ref=nav_sb_ss_1_18"
+avgGoodreadsRating: "8.88"
+numGoodreadsRatings: "14128"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9781955252096"
 bookOwned: true
 hasSummary: false

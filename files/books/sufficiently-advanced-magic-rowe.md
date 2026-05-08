@@ -7,7 +7,14 @@ author: "Andrew Rowe"
 series: "Arcane Ascension"
 seriesNumber: 1
 pages: 625
+wordCount: 218000
+yearPublished: 2017
+publisher: "Independently Published"
 goodreads: "https://www.goodreads.com/book/show/35610002-sufficiently-advanced-magic"
+avgGoodreadsRating: "8.2"
+numGoodreadsRatings: "27366"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9781521118764"
 bookOwned: true
 hasSummary: false

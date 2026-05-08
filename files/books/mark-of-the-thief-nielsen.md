@@ -12,7 +12,7 @@ yearPublished: 2015
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/22749522-mark-of-the-thief"
 avgGoodreadsRating: "7.92"
-numGoodreadsRatings: "13,641"
+numGoodreadsRatings: "13641"
 genre: "Fantasy"
 subgenre: "YA"
 isbn: "9780545561549"

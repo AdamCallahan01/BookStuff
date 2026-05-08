@@ -7,7 +7,14 @@ author: "Robert Jackson Bennett"
 series: "The Founders Trilogy"
 seriesNumber: 1
 pages: 501
+wordCount: 145000
+yearPublished: 2018
+publisher: "Crown"
 goodreads: "https://www.goodreads.com/book/show/37173847-foundryside?ref=nav_sb_ss_1_7"
+avgGoodreadsRating: "8.32"
+numGoodreadsRatings: "57076"
+genre: "Fantasy"
+subgenre: "High"
 isbn: "9781524760373"
 bookOwned: true
 hasSummary: false

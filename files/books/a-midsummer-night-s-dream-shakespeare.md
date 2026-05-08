@@ -11,6 +11,9 @@ wordCount: 16511
 yearPublished: 1595
 goodreads: "https://www.goodreads.com/book/show/1622.A_Midsummer_Night_s_Dream?ref=nav_sb_ss_1_9"
 avgGoodreadsRating: "7.9"
+numGoodreadsRatings: "585000"
+genre: "Fiction"
+subgenre: "Plays"
 isbn: "9780743477543"
 bookOwned: true
 hasSummary: false

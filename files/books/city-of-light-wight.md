@@ -7,7 +7,14 @@ author: "Will Wight"
 series: "Traveler's Gate"
 seriesNumber: 3
 pages: 394
+wordCount: 100000
+yearPublished: 2014
+publisher: "Hidden Gnome Publishing"
 goodreads: "https://www.goodreads.com/book/show/22881816-city-of-light"
+avgGoodreadsRating: "8.34"
+numGoodreadsRatings: "12394"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9780989671712"
 bookOwned: false
 hasSummary: false

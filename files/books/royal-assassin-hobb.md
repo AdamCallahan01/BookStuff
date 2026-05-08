@@ -12,7 +12,7 @@ yearPublished: 1996
 publisher: "Spectra"
 goodreads: "https://www.goodreads.com/book/show/22016387-royal-assassin"
 avgGoodreadsRating: "8.56"
-numGoodreadsRatings: "224,912"
+numGoodreadsRatings: "224912"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780007562268"

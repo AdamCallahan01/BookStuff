@@ -12,6 +12,9 @@ yearPublished: 1985
 publisher: "Tor"
 goodreads: "https://www.goodreads.com/book/show/375802.Ender_s_Game?ref=nav_sb_ss_1_12"
 avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "1487338"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780812550702"
 bookOwned: true
 hasSummary: false

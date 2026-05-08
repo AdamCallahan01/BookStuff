@@ -5,7 +5,10 @@ book: "[[the-black-prism-weeks]]"
 readNumber: 1
 score: 7.5
 format: "Audible"
+dateStarted: "7/14/2022"
+dateFinished: "7/19/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

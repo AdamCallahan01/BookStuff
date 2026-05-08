@@ -5,7 +5,10 @@ book: "[[the-revenge-of-the-baby-sat-watterson]]"
 readNumber: 1
 score: null
 format: "Book"
+dateStarted: "7/6/2022"
+dateFinished: "7/11/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

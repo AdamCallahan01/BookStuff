@@ -7,7 +7,14 @@ author: "J. M. Clarke"
 series: "Mark of the Fool"
 seriesNumber: 1
 pages: 722
+wordCount: 170000
+yearPublished: 2022
+publisher: "Independently published"
 goodreads: "https://www.goodreads.com/book/show/62631889-mark-of-the-fool"
+avgGoodreadsRating: "8.56"
+numGoodreadsRatings: "10442"
+genre: "Fantasy"
+subgenre: "Progression"
 isbn: "9798353183174"
 bookOwned: true
 hasSummary: true

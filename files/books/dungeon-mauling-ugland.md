@@ -7,7 +7,14 @@ author: "Eric Ugland"
 series: "The Good Guys"
 seriesNumber: 3
 pages: 309
+wordCount: 75000
+yearPublished: 2018
+publisher: "Air Quotes Publishing"
 goodreads: "https://www.goodreads.com/book/show/61100299-dungeon-mauling"
+avgGoodreadsRating: "8.72"
+numGoodreadsRatings: "4973"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781945346101"
 bookOwned: true
 hasSummary: false

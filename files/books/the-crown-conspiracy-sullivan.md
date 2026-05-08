@@ -14,7 +14,7 @@ goodreads: "https://www.goodreads.com/book/show/4345290-the-crown-conspiracy"
 avgGoodreadsRating: "8.36"
 numGoodreadsRatings: "27097"
 genre: "Fantasy"
-subgenre: "Classic"
+subgenre: "Epic"
 isbn: "9780980003437"
 narrator: "Tim Gerard Reynolds"
 bookOwned: false

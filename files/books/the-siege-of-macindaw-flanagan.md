@@ -7,7 +7,14 @@ author: "John Flanagan"
 series: "Ranger's Apprentice"
 seriesNumber: 6
 pages: 320
+wordCount: 70000
+yearPublished: 2006
+publisher: "Puffin Books"
 goodreads: "https://www.goodreads.com/book/show/57061322-the-siege-of-macindaw"
+avgGoodreadsRating: "8.68"
+numGoodreadsRatings: "77473"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780142415245"
 bookOwned: true
 hasSummary: false

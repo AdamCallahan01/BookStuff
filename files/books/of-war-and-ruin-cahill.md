@@ -12,7 +12,7 @@ yearPublished: 2023
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/123248442-of-war-and-ruin"
 avgGoodreadsRating: "9.28"
-numGoodreadsRatings: "8,147"
+numGoodreadsRatings: "8147"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781739620936"

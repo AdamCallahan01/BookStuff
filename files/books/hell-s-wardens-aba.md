@@ -12,7 +12,7 @@ yearPublished: 2024
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/216967891-hell-s-wardens"
 avgGoodreadsRating: "9.38"
-numGoodreadsRatings: "1,231"
+numGoodreadsRatings: "1231"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781961108066"

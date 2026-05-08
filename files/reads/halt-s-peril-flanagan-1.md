@@ -5,7 +5,10 @@ book: "[[halt-s-peril-flanagan]]"
 readNumber: 1
 score: 6.5
 format: "Book"
+dateStarted: "8/27/2022"
+dateFinished: "9/1/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

@@ -7,7 +7,14 @@ author: "Taran Matharu"
 series: "Summoner"
 seriesNumber: 1
 pages: 398
+wordCount: 95000
+yearPublished: 2015
+publisher: "Feiwel and Friends"
 goodreads: "https://www.goodreads.com/book/show/22297138-the-novice?ref=nav_sb_ss_1_10"
+avgGoodreadsRating: "8.24"
+numGoodreadsRatings: "36735"
+genre: "Fantasy"
+subgenre: "Academia"
 isbn: "9781250067135"
 bookOwned: true
 hasSummary: false

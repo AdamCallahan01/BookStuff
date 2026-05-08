@@ -12,7 +12,7 @@ yearPublished: 2024
 publisher: "Self"
 goodreads: "https://www.goodreads.com/book/show/209352535-the-witch-of-webs"
 avgGoodreadsRating: "9.04"
-numGoodreadsRatings: "1,410"
+numGoodreadsRatings: "1410"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9781961108042"

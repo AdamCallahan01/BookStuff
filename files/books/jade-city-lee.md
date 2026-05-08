@@ -12,6 +12,9 @@ yearPublished: 2017
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/43587154-jade-city"
 avgGoodreadsRating: "8.18"
+numGoodreadsRatings: "117895"
+genre: "Fantasy"
+subgenre: "Low"
 isbn: "9780316440882"
 bookOwned: true
 hasSummary: false

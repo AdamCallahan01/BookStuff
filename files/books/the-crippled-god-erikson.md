@@ -12,7 +12,7 @@ yearPublished: 2011
 publisher: "Bantam Press"
 goodreads: "https://www.goodreads.com/book/show/8447255-the-crippled-god"
 avgGoodreadsRating: "9.02"
-numGoodreadsRatings: "32,095"
+numGoodreadsRatings: "32095"
 genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780593046357"

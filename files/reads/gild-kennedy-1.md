@@ -5,7 +5,10 @@ book: "[[gild-kennedy]]"
 readNumber: 1
 score: 0.5
 format: "E-book"
+dateStarted: "6/14/2022"
+dateFinished: "6/19/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

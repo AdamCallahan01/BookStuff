@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Elantris"
 seriesNumber: null
 pages: 192
+wordCount: 31925
+yearPublished: 2012
+publisher: "Tachyon Publications"
 goodreads: "https://www.goodreads.com/book/show/13578175-the-emperor-s-soul"
+avgGoodreadsRating: "8.74"
+numGoodreadsRatings: "135624"
+genre: "Fantasy"
+subgenre: "Novella"
 isbn: "9781616960926"
 bookOwned: true
 otherSeries: "Cosmere"

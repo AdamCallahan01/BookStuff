@@ -7,7 +7,14 @@ author: "John Gwynne"
 series: "Bloodsworn Saga"
 seriesNumber: 1
 pages: 480
+wordCount: 156000
+yearPublished: 2021
+publisher: "Orbit"
 goodreads: "https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods?ref=nav_sb_ss_1_18"
+avgGoodreadsRating: "8.38"
+numGoodreadsRatings: "104550"
+genre: "Fantasy"
+subgenre: "Epic"
 isbn: "9780356514185"
 bookOwned: true
 hasSummary: false

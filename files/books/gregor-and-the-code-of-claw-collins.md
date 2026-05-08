@@ -12,6 +12,9 @@ yearPublished: 2007
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/537070.Gregor_and_the_Code_of_Claw?ref=nav_sb_ss_1_11"
 avgGoodreadsRating: "8.6"
+numGoodreadsRatings: "51661"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439791434"
 bookOwned: true
 hasSummary: false

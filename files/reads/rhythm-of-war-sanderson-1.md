@@ -5,7 +5,10 @@ book: "[[rhythm-of-war-sanderson]]"
 readNumber: 1
 score: 9
 format: "Audible"
+dateStarted: "5/17/2022"
+dateFinished: "5/22/2022"
 yearRead: 2022
+days: 5
 hasReview: true
 ---
 

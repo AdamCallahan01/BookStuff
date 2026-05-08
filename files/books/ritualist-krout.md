@@ -12,6 +12,9 @@ yearPublished: 2018
 publisher: "Mountindale"
 goodreads: "https://www.goodreads.com/book/show/38739408-ritualist?from_search=true&from_srp=true&qid=TrF4k3Crs2&rank=1"
 avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "15986"
+genre: "Fantasy"
+subgenre: "LitRPG"
 isbn: "9781950914135"
 bookOwned: true
 hasSummary: false

@@ -12,6 +12,9 @@ yearPublished: 2011
 publisher: "Orbit"
 goodreads: "https://www.goodreads.com/en/book/show/9300768"
 avgGoodreadsRating: "8.66"
+numGoodreadsRatings: "78804"
+genre: "Fantasy"
+subgenre: "Grimdark"
 isbn: "9780316123358"
 bookOwned: true
 otherSeries: "First Law"

@@ -7,7 +7,14 @@ author: "Brandon Sanderson"
 series: "Mistborn: Wax and Wayne"
 seriesNumber: 3
 pages: 448
+wordCount: 127456
+yearPublished: 2016
+publisher: "Gollancz"
 goodreads: "https://www.goodreads.com/book/show/26541448-the-bands-of-mourning"
+avgGoodreadsRating: "8.8"
+numGoodreadsRatings: "197457"
+genre: "Fantasy"
+subgenre: "Flintlock"
 isbn: "9781473208278"
 bookOwned: true
 otherSeries: "Cosmere"

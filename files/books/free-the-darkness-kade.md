@@ -7,7 +7,14 @@ author: "Kel Kade"
 series: "King's Dark Tidings"
 seriesNumber: 1
 pages: 483
+wordCount: 168118
+yearPublished: 2015
+publisher: "Dark Rover Publishing, LLC"
 goodreads: "https://www.goodreads.com/book/show/61460991-free-the-darkness"
+avgGoodreadsRating: "8.46"
+numGoodreadsRatings: "25534"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9781952687013"
 bookOwned: true
 hasSummary: false

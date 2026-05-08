@@ -12,6 +12,9 @@ yearPublished: 2003
 publisher: "Scholastic"
 goodreads: "https://www.goodreads.com/book/show/262430.Gregor_the_Overlander?from_search=true&from_srp=true&qid=zZtFStQ04l&rank=1"
 avgGoodreadsRating: "8.06"
+numGoodreadsRatings: "115506"
+genre: "Fantasy"
+subgenre: "YA"
 isbn: "9780439771344"
 bookOwned: true
 hasSummary: false

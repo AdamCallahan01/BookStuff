@@ -7,7 +7,14 @@ author: "Stephen Pastis"
 series: "Pearls Before Swine"
 seriesNumber: 7
 pages: 261
+wordCount: 10000
+yearPublished: 2009
+publisher: "Andrews McMeel Publishing"
 goodreads: "https://www.goodreads.com/book/show/6500640-pearls-sells-out?ref=nav_sb_ss_1_16"
+avgGoodreadsRating: "8.9"
+numGoodreadsRatings: "830"
+genre: "Fantasy"
+subgenre: "Graphic Novel"
 isbn: "9780740773969"
 bookOwned: true
 hasSummary: false
