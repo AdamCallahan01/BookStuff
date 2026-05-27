@@ -1,37 +1,50 @@
 <head>
-    <link rel="stylesheet" href="/css/header.css">
+    <script src="/js/search.js" defer></script>
 </head>
 
 <header class="site-header">
-    <div class="site-title">
-        <a href="/" class="nav-link">My Library</a>
-    </div>
-
-    <div class="search-container">
-
-        <input type="text" id="searchInput" placeholder="Search books..." autocomplete="one-time-code"/>
-
-        <div class="search-options-wrapper">
-            <button type="button" id="searchOptionsBtn">Options ▼</button>
-
-            <div class="search-options-dropdown" id="searchOptionsDropdown">
-                <label>
-                    <input type="checkbox" id="includeSummaries">
-                Include summaries
-            </label>
-            </div>
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="/" class="nav-link">Fantasy Book Summaries</a>
         </div>
 
-        <div id="searchResults" class="search-results-dropdown"></div>
+        <div class="search search-shell"  id="searchShell">
+            {% include "siteSearch.njk" %}
+        </div>
+
+        <nav class="site-nav nav-desktop">
+            {% include "navLinks.njk" %}
+        </nav>
+
+        <!-- MOBILE ACTIONS -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn mobile-search-toggle"
+                id="mobileSearchToggle"
+                aria-label="Open search"
+            >
+                🔍
+            </button>
+
+            <button
+                class="icon-btn mobile-nav-toggle"
+                id="mobileNavToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
 
     </div>
 
-    <nav>
-        <a href="/" class="nav-link">Home</a>
-        <a href="/books/" class="nav-link">Books</a>
-        <a href="/lists/" class="nav-link">Lists</a>
-        <a href="/trivia/" class="nav-link">Trivia</a>
-        <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
-        <a href="/about/" class="nav-link">About</a>
-    </nav>
+    <!-- MOBILE NAV PANEL -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+
+        <nav class="mobile-nav">
+            {% include "navLinks.njk" %}
+        </nav>
+
+    </div>
 </header>

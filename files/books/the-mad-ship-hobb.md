@@ -17,17 +17,18 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780006498865"
 bookOwned: true
-hasSummary: false
+otherSeries: "Realm of the Elderlings"
+hasSummary: true
 summarySlug: "the-mad-ship-hobb-summary"
 summarySlugLink: "[[the-mad-ship-hobb-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 9.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 9.5
+allScores: [9.5]
 readSlugs: ["the-mad-ship-hobb-1"]
 readSlugsLinks: ["[[the-mad-ship-hobb-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-mad-ship-hobb-cover"
 ---
 

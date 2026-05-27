@@ -3,7 +3,7 @@ bookSlug: "ship-of-magic-hobb"
 readSlug: "ship-of-magic-hobb-1"
 book: "[[ship-of-magic-hobb]]"
 readNumber: 1
-score: 9
+score: 8
 format: "Audible"
 dateStarted: "1/20/2026"
 dateFinished: "2/2/2026"

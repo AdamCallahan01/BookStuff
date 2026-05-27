@@ -18,17 +18,17 @@ subgenre: "Space Opera"
 isbn: "9780385263481"
 narrator: "Marc Vietor, Allyson Johnson, Kevin Pariseau, Jay Snyder, Victor Bevine"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "hyperion-simmons-summary"
 summarySlugLink: "[[hyperion-simmons-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 9.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 9.5
+allScores: [9.5]
 readSlugs: ["hyperion-simmons-1"]
 readSlugsLinks: ["[[hyperion-simmons-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "hyperion-simmons-cover"
 ---
 

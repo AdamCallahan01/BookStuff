@@ -23,10 +23,10 @@ hasSummary: true
 summarySlug: "ship-of-magic-hobb-summary"
 summarySlugLink: "[[ship-of-magic-hobb-summary]]"
 hasScore: true
-latestScore: 9
+latestScore: 8
 readCount: 1
-averageScore: 9
-allScores: [9]
+averageScore: 8
+allScores: [8]
 readSlugs: ["ship-of-magic-hobb-1"]
 readSlugsLinks: ["[[ship-of-magic-hobb-1]]"]
 currentRead: false

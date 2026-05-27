@@ -3,11 +3,6 @@ layout: base.njk
 permalink: /trivia/
 title: Trivia
 ---
-
-<head>
-    <link rel="stylesheet" href="/css/triviaStyle.css">
-</head>
-
 {% set grouped = trivia | groupTrivia %}
 
 {% for series, books in grouped %}
@@ -29,7 +24,7 @@ title: Trivia
                             <span class="answer">
                                 <strong>A:</strong>
                                 {{ q.answer }} ({{ q.difficulty }})
-              </span>
+                            </span>
                         </li>
                     {% endfor %}
                 </ul>

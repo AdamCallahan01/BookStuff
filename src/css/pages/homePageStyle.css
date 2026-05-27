@@ -1,0 +1,33 @@
+.home-layout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(240px, 280px)
+    minmax(0, 1fr)
+    minmax(240px, 280px);
+
+  gap: clamp(1rem, 2vw, 2.5rem);
+
+  align-items: start;
+
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .home-layout,
+  .three-column-layout {
+    display: block;
+
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0 auto;
+    padding-inline: 0.75rem;
+  }
+
+  .home-main,
+  .content {
+    width: 100%;
+    min-width: 0;
+  }
+}

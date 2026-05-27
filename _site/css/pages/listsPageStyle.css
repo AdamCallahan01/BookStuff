@@ -1,0 +1,231 @@
+/* =========================================================
+   Layout
+========================================================= */
+
+.rankings-wrapper {
+  --panel-min: 420px;
+
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--panel-min), 100%), 1fr)
+  );
+
+  gap: 2rem;
+
+  align-items: start;
+
+  width: min(1800px, calc(100vw - 6rem));
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+/* =========================================================
+   Panel
+========================================================= */
+
+.ranking-panel {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+
+  overflow: hidden;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+
+  transition:
+    border-radius 250ms ease,
+    box-shadow 250ms ease,
+    transform 250ms ease;
+}
+
+.ranking-panel[open] {
+  border-radius: 18px;
+}
+
+/* =========================================================
+   Summary/Header
+========================================================= */
+
+.ranking-panel summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+  list-style: none;
+
+  padding: 1rem 1.25rem;
+}
+
+.ranking-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.ranking-panel h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* Chevron */
+
+.ranking-panel summary::after {
+  content: "▾";
+  transition: transform 200ms ease;
+}
+
+.ranking-panel[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.ranking-panel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   Expand Animation
+========================================================= */
+
+.ranking-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 300ms ease;
+}
+
+.ranking-content > div,
+.ranking-content > ol {
+  overflow: hidden;
+}
+
+.ranking-panel[open] .ranking-content {
+  grid-template-rows: 1fr;
+}
+
+/* =========================================================
+   Ranked List
+========================================================= */
+
+.ranked-list {
+  margin: 0;
+  padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+.rank-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.rank-item:last-child {
+  border-bottom: none;
+}
+
+/* =========================================================
+   Book Layout
+========================================================= */
+
+.rank-item-inner {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.book-cover-list,
+.series-mosaic {
+  width: 60px;
+  height: 90px;
+
+  flex-shrink: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.book-cover-list,
+.series-mosaic img {
+  object-fit: cover;
+}
+
+.book-cover-list {
+  width: 60px;
+  height: 90px;
+}
+
+.series-mosaic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.series-mosaic img {
+  width: 100%;
+  height: 100%;
+}
+
+/* =========================================================
+   Text
+========================================================= */
+
+.rank-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.rank-title a {
+  text-decoration: none;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.rank-title a:hover {
+  text-decoration: underline;
+}
+
+.rank-meta {
+  margin-top: 2px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+@media (max-width: 700px) {
+  .rankings-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .book-cover-list,
+  .series-mosaic {
+    width: 50px;
+    height: 75px;
+  }
+}
+
+/* =========================================================
+   Large Screens
+========================================================= */
+
+@media (min-width: 1600px) {
+  .rankings-wrapper {
+    --panel-min: 500px;
+
+    gap: 2.5rem;
+
+    width: min(2200px, calc(100vw - 10rem));
+  }
+
+  .ranking-panel summary {
+    padding: 1.1rem 1.4rem;
+  }
+
+  .rank-title a {
+    font-size: 1.08rem;
+  }
+
+  .book-cover-list,
+  .series-mosaic {
+    width: 80px;
+    height: 120px;
+  }
+}

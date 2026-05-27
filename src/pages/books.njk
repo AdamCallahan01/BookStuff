@@ -6,7 +6,6 @@ permalink: /books/
   <script src="/js/bookFilter.js" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
-  <link rel="stylesheet" href="/css/booksPageStyle.css">
 </head>
 
 {% set formatIcons = {
@@ -16,12 +15,12 @@ permalink: /books/
   "Kindle": "📱"
 } %}
 
-<div class="books-page-layout">
+<div class="books-page">
 
-  <aside class="sidebar">
+  <aside class="sidebar sidebar-left" id="leftSidebar">
     <h2>Filters</h2>
 
-    <div class="slider-group-">
+    <div class="slider-group">
       <label for="scoreSlider">Score Range:</label>
       <div id="scoreSlider"></div>
       <div id="scoreLabel"></div>
@@ -39,45 +38,37 @@ permalink: /books/
       <div id="countLabel"></div>
     </div>
 
-    <div class="sidebar-checkbox-group">
-      <div class="sidebar-checkbox-options">
-        <label for="hasScoreToggle" id="hasScoreToggleParent">
-          <input type="checkbox" id="hasScoreToggle"  value="true">
+    <div class="checkbox-group">
+      <label for="hasScoreToggle" id="hasScoreToggleParent" class="checkbox-row">
+        <input type="checkbox" id="hasScoreToggle"  value="true">
           Has Score?
         </label>
-      </div>
 
-      <div class="sidebar-checkbox-options">
-        <label for="hasSummaryToggle" id="hasSummaryToggleParent">
-          <input type="checkbox" id="hasSummaryToggle"  value="true">
+      <label for="hasSummaryToggle" id="hasSummaryToggleParent" class="checkbox-row">
+        <input type="checkbox" id="hasSummaryToggle"  value="true">
           Has Summary?
         </label>
-      </div>
 
-      <div class="sidebar-checkbox-options">
-        <label for="hasReviewToggle" id="hasReviewToggleParent">
-          <input type="checkbox" id="hasReviewToggle"  value="true">
+      <label for="hasReviewToggle" id="hasReviewToggleParent" class="checkbox-row">
+        <input type="checkbox" id="hasReviewToggle"  value="true">
           Has Review?
         </label>
-      </div>
 
-      <div class="sidebar-checkbox-options">
-        <label for="isOwnedToggle" id="isOwnedToggleParent">
-          <input type="checkbox" id="isOwnedToggle"  value="true">
+      <label for="isOwnedToggle" id="isOwnedToggleParent" class="checkbox-row">
+        <input type="checkbox" id="isOwnedToggle"  value="true">
           Owned?
         </label>
-      </div>
     </div>
 
-    <select id="yearReadFilter">
+    <select id="yearReadFilter" class="filter-select">
       <option value="">Any</option>
     </select>
 
-    <select id="formatFilter">
+    <select id="formatFilter" class="filter-select">
       <option value="">All Formats</option>
     </select>
 
-    <button id="scrollTopBtn" title="Scroll to top">
+    <button id="scrollTopBtn" title="Scroll to top" class="scroll-top-btn">
       Top ↑
     </button>
 
@@ -86,55 +77,83 @@ permalink: /books/
   <main class="content">
     <h1 id="pageTitle">All Books</h1>
 
-    <div class="controls">
+    <div class="mobile-sidebar-controls">
 
-      <div class="control-group filters">
-        <h3>Filters</h3>
+      <button
+        class="sidebar-toggle left-toggle"
+        id="leftSidebarFilterToggle"
+      >
+        ☰
+      </button>
 
-        <select id="combineToggle">
-          <option value="book">Books</option>
-          <option value="series">Series</option>
-          <option value="read">Reads</option>
-          <option value="author">Authors</option>
-        </select>
+    </div>
 
-        <div class="search-filter-controls">
-          <input 
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <button
+      class="mobile-filter-toggle"
+      aria-expanded="false"
+      aria-controls="mobileFilters"
+    >
+      Filters & Sort
+    </button>
+
+    <div class="filter-group" id="mobileFilters">
+
+      <div class="filter-row">
+        <section>
+
+          <h3>Filters</h3>
+
+          <select id="combineToggle" class="filter-select">
+            <option value="book">Books</option>
+            <option value="series">Series</option>
+            <option value="read">Reads</option>
+            <option value="author">Authors</option>
+          </select>
+
+          <div class="search-controls">
+            <input 
             id="booksSearchInput" 
             placeholder="Search..." 
-            autocomplete="one-time-code"
+            autocomplete="off"
+            class="filter-input"
           >
 
-          <div class="search-filter-options">
-            <label><input id="booksSearchTitle" type="checkbox" value="true" checked>Title</label>
-            <label><input id="booksSearchAuthor" type="checkbox" value="true" checked>Author</label>
-            <label><input id="booksSearchSeries" type="checkbox" value="true" checked>Series</label>
+            <div class="search-options">
+              <label><input id="booksSearchTitle" type="checkbox" value="true" checked>Title</label>
+              <label><input id="booksSearchAuthor" type="checkbox" value="true" checked>Author</label>
+              <label><input id="booksSearchSeries" type="checkbox" value="true" checked>Series</label>
+            </div>
           </div>
-        </div>
 
-        <select id="authorFilter">
-          <option value="">All Authors</option>
-        </select>
+          <select id="authorFilter" class="filter-select">
+            <option value="">All Authors</option>
+          </select>
 
-        <select id="seriesFilter">
-          <option value="">All Series</option>
-        </select>
+          <select id="seriesFilter" class="filter-select">
+            <option value="">All Series</option>
+          </select>
+
+        </section>
+
+        <section>
+          <h3>Sort</h3>
+
+          <select id="sortField" class="filter-select"></select>
+
+          <select id="sortDirection" class="filter-select">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+          </select>
+
+        </section>
 
       </div>
 
-      <div class="control-group sorting">
-        <h3>Sort</h3>
-
-        <select id="sortField"></select>
-
-        <select id="sortDirection">
-          <option value="asc">Ascending</option>
-          <option value="desc">Descending</option>
-        </select>
-
+      <div class="filter-actions">
+        <button id="filterResetButton" class="button-danger" onclick="resetFilters()">Reset</button>
       </div>
-
-      <button id="filterResetButton" onclick="resetFilters()">Reset</button>
 
     </div>
 
@@ -148,13 +167,15 @@ permalink: /books/
       <span>Avg Score: <strong id="scoreAverageLabel">0</strong>
       </span>
     </div>
+
+    <hr>
     {################################ BOOKS LAYOUT ##########################################}
 
     {% set sortedBooks = collections.books | sort(attribute = "data.title") %}
 
-    <div id="booksView" class="book-grid">
+    <div id="booksView" class="book-grid book-grid-hidden">
       {% for book in sortedBooks %}
-        <a href="{{ book.url }}" class="book-card"
+        <a href="{{ book.url }}" class="card book-card"
           data-type="book"
           data-title="{{ book.data.title | lower }}"
           data-author="{{ book.data.author | lower }}"
@@ -201,7 +222,7 @@ permalink: /books/
       {% for read in collections.reads %}
         {% for book in collections.books %}
           {% if book.data.bookSlug == read.data.bookSlug %}
-            <a href="{{ book.url }}" class="book-card"
+            <a href="{{ book.url }}" class="card book-card"
               data-type="read"
               data-slug="{{ read.data.bookSlug }}"
               data-title="{{ book.data.title | lower }}"
@@ -257,7 +278,7 @@ permalink: /books/
       {################################ SERIES LAYOUT ##########################################}
 
       {% for series in collections.series %}
-        <a href="/books/?series={{ series.name | lower | urlencode }}" class="book-card"
+        <a href="/books/?series={{ series.name | lower | urlencode }}" class="card book-card"
           data-type="series"
           data-title="{{ series.name | lower }}"
           data-author="{{ series.books[0].data.author | lower }}"
@@ -268,7 +289,7 @@ permalink: /books/
           data-avgpages="{{ series.avgpages or 0 }}"
         >
 
-          <div class="series-cover">
+          <div class="series-mosaic">
             {% for book in series.books %}
               <img
               src="/files/covers/{{ book.data.coverSlug }}.jpg"
@@ -291,7 +312,7 @@ permalink: /books/
       {################################ AUTHORS LAYOUT ##########################################}
 
       {% for author in collections.authors %}
-        <a href="/books/?author={{ author.name | lower | urlencode }}" class="book-card"
+        <a href="/books/?author={{ author.name | lower | urlencode }}" class="card book-card"
           data-type="author"
           data-author="{{ author.name | lower }}"
           data-title="{{ author.name | lower }}"
@@ -302,7 +323,7 @@ permalink: /books/
           data-avgpages="{{ author.avgpages or 0 }}"
         >
 
-          <div class="series-cover">
+          <div class="author-mosaic">
             {% for book in author.books %}
               <img
               src="/files/covers/{{ book.data.coverSlug }}.jpg"

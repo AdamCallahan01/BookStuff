@@ -933,7 +933,7 @@ function setFiltersFromURL() {
 }
 
 ///////////////////////////////////////////////////////////////////
-
+//Various buttons
 // Scroll to top button
 const btn = document.getElementById("scrollTopBtn");
 
@@ -952,6 +952,15 @@ btn.addEventListener("click", () => {
   });
 });
 
+const toggle = document.querySelector(".mobile-filter-toggle");
+const filters = document.querySelector(".filter-group");
+
+toggle.addEventListener("click", () => {
+  const open = filters.classList.toggle("is-open");
+
+  toggle.setAttribute("aria-expanded", open);
+});
+
 /////////////////////////////////////////////////////////////////////////////
 // 4. check if we have saved filters and initialize
 function initialize() {
@@ -962,7 +971,7 @@ function initialize() {
   setFiltersFromURL();
   updateStateAndRender();
 }
-console.log(dataIndex);
+//console.log(dataIndex);
 
 function updateStateAndRender() {
   //console.log("update State and Render");

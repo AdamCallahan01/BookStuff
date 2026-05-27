@@ -3,62 +3,94 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Fantasy Book Summaries</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/files/covers/favicon.png">
-    <link rel="shortcut icon" href="/files/other/favicon.ico">
+    <link rel="shortcut icon" href="/files/other/favicon.png">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script src="/js/elasticlunr.min.js" defer></script>
-    <script src="/js/search.js" defer></script>
+    <script src="/js/mobileControls.js" defer></script>
   </head>
 
-  <head>
-    <link rel="stylesheet" href="/css/header.css">
+  <body class="site-shell">
+    <head>
+    <script src="/js/search.js" defer></script>
 </head>
 
 <header class="site-header">
-    <div class="site-title">
-        <a href="/" class="nav-link">My Library</a>
-    </div>
-
-    <div class="search-container">
-
-        <input type="text" id="searchInput" placeholder="Search books..." autocomplete="one-time-code"/>
-
-        <div class="search-options-wrapper">
-            <button type="button" id="searchOptionsBtn">Options ▼</button>
-
-            <div class="search-options-dropdown" id="searchOptionsDropdown">
-                <label>
-                    <input type="checkbox" id="includeSummaries">
-                Include summaries
-            </label>
-            </div>
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="/" class="nav-link">Fantasy Book Summaries</a>
         </div>
 
-        <div id="searchResults" class="search-results-dropdown"></div>
+        <div class="search search-shell"  id="searchShell">
+            <input class="search-input" type="text" id="searchInput" placeholder="Search books..." autocomplete="off"/>
+
+<div class="search-options">
+    <button type="button" class="search-options-btn" id="searchOptionsBtn">Options ▼</button>
+
+    <div class="dropdown-panel" id="searchOptionsDropdown">
+        <label>
+            <input type="checkbox" id="includeSummaries">
+                        Include summaries
+                    </label>
+    </div>
+</div>
+
+<div id="searchResults" class="search-results dropdown-panel"></div>
+        </div>
+
+        <nav class="site-nav nav-desktop">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+        <!-- MOBILE ACTIONS -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn mobile-search-toggle"
+                id="mobileSearchToggle"
+                aria-label="Open search"
+            >
+                🔍
+            </button>
+
+            <button
+                class="icon-btn mobile-nav-toggle"
+                id="mobileNavToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
 
     </div>
 
-    <nav>
-        <a href="/" class="nav-link">Home</a>
-        <a href="/books/" class="nav-link">Books</a>
-        <a href="/lists/" class="nav-link">Lists</a>
-        <a href="/trivia/" class="nav-link">Trivia</a>
-        <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
-        <a href="/about/" class="nav-link">About</a>
-    </nav>
+    <!-- MOBILE NAV PANEL -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+
+        <nav class="mobile-nav">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+    </div>
 </header>
-  <main class="base-layout">
-    
+    <main class="page-width">
       
-<head>
-    <link rel="stylesheet" href="/css/triviaStyle.css">
-</head>
-
-
+        
 
 
     <details>
@@ -79,7 +111,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Yerin / Yaren (Nauru) (Hard)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -107,7 +139,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Carrot (Easy)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -119,7 +151,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Sam Vimes (Easy)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -140,7 +172,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Death (Easy)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -168,7 +200,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Lord Straff (Medium)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -189,7 +221,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Iron and Steel (Easy)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -217,7 +249,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Nkosi (Medium)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -229,7 +261,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Aren (Easy)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -241,7 +273,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Targon (Hard)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -253,7 +285,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Scale Jayyed (Easy)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -265,7 +297,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Enervate, Enrage, Entreat (Easy)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -277,7 +309,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Isihogo (Medium)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -289,7 +321,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Queen (&amp; Royal Family), Royal Nobles, GIfted, Ingonyama, Greater Nobles, Petty Nobles, Ihashe, High Governor, Low Governor, High Harvester, Low Harvester, High Common, Low Common, Drudge (Hard)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -317,7 +349,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 The Canterbury (Medium)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -329,7 +361,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 The Rocinante (Easy)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -341,7 +373,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Phoebe (Easy)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -353,7 +385,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Josephus (Medium)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -365,7 +397,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Mao-Kwikowski Mercantile (Medium)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -386,7 +418,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 New Terra (Medium)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -407,7 +439,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Talissa (Hard)
-              </span>
+                            </span>
                         </li>
                     
                         <li class="trivia-item" tabindex="0">
@@ -419,7 +451,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Filip (Easy)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -440,7 +472,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Laconia (Easy)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -461,7 +493,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Tecoma System (Hard)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -489,7 +521,7 @@
                             <span class="answer">
                                 <strong>A:</strong>
                                 Creighton, Allensen, and Lopez (Hard)
-              </span>
+                            </span>
                         </li>
                     
                 </ul>
@@ -499,7 +531,8 @@
 
     </details>
 
-    
-  </main>
+      
+    </main>
+  </body>
 
 </html>

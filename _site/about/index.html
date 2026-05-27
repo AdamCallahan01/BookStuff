@@ -3,61 +3,96 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Fantasy Book Summaries</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/files/covers/favicon.png">
-    <link rel="shortcut icon" href="/files/other/favicon.ico">
+    <link rel="shortcut icon" href="/files/other/favicon.png">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script src="/js/elasticlunr.min.js" defer></script>
-    <script src="/js/search.js" defer></script>
+    <script src="/js/mobileControls.js" defer></script>
   </head>
 
-  <head>
-    <link rel="stylesheet" href="/css/header.css">
+  <body class="site-shell">
+    <head>
+    <script src="/js/search.js" defer></script>
 </head>
 
 <header class="site-header">
-    <div class="site-title">
-        <a href="/" class="nav-link">My Library</a>
-    </div>
-
-    <div class="search-container">
-
-        <input type="text" id="searchInput" placeholder="Search books..." autocomplete="one-time-code"/>
-
-        <div class="search-options-wrapper">
-            <button type="button" id="searchOptionsBtn">Options ▼</button>
-
-            <div class="search-options-dropdown" id="searchOptionsDropdown">
-                <label>
-                    <input type="checkbox" id="includeSummaries">
-                Include summaries
-            </label>
-            </div>
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="/" class="nav-link">Fantasy Book Summaries</a>
         </div>
 
-        <div id="searchResults" class="search-results-dropdown"></div>
+        <div class="search search-shell"  id="searchShell">
+            <input class="search-input" type="text" id="searchInput" placeholder="Search books..." autocomplete="off"/>
+
+<div class="search-options">
+    <button type="button" class="search-options-btn" id="searchOptionsBtn">Options ▼</button>
+
+    <div class="dropdown-panel" id="searchOptionsDropdown">
+        <label>
+            <input type="checkbox" id="includeSummaries">
+                        Include summaries
+                    </label>
+    </div>
+</div>
+
+<div id="searchResults" class="search-results dropdown-panel"></div>
+        </div>
+
+        <nav class="site-nav nav-desktop">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+        <!-- MOBILE ACTIONS -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn mobile-search-toggle"
+                id="mobileSearchToggle"
+                aria-label="Open search"
+            >
+                🔍
+            </button>
+
+            <button
+                class="icon-btn mobile-nav-toggle"
+                id="mobileNavToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
 
     </div>
 
-    <nav>
-        <a href="/" class="nav-link">Home</a>
-        <a href="/books/" class="nav-link">Books</a>
-        <a href="/lists/" class="nav-link">Lists</a>
-        <a href="/trivia/" class="nav-link">Trivia</a>
-        <a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
-        <a href="/about/" class="nav-link">About</a>
-    </nav>
+    <!-- MOBILE NAV PANEL -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+
+        <nav class="mobile-nav">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+    </div>
 </header>
-  <main class="base-layout">
-    
+    <main class="page-width">
       
+        
 <section class="content-section">
   <h1>About</h1>
-
-  <h2>Key Items</h2>
 
   <dl class="item-list">
     <dt>
@@ -74,6 +109,13 @@
     </dt>
     <dd>I started writing book summaries in the middle of 2025. The more I enjoy the book generally the more effort I will put into the summary.
       I am still trying to find a balance of how much detail to include. Some, like Ship of Magic, are very detailed but that makes them super long and take a lot of time to write.
+    </dd>
+
+    <dt>
+      <strong>Trivia</strong>
+    </dt>
+    <dd>
+      I love trivia but did not start writing down trivia questions about books until May of 2026. From now on I will try to get at least a couple for most books that I read.
     </dd>
 
     <dt>
@@ -101,13 +143,18 @@
     <dd>fantasybooksummaries@gmail.com for any website bugs, book requests, etc.</dd>
   </dl>
 
+  <p>
+    This is an ongoing project I am working on, so there will be changes to the site over time.
+  </p>
+
 </section>
 
 <footer class="site-footer">
   <p>© 2026 FantasyBookSummaries. All rights reserved.</p>
   <p>No AI or LLM training or scraping permitted</p>
 </footer>
-    
-  </main>
+      
+    </main>
+  </body>
 
 </html>

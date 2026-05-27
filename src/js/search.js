@@ -17,9 +17,8 @@ LOAD SEARCH DATA
 --------------------------- */
 
 fetch("/search-index.json")
-  .then(r => r.json())
-  .then(data => {
-
+  .then((r) => r.json())
+  .then((data) => {
     docs = data;
 
     index = elasticlunr(function () {
@@ -31,21 +30,19 @@ fetch("/search-index.json")
       this.addField("summary");
     });
 
-    docs.forEach(doc => index.addDoc(doc));
+    docs.forEach((doc) => index.addDoc(doc));
 
-    //console.log(docs[0]); 
-    //console.log(index.search("harry-potter-and-the-sorcerer-s-stone-rowling")); 
-
+    //console.log(docs[0]);
+    //console.log(index.search("harry-potter-and-the-sorcerer-s-stone-rowling"));
   });
 
-  
 /* ---------------------------
 INPUT LISTENER (debounced)
 --------------------------- */
 
 let debounceTimer;
 
-searchInput.addEventListener("input", e => {
+searchInput.addEventListener("input", (e) => {
   //console.log("typing:", searchInput.value);
 
   clearTimeout(debounceTimer);
@@ -60,7 +57,6 @@ searchInput.addEventListener("input", e => {
   // console.log(query);
 
   // runSearch(query, { expand: true });
-
 });
 
 /* ---------------------------
@@ -79,45 +75,37 @@ function runSearch(query) {
   const includeSummaries = includeSummariesCheckbox.checked;
 
   const results = index.search(query, {
-
     fields: {
       title: { boost: 5 },
       author: { boost: 3 },
       series: { boost: 2 },
-      summary: includeSummaries ? { boost: 1 } : { boost: 0 }
+      summary: includeSummaries ? { boost: 1 } : { boost: 0 },
     },
 
     expand: true,
-    bool: "OR"
-
+    bool: "OR",
   });
 
   //console.log(results);
-  const matches = results.map(r => docs.find(d => d.id === r.ref));
+  const matches = results.map((r) => docs.find((d) => d.id === r.ref));
   //console.log(matches.slice(0,10));
 
   renderResults(matches.slice(0, 10));
-
 }
-
-
 
 /* ---------------------------
 RENDER RESULTS
 --------------------------- */
 
 function renderResults(results) {
-
   resultsContainer.innerHTML = "";
 
   if (results.length === 0) {
     resultsContainer.innerHTML = "<div class='search-empty'>No results</div>";
-    console.log("Result length for search was 0");
     return;
   }
 
-  results.forEach(book => {
-
+  results.forEach((book) => {
     // debugging
     //console.log(book);
     //console.log(resultsContainer);
@@ -137,13 +125,10 @@ function renderResults(results) {
     //console.log(item);
 
     resultsContainer.appendChild(item);
-
   });
 
   resultsContainer.classList.add("visible");
-
 }
-
 
 /* ---------------------------
 OPTIONS DROPDOWN
@@ -153,24 +138,19 @@ optionsBtn.addEventListener("click", () => {
   optionsDropdown.classList.toggle("visible");
 });
 
-
-document.addEventListener("click", e => {
-
-  if (!e.target.closest(".search-options-wrapper")) {
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".search-options")) {
     optionsDropdown.classList.remove("visible");
   }
-
 });
 
-document.addEventListener("click", e => {
-
-  if (!e.target.closest(".search-results-dropdown")) {
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".search-results")) {
     resultsContainer.classList.remove("visible");
   }
-
 });
 
-searchInput.addEventListener("click", e => {
+searchInput.addEventListener("click", (e) => {
   clearTimeout(debounceTimer);
 
   debounceTimer = setTimeout(() => {
@@ -178,9 +158,8 @@ searchInput.addEventListener("click", e => {
   }, 120);
 });
 
-
 /* ---------------------------
-RESEARCH WHEN OPTION CHANGES
+RE-SEARCH WHEN OPTION CHANGES
 --------------------------- */
 
 includeSummariesCheckbox.addEventListener("change", () => {
