@@ -2,7 +2,7 @@
 layout: "book.njk"
 permalink: "/books/mother-of-learning-arc-1-kurmaic/"
 bookSlug: "mother-of-learning-arc-1-kurmaic"
-title: "Mother of Learning: Arc 1"
+title: "Mother of Learning: ARC 1"
 author: "Domagoj Kurmaic"
 series: "Mother of Learning"
 seriesNumber: 1

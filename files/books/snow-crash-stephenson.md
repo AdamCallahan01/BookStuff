@@ -18,17 +18,17 @@ subgenre: "Dystopian"
 isbn: "9780553562613"
 narrator: "Jonathan Davis"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "snow-crash-stephenson-summary"
 summarySlugLink: "[[snow-crash-stephenson-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4.5
+allScores: [4.5]
 readSlugs: ["snow-crash-stephenson-1"]
 readSlugsLinks: ["[[snow-crash-stephenson-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "snow-crash-stephenson-cover"
 ---
 

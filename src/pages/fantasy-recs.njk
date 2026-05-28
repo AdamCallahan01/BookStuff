@@ -5,34 +5,34 @@ title: Fantasy Recommendations
 ---
 
 <section class="content-section">
-  <h1>Fantasy Recommendations</h1>
+  <h1>Fantasy Recommendations - In Progress</h1>
 
   <p>
     These are the books I think are best to begin each subgenre, or just for getting started with fantasy in general.
   </p>
 
-  <h2>General Adult Fantasy</h2>
+  {% for genre in genres %}
+    <section class="genre-section">
+      <h2 class="genre-title">{{ genre.name }}</h2>
 
-  <ul class="item-list">
-    <li>
-      <strong>Mistborn</strong><br>
-      Description for the first item.
-    </li>
-
-    <li>
-      <strong>Item Title Two</strong><br>
-      Description for the second item.
-    </li>
-
-    <li>
-      <strong>Item Title Three</strong><br>
-      Description for the third item
-    </li>
-  </ul>
+      <ul class="series-list">
+        {% for item in genre.series %}
+          <li class="series-item">
+            <a class="series-title" href="/books/?series={{ item.slug | lower | urlencode }}">
+              {{ item.title }}
+            </a>
+            <p class="series-description">
+              {{ item.description }}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
 
   <div class="info-section">
     <p>
-      paragraph information section
+      Will continue to be updated
     </p>
   </div>
 
