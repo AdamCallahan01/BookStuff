@@ -1,0 +1,34 @@
+---
+layout: "book.njk"
+permalink: "/books/ready-player-two-cline/"
+bookSlug: "ready-player-two-cline"
+title: "Ready Player Two"
+author: "Ernest Cline"
+series: "Ready Player One"
+seriesNumber: 2
+pages: 370
+wordCount: 133977
+yearPublished: 2020
+publisher: "Ballantine Books"
+goodreads: "https://www.goodreads.com/book/show/26082916-ready-player-two?ref=nav_sb_ss_1_16"
+avgGoodreadsRating: "6.88"
+numGoodreadsRatings: "190210"
+genre: "Fantasy"
+subgenre: "LitRPG"
+isbn: "9781524761332"
+bookOwned: true
+hasSummary: false
+summarySlug: "ready-player-two-cline-summary"
+summarySlugLink: "[[ready-player-two-cline-summary]]"
+hasScore: true
+latestScore: 4
+readCount: 1
+averageScore: 4
+allScores: [4]
+readSlugs: ["ready-player-two-cline-1"]
+readSlugsLinks: ["[[ready-player-two-cline-1]]"]
+currentRead: false
+coverSlug: "ready-player-two-cline-cover"
+---
+
+![[ready-player-two-cline-cover.jpg]]

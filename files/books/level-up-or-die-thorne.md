@@ -1,0 +1,34 @@
+---
+layout: "book.njk"
+permalink: "/books/level-up-or-die-thorne/"
+bookSlug: "level-up-or-die-thorne"
+title: "Level Up or Die!"
+author: "Apollos Thorne"
+series: "Underworld"
+seriesNumber: 1
+pages: 204
+wordCount: 50000
+yearPublished: 2017
+publisher: "Self"
+goodreads: "https://www.goodreads.com/book/show/50410231-level-up-or-die"
+avgGoodreadsRating: "8.22"
+numGoodreadsRatings: "4289"
+genre: "Fantasy"
+subgenre: "LitRPG"
+isbn: "9781733664417"
+bookOwned: false
+hasSummary: false
+summarySlug: "level-up-or-die-thorne-summary"
+summarySlugLink: "[[level-up-or-die-thorne-summary]]"
+hasScore: true
+latestScore: 4
+readCount: 2
+averageScore: 4
+allScores: [4,4]
+readSlugs: ["level-up-or-die-thorne-1","level-up-or-die-thorne-2"]
+readSlugsLinks: ["[[level-up-or-die-thorne-1]]","[[level-up-or-die-thorne-2]]"]
+currentRead: false
+coverSlug: "level-up-or-die-thorne-cover"
+---
+
+![[level-up-or-die-thorne-cover.jpg]]

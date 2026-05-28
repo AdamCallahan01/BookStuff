@@ -1,0 +1,170 @@
+/* =========================================================
+   Header Shell
+========================================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  backdrop-filter: blur(12px);
+
+  background: color-mix(in srgb, var(--gray-9) 92%, transparent);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* =========================================================
+   Inner Layout
+========================================================= */
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  width: min(var(--content-width), calc(100vw - 2rem));
+
+  min-height: 72px;
+  min-width: 0;
+
+  margin-inline: auto;
+
+  padding-inline: 1rem;
+}
+
+/* =========================================================
+   Logo
+========================================================= */
+
+.site-logo {
+  flex-shrink: 0;
+}
+
+.site-logo a {
+  color: white;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+/* =========================================================
+   Navigation
+========================================================= */
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-nav a {
+  color: rgba(255, 255, 255, 0.92);
+
+  text-decoration: none;
+
+  transition:
+    color var(--transition-fast),
+    opacity var(--transition-fast);
+}
+
+.site-nav a:hover {
+  color: var(--yellow-3);
+}
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+.header-actions,
+.mobile-nav-panel {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  /* Hide desktop systems */
+  .nav-desktop {
+    display: none !important;
+  }
+
+  /* Show mobile controls */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .icon-btn {
+    display: grid;
+    place-items: center;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: var(--radius-3);
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    font-size: 1.1rem;
+
+    cursor: pointer;
+
+    transition:
+      background var(--transition-fast),
+      transform var(--transition-fast);
+  }
+
+  .icon-btn:hover {
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  .icon-btn:active {
+    transform: scale(0.96);
+  }
+
+  /* Mobile dropdown panels */
+  .mobile-nav-panel {
+    display: block;
+
+    overflow: hidden;
+
+    max-height: 0;
+
+    opacity: 0;
+
+    transition:
+      max-height 260ms ease,
+      opacity 220ms ease;
+  }
+
+  .mobile-nav-panel.visible {
+    max-height: 500px;
+
+    opacity: 1;
+  }
+
+  .mobile-nav {
+    padding: 0 1rem 1rem;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .mobile-nav a {
+    color: white;
+
+    text-decoration: none;
+
+    padding: 0.5rem 0;
+  }
+}

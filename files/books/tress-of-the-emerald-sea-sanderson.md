@@ -1,0 +1,34 @@
+---
+layout: "book.njk"
+permalink: "/books/tress-of-the-emerald-sea-sanderson/"
+bookSlug: "tress-of-the-emerald-sea-sanderson"
+title: "Tress of the Emerald Sea"
+author: "Brandon Sanderson"
+series: "Cosmere"
+seriesNumber: null
+pages: 483
+wordCount: 107227
+yearPublished: 2023
+publisher: "Tor Books"
+goodreads: "https://www.goodreads.com/book/show/127280617-tress-of-the-emerald-sea"
+avgGoodreadsRating: "8.62"
+numGoodreadsRatings: "308199"
+genre: "Fantasy"
+subgenre: "High"
+isbn: "9781250899668"
+bookOwned: true
+hasSummary: false
+summarySlug: "tress-of-the-emerald-sea-sanderson-summary"
+summarySlugLink: "[[tress-of-the-emerald-sea-sanderson-summary]]"
+hasScore: true
+latestScore: 9
+readCount: 1
+averageScore: 9
+allScores: [9]
+readSlugs: ["tress-of-the-emerald-sea-sanderson-1"]
+readSlugsLinks: ["[[tress-of-the-emerald-sea-sanderson-1]]"]
+currentRead: false
+coverSlug: "tress-of-the-emerald-sea-sanderson-cover"
+---
+
+![[tress-of-the-emerald-sea-sanderson-cover.jpg]]

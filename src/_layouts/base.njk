@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ "Fantasy Book Summaries" }}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+    <link rel="shortcut icon" href="/files/other/favicon.png">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/elasticlunr.min.js" defer></script>
+    <script src="/js/mobileControls.js" defer></script>
+  </head>
+
+  <body class="site-shell">
+    {% include "header.njk" %}
+    <main class="page-width">
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
+  </body>
+
+</html>

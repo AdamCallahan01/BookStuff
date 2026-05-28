@@ -1,0 +1,167 @@
+.book-layout {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.book-header {
+  display: grid;
+
+  grid-template-columns:
+    220px
+    minmax(0, 1fr);
+
+  gap: 2rem;
+
+  align-items: start;
+
+  padding: 1.5rem;
+
+  background: var(--surface-1);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-card);
+}
+
+.book-cover {
+  width: 100%;
+
+  border-radius: var(--radius-3);
+
+  box-shadow: var(--shadow-3);
+
+  object-fit: cover;
+}
+
+.book-meta {
+  min-width: 0;
+}
+
+.book-title {
+  margin: 0 0 1rem;
+
+  line-height: 1.15;
+
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.book-facts {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.75rem;
+}
+
+.book-fact {
+  margin: 0;
+
+  line-height: 1.5;
+
+  color: var(--gray-8);
+}
+
+.book-link {
+  color: var(--link-color);
+
+  text-decoration: none;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+
+/* =========================================================
+ Reads / Summary
+========================================================= */
+
+.book-reads-section,
+.book-summary-section {
+  padding: 1.25rem;
+
+  background: var(--surface-1);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-card);
+}
+
+.section-title {
+  margin: 0 0 1rem;
+
+  padding-bottom: 0.5rem;
+
+  border-bottom: 1px solid var(--border-color);
+
+  font-size: 1.3rem;
+}
+
+.book-read-entry,
+.book-summary-entry {
+  overflow: auto;
+  max-width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-3);
+
+  background: var(--surface-0);
+}
+
+.book-read-entry + .book-read-entry {
+  margin-top: 1rem;
+}
+
+.book-read-summary,
+.book-summary-summary {
+  padding: 1rem 1.1rem;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  list-style: none;
+}
+
+.book-read-summary::-webkit-details-marker,
+.book-summary-summary::-webkit-details-marker {
+  display: none;
+}
+
+.book-read-content,
+.book-summary-content {
+  padding: 0 1.1rem 1.1rem;
+
+  line-height: 1.7;
+}
+
+.book-read-content p,
+.book-summary-content p {
+  margin: 0 0 1rem;
+}
+
+/* =========================================================
+ Mobile
+========================================================= */
+@media (max-width: 769px) {
+  .book-header {
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+  }
+
+  .book-cover {
+    max-width: 220px;
+
+    margin: 0 auto;
+  }
+
+  .book-title {
+    font-size: 2rem;
+  }
+
+  .book-read-summary,
+  .book-summary-summary {
+    min-height: 48px;
+
+    display: flex;
+    align-items: center;
+  }
+}

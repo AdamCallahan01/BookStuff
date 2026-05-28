@@ -1,0 +1,10 @@
+---
+bookSlug: "the-blackest-heart-durfee"
+summarySlug: "the-blackest-heart-durfee-summary"
+book: "[[the-blackest-heart-durfee]]"
+---
+
+Story:
+We begin learning that Crystalwood/Chrysta Aulbrek (Gault’s adopted daughter who thinks he is her actual dad) are twins probably. But we don’t know who the actual twins of the prophecy are. Could be Linholf and Lorie. Could be Mancellor Allen and his sister Braylon Allen. Or Nail and Chrysta. 
+
+More weapons are found. Roguemoor dies in a glacier collapse that breaks up the company of 9. Liz Hen Nevel, Dokie Little, Roguemoor, Culpa Bara, Nail, Val-Draken, Stefan Waylan, Satyr, and Nail. 

@@ -1,0 +1,34 @@
+---
+layout: "book.njk"
+permalink: "/books/the-queen-of-attolia-turner/"
+bookSlug: "the-queen-of-attolia-turner"
+title: "The Queen of Attolia"
+author: "Megan Whalen Turner"
+series: "The Queen's Thief"
+seriesNumber: 2
+pages: 362
+wordCount: 70000
+yearPublished: 2000
+publisher: "Greenwillow Books"
+goodreads: "https://www.goodreads.com/book/show/30363360-the-queen-of-attolia"
+avgGoodreadsRating: "8.34"
+numGoodreadsRatings: "50421"
+genre: "Fantasy"
+subgenre: "YA"
+isbn: "9780062642974"
+bookOwned: true
+hasSummary: false
+summarySlug: "the-queen-of-attolia-turner-summary"
+summarySlugLink: "[[the-queen-of-attolia-turner-summary]]"
+hasScore: true
+latestScore: 9
+readCount: 2
+averageScore: 9.25
+allScores: [9.5,9]
+readSlugs: ["the-queen-of-attolia-turner-1","the-queen-of-attolia-turner-2"]
+readSlugsLinks: ["[[the-queen-of-attolia-turner-1]]","[[the-queen-of-attolia-turner-2]]"]
+currentRead: false
+coverSlug: "the-queen-of-attolia-turner-cover"
+---
+
+![[the-queen-of-attolia-turner-cover.jpg]]

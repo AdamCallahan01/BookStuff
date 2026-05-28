@@ -1,0 +1,15 @@
+---
+bookSlug: "the-fifth-season-jemisin"
+readSlug: "the-fifth-season-jemisin-1"
+book: "[[the-fifth-season-jemisin]]"
+readNumber: 1
+score: 7
+format: "Audible"
+dateStarted: "6/16/2022"
+dateFinished: "6/21/2022"
+yearRead: 2022
+days: 5
+hasReview: true
+---
+
+Starts off slow but I got really invested in the characters after a short while. I’m not sure if it was good enough to warrant finishing the series, but that is only because it was a bit slow for me, the writing was actually quite good.

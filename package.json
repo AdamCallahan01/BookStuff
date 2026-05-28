@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node bookExportScript.ts"
+    "build": "npx @11ty/eleventy",
+    "export": "ts-node bookExportScript.ts",
+    "dev": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
     "csv-parse": "^6.1.0",
     "dotenv": "^17.3.1",
+    "elasticlunr": "^0.9.5",
     "fs-extra": "^11.3.3",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "open-props": "^1.7.23"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^25.3.0",
     "ts-node": "^10.9.2",

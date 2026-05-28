@@ -1,0 +1,35 @@
+---
+layout: "book.njk"
+permalink: "/books/shadows-of-self-sanderson/"
+bookSlug: "shadows-of-self-sanderson"
+title: "Shadows of Self"
+author: "Brandon Sanderson"
+series: "Mistborn: Wax and Wayne"
+seriesNumber: 2
+pages: 383
+wordCount: 110019
+yearPublished: 2015
+publisher: "Gollancz"
+goodreads: "https://www.goodreads.com/book/show/22887640-shadows-of-self"
+avgGoodreadsRating: "8.52"
+numGoodreadsRatings: "216193"
+genre: "Fantasy"
+subgenre: "Flintlock"
+isbn: "9781473208223"
+bookOwned: true
+otherSeries: "Cosmere"
+hasSummary: false
+summarySlug: "shadows-of-self-sanderson-summary"
+summarySlugLink: "[[shadows-of-self-sanderson-summary]]"
+hasScore: true
+latestScore: 8.5
+readCount: 1
+averageScore: 8.5
+allScores: [8.5]
+readSlugs: ["shadows-of-self-sanderson-1"]
+readSlugsLinks: ["[[shadows-of-self-sanderson-1]]"]
+currentRead: false
+coverSlug: "shadows-of-self-sanderson-cover"
+---
+
+![[shadows-of-self-sanderson-cover.jpg]]

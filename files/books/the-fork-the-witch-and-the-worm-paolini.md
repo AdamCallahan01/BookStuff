@@ -1,0 +1,34 @@
+---
+layout: "book.njk"
+permalink: "/books/the-fork-the-witch-and-the-worm-paolini/"
+bookSlug: "the-fork-the-witch-and-the-worm-paolini"
+title: "The Fork, the Witch, and the Worm"
+author: "Christopher Paolini"
+series: "The Inheritance Cycle"
+seriesNumber: 4.5
+pages: 288
+wordCount: 40000
+yearPublished: 2018
+publisher: "Knopf Books for Young Readers"
+goodreads: "https://www.goodreads.com/book/show/26152839-the-fork-the-witch-and-the-worm"
+avgGoodreadsRating: "7.62"
+numGoodreadsRatings: "39881"
+genre: "Fantasy"
+subgenre: "Collection"
+isbn: "9781984894885"
+bookOwned: true
+hasSummary: false
+summarySlug: "the-fork-the-witch-and-the-worm-paolini-summary"
+summarySlugLink: "[[the-fork-the-witch-and-the-worm-paolini-summary]]"
+hasScore: true
+latestScore: 8
+readCount: 1
+averageScore: 8
+allScores: [8]
+readSlugs: ["the-fork-the-witch-and-the-worm-paolini-1"]
+readSlugsLinks: ["[[the-fork-the-witch-and-the-worm-paolini-1]]"]
+currentRead: false
+coverSlug: "the-fork-the-witch-and-the-worm-paolini-cover"
+---
+
+![[the-fork-the-witch-and-the-worm-paolini-cover.jpg]]

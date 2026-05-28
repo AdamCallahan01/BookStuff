@@ -1,0 +1,16 @@
+---
+bookSlug: "warbreaker-sanderson"
+readSlug: "warbreaker-sanderson-1"
+book: "[[warbreaker-sanderson]]"
+readNumber: 1
+score: 8
+format: "Book"
+dateStarted: "6/4/2022"
+dateFinished: "6/9/2022"
+yearRead: 2022
+days: 5
+hasReview: true
+---
+
+This one got a point boost because of it’s connections to the Stormlight Archive. A cool color-based magic system and uses multiple character POV’s well (this is something that bothers me when done poorly). Lightsong in particular has a Zuko worthy character arc. Fantasy has done the whole “multiple perspectives from characters who seem far apart at the start coming together to form one story” thing forever, and this can be beneficial for huge stories spanning the whole world. Some authors want to use it even if they don’t have a big enough world/concept and not enough well thought out main characters. If I have to sit through 2 character POV’s, just waiting to get back to what I think of as the “Real Main Character”, it’s probably just a waste of space to include their stories. This bothers me. If a certain character doesn’t have a deep enough backstory to warrant their own telling of life, then don’t write one for them.
+ 

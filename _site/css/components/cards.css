@@ -1,0 +1,116 @@
+.card {
+  overflow: hidden;
+  background: var(--surface-1);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.book-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+}
+.book-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+.book-card-content {
+  padding: var(--size-3);
+}
+.book-card h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+.book-card p {
+  margin-top: 0.25rem;
+  color: var(--text-2);
+  font-size: 0.9rem;
+}
+.book-card .overlay {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: var(--radius-2);
+  background: rgba(0, 0, 0, 0.72);
+  color: white;
+  font-size: 0.78rem;
+}
+/* =========================================================
+ Book grid
+========================================================= */
+.book-grid {
+  display: grid;
+
+  /* grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); */
+
+  grid-template-columns: repeat(auto-fit, minmax(180px, 180px));
+
+  justify-content: center;
+
+  gap: clamp(1rem, 2vw, 2rem);
+}
+/* =========================================================
+ Series Mosaic
+========================================================= */
+.series-mosaic,
+.author-mosaic {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2px;
+
+  overflow: hidden;
+
+  border-radius: var(--radius-2);
+}
+
+.series-mosaic,
+.author-mosaic img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+/* =========================================================
+ Mobile
+========================================================= */
+
+@media (max-width: 700px) {
+  .book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 0.75rem;
+  }
+
+  .book-card {
+    max-width: unset;
+  }
+
+  .book-card img {
+    height: 190px;
+  }
+
+  .book-card h2 {
+    font-size: 0.92rem;
+  }
+
+  .book-card p {
+    font-size: 0.8rem;
+  }
+}

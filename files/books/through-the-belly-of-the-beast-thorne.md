@@ -1,0 +1,34 @@
+---
+layout: "book.njk"
+permalink: "/books/through-the-belly-of-the-beast-thorne/"
+bookSlug: "through-the-belly-of-the-beast-thorne"
+title: "Through the Belly of the Beast"
+author: "Apollos Thorne"
+series: "Underworld"
+seriesNumber: 2
+pages: 356
+wordCount: 60000
+yearPublished: 2018
+publisher: "Self"
+goodreads: "https://www.goodreads.com/book/show/50410228-through-the-belly-of-the-beast"
+avgGoodreadsRating: "8.64"
+numGoodreadsRatings: "2820"
+genre: "Fantasy"
+subgenre: "LitRPG"
+isbn: "9781733664431"
+bookOwned: true
+hasSummary: false
+summarySlug: "through-the-belly-of-the-beast-thorne-summary"
+summarySlugLink: "[[through-the-belly-of-the-beast-thorne-summary]]"
+hasScore: true
+latestScore: 3
+readCount: 2
+averageScore: 3.5
+allScores: [4,3]
+readSlugs: ["through-the-belly-of-the-beast-thorne-1","through-the-belly-of-the-beast-thorne-2"]
+readSlugsLinks: ["[[through-the-belly-of-the-beast-thorne-1]]","[[through-the-belly-of-the-beast-thorne-2]]"]
+currentRead: false
+coverSlug: "through-the-belly-of-the-beast-thorne-cover"
+---
+
+![[through-the-belly-of-the-beast-thorne-cover.jpg]]

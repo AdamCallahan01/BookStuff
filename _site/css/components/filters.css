@@ -1,0 +1,204 @@
+.filter-group {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+
+  padding: var(--my-size-4);
+
+  background: var(--my-gray-1);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-card);
+}
+
+.filter-group h3 {
+  margin: 0 0 0.75rem;
+
+  padding-bottom: 0.35rem;
+
+  border-bottom: 1px solid var(--border-color);
+
+  font-size: 1rem;
+
+  color: var(--gray-7);
+}
+
+.filter-row {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 2fr)
+    minmax(260px, 320px);
+
+  gap: 1rem;
+
+  align-items: start;
+}
+
+.filter-input,
+.filter-select {
+  width: 100%;
+
+  padding: 0.65rem 0.75rem;
+
+  border: 1px solid var(--my-gray-4);
+  border-radius: var(--my-radius-2);
+
+  font: inherit;
+}
+
+.filter-input:focus,
+.filter-select:focus {
+  outline: 2px solid var(--my-blue-4);
+  outline-offset: 1px;
+}
+/* =========================================================
+ Checkboxes
+========================================================= */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+
+  font-size: 0.92rem;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  cursor: pointer;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  cursor: pointer;
+}
+/* =========================================================
+ Search
+========================================================= */
+.search-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 0.75rem;
+
+  padding: 0.75rem 1rem;
+
+  background: var(--surface-1);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--my-radius-3);
+}
+
+.search-options {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.75rem 1rem;
+
+  font-size: 0.9rem;
+}
+/* =========================================================
+ Reset
+========================================================= */
+.button-danger {
+  width: 100%;
+
+  padding: 0.7rem 0.9rem;
+
+  border: none;
+  border-radius: var(--my-radius-2);
+
+  background: var(--my-red-6);
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background var(--transition-fast);
+}
+
+.button-danger:hover {
+  background: var(--my-red-7);
+}
+
+.filter-actions {
+  padding-top: 0.5rem;
+
+  border-top: 1px solid var(--border-color);
+}
+
+/* =========================================================
+ Mobile
+========================================================= */
+.mobile-filter-toggle {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .mobile-filter-toggle {
+    display: block;
+
+    width: 100%;
+
+    padding: 0.85rem 1rem;
+
+    border: 1px solid var(--border-color);
+    border-radius: var(--my-radius-3);
+
+    background: var(--surface-1);
+
+    font: inherit;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .filter-group {
+    display: none;
+
+    margin-top: 0.75rem;
+  }
+
+  .filter-group.is-open {
+    display: flex;
+  }
+
+  .filter-row {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-row section {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .filter-row section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .search-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-options {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .search-options label,
+  .checkbox-group label {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+}

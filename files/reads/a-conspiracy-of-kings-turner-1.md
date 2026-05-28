@@ -1,0 +1,13 @@
+---
+bookSlug: "a-conspiracy-of-kings-turner"
+readSlug: "a-conspiracy-of-kings-turner-1"
+book: "[[a-conspiracy-of-kings-turner]]"
+readNumber: 1
+score: 9.5
+format: "Overdrive"
+dateStarted: "9/20/2021"
+dateFinished: "9/26/2021"
+yearRead: 2021
+days: 6
+---
+

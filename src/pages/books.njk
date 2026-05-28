@@ -1,0 +1,348 @@
+---
+layout: base.njk
+permalink: /books/
+---
+<head>
+  <script src="/js/bookFilter.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
+</head>
+
+{% set formatIcons = {
+  "Audible": "🎧",
+  "Book": "📖",
+  "Online": "🌐",
+  "Kindle": "📱"
+} %}
+
+<div class="books-page">
+
+  <aside class="sidebar sidebar-left" id="leftSidebar">
+    <h2>Filters</h2>
+
+    <div class="slider-group">
+      <label for="scoreSlider">Score Range:</label>
+      <div id="scoreSlider"></div>
+      <div id="scoreLabel"></div>
+    </div>
+
+    <div class="slider-group">
+      <label for="pageSlider">Page Range:</label>
+      <div id="pageSlider"></div>
+      <div id="pageLabel"></div>
+    </div>
+
+    <div id="countSliderParent" class="slider-group">
+      <label for="countSlider">Count:</label>
+      <div id="countSlider"></div>
+      <div id="countLabel"></div>
+    </div>
+
+    <div class="checkbox-group">
+      <label for="hasScoreToggle" id="hasScoreToggleParent" class="checkbox-row">
+        <input type="checkbox" id="hasScoreToggle"  value="true">
+          Has Score?
+        </label>
+
+      <label for="hasSummaryToggle" id="hasSummaryToggleParent" class="checkbox-row">
+        <input type="checkbox" id="hasSummaryToggle"  value="true">
+          Has Summary?
+        </label>
+
+      <label for="hasReviewToggle" id="hasReviewToggleParent" class="checkbox-row">
+        <input type="checkbox" id="hasReviewToggle"  value="true">
+          Has Review?
+        </label>
+
+      <label for="isOwnedToggle" id="isOwnedToggleParent" class="checkbox-row">
+        <input type="checkbox" id="isOwnedToggle"  value="true">
+          Owned?
+        </label>
+    </div>
+
+    <select id="yearReadFilter" class="filter-select">
+      <option value="">Any</option>
+    </select>
+
+    <select id="formatFilter" class="filter-select">
+      <option value="">All Formats</option>
+    </select>
+
+    <button id="scrollTopBtn" title="Scroll to top" class="scroll-top-btn">
+      Top ↑
+    </button>
+
+  </aside>
+
+  <main class="content">
+    <h1 id="pageTitle">All Books</h1>
+
+    <div class="mobile-sidebar-controls">
+
+      <button
+        class="sidebar-toggle left-toggle"
+        id="leftSidebarFilterToggle"
+      >
+        ☰
+      </button>
+
+    </div>
+
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <button
+      class="mobile-filter-toggle"
+      aria-expanded="false"
+      aria-controls="mobileFilters"
+    >
+      Filters & Sort
+    </button>
+
+    <div class="filter-group" id="mobileFilters">
+
+      <div class="filter-row">
+        <section>
+
+          <h3>Filters</h3>
+
+          <select id="combineToggle" class="filter-select">
+            <option value="book">Books</option>
+            <option value="series">Series</option>
+            <option value="read">Reads</option>
+            <option value="author">Authors</option>
+          </select>
+
+          <div class="search-controls">
+            <input 
+            id="booksSearchInput" 
+            placeholder="Search..." 
+            autocomplete="off"
+            class="filter-input"
+          >
+
+            <div class="search-options">
+              <label><input id="booksSearchTitle" type="checkbox" value="true" checked>Title</label>
+              <label><input id="booksSearchAuthor" type="checkbox" value="true" checked>Author</label>
+              <label><input id="booksSearchSeries" type="checkbox" value="true" checked>Series</label>
+            </div>
+          </div>
+
+          <select id="authorFilter" class="filter-select">
+            <option value="">All Authors</option>
+          </select>
+
+          <select id="seriesFilter" class="filter-select">
+            <option value="">All Series</option>
+          </select>
+
+        </section>
+
+        <section>
+          <h3>Sort</h3>
+
+          <select id="sortField" class="filter-select"></select>
+
+          <select id="sortDirection" class="filter-select">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+          </select>
+
+        </section>
+
+      </div>
+
+      <div class="filter-actions">
+        <button id="filterResetButton" class="button-danger" onclick="resetFilters()">Reset</button>
+      </div>
+
+    </div>
+
+    <div class="stats">
+      <span>Count: <strong id="bookNumberLabel">0</strong>
+      </span>
+      <span>Pages: <strong id="pageCountLabel">0</strong>
+      </span>
+      <span>Avg Pages: <strong id="pageAverageLabel">0</strong>
+      </span>
+      <span>Avg Score: <strong id="scoreAverageLabel">0</strong>
+      </span>
+    </div>
+
+    <hr>
+    {################################ BOOKS LAYOUT ##########################################}
+
+    {% set sortedBooks = collections.books | sort(attribute = "data.title") %}
+
+    <div id="booksView" class="book-grid book-grid-hidden">
+      {% for book in sortedBooks %}
+        <a href="{{ book.url }}" class="card book-card"
+          data-type="book"
+          data-title="{{ book.data.title | lower }}"
+          data-author="{{ book.data.author | lower }}"
+          data-series="{{ book.data.series | lower }}"
+          data-seriesNumber="{{ book.data.seriesNumber or 0 }}"
+          data-pages="{{ book.data.pages or 0 }}"
+          data-yearPublished="{{ book.data.yearPublished or 0 }}"
+          data-publisher="{{ book.data.publisher | lower }}"
+          data-avgGoodreadsRating="{{ book.data.avgGoodreadsRating | lower }}"
+          data-numGoodreadsRatings="{{ book.data.numGoodreadsRatings | lower }}"
+          data-hasSummary="{{ book.data.hasSummary or false }}"
+          data-hasScore="{{ book.data.hasScore or false }}"
+          data-count="{{ book.data.readCount or 0 }}"
+          data-genre="{{ book.data.genre | lower }}"
+          data-subgenre="{{ book.data.subgenre | lower }}"
+          data-owned="{{ book.data.bookOwned or false }}"
+          data-averagescore="{{ book.data.averageScore or 0 }}"
+          data-latestscore="{{ book.data.latestScore or 0 }}"
+          data-otherseries="{{ book.data.otherSeries | lower }}"
+        >
+
+          {% if book.data.coverSlug %}
+            <img
+              class="book-cover"
+              src="/files/covers/{{ book.data.coverSlug }}.jpg"
+              alt="{{ book.data.title }} cover"
+            >
+          {% endif %}
+
+          <div class="overlay">
+            ⭐ {% if book.data.hasScore %}{{ book.data.averageScore }}
+            {% else %}N/A{% endif %}
+            | 📖 {{ book.data.readCount }}
+          </div>
+
+          <h2 class="book-title">{{ book.data.title }}</h2>
+          <p class="book-author">{{ book.data.author }}</p>
+
+        </a>
+      {% endfor %}
+
+      {################################ READS LAYOUT ##########################################}
+
+      {% for read in collections.reads %}
+        {% for book in collections.books %}
+          {% if book.data.bookSlug == read.data.bookSlug %}
+            <a href="{{ book.url }}" class="card book-card"
+              data-type="read"
+              data-slug="{{ read.data.bookSlug }}"
+              data-title="{{ book.data.title | lower }}"
+              data-author="{{ book.data.author | lower }}"
+              data-series="{{ book.data.series | lower }}"
+              data-seriesNumber="{{ book.data.seriesNumber or 0 }}"
+              data-pages="{{ book.data.pages or 0 }}"
+              data-yearPublished="{{ book.data.yearPublished or 0 }}"
+              data-publisher="{{ book.data.publisher | lower }}"
+              data-avgGoodreadsRating="{{ book.data.avgGoodreadsRating | lower }}"
+              data-numGoodreadsRatings="{{ book.data.numGoodreadsRatings | lower }}"
+              data-hasSummary="{{ book.data.hasSummary or false }}"
+              data-hasScore="{{ book.data.hasScore or false }}"
+              data-readCount="{{ book.data.readCount or 0 }}"
+              data-genre="{{ book.data.genre | lower }}"
+              data-subgenre="{{ book.data.subgenre | lower }}"
+              data-owned="{{ book.data.bookOwned or false }}"
+              data-averagescore="{{ book.data.averageScore or 0 }}"
+              data-latestscore="{{ book.data.latestScore or 0 }}"
+              data-score="{{ read.data.score or 0 }}"
+              data-datefinished="{{ read.data.dateFinished }}"
+              data-readNumber="{{ read.data.readNumber or 0 }}"
+              data-format="{{ read.data.format | lower }}"
+              data-days="{{ read.data.days or 0 }}"
+              data-yearRead="{{ read.data.yearRead or 0 }}"
+              data-hasReview="{{ read.data.hasReview or false }}"
+              data-otherseries="{{ book.data.otherSeries | lower }}"
+            >
+
+              {% if book.data.coverSlug %}
+                <img
+                  class="book-cover"
+                  src="/files/covers/{{ book.data.coverSlug }}.jpg"
+                  alt="{{ book.data.title }} cover"
+                >
+              {% endif %}
+
+              <div class="overlay">
+            ⭐ {% if book.data.hasScore %}{{ book.data.averageScore }}
+                {% else %}N/A{% endif %}
+                | 📅 {{ read.data.dateFinished }}
+                | {{ formatIcons[read.data.format] or "❓" }}
+              </div>
+
+              <h2 class="book-title">{{ book.data.title }}</h2>
+              <p class="book-author">{{ book.data.author }}</p>
+
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {################################ SERIES LAYOUT ##########################################}
+
+      {% for series in collections.series %}
+        <a href="/books/?series={{ series.name | lower | urlencode }}" class="card book-card"
+          data-type="series"
+          data-title="{{ series.name | lower }}"
+          data-author="{{ series.books[0].data.author | lower }}"
+          data-averagescore="{{ series.averageScore or 0 }}"
+          data-hasscore="{{ series.averageScore or false }}"
+          data-count="{{ series.count or 0 }}"
+          data-pages="{{ series.pages or 0 }}"
+          data-avgpages="{{ series.avgpages or 0 }}"
+        >
+
+          <div class="series-mosaic">
+            {% for book in series.books %}
+              <img
+              src="/files/covers/{{ book.data.coverSlug }}.jpg"
+              alt="{{ book.data.title }} cover"
+            >
+            {% endfor %}
+          </div>
+
+          <div class="overlay">
+          ⭐ {{ series.averageScore or "N/A" }}
+          | 📅 {{ series.count }}
+          </div>
+
+          <h2 class="book-title">{{ series.name }}</h2>
+          <p class="book-author">{{ series.books[0].data.author }}</p>
+
+        </a>
+      {% endfor %}
+
+      {################################ AUTHORS LAYOUT ##########################################}
+
+      {% for author in collections.authors %}
+        <a href="/books/?author={{ author.name | lower | urlencode }}" class="card book-card"
+          data-type="author"
+          data-author="{{ author.name | lower }}"
+          data-title="{{ author.name | lower }}"
+          data-averagescore="{{ author.averageScore or 0 }}"
+          data-hasscore="{{ author.averageScore or false }}"
+          data-count="{{ author.count or 0 }}"
+          data-pages="{{ author.pages or 0 }}"
+          data-avgpages="{{ author.avgpages or 0 }}"
+        >
+
+          <div class="author-mosaic">
+            {% for book in author.books %}
+              <img
+              src="/files/covers/{{ book.data.coverSlug }}.jpg"
+              alt="{{ book.data.title }} cover"
+            >
+            {% endfor %}
+          </div>
+
+          <div class="overlay">
+          ⭐ {{ author.averageScore or "N/A" }}
+          | 📅 {{ author.count }}
+          </div>
+
+          <h2 class="book-title">{{ author.name }}</h2>
+
+        </a>
+      {% endfor %}
+    </div>
+
+  </main>
+
+</div>

@@ -1,0 +1,66 @@
+---
+bookSlug: "the-way-of-renegades-wall"
+summarySlug: "the-way-of-renegades-wall-summary"
+book: "[[the-way-of-renegades-wall]]"
+---
+
+The Way of Renegades
+Steve D. Wall
+The Bards and Dragons Saga #1
+
+Audiobook Spelling
+
+Characters:
+Devo - Clan of Justice adoptee, big and red
+Dellioph - Bard Sorcerer, on the run newly arrived in the new world
+Ulric - War Hero in hiding, doing escort work around Quinport
+Androstos - Talua’s husband, Ulric’s friend
+Talua - Ulric’s friend
+Lyren - Ulric’s sponsor / friend
+Jack - Innkeeper of the Captain’s Mast
+Gali - daughter of the chief of the Odegna Teo tribe (the natives on the new world)
+Adi - A young girl
+Coll - An Earth Spirit
+Chancellor Eramea - One of 6? Chancellors in the new world
+Edwell - Son of Ronwell, owner of Mastas Munitions.
+Melviar - Bad guy
+
+Places:
+Quinport - large port city in the new world
+The Captain’s Mast - Jacks tavern and the gangs meeting place
+
+Devo (Devoshka) is a red-skinned member of the Clan of Justice. He was cursed by an evil sorcerer Melviar (why he is red), and was adopted by the Clan of Justice, tall, strong fighters. Devo has an innate connection to Melviar and they have tracked him down and are about to ambush him, when huge, lizard like beasts (Called dragons but not the big flying fire-breathing type) attack them and Elder, the clan leader, holds them off so Devo can escape.
+
+Dellioph has just arrived in the New World town of Quinport. All he has with him is his old master Urelio’s Lute, Galandon’s Sword (A bladedancers sword), and his musical ability / secret sorcery. He was fleeing the Magnate, someone who had power over him.  He tries to find a tavern to work in but most of them have contracts with two siblings, the children of chancellor Eramea.
+
+Ulric, Talua, and Androstos are escorting a carriage back to Quinport when they are attacked by Teo. Androstos is a Physik, a physical sorcerer, meaning he can imbue his own body in some way, his being speed. They use their muskets and Andy’s abilities to fight off the Teo, only a couple escape.
+
+Dellioph returns to the Captain’s Mast, a tavern he stopped at earlier, and since the Eramea siblings aren’t there he begins to play anyway. Right before he starts they show back up and the bigger one (Tim?) begins to beat Dellioph and almost kills him, but Devo suddenly shows up and saves Dellioph. So Dellioph in turn vouches for Devo and they sit together. Dellioph uses his sorcery / the imbued lute to understand and communicate with Devo and learns he is from the Firelands, a volcano archipelago a ways away, and that Devo is hunting Melviar, a dangerous sourcerer. Dellioph kind of manipulates Devo into being his bodyguard and says he will help him get people to go kill Melviar, and plays for the tavern and uses his sorcery to make people love it even more. Ulric is also in the tavern listening.
+
+Gali is in the Odegna tribe, and her father, the chief, is addressing the tribe to talk about what to do about the “Durians” (colonizers). His people just returned from the raid where Ulrich killed a bunch of them, and they are feeling helpless. So Gali volunteers to lead a mission to another tribe I think, but instead takes her friend Aita, Dewstu?, and Kenoa?, two warriors, to Quinport to learn how to make muskets. A traveling priest stayed with them for a while so she can speak Unnish, the colonizer language of the area.
+
+Ulrich needs a new musket so goes to Mastas Munitions, where Ronwell is a genius and makes the best stuff. He has invented a new kind of rifle that does not need powder to fire, a carbine rifle. Ulric realizes this will be revolutionary. He does not have enough money currently so goes to talk to Lyren, learns they have a new job and some cash (marks) and goes to smoke a pipe by his dead friend Sam’s grave rock thing. While their the local coalition, the ragtag infantry being formed by the chancellors, comes and accosts him. They know he is Ulrich someone famous from the old world and he has a price on his head. They want him to work for them since he was a good commander but he says no, so he has to run. He gets Andy and Talua and they make a plan, but when he talks to Ron about muskets the coalition already threatened him so he can’t, but Ulrich offers him 600 marks (a buttload of cash) and promises never to take Ron’s son Edwell out with them again. Ed is a great shot but his parents love him and are protective. So They plan to get the money by having Androstos fight in the “Bouts” in a few nights and win, then leave town.
+
+The next morning Dellioph wakes up and him and Devo get taken to Chancellor Eramea’s mansion. The chancellor threatens him, then reveals he knows Dellioph is a sorcerer, but says he may stay at the Captains Mast and play as long as he comes and does jobs for him on occasion. This is just the type of thing Dellioph fled so he is mad. Him and Devo get tossed in jail for a day for hitting the chancellor’s baby boy. Dellioph is still leading Devo on saying he is working on getting men to hunt Melviar. They talk in prison and we learn there are two types of sorcery: Physicall, where you can imbue one aspect of yourself (and only one), and Elemental, where you can control one or many of the elements. Dellioph is a secret third type but does not share that. Devo says that Melviar is both types of sorcerer, which should not be possible, and he can do magic on people, which should not be possible, and he has made “dragons” big violent fast crocodile ish things.
+
+While traveling to Quinport Gali meets Adi, a young girl who seems confused alone in the woods. She says she is also going to Quinport so the Teo escort the girl there. Dewstew is kind of antagoiistic to Gali and does not like the “durians” (What they call all of the coalition / colonizers), but Gali convinces him they need muskets to compete in the current meta. They get to Quinport and despite having saved a young girl, they are treated roughly and some of their possessions taken. They drop Adi off at a tavern (the captains mast), Gali takes them to a church, but it is not the one her traveling priest works at. She keeps giving people coins they have collected for information, and to make them stop bothering them. They finally reach the correct (poor district) church but then are ambushed by a gang of 10 thugs with weapons who want their money. They try to run past them and make it to the church, but in the process Aita gets a hatchet to the neck and bleeds out in the church. Gali is devestated since that was her best friend. They learn from the priest there that her friend priest died of sickness a while back. She also learns some of her info is wrong, like these people are not all Durians, that is just a religion, and the language is called Unnish. The new priest takes them to another Teo living in the city.
+
+Adi talks with Devo, she has a spirit named Coll living inside her, and has no memory before the last few days. Coll can speak into Devo’s mind so they can communicate and shares that they also want to kill Melviar, so Devo likes Coll.
+
+Dellioph also has a plan to win money, make Devo compete in the bouts and if needed use his sorcery to empower Devo so he wins. Devo fights and beats most people, but the final fight is against Androstos, and a lot of money is at stake. Andy is winning but then Dellioph uses his magic to give Devo the edge and wins 664 marks (would have been enough for Ulric to get his guns and supplies and skip town). Devo gets pissed at Dellioph because he is starting to realize that he is being tricked and storms out, leaving Delioph to be confronted by Ulric and Lyren about his blade dancer sword and urelio’s lute and why the chancellor let him go. They end up pressganging Dellioph into agreeing to flee town with them, since his position is precarious and they need the cash. They agree to buy supplies then leave first thing tomorrow (Ulric wanted to leave tonight).
+
+Devo and Adi have left Quinport and are going to hunt Melviar on their own. Devo and Adi are teaching each other their respective languages.
+
+The Teo meet with the Teo in the city, Chemyc? (Chem-ic), and he basically calls them dumb and they call him a traitor, but Dewstu and Kenoa take Aita’s body out of the city to bury and say they will wait one day for Gali. Chemyc gives her a list of musket makers for her to research and some clothes to blend in.
+
+The next morning, far later than Ulric likes, Dellioph wakes up and they go shopping. They get to Mastas munitions at the same time as Gali. They are about to buy the stuff and leave when soldier show up, being racist to Gali and threaten everyone. They take her money, then one recognizes Ulric and takes his money also. Dellioph saves Gali from being assaulted or worse, and they all flee back to a secret room in the Mast before the Coalition can gather mor troops. Lyren does recon and learns that Ron and his wife from Mastas munitions have been taken prisoner and their guns confiscated, so they hatch a plan to steal the wagon with the guns and then meet up with Gali’s friends so help guide them through Teo land. In return Ulric teaches Gali about muskets.
+
+Dellioph is even more upset and sulky and scared. They assume he will be able to kill guards with his bladedancer sword but he knows he can’t. They are all in position in set up when Dellioph gets a feeling and starts playing his lute and magicing like crazy. He ends up enthralling a huge crowd, including Gali and Talua, greatly interfering with Ulric’s plan. He gets everyone to scream that Dellioph is king of the bards, the the soldiers with the gun wagon show up and one hits Dellioph, he screams, and the crown goes into a bloodthirsy frenzy. In the chaos Ulric knocks Delioph unconscious, throws him in the wagon Androstos helped steal, and the 4 of them barely make it out. They meet with Lyren, get supplies, and are out of the city with far more notice than they would have liked. They meet up with Dewstew and Kenoa, a tense meeting but they agree to temporary peace.
+
+Dellioph wakes up a while later in the wagon and Ulric and talua question him at knife point. He admits to being an “enchantment” sorcerer, a secret third type, but has no idea what came over him in the town, he barely remembers it. He is distraught because he lost the case for Urelio’s lute. Talua hates him and no one trusts him and he is sullen. 
+
+They reach the village of the Odegna (gali’s tribe), and find everyone has been slaughtered, then “dragons” show up, presumably what killed the village and Kenoa dies early. The rest flee with Andy using a ton of magic to carry Ulrich and catch the wagon while Dellioph makes the horses go supersonic. They reach a cliff and are climbing up when the dragons catch them. The wagon rolls down in to the river so the only supplies they get are some ammo and guns, then Dewstu falls and while trying to catch and save him Ulric falls into the river with him. A lizard goes in after them and Ulric is scratched.
+
+At the top of the hill Gali is in shock from everyone she knows dying, and Dellioph is forced to tell more truths about himself. He is cursed ( a solid black tattoo around his wirst) that makes it so he can not harm another living creature. Talua still hates him, and says they need to go back for Ulric. Dellioph learns Ulric is the “Eternal Colonel of Helena” or something, a famous dude who fought in a ton of battles in the Old World.
+
+The End.

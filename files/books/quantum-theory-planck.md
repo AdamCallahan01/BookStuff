@@ -1,0 +1,31 @@
+---
+layout: "book.njk"
+permalink: "/books/quantum-theory-planck/"
+bookSlug: "quantum-theory-planck"
+title: "Quantum Theory"
+author: "Niels Bohr, Max Planck"
+series: "N/A"
+seriesNumber: null
+pages: 192
+wordCount: 75000
+yearPublished: 2019
+publisher: "Flame Tree"
+goodreads: "https://www.goodreads.com/book/show/44331577-quantum-theory"
+avgGoodreadsRating: "6.78"
+numGoodreadsRatings: "23"
+genre: "Science"
+subgenre: "Physics"
+isbn: "9781787556829"
+bookOwned: true
+hasSummary: false
+summarySlug: "quantum-theory-planck-summary"
+summarySlugLink: "[[quantum-theory-planck-summary]]"
+hasScore: false
+readCount: 1
+readSlugs: ["quantum-theory-planck-1"]
+readSlugsLinks: ["[[quantum-theory-planck-1]]"]
+currentRead: false
+coverSlug: "quantum-theory-planck-cover"
+---
+
+![[quantum-theory-planck-cover.jpg]]

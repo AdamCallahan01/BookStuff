@@ -1,0 +1,20 @@
+<script>
+  const words = {{ words | dump | safe }};
+  const randomWord = words[Math.floor(Math.random() * words.length)];
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const el = document.getElementById("random-word");
+
+    el.innerHTML = `
+      <div class="word-card">
+        <h2>${randomWord.word}</h2>
+        <p>${randomWord.definition}</p>
+      </div>
+    `;
+  });
+</script>
+
+<aside class="word-card">
+  <h3>Random Word</h3>
+  <p id="random-word">Loading...</p>
+</aside>
