@@ -1,0 +1,2281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Book Summaries</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+    <link rel="shortcut icon" href="/files/other/favicon.png">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/elasticlunr.min.js" defer></script>
+    <script src="/js/mobileControls.js" defer></script>
+  </head>
+
+  <body class="site-shell">
+    <head>
+    <script src="/js/search.js" defer></script>
+</head>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="/" class="nav-link">Fantasy Book Summaries</a>
+        </div>
+
+        <div class="search search-shell"  id="searchShell">
+            <input class="search-input" type="text" id="searchInput" placeholder="Search books..." autocomplete="off"/>
+
+<div class="search-options">
+    <button type="button" class="search-options-btn" id="searchOptionsBtn">Options ▼</button>
+
+    <div class="dropdown-panel" id="searchOptionsDropdown">
+        <label>
+            <input type="checkbox" id="includeSummaries">
+                        Include summaries
+                    </label>
+    </div>
+</div>
+
+<div id="searchResults" class="search-results dropdown-panel"></div>
+        </div>
+
+        <nav class="site-nav nav-desktop">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+        <!-- MOBILE ACTIONS -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn mobile-search-toggle"
+                id="mobileSearchToggle"
+                aria-label="Open search"
+            >
+                🔍
+            </button>
+
+            <button
+                class="icon-btn mobile-nav-toggle"
+                id="mobileNavToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- MOBILE NAV PANEL -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+
+        <nav class="mobile-nav">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+    </div>
+</header>
+    <main class="page-width">
+      
+        
+
+
+
+
+
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+<body>
+  <main class="books-page">
+
+    <aside class="sidebar sidebar-left">
+      
+        <h3>Previous Book</h3>
+        
+        
+
+      
+
+      
+        <a href="/books/empire-of-the-vampire-kristoff/" class="card book-card">
+    
+        <img src="/files/covers/empire-of-the-vampire-kristoff-cover.jpg" alt="Empire of the Vampire cover">
+    
+    <div class="overlay">
+            ⭐ 8.75
+        
+            | 📖 2
+    </div>
+    <h2>Empire of the Vampire</h2>
+    <p>Jay Kristoff</p>
+</a>
+      
+    </aside>
+
+    <div class="mobile-sidebar-controls">
+
+      <button
+        class="sidebar-toggle left-toggle"
+        id="leftSidebarToggle"
+      >
+        
+          Last
+        
+      </button>
+
+      <button
+        class="sidebar-toggle right-toggle"
+        id="rightSidebarToggle"
+      >
+        
+          Next
+        
+      </button>
+
+    </div>
+
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <div class="book-layout">
+
+      <div class="book-header">
+
+        
+          <img class="book-cover" src="/files/covers/empire-of-the-damned-kristoff-cover.jpg" alt="Empire of the Damned cover">
+        
+        <div class="book-meta">
+
+          <h1 class="book-title">Empire of the Damned</h1>
+
+          <div class="book-info">
+
+            <p class="book-fact">
+              <strong>Author:</strong>
+              <a class="book-link" href="/books/?author=jay%20kristoff">
+                Jay Kristoff
+              </a>
+            </p>
+
+            
+              <p class="book-fact">
+                <strong>Series:</strong>
+                <a class="book-link" href="/books/?series=empire%20of%20the%20vampire">
+                  Empire of the Vampire
+                   (#2)
+                </a>
+              </p>
+            
+
+            <p class="book-fact">
+              <strong>Pages:</strong>
+              709
+            </p>
+
+            <p class="book-fact">
+              <strong>Word count:</strong>
+              210,000
+            </p>
+
+            <p class="book-fact">
+              <strong>Published:</strong>
+              2024 | <strong>Publisher:</strong>
+              St. Martin&#39;s Press
+            </p>
+
+            <p class="book-fact">
+              <strong>Genre:</strong>
+              Fantasy
+               / Dark
+              
+            </p>
+
+            <p class="book-fact">
+              <strong>ISBN:</strong>
+              9781250245335
+            </p>
+
+            <p class="book-fact">
+              <strong>Goodreads:</strong>
+              <a href="https://www.goodreads.com/book/show/126918599-empire-of-the-damned" target="_blank">Link</a>
+              | Rating: 9.1 (33,987 ratings)
+            </p>
+
+            <p class="book-fact">
+              <strong>Latest Score:</strong>
+              9.5
+               | <strong>Average Score:</strong>
+              9.5
+               | <strong>Read Count:</strong>
+              1
+            </p>
+
+            <p class="book-fact">
+              <strong>Owned:</strong>
+              Yes
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ===== Reads Section ===== -->
+      
+        <section class="book-reads-section">
+          <h2 class="section-title">Read History</h2>
+          
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+            
+              <details class="book-read-entry">
+                <summary class="book-read-summary">
+                  
+                    2026
+                  
+                  
+                | Score: 9.5
+                  
+                </summary>
+                <div class="book-read-content">
+                  
+                    <p>Incredible book, story is even more engaging than the first one. A lot of things to nitpick, the language (while better than the first one, feels much more natural), is still overly vulgar and kind of silly at times. Certain turns of phrase are used far too often, and I would greatly prefer either a steep reduction in the sex scenes or else make them far less explicit, I did not sign up to read Fourth Wing. But none of that takes away from a fantastic adventure, the character relationships, (outside of Lachlan who I am mixed on) are fantastic, Phoebe is a great character, and a bunch of stuff I thought would be in the third book happened in this one, setting up what should be a super exciting conclusion I can not wait to read. I will have to consider reading the Nevernight trilogy by Jay Kristoff since I have enjoyed these so much.</p>
+
+                  
+                  <p>
+                    <strong>Format:</strong>
+                    Book</p>
+                  <p>
+                    <strong>Days:</strong>
+                    12</p>
+                  
+                    <p>
+                      <strong>Date:</strong>
+                      3/9/2026 -> 3/21/2026</p>
+                  
+                </div>
+              </details>
+            
+          
+        </section>
+      
+
+      <!-- ===== Summary Section ===== -->
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        
+          <section class="book-summary-section">
+            <details class="book-summary-entry">
+              <summary class="book-summary-summary">Summary</summary>
+              <div class="book-summary-content">
+                <p>Empire of the Damned<br>
+Jay Kristoff<br>
+Empire of the Vampire #2<br>
+Empire of the Damned Summary</p>
+<p>Characters:<br>
+Gabriel de Leon - The Last Silversaint<br>
+Dior Lachance - The Holy Grail<br>
+Phoebe - Skindancer Lioness<br>
+Celene Castia - Gabriel’s sister, vampire, Esani, the Last Liathe<br>
+Jean-Francois - Chastain vampire scribe of the story<br>
+Aaron de Coste - Exiled Silversaint<br>
+Baptiste Sa-Ismael - Exiled Blackthumb (blacksmith) from San Michon</p>
+<p>Jean-Francois, our vampire scribe, wakes up from sleeping during the past day and after feeding is summoned to see Margot Chastain, his “mother” and ruler of the Chastain vampires. The Priori (Vampire leaders), from the others houses (Voss, Ilon, and Dyvok) are coming to meet with her, and she wants him to finish recording the story of the grail. Jean-Francois keeps attractive, young humans for feeding, pleasure, and chores. The two we meet are Dario and Jasmine. He goes to meet Gabriel, who has been kept locked in a dungeon for a week as punishment for attacking jean-Francois. Gabe’s thirst for blood is getting worse but he sticks with smoking and wine. Gabe resumes the story.</p>
+<p>Gabriel de Leon has just slain a ton of silversaints and Sister Chloe at San Michon since they were about to sacrifice Dior in an effort to end Daysdeath. He and Dior gather supplies and head down, where Celene (Who saved Gabe from dying at the end of the last book), attacks them to try to kill Gabe and travel alone with Dior. Using her sanguimancy she is able to get the upper hand but Dior stops the fight, and they agree to travel as a group.</p>
+<p>They are headed to meet another Master Jenoah, another Esani teacher, since Wulfric (Celenes teacher) is dead. Along the way Gabe is teaching Dior how to fight and use a sword and about vampires in general. A ways out from San Michon they run into a lone injured silversaint being chased by a pack of wretched (Weak vampires). They help him and it turns out his is Lachlan, Gabe’s only apprentice from when he was in the silver order. Lachlan was heading back to San Michon since all saints were recalled, but he got attacked. He is of blood Dyvok (strong). They learn that Avelene (Aaron and Baptiste’s keep) was attacked and go to check it out. Celene has been in hiding since Lachlan would have many questions.</p>
+<p>Avalene is smoking, and when they sneak in they find a wagon of prisoners and many wretched and Thrallswords (humans who fight for the vampires, if you drink their blood 3 separate nights you become a thrall / slave). They are led by 3 highblood Dyvok. Gabe knows one of them, Kiara, the Wolfmother. They begin fighting, but the Dyvok drink from little golden vials they keep on necklaces and seem stronger than they should be. Dior tries to free the wagon of prisoners. As they fight Celene appears and drinks one of the Dyvoks to death, something not done by Vampires to other vampires. Kiara cracks the ice on the frozen river and her and the other Dyvok (Kane, the headsmun) flee.</p>
+<p>Gabe almost drowns when a Lioness pulls him from the freezing river, who turns out to be Phoebe, Saorise’s lioness companion in the first book. Except she can turn into a human and is a duskdancer/fleshwitch/shapeshifter. They save the children from the prisoner wagon and head as a group to find shelter. Lachlan is made at gabe for travelling with a vampire and duskdancer. Also they assumed Baptiste and Aaron were dead. They rest and Lachlan and Gabe fight. Lachlan did not like Astrid and insults her. Lachlan leaves to take the children to San Michon, and Phoebe swears herself to the service of Dior and travels with them. They soon find a wretched being controlled by a Voss highblood and have to run.</p>
+<p>The group (gabe, Dior, Celene, and Phoebe) travel high into the mountains through storms. They found they are being chased by “The Terrors”, the eldest daughters of Fabien Voss (The Forever King). They barely arrive at the huge mountain castle of Master Jenoah, but inside find everyone is dead and jenoah had killed them and himself out of weakness, and destroyed the prophecy scripture. Celene is furious. Gabe and Dior have grown closer throughout their travels. Celene says the only other person they can go to is Mother Maryn, at Dun Margaen. But Phoebe wants to take Dior to her highlander people, although Gabe and Celene would be unable to go since they hate vampires and silversaints.</p>
+<p>The Terrors catch up and they prepare to defend themselves. Gabe is mad at Dior because she wants to fight and he wants her to stay safe inside. He hits her as they argue and is distraught. The battle happens and Celene and Gabe kills a ton of wretched, but when the terrors show up and phoebe pounces on them, the Dyvok from earlier show up and Kiara shatters the bridge, dropping the terrors away and trying to claim Dior for herself. Dior falls but Gabe catches her and Celene catches him, but once Dior is up Celene drops Gabe. Phoebe was also thrown off the bridge.</p>
+<p>Jean-Francois stands up and Gabe is confused, but Jean-Francois says this story is about Dior, and since Gabe fell and was not with Dior he would go somewhere else. He descends into the depths of the palace, where they have a small prison with a flowing river around it. Celene is imprisoned on the rock patch wearing a silver mask. Jean-Francois begins to interview her and she insults Gabe, saying he is a drunkard and a liar, making him an even more unreliable narrator. Celene also gives a different view of their family, their mother only loved Gabe and was mean to everyone else, but their father raised her to be a Castia, a mountain, and she loved him a lot.</p>
+<p>Celene tells how Kiara almost killed her, and she was forced to flee to her blood moth form, but she left one moth with Dior to travel with her. Kiara captured her since the Voss seem to want her. Dior is taken prisoner and brought back to the main Dyvok camp, after a failed escape attempt. She is packed in a wagon and finds the children from earlier, who say Lachlan left them, Baptiste, who is still alive, and Aaron, who was killed but rose again as a vampire. SInce he is a vampire his silver tattoos are agony to him and he screams every day. During Dior’s escape attempt she used her blood to save a young hound boy, Joaquin Marenn, so now Kiara knows what she can do. They travel to the Dyvok’s new capital, Dun Margaen. They have somehow managed to capture all of Ossway in two years and no one knows how.</p>
+<p>Dior is presented to the highblood court, led by Priori Nikiti Blackheart, and his elder sister Lilidh, the Heartless. They are the eldest Dyvok since Gabe killed their father Tolyev. Nikita claims Aaron as his prize and makes him drink his blood. Lilidh claims Dior. Their is much unrest among the violent Dyvok, and they are brutal and keep many humans around to drink from. Kiara also claims to have killed Gabriel. Lilidh keeps a giant white wolf named Prince, and has some maidservants, one called worm. She makes worm stab herself to see how Dior’s blood works. Dior is taken down to a dungeon after being forced to drink Lilidh’s blood.</p>
+<p>Celene knows Mother Maryn is somewhere in/beneath the city, so spends her time healing and flying around trying to find her, but with no luck. Dior gets dressed up by Worm, and Lilidh makes her drink more blood. Dior makes another escape attempt with a hairpin, and runs into Joaquin but he does not report her. She then tries to bring Baptiste with her, since it has not been three nights yet he should not be a thrall, but he goes and gets Kiara. She bound him weeks ago when they first captured him.</p>
+<p>Aaron has been thralled by Nikita and Nikita makes him butcher the human prisoners and keeps him as his closest lover. Dior is forced to drink from Lilidh a third time, and Celene can still do nothing. Lilidh commands Dior and the other maids to beat Worm and Dior complies, seeming to be fully a thrall. Celene wonders where gabe is and feels she messed up. The Voss and The Terrors show up asking for Dior in exchange for a bunch of humans, and Lilidh and Nikita argue about it. Nikita and Fabien used to be lovers. The Voss wait a ways outside the city for an answer.</p>
+<p>Jean-Francois leaves her to go hear from Gabe again. Upon learning Celene is a prisoner Gabe also insults her a bunch and says she is a faithless liar. After he fell from the bridge Phoebe, who is very sturdy and hard to kill, nursed him back to health and together they set off after Dior (who has a vial of gabe’s blood so he can track her). On the way they become closer, and stop in Redwatch for supplies, where Gabe rebuffs Phoebe, and she leaves alone to get Dior. Gabe is then captured by Lachlan and two other silversaints a few nights later, along with the inquisitor lady from the first book. They are taking him to Augustine to hang him. He tries to explain but no one will listen. They enter one of the blighted woods, despite Gabe warning them, and people start disappearing. Eventually they all go to look, leaving only two guards on Gabe, and Phoebe appears and frees him, althoug he tells her not to kill the Silversaint apprentice. They steal horses and fleas, but after a few days a storm forced them to hide in Ravenswatch. They grow even closer and are about to engage in sex, when the three silversaints show up again and attack them. They incapacitate two, with Gabe seeming stronger than he should be, but Lachlan shoots Phoebe with silvershot. Gabe tackles him and finally is able to explain what happened and Lachlan lets him leave. He has to take Phoebe to the Highlands since her aunt is a great healer and she is dying.</p>
+<p>He reaches the edge of the Highlands and is attacked by a giant bear he can’t kill, so he bites her and drinks her blood, then is able to overpower the bear, who turns out to be a duskdancer. He is taken prisoner but Phoebe is saved and all the highlanders gather for a discussion. They have made a pact with Lilidh Dyvok to have peace though so they most likely will not help attack Dun Margaen. Gabe and Phoebe have sexy time and she asks him to bite her, he does and gets carried away and almost drains her dry, so Brynna, the bear duskdancer, shows up and attacks him. Gabe is able to fight off a ton of duskdancers and Phoebe stops everyone. They realize that duskdancer blood, which is blighted since daysdeath, give both palebloods and coldbloods(vampires) super strength skills, and that is what is in the vials the Dyvoks have around their necks, this angers them and they agree to attack.</p>
+<p>Jean-Francois goes back to Celene, who still watches Dior. Dior seems to be fully Lilidh’s thrall, they lie together in sleep. Lilidh leaves and Worm (the handmaid) enters through a secret door with a knife, but her and Dior discuss. Dior is not a thrall, her blood makes her immune, and anyone she has healed has their bonds broken. They realize they need to fight back from inside somehow. Dior knew because Joaquin is also free from Kiara. Worm’s real name is Princess Reyne, daughter of the slain ruler of this land. She takes some of Dior’s blood and frees the other handmaids of Lilidh, and their men. Joaquin asks Dior to free Isla (One of the girls from the prison wagon in Avalene who was brought here and is now a servant to Nikita, and Dior agrees). They use the secret tunnels to meet in a chapel. They have like 8 people freed but that is not enough and they need a plan. While trying to get silver swords from a statue they open a secret tunnel with the Esani symbol, Celene can’t enter since it is holy ground but Dior and Reyne come back up looking horrorstruck and go into a plan to kill Nikita and Lilidh. Dior tells Celene to go in person to Gabe and ask him to wait a day to attack.</p>
+<p>Gabriel is brought into Celene ‘s dungeon and after insulting each other they tell the story in tandem. Gabe and Phoebe have brought an army of duskdancers to the wall and wait to attack. Nikita orders all of the thrallswords and humans to the walls so they will die first, but Dior is trying to make a plan to free them. Nikita suddenly summons everyone to his throneroom, and once their starts to single out members of their freed conspiracy, seemingly by chance, but then makes them stab each other and does not let Dior heal them. He reveals to Lilidh they are free and Isla comes forward. She has always served him, she is the one who let him into Avalene and now has betrayed the conspiracy. Their is much violence from both sides, Dior uses her blood to save Reyne but everyone else is pretty much killed. Dior and Reyne are taken to the dungeons for the battle.</p>
+<p>Celene is in a tent with gabe and tells him of her past, how she was killed by Laure Voss, how when they were young, Gabe almost died of sickness so his mom summoned his vampire father, but Celene followed in secret so learned what gabe was young. His father gave some of his blood to save Gabe. When Celene was killed she went to find him since he was the only vampire she knew, Wulfric, her now dead teacher. Celene tells them what is happening in the throneroom and they launch the attack now. But as soon as they reach the first wall, they find many of the thralls free and making others drink. Joaquin introduces himself to Gabe and says how him and Dior planned to put her blood in the liquor. Baptiste is also freed now and wants to help Aaron. They attack and there is a huge battle, many things destroyed and side characters killed, but suddenly Lachlan and a ton of silversaints and silversisters show up and swing the tide, forcing the Dyvok to retreat to the keep.</p>
+<p>But when all seemed good the Voss came from behind, so they are fighting on two sides. Gabe and Celene go after the Terrors to break their control. During the fight they say that Celene killed Wulfric, that is how she has so much power. Gabe is furious and Fabien speaks to him from a wretched, saying not to kill his daughters or he will regret it but Celene and Gabe each kill one.</p>
+<p>Back in the keep Nikita tells Kiara to go get Dior to give to Fabien for help. Kiara descends into the dungeon but then kills Isla and the gaurds, she hates Nikita now and is going to free Dior and Reyne to spite him and especially Lilidh, but Lilidh and Kane (The Headsmun) catch up and they trade in the battle, Lilidh is hurt but kills Kiara but Kiara kills Kane, and Prince is almost killed but bites Dior. Dior and Reyne are both hurt but flee to the hidden underground chamber since it is holy ground.</p>
+<p>Nikita and Aaron are fighting outside, Lachlan is battling Nikita, who is actually his half-brother. Gabe freed him from the Dyvok when he was young, and Baptiste has spent this whole time trying to appeal to Aaron’s love of him. They all fall from a wall and Lachlan is almost dead and Nikita has Baptiste, and because he is cruel he tells Aaron to kill baptiste. Aaron takes Nikita’s sword but resists his bond enough to throw the sword away and Baptiste gets a hit on Nikita with a silver hammer, then Lachlan grabs Nikita’s legs so he can’t flee and Baptiste kills him, freeing Aaron from his bond.</p>
+<p>Gabe and Celene have been sprinting for Dior. Lilidh is outside the holy ground, but reads, written on the wall some scripture saying “Enter here …”, which counts as an invitation so she steps in. Dior and Reyne flee into the deeper secret tunnel from earlier. It is dark and dank and this is clearly the resting place of Mother Maryn. In the dim light Reyne gets a cut on Lilidh with a blade soaked in Dior’s blood, but since there is water on the ground it is quickly extinguished. Lilidh gets burned more, but manages to almost kill Reyne, then pins Dior’s hand to a statue with a dagger. Dior spits blood in her face then rips her hand free, severing all but her thumb and index finger, then Prince shows up and attacks Lilidh, distracting her so Dior can stab her with a bloody blade and she begins to burn. Dior tries to heal Reyne but she seems to be dead, but then she breathes, barely alive. Gabe and Celene show up, and Dior calls Gabe father and he calls her daughter and Phoebe runs in and Prince turns out to be her husband Connor, who she thought dead. Sad for her and gabe but happy overall.</p>
+<p>They look at the statues in the room, of five priests and the redeemer, mortal son of God. They recognize one of the priests as Fabien and realize when the redeemer told his betrayers to have eternal life, it was a curse. He made the first five vampires of the five bloodlines. Gabe is distraught and since Celene knew, all of her lies compounded and he attacked her. As they fought and Phoebe tried to break them up, Lilidh rose from the water. She was not dead since she had not heart (The heartless), and she grabbed Dior and broke her neck. Connor/Prince lunged on her and killed her, but she killed him in the process, he got brought back just to hurt Phoebe more.</p>
+<p>Modern time, Gabe is so filled with rage he lunges across the river and attacks Celene, breaking her silver mask. They brawl and Jean-Francois makes the guards go separate them and send gabe away. Celene tells how they had a state funeral for Dior, named her San Dior, or the Saint of the grail, or other names, but Gabe had already fled before the funeral to somewhere. All the silversaints but Lachlan died in the fighting.</p>
+<p>Back in his tower Gabe succumbs to his sangire (blood thirst) and asks for Dario to be left with him. After the Vampire leaves Dario is revealed to be Joaquin, and they have a plan brewing. Back in her prison, Celene recounts to a mouse how she went to meet Mother Maryn, who turned out be a young girl in vampire form, and then in Dior’s tomb, Dior opened her eyes. THE END.</p>
+
+              </div>
+            </details>
+          </section>
+        
+      
+
+    </div>
+
+    <aside class="sidebar sidebar-right">
+      
+        <h3>Next Book</h3>
+        
+        <a href="/books/empire-of-the-dawn-kristoff/" class="card book-card">
+    
+        <img src="/files/covers/empire-of-the-dawn-kristoff-cover.jpg" alt="Empire of the Dawn cover">
+    
+    <div class="overlay">
+            ⭐ 10
+        
+            | 📖 1
+    </div>
+    <h2>Empire of the Dawn</h2>
+    <p>Jay Kristoff</p>
+</a>
+      
+    </aside>
+
+  </main>
+</body>
+      
+    </main>
+  </body>
+
+</html>

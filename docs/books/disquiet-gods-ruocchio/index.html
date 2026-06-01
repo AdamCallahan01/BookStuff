@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Book Summaries</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+    <link rel="shortcut icon" href="/files/other/favicon.png">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/elasticlunr.min.js" defer></script>
+    <script src="/js/mobileControls.js" defer></script>
+  </head>
+
+  <body class="site-shell">
+    <head>
+    <script src="/js/search.js" defer></script>
+</head>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="/" class="nav-link">Fantasy Book Summaries</a>
+        </div>
+
+        <div class="search search-shell"  id="searchShell">
+            <input class="search-input" type="text" id="searchInput" placeholder="Search books..." autocomplete="off"/>
+
+<div class="search-options">
+    <button type="button" class="search-options-btn" id="searchOptionsBtn">Options ▼</button>
+
+    <div class="dropdown-panel" id="searchOptionsDropdown">
+        <label>
+            <input type="checkbox" id="includeSummaries">
+                        Include summaries
+                    </label>
+    </div>
+</div>
+
+<div id="searchResults" class="search-results dropdown-panel"></div>
+        </div>
+
+        <nav class="site-nav nav-desktop">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+        <!-- MOBILE ACTIONS -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn mobile-search-toggle"
+                id="mobileSearchToggle"
+                aria-label="Open search"
+            >
+                🔍
+            </button>
+
+            <button
+                class="icon-btn mobile-nav-toggle"
+                id="mobileNavToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- MOBILE NAV PANEL -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+
+        <nav class="mobile-nav">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+    </div>
+</header>
+    <main class="page-width">
+      
+        
+
+
+
+
+
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+<body>
+  <main class="books-page">
+
+    <aside class="sidebar sidebar-left">
+      
+        <h3>Previous Book</h3>
+        
+        
+
+      
+
+      
+        <a href="/books/the-dregs-of-empire-ruocchio/" class="card book-card">
+    
+        <img src="/files/covers/the-dregs-of-empire-ruocchio-cover.jpg" alt="The Dregs of Empire cover">
+    
+    <div class="overlay">
+            ⭐ 8.5
+        
+            | 📖 1
+    </div>
+    <h2>The Dregs of Empire</h2>
+    <p>Christopher Ruocchio</p>
+</a>
+      
+    </aside>
+
+    <div class="mobile-sidebar-controls">
+
+      <button
+        class="sidebar-toggle left-toggle"
+        id="leftSidebarToggle"
+      >
+        
+          Last
+        
+      </button>
+
+      <button
+        class="sidebar-toggle right-toggle"
+        id="rightSidebarToggle"
+      >
+        
+          Next
+        
+      </button>
+
+    </div>
+
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <div class="book-layout">
+
+      <div class="book-header">
+
+        
+          <img class="book-cover" src="/files/covers/disquiet-gods-ruocchio-cover.jpg" alt="Disquiet Gods cover">
+        
+        <div class="book-meta">
+
+          <h1 class="book-title">Disquiet Gods</h1>
+
+          <div class="book-info">
+
+            <p class="book-fact">
+              <strong>Author:</strong>
+              <a class="book-link" href="/books/?author=christopher%20ruocchio">
+                Christopher Ruocchio
+              </a>
+            </p>
+
+            
+              <p class="book-fact">
+                <strong>Series:</strong>
+                <a class="book-link" href="/books/?series=the%20sun%20eater">
+                  The Sun Eater
+                   (#6)
+                </a>
+              </p>
+            
+
+            <p class="book-fact">
+              <strong>Pages:</strong>
+              704
+            </p>
+
+            <p class="book-fact">
+              <strong>Word count:</strong>
+              288,359
+            </p>
+
+            <p class="book-fact">
+              <strong>Published:</strong>
+              2024 | <strong>Publisher:</strong>
+              DAW
+            </p>
+
+            <p class="book-fact">
+              <strong>Genre:</strong>
+              Sci-Fantasy
+               / Space Opera
+              
+            </p>
+
+            <p class="book-fact">
+              <strong>ISBN:</strong>
+              9781982193324
+            </p>
+
+            <p class="book-fact">
+              <strong>Goodreads:</strong>
+              <a href="https://www.goodreads.com/book/show/176443792-disquiet-gods" target="_blank">Link</a>
+              | Rating: 9.16 (5,643 ratings)
+            </p>
+
+            <p class="book-fact">
+              <strong>Latest Score:</strong>
+              9.5
+               | <strong>Average Score:</strong>
+              9.5
+               | <strong>Read Count:</strong>
+              1
+            </p>
+
+            <p class="book-fact">
+              <strong>Owned:</strong>
+              Yes
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ===== Reads Section ===== -->
+      
+        <section class="book-reads-section">
+          <h2 class="section-title">Read History</h2>
+          
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+            
+              <details class="book-read-entry">
+                <summary class="book-read-summary">
+                  
+                    2025
+                  
+                  
+                | Score: 9.5
+                  
+                </summary>
+                <div class="book-read-content">
+                  
+                    <p>A strong return to form, second best book in the series. Started a little slow but then quickly built back into what I wanted. Lots of stuff and people and stuff.</p>
+
+                  
+                  <p>
+                    <strong>Format:</strong>
+                    Audible</p>
+                  <p>
+                    <strong>Days:</strong>
+                    17</p>
+                  
+                    <p>
+                      <strong>Date:</strong>
+                      4/29/2025 -> 5/16/2025</p>
+                  
+                </div>
+              </details>
+            
+          
+        </section>
+      
+
+      <!-- ===== Summary Section ===== -->
+      
+
+    </div>
+
+    <aside class="sidebar sidebar-right">
+      
+        <h3>Next Book</h3>
+        
+        <a href="/books/shadows-upon-time-ruocchio/" class="card book-card">
+    
+        <img src="/files/covers/shadows-upon-time-ruocchio-cover.jpg" alt="Shadows Upon Time cover">
+    
+    <div class="overlay">
+            ⭐ 10
+        
+            | 📖 1
+    </div>
+    <h2>Shadows Upon Time</h2>
+    <p>Christopher Ruocchio</p>
+</a>
+      
+    </aside>
+
+  </main>
+</body>
+      
+    </main>
+  </body>
+
+</html>
