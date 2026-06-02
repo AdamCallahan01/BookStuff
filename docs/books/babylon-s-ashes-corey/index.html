@@ -1,0 +1,2349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Book Summaries</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/files/covers/favicon.png">
+    <link rel="shortcut icon" href="/files/other/favicon.png">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/elasticlunr.min.js" defer></script>
+    <script src="/js/mobileControls.js" defer></script>
+  </head>
+
+  <body class="site-shell">
+    <head>
+    <script src="/js/search.js" defer></script>
+</head>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="/" class="nav-link">Fantasy Book Summaries</a>
+        </div>
+
+        <div class="search search-shell"  id="searchShell">
+            <input class="search-input" type="text" id="searchInput" placeholder="Search books..." autocomplete="off"/>
+
+<div class="search-options">
+    <button type="button" class="search-options-btn" id="searchOptionsBtn">Options ▼</button>
+
+    <div class="dropdown-panel" id="searchOptionsDropdown">
+        <label>
+            <input type="checkbox" id="includeSummaries">
+                        Include summaries
+                    </label>
+    </div>
+</div>
+
+<div id="searchResults" class="search-results dropdown-panel"></div>
+        </div>
+
+        <nav class="site-nav nav-desktop">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+        <!-- MOBILE ACTIONS -->
+        <div class="header-actions">
+
+            <button
+                class="icon-btn mobile-search-toggle"
+                id="mobileSearchToggle"
+                aria-label="Open search"
+            >
+                🔍
+            </button>
+
+            <button
+                class="icon-btn mobile-nav-toggle"
+                id="mobileNavToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- MOBILE NAV PANEL -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+
+        <nav class="mobile-nav">
+            <a href="/" class="nav-link">Home</a>
+<a href="/books/" class="nav-link">Books</a>
+<a href="/lists/" class="nav-link">Lists</a>
+<a href="/trivia/" class="nav-link">Trivia</a>
+<a href="/fantasy-recs/" class="nav-link">Fantasy Recs</a>
+<a href="/about/" class="nav-link">About</a>
+        </nav>
+
+    </div>
+</header>
+    <main class="page-width">
+      
+        
+
+
+
+
+
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+
+<body>
+  <main class="books-page">
+
+    <aside class="sidebar sidebar-left">
+      
+        <h3>Previous Book</h3>
+        
+        
+
+      
+
+      
+        <a href="/books/nemesis-games-corey/" class="card book-card">
+    
+        <img src="/files/covers/nemesis-games-corey-cover.jpg" alt="Nemesis Games cover">
+    
+    <div class="overlay">
+            ⭐ 8.5
+        
+            | 📖 1
+    </div>
+    <h2>Nemesis Games</h2>
+    <p>James S.A. Corey</p>
+</a>
+      
+    </aside>
+
+    <div class="mobile-sidebar-controls">
+
+      <button
+        class="sidebar-toggle left-toggle"
+        id="leftSidebarToggle"
+      >
+        
+          Last
+        
+      </button>
+
+      <button
+        class="sidebar-toggle right-toggle"
+        id="rightSidebarToggle"
+      >
+        
+          Next
+        
+      </button>
+
+    </div>
+
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <div class="book-layout">
+
+      <div class="book-header">
+
+        
+          <img class="book-cover" src="/files/covers/babylon-s-ashes-corey-cover.jpg" alt="Babylon&#39;s Ashes cover">
+        
+        <div class="book-meta">
+
+          <h1 class="book-title">Babylon&#39;s Ashes</h1>
+
+          <div class="book-info">
+
+            <p class="book-fact">
+              <strong>Author:</strong>
+              <a class="book-link" href="/books/?author=james%20s.a.%20corey">
+                James S.A. Corey
+              </a>
+            </p>
+
+            
+              <p class="book-fact">
+                <strong>Series:</strong>
+                <a class="book-link" href="/books/?series=the%20expanse">
+                  The Expanse
+                   (#6)
+                </a>
+              </p>
+            
+
+            <p class="book-fact">
+              <strong>Pages:</strong>
+              532
+            </p>
+
+            <p class="book-fact">
+              <strong>Word count:</strong>
+              167,000
+            </p>
+
+            <p class="book-fact">
+              <strong>Published:</strong>
+              2016 | <strong>Publisher:</strong>
+              Orbit
+            </p>
+
+            <p class="book-fact">
+              <strong>Genre:</strong>
+              Science Fiction
+               / Space Opera
+              
+            </p>
+
+            <p class="book-fact">
+              <strong>ISBN:</strong>
+              9780356504261
+            </p>
+
+            <p class="book-fact">
+              <strong>Goodreads:</strong>
+              <a href="https://www.goodreads.com/book/show/25877663-babylon-s-ashes" target="_blank">Link</a>
+              | Rating: 8.52 (99,692 ratings)
+            </p>
+
+            <p class="book-fact">
+              <strong>Latest Score:</strong>
+              5.5
+               | <strong>Average Score:</strong>
+              5.5
+               | <strong>Read Count:</strong>
+              1
+            </p>
+
+            <p class="book-fact">
+              <strong>Owned:</strong>
+              Yes
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ===== Reads Section ===== -->
+      
+        <section class="book-reads-section">
+          <h2 class="section-title">Read History</h2>
+          
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+            
+              <details class="book-read-entry">
+                <summary class="book-read-summary">
+                  
+                    2026
+                  
+                  
+                | Score: 5.5
+                  
+                </summary>
+                <div class="book-read-content">
+                  
+                    <p>Weak entry. Everything that made the last book the best in the series was missing from this one. Instead of focusing on the crew of the Rocinante we got a bunch of disparate POV’s from around the system. I understand the point, but I don’t care all that much about Michio Pa. Most of it just felt like a long, winding conclusion to the last book rather than doing anything itself.</p>
+
+                  
+                  <p>
+                    <strong>Format:</strong>
+                    Book</p>
+                  <p>
+                    <strong>Days:</strong>
+                    5</p>
+                  
+                    <p>
+                      <strong>Date:</strong>
+                      2/23/2026 -> 2/28/2026</p>
+                  
+                </div>
+              </details>
+            
+          
+        </section>
+      
+
+      <!-- ===== Summary Section ===== -->
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        
+          <section class="book-summary-section">
+            <details class="book-summary-entry">
+              <summary class="book-summary-summary">Summary</summary>
+              <div class="book-summary-content">
+                <p>Babylon’s Ashes<br>
+James S. A. Corey<br>
+The Expanse #6</p>
+<p>https://expanse.fandom.com/wiki/Babylon%27s_Ashes#Plot</p>
+<p>On Earth, Namono (Nono) collects food from a government food truck to take home to her wife, pastor Annushka Volovodov, and their daughter Nami. Anna's leg has been badly wounded, but she wants to start having congregations at their house anyway. She tells Nono that she heard on the radio that the Free Navy tried to drop another rock on Earth, but the UN Navy caught it in time.</p>
+<p>Michio Pa (OPA, former XO of the Behemoth) is in control of seizing ships at Medina Station (formerly the Behemoth, formerly the Mormon generation ship Nauvoo). The OPA outfits the station with rail guns (which should have enough force to move the station, but the physics dampening of the &quot;slow zone&quot; prevents this from happening). Marco Inaros asks her to come and meet with him and the other top brass of the Free Navy.</p>
+<p>Filip Inaros, the son of Marco and Naomi Nagata, is quite depressed that his mother killed herself and Cyn. He finds out that he's the only one on the ship that didn't know that she survived and secretly rages.</p>
+<p>James Holden and his crew undergo intense interrogations on Luna. Chrisjen Avasarala asks them to check out the ship that seems to be coordinating the rock drops on Earth--with Bobbie Draper in command. Holden acquiesces.</p>
+<p>Pa meets with Anderson Dawes, some other Belter bigwigs, and Marco Inaros on his ship the Pella. While Marco spouts off his accomplishments, Pa questions to herself just how successful his plans really were, since Earth is still fending off attacks, Fred Johnson is still alive, and so was the Prime Minister of Mars. He says phase 3 is about to begin: he wants a system-wide Belter civilization, with spin stations, power plants, factories, and other extensive infrastructure.</p>
+<p>The Rocinante (&quot;Roci&quot;) crew intercepts the Azure Dragon and puts a rail through it. Thinking they rendered the ship inoperable, they dock with it--but the OPA ship locks their airlocks together, with Bobbie stuck inside, then they begin attacking the Roci's hull using using EVA mech suits. Amos Burton and Clarissa Mao (called Peaches by Amos) go out to try and stop them, but in the process Peaches is shot multiple times. Just as she thinks she's about to die, Holden makes it out and provides backup. They get Clarissa back to the medbay just in time to save her, and afterwards Holden regrets putting her in danger, and starts treating her like an actual member of the crew.</p>
+<p>During a bar altercation on Ceres Station, Filip shoots a security guard and lands himself in jail. Dawes tells Marco that he has to take his son off of Ceres and that he can never set foot there again, otherwise he will be tried and executed for the crime. Marco smiles deeply and promises him that Filip won't be on Ceres again.</p>
+<p>The Roci goes to Luna for repairs. Holden meets with Avasarala and she's brought all 8 of his parents to Luna as refugees despite their farm and energy system still, temporarily at least, operable. Holden tells Avasarala &quot;I owe you&quot;.</p>
+<p>Back in her personal quarters, Avasarala records another message to her husband Arjun Rao, who still has not been found, before heading to her numerous meetings. She meets with Martian Prime Minister Nathan Smith about the gate-eaten ships; he expects to be voted out of the position in short order and says he can't give her any data on them, but she offers him asylum if he does. Afterwards, she meets with her top advisers. Admiral Souther tells her that logs on the Azure Dragon indicate Marco Inaros having a meeting with the top OPA on Ceres presently; Avasarala decides to take the offensive and launch an attack.</p>
+<p>Pa feels guilty that her late girlfriend Samara Rosenberg (Sam, former Roci engineer) was killed by Captain Ashfordon the Behemoth, all because Pa had too stubbornly adhered to the chain of command, in spite of the warning signs. Later, she meets with Marco who says he's heard news that the UN is redeploying to Ceres. Instead of staying to fight, he wants to employ Afghani guerrilla tactics and flee the base, leaving the Belter civilians behind. PA gathers her marriage partners on her ship, the Connaught, and tells them how guilty she feels that she's stuck following the chain of command again when she knows it's wrong.</p>
+<p>On Luna, the Roci is being repaired with experimental hull plating created with technology derived from studies on the protomolecule; the crew are unsure of how it will hold up, but Holden tells them to embrace the future. The Roci will be an observation ship carrying Fred Johnson in the Earth/Mars/OPA counter attack on the Free Navy. Holden says goodbye to his parents.</p>
+<p>On Ganymede, Praxidike Meng (Prax) has been going about his life as normally as possible, as the people there declared that they don't care who runs things as long as their research can continue. One of the researchers under him wants to skip animal testing on a yeast GMO to help grow food faster for Earth, but he won't allow it. Later, in the middle of the night, station security gets him out of bed and takes him to the morgue to identify the researcher's body; she was shot 4 times. Prax believes the Free Navy killed her because she was trying to help Earth.</p>
+<p>Filip has been confined to the Pella by Marco, and having shot the security guard while in a drunken stupor is weighing on him--and so is his impending punishment from Marco. Eventually the crew come back and they all leave Ceres behind; of the about 6 million inhabitants, only about 1.5 million can get off before Earth/Mars get there, leaving millions behind as refugees. Marco finally pops in to see Filip late one night, but never even mentions the shooting.</p>
+<p>Mars and Earth make an announcement that they've taken Ceres and are now helping the 4 million refugees left behind. After carefully planning out her mutiny offline using a grease crayon on the walls of her quarters, Pa contacts Carmondy, the captain of the Hornblower under her command, and tells him the new plans. He doesn't want to be included in the mutiny, and she tells him she's going to have to destroy his ship to make an example of him if he won't fall in line.</p>
+<p>Alex Kamal is gets drunk in a bar on Ceres, shocked that the Free Navy abandoned it and is still waiting for the other shoe to drop. Alex and Sandra Ip exchange googly eyes; Holden, ruminating about his dad's racism towards Belters, decides he needs to do something, so he begins recording little puff pieces about Belters that he sends to his reporter friend Monica Stuart; she broadcasts the videos to humanize the Belters. Fred Johnson wants Bobbie to be the new Mars ambassador, since the Martian government is in turmoil.</p>
+<p>Marco receives Pa's video message saying she's defecting and he retreats inward. Rosenfeld Guoliang, part of the inner circle, gets anxious that Marco hasn't issued any orders to the fleet in response, and says he's going to start giving them himself soon. Marco eventually responds by ordering the destruction of the Witch of Endor, a ship following Pa. When Pa finds out the Endor was destroyed, she decides that the best course of action for still getting the necessary supplies to the Belters in need is to ask Fred Johnson (who she still vehemently hates) to protect her ships.</p>
+<p>Naomi tells Bobbie that she can be a permanent part of the crew if she wants to be; Bobbie isn't sure about it since she's just been made Mars Junior Ambassador. They meet with Fred to discuss Pa's defection, and Fred wants none of it until Bobbie tears him a new one: the OPA isn't lining up behind him, afraid of joining a coalition with the inner planets. Holden tells Fred he's contacting Pa and Fred can get off the Roci if he doesn't like it.</p>
+<p>At Medina Station, the first ship built on the other side of the rings, the Proteus, has arrived, with Captain Montemayor commanding. Rumors are that Marco asked Winston Duarte (defected Martian military commander that got Marco many of his ships) to send the ship, but the Proteus says it's just there to help.</p>
+<p>The Roci leaves Ceres without Fred and his crew and rendezvous with Pa. Marco has destroyed another ship, the Munroe, that was under her command. Pa agrees to transfer control of the Minsky over to him--and Ceres launches missiles. The Roci shoots them down just in the nick of time; if Pa's ship would've fired, all hell would've broken loose. Holden insists that Fred didn't fire the missiles, Free Navy agents did, and Pa still agrees to the transfer. She gets the hell out of there. Marco puts out a video message telling the Belters she's a traitor working with the UN/Mars.</p>
+<p>Prax is starting to feel the oppression of the Free Navy. When his subordinates ask for the data on their recently deceased colleague's partition, Prax puts it out there for them, unencrypted. Later, after everyone leaves, he logs in as a guest and sends the results to Earth and Luna.</p>
+<p>Fred asks Holden to take him to Tycho Station for an OPA meet-up. Avasarala chastises Fred for working with Pa, calling him and Pa pirates, but after he tells her about all the resources he'll be sending because of the collaboration, she says she guesses they're all pirates now.</p>
+<p>When the Roci leaves Ceres for Tycho, Marco attacks; 3 of his ships against the Roci. Fred calls Ceres for help and one of the ships breaks off to intercept; Bobbie uses some fancy maneuvering to take out the two support ships with the Roci's railgun. The Pella, however, gets wise to her tactics and dodges the rails every time--but Bobbie notices it dodges the same way every time, so she shoots some PDC rounds and missiles in the dodge path, then fires the railgun. The Pella dodges straight into the PDC rounds and is forced to retreat. Bobbie fires missiles; Holden, video-conferencing with Marco, sees Filip and, realizing he can't bring himself to kill Naomi's son, disarms the missile right as it's about to hit.</p>
+<p>During the battle, the high-G evasive maneuvers cause Fred Johnson to have a stroke and die. Holden sends Avasarala a video message explaining what happened and she has a mini-breakdown. She eventually pulls herself back together and replies to Holden that he needs to make the OPA meeting work in Fred's place.</p>
+<p>On the Pella, Filip is gutted when he finds out Marco blames their defeat on his gunning.</p>
+<p>Pa finds out from Sanjrani that since she diverged from Marco's original plan, there are barely enough supplies to last the Belt, Earth, and Mars 3-3.5 years.</p>
+<p>14-15 ships from the other side of the rings, coordinated by Duarte through someone at Medina Station, come back through the gates and attack the station--though they're all destroyed by the newly mounted rail guns. From intercepted data, it appears that not all the ships made it through, however.</p>
+<p>Holden meets with the OPA heads and tells them he wants to take over for Fred and enact his plan (even though Fred never actually told Holden his plan). Anderson Dawes, newly defected from Marco's inner circle, shows up to the meeting uninvited and Holden, wanting to appear strong in front of them, tells him he can't be in the meeting since he wasn't formally invited. Dawes later convinces the others to give Holden a shot, even though they all seem reluctant.</p>
+<p>When going over the post-battle logs, Amos notices that Holden disarmed the torpedoes. He confronts Holden about it and asks him if he's really the best man for the job; Holden says &quot;no&quot;, but that he was given the job and will follow through next time. Amos says that's a good enough answer for him.</p>
+<p>The Pella goes to Callisto for repairs (where Filip stole the Martian stealth coating and dropped the first rocks) and Filip is really starting to feel the weight of everything he's done. He's about to confess to Karal when the newsfeed announces that he killed Fred Johnson during their battle. Marco gives him a look that says &quot;we did it,&quot; and Filip realizes that when something good happens Marco will always take credit, but anything bad is Filip's fault. Filip can't stop thinking about what Naomi told him about Marco putting blood on her hands too.</p>
+<p>While Holden works with the OPA leaders, Alex continues hooking up with Sandra Ip, even staying in her quarters. It comes as no surprise when Holden tells him later that they'll be shipping out in a few hours.</p>
+<p>Avasarala meets with the Martian military leader to discuss taking Medina Station: she wants to send the Rocinante and the ice hauler Giambattista, packed with 4,000 smaller ships--most of them decoys--to take out the station's railguns.</p>
+<p>The Coalition fleet launches their first major offensive against the Free Navy against all of the Navy's bases--the largest attack in history, involving hundreds of ships--mostly just to draw Marco's attention away while the Roci and the Giambattista try to reach the gate.</p>
+<p>The Free Navy and Pinkwater Security finally come for Prax, having discovered that his putting Karvonide's data on an unencrypted partition was how it got leaked to Earth. Certain he's going to die, he confesses that it was his fault for putting it out there; luckily for him, that's when the attack begins, and they let him go.</p>
+<p>Pa takes the Connaught and 2 other ships to attack Pallas base. She systematically removes the station's defenses, points one of her ship's drive cones at the dock, and tells the station that if any Free Navy ships try to attack, she'll slag the whole dock. She tells Rosenfeld Guoliang (in command at the base) that this is his chance to fix his fuck up of following Marco, and he agrees.</p>
+<p>Marco defends against an attack by Micah al-Dujaili (a former member of the inner circle whose brother died because of Marco), destroying al-Dujaili's ship and a few others, while suffering only minor casualties to his own fleet. Sanjriani again warns him that the fighting is going to make it nearly impossible for the Belt to subsist, but Marco shrugs it off. Later, Marco calls a meeting with all his head people and declares he wants to take Tycho, the jewel of the Belt, in a counterattack. Everyone nods their heads except Flip, who finally has the balls to confronts his dad and asks why his entire inner circle has abandoned him if this is what he planned all along? Marco tousles his hair, treating Filip like he's just a stupid kid acting up, and Filip storms out. Marco's advisers inform him that the Roci isn't actually on Tycho and is instead transporting an ice hauler headed for the ring gate; Marco starts to panic.</p>
+<p>The 2 Free Navy ships coming from Ganymede to head off the Roci launch their attack, but the Roci and the Giambattista both take minimal damage. The thousands of small ships deploy from the ice hauler start entering the gate. The station's railguns and other defenses take out most of the thousands of attacking ships, but don't realize that the ships that appear to be &quot;malfunctioning&quot; were actually intentionally drifting toward the ring station where the railguns are mounted.</p>
+<p>Bobbie, Amos, and her Belter squad land their shoddy cargo container/shuttle on the surface of the alien station, where they meet stiff resistance. Unable to attack the railgun's defenders head on, Bobbie takes the shuttle back up and uses it to dive-bomb the railgun she thinks might house the main reactor, then she launches the rocket from her Martian armor suit at the enemy attackers. The station turns an angry green color and seems to shrink, shrugging off the metal bands holding the railguns on and effectively rendering them inoperable. Bobbie and Amos capture or kill the defenders and find that they're not Free Navy but Duarte's Martians.</p>
+<p>The Roci and the Giambattista make it through the gate and destroy their 2 pursuers. Captain Samuels of the Free Navy on Medina surrenders peacefully.</p>
+<p>When Marco finds out that the Roci is the only ship guarding Medina, he rallies all the ships he can find, about 15 in total, to intercept, telling Filip that his plan is finally coming to fruition. Filip has finally had enough of his dad's flip-flopping bullshit and instead of returning to the Pella, he recycles his hand terminal and his gun and goes to find work somewhere else under the surname &quot;Nagata.&quot;</p>
+<p>During the battle for Titan, Pa was badly burned and 2 of her spouses killed when the Connaught was hit by a torpedo. Avasarala send Pa a message saying that Marco has sent his ships to Medina and wants Pa's help saving it; Pa tells her that she's sorry, but she's got no ships left to send.</p>
+<p>Naomi reads through the station's logs and finally notices a pattern in the 2 dozen ships that disappeared going through the gates; she thinks if they load up enough mass on the Giambattista and send it through the gate fast enough, they can create the energy wake that will swallow up Marco's fleet when he comes through--as long as he comes through within a window of about 10 minutes after sending the Giambattista through.</p>
+<p>As Marco's fleet nears, the Giambattista enters the gate and just as Naomi predicted, Marco's entire fleet blinks out of existence as they come through the gate; Marco senses a dark shape coming for him in the space between atoms.</p>
+<p>6 months later, the war is all but over. Mars is still pissed about Winston Duarte's defection (he provided Marco ships so Marco would leave him alone in the Laconia gate). Everyone else from Marco's inner circle--Rosenfeld, Dawes, Sanjriani--are captured or dead. Avasarala holds a meeting with all the important representatives of Earth, Mars (new Prime Minister Emily Richards presiding), and the Belt where they outline their new plan for what Holden dubs the &quot;space guild&quot;, the new role the Belters will play in trafficking ships and resources back and forth through the gates. Avasarala nominates Holden as the new leader, but he immediately declines and nominates a true Belter, someone with the principles and skills required, Michio Pa.</p>
+<p>Pastor Anna, Nami, and Nono are on a ship called the Abbey heading to the colony on Eudoxia.</p>
+
+              </div>
+            </details>
+          </section>
+        
+      
+
+    </div>
+
+    <aside class="sidebar sidebar-right">
+      
+        <h3>Next Book</h3>
+        
+        <a href="/books/persepolis-rising-corey/" class="card book-card">
+    
+        <img src="/files/covers/persepolis-rising-corey-cover.jpg" alt="Persepolis Rising cover">
+    
+    <div class="overlay">
+            ⭐ 7
+        
+            | 📖 1
+    </div>
+    <h2>Persepolis Rising</h2>
+    <p>James S.A. Corey</p>
+</a>
+      
+    </aside>
+
+  </main>
+</body>
+      
+    </main>
+  </body>
+
+</html>

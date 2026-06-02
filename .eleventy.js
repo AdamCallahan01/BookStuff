@@ -321,7 +321,7 @@ export default function (eleventyConfig) {
       includes: "src/_includes",
       layouts: "src/_layouts",
       data: "src/_data",
-      output: "_site",
+      output: "docs",
     },
   };
 }
