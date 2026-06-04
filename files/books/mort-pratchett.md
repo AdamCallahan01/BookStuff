@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Humor"
 isbn: "9780061020681"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "mort-pratchett-summary"
 summarySlugLink: "[[mort-pratchett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7.5
+allScores: [7.5]
 readSlugs: ["mort-pratchett-1"]
 readSlugsLinks: ["[[mort-pratchett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "mort-pratchett-cover"
 ---
 

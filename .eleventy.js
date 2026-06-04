@@ -1,6 +1,9 @@
 import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
+  //For github build
+  eleventyConfig.addPassthroughCopy("CNAME");
+
   eleventyConfig.addCollection("books", (collectionApi) =>
     collectionApi.getFilteredByGlob("files/books/*.md"),
   );
