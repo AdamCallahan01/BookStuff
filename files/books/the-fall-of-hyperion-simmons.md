@@ -18,17 +18,17 @@ subgenre: "Space Opera"
 isbn: "9780553288209"
 narrator: "Victor Bevine"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-fall-of-hyperion-simmons-summary"
 summarySlugLink: "[[the-fall-of-hyperion-simmons-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["the-fall-of-hyperion-simmons-1"]
 readSlugsLinks: ["[[the-fall-of-hyperion-simmons-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-fall-of-hyperion-simmons-cover"
 ---
 

@@ -1,3 +1,4 @@
-Books
+Working on build process, site should be live at:
+www.fantasybooksummaries.com
 
-Started website
+Testing commit
