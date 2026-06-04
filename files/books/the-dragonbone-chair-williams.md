@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780756402693"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-dragonbone-chair-williams-summary"
 summarySlugLink: "[[the-dragonbone-chair-williams-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 9
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 9
+allScores: [9]
 readSlugs: ["the-dragonbone-chair-williams-1"]
 readSlugsLinks: ["[[the-dragonbone-chair-williams-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-dragonbone-chair-williams-cover"
 ---
 
