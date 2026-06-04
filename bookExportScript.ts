@@ -3,6 +3,8 @@ import fs from "fs-extra";
 import dotenv from "dotenv";
 import path from "path";
 
+const OVERWRITE_EXISTING_FILES = false;
+
 dotenv.config();
 
 const URL = process.env.URL;
@@ -72,18 +74,22 @@ function bookSlug(title: string, author: string): string {
 
 // Create book md files
 function writeMarkdown(
-  path: string,
+  filePath: string,
   frontmatter: Frontmatter,
   body: string = "",
 ): void {
+  if (!OVERWRITE_EXISTING_FILES && fs.existsSync(filePath)) {
+    return;
+  }
+
   const clean = Object.entries(frontmatter)
     .filter(([_, v]) => v !== undefined && v !== null && v !== "")
     .map(([k, v]) => `${k}: ${JSON.stringify(v)}`)
     .join("\n");
 
-  //const content = `---\n${clean}\n---\n\n${body ?? ""}`;
   const content = `---\n${clean}\n---\n\n${body}`;
-  fs.outputFileSync(path, content);
+
+  fs.outputFileSync(filePath, content);
 }
 
 async function fetchSheet(): Promise<SheetRow[]> {
