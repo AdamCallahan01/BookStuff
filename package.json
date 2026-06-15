@@ -8,6 +8,7 @@
     "dev": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "csv-parse": "^6.1.0",
     "dotenv": "^17.3.1",
     "elasticlunr": "^0.9.5",

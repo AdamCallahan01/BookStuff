@@ -92,6 +92,34 @@ function writeMarkdown(
   fs.outputFileSync(filePath, content);
 }
 
+//check if was reading
+function existingCurrentRead(slug: string): boolean {
+  const bookPath = `files/books/${slug}.md`;
+
+  if (!fs.existsSync(bookPath)) {
+    return false;
+  }
+
+  const content = fs.readFileSync(bookPath, "utf8");
+
+  const match = content.match(/currentRead:\s*(true|false)/);
+
+  return match?.[1] === "true";
+}
+
+//remove files for existing book
+async function removeCompletedBookFiles(
+  slug: string,
+  summarySlug: string,
+  latestReadSlug: string,
+) {
+  await fs.remove(`files/books/${slug}.md`);
+  await fs.remove(`files/summaries/${summarySlug}.md`);
+  await fs.remove(`files/reads/${latestReadSlug}.md`);
+
+  console.log(`Deleted files for completed book ${slug}`);
+}
+
 async function fetchSheet(): Promise<SheetRow[]> {
   const res = await fetch(URL as string);
   const text = await res.text();
@@ -243,6 +271,17 @@ async function run(): Promise<void> {
     const currentRead: Boolean = reads.some(
       (r) => r.currentlyReading && r.currentlyReading.trim() !== "",
     );
+
+    const latestReadSlug = `${slug}-${reads.length}`;
+
+    if (!OVERWRITE_EXISTING_FILES) {
+      const oldCurrentRead = existingCurrentRead(slug);
+
+      // Book was previously current, but is now finished
+      if (oldCurrentRead && !currentRead) {
+        await removeCompletedBookFiles(slug, summarySlug, latestReadSlug);
+      }
+    }
 
     // Error catching
     if (first == undefined) {

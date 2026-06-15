@@ -160,6 +160,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
 
+  eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
+
   // Truthy filter
   eleventyConfig.addFilter("filterTruthy", function (collection, attribute) {
     if (!Array.isArray(collection)) return [];
