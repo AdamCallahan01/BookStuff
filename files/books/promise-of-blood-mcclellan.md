@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Flintlock"
 isbn: "9780316219037"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "promise-of-blood-mcclellan-summary"
 summarySlugLink: "[[promise-of-blood-mcclellan-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 6.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 6.5
+allScores: [6.5]
 readSlugs: ["promise-of-blood-mcclellan-1"]
 readSlugsLinks: ["[[promise-of-blood-mcclellan-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "promise-of-blood-mcclellan-cover"
 ---
 

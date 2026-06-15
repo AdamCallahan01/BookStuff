@@ -5,8 +5,7 @@ export default [
       {
         title: "Mistborn",
         slug: "mistborn",
-        description:
-          "A heist-driven epic fantasy with metal-based magic and political revolution.",
+        description: "Test",
       },
     ],
   },
