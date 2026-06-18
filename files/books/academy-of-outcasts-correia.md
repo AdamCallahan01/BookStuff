@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781638493037"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "academy-of-outcasts-correia-summary"
 summarySlugLink: "[[academy-of-outcasts-correia-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4
+allScores: [4]
 readSlugs: ["academy-of-outcasts-correia-1"]
 readSlugsLinks: ["[[academy-of-outcasts-correia-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "academy-of-outcasts-correia-cover"
 ---
 

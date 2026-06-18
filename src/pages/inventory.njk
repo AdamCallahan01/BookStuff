@@ -1,0 +1,75 @@
+---
+layout: base.njk
+permalink: /book-inventory/
+title: Book Inventory
+---
+<h1>TBR</h1>
+
+<h3>Finishing Realm of the Elderlings</h3>
+<p>Currently on the last book of Liveship</p>
+<h3>Tokyo Ghoul</h3>
+<p>Manga</p>
+<h3>Red Rising</h3>
+<p>Reread first book and catch up with series before last book releases</p>
+<h3>Dandelion Dynasty</h3>
+<p>Had the books for forever and am very excited</p>
+
+<hr></hr>
+
+<h1>{{ title }}</h1>
+
+<h3>I will add a search and sort to this soon</h3>
+
+{% for item in inventory %}
+    {% set book = item.title | bookByTitle(collections.books) %}
+
+    <li class="rank-item">
+
+        <div class="rank-item-inner">
+
+            {% if book and book.data.coverSlug %}
+                <img
+                    class="book-cover-list"
+                    src="/files/covers/{{ book.data.coverSlug }}.jpg"
+                    alt="{{ item.title }} cover">
+            {% endif %}
+
+            <div class="rank-text">
+
+                {% if book %}
+                    <div class="rank-title">
+                        <a href="{{ book.url }}">
+                            {{ item.title }}
+                        </a>
+                    </div>
+                {% else %}
+                    <div class="rank-title">
+                        {{ item.title }}
+                    </div>
+                {% endif %}
+
+                <div class="rank-meta">
+                    {{ item.series }}
+                    {% if item.seriesNumber %}
+                        #{{ item.seriesNumber }}
+                    {% endif %}
+                    —
+                    {{ item.author }}
+                </div>
+
+                <div class="rank-extra">
+                    {{ item.format }}
+                    {% if item.type %}
+                        · {{ item.type }}
+                    {% endif %}
+                    {% if item.pages %}
+                        · {{ item.pages }} pages
+                    {% endif %}
+                </div>
+
+            </div>
+
+        </div>
+
+    </li>
+{% endfor %}

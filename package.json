@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "export": "ts-node bookExportScript.ts",
+    "export": "ts-node exportScripts/bookExportScript.ts",
+    "exportInventory": "ts-node exportScripts/inventoryExportScript.ts",
+    "exportAll": "ts-node exportScripts/exportAll.ts",
     "dev": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
