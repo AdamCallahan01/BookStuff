@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "YA"
 isbn: "9780142416891"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "archenemy-beddor-summary"
 summarySlugLink: "[[archenemy-beddor-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 3
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 3
+allScores: [3]
 readSlugs: ["archenemy-beddor-1"]
 readSlugsLinks: ["[[archenemy-beddor-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "archenemy-beddor-cover"
 ---
 

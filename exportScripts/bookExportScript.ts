@@ -204,7 +204,7 @@ async function getCover(
   console.log(`Saved cover for ${slug}`);
 }
 
-async function run(): Promise<void> {
+export async function runBookExport(): Promise<void> {
   const rows = await fetchSheet();
   const bookMap = new Map<string, SheetRow[]>();
 
@@ -394,7 +394,7 @@ async function run(): Promise<void> {
   }
 }
 
-run().catch((err) => {
+runBookExport().catch((err) => {
   console.error(err);
   process.exit(1);
 });

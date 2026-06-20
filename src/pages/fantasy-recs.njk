@@ -14,6 +14,7 @@ title: Fantasy Recommendations
   {% for genre in genres %}
     <section class="genre-section">
       <h2 class="genre-title">{{ genre.name }}</h2>
+      <h3 class="genre-description">{{ genre.description }}</h3>
 
       <ul class="series-list">
         {% for item in genre.series %}

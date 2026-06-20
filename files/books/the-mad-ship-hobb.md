@@ -17,7 +17,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780006498865"
 bookOwned: true
-otherSeries: "Realm of the Elderlings"
+otherSeries: "The Realm of the Elderlings"
 hasSummary: true
 summarySlug: "the-mad-ship-hobb-summary"
 summarySlugLink: "[[the-mad-ship-hobb-summary]]"

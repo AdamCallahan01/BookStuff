@@ -187,10 +187,21 @@ const filterConfig = {
     state: "series",
     default: "",
     control: "select",
-    dataKey: "series",
+    dataKey: ["series", "otherseries"],
     sidebar: null,
     filter: (item, value) =>
       !value || item.series === value || item.otherseries === value,
+  },
+
+  genre: {
+    element: "genreFilter",
+    state: "genre",
+    default: "",
+    control: "select",
+    dataKey: ["genre", "subgenre"],
+    sidebar: null,
+    filter: (item, value) =>
+      !value || item.genre === value || item.subgenre === value,
   },
 
   yearRead: {
@@ -398,26 +409,26 @@ for (const key in filterConfig) {
     elementMap[elId] = document.getElementById(elId);
     elementMap[elId + "Parent"] = document.getElementById(elId + "Parent");
   }
-
-  elementMap["bookNumberLabel"] = document.getElementById("bookNumberLabel");
-  elementMap["pageCountLabel"] = document.getElementById("pageCountLabel");
-  elementMap["pageAverageLabel"] = document.getElementById("pageAverageLabel");
-  elementMap["scoreAverageLabel"] =
-    document.getElementById("scoreAverageLabel");
-  elementMap["pageTitle"] = document.getElementById("pageTitle");
 }
+elementMap["bookNumberLabel"] = document.getElementById("bookNumberLabel");
+elementMap["pageCountLabel"] = document.getElementById("pageCountLabel");
+elementMap["pageAverageLabel"] = document.getElementById("pageAverageLabel");
+elementMap["scoreAverageLabel"] = document.getElementById("scoreAverageLabel");
+elementMap["pageTitle"] = document.getElementById("pageTitle");
 
 /////////////////////////////////////////////////////////////////////////////
 //Populate dropdowns
-const populateSelect = (data, key, selectEl) => {
-  [...new Set(data.map((item) => item[key]).filter(Boolean))]
-    .sort()
-    .forEach((value) => {
-      const opt = document.createElement("option");
-      opt.value = value;
-      opt.textContent = value;
-      selectEl.appendChild(opt);
-    });
+const populateSelect = (data, keys, selectEl) => {
+  const values = (Array.isArray(keys) ? keys : [keys])
+    .flatMap((key) => data.map((item) => item[key]))
+    .filter(Boolean);
+
+  [...new Set(values)].sort().forEach((value) => {
+    const opt = document.createElement("option");
+    opt.value = value;
+    opt.textContent = value;
+    selectEl.appendChild(opt);
+  });
 };
 
 Object.values(filterConfig)

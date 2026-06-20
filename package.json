@@ -6,6 +6,9 @@
     "build": "npx @11ty/eleventy",
     "export": "ts-node exportScripts/bookExportScript.ts",
     "exportInventory": "ts-node exportScripts/inventoryExportScript.ts",
+    "exportLists": "ts-node exportScripts/listExportScript.ts",
+    "exportWords": "ts-node exportScripts/wordExportScript.ts",
+    "exportTrivia": "ts-node exportScripts/triviaExportScript.ts",
     "exportAll": "ts-node exportScripts/exportAll.ts",
     "dev": "npx @11ty/eleventy --serve"
   },

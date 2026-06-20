@@ -13,7 +13,7 @@ publisher: "DAW"
 goodreads: "https://www.goodreads.com/book/show/42298449-howling-dark"
 avgGoodreadsRating: "8.74"
 numGoodreadsRatings: "12488"
-genre: "Sci-Fantasy"
+genre: "Science Fiction"
 subgenre: "Space Opera"
 isbn: "9780756413057"
 bookOwned: false
