@@ -66,7 +66,7 @@ async function fetchSheet(): Promise<InventoryRow[]> {
   }) as InventoryRow[];
 }
 
-async function run(): Promise<void> {
+export async function runInventoryExport(): Promise<void> {
   const rows = await fetchSheet();
 
   const inventory: InventoryItem[] = rows
@@ -107,7 +107,7 @@ async function run(): Promise<void> {
   console.log(`Exported ${inventory.length} inventory items.`);
 }
 
-run().catch((err) => {
+runInventoryExport().catch((err) => {
   console.error(err);
   process.exit(1);
 });

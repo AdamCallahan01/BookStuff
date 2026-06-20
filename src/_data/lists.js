@@ -1,8 +1,8 @@
 export default [
   {
-    title: "Favorite Books",
-    isSeries: false,
-    items: [
+    "title": "Favorite Books",
+    "isSeries": false,
+    "items": [
       "The Crippled God",
       "Assassin's Quest",
       "The Republic of Thieves",
@@ -24,6 +24,7 @@ export default [
       "The Hero of Ages",
       "Wintersteel",
       "The Blade Itself",
+      "The Mad Ship",
       "The Blackest Heart",
       "Deadhouse Gates",
       "Shadows Upon Time",
@@ -55,7 +56,6 @@ export default [
       "Howl's Moving Castle",
       "The Final Empire",
       "Harry Potter and the Half-Blood Prince",
-      "The Lord of the Rings",
       "Mother of Learning: ARC 3",
       "Ghostwater",
       "Harry Potter and the Deathly Hallows",
@@ -80,12 +80,14 @@ export default [
       "The Heroes",
       "Exile",
       "The Palace Job",
+      "The Rage of Dragons",
       "The Lonesome Crown",
       "The Ruins of Gorlan",
       "1984",
       "Harry Potter and the Prisoner of Azkaban",
       "Reaper",
       "The Thief",
+      "Mother of Learning: ARC 2",
       "The Four-Part Key",
       "Blood of Liscor",
       "The Sword of Kaigen",
@@ -106,13 +108,13 @@ export default [
       "Ready Player One",
       "Orconomics",
       "Piranesi",
-      "Of Blood and Fire",
-    ],
+      "Of Blood and Fire"
+    ]
   },
   {
-    title: "Favorite Series",
-    isSeries: true,
-    items: [
+    "title": "Favorite Series",
+    "isSeries": true,
+    "items": [
       "Malazan Book of the Fallen",
       "The Realm of the Elderlings",
       "First Law",
@@ -120,11 +122,12 @@ export default [
       "The Kingkiller Chronicle",
       "The Sun Eater",
       "The Wandering Inn",
+      "The Bound and the Broken",
       "Cosmere",
       "The Queen's Thief",
       "Cradle",
       "The Five Warrior Angels",
-      "The Bound and the Broken",
+      "Empire of the Vampire",
       "Mother of Learning",
       "The Aldoran Chronicles",
       "Hierarchy",
@@ -139,13 +142,13 @@ export default [
       "Harry Potter",
       "Shattered Sea",
       "The Legend of Drizzt",
-      "The Maze Runner",
-    ],
+      "The Maze Runner"
+    ]
   },
   {
-    title: "Favorite Standalones",
-    isSeries: false,
-    items: [
+    "title": "Favorite Standalones",
+    "isSeries": false,
+    "items": [
       "Babel",
       "The Hobbit",
       "The Silence of the Lambs",
@@ -155,13 +158,26 @@ export default [
       "Project Hail Mary",
       "Howl's Moving Castle",
       "1984",
-      "Between Two Fires",
-    ],
+      "Between Two Fires"
+    ]
   },
   {
-    title: "Less Popular Series",
-    isSeries: true,
-    items: [
+    "title": "Favorite Trilogies",
+    "isSeries": true,
+    "items": [
+      "The Farseer Trilogy",
+      "Kingdom of Grit",
+      "Mistborn",
+      "The Five Warrior Angels",
+      "The Age of Madness",
+      "The Siege",
+      "Empire of the Vampire"
+    ]
+  },
+  {
+    "title": "Best Lesser Known",
+    "isSeries": true,
+    "items": [
       "Kingdom of Grit",
       "The Bards and Dragons Saga",
       "The Wandering Inn",
@@ -171,53 +187,40 @@ export default [
       "Mother of Learning",
       "Mark of the Fool",
       "The Siege",
-      "The Ripple System",
-    ],
+      "The Ripple System"
+    ]
   },
   {
-    title: "Favorite Trilogies",
-    isSeries: true,
-    items: [
-      "The Farseer Trilogy",
-      "Kingdom of Grit",
-      "Mistborn",
-      "The Five Warrior Angels",
-      "The Age of Madness",
-      "The Siege",
-      "Empire of the Vampire",
-    ],
-  },
-  {
-    title: "Harry Potter Ranked",
-    isSeries: false,
-    items: [
+    "title": "Harry Potter Ranked",
+    "isSeries": false,
+    "items": [
       "Harry Potter and the Half-Blood Prince",
       "Harry Potter and the Deathly Hallows",
       "Harry Potter and the Prisoner of Azkaban",
       "Harry Potter and the Sorcerer's Stone",
       "Harry Potter and the Order of the Phoenix",
       "Harry Potter and the Goblet of Fire",
-      "Harry Potter and the Chamber of Secrets",
-    ],
+      "Harry Potter and the Chamber of Secrets"
+    ]
   },
   {
-    title: "Narnia Ranked",
-    isSeries: false,
-    items: [
+    "title": "Narnia Ranked",
+    "isSeries": false,
+    "items": [
       "The Horse and His Boy",
       "The Voyage of the Dawn Treader",
       "The Lion, The Witch and the Wardrobe",
       "The Magician's Nephew",
       "The Last Battle",
       "Prince Caspian",
-      "The Silver Chair",
-    ],
+      "The Silver Chair"
+    ]
   },
   {
-    title: "Malazan Ranked",
-    isSeries: false,
-    items: [
-      "Crippled God",
+    "title": "Malazan Ranked",
+    "isSeries": false,
+    "items": [
+      "The Crippled God",
       "Memories of Ice",
       "The Bonehunters",
       "Deadhouse Gates",
@@ -226,38 +229,38 @@ export default [
       "Gardens of the Moon",
       "Reaper's Gale",
       "Dust of Dreams",
-      "Midnight Tides",
-    ],
+      "Midnight Tides"
+    ]
   },
   {
-    title: "Queen's Thief Ranked",
-    isSeries: false,
-    items: [
+    "title": "Queen's Thief Ranked",
+    "isSeries": false,
+    "items": [
       "The King of Attolia",
       "Return of the Thief",
       "The Queen of Attolia",
       "The Thief",
       "Thick as Thieves",
-      "The Conspiracy of Kings",
-    ],
+      "The Conspiracy of Kings"
+    ]
   },
   {
-    title: "Sun Eater Ranked",
-    isSeries: false,
-    items: [
+    "title": "Sun Eater Ranked",
+    "isSeries": false,
+    "items": [
       "Demon in White",
       "Shadows Upon Time",
       "Howling Dark",
       "Disquiet Gods",
       "Kingdoms of Death",
       "Empire of Silence",
-      "Ashes of Man",
-    ],
+      "Ashes of Man"
+    ]
   },
   {
-    title: "Wandering Inn Ranked",
-    isSeries: false,
-    items: [
+    "title": "The Wandering Inn Ranked",
+    "isSeries": false,
+    "items": [
       "The Last Light",
       "King of Duels",
       "Hell's Wardens",
@@ -275,13 +278,13 @@ export default [
       "Winter Solstice",
       "Lady of Fire",
       "The Wind Runner",
-      "The Witch of Webs",
-    ],
+      "The Witch of Webs"
+    ]
   },
   {
-    title: "Cosmere Ranked",
-    isSeries: false,
-    items: [
+    "title": "Cosmere Ranked",
+    "isSeries": false,
+    "items": [
       "Words of Radiance",
       "The Way of Kings",
       "The Hero of Ages",
@@ -303,13 +306,13 @@ export default [
       "The Sunlit Man",
       "Yumi and the Nightmare painter",
       "White Sand",
-      "Edgedancer",
-    ],
+      "Edgedancer"
+    ]
   },
   {
-    title: "My Cosmere Reading Order",
-    isSeries: false,
-    items: [
+    "title": "Cosmere Reading Order",
+    "isSeries": false,
+    "items": [
       "The Final Empire",
       "The Well of Ascension",
       "The Hero of Ages",
@@ -330,13 +333,13 @@ export default [
       "Tress of the Emerald Sea",
       "The Sunlit Man",
       "Yumi and the Nightmare painter",
-      "Wind and Truth",
-    ],
+      "Wind and Truth"
+    ]
   },
   {
-    title: "Cradle Ranked",
-    isSeries: false,
-    items: [
+    "title": "Cradle Ranked",
+    "isSeries": false,
+    "items": [
       "Wintersteel",
       "Uncrowned",
       "Ghostwater",
@@ -348,13 +351,13 @@ export default [
       "Skysworn",
       "Soulsmith",
       "Dreadgod",
-      "Waybound",
-    ],
+      "Waybound"
+    ]
   },
   {
-    title: "Favorite Video Games",
-    isSeries: false,
-    items: [
+    "title": "Favorite Video Games",
+    "isSeries": false,
+    "items": [
       "Talos Principle 1&2",
       "DOS2 & BG3",
       "Skyrim",
@@ -368,7 +371,7 @@ export default [
       "Lego Marvel Superheros",
       "Infinity Blade",
       "Little Big Planet",
-      "Smash Melee",
-    ],
-  },
+      "Smash"
+    ]
+  }
 ];

@@ -151,6 +151,54 @@ export default function (eleventyConfig) {
     });
   });
 
+  // Genre Collection
+  function getAllGenres(book) {
+    const primary = book.data.genre;
+    const secondary = book.data.subgenre;
+
+    const result = [];
+
+    if (primary) result.push(primary);
+
+    if (secondary) {
+      if (Array.isArray(secondary)) {
+        result.push(...secondary);
+      } else {
+        result.push(secondary);
+      }
+    }
+
+    return result;
+  }
+
+  eleventyConfig.addCollection("genres", function (collectionApi) {
+    const books = collectionApi.getFilteredByGlob("files/books/*.md");
+
+    const genreMap = new Map();
+
+    books.forEach((book) => {
+      const genreList = getAllGenres(book);
+
+      genreList.forEach((genreName) => {
+        if (!genreName) return;
+
+        if (!genreMap.has(genreName)) {
+          genreMap.set(genreName, {
+            name: genreName,
+          });
+        }
+
+        const entry = genreMap.get(genreName);
+      });
+    });
+
+    return Array.from(genreMap.values()).map((genre) => {
+      return {
+        name: genre.name,
+      };
+    });
+  });
+
   eleventyConfig.addPassthroughCopy("files/covers");
 
   //Favicon

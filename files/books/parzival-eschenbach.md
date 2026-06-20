@@ -13,8 +13,8 @@ publisher: "Penguin"
 goodreads: "https://www.goodreads.com/book/show/560089.Parzival?ref=nav_sb_ss_1_8"
 avgGoodreadsRating: "7.48"
 numGoodreadsRatings: "3737"
-genre: "Chivalric Romance"
-subgenre: "Mythology"
+genre: "Fiction"
+subgenre: "Medieval"
 isbn: "9780140443615"
 bookOwned: true
 hasSummary: false

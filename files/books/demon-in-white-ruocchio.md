@@ -13,7 +13,7 @@ publisher: "Gollancz"
 goodreads: "goodreads.com/book/show/48982144-demon-in-white"
 avgGoodreadsRating: "9.24"
 numGoodreadsRatings: "9927"
-genre: "Sci-Fantasy"
+genre: "Science Fiction"
 subgenre: "Space Opera"
 isbn: "9780756413064"
 bookOwned: false
