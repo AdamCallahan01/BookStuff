@@ -12,7 +12,7 @@ yearPublished: 2009
 publisher: "Dial Books"
 goodreads: "https://www.goodreads.com/book/show/7804936-archenemy"
 avgGoodreadsRating: "7.88"
-numGoodreadsRatings: "12,022"
+numGoodreadsRatings: "12022"
 genre: "Fantasy"
 subgenre: "YA"
 isbn: "9780142416891"

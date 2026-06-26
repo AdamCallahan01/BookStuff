@@ -4,7 +4,7 @@ summarySlug: "the-gate-of-the-feral-gods-dinniman-summary"
 book: "[[the-gate-of-the-feral-gods-dinniman]]"
 ---
 
-The Gate of the Farl Gods
+The Gate of the Feral Gods
 Matt DInniman
 DCC #4
 

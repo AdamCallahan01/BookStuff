@@ -1,63 +1,170 @@
-// 1. Get grid of cards and make data index
-const grid = document.querySelector(".book-grid");
-const cards = Array.from(grid.children);
+// ─── 1. Parse JSON data island ───────────────────────────────────────────────
 
-// Remove all from DOM
-grid.innerHTML = "";
+const rawData = JSON.parse(document.getElementById("bookData").textContent);
 
-const dataIndex = cards.map((el) => {
-  const data = el.dataset;
+const formatIcons = {
+  audible: "🎧",
+  book: "📖",
+  online: "🌐",
+  kindle: "📱",
+};
 
-  const score = parseFloat(data.score || data.averagescore || 0);
-  const hasScore = data.hasscore !== "false";
-  const hasSummary = data.hassummary === "true";
-  const hasReview = data.hasreview === "true";
-  const isOwned = data.owned === "true";
+// ─── 2. Build data index from JSON ───────────────────────────────────────────
+
+const dataIndex = [...rawData.books, ...rawData.reads, ...rawData.series, ...rawData.authors].map((item) => {
+  const score = parseFloat(item.score || item.averageScore || 0);
+  const hasScore = item.hasScore !== false && item.hasScore !== "false";
+  const hasSummary = item.hasSummary === true || item.hasSummary === "true";
+  const hasReview = item.hasReview === true || item.hasReview === "true";
+  const isOwned = item.bookOwned === true || item.bookOwned === "true";
 
   let timestamp = null;
-
-  if (data.datefinished) {
-    const [month, day, year] = data.datefinished.split("/").map(Number);
+  if (item.dateFinished) {
+    const [month, day, year] = item.dateFinished.split("/").map(Number);
     timestamp = new Date(year, month - 1, day).getTime();
   }
 
-  const year = Number(data.yearread) || 0;
+  const yearRead = Number(item.yearRead) || 0;
 
   return {
-    el,
-    ...data,
+    // Keep all original fields for rendering
+    ...item,
+    // Normalise keys to lowercase to match original data-* behaviour
+    title: (item.title || item.name || "").toLowerCase(),
+    author: (item.author || "").toLowerCase(),
+    series: (item.series || "").toLowerCase(),
+    otherseries: (item.otherSeries || "").toLowerCase(),
+    genre: (item.genre || "").toLowerCase(),
+    subgenre: (item.subgenre || "").toLowerCase(),
+    publisher: (item.publisher || "").toLowerCase(),
+    format: (item.format || "").toLowerCase(),
+    avggoodreadsrating: item.avgGoodreadsRating || 0,
+    numgoodreadsratings: item.numGoodreadsRatings || 0,
+    yearpublished: item.yearPublished || 0,
+    yearread: String(item.yearRead || ""),
+    seriesnumber: Number(item.seriesNumber) || 0,
+    // Computed fields
     _score: isNaN(score) ? 0 : score,
-    _hasScore: Boolean(hasScore),
-    _hasSummary: Boolean(hasSummary),
-    _hasReview: Boolean(hasReview),
-    _isOwned: Boolean(isOwned),
-    _timestampSort: timestamp ?? (year ? new Date(year, 0, 1).getTime() : 0),
-    series: data.series || "",
-    seriesNumber: Number(data.seriesnumber) || 0,
-    pages: Number(data.pages) || 0,
-    count: Number(data.count) || 0,
+    _hasScore: hasScore,
+    _hasSummary: hasSummary,
+    _hasReview: hasReview,
+    _isOwned: isOwned,
+    _timestampSort: timestamp ?? (yearRead ? new Date(yearRead, 0, 1).getTime() : 0),
+    // Keep numeric versions for sliders/sort
+    pages: Number(item.pages) || 0,
+    count: Number(item.count) || 0,
+    seriesNumber: Number(item.seriesNumber) || 0,
+    averagescore: Number(item.averageScore) || 0,
+    latestscore: Number(item.latestScore) || 0,
+    days: Number(item.days) || 0,
+    // Build the DOM element lazily (cached after first render)
+    _el: null,
   };
 });
 
-///////////////////////////////////////////////////////////////////////////
-// 2. Establish filter config, this will create default state and save current filtering state
-// Defaults:
-//   view: "books",
-//   search: "",
-//   searchTitle: "true",
-//   searchAuthor: "true",
-//   searchFalse: "true",
-//   author: "",
-//   series: "",
-//   minScore: 0,
-//   maxScore: 10,
-//   Num of reads Sliders
-//   Series order / number
-//   length (pages)
-//   year released
-// Sorting:
-//   sortField: "title",
-//   sortDir: "asc" //Ascending
+// ─── 3. Card rendering ───────────────────────────────────────────────────────
+
+const coverMeta = JSON.parse(document.getElementById("coverMetaData").textContent);
+
+function coverImg(slug, title, extraClass = "") {
+  if (!slug) return "";
+
+  const meta = coverMeta[slug] || { small: 200, large: 400 };
+  const s = meta.small;
+  const l = meta.large;
+
+  return `<picture>
+    <source type="image/avif" srcset="/files/covers/optimized/${slug}-${s}.avif ${s}w, /files/covers/optimized/${slug}-${l}.avif ${l}w" sizes="200px">
+    <source type="image/webp" srcset="/files/covers/optimized/${slug}-${s}.webp ${s}w, /files/covers/optimized/${slug}-${l}.webp ${l}w" sizes="200px">
+    <img
+      src="/files/covers/optimized/${slug}-${s}.jpeg"
+      alt="${title} cover"
+      loading="lazy"
+      decoding="async"
+      class="book-cover${extraClass ? " " + extraClass : ""}"
+    >
+  </picture>`;
+}
+
+function mosaicHTML(covers, altPrefix) {
+  const n = Math.min(covers.length, 4);
+  if (n === 0) return "";
+
+  if (n === 1) {
+    return `<div class="mosaic mosaic-1">${coverImg(covers[0], altPrefix + " 1")}</div>`;
+  }
+  if (n === 2) {
+    return `<div class="mosaic mosaic-2">
+      ${coverImg(covers[0], altPrefix + " 1")}
+      ${coverImg(covers[1], altPrefix + " 2")}
+    </div>`;
+  }
+  if (n === 3) {
+    return `<div class="mosaic mosaic-3">
+      <div class="mosaic-left">${coverImg(covers[0], altPrefix + " 1")}</div>
+      <div class="mosaic-right">
+        ${coverImg(covers[1], altPrefix + " 2")}
+        ${coverImg(covers[2], altPrefix + " 3")}
+      </div>
+    </div>`;
+  }
+  // n === 4
+  return `<div class="mosaic mosaic-4">
+    ${coverImg(covers[0], altPrefix + " 1")}
+    ${coverImg(covers[1], altPrefix + " 2")}
+    ${coverImg(covers[2], altPrefix + " 3")}
+    ${coverImg(covers[3], altPrefix + " 4")}
+  </div>`;
+}
+
+function createCard(item) {
+  // Cache the element so we don't recreate it on every render
+  if (item._el) return item._el;
+
+  const a = document.createElement("a");
+  a.href = item.url;
+  a.className = "card book-card";
+
+  let imageHTML = "";
+  let overlayHTML = "";
+  let titleText = "";
+  let subtitleText = "";
+
+  if (item.type === "book") {
+    imageHTML = item.coverSlug ? coverImg(item.coverSlug, item.title) : "";
+    overlayHTML = `⭐ ${item._hasScore ? item.averagescore : "N/A"} | 📖 ${item.count || 0}`;
+    titleText = item.title;
+    subtitleText = item.author;
+  } else if (item.type === "read") {
+    imageHTML = item.coverSlug ? coverImg(item.coverSlug, item.title) : "";
+    const icon = formatIcons[item.format] || "❓";
+    overlayHTML = `⭐ ${item._hasScore ? item.averagescore : "N/A"} | 📅 ${item.dateFinished} | ${icon}`;
+    titleText = item.title;
+    subtitleText = item.author;
+  } else if (item.type === "series") {
+    imageHTML = mosaicHTML(item.covers || [], item.name);
+    overlayHTML = `⭐ ${item.averagescore || "N/A"} | 📅 ${item.count}`;
+    titleText = item.name;
+    subtitleText = item.author;
+  } else if (item.type === "author") {
+    imageHTML = mosaicHTML(item.covers || [], item.name);
+    overlayHTML = `⭐ ${item.averagescore || "N/A"} | 📅 ${item.count}`;
+    titleText = item.name;
+    subtitleText = "";
+  }
+
+  a.innerHTML = `
+    ${imageHTML}
+    <div class="overlay">${overlayHTML}</div>
+    <h3 class="book-title">${titleText}</h3>
+    ${subtitleText ? `<p class="book-author">${subtitleText}</p>` : ""}
+  `;
+
+  item._el = a;
+  return a;
+}
+
+// ─── 4. Filter config (unchanged from original) ───────────────────────────────
 
 const filterConfig = {
   view: {
@@ -66,9 +173,7 @@ const filterConfig = {
     default: "book",
     control: "primary",
     sidebar: null,
-    filter: (item, value) => {
-      return value === item.type;
-    },
+    filter: (item, value) => value === item.type,
   },
 
   search: {
@@ -79,16 +184,12 @@ const filterConfig = {
     sidebar: null,
     filter: (item, value) => {
       if (!value) return true;
-
       const search = value.toLowerCase();
-
       const fields = [];
       if (state.searchTitle) fields.push(item.title || "");
       if (state.searchAuthor) fields.push(item.author || "");
       if (state.searchSeries) fields.push(item.series || "");
-
       if (fields.length === 0) return false;
-
       return fields.join(" ").toLowerCase().includes(search);
     },
   },
@@ -127,10 +228,7 @@ const filterConfig = {
     default: false,
     control: "checkbox",
     sidebar: ["book", "read", "series", "author"],
-    filter: (item, value) => {
-      if (value) return item._hasScore;
-      return true;
-    },
+    filter: (item, value) => (!value ? true : item._hasScore),
   },
 
   mustHaveSummary: {
@@ -140,10 +238,7 @@ const filterConfig = {
     default: false,
     control: "checkbox",
     sidebar: ["book", "read"],
-    filter: (item, value) => {
-      if (value) return item._hasSummary;
-      return true;
-    },
+    filter: (item, value) => (!value ? true : item._hasSummary),
   },
 
   mustHaveReview: {
@@ -153,10 +248,7 @@ const filterConfig = {
     default: false,
     control: "checkbox",
     sidebar: ["read"],
-    filter: (item, value) => {
-      if (value) return item._hasReview;
-      return true;
-    },
+    filter: (item, value) => (!value ? true : item._hasReview),
   },
 
   mustBeOwned: {
@@ -166,10 +258,7 @@ const filterConfig = {
     default: false,
     control: "checkbox",
     sidebar: ["book", "read"],
-    filter: (item, value) => {
-      if (value) return item._isOwned;
-      return true;
-    },
+    filter: (item, value) => (!value ? true : item._isOwned),
   },
 
   author: {
@@ -189,8 +278,7 @@ const filterConfig = {
     control: "select",
     dataKey: ["series", "otherseries"],
     sidebar: null,
-    filter: (item, value) =>
-      !value || item.series === value || item.otherseries === value,
+    filter: (item, value) => !value || item.series === value || item.otherseries === value,
   },
 
   genre: {
@@ -200,8 +288,7 @@ const filterConfig = {
     control: "select",
     dataKey: ["genre", "subgenre"],
     sidebar: null,
-    filter: (item, value) =>
-      !value || item.genre === value || item.subgenre === value,
+    filter: (item, value) => !value || item.genre === value || item.subgenre === value,
   },
 
   yearRead: {
@@ -245,7 +332,7 @@ const filterConfig = {
     stateMax: "maxPages",
     field: "pages",
     defaultMin: 0,
-    defaultMax: null, // filled dynamically
+    defaultMax: null,
     sidebar: ["book", "read", "series", "author"],
     filter: (item, min, max) => item.pages >= min && item.pages <= max,
   },
@@ -280,75 +367,21 @@ const filterConfig = {
   },
 };
 
-// Define state
-const state = Object.fromEntries(
-  Object.values(filterConfig).map((cfg) => [cfg.state, cfg.default]),
-);
+const state = Object.fromEntries(Object.values(filterConfig).map((cfg) => [cfg.state, cfg.default]));
 
-////////////////////////////////////////////////////////////////////////////////
-// Sort config
+// ─── 5. Sort config (unchanged) ───────────────────────────────────────────────
 
 const sortConfig = {
-  title: {
-    key: "title",
-    type: "string",
-    label: "Title",
-    views: ["book", "read", "series", "author"],
-  },
-  author: {
-    key: "author",
-    type: "string",
-    label: "Author",
-    views: ["book", "read", "series", "author"],
-  },
-  score: {
-    key: "_score",
-    type: "number",
-    label: "Score",
-    views: ["read"],
-  },
-  averagescore: {
-    key: "averagescore",
-    type: "number",
-    label: "Average Score",
-    views: ["book", "series", "author"],
-  },
-  series: {
-    key: "series",
-    type: "series",
-    label: "Series",
-    views: ["book", "read"],
-  },
-  dateFinished: {
-    key: "dateFinished",
-    type: "date",
-    label: "Date Finished",
-    views: ["read"],
-  },
-  count: {
-    key: "count",
-    type: "number",
-    label: "Count",
-    views: ["book", "series", "author"],
-  },
-  pages: {
-    key: "pages",
-    type: "number",
-    label: "Pages",
-    views: ["book", "read", "series", "author"],
-  },
-  days: {
-    key: "days",
-    type: "number",
-    label: "Days to read",
-    views: ["read"],
-  },
-  yearPublished: {
-    key: "yearpublished",
-    type: "number",
-    label: "Year Published",
-    views: ["book", "read"],
-  },
+  title: { key: "title", type: "string", label: "Title", views: ["book", "read", "series", "author"] },
+  author: { key: "author", type: "string", label: "Author", views: ["book", "read", "series", "author"] },
+  score: { key: "_score", type: "number", label: "Score", views: ["read"] },
+  averagescore: { key: "averagescore", type: "number", label: "Average Score", views: ["book", "series", "author"] },
+  series: { key: "series", type: "series", label: "Series", views: ["book", "read"] },
+  dateFinished: { key: "dateFinished", type: "date", label: "Date Finished", views: ["read"] },
+  count: { key: "count", type: "number", label: "Count", views: ["book", "series", "author"] },
+  pages: { key: "pages", type: "number", label: "Pages", views: ["book", "read", "series", "author"] },
+  days: { key: "days", type: "number", label: "Days to read", views: ["read"] },
+  yearPublished: { key: "yearpublished", type: "number", label: "Year Published", views: ["book", "read"] },
   goodreadsScore: {
     key: "avggoodreadsrating",
     type: "number",
@@ -364,65 +397,53 @@ const sortConfig = {
 };
 
 function buildComparator({ key, type }) {
-  if (type === "string") {
-    return (a, b) => a[key].localeCompare(b[key]);
-  } else if (type === "series") {
+  if (type === "string") return (a, b) => (a[key] || "").localeCompare(b[key] || "");
+  if (type === "series") {
     return (a, b) => {
-      const s = a.series.localeCompare(b.series);
+      const s = (a.series || "").localeCompare(b.series || "");
       if (s !== 0) return s;
       return a.seriesNumber - b.seriesNumber;
     };
-  } else if (type === "date") {
-    return (a, b) => a._timestampSort - b._timestampSort;
   }
-  return (a, b) => a[key] - b[key];
+  if (type === "date") return (a, b) => a._timestampSort - b._timestampSort;
+  return (a, b) => (a[key] || 0) - (b[key] || 0);
 }
 
 function getAvailableSortOptions() {
-  const view = state.view;
-
-  return Object.entries(sortConfig).filter(
-    ([_, cfg]) => !cfg.views || cfg.views.includes(view),
-  );
+  return Object.entries(sortConfig).filter(([_, cfg]) => !cfg.views || cfg.views.includes(state.view));
 }
 
 const defaultSortByView = {
-  books: "title",
-  reads: "dateFinished",
-  authors: "author",
+  book: "title",
+  read: "dateFinished",
+  author: "author",
   series: "title",
 };
 
-/////////////////////////////////////////////////////////////////////////
+// ─── 6. Element map ───────────────────────────────────────────────────────────
+
 const elementMap = {};
 
-// Fill Element Map
 for (const key in filterConfig) {
   const elId = filterConfig[key].element;
   const labelID = filterConfig[key].label;
-
-  if (labelID) {
-    elementMap[labelID] = document.getElementById(labelID);
-  }
-
+  if (labelID) elementMap[labelID] = document.getElementById(labelID);
   if (elId) {
     elementMap[elId] = document.getElementById(elId);
     elementMap[elId + "Parent"] = document.getElementById(elId + "Parent");
   }
 }
+
 elementMap["bookNumberLabel"] = document.getElementById("bookNumberLabel");
 elementMap["pageCountLabel"] = document.getElementById("pageCountLabel");
 elementMap["pageAverageLabel"] = document.getElementById("pageAverageLabel");
 elementMap["scoreAverageLabel"] = document.getElementById("scoreAverageLabel");
 elementMap["pageTitle"] = document.getElementById("pageTitle");
 
-/////////////////////////////////////////////////////////////////////////////
-//Populate dropdowns
-const populateSelect = (data, keys, selectEl) => {
-  const values = (Array.isArray(keys) ? keys : [keys])
-    .flatMap((key) => data.map((item) => item[key]))
-    .filter(Boolean);
+// ─── 7. Populate dropdowns ────────────────────────────────────────────────────
 
+const populateSelect = (data, keys, selectEl) => {
+  const values = (Array.isArray(keys) ? keys : [keys]).flatMap((key) => data.map((item) => item[key])).filter(Boolean);
   [...new Set(values)].sort().forEach((value) => {
     const opt = document.createElement("option");
     opt.value = value;
@@ -435,11 +456,11 @@ Object.values(filterConfig)
   .filter((cfg) => cfg.dataKey)
   .forEach((cfg) => {
     const el = document.getElementById(cfg.element);
-    populateSelect(dataIndex, cfg.dataKey, el);
+    if (el) populateSelect(dataIndex, cfg.dataKey, el);
   });
 
-////////////////////////////////////////////////////////////////////////////////
-//Sliders
+// ─── 8. Sliders ───────────────────────────────────────────────────────────────
+
 const boundsByView = {
   book: computeBoundsForView("book"),
   read: computeBoundsForView("read"),
@@ -447,19 +468,14 @@ const boundsByView = {
   author: computeBoundsForView("author"),
 };
 
-const bounds = boundsByView[state.view];
-
 function computeBoundsForView(view) {
   const items = dataIndex.filter((item) => item.type === view);
-
   let maxPages = 0;
   let maxCount = 0;
-
   for (const item of items) {
     maxPages = Math.max(maxPages, item.pages || 0);
     maxCount = Math.max(maxCount, item.count || 0);
   }
-
   return {
     score: { min: 0, max: 10 },
     pages: { min: 0, max: maxPages },
@@ -469,82 +485,51 @@ function computeBoundsForView(view) {
 
 function updateSliderRange() {
   for (const cfg of Object.values(filterConfig)) {
-    if (cfg.control === "slider") {
-      const slider = elementMap[cfg.element];
-      if (!slider) continue;
-
-      let min = cfg.defaultMin;
-      let max = cfg.defaultMax;
-
-      slider.noUiSlider.updateOptions({
-        range: { min, max },
-      });
-      slider.noUiSlider.set([min, max]);
-
-      const label = elementMap[cfg.label];
-      label.textContent = `${cfg.defaultMin} – ${cfg.defaultMax}`;
-    }
+    if (cfg.control !== "slider") continue;
+    const slider = elementMap[cfg.element];
+    if (!slider) continue;
+    slider.noUiSlider.updateOptions({ range: { min: cfg.defaultMin, max: cfg.defaultMax } });
+    slider.noUiSlider.set([cfg.defaultMin, cfg.defaultMax]);
+    const label = elementMap[cfg.label];
+    if (label) label.textContent = `${cfg.defaultMin} – ${cfg.defaultMax}`;
   }
 }
 
 function initializeSliderConfig(bounds) {
   for (const cfg of Object.values(filterConfig)) {
-    if (cfg.control === "slider") {
-      const b = bounds[cfg.field];
-
-      cfg.defaultMin = b.min;
-      cfg.defaultMax = b.max;
-
-      state[cfg.stateMin] = b.min;
-      state[cfg.stateMax] = b.max;
-    }
+    if (cfg.control !== "slider") continue;
+    const b = bounds[cfg.field];
+    cfg.defaultMin = b.min;
+    cfg.defaultMax = b.max;
+    state[cfg.stateMin] = b.min;
+    state[cfg.stateMax] = b.max;
   }
 }
 
-////////////////////////////////////////////////////////
-// View change
-// This is our primary filter control so it has more calls than most
+// ─── 9. View / sidebar / sort ─────────────────────────────────────────────────
+
 function handleViewChange() {
-  //console.log("View Changed");
   const bounds = boundsByView[state.view];
   initializeSliderConfig(bounds);
   updateSliderRange();
-
   resetSidebar();
   updateSortOptions();
   updateStateAndRender();
 }
 
-/////////////////////////////////////////////////////////////////////
-// Set all filters and control to their defaults
 function resetFilters() {
-  //console.log("reset filter");
-  // Object.values(filterConfig).forEach((cfg) => {
-  //   if (cfg.control === "slider") {
-  //     state[cfg.stateMin] = cfg.defaultMin;
-  //     state[cfg.stateMax] = cfg.defaultMax;
-  //   } else if (cfg.state) {
-  //     state[cfg.state] = cfg.default;
-  //   }
-  // });
   Object.values(filterConfig).forEach((cfg) => {
     state[cfg.state] = cfg.default;
   });
   handleViewChange();
 }
 
-// State should always be correct so match controls to current state
 function setControlsFromState() {
-  //console.log("Set controls from state");
   for (const cfg of Object.values(filterConfig)) {
     const { element, state: stateKey, control } = cfg;
-
     if (!element) continue;
-
-    //const el = document.getElementById(element);
     const el = elementMap[element];
     if (!el) continue;
-
     const value = state[stateKey];
 
     switch (control) {
@@ -553,50 +538,40 @@ function setControlsFromState() {
       case "primary":
         if (el.value !== value) el.value = value;
         break;
-
       case "checkbox":
         if (el.checked !== value) el.checked = value;
         break;
-
       case "number":
         if (Number(el.value) !== value) el.value = value;
         break;
-
-      case "slider":
+      case "slider": {
         const slider = el.noUiSlider;
         if (!slider) break;
-
         const current = slider.get().map((v) => Math.round(v));
-        if (
-          current[0] !== state[cfg.stateMin] ||
-          current[1] !== state[cfg.stateMax]
-        ) {
+        if (current[0] !== state[cfg.stateMin] || current[1] !== state[cfg.stateMax]) {
           slider.set([state[cfg.stateMin], state[cfg.stateMax]]);
-          // Update label
           const label = elementMap[cfg.label];
-          label.textContent = `${state[cfg.stateMin]} – ${state[cfg.stateMax]}`;
+          if (label) label.textContent = `${state[cfg.stateMin]} – ${state[cfg.stateMax]}`;
         }
         break;
+      }
     }
   }
 }
 
-// Connect our UI elements so they can change the state when user inputs
 function bindControls() {
-  //console.log("binding controls");
   const bounds = boundsByView[state.view];
   initializeSliderConfig(bounds);
 
-  //Hide all cards until we finish loading
   const grid = document.getElementById("booksView");
   grid.classList.add("show");
 
+  // Reset button
+  document.getElementById("filterResetButton")?.addEventListener("click", resetFilters);
+
   for (const cfg of Object.values(filterConfig)) {
     const { element, state: stateKey, control } = cfg;
-
-    // Skip non-DOM controls (handled separately)
     if (!element) continue;
-
     const el = document.getElementById(element);
     if (!el) continue;
 
@@ -613,76 +588,57 @@ function bindControls() {
           updateStateAndRender();
         });
         break;
-
       case "checkbox":
         el.addEventListener("change", () => {
           state[stateKey] = el.checked;
           updateStateAndRender();
         });
         break;
-
       case "select":
         el.addEventListener("change", () => {
           state[stateKey] = el.value;
           updateStateAndRender();
         });
         break;
-
       case "number":
         el.addEventListener("input", () => {
           state[stateKey] = Number(el.value);
           updateStateAndRender();
         });
         break;
-
-      case "slider":
+      case "slider": {
         const slider = document.getElementById(cfg.element);
-
-        // Update label
         const label = elementMap[cfg.label];
-        label.textContent = `${cfg.defaultMin} – ${cfg.defaultMax}`;
+        if (label) label.textContent = `${cfg.defaultMin} – ${cfg.defaultMax}`;
 
         noUiSlider.create(slider, {
           start: [state[cfg.stateMin], state[cfg.stateMax]],
           connect: true,
           step: 1,
-          range: {
-            min: cfg.defaultMin,
-            max: cfg.defaultMax,
-          },
+          range: { min: cfg.defaultMin, max: cfg.defaultMax },
         });
 
-        // "update" applies while draggin, "change" is when released
-        // Due to the number of pages, we need to have it be on change instead of update
-        let updateMethod = "update";
-        if (cfg.field === "pages") updateMethod = "change";
+        let updateMethod = cfg.field === "pages" ? "change" : "update";
 
         slider.noUiSlider.on(updateMethod, (values) => {
           const min = Math.round(values[0]);
           const max = Math.round(values[1]);
-
-          // Only trigger if value actually changed
           if (state[cfg.stateMin] !== min || state[cfg.stateMax] !== max) {
             state[cfg.stateMin] = min;
             state[cfg.stateMax] = max;
-
-            // Update label
-            const label = elementMap[cfg.label];
-            label.textContent = `${min} – ${max}`;
-
+            if (label) label.textContent = `${min} – ${max}`;
             updateStateAndRender();
           }
         });
-
         break;
+      }
     }
   }
 }
 
-/////////////////////////////////////////////////////////////////////////////
-// Sidebar
+// ─── 10. Sidebar ──────────────────────────────────────────────────────────────
+
 function resetSidebar() {
-  //console.log("resetSidebar");
   resetSidebarState();
   updateSidebarVisibility(state.view);
 }
@@ -692,10 +648,10 @@ function resetSidebarState() {
     const {
       state: stateKey,
       control: stateControl,
-      stateMax: stateMax,
-      stateMin: stateMin,
-      defaultMax: defaultMax,
-      defaultMin: defaultMin,
+      stateMax,
+      stateMin,
+      defaultMax,
+      defaultMin,
       default: defaultValue,
       sidebar,
     } = filterConfig[key];
@@ -711,29 +667,23 @@ function resetSidebarState() {
 
 function updateSidebarVisibility(view) {
   for (const key in filterConfig) {
-    const { sidebar, element, label } = filterConfig[key];
+    const { sidebar, element } = filterConfig[key];
     if (!sidebar || !element) continue;
-
     let el = elementMap[`${element}Parent`];
-    if (!el) el = elementMap[`${element}`];
+    if (!el) el = elementMap[element];
     if (!el) continue;
-
-    const isVisible = !sidebar || sidebar.includes(view);
-    el.classList.toggle("hidden", !isVisible);
+    el.classList.toggle("hidden", !sidebar.includes(view));
   }
 }
 
-//////////////////////////////////////////////////////////////
-// Sort UI
+// ─── 11. Sort UI ──────────────────────────────────────────────────────────────
+
 function updateSortOptions() {
   const select = elementMap["sortField"];
   if (!select) return;
 
   const options = getAvailableSortOptions();
-
-  // Clear existing
   select.innerHTML = "";
-
   options.forEach(([key, cfg]) => {
     const opt = document.createElement("option");
     opt.value = key;
@@ -741,11 +691,9 @@ function updateSortOptions() {
     select.appendChild(opt);
   });
 
-  // Ensure current selection is valid
   if (
     !sortConfig[state.sortField] ||
-    (sortConfig[state.sortField].views &&
-      !sortConfig[state.sortField].views.includes(state.view))
+    (sortConfig[state.sortField].views && !sortConfig[state.sortField].views.includes(state.view))
   ) {
     state.sortField = defaultSortByView[state.view] || options[0][0];
   }
@@ -753,242 +701,142 @@ function updateSortOptions() {
   select.value = state.sortField;
 }
 
-/////////////////////////////////////////////////////////////
-// Filter and Sort Logic
+// ─── 12. Filter and render ────────────────────────────────────────────────────
 
-// Exclude any items not matching current state, called by render()
 function getActiveFilters() {
   const filters = [];
-
   for (const cfg of Object.values(filterConfig)) {
     if (!cfg.filter) continue;
-
     if (cfg.control === "slider") {
       const min = state[cfg.stateMin];
       const max = state[cfg.stateMax];
-
       filters.push((item) => cfg.filter(item, min, max));
     } else {
       const value = state[cfg.state];
       filters.push((item) => cfg.filter(item, value));
     }
   }
-
   return filters;
 }
 
-// sort items by field and direction, called by render()
 function sortItems(items) {
   const { sortField, sortDir } = state;
-
   const comparator = buildComparator(sortConfig[sortField]);
-
   if (!comparator) return items;
-
   const sorted = [...items].sort(comparator);
-
   return sortDir === "desc" ? sorted.reverse() : sorted;
 }
 
-// Calls filter and sort, then displays book cards
 function render() {
   const grid = document.querySelector(".book-grid");
-
   const activeFilters = getActiveFilters();
-
-  const filtered = dataIndex.filter((item) =>
-    activeFilters.every((fn) => fn(item)),
-  );
-
+  const filtered = dataIndex.filter((item) => activeFilters.every((fn) => fn(item)));
   const sorted = sortItems(filtered);
-  const MAX_RENDER = 3000;
+  const visible = sorted.slice(0, 3000);
 
-  const visible = sorted.slice(0, MAX_RENDER);
-  //console.log(visible);
-
-  // Clear DOM
   grid.innerHTML = "";
-
   const fragment = document.createDocumentFragment();
-
-  visible.forEach((item) => {
-    fragment.appendChild(item.el);
-  });
-
+  visible.forEach((item) => fragment.appendChild(createCard(item)));
   grid.appendChild(fragment);
 
   updateLabels(filtered);
 }
 
-//////////////////////////////////////////////////////////////////////////////
-// Display Labels
+// ─── 13. Labels ───────────────────────────────────────────────────────────────
 
-//Labels to show various stats
 function updateLabels(filtered) {
-  const bookNumberLabel = elementMap["bookNumberLabel"];
-  const pageCountLabel = elementMap["pageCountLabel"];
-  const pageAverageLabel = elementMap["pageAverageLabel"];
-  const scoreAverageLabel = elementMap["scoreAverageLabel"];
-
   let totalScore = 0;
   let pageCount = 0;
-
-  for (i = 0; i < filtered.length; i++) {
-    totalScore += Number(filtered[i].averagescore);
-    pageCount += Number(filtered[i].pages);
+  for (const item of filtered) {
+    totalScore += Number(item.averagescore) || 0;
+    pageCount += Number(item.pages) || 0;
   }
 
-  if (bookNumberLabel && filtered)
-    bookNumberLabel.textContent = filtered.length;
-
-  if (pageCountLabel && filtered) pageCountLabel.textContent = pageCount;
-
-  if (pageAverageLabel && filtered)
-    pageAverageLabel.textContent = (pageCount / filtered.length).toFixed(2);
-
-  if (scoreAverageLabel && filtered)
-    scoreAverageLabel.textContent = (totalScore / filtered.length).toFixed(2);
+  if (elementMap["bookNumberLabel"]) elementMap["bookNumberLabel"].textContent = filtered.length;
+  if (elementMap["pageCountLabel"]) elementMap["pageCountLabel"].textContent = pageCount;
+  if (elementMap["pageAverageLabel"])
+    elementMap["pageAverageLabel"].textContent = filtered.length ? (pageCount / filtered.length).toFixed(2) : "0";
+  if (elementMap["scoreAverageLabel"])
+    elementMap["scoreAverageLabel"].textContent = filtered.length ? (totalScore / filtered.length).toFixed(2) : "0";
 
   updateTitle();
 }
 
-//Title of page
 function updateTitle() {
-  const series = elementMap["seriesFilter"].value;
-  const sort = elementMap["sortField"].value;
-
+  const series = elementMap["seriesFilter"]?.value;
+  const sort = elementMap["sortField"]?.value;
   let title = "All Books";
-
-  if (series) {
-    title = `Series: ${series}`;
-  } else if (sort === "averagescore") {
-    title = "Books by Average Score";
-  } else if (sort === "latestscore") {
-    title = "Books by Latest Score";
-  }
-
-  elementMap["pageTitle"].textContent = title;
+  if (series) title = `Series: ${series}`;
+  else if (sort === "averagescore") title = "Books by Average Score";
+  else if (sort === "latestscore") title = "Books by Latest Score";
+  if (elementMap["pageTitle"]) elementMap["pageTitle"].textContent = title;
 }
 
-////////////////////////////////////////////////////////////////////////////////////
-//URL logic
+// ─── 14. URL logic (unchanged) ────────────────────────────────────────────────
 
-// updates url with any filter and search fields
 function updateURL() {
-  //console.log("updateURL");
   const params = new URLSearchParams();
-
   for (const [param, cfg] of Object.entries(filterConfig)) {
     if (cfg.control === "slider") {
       const min = state[cfg.stateMin];
       const max = state[cfg.stateMax];
-
-      if (min !== cfg.defaultMin) {
-        params.set(`${param}Min`, min);
-      }
-
-      if (max !== cfg.defaultMax) {
-        params.set(`${param}Max`, max);
-      }
-
+      if (min !== cfg.defaultMin) params.set(`${param}Min`, min);
+      if (max !== cfg.defaultMax) params.set(`${param}Max`, max);
       continue;
     }
-
     const value = state[cfg.state];
-
-    if (value === null || value === "" || value === cfg.default) {
-      continue;
-    }
-
+    if (value === null || value === "" || value === cfg.default) continue;
     params.set(param, value);
   }
-
   history.replaceState(null, "", "?" + params.toString());
 }
 
-// Call when loading book page, check if we have a changed state and handle accordingly
 function setFiltersFromURL() {
-  //console.log("set filter from URL");
   const params = new URLSearchParams(window.location.search);
-
   for (const [param, cfg] of Object.entries(filterConfig)) {
     if (cfg.control === "slider") {
       const min = params.get(`${param}Min`);
       const max = params.get(`${param}Max`);
-
       state[cfg.stateMin] = min !== null ? Number(min) : cfg.defaultMin;
       state[cfg.stateMax] = max !== null ? Number(max) : cfg.defaultMax;
-
       continue;
     }
-
     let value = params.get(param);
-
-    if (value == null) {
-      value = cfg.default;
-    }
-
-    if (cfg.type === "number") {
-      value = Number(value);
-    }
-
-    if (cfg.control === "checkbox") {
-      value = value === "true" || value === true;
-    }
-
+    if (value == null) value = cfg.default;
+    if (cfg.type === "number") value = Number(value);
+    if (cfg.control === "checkbox") value = value === "true" || value === true;
     state[cfg.state] = value;
-    if (cfg.control === "primary") {
-      handleViewChange();
-    }
+    if (cfg.control === "primary") handleViewChange();
   }
 }
 
-///////////////////////////////////////////////////////////////////
-//Various buttons
-// Scroll to top button
+// ─── 15. Misc UI ──────────────────────────────────────────────────────────────
+
 const btn = document.getElementById("scrollTopBtn");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 200) {
-    btn.classList.add("show");
-  } else {
-    btn.classList.remove("show");
-  }
-});
-
-btn.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
+window.addEventListener("scroll", () => btn.classList.toggle("show", window.scrollY > 200));
+btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 
 const toggle = document.querySelector(".mobile-filter-toggle");
 const filters = document.querySelector(".filter-group");
-
 toggle.addEventListener("click", () => {
   const open = filters.classList.toggle("is-open");
-
   toggle.setAttribute("aria-expanded", open);
 });
 
-/////////////////////////////////////////////////////////////////////////////
-// 4. check if we have saved filters and initialize
+// ─── 16. Initialize ───────────────────────────────────────────────────────────
+
+function updateStateAndRender() {
+  setControlsFromState();
+  render();
+  updateURL();
+}
+
 function initialize() {
-  //console.log("Initializing");
   updateSortOptions();
   updateSidebarVisibility(state.view);
   bindControls();
   setFiltersFromURL();
   updateStateAndRender();
-}
-//console.log(dataIndex);
-
-function updateStateAndRender() {
-  //console.log("update State and Render");
-  setControlsFromState();
-  render();
-  updateURL();
 }
 
 initialize();

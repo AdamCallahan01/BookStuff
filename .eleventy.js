@@ -1,4 +1,6 @@
 import markdownIt from "markdown-it";
+import Image from "@11ty/eleventy-img";
+import fs from "fs";
 
 export default function (eleventyConfig) {
   //For github build
@@ -367,6 +369,90 @@ export default function (eleventyConfig) {
 
     return grouped;
   });
+
+  eleventyConfig.addFilter("toJson", (value) => JSON.stringify(value ?? null));
+
+  // Better image processing
+  const coverMeta = {};
+
+  eleventyConfig.addShortcode("bookCover", function (coverSlug, title) {
+    if (!coverSlug) return "";
+    const src = `./files/covers/${coverSlug}.jpg`;
+    if (!fs.existsSync(src)) {
+      console.warn(`[bookCover] Missing cover: ${src}`);
+      return "";
+    }
+
+    Image(src, {
+      widths: [200, 400],
+      formats: ["avif", "webp", "jpeg"],
+      outputDir: "./files/covers/optimized/",
+      urlPath: "/files/covers/optimized/",
+      filenameFormat: (id, src, width, format) => `${coverSlug}-${width}.${format}`,
+    });
+
+    const metadata = Image.statsSync(src, {
+      widths: [200, 400],
+      formats: ["avif", "webp", "jpeg"],
+      outputDir: "./files/covers/optimized/",
+      urlPath: "/files/covers/optimized/",
+      filenameFormat: (id, src, width, format) => `${coverSlug}-${width}.${format}`,
+    });
+
+    // Store the actual generated widths for this slug
+    coverMeta[coverSlug] = {
+      small: metadata.jpeg[0].width,
+      large: metadata.jpeg[1] ? metadata.jpeg[1].width : metadata.jpeg[0].width,
+    };
+
+    return Image.generateHTML(metadata, {
+      alt: `${title} cover`,
+      sizes: "200px",
+      loading: "lazy",
+      decoding: "async",
+    });
+  });
+
+  // Expose the map as global data after all shortcodes have run
+  eleventyConfig.addGlobalData("coverMeta", () => coverMeta);
+  // eleventyConfig.addShortcode("bookCover", function (coverSlug, title) {
+  //   if (!coverSlug) return "";
+
+  //   const src = `./files/covers/${coverSlug}.jpg`;
+
+  //   if (!fs.existsSync(src)) {
+  //     console.warn(`[bookCover] Missing cover: ${src}`);
+  //     return `<img src="/files/covers/${coverSlug}.jpg" alt="${title} cover" loading="lazy" decoding="async">`;
+  //   }
+
+  //   Image(src, {
+  //     widths: [200, 400],
+  //     formats: ["avif", "webp", "jpeg"],
+  //     outputDir: "./files/covers/optimized/",
+  //     urlPath: "/files/covers/optimized/",
+  //     allowUpscaling: true,
+  //     filenameFormat: function (id, src, width, format) {
+  //       return `${coverSlug}-${width}.${format}`;
+  //     },
+  //   });
+
+  //   let metadata = Image.statsSync(src, {
+  //     widths: [200, 400],
+  //     formats: ["avif", "webp", "jpeg"],
+  //     outputDir: "./files/covers/optimized/",
+  //     urlPath: "/files/covers/optimized/",
+  //     filenameFormat: function (id, src, width, format) {
+  //       return `${coverSlug}-${width}.${format}`;
+  //     },
+  //   });
+
+  //   return Image.generateHTML(metadata, {
+  //     alt: `${title} cover`,
+  //     sizes: "200px",
+  //     loading: "lazy",
+  //     decoding: "async",
+  //   });
+  // });
 
   return {
     dir: {

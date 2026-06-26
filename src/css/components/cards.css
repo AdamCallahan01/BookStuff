@@ -21,13 +21,20 @@
 }
 .book-card img {
   width: 100%;
+  height: auto;
   aspect-ratio: 2 / 3;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
+  background-color: #1a1a1a;
 }
 .book-card-content {
   padding: var(--size-3);
 }
 .book-card h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+.book-card h3 {
   margin: 0;
   font-size: 1rem;
 }
@@ -46,6 +53,7 @@
   color: white;
   font-size: 0.78rem;
 }
+
 /* =========================================================
  Book grid
 ========================================================= */
@@ -107,6 +115,10 @@
   }
 
   .book-card h2 {
+    font-size: 0.92rem;
+  }
+
+  .book-card h3 {
     font-size: 0.92rem;
   }
 

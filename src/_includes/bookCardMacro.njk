@@ -1,0 +1,13 @@
+{% macro bookCard(book) %}
+<a href="{{ book.url }}" class="card book-card">
+    {% if book.data.coverSlug %}
+        {% bookCover book.data.coverSlug, book.data.title %}
+    {% endif %}
+    <div class="overlay">
+        ⭐ {% if book.data.hasScore %}{{ book.data.averageScore }}{% else %}N/A{% endif %}
+        | 📖 {{ book.data.readCount }}
+    </div>
+    <h2>{{ book.data.title }}</h2>
+    <p>{{ book.data.author }}</p>
+</a>
+{% endmacro %}

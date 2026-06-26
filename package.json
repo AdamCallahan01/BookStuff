@@ -13,6 +13,7 @@
     "dev": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^6.0.4",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "csv-parse": "^6.1.0",
     "dotenv": "^17.3.1",
@@ -20,6 +21,7 @@
     "fs-extra": "^11.3.3",
     "markdown-it": "^14.2.0",
     "node-fetch": "^3.3.2",
+    "nouislider": "^15.8.1",
     "open-props": "^1.7.23"
   },
   "devDependencies": {
