@@ -1,4 +1,4 @@
-<script>
+{# <script>
   const words = {{ words | dump | safe }};
   const randomWord = words[Math.floor(Math.random() * words.length)];
 
@@ -17,4 +17,15 @@
 <aside class="word-card">
   <h3>Random Word</h3>
   <p id="random-word">Loading...</p>
+</aside> #}
+
+<aside
+  class="word-card"
+  id="random-word-widget"
+  data-words='{{ words | dump | escape }}'
+>
+  <h3>Random Word</h3>
+  <p id="random-word">Loading...</p>
 </aside>
+
+<script src="/js/randomWord.js"></script>

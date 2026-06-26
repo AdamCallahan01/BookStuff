@@ -1,0 +1,71 @@
+/* ─── Mosaic cover grids ──────────────────────────────────────────────────── */
+
+/*
+  All mosaics fill the same space as a single book cover so cards stay
+  uniform in the grid regardless of how many covers are shown.
+  The card itself controls the aspect-ratio box; the mosaic fills it.
+*/
+
+.book-card .mosaic {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  display: grid;
+  gap: 2px;
+  background-color: #1a1a1a; /* gap colour */
+}
+
+/* ── 1 book: full cover, identical to a regular book card ── */
+.mosaic.mosaic-1 {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* ── 2 books: split vertically, left | right ── */
+.mosaic.mosaic-2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* ── 3 books: left half | right half split top/bottom ──
+   [  1  | 2 ]
+   [  1  | 3 ]
+*/
+.mosaic.mosaic-3 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.mosaic.mosaic-3 .mosaic-left {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+}
+
+.mosaic.mosaic-3 .mosaic-right {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+}
+
+/* ── 4 books: 2×2 grid ── */
+.mosaic.mosaic-4 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* ── Images inside mosaics fill their cell ── */
+.mosaic picture,
+.mosaic img,
+.mosaic .mosaic-left picture,
+.mosaic .mosaic-left img,
+.mosaic .mosaic-right picture,
+.mosaic .mosaic-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}

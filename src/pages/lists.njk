@@ -1,11 +1,15 @@
 ---
 layout: base.njk
 permalink: /lists/
+title: Favorite Book Lists
+keywords: fantasy, book ranking, book reviews, best fantasy, best books, favorite fantasy
+description: Rankings of my favorite books and series
 ---
+
 {% macro renderList(items, title, isSeries) %}
   <details class="ranking-panel">
     <summary>
-      <h2>{{ title }}</h2>
+      <h1>{{ title }}</h1>
     </summary>
 
     <div class="ranking-content">

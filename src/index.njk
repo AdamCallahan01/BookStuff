@@ -72,12 +72,14 @@ permalink: /
 
     <hr>
 
-    <h1>Library:</h1>
+    <h2>Library:</h2>
+
+    {% from "bookCardMacro.njk" import bookCard %}
 
     {% set libraryBooks = collections.books | filterNotTruthy("currentRead") | sortByLatestReadDesc(collections.reads) %}
     <div class="book-grid">
       {% for book in libraryBooks %}
-        {% include "bookCard.njk" %}
+        {{ bookCard(book) }}
       {% endfor %}
     </div>
 

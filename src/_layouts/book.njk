@@ -1,6 +1,11 @@
 ---
 layout: base.njk
+keywords: word count, summaries, summary, book reviews, fantasy reviews
+eleventyComputed:
+  description: "Information, Review, and Summary for {{ title }}"
 ---
+
+{% from "bookCardMacro.njk" import bookCard %}
 
 {% set curSeries = series | booksBySeries(collections.books) %}
 {% set currentNumber = seriesNumber | float %}
@@ -31,242 +36,240 @@ layout: base.njk
   subgenre: subgenre
 } %}
 
-<body>
-  <main class="books-page">
+<main class="books-page">
 
-    <aside class="sidebar sidebar-left">
-      {% if prevBook %}
-        <h3>Previous Book</h3>
-        {% set book = prevBook %}
-        {% set leftSidebarIcon = "Last" %}
+  <aside class="sidebar sidebar-left">
+    {% if prevBook %}
+      <h3>Previous Book</h3>
+      {% set book = prevBook %}
+      {% set leftSidebarIcon = "Last" %}
 
+    {% else %}
+      {% set recommendation = currentBook | booksByAuthor(collections.books) | randomItem %}
+      {% set heading = "Same Author" %}
+
+      {% if not recommendation %}
+        {% set recommendation = currentBook | booksBySubgenre(collections.books) | randomItem %}
+        {% set heading = "Same Subgenre" %}
+      {% endif %}
+
+      {% if not recommendation %}
+        {% set recommendation = currentBook | booksByGenre(collections.books) | randomItem %}
+        {% set heading = "Same Genre" %}
+      {% endif %}
+
+      {% if recommendation %}
+        <h3>{{ heading }}</h3>
+        {% set book = recommendation %}
+      {% endif %}
+    {% endif %}
+
+    {% if book %}
+      {{ bookCard(book) }}
+    {% endif %}
+  </aside>
+
+  <div class="mobile-sidebar-controls">
+
+    <button
+      class="sidebar-toggle left-toggle"
+      id="leftSidebarToggle"
+    >
+      {% if leftSidebarIcon %}
+        {{ leftSidebarIcon }}
       {% else %}
-        {% set recommendation = currentBook | booksByAuthor(collections.books) | randomItem %}
-        {% set heading = "Same Author" %}
-
-        {% if not recommendation %}
-          {% set recommendation = currentBook | booksBySubgenre(collections.books) | randomItem %}
-          {% set heading = "Same Subgenre" %}
-        {% endif %}
-
-        {% if not recommendation %}
-          {% set recommendation = currentBook | booksByGenre(collections.books) | randomItem %}
-          {% set heading = "Same Genre" %}
-        {% endif %}
-
-        {% if recommendation %}
-          <h3>{{ heading }}</h3>
-          {% set book = recommendation %}
-        {% endif %}
+        📖
       {% endif %}
+    </button>
 
-      {% if book %}
-        {% include "bookCard.njk" %}
+    <button
+      class="sidebar-toggle right-toggle"
+      id="rightSidebarToggle"
+    >
+      {% if nextBook %}
+        Next
+      {% else %}
+        🎲
       {% endif %}
-    </aside>
+    </button>
 
-    <div class="mobile-sidebar-controls">
+  </div>
 
-      <button
-        class="sidebar-toggle left-toggle"
-        id="leftSidebarToggle"
-      >
-        {% if leftSidebarIcon %}
-          {{ leftSidebarIcon }}
-        {% else %}
-          📖
-        {% endif %}
-      </button>
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 
-      <button
-        class="sidebar-toggle right-toggle"
-        id="rightSidebarToggle"
-      >
-        {% if nextBook %}
-          Next
-        {% else %}
-          🎲
-        {% endif %}
-      </button>
+  <div class="book-layout">
 
-    </div>
+    <div class="book-header">
 
-    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+      {% if coverSlug %}
+        <img class="book-cover" src="/files/covers/{{ coverSlug }}.jpg" alt="{{ title }} cover">
+      {% endif %}
+      <div class="book-meta">
 
-    <div class="book-layout">
+        <h1 class="book-title">{{ title }}</h1>
 
-      <div class="book-header">
+        <div class="book-info">
 
-        {% if coverSlug %}
-          <img class="book-cover" src="/files/covers/{{ coverSlug }}.jpg" alt="{{ title }} cover">
-        {% endif %}
-        <div class="book-meta">
+          <p class="book-fact">
+            <strong>Author:</strong>
+            <a class="book-link" href="/books/?author={{ author | lower | urlencode }}">
+              {{ author }}
+            </a>
+          </p>
 
-          <h1 class="book-title">{{ title }}</h1>
-
-          <div class="book-info">
-
+          {% if series != "N/A" %}
             <p class="book-fact">
-              <strong>Author:</strong>
-              <a class="book-link" href="/books/?author={{ author | lower | urlencode }}">
-                {{ author }}
+              <strong>Series:</strong>
+              <a class="book-link" href="/books/?series={{ series | lower | urlencode }}">
+                {{ series }}
+                {% if seriesNumber != "N/A" %} (#{{ seriesNumber }}){% endif %}
               </a>
             </p>
+          {% endif %}
 
-            {% if series != "N/A" %}
-              <p class="book-fact">
-                <strong>Series:</strong>
-                <a class="book-link" href="/books/?series={{ series | lower | urlencode }}">
-                  {{ series }}
-                  {% if seriesNumber != "N/A" %} (#{{ seriesNumber }}){% endif %}
-                </a>
-              </p>
+          <p class="book-fact">
+            <strong>Pages:</strong>
+            {{ pages }}
+          </p>
+
+          <p class="book-fact">
+            <strong>Word count:</strong>
+            {{ wordCount | numberFormat }}
+          </p>
+
+          <p class="book-fact">
+            <strong>Published:</strong>
+            {{ yearPublished }} | <strong>Publisher:</strong>
+            {{ publisher }}
+          </p>
+
+          <p class="book-fact">
+            <strong>Genre:</strong>
+            {{ genre }}
+            {% if subgenre %} / {{ subgenre }}
             {% endif %}
+          </p>
 
-            <p class="book-fact">
-              <strong>Pages:</strong>
-              {{ pages }}
-            </p>
+          <p class="book-fact">
+            <strong>ISBN:</strong>
+            {{ isbn }}
+          </p>
 
-            <p class="book-fact">
-              <strong>Word count:</strong>
-              {{ wordCount | numberFormat }}
-            </p>
+          <p class="book-fact">
+            <strong>Goodreads:</strong>
+            <a href="{{ goodreads }}" target="_blank" rel="noopener">Link</a>
+            | Rating: {{ avgGoodreadsRating }} ({{ numGoodreadsRatings | numberFormat }} ratings)
+          </p>
 
-            <p class="book-fact">
-              <strong>Published:</strong>
-              {{ yearPublished }} | <strong>Publisher:</strong>
-              {{ publisher }}
-            </p>
+          <p class="book-fact">
+            <strong>Latest Score:</strong>
+            {% if hasScore %}{{ latestScore }}
+            {% else %}N/A{% endif %} | <strong>Average Score:</strong>
+            {% if hasScore %}{{ averageScore }}
+            {% else %}N/A{% endif %} | <strong>Read Count:</strong>
+            {{ readCount }}
+          </p>
 
-            <p class="book-fact">
-              <strong>Genre:</strong>
-              {{ genre }}
-              {% if subgenre %} / {{ subgenre }}
-              {% endif %}
-            </p>
-
-            <p class="book-fact">
-              <strong>ISBN:</strong>
-              {{ isbn }}
-            </p>
-
-            <p class="book-fact">
-              <strong>Goodreads:</strong>
-              <a href="{{ goodreads }}" target="_blank">Link</a>
-              | Rating: {{ avgGoodreadsRating }} ({{ numGoodreadsRatings | numberFormat }} ratings)
-            </p>
-
-            <p class="book-fact">
-              <strong>Latest Score:</strong>
-              {% if hasScore %}{{ latestScore }}
-              {% else %}N/A{% endif %} | <strong>Average Score:</strong>
-              {% if hasScore %}{{ averageScore }}
-              {% else %}N/A{% endif %} | <strong>Read Count:</strong>
-              {{ readCount }}
-            </p>
-
-            <p class="book-fact">
-              <strong>Owned:</strong>
-              {% if bookOwned %}Yes{% else %}No{% endif %}
-            </p>
-
-          </div>
+          <p class="book-fact">
+            <strong>Owned:</strong>
+            {% if bookOwned %}Yes{% else %}No{% endif %}
+          </p>
 
         </div>
 
       </div>
 
-      <!-- ===== Reads Section ===== -->
-      {% if readSlugs and readSlugs | length > 0 %}
-        <section class="book-reads-section">
-          <h2 class="section-title">Read History</h2>
-          {% for readSlug in readSlugs %}
-            {% set readForBook = null %}
-            {% for r in collections.reads %}
-              {% if r.data.readSlug == readSlug %}
-                {% set readForBook = r %}
-              {% endif %}
-            {% endfor %}
-
-            {% if readForBook %}
-              <details class="book-read-entry">
-                <summary class="book-read-summary">
-                  {% if readForBook.data.yearRead %}
-                    {{ readForBook.data.yearRead }}
-                  {% else %}
-                Read {{ readForBook.data.readNumber }}
-                  {% endif %}
-                  {% if hasScore %}
-                | Score: {{ readForBook.data.score }}
-                  {% else %}
-                | Score: N/A
-                {% endif %}
-                </summary>
-                <div class="book-read-content">
-                  {% if readForBook.data.hasReview %}
-                    {{ readForBook.templateContent | safe }}
-                  {% else %}
-                    <em>No review provided.</em>
-                  {% endif %}
-                  <p>
-                    <strong>Format:</strong>
-                    {{ readForBook.data.format }}</p>
-                  <p>
-                    <strong>Days:</strong>
-                    {{ readForBook.data.days }}</p>
-                  {% if readForBook.data.dateStarted and readForBook.data.dateFinished %}
-                    <p>
-                      <strong>Date:</strong>
-                      {{ readForBook.data.dateStarted }} -> {{ readForBook.data.dateFinished }}</p>
-                  {% elif readForBook.data.dateStarted %}
-                    <p>
-                      <strong>Date:</strong>
-                      {{ readForBook.data.dateStarted }} -></p>
-                  {% else %}
-                    <p>
-                      <strong>Year Read:</strong>
-                      {{ readForBook.data.yearRead }}</p>
-                  {% endif %}
-                </div>
-              </details>
-            {% endif %}
-          {% endfor %}
-        </section>
-      {% endif %}
-
-      <!-- ===== Summary Section ===== -->
-      {% if hasSummary %}
-        {% set summary = null %}
-        {% for s in collections.summaries %}
-          {% if s.data.summarySlug == summarySlug %}
-            {% set summary = s %}
-          {% endif %}
-        {% endfor %}
-
-        {% if summary %}
-          <section class="book-summary-section">
-            <details class="book-summary-entry">
-              <summary class="book-summary-summary">Summary</summary>
-              <div class="book-summary-content">
-                {{ summary.templateContent | safe }}
-              </div>
-            </details>
-          </section>
-        {% endif %}
-      {% endif %}
-
     </div>
 
-    <aside class="sidebar sidebar-right">
-      {% if nextBook %}
-        <h3>Next Book</h3>
-        {% set book = nextBook %}
-        {% include "bookCard.njk" %}
-      {% else %}
-        {% include "randomBook.njk" %}
-      {% endif %}
-    </aside>
+    <!-- ===== Reads Section ===== -->
+    {% if readSlugs and readSlugs | length > 0 %}
+      <section class="book-reads-section">
+        <h2 class="section-title">Read History</h2>
+        {% for readSlug in readSlugs %}
+          {% set readForBook = null %}
+          {% for r in collections.reads %}
+            {% if r.data.readSlug == readSlug %}
+              {% set readForBook = r %}
+            {% endif %}
+          {% endfor %}
 
-  </main>
-</body>
+          {% if readForBook %}
+            <details class="book-read-entry">
+              <summary class="book-read-summary">
+                {% if readForBook.data.yearRead %}
+                  {{ readForBook.data.yearRead }}
+                {% else %}
+              Read {{ readForBook.data.readNumber }}
+                {% endif %}
+                {% if hasScore %}
+              | Score: {{ readForBook.data.score }}
+                {% else %}
+              | Score: N/A
+              {% endif %}
+              </summary>
+              <div class="book-read-content">
+                {% if readForBook.data.hasReview %}
+                  {{ readForBook.templateContent | safe }}
+                {% else %}
+                  <em>No review provided.</em>
+                {% endif %}
+                <p>
+                  <strong>Format:</strong>
+                  {{ readForBook.data.format }}</p>
+                <p>
+                  <strong>Days:</strong>
+                  {{ readForBook.data.days }}</p>
+                {% if readForBook.data.dateStarted and readForBook.data.dateFinished %}
+                  <p>
+                    <strong>Date:</strong>
+                    {{ readForBook.data.dateStarted }} -> {{ readForBook.data.dateFinished }}</p>
+                {% elif readForBook.data.dateStarted %}
+                  <p>
+                    <strong>Date:</strong>
+                    {{ readForBook.data.dateStarted }} -></p>
+                {% else %}
+                  <p>
+                    <strong>Year Read:</strong>
+                    {{ readForBook.data.yearRead }}</p>
+                {% endif %}
+              </div>
+            </details>
+          {% endif %}
+        {% endfor %}
+      </section>
+    {% endif %}
+
+    <!-- ===== Summary Section ===== -->
+    {% if hasSummary %}
+      {% set summary = null %}
+      {% for s in collections.summaries %}
+        {% if s.data.summarySlug == summarySlug %}
+          {% set summary = s %}
+        {% endif %}
+      {% endfor %}
+
+      {% if summary %}
+        <section class="book-summary-section">
+          <details class="book-summary-entry">
+            <summary class="book-summary-summary">Summary (Spoilers)</summary>
+            <div class="book-summary-content">
+              {{ summary.templateContent | safe }}
+            </div>
+          </details>
+        </section>
+      {% endif %}
+    {% endif %}
+
+  </div>
+
+  <aside class="sidebar sidebar-right">
+    {% if nextBook %}
+      <h3>Next Book</h3>
+      {% set book = nextBook %}
+      {{ bookCard(book) }}
+    {% else %}
+      {% include "randomBook.njk" %}
+    {% endif %}
+  </aside>
+
+</main>

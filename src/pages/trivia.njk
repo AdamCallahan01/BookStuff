@@ -1,8 +1,15 @@
 ---
 layout: base.njk
 permalink: /trivia/
-title: Trivia
+title: Fantasy Trivia
+keywords: fantasy, book trivia, trivia questions, fantasy trivia, fantasy facts
+description: Trivia questions for fantasy books
 ---
+
+<h1>{{ title }}</h1>
+
+<h2>Will add ways to filter questions better soon</h2>
+
 {% set grouped = trivia | groupTrivia %}
 
 {% for series, books in grouped %}
