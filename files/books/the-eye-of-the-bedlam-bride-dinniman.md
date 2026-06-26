@@ -18,17 +18,17 @@ subgenre: "LitRPG"
 isbn: "9780593956014"
 narrator: "Jeff Hays, Patrick Warburton, Travis Baldree, Annie Ellicott"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-eye-of-the-bedlam-bride-dinniman-summary"
 summarySlugLink: "[[the-eye-of-the-bedlam-bride-dinniman-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 5.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 5.5
+allScores: [5.5]
 readSlugs: ["the-eye-of-the-bedlam-bride-dinniman-1"]
 readSlugsLinks: ["[[the-eye-of-the-bedlam-bride-dinniman-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-eye-of-the-bedlam-bride-dinniman-cover"
 ---
 
