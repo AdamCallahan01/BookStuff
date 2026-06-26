@@ -386,7 +386,7 @@ export default function (eleventyConfig) {
     Image(src, {
       widths: [200, 400],
       formats: ["avif", "webp", "jpeg"],
-      outputDir: "./files/covers/optimized/",
+      outputDir: "./_site/files/covers/optimized/",
       urlPath: "/files/covers/optimized/",
       filenameFormat: (id, src, width, format) => `${coverSlug}-${width}.${format}`,
     });
@@ -394,7 +394,7 @@ export default function (eleventyConfig) {
     const metadata = Image.statsSync(src, {
       widths: [200, 400],
       formats: ["avif", "webp", "jpeg"],
-      outputDir: "./files/covers/optimized/",
+      outputDir: "./_site/files/covers/optimized/",
       urlPath: "/files/covers/optimized/",
       filenameFormat: (id, src, width, format) => `${coverSlug}-${width}.${format}`,
     });
@@ -415,44 +415,6 @@ export default function (eleventyConfig) {
 
   // Expose the map as global data after all shortcodes have run
   eleventyConfig.addGlobalData("coverMeta", () => coverMeta);
-  // eleventyConfig.addShortcode("bookCover", function (coverSlug, title) {
-  //   if (!coverSlug) return "";
-
-  //   const src = `./files/covers/${coverSlug}.jpg`;
-
-  //   if (!fs.existsSync(src)) {
-  //     console.warn(`[bookCover] Missing cover: ${src}`);
-  //     return `<img src="/files/covers/${coverSlug}.jpg" alt="${title} cover" loading="lazy" decoding="async">`;
-  //   }
-
-  //   Image(src, {
-  //     widths: [200, 400],
-  //     formats: ["avif", "webp", "jpeg"],
-  //     outputDir: "./files/covers/optimized/",
-  //     urlPath: "/files/covers/optimized/",
-  //     allowUpscaling: true,
-  //     filenameFormat: function (id, src, width, format) {
-  //       return `${coverSlug}-${width}.${format}`;
-  //     },
-  //   });
-
-  //   let metadata = Image.statsSync(src, {
-  //     widths: [200, 400],
-  //     formats: ["avif", "webp", "jpeg"],
-  //     outputDir: "./files/covers/optimized/",
-  //     urlPath: "/files/covers/optimized/",
-  //     filenameFormat: function (id, src, width, format) {
-  //       return `${coverSlug}-${width}.${format}`;
-  //     },
-  //   });
-
-  //   return Image.generateHTML(metadata, {
-  //     alt: `${title} cover`,
-  //     sizes: "200px",
-  //     loading: "lazy",
-  //     decoding: "async",
-  //   });
-  // });
 
   return {
     dir: {
