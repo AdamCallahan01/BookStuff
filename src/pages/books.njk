@@ -164,8 +164,7 @@ description: A filterable list of all the books I have read
 
     <hr>
 
-    {# ─── JSON data island ─── #}
-    <script id="bookData" type="application/json">
+    {# <script id="bookData" type="application/json">
     {
       "books": [
         {% for book in collections.books | sort(attribute="data.title") %}
@@ -287,10 +286,10 @@ description: A filterable list of all the books I have read
         {% endfor %}
       ]
     }
-    </script>
-    <script id="coverMetaData" type="application/json">
+    </script> #}
+    {# <script id="coverMetaData" type="application/json">
       {{ coverMeta | toJson | safe }}
-    </script>
+    </script> #}
 
     <div id="booksView" class="book-grid book-grid-hidden"></div>
 

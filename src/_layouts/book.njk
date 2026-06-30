@@ -5,6 +5,12 @@ eleventyComputed:
   description: "Information, Review, and Summary for {{ title }}"
 ---
 
+{% block extraHead %}
+    <meta property="og:image" content="https://www.fantasybooksummaries.com/files/covers/{{ coverSlug }}.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+{% endblock %}
+
 {% from "bookCardMacro.njk" import bookCard %}
 
 {% set curSeries = series | booksBySeries(collections.books) %}

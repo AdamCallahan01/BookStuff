@@ -1,0 +1,126 @@
+---
+permalink: /filterData/booksData.json
+eleventyExcludeFromCollections: true
+layout: false
+---
+{
+  "books": [
+    {% for book in collections.books | sort(attribute="data.title") %}
+    {
+      "type": "book",
+      "url": "{{ book.url }}",
+      "coverSlug": "{{ book.data.coverSlug }}",
+      "title": {{ book.data.title | toJson | safe }},
+      "author": {{ book.data.author | toJson | safe }},
+      "series": {{ (book.data.series or "") | toJson | safe }},
+      "otherSeries": {{ (book.data.otherSeries or "") | toJson | safe }},
+      "seriesNumber": {{ book.data.seriesNumber or 0 }},
+      "pages": {{ book.data.pages or 0 }},
+      "yearPublished": {{ book.data.yearPublished or 0 }},
+      {# "publisher": {{ (book.data.publisher or "") | toJson | safe }}, #}
+      "avgGoodreadsRating": {{ book.data.avgGoodreadsRating or 0 }},
+      "numGoodreadsRatings": {{ book.data.numGoodreadsRatings or 0 }},
+      "hasSummary": {{ "true" if book.data.hasSummary else "false" }},
+      "hasScore": {{ "true" if book.data.hasScore else "false" }},
+      "hasReview": false,
+      "count": {{ book.data.readCount or 0 }},
+      "genre": {{ (book.data.genre or "") | toJson | safe }},
+      "subgenre": {{ (book.data.subgenre or "") | toJson | safe }},
+      "bookOwned": {{ "true" if book.data.bookOwned else "false" }},
+      "averageScore": {{ book.data.averageScore or 0 }},
+      "latestScore": {{ book.data.latestScore or 0 }}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+
+  "reads": [
+    {% set isFirst = true %}
+    {% for read in collections.reads %}
+      {% for book in collections.books %}
+        {% if book.data.bookSlug == read.data.bookSlug %}
+          {% if not isFirst %},{% endif %}
+          {% set isFirst = false %}
+          {
+            "type": "read",
+            "url": {{ book.url | toJson | safe }},
+            "coverSlug": {{ book.data.coverSlug | toJson | safe }},
+            "title": {{ book.data.title | toJson | safe }},
+            "author": {{ book.data.author | toJson | safe }},
+            "series": {{ (book.data.series or null) | toJson | safe }},
+            "otherSeries": {{ (book.data.otherSeries or null) | toJson | safe }},
+            "seriesNumber": {{ book.data.seriesNumber or 0 }},
+            "pages": {{ book.data.pages or 0 }},
+            {# "yearPublished": {{ book.data.yearPublished or 0 }}, #}
+            {# "publisher": {{ (book.data.publisher or null) | toJson | safe }}, #}
+            "avgGoodreadsRating": {{ book.data.avgGoodreadsRating or 0 }},
+            "numGoodreadsRatings": {{ book.data.numGoodreadsRatings or 0 }},
+            "hasSummary": {{ "true" if book.data.hasSummary else "false" }},
+            "hasScore": {{ "true" if book.data.hasScore else "false" }},
+            "hasReview": {{ "true" if read.data.hasReview else "false" }},
+            "readCount": {{ book.data.readCount or 0 }},
+            "genre": {{ (book.data.genre or null) | toJson | safe }},
+            "subgenre": {{ (book.data.subgenre or null) | toJson | safe }},
+            "bookOwned": {{ "true" if book.data.bookOwned else "false" }},
+            "averageScore": {{ book.data.averageScore or 0 }},
+            "latestScore": {{ book.data.latestScore or 0 }},
+            "score": {{ read.data.score or 0 }},
+            "dateFinished": {{ read.data.dateFinished | toJson | safe }},
+            "readNumber": {{ read.data.readNumber or 0 }},
+            "format": {{ (read.data.format or null) | toJson | safe }},
+            "days": {{ read.data.days or 0 }},
+            "yearRead": {{ read.data.yearRead or 0 }}
+          }
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  ],
+
+  "series": [
+    {% for series in collections.series %}
+    {
+      "type": "series",
+      "url": "/books/?series={{ series.name | lower | urlencode }}",
+      "name": {{ series.name | toJson | safe }},
+      "author": {{ series.books[0].data.author | toJson | safe }},
+      "averageScore": {{ series.averageScore or 0 }},
+      "count": {{ series.count or 0 }},
+      "pages": {{ series.pages or 0 }},
+      "avgPages": {{ series.avgpages or 0 }},
+      "covers": [
+        {% set coverCount = 0 %}
+        {% for book in series.books %}
+          {% if coverCount < 4 %}
+            {% if coverCount > 0 %},{% endif %}
+            {{ book.data.coverSlug | toJson | safe }}
+            {% set coverCount = coverCount + 1 %}
+          {% endif %}
+        {% endfor %}
+      ]
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+
+  "authors": [
+    {% for author in collections.authors %}
+    {
+      "type": "author",
+      "url": "/books/?author={{ author.name | lower | urlencode }}",
+      "name": {{ author.name | toJson | safe }},
+      "averageScore": {{ author.averageScore or 0 }},
+      "count": {{ author.count or 0 }},
+      "pages": {{ author.pages or 0 }},
+      "avgPages": {{ author.avgpages or 0 }},
+      "covers": [
+        {% set coverCount = 0 %}
+        {% for book in author.books %}
+          {% if coverCount < 4 %}
+            {% if coverCount > 0 %},{% endif %}
+            {{ book.data.coverSlug | toJson | safe }}
+            {% set coverCount = coverCount + 1 %}
+          {% endif %}
+        {% endfor %}
+      ]
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
