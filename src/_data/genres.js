@@ -6,8 +6,57 @@ export default [
       {
         title: "Mistborn",
         slug: "mistborn",
+        description: "Great intro to adult fantasy, got me hooked into the rest of the Cosmere",
+      },
+    ],
+  },
+  {
+    name: "Progression Fantasy",
+    description: "Fantasy where the main character gets progressively more powerful over time",
+    series: [
+      {
+        title: "Cradle",
+        slug: "cradle",
         description:
-          "Great intro to adult fantasy, got me hooked into the rest of the Cosmere",
+          "The first few books are a little slow the but the series overall is fantastic, and each book is short so they are quick to read",
+      },
+      {
+        title: "Mother of Learning",
+        slug: "mother of learning",
+        description: "A time loop set at a magical academy. A super fun, easy read",
+      },
+    ],
+  },
+  {
+    name: "Heist",
+    description: "Fantasy focused on a group of criminals trying to pull of a crime",
+    series: [
+      {
+        title: "The Lies of Locke Lamora",
+        slug: "gentleman bastard",
+        description:
+          "One of my favorite books ever, with a super unique setting. Warning: Some people do not like the language",
+      },
+      {
+        title: "Kingdom of Grit",
+        slug: "kingdom of grit",
+        description: "A combination of Mistborn, Locke Lamora, and Earthsea in the best way",
+      },
+      {
+        title: "Rogues of the Republic",
+        slug: "rogues of the republic",
+        description: "A heist story with a bit of humor and whimsy",
+      },
+    ],
+  },
+  {
+    name: "Grimdark",
+    description: "Darker, less moral characters where the good guys don't always win",
+    series: [
+      {
+        title: "The First Law",
+        slug: "the first law",
+        description: "great characters, some humor, and great plot",
       },
     ],
   },
@@ -28,40 +77,8 @@ export default [
     ],
   },
   {
-    name: "Progression Fantasy",
-    description:
-      "Fantasy where the main character gets progressively more powerful over time",
-    series: [
-      {
-        title: "Cradle",
-        slug: "cradle",
-        description:
-          "The first few books are a little slow the but the series overall is fantastic, and each book is short so they are quick to read",
-      },
-      {
-        title: "Mother of Learning",
-        slug: "mother of learning",
-        description:
-          "A time loop set at a magical academy. A super fun, easy read",
-      },
-    ],
-  },
-  {
-    name: "Grimdark",
-    description:
-      "Darker, less moral characters where the good guys don't always win",
-    series: [
-      {
-        title: "The First Law",
-        slug: "the first law",
-        description: "Grimdark fantasy",
-      },
-    ],
-  },
-  {
     name: "LitRPG Fantasy",
-    description:
-      "Falls under Progression Fantasy, but where there are explicit stats and levels for the characters",
+    description: "Falls under Progression Fantasy, but where there are explicit stats and levels for the characters",
     series: [
       {
         title: "The Wandering Inn",
@@ -72,14 +89,46 @@ export default [
       {
         title: "The Ripple System",
         slug: "the ripple system",
-        description:
-          "The best example I have found of a story told within a video game",
+        description: "The best example I have found of a story told within a video game",
       },
       {
         title: "Ready Player One",
         slug: "Ready Player One",
-        description:
-          "Part of the foundation of the genre, one of my favorite books growing up",
+        description: "Part of the foundation of the genre, one of my favorite books growing up",
+      },
+    ],
+  },
+  {
+    name: "Space Opera",
+    description:
+      "generally Science Fiction, it is books covering multiple planets, with characters travelling between them",
+    series: [
+      {
+        title: "The Sun Eater",
+        slug: "the sun eater",
+        description: "Story of Hadrian Marlowe. It is awesome.",
+      },
+      {
+        title: "Red Rising",
+        slug: "red rising",
+        description: "I have several friends who got back into reading through this series",
+      },
+    ],
+  },
+  {
+    name: "Academia",
+    description:
+      "A fantasy story where the primary setting is a school the protagonist is working through",
+    series: [
+      {
+        title: "The Will of the Many",
+        slug: "hierarchy",
+        description: "A super great first book, will leave you excited for the rest of the series",
+      },
+      {
+        title: "The Kingkiller Chronicle",
+        slug: "the kingkiller chronicle",
+        description: "The best unfinished series of all time",
       },
     ],
   },

@@ -18,17 +18,17 @@ subgenre: "YA"
 isbn: "9780399180989"
 narrator: "Lisa Flanagan"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "spinning-silver-novik-summary"
 summarySlugLink: "[[spinning-silver-novik-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 3
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 3
+allScores: [3]
 readSlugs: ["spinning-silver-novik-1"]
 readSlugsLinks: ["[[spinning-silver-novik-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "spinning-silver-novik-cover"
 ---
 

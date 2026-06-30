@@ -1,22 +1,17 @@
 import markdownIt from "markdown-it";
 import Image from "@11ty/eleventy-img";
 import fs from "fs";
+import path from "path";
 
 export default function (eleventyConfig) {
   //For github build
   eleventyConfig.addPassthroughCopy("CNAME");
 
-  eleventyConfig.addCollection("books", (collectionApi) =>
-    collectionApi.getFilteredByGlob("files/books/*.md"),
-  );
+  eleventyConfig.addCollection("books", (collectionApi) => collectionApi.getFilteredByGlob("files/books/*.md"));
 
-  eleventyConfig.addCollection("reads", (collectionApi) =>
-    collectionApi.getFilteredByGlob("files/reads/*.md"),
-  );
+  eleventyConfig.addCollection("reads", (collectionApi) => collectionApi.getFilteredByGlob("files/reads/*.md"));
 
-  eleventyConfig.addCollection("summaries", (collectionApi) =>
-    collectionApi.getFilteredByGlob("files/summaries/*.md"),
-  );
+  eleventyConfig.addCollection("summaries", (collectionApi) => collectionApi.getFilteredByGlob("files/summaries/*.md"));
 
   // Series collection for sorting
   function getAllSeries(book) {
@@ -78,17 +73,13 @@ export default function (eleventyConfig) {
     });
 
     return Array.from(seriesMap.values()).map((series) => {
-      const avg =
-        series.scoredCount > 0 ? series.totalScore / series.scoredCount : null;
+      const avg = series.scoredCount > 0 ? series.totalScore / series.scoredCount : null;
 
-      const avgPages =
-        series.totalCount > 0 ? series.pages / series.totalCount : null;
+      const avgPages = series.totalCount > 0 ? series.pages / series.totalCount : null;
 
       return {
         name: series.name,
-        books: series.books.sort(
-          (a, b) => (a.data.seriesOrder || 0) - (b.data.seriesOrder || 0),
-        ),
+        books: series.books.sort((a, b) => (a.data.seriesOrder || 0) - (b.data.seriesOrder || 0)),
         count: series.books.length,
         averageScore: avg ? Number(avg.toFixed(2)) : null,
         pages: series.pages,
@@ -136,11 +127,9 @@ export default function (eleventyConfig) {
     });
 
     return Array.from(authorsMap.values()).map((author) => {
-      const avg =
-        author.scoredCount > 0 ? author.totalScore / author.scoredCount : null;
+      const avg = author.scoredCount > 0 ? author.totalScore / author.scoredCount : null;
 
-      const avgPages =
-        author.totalCount > 0 ? author.pages / author.totalCount : null;
+      const avgPages = author.totalCount > 0 ? author.pages / author.totalCount : null;
 
       return {
         name: author.name,
@@ -275,11 +264,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("booksBySeries", function (series, books) {
     return books
-      .filter(
-        (b) =>
-          b.data.series &&
-          (b.data.series === series || b.data.otherSeries === series),
-      )
+      .filter((b) => b.data.series && (b.data.series === series || b.data.otherSeries === series))
       .sort((a, b) => {
         return Number(a.data.seriesNumber) - Number(b.data.seriesNumber);
       });
@@ -289,8 +274,7 @@ export default function (eleventyConfig) {
     return books.filter((b) => {
       const sameAuthor = b.data.author === book.author;
       const differentTitle = b.data.title !== book.title;
-      const validSeries =
-        book.series === "N/A" || b.data.series !== book.series;
+      const validSeries = book.series === "N/A" || b.data.series !== book.series;
 
       return sameAuthor && differentTitle && validSeries;
     });
@@ -298,12 +282,9 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("booksByGenre", function (book, books) {
     return books.filter((b) => {
-      const sameGenre =
-        b.data.genre &&
-        (b.data.genre === book.genre || b.data.subgenre === book.genre);
+      const sameGenre = b.data.genre && (b.data.genre === book.genre || b.data.subgenre === book.genre);
       const differentTitle = b.data.title !== book.title;
-      const validSeries =
-        book.series === "N/A" || b.data.series !== book.series;
+      const validSeries = book.series === "N/A" || b.data.series !== book.series;
 
       return sameGenre && differentTitle && validSeries;
     });
@@ -311,12 +292,9 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("booksBySubgenre", function (book, books) {
     return books.filter((b) => {
-      const sameGenre =
-        b.data.subgenre &&
-        (b.data.genre === book.subgenre || b.data.subgenre === book.subgenre);
+      const sameGenre = b.data.subgenre && (b.data.genre === book.subgenre || b.data.subgenre === book.subgenre);
       const differentTitle = b.data.title !== book.title;
-      const validSeries =
-        book.series === "N/A" || b.data.series !== book.series;
+      const validSeries = book.series === "N/A" || b.data.series !== book.series;
 
       return sameGenre && differentTitle && validSeries;
     });
@@ -362,8 +340,7 @@ export default function (eleventyConfig) {
 
     data.forEach((item) => {
       if (!grouped[item.series]) grouped[item.series] = {};
-      if (!grouped[item.series][item.title])
-        grouped[item.series][item.title] = [];
+      if (!grouped[item.series][item.title]) grouped[item.series][item.title] = [];
       grouped[item.series][item.title].push(item);
     });
 
@@ -373,48 +350,76 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("toJson", (value) => JSON.stringify(value ?? null));
 
   // Better image processing
-  const coverMeta = {};
+  // Module-level, shared between addGlobalData and the shortcode
+  let coverMetaGlobal = {};
+
+  eleventyConfig.addGlobalData("coverMeta", async () => {
+    const coverDir = "./files/covers/";
+    const result = {};
+    if (!fs.existsSync(coverDir)) return result;
+
+    const files = fs.readdirSync(coverDir).filter((f) => /\.(jpe?g|png)$/i.test(f));
+
+    await Promise.all(
+      files.map(async (file) => {
+        const slug = path.basename(file, path.extname(file));
+        const src = path.join(coverDir, file);
+        try {
+          const metadata = await Image(src, {
+            widths: [200, 400],
+            formats: ["avif", "webp", "jpeg"],
+            outputDir: "./_site/files/covers/optimized/",
+            urlPath: "/files/covers/optimized/",
+            filenameFormat: (_id, _src, width, format) => `${slug}-${width}.${format}`,
+          });
+          const jpegs = metadata.jpeg;
+          result[slug] = {
+            small: jpegs[0].width,
+            large: jpegs[jpegs.length - 1].width, // actual largest, not assumed
+          };
+        } catch (e) {
+          console.warn(`[coverMeta] Skipping ${slug}: ${e.message}`);
+        }
+      }),
+    );
+
+    coverMetaGlobal = result; // also populate the sync-accessible copy
+    return result;
+  });
 
   eleventyConfig.addShortcode("bookCover", function (coverSlug, title) {
     if (!coverSlug) return "";
-    const src = `./files/covers/${coverSlug}.jpg`;
-    if (!fs.existsSync(src)) {
-      console.warn(`[bookCover] Missing cover: ${src}`);
+    const meta = coverMetaGlobal[coverSlug];
+    if (!meta) {
+      console.warn(`[bookCover] No meta for: ${coverSlug}`);
       return "";
     }
-
-    Image(src, {
-      widths: [200, 400],
-      formats: ["avif", "webp", "jpeg"],
-      outputDir: "./_site/files/covers/optimized/",
-      urlPath: "/files/covers/optimized/",
-      filenameFormat: (id, src, width, format) => `${coverSlug}-${width}.${format}`,
-    });
-
-    const metadata = Image.statsSync(src, {
-      widths: [200, 400],
-      formats: ["avif", "webp", "jpeg"],
-      outputDir: "./_site/files/covers/optimized/",
-      urlPath: "/files/covers/optimized/",
-      filenameFormat: (id, src, width, format) => `${coverSlug}-${width}.${format}`,
-    });
-
-    // Store the actual generated widths for this slug
-    coverMeta[coverSlug] = {
-      small: metadata.jpeg[0].width,
-      large: metadata.jpeg[1] ? metadata.jpeg[1].width : metadata.jpeg[0].width,
-    };
-
-    return Image.generateHTML(metadata, {
-      alt: `${title} cover`,
-      sizes: "200px",
-      loading: "lazy",
-      decoding: "async",
-    });
+    const { small, large } = meta;
+    return `<picture>
+    <source type="image/avif" srcset="/files/covers/optimized/${coverSlug}-${small}.avif ${small}w, /files/covers/optimized/${coverSlug}-${large}.avif ${large}w" sizes="200px">
+    <source type="image/webp" srcset="/files/covers/optimized/${coverSlug}-${small}.webp ${small}w, /files/covers/optimized/${coverSlug}-${large}.webp ${large}w" sizes="200px">
+    <img
+      src="/files/covers/optimized/${coverSlug}-${small}.jpeg"
+      alt="${title} cover"
+      loading="lazy"
+      decoding="async"
+      class="book-cover"
+    >
+  </picture>`;
   });
 
-  // Expose the map as global data after all shortcodes have run
-  eleventyConfig.addGlobalData("coverMeta", () => coverMeta);
+  // Remove JSON extra lines
+  eleventyConfig.addTransform("jsonMinify", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".json")) {
+      try {
+        return JSON.stringify(JSON.parse(content));
+      } catch (e) {
+        console.warn(`[jsonMinify] Could not minify: ${outputPath}`);
+        return content; // leave it alone if it won't parse
+      }
+    }
+    return content;
+  });
 
   return {
     dir: {

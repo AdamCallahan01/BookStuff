@@ -1,6 +1,6 @@
-// ─── 1. Parse JSON data island ───────────────────────────────────────────────
-
-const rawData = JSON.parse(document.getElementById("bookData").textContent);
+// ─── 1. Module-level state, populated after fetch ─────────────────────────────
+let dataIndex = [];
+let coverMeta = {}; // referenced by coverImg below — stays in scope
 
 const formatIcons = {
   audible: "🎧",
@@ -9,62 +9,73 @@ const formatIcons = {
   kindle: "📱",
 };
 
-// ─── 2. Build data index from JSON ───────────────────────────────────────────
+// ─── 2. Build data index from fetched JSON ────────────────────────────────────
+function buildIndex(rawData) {
+  return [...rawData.books, ...rawData.reads, ...rawData.series, ...rawData.authors].map((item) => {
+    const score = parseFloat(item.score || item.averageScore || 0);
+    const hasScore = item.hasScore !== false && item.hasScore !== "false";
+    const hasSummary = item.hasSummary === true || item.hasSummary === "true";
+    const hasReview = item.hasReview === true || item.hasReview === "true";
+    const isOwned = item.bookOwned === true || item.bookOwned === "true";
 
-const dataIndex = [...rawData.books, ...rawData.reads, ...rawData.series, ...rawData.authors].map((item) => {
-  const score = parseFloat(item.score || item.averageScore || 0);
-  const hasScore = item.hasScore !== false && item.hasScore !== "false";
-  const hasSummary = item.hasSummary === true || item.hasSummary === "true";
-  const hasReview = item.hasReview === true || item.hasReview === "true";
-  const isOwned = item.bookOwned === true || item.bookOwned === "true";
+    let timestamp = null;
+    if (item.dateFinished) {
+      const [month, day, year] = item.dateFinished.split("/").map(Number);
+      timestamp = new Date(year, month - 1, day).getTime();
+    }
 
-  let timestamp = null;
-  if (item.dateFinished) {
-    const [month, day, year] = item.dateFinished.split("/").map(Number);
-    timestamp = new Date(year, month - 1, day).getTime();
+    const yearRead = Number(item.yearRead) || 0;
+
+    return {
+      ...item,
+      title: (item.title || item.name || "").toLowerCase(),
+      author: (item.author || "").toLowerCase(),
+      series: (item.series || "").toLowerCase(),
+      otherseries: (item.otherSeries || "").toLowerCase(),
+      genre: (item.genre || "").toLowerCase(),
+      subgenre: (item.subgenre || "").toLowerCase(),
+      // publisher: (item.publisher || "").toLowerCase(),   // Maybe: Future
+      format: (item.format || "").toLowerCase(),
+      avggoodreadsrating: item.avgGoodreadsRating || 0,
+      numgoodreadsratings: item.numGoodreadsRatings || 0,
+      yearpublished: item.yearPublished || 0,
+      yearread: String(item.yearRead || ""),
+      seriesnumber: Number(item.seriesNumber) || 0,
+      _score: isNaN(score) ? 0 : score,
+      _hasScore: hasScore,
+      _hasSummary: hasSummary,
+      _hasReview: hasReview,
+      _isOwned: isOwned,
+      _timestampSort: timestamp ?? (yearRead ? new Date(yearRead, 0, 1).getTime() : 0),
+      pages: Number(item.pages) || 0,
+      count: Number(item.count) || 0,
+      seriesNumber: Number(item.seriesNumber) || 0,
+      averagescore: Number(item.averageScore) || 0,
+      latestscore: Number(item.latestScore) || 0,
+      days: Number(item.days) || 0,
+      _el: null,
+    };
+  });
+}
+
+// ─── 3. Fetch data, then hand off to your existing init logic ─────────────────
+async function loadBookData() {
+  try {
+    const [rawData, covers] = await Promise.all([
+      fetch("/filterData/booksData.json").then((r) => r.json()),
+      fetch("/filterData/bookCoverData.json").then((r) => r.json()),
+    ]);
+
+    coverMeta = covers;           // coverImg() reads this module-level let
+    dataIndex = buildIndex(rawData);
+    console.log("First");
+    initialize();
+  } catch (err) {
+    console.error("Failed to load book data:", err);
   }
+}
 
-  const yearRead = Number(item.yearRead) || 0;
-
-  return {
-    // Keep all original fields for rendering
-    ...item,
-    // Normalise keys to lowercase to match original data-* behaviour
-    title: (item.title || item.name || "").toLowerCase(),
-    author: (item.author || "").toLowerCase(),
-    series: (item.series || "").toLowerCase(),
-    otherseries: (item.otherSeries || "").toLowerCase(),
-    genre: (item.genre || "").toLowerCase(),
-    subgenre: (item.subgenre || "").toLowerCase(),
-    publisher: (item.publisher || "").toLowerCase(),
-    format: (item.format || "").toLowerCase(),
-    avggoodreadsrating: item.avgGoodreadsRating || 0,
-    numgoodreadsratings: item.numGoodreadsRatings || 0,
-    yearpublished: item.yearPublished || 0,
-    yearread: String(item.yearRead || ""),
-    seriesnumber: Number(item.seriesNumber) || 0,
-    // Computed fields
-    _score: isNaN(score) ? 0 : score,
-    _hasScore: hasScore,
-    _hasSummary: hasSummary,
-    _hasReview: hasReview,
-    _isOwned: isOwned,
-    _timestampSort: timestamp ?? (yearRead ? new Date(yearRead, 0, 1).getTime() : 0),
-    // Keep numeric versions for sliders/sort
-    pages: Number(item.pages) || 0,
-    count: Number(item.count) || 0,
-    seriesNumber: Number(item.seriesNumber) || 0,
-    averagescore: Number(item.averageScore) || 0,
-    latestscore: Number(item.latestScore) || 0,
-    days: Number(item.days) || 0,
-    // Build the DOM element lazily (cached after first render)
-    _el: null,
-  };
-});
-
-// ─── 3. Card rendering ───────────────────────────────────────────────────────
-
-const coverMeta = JSON.parse(document.getElementById("coverMetaData").textContent);
+// ─── 4. Card rendering ───────────────────────────────────────────────────────
 
 function coverImg(slug, title, extraClass = "") {
   if (!slug) return "";
@@ -164,7 +175,7 @@ function createCard(item) {
   return a;
 }
 
-// ─── 4. Filter config (unchanged from original) ───────────────────────────────
+// ─── 5. Filter config ───────────────────────────────
 
 const filterConfig = {
   view: {
@@ -369,7 +380,7 @@ const filterConfig = {
 
 const state = Object.fromEntries(Object.values(filterConfig).map((cfg) => [cfg.state, cfg.default]));
 
-// ─── 5. Sort config (unchanged) ───────────────────────────────────────────────
+// ─── 6. Sort config  ───────────────────────────────────────────────
 
 const sortConfig = {
   title: { key: "title", type: "string", label: "Title", views: ["book", "read", "series", "author"] },
@@ -420,7 +431,7 @@ const defaultSortByView = {
   series: "title",
 };
 
-// ─── 6. Element map ───────────────────────────────────────────────────────────
+// ─── 7. Element map ───────────────────────────────────────────────────────────
 
 const elementMap = {};
 
@@ -440,7 +451,7 @@ elementMap["pageAverageLabel"] = document.getElementById("pageAverageLabel");
 elementMap["scoreAverageLabel"] = document.getElementById("scoreAverageLabel");
 elementMap["pageTitle"] = document.getElementById("pageTitle");
 
-// ─── 7. Populate dropdowns ────────────────────────────────────────────────────
+// ─── 8. Populate dropdowns ────────────────────────────────────────────────────
 
 const populateSelect = (data, keys, selectEl) => {
   const values = (Array.isArray(keys) ? keys : [keys]).flatMap((key) => data.map((item) => item[key])).filter(Boolean);
@@ -452,24 +463,30 @@ const populateSelect = (data, keys, selectEl) => {
   });
 };
 
-Object.values(filterConfig)
-  .filter((cfg) => cfg.dataKey)
-  .forEach((cfg) => {
-    const el = document.getElementById(cfg.element);
-    if (el) populateSelect(dataIndex, cfg.dataKey, el);
-  });
+function initializeSelectDropdowns() {
+  Object.values(filterConfig)
+    .filter((cfg) => cfg.dataKey)
+    .forEach((cfg) => {
+      const el = document.getElementById(cfg.element);
+      if (el) populateSelect(dataIndex, cfg.dataKey, el);
+    });
+}
 
-// ─── 8. Sliders ───────────────────────────────────────────────────────────────
+// ─── 9. Sliders ───────────────────────────────────────────────────────────────
 
-const boundsByView = {
-  book: computeBoundsForView("book"),
-  read: computeBoundsForView("read"),
-  series: computeBoundsForView("series"),
-  author: computeBoundsForView("author"),
-};
+const boundsByView = {};
+
+function setBoundsByView() {
+  boundsByView["book"] = computeBoundsForView("book");
+  boundsByView["read"] = computeBoundsForView("read");
+  boundsByView["series"] = computeBoundsForView("series");
+  boundsByView["author"] = computeBoundsForView("author");
+
+}
 
 function computeBoundsForView(view) {
   const items = dataIndex.filter((item) => item.type === view);
+  console.log(items);
   let maxPages = 0;
   let maxCount = 0;
   for (const item of items) {
@@ -484,10 +501,13 @@ function computeBoundsForView(view) {
 }
 
 function updateSliderRange() {
+  console.log("set slider range");
   for (const cfg of Object.values(filterConfig)) {
     if (cfg.control !== "slider") continue;
     const slider = elementMap[cfg.element];
     if (!slider) continue;
+    console.log(slider);
+    console.log(cfg);
     slider.noUiSlider.updateOptions({ range: { min: cfg.defaultMin, max: cfg.defaultMax } });
     slider.noUiSlider.set([cfg.defaultMin, cfg.defaultMax]);
     const label = elementMap[cfg.label];
@@ -496,9 +516,12 @@ function updateSliderRange() {
 }
 
 function initializeSliderConfig(bounds) {
+  console.log("initialize sliders");
+  console.log(bounds);
   for (const cfg of Object.values(filterConfig)) {
     if (cfg.control !== "slider") continue;
     const b = bounds[cfg.field];
+    console.log(b);
     cfg.defaultMin = b.min;
     cfg.defaultMax = b.max;
     state[cfg.stateMin] = b.min;
@@ -506,9 +529,10 @@ function initializeSliderConfig(bounds) {
   }
 }
 
-// ─── 9. View / sidebar / sort ─────────────────────────────────────────────────
+// ─── 10. View / sidebar / sort ─────────────────────────────────────────────────
 
 function handleViewChange() {
+  console.log("Handle View Change");
   const bounds = boundsByView[state.view];
   initializeSliderConfig(bounds);
   updateSliderRange();
@@ -560,6 +584,9 @@ function setControlsFromState() {
 }
 
 function bindControls() {
+  console.log("binding controls");
+
+  setBoundsByView();
   const bounds = boundsByView[state.view];
   initializeSliderConfig(bounds);
 
@@ -636,7 +663,7 @@ function bindControls() {
   }
 }
 
-// ─── 10. Sidebar ──────────────────────────────────────────────────────────────
+// ─── 11. Sidebar ──────────────────────────────────────────────────────────────
 
 function resetSidebar() {
   resetSidebarState();
@@ -676,7 +703,7 @@ function updateSidebarVisibility(view) {
   }
 }
 
-// ─── 11. Sort UI ──────────────────────────────────────────────────────────────
+// ─── 12. Sort UI ──────────────────────────────────────────────────────────────
 
 function updateSortOptions() {
   const select = elementMap["sortField"];
@@ -701,7 +728,7 @@ function updateSortOptions() {
   select.value = state.sortField;
 }
 
-// ─── 12. Filter and render ────────────────────────────────────────────────────
+// ─── 13. Filter and render ────────────────────────────────────────────────────
 
 function getActiveFilters() {
   const filters = [];
@@ -731,6 +758,13 @@ function render() {
   const grid = document.querySelector(".book-grid");
   const activeFilters = getActiveFilters();
   const filtered = dataIndex.filter((item) => activeFilters.every((fn) => fn(item)));
+  // const filtered = dataIndex.filter((item) => {
+  //   return activeFilters.every((fn) => {
+  //     const pass = fn(item);
+  //     if (!pass) console.log("rejected by:", fn.toString().slice(0, 80), item.title);
+  //     return pass;
+  //   });
+  // });
   const sorted = sortItems(filtered);
   const visible = sorted.slice(0, 3000);
 
@@ -742,7 +776,7 @@ function render() {
   updateLabels(filtered);
 }
 
-// ─── 13. Labels ───────────────────────────────────────────────────────────────
+// ─── 14. Labels ───────────────────────────────────────────────────────────────
 
 function updateLabels(filtered) {
   let totalScore = 0;
@@ -772,7 +806,7 @@ function updateTitle() {
   if (elementMap["pageTitle"]) elementMap["pageTitle"].textContent = title;
 }
 
-// ─── 14. URL logic (unchanged) ────────────────────────────────────────────────
+// ─── 15. URL logic ────────────────────────────────────────────────
 
 function updateURL() {
   const params = new URLSearchParams();
@@ -810,7 +844,7 @@ function setFiltersFromURL() {
   }
 }
 
-// ─── 15. Misc UI ──────────────────────────────────────────────────────────────
+// ─── 16. Misc UI ──────────────────────────────────────────────────────────────
 
 const btn = document.getElementById("scrollTopBtn");
 window.addEventListener("scroll", () => btn.classList.toggle("show", window.scrollY > 200));
@@ -823,7 +857,7 @@ toggle.addEventListener("click", () => {
   toggle.setAttribute("aria-expanded", open);
 });
 
-// ─── 16. Initialize ───────────────────────────────────────────────────────────
+// ─── 17. Initialize ───────────────────────────────────────────────────────────
 
 function updateStateAndRender() {
   setControlsFromState();
@@ -832,6 +866,8 @@ function updateStateAndRender() {
 }
 
 function initialize() {
+  console.log("Initialize");
+  initializeSelectDropdowns();
   updateSortOptions();
   updateSidebarVisibility(state.view);
   bindControls();
@@ -839,4 +875,4 @@ function initialize() {
   updateStateAndRender();
 }
 
-initialize();
+document.addEventListener("DOMContentLoaded", loadBookData);
