@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-wandering-inn-19-aba"
 summarySlug: "the-wandering-inn-19-aba-summary"
 book: "[[the-wandering-inn-19-aba]]"

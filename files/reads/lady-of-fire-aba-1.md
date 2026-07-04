@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "lady-of-fire-aba"
 readSlug: "lady-of-fire-aba-1"
 book: "[[lady-of-fire-aba]]"

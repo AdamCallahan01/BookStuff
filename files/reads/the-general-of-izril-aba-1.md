@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-general-of-izril-aba"
 readSlug: "the-general-of-izril-aba-1"
 book: "[[the-general-of-izril-aba]]"

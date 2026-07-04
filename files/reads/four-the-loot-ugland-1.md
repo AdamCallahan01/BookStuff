@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "four-the-loot-ugland"
 readSlug: "four-the-loot-ugland-1"
 book: "[[four-the-loot-ugland]]"

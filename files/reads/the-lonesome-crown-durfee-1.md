@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-lonesome-crown-durfee"
 readSlug: "the-lonesome-crown-durfee-1"
 book: "[[the-lonesome-crown-durfee]]"

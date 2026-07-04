@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "master-of-sorrows-call"
 readSlug: "master-of-sorrows-call-1"
 book: "[[master-of-sorrows-call]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "assassin-s-quest-hobb"
 readSlug: "assassin-s-quest-hobb-1"
 book: "[[assassin-s-quest-hobb]]"

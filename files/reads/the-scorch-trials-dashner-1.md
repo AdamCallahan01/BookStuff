@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-scorch-trials-dashner"
 readSlug: "the-scorch-trials-dashner-1"
 book: "[[the-scorch-trials-dashner]]"

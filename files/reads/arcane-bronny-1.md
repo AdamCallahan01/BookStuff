@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "arcane-bronny"
 readSlug: "arcane-bronny-1"
 book: "[[arcane-bronny]]"

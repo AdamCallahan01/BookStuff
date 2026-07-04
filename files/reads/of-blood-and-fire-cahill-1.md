@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "of-blood-and-fire-cahill"
 readSlug: "of-blood-and-fire-cahill-1"
 book: "[[of-blood-and-fire-cahill]]"

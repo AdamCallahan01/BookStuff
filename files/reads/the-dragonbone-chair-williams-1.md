@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-dragonbone-chair-williams"
 readSlug: "the-dragonbone-chair-williams-1"
 book: "[[the-dragonbone-chair-williams]]"

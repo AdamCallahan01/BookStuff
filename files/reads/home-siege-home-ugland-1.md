@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "home-siege-home-ugland"
 readSlug: "home-siege-home-ugland-1"
 book: "[[home-siege-home-ugland]]"

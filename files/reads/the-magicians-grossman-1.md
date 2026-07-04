@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-magicians-grossman"
 readSlug: "the-magicians-grossman-1"
 book: "[[the-magicians-grossman]]"

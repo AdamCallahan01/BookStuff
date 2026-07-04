@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "nomad-mather"
 readSlug: "nomad-mather-1"
 book: "[[nomad-mather]]"

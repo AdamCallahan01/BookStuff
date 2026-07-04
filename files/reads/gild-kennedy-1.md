@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "gild-kennedy"
 readSlug: "gild-kennedy-1"
 book: "[[gild-kennedy]]"

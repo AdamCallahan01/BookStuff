@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-last-battle-lewis"
 readSlug: "the-last-battle-lewis-1"
 book: "[[the-last-battle-lewis]]"

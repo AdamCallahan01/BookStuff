@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-goblet-of-fire-rowling"
 readSlug: "harry-potter-and-the-goblet-of-fire-rowling-3"
 book: "[[harry-potter-and-the-goblet-of-fire-rowling]]"

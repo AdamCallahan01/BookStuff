@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "orconomics-pike"
 readSlug: "orconomics-pike-1"
 book: "[[orconomics-pike]]"

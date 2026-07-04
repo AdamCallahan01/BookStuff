@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-fall-of-hyperion-simmons"
 readSlug: "the-fall-of-hyperion-simmons-1"
 book: "[[the-fall-of-hyperion-simmons]]"

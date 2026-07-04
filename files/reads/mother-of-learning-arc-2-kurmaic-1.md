@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "mother-of-learning-arc-2-kurmaic"
 readSlug: "mother-of-learning-arc-2-kurmaic-1"
 book: "[[mother-of-learning-arc-2-kurmaic]]"

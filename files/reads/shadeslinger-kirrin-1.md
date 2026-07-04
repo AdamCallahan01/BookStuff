@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "shadeslinger-kirrin"
 readSlug: "shadeslinger-kirrin-1"
 book: "[[shadeslinger-kirrin]]"

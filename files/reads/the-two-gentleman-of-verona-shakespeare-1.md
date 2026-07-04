@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-two-gentleman-of-verona-shakespeare"
 readSlug: "the-two-gentleman-of-verona-shakespeare-1"
 book: "[[the-two-gentleman-of-verona-shakespeare]]"

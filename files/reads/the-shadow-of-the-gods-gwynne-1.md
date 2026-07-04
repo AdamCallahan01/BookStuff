@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-shadow-of-the-gods-gwynne"
 readSlug: "the-shadow-of-the-gods-gwynne-1"
 book: "[[the-shadow-of-the-gods-gwynne]]"

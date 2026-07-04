@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "sabriel-nix"
 readSlug: "sabriel-nix-1"
 book: "[[sabriel-nix]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-eye-of-the-bedlam-bride-dinniman"
 readSlug: "the-eye-of-the-bedlam-bride-dinniman-1"
 book: "[[the-eye-of-the-bedlam-bride-dinniman]]"

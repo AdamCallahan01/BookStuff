@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-hero-of-ages-sanderson"
 readSlug: "the-hero-of-ages-sanderson-1"
 book: "[[the-hero-of-ages-sanderson]]"

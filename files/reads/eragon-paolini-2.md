@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "eragon-paolini"
 readSlug: "eragon-paolini-2"
 book: "[[eragon-paolini]]"

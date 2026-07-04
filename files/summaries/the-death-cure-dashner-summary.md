@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-death-cure-dashner"
 summarySlug: "the-death-cure-dashner-summary"
 book: "[[the-death-cure-dashner]]"

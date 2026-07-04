@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-slow-regard-of-silent-things-rothfuss"
 readSlug: "the-slow-regard-of-silent-things-rothfuss-1"
 book: "[[the-slow-regard-of-silent-things-rothfuss]]"

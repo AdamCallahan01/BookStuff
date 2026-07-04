@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "free-the-darkness-kade"
 readSlug: "free-the-darkness-kade-1"
 book: "[[free-the-darkness-kade]]"

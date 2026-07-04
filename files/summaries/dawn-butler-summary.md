@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dawn-butler"
 summarySlug: "dawn-butler-summary"
 book: "[[dawn-butler]]"

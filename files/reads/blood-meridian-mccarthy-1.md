@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "blood-meridian-mccarthy"
 readSlug: "blood-meridian-mccarthy-1"
 book: "[[blood-meridian-mccarthy]]"

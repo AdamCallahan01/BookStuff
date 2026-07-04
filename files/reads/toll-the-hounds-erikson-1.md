@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "toll-the-hounds-erikson"
 readSlug: "toll-the-hounds-erikson-1"
 book: "[[toll-the-hounds-erikson]]"

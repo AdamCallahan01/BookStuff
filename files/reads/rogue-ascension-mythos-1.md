@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "rogue-ascension-mythos"
 readSlug: "rogue-ascension-mythos-1"
 book: "[[rogue-ascension-mythos]]"

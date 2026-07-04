@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "narrative-of-the-life-of-frederick-douglass-douglass"
 readSlug: "narrative-of-the-life-of-frederick-douglass-douglass-1"
 book: "[[narrative-of-the-life-of-frederick-douglass-douglass]]"

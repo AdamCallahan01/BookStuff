@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "a-mark-of-kings-chmilenko"
 readSlug: "a-mark-of-kings-chmilenko-1"
 book: "[[a-mark-of-kings-chmilenko]]"

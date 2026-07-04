@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-emperor-of-nihon-ja-flanagan"
 readSlug: "the-emperor-of-nihon-ja-flanagan-1"
 book: "[[the-emperor-of-nihon-ja-flanagan]]"

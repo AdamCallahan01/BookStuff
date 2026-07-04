@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-umbral-storm-hutson"
 readSlug: "the-umbral-storm-hutson-1"
 book: "[[the-umbral-storm-hutson]]"

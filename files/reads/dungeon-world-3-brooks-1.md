@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dungeon-world-3-brooks"
 readSlug: "dungeon-world-3-brooks-1"
 book: "[[dungeon-world-3-brooks]]"

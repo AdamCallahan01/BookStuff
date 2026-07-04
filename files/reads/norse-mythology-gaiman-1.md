@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "norse-mythology-gaiman"
 readSlug: "norse-mythology-gaiman-1"
 book: "[[norse-mythology-gaiman]]"

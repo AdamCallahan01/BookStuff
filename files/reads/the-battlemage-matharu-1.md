@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-battlemage-matharu"
 readSlug: "the-battlemage-matharu-1"
 book: "[[the-battlemage-matharu]]"

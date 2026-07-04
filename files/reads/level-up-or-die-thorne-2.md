@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "level-up-or-die-thorne"
 readSlug: "level-up-or-die-thorne-2"
 book: "[[level-up-or-die-thorne]]"

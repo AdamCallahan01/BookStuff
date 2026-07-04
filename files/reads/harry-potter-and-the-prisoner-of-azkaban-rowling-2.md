@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-prisoner-of-azkaban-rowling"
 readSlug: "harry-potter-and-the-prisoner-of-azkaban-rowling-2"
 book: "[[harry-potter-and-the-prisoner-of-azkaban-rowling]]"

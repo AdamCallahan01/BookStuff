@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "artemis-fowl-colfer"
 readSlug: "artemis-fowl-colfer-1"
 book: "[[artemis-fowl-colfer]]"

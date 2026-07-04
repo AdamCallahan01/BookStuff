@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-left-hand-of-darkness-guin"
 readSlug: "the-left-hand-of-darkness-guin-1"
 book: "[[the-left-hand-of-darkness-guin]]"

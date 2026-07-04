@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dissonance-gonnella"
 readSlug: "dissonance-gonnella-1"
 book: "[[dissonance-gonnella]]"

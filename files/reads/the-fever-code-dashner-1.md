@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-fever-code-dashner"
 readSlug: "the-fever-code-dashner-1"
 book: "[[the-fever-code-dashner]]"

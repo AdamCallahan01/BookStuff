@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "oathbringer-sanderson"
 readSlug: "oathbringer-sanderson-1"
 book: "[[oathbringer-sanderson]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "malice-gwynne"
 readSlug: "malice-gwynne-1"
 book: "[[malice-gwynne]]"

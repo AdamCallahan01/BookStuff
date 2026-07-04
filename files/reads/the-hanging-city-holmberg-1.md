@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-hanging-city-holmberg"
 readSlug: "the-hanging-city-holmberg-1"
 book: "[[the-hanging-city-holmberg]]"

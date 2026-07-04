@@ -3,7 +3,7 @@ import fs from "fs-extra";
 import dotenv from "dotenv";
 import path from "path";
 
-const OVERWRITE_EXISTING_FILES = false;
+const OVERWRITE_EXISTING_FILES = true;
 
 dotenv.config();
 
@@ -105,6 +105,11 @@ function existingCurrentRead(slug: string): boolean {
   const match = content.match(/currentRead:\s*(true|false)/);
 
   return match?.[1] === "true";
+}
+
+//check if book is a reread
+function isReread(slug: string): boolean {
+  return false;
 }
 
 //remove files for existing book
@@ -276,9 +281,11 @@ export async function runBookExport(): Promise<void> {
 
     if (!OVERWRITE_EXISTING_FILES) {
       const oldCurrentRead = existingCurrentRead(slug);
+      const isBookReread = isReread(slug);
 
       // Book was previously current, but is now finished
-      if (oldCurrentRead && !currentRead) {
+      // Or book is being re-read
+      if ((oldCurrentRead && !currentRead)) {
         await removeCompletedBookFiles(slug, summarySlug, latestReadSlug);
       }
     }
@@ -347,24 +354,12 @@ export async function runBookExport(): Promise<void> {
 
     const summaryContent = summaryRow?.summaryContent ?? "";
 
-    const createBlankSummaryFile = true;
     // Make files even if no summary stored
-    if (createBlankSummaryFile) {
       writeMarkdown(
         `files/summaries/${summarySlug}.md`,
-        { bookSlug: slug, summarySlug, book: `[[${slug}]]` },
+        { permalink: false, bookSlug: slug, summarySlug, book: `[[${slug}]]` },
         summaryContent,
       );
-    } else {
-      console.log("Bad");
-      if (hasSummary) {
-        writeMarkdown(
-          `files/summaries/${summarySlug}.md`,
-          { bookSlug: slug, book: `[[${slug}]]` },
-          summaryContent,
-        );
-      }
-    }
 
     // READ FILES
     reads.forEach((row, index) => {
@@ -376,6 +371,7 @@ export async function runBookExport(): Promise<void> {
       writeMarkdown(
         `files/reads/${readSlug}.md`,
         {
+          permalink: false,
           bookSlug: slug,
           readSlug,
           book: `[[${slug}]]`,

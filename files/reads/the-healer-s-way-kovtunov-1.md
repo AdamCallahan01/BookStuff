@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-healer-s-way-kovtunov"
 readSlug: "the-healer-s-way-kovtunov-1"
 book: "[[the-healer-s-way-kovtunov]]"

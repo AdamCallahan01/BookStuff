@@ -18,17 +18,17 @@ subgenre: "Mystery"
 isbn: "9781984820709"
 narrator: "Andrew Fallaize"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-tainted-cup-bennett-summary"
 summarySlugLink: "[[the-tainted-cup-bennett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["the-tainted-cup-bennett-1"]
 readSlugsLinks: ["[[the-tainted-cup-bennett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-tainted-cup-bennett-cover"
 ---
 

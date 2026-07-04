@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "love-s-labour-s-lost-shakespeare"
 readSlug: "love-s-labour-s-lost-shakespeare-1"
 book: "[[love-s-labour-s-lost-shakespeare]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "as-you-like-it-shakespeare"
 readSlug: "as-you-like-it-shakespeare-1"
 book: "[[as-you-like-it-shakespeare]]"

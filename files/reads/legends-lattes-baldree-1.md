@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "legends-lattes-baldree"
 readSlug: "legends-lattes-baldree-1"
 book: "[[legends-lattes-baldree]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-interpretation-of-dreams-freud"
 readSlug: "the-interpretation-of-dreams-freud-1"
 book: "[[the-interpretation-of-dreams-freud]]"

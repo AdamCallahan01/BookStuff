@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "neverwhere-gaiman"
 readSlug: "neverwhere-gaiman-1"
 book: "[[neverwhere-gaiman]]"

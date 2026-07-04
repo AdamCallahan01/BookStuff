@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "gregor-and-the-curse-of-the-warmbloods-collins"
 readSlug: "gregor-and-the-curse-of-the-warmbloods-collins-1"
 book: "[[gregor-and-the-curse-of-the-warmbloods-collins]]"

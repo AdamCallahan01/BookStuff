@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "into-the-labyrinth-bierce"
 readSlug: "into-the-labyrinth-bierce-1"
 book: "[[into-the-labyrinth-bierce]]"

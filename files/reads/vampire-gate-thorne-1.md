@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "vampire-gate-thorne"
 readSlug: "vampire-gate-thorne-1"
 book: "[[vampire-gate-thorne]]"

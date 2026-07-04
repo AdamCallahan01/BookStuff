@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-wind-runner-aba"
 readSlug: "the-wind-runner-aba-1"
 book: "[[the-wind-runner-aba]]"

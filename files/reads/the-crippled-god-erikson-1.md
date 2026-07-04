@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-crippled-god-erikson"
 readSlug: "the-crippled-god-erikson-1"
 book: "[[the-crippled-god-erikson]]"

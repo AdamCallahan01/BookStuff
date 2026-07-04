@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "exile-salvatore"
 readSlug: "exile-salvatore-1"
 book: "[[exile-salvatore]]"

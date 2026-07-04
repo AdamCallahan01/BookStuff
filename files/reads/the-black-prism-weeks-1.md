@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-black-prism-weeks"
 readSlug: "the-black-prism-weeks-1"
 book: "[[the-black-prism-weeks]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "ashes-of-man-ruocchio"
 readSlug: "ashes-of-man-ruocchio-1"
 book: "[[ashes-of-man-ruocchio]]"

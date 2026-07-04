@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "avempartha-sullivan"
 readSlug: "avempartha-sullivan-1"
 book: "[[avempartha-sullivan]]"

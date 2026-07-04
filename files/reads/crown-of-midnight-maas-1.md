@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "crown-of-midnight-maas"
 readSlug: "crown-of-midnight-maas-1"
 book: "[[crown-of-midnight-maas]]"

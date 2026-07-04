@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "guards-guards-pratchett"
 readSlug: "guards-guards-pratchett-1"
 book: "[[guards-guards-pratchett]]"

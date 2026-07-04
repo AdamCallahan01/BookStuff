@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "rise-of-gods-ashton"
 readSlug: "rise-of-gods-ashton-1"
 book: "[[rise-of-gods-ashton]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "we-are-legion-we-are-bob-taylor"
 readSlug: "we-are-legion-we-are-bob-taylor-1"
 book: "[[we-are-legion-we-are-bob-taylor]]"

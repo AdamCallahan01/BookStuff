@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "storm-front-butcher"
 readSlug: "storm-front-butcher-1"
 book: "[[storm-front-butcher]]"

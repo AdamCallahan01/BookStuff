@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "tress-of-the-emerald-sea-sanderson"
 readSlug: "tress-of-the-emerald-sea-sanderson-1"
 book: "[[tress-of-the-emerald-sea-sanderson]]"

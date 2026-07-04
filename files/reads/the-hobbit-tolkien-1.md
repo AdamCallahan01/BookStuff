@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-hobbit-tolkien"
 readSlug: "the-hobbit-tolkien-1"
 book: "[[the-hobbit-tolkien]]"

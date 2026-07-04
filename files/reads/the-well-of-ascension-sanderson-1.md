@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-well-of-ascension-sanderson"
 readSlug: "the-well-of-ascension-sanderson-1"
 book: "[[the-well-of-ascension-sanderson]]"

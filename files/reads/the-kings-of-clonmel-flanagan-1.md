@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-kings-of-clonmel-flanagan"
 readSlug: "the-kings-of-clonmel-flanagan-1"
 book: "[[the-kings-of-clonmel-flanagan]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "abaddon-s-gate-corey"
 readSlug: "abaddon-s-gate-corey-1"
 book: "[[abaddon-s-gate-corey]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "children-of-time-tchaikovsky"
 readSlug: "children-of-time-tchaikovsky-1"
 book: "[[children-of-time-tchaikovsky]]"

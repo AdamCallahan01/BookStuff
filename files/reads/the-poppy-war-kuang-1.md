@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-poppy-war-kuang"
 readSlug: "the-poppy-war-kuang-1"
 book: "[[the-poppy-war-kuang]]"

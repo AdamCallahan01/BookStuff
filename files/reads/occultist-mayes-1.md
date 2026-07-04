@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "occultist-mayes"
 readSlug: "occultist-mayes-1"
 book: "[[occultist-mayes]]"

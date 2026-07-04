@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "a-court-of-frost-and-starlight-maas"
 readSlug: "a-court-of-frost-and-starlight-maas-2"
 book: "[[a-court-of-frost-and-starlight-maas]]"

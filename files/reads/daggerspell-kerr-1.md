@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "daggerspell-kerr"
 readSlug: "daggerspell-kerr-1"
 book: "[[daggerspell-kerr]]"

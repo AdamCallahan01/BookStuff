@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "measure-for-measure-shakespeare"
 readSlug: "measure-for-measure-shakespeare-1"
 book: "[[measure-for-measure-shakespeare]]"

@@ -518,5 +518,317 @@ export default [
     "question": "What is the name of the god of the Nine?",
     "answer": "Kresimir",
     "difficulty": "Easy"
+  },
+  {
+    "series": "Dungeon Crawler Carl",
+    "author": "Matt Dinniman",
+    "title": "Dungeon Crawler Carl",
+    "question": "What is the name of the elder care facility that Brandon worked at?",
+    "answer": "Meadowlark",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Hainish Cycle",
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Darkness",
+    "question": "What is the Left Hand of Darkness?",
+    "answer": "Light",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Hainish Cycle",
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Darkness",
+    "question": "What is Estraven's full name?",
+    "answer": "Therem Harth rem ir Estraven",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Hainish Cycle",
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Darkness",
+    "question": "What is another name for the planet Winter?",
+    "answer": "Gethen",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Hainish Cycle",
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Darkness",
+    "question": "What number of his line is King Argaven?",
+    "answer": "15 (XV)",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Hainish Cycle",
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Darkness",
+    "question": "What is the device that can communicate instantly regardless of time?",
+    "answer": "Ansible",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Hainish Cycle",
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Darkness",
+    "question": "What is the group of planets that Genly Ai represents?",
+    "answer": "The Ekumen",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "N/A",
+    "author": "Naomi Novik",
+    "title": "Spinning Silver",
+    "question": "What religion is Miryam?",
+    "answer": "Jewish",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "N/A",
+    "author": "Naomi Novik",
+    "title": "Spinning Silver",
+    "question": "What is the name of the Staryk King?",
+    "answer": "We don't know",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "Naomi Novik",
+    "title": "Spinning Silver",
+    "question": "How many children did Wanda's mother bury around the tree?",
+    "answer": "5",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "N/A",
+    "author": "Naomi Novik",
+    "title": "Spinning Silver",
+    "question": "What is the name of the kingdom they live in?",
+    "answer": "Lithvas",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "Naomi Novik",
+    "title": "Spinning Silver",
+    "question": "How much money did Wanda's father borrow?",
+    "answer": "6 silver Kopecks",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "Who is Redd's premier bodyguard/soldier?",
+    "answer": "The Cat",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "What is the name of the royal tutor?",
+    "answer": "Bibwit Harte",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "Who are the 4 noble families of Wonderland?",
+    "answer": "Hearts, Clubs, Spades, Diamonds",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "What is the name of Dodge's father?",
+    "answer": "Sir Justice (Anders)",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "What is the name of the family who adopt Alice?",
+    "answer": "Liddell",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "What is the name of Alyss' first friend on Earth?",
+    "answer": "Quigly Gaffer",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Looking Glass Wars",
+    "author": "Frank Beddor",
+    "title": "The Looking Glass Wars",
+    "question": "What are the names of Alyss' parents?",
+    "answer": "Genevieve and Nolan",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What are the sublimes enhanced for great strength called?",
+    "answer": "Cracklers",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What is it called when Din gets his job payment?",
+    "answer": "Dispensation",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What drug does Ana ask Din to get for her?",
+    "answer": "Moodies (Hallucinogenic)",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What sense do engravers use to help manage memories?",
+    "answer": "Scent",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "How is the empire broken up?",
+    "answer": "Rings/Cantons",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What keeps the leviathans out of the empire?",
+    "answer": "Sea Wall",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "How does Ana prefer to read?",
+    "answer": "Touch",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What condition does Din have?",
+    "answer": "Dyslexia",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What are the birds that carry messages between places called?",
+    "answer": "Scribe Hawk",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Shadow of the Leviathan",
+    "author": "Robert Jackson Bennet",
+    "title": "The Tainted Cup",
+    "question": "What is Miljin's sword made from?",
+    "answer": "Leviathan Bone",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What is the name of the boy?",
+    "answer": "Jake Chambers",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "Where did the gunslinger buy the mule?",
+    "answer": "Pricetown",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What is the name of Roland's hawk?",
+    "answer": "David",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What direction does the gunslinger walk in the desert?",
+    "answer": "Southeast",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What was the name of the raven who lived with Brown?",
+    "answer": "Zoltan",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What wood make up the guns handles?",
+    "answer": "Sandalwood",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "Who is the gunslingers father?",
+    "answer": "Stephen Deschain",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What mode of transportation does the gunslinger use to cross the mountains?",
+    "answer": "Handcar",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What is the hypnosis trick using a bullet called?",
+    "answer": "Howken",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Dark Tower",
+    "author": "Stephen King",
+    "title": "The Gunslinger",
+    "question": "What is the number Allie was given?",
+    "answer": "19",
+    "difficulty": "Easy"
   }
 ];

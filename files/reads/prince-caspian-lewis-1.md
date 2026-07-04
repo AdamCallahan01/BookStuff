@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "prince-caspian-lewis"
 readSlug: "prince-caspian-lewis-1"
 book: "[[prince-caspian-lewis]]"

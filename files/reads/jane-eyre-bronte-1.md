@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "jane-eyre-bronte"
 readSlug: "jane-eyre-bronte-1"
 book: "[[jane-eyre-bronte]]"

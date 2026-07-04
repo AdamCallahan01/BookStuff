@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-silverblood-promise-logan"
 readSlug: "the-silverblood-promise-logan-1"
 book: "[[the-silverblood-promise-logan]]"

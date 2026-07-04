@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "soulsmith-wight"
 readSlug: "soulsmith-wight-1"
 book: "[[soulsmith-wight]]"

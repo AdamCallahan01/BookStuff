@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-blackest-heart-durfee"
 summarySlug: "the-blackest-heart-durfee-summary"
 book: "[[the-blackest-heart-durfee]]"

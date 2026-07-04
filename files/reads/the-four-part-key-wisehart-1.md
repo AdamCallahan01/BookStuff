@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-four-part-key-wisehart"
 readSlug: "the-four-part-key-wisehart-1"
 book: "[[the-four-part-key-wisehart]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dawnshard-sanderson"
 readSlug: "dawnshard-sanderson-1"
 book: "[[dawnshard-sanderson]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "invasion-breene"
 readSlug: "invasion-breene-1"
 book: "[[invasion-breene]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-man-who-died-twice-osman"
 summarySlug: "the-man-who-died-twice-osman-summary"
 book: "[[the-man-who-died-twice-osman]]"

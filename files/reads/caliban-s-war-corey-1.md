@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "caliban-s-war-corey"
 readSlug: "caliban-s-war-corey-1"
 book: "[[caliban-s-war-corey]]"

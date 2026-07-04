@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-alloy-of-law-sanderson"
 readSlug: "the-alloy-of-law-sanderson-1"
 book: "[[the-alloy-of-law-sanderson]]"

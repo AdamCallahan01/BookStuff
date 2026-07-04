@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-hope-of-elantris-sanderson"
 readSlug: "the-hope-of-elantris-sanderson-1"
 book: "[[the-hope-of-elantris-sanderson]]"

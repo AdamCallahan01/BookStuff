@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "much-ado-about-nothing-shakespeare"
 readSlug: "much-ado-about-nothing-shakespeare-1"
 book: "[[much-ado-about-nothing-shakespeare]]"

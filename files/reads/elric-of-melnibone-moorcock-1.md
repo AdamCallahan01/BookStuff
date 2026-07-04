@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "elric-of-melnibone-moorcock"
 readSlug: "elric-of-melnibone-moorcock-1"
 book: "[[elric-of-melnibone-moorcock]]"

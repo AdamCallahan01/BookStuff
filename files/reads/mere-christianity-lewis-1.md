@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "mere-christianity-lewis"
 readSlug: "mere-christianity-lewis-1"
 book: "[[mere-christianity-lewis]]"

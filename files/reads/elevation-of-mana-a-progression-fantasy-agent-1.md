@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "elevation-of-mana-a-progression-fantasy-agent"
 readSlug: "elevation-of-mana-a-progression-fantasy-agent-1"
 book: "[[elevation-of-mana-a-progression-fantasy-agent]]"

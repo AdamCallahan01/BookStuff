@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "chosen-breene"
 readSlug: "chosen-breene-1"
 book: "[[chosen-breene]]"

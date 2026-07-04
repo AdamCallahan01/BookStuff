@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "waybound-wight"
 summarySlug: "waybound-wight-summary"
 book: "[[waybound-wight]]"

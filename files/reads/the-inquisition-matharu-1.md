@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-inquisition-matharu"
 readSlug: "the-inquisition-matharu-1"
 book: "[[the-inquisition-matharu]]"

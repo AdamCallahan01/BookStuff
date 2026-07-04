@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-hitchhiker-s-guide-to-the-galaxy-adams"
 readSlug: "the-hitchhiker-s-guide-to-the-galaxy-adams-1"
 book: "[[the-hitchhiker-s-guide-to-the-galaxy-adams]]"

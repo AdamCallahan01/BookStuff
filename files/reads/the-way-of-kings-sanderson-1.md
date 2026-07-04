@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-way-of-kings-sanderson"
 readSlug: "the-way-of-kings-sanderson-1"
 book: "[[the-way-of-kings-sanderson]]"

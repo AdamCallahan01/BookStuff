@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-strength-of-the-few-islington"
 readSlug: "the-strength-of-the-few-islington-1"
 book: "[[the-strength-of-the-few-islington]]"

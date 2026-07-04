@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-problem-of-pain-lewis"
 readSlug: "the-problem-of-pain-lewis-1"
 book: "[[the-problem-of-pain-lewis]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-awakening-peckham"
 readSlug: "the-awakening-peckham-1"
 book: "[[the-awakening-peckham]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "sufficiently-advanced-magic-rowe"
 readSlug: "sufficiently-advanced-magic-rowe-1"
 book: "[[sufficiently-advanced-magic-rowe]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-weight-of-glory-lewis"
 readSlug: "the-weight-of-glory-lewis-1"
 book: "[[the-weight-of-glory-lewis]]"

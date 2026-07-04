@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-order-of-the-phoenix-rowling"
 readSlug: "harry-potter-and-the-order-of-the-phoenix-rowling-3"
 book: "[[harry-potter-and-the-order-of-the-phoenix-rowling]]"

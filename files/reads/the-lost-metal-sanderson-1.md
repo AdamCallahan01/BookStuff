@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-lost-metal-sanderson"
 readSlug: "the-lost-metal-sanderson-1"
 book: "[[the-lost-metal-sanderson]]"

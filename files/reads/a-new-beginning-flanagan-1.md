@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "a-new-beginning-flanagan"
 readSlug: "a-new-beginning-flanagan-1"
 book: "[[a-new-beginning-flanagan]]"

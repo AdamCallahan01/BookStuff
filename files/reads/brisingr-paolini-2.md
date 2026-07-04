@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "brisingr-paolini"
 readSlug: "brisingr-paolini-2"
 book: "[[brisingr-paolini]]"

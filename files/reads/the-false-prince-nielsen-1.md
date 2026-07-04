@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-false-prince-nielsen"
 readSlug: "the-false-prince-nielsen-1"
 book: "[[the-false-prince-nielsen]]"

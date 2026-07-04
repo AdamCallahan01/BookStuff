@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "ritualist-krout"
 readSlug: "ritualist-krout-1"
 book: "[[ritualist-krout]]"

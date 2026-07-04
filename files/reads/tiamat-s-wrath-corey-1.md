@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "tiamat-s-wrath-corey"
 readSlug: "tiamat-s-wrath-corey-1"
 book: "[[tiamat-s-wrath-corey]]"

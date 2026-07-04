@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "academy-of-outcasts-correia"
 readSlug: "academy-of-outcasts-correia-1"
 book: "[[academy-of-outcasts-correia]]"

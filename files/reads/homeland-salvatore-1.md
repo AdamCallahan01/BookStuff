@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "homeland-salvatore"
 readSlug: "homeland-salvatore-1"
 book: "[[homeland-salvatore]]"

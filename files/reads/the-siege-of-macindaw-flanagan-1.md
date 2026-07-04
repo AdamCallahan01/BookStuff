@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-siege-of-macindaw-flanagan"
 readSlug: "the-siege-of-macindaw-flanagan-1"
 book: "[[the-siege-of-macindaw-flanagan]]"

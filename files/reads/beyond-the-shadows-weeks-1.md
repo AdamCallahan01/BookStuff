@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "beyond-the-shadows-weeks"
 readSlug: "beyond-the-shadows-weeks-1"
 book: "[[beyond-the-shadows-weeks]]"

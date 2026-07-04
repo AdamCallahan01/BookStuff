@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "shadow-lands-breene"
 readSlug: "shadow-lands-breene-1"
 book: "[[shadow-lands-breene]]"

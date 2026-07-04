@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-serpent-and-the-wings-of-night-broadbent"
 readSlug: "the-serpent-and-the-wings-of-night-broadbent-1"
 book: "[[the-serpent-and-the-wings-of-night-broadbent]]"

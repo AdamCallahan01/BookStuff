@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "cataclysm-hunter"
 readSlug: "cataclysm-hunter-1"
 book: "[[cataclysm-hunter]]"

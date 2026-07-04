@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "blood-of-liscor-aba"
 readSlug: "blood-of-liscor-aba-1"
 book: "[[blood-of-liscor-aba]]"

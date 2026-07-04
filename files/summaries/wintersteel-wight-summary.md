@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "wintersteel-wight"
 summarySlug: "wintersteel-wight-summary"
 book: "[[wintersteel-wight]]"

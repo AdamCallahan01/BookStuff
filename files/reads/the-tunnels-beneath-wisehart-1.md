@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-tunnels-beneath-wisehart"
 readSlug: "the-tunnels-beneath-wisehart-1"
 book: "[[the-tunnels-beneath-wisehart]]"

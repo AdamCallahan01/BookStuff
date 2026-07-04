@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "gregor-the-overlander-collins"
 readSlug: "gregor-the-overlander-collins-1"
 book: "[[gregor-the-overlander-collins]]"

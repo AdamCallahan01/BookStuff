@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-rains-of-liscor-aba"
 readSlug: "the-rains-of-liscor-aba-1"
 book: "[[the-rains-of-liscor-aba]]"

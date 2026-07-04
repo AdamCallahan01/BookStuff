@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-emperor-s-soul-sanderson"
 readSlug: "the-emperor-s-soul-sanderson-1"
 book: "[[the-emperor-s-soul-sanderson]]"

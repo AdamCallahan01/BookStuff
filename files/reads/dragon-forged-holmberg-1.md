@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dragon-forged-holmberg"
 readSlug: "dragon-forged-holmberg-1"
 book: "[[dragon-forged-holmberg]]"

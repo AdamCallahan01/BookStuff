@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "daughter-of-the-empire-wurts"
 readSlug: "daughter-of-the-empire-wurts-1"
 book: "[[daughter-of-the-empire-wurts]]"

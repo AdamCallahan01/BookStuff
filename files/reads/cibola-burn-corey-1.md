@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "cibola-burn-corey"
 readSlug: "cibola-burn-corey-1"
 book: "[[cibola-burn-corey]]"

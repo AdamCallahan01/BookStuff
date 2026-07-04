@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "sixteen-ways-to-defend-a-walled-city-holt"
 readSlug: "sixteen-ways-to-defend-a-walled-city-holt-1"
 book: "[[sixteen-ways-to-defend-a-walled-city-holt]]"

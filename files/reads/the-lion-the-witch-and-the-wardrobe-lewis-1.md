@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-lion-the-witch-and-the-wardrobe-lewis"
 readSlug: "the-lion-the-witch-and-the-wardrobe-lewis-1"
 book: "[[the-lion-the-witch-and-the-wardrobe-lewis]]"

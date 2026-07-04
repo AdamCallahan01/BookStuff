@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "i-m-not-the-hero-kerper"
 summarySlug: "i-m-not-the-hero-kerper-summary"
 book: "[[i-m-not-the-hero-kerper]]"

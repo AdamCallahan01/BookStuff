@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dreadgod-wight"
 summarySlug: "dreadgod-wight-summary"
 book: "[[dreadgod-wight]]"

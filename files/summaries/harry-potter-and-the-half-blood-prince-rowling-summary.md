@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-half-blood-prince-rowling"
 summarySlug: "harry-potter-and-the-half-blood-prince-rowling-summary"
 book: "[[harry-potter-and-the-half-blood-prince-rowling]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "rhythm-of-war-sanderson"
 readSlug: "rhythm-of-war-sanderson-1"
 book: "[[rhythm-of-war-sanderson]]"

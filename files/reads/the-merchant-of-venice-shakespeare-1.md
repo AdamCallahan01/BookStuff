@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-merchant-of-venice-shakespeare"
 readSlug: "the-merchant-of-venice-shakespeare-1"
 book: "[[the-merchant-of-venice-shakespeare]]"

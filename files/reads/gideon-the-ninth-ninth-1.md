@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "gideon-the-ninth-ninth"
 readSlug: "gideon-the-ninth-ninth-1"
 book: "[[gideon-the-ninth-ninth]]"

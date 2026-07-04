@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "gregor-and-the-prophecy-of-bane-collins"
 readSlug: "gregor-and-the-prophecy-of-bane-collins-1"
 book: "[[gregor-and-the-prophecy-of-bane-collins]]"
