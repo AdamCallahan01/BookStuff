@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Horror"
 isbn: "9781501143519"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-gunslinger-king-summary"
 summarySlugLink: "[[the-gunslinger-king-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8.5
+allScores: [8.5]
 readSlugs: ["the-gunslinger-king-1"]
 readSlugsLinks: ["[[the-gunslinger-king-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-gunslinger-king-cover"
 ---
 

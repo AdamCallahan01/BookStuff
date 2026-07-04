@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-palace-job-weekes"
 readSlug: "the-palace-job-weekes-1"
 book: "[[the-palace-job-weekes]]"

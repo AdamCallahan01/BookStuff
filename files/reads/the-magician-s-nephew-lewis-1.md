@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-magician-s-nephew-lewis"
 readSlug: "the-magician-s-nephew-lewis-1"
 book: "[[the-magician-s-nephew-lewis]]"

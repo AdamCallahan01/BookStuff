@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "armada-cline"
 readSlug: "armada-cline-1"
 book: "[[armada-cline]]"

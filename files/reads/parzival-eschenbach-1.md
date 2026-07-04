@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "parzival-eschenbach"
 readSlug: "parzival-eschenbach-1"
 book: "[[parzival-eschenbach]]"

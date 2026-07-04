@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-half-blood-prince-rowling"
 readSlug: "harry-potter-and-the-half-blood-prince-rowling-2"
 book: "[[harry-potter-and-the-half-blood-prince-rowling]]"

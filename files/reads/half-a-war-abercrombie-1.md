@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "half-a-war-abercrombie"
 readSlug: "half-a-war-abercrombie-1"
 book: "[[half-a-war-abercrombie]]"

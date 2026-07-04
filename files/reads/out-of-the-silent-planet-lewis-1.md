@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "out-of-the-silent-planet-lewis"
 readSlug: "out-of-the-silent-planet-lewis-1"
 book: "[[out-of-the-silent-planet-lewis]]"

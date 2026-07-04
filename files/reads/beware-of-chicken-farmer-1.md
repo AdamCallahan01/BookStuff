@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "beware-of-chicken-farmer"
 readSlug: "beware-of-chicken-farmer-1"
 book: "[[beware-of-chicken-farmer]]"

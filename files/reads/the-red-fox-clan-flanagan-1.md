@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-red-fox-clan-flanagan"
 readSlug: "the-red-fox-clan-flanagan-1"
 book: "[[the-red-fox-clan-flanagan]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "seeing-redd-beddor"
 readSlug: "seeing-redd-beddor-1"
 book: "[[seeing-redd-beddor]]"

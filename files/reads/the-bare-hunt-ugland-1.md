@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-bare-hunt-ugland"
 readSlug: "the-bare-hunt-ugland-1"
 book: "[[the-bare-hunt-ugland]]"

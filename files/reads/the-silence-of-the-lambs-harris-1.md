@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-silence-of-the-lambs-harris"
 readSlug: "the-silence-of-the-lambs-harris-1"
 book: "[[the-silence-of-the-lambs-harris]]"

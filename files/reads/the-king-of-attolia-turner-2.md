@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-king-of-attolia-turner"
 readSlug: "the-king-of-attolia-turner-2"
 book: "[[the-king-of-attolia-turner]]"

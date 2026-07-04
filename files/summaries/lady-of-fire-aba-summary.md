@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "lady-of-fire-aba"
 summarySlug: "lady-of-fire-aba-summary"
 book: "[[lady-of-fire-aba]]"

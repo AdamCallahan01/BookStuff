@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-principia-newton"
 readSlug: "the-principia-newton-1"
 book: "[[the-principia-newton]]"

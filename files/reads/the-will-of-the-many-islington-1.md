@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-will-of-the-many-islington"
 readSlug: "the-will-of-the-many-islington-1"
 book: "[[the-will-of-the-many-islington]]"

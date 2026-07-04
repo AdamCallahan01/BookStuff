@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "mistborn-secret-history-sanderson"
 readSlug: "mistborn-secret-history-sanderson-1"
 book: "[[mistborn-secret-history-sanderson]]"

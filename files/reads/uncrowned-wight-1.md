@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "uncrowned-wight"
 readSlug: "uncrowned-wight-1"
 book: "[[uncrowned-wight]]"

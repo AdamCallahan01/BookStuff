@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "mark-of-the-fool-clarke"
 summarySlug: "mark-of-the-fool-clarke-summary"
 book: "[[mark-of-the-fool-clarke]]"

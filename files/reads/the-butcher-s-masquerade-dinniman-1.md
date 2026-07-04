@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-butcher-s-masquerade-dinniman"
 readSlug: "the-butcher-s-masquerade-dinniman-1"
 book: "[[the-butcher-s-masquerade-dinniman]]"

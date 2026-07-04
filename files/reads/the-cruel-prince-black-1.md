@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-cruel-prince-black"
 readSlug: "the-cruel-prince-black-1"
 book: "[[the-cruel-prince-black]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-druid-wheeler"
 readSlug: "the-druid-wheeler-1"
 book: "[[the-druid-wheeler]]"

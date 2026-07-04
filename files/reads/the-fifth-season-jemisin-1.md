@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-fifth-season-jemisin"
 readSlug: "the-fifth-season-jemisin-1"
 book: "[[the-fifth-season-jemisin]]"

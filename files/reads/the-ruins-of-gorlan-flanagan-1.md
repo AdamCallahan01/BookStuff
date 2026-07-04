@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-ruins-of-gorlan-flanagan"
 readSlug: "the-ruins-of-gorlan-flanagan-1"
 book: "[[the-ruins-of-gorlan-flanagan]]"

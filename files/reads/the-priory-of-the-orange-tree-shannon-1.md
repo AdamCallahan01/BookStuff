@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-priory-of-the-orange-tree-shannon"
 readSlug: "the-priory-of-the-orange-tree-shannon-1"
 book: "[[the-priory-of-the-orange-tree-shannon]]"

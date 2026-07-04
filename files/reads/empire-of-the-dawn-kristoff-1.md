@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "empire-of-the-dawn-kristoff"
 readSlug: "empire-of-the-dawn-kristoff-1"
 book: "[[empire-of-the-dawn-kristoff]]"

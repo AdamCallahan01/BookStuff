@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-republic-of-thieves-lynch"
 readSlug: "the-republic-of-thieves-lynch-1"
 book: "[[the-republic-of-thieves-lynch]]"

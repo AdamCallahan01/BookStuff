@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "promise-of-blood-mcclellan"
 readSlug: "promise-of-blood-mcclellan-1"
 book: "[[promise-of-blood-mcclellan]]"

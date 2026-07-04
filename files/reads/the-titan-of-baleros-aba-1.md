@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-titan-of-baleros-aba"
 readSlug: "the-titan-of-baleros-aba-1"
 book: "[[the-titan-of-baleros-aba]]"

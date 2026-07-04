@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt"
 readSlug: "how-to-be-a-farmer-in-a-fantasy-world-wyatt-1"
 book: "[[how-to-be-a-farmer-in-a-fantasy-world-wyatt]]"

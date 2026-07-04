@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "scorching-sun-thorne"
 readSlug: "scorching-sun-thorne-1"
 book: "[[scorching-sun-thorne]]"

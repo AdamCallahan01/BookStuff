@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "towervale-carman"
 readSlug: "towervale-carman-1"
 book: "[[towervale-carman]]"

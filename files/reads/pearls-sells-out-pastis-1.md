@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "pearls-sells-out-pastis"
 readSlug: "pearls-sells-out-pastis-1"
 book: "[[pearls-sells-out-pastis]]"

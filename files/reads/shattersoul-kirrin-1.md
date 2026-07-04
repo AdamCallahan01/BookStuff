@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "shattersoul-kirrin"
 readSlug: "shattersoul-kirrin-1"
 book: "[[shattersoul-kirrin]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "white-sand-volume-3-sanderson"
 readSlug: "white-sand-volume-3-sanderson-1"
 book: "[[white-sand-volume-3-sanderson]]"

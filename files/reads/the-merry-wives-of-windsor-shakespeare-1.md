@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-merry-wives-of-windsor-shakespeare"
 readSlug: "the-merry-wives-of-windsor-shakespeare-1"
 book: "[[the-merry-wives-of-windsor-shakespeare]]"

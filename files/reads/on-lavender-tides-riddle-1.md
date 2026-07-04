@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "on-lavender-tides-riddle"
 readSlug: "on-lavender-tides-riddle-1"
 book: "[[on-lavender-tides-riddle]]"

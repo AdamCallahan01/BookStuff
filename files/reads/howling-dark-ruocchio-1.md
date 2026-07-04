@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "howling-dark-ruocchio"
 readSlug: "howling-dark-ruocchio-1"
 book: "[[howling-dark-ruocchio]]"

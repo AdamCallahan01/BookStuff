@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "a-midsummer-night-s-dream-shakespeare"
 readSlug: "a-midsummer-night-s-dream-shakespeare-1"
 book: "[[a-midsummer-night-s-dream-shakespeare]]"

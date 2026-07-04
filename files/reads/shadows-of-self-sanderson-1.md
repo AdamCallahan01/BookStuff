@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "shadows-of-self-sanderson"
 readSlug: "shadows-of-self-sanderson-1"
 book: "[[shadows-of-self-sanderson]]"

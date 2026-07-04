@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-wisdom-of-crowds-abercrombie"
 readSlug: "the-wisdom-of-crowds-abercrombie-1"
 book: "[[the-wisdom-of-crowds-abercrombie]]"

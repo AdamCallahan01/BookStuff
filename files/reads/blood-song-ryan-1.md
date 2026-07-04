@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "blood-song-ryan"
 readSlug: "blood-song-ryan-1"
 book: "[[blood-song-ryan]]"

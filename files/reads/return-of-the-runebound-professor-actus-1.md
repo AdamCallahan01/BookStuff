@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "return-of-the-runebound-professor-actus"
 readSlug: "return-of-the-runebound-professor-actus-1"
 book: "[[return-of-the-runebound-professor-actus]]"

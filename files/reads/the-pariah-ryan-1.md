@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-pariah-ryan"
 readSlug: "the-pariah-ryan-1"
 book: "[[the-pariah-ryan]]"

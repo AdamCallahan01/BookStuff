@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-atlantis-complex-colfer"
 readSlug: "the-atlantis-complex-colfer-1"
 book: "[[the-atlantis-complex-colfer]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "eleventh-cycle-ardalan"
 readSlug: "eleventh-cycle-ardalan-1"
 book: "[[eleventh-cycle-ardalan]]"

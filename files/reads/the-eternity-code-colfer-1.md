@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-eternity-code-colfer"
 readSlug: "the-eternity-code-colfer-1"
 book: "[[the-eternity-code-colfer]]"

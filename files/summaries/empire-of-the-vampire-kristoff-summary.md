@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "empire-of-the-vampire-kristoff"
 summarySlug: "empire-of-the-vampire-kristoff-summary"
 book: "[[empire-of-the-vampire-kristoff]]"

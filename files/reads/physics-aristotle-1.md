@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "physics-aristotle"
 readSlug: "physics-aristotle-1"
 book: "[[physics-aristotle]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "moira-s-pen-turner"
 readSlug: "moira-s-pen-turner-1"
 book: "[[moira-s-pen-turner]]"

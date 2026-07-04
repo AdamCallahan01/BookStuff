@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-last-devil-to-die-osman"
 readSlug: "the-last-devil-to-die-osman-1"
 book: "[[the-last-devil-to-die-osman]]"

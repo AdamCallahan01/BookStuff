@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-bands-of-mourning-sanderson"
 readSlug: "the-bands-of-mourning-sanderson-1"
 book: "[[the-bands-of-mourning-sanderson]]"

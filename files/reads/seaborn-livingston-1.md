@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "seaborn-livingston"
 readSlug: "seaborn-livingston-1"
 book: "[[seaborn-livingston]]"

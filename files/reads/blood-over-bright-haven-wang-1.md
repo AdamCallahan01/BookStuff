@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "blood-over-bright-haven-wang"
 readSlug: "blood-over-bright-haven-wang-1"
 book: "[[blood-over-bright-haven-wang]]"

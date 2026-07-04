@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-adventures-of-amina-al-sirafi-chakraborty"
 readSlug: "the-adventures-of-amina-al-sirafi-chakraborty-1"
 book: "[[the-adventures-of-amina-al-sirafi-chakraborty]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-novice-matharu"
 readSlug: "the-novice-matharu-1"
 book: "[[the-novice-matharu]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "reaper-s-gale-erikson"
 readSlug: "reaper-s-gale-erikson-1"
 book: "[[reaper-s-gale-erikson]]"

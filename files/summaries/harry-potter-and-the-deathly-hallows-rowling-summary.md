@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-deathly-hallows-rowling"
 summarySlug: "harry-potter-and-the-deathly-hallows-rowling-summary"
 book: "[[harry-potter-and-the-deathly-hallows-rowling]]"

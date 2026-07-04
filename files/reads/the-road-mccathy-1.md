@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-road-mccathy"
 readSlug: "the-road-mccathy-1"
 book: "[[the-road-mccathy]]"

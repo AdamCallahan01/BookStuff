@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-thousand-deaths-of-ardor-benn-whitesides"
 readSlug: "the-thousand-deaths-of-ardor-benn-whitesides-1"
 book: "[[the-thousand-deaths-of-ardor-benn-whitesides]]"

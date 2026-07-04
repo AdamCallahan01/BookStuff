@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "tower-of-dawn-maas"
 readSlug: "tower-of-dawn-maas-1"
 book: "[[tower-of-dawn-maas]]"

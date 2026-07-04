@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "animal-farm-orwell"
 readSlug: "animal-farm-orwell-1"
 book: "[[animal-farm-orwell]]"

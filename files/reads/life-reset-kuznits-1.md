@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "life-reset-kuznits"
 readSlug: "life-reset-kuznits-1"
 book: "[[life-reset-kuznits]]"

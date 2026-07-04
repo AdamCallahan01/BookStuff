@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "between-two-fires-buehlman"
 summarySlug: "between-two-fires-buehlman-summary"
 book: "[[between-two-fires-buehlman]]"

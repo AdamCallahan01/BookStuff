@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-republic-plato"
 readSlug: "the-republic-plato-1"
 book: "[[the-republic-plato]]"

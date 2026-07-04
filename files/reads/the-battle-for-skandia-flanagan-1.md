@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-battle-for-skandia-flanagan"
 readSlug: "the-battle-for-skandia-flanagan-1"
 book: "[[the-battle-for-skandia-flanagan]]"

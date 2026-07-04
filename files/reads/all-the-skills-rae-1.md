@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "all-the-skills-rae"
 readSlug: "all-the-skills-rae-1"
 book: "[[all-the-skills-rae]]"

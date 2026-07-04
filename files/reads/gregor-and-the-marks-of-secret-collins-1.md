@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "gregor-and-the-marks-of-secret-collins"
 readSlug: "gregor-and-the-marks-of-secret-collins-1"
 book: "[[gregor-and-the-marks-of-secret-collins]]"

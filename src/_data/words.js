@@ -2134,5 +2134,985 @@ export default [
   {
     "word": "Zephyr",
     "definition": "Gentle breeze"
+  },
+  {
+    "word": "Xeric",
+    "definition": "Only requiring a small amount of moisture"
+  },
+  {
+    "word": "Doss",
+    "definition": "To bed down, a crude bed"
+  },
+  {
+    "word": "Caries",
+    "definition": "Tooth or bone decay"
+  },
+  {
+    "word": "Suppurate",
+    "definition": "To discharge pus"
+  },
+  {
+    "word": "Pellucid",
+    "definition": "Easy to understand, reflecting light evenly"
+  },
+  {
+    "word": "Lithic",
+    "definition": "Stony"
+  },
+  {
+    "word": "Fecundity",
+    "definition": "Fruitfulness, power to produce"
+  },
+  {
+    "word": "Humidor",
+    "definition": "A case kept humidified for storing cigars"
+  },
+  {
+    "word": "Fumarole",
+    "definition": "A hole in a volcanic region from which gases emerge"
+  },
+  {
+    "word": "Dowdy",
+    "definition": "Shabby, old-fashioned"
+  },
+  {
+    "word": "Stultify",
+    "definition": "To impair or negate"
+  },
+  {
+    "word": "Evince",
+    "definition": "To reveal, to display clearly"
+  },
+  {
+    "word": "Bagnio",
+    "definition": "Prison or brothel"
+  },
+  {
+    "word": "Priapic",
+    "definition": "Phallic"
+  },
+  {
+    "word": "Quoin",
+    "definition": "A solid exterior angle"
+  },
+  {
+    "word": "Halyard",
+    "definition": "A rope for hoisting something"
+  },
+  {
+    "word": "Verger",
+    "definition": "Church official who keeps order during services"
+  },
+  {
+    "word": "Bolshie",
+    "definition": "British stubborn person"
+  },
+  {
+    "word": "Trousseau",
+    "definition": "The personal possessions of a bride"
+  },
+  {
+    "word": "Holystone",
+    "definition": "A soft sandstone to scrub ship decks"
+  },
+  {
+    "word": "Recombinant",
+    "definition": "Produced by genetic engineering"
+  },
+  {
+    "word": "Hoyden",
+    "definition": "A woman of boisterous behavior"
+  },
+  {
+    "word": "Solipsistic",
+    "definition": "Characterized by extreme egocentricity"
+  },
+  {
+    "word": "Truism",
+    "definition": "An obvious truth"
+  },
+  {
+    "word": "Burgeon",
+    "definition": "Sprout or bloom"
+  },
+  {
+    "word": "Parochial",
+    "definition": "Relating to a parish"
+  },
+  {
+    "word": "Blandishment",
+    "definition": "Something that tends to coax or cajole"
+  },
+  {
+    "word": "Pinafore",
+    "definition": "A sleeveless low-necked garment"
+  },
+  {
+    "word": "Panoply",
+    "definition": "An impressive display"
+  },
+  {
+    "word": "Ague",
+    "definition": "A fever, a fit of shivering"
+  },
+  {
+    "word": "Scrieve",
+    "definition": "Move along swiftly"
+  },
+  {
+    "word": "Girt",
+    "definition": "Gird"
+  },
+  {
+    "word": "Camphor",
+    "definition": "A waxy, flammable, colorless solid with a strong, distinct, aromatic odor"
+  },
+  {
+    "word": "Penury",
+    "definition": "Severe poverty, extreme frugality"
+  },
+  {
+    "word": "Runagate",
+    "definition": "Vagabond, fugitive"
+  },
+  {
+    "word": "Redolent",
+    "definition": "Aromatic"
+  },
+  {
+    "word": "Duenna",
+    "definition": "Chaperone"
+  },
+  {
+    "word": "Celebrant",
+    "definition": "A person who celebrates, a priest officiating at the Eucharist"
+  },
+  {
+    "word": "Emetic",
+    "definition": "An agent that induces vomiting"
+  },
+  {
+    "word": "Lading",
+    "definition": "Act of bailing, cargo"
+  },
+  {
+    "word": "Capstan",
+    "definition": "A machine for raising heavy weights by rotating around a vertical drum"
+  },
+  {
+    "word": "Vagary",
+    "definition": "An erratic action"
+  },
+  {
+    "word": "Seminal",
+    "definition": "Something groundbreaking and influential"
+  },
+  {
+    "word": "Slough",
+    "definition": "Swamp, a place of deep mud"
+  },
+  {
+    "word": "Picador",
+    "definition": "Horseback rider who uses a lance to jab a bull"
+  },
+  {
+    "word": "Mellifluous",
+    "definition": "Smooth, rich flow"
+  },
+  {
+    "word": "Togs",
+    "definition": "Clothing"
+  },
+  {
+    "word": "Coquetry",
+    "definition": "Flirtatious attitude"
+  },
+  {
+    "word": "Alula",
+    "definition": "The freely moving first digit, a bird's thumb"
+  },
+  {
+    "word": "Zanshin",
+    "definition": "A state of awareness; of relaxed alertness, in Japanese martial arts"
+  },
+  {
+    "word": "Harridan",
+    "definition": "Shrew"
+  },
+  {
+    "word": "Irone",
+    "definition": "An organic chemical compound responsible for floral scents"
+  },
+  {
+    "word": "Enure",
+    "definition": "To become used to something bad"
+  },
+  {
+    "word": "Squidgy",
+    "definition": "Unpleasantly damp"
+  },
+  {
+    "word": "Bowsprit",
+    "definition": "Large pole sticking out of the bow of a ship"
+  },
+  {
+    "word": "Rapacious",
+    "definition": "Ravenous, excessively covetous"
+  },
+  {
+    "word": "Verisimilitude",
+    "definition": "Appearance of being true or real"
+  },
+  {
+    "word": "Kendo",
+    "definition": "Japanese sport of fencing with bamboo swords"
+  },
+  {
+    "word": "Oblate",
+    "definition": "Flattened at the poles"
+  },
+  {
+    "word": "Blight",
+    "definition": "A withering disease of plants"
+  },
+  {
+    "word": "Timorous",
+    "definition": "Fearful, expressing timidity"
+  },
+  {
+    "word": "Stoa",
+    "definition": "An ancient Greek portico walled at the back"
+  },
+  {
+    "word": "Antipode",
+    "definition": "The exact opposite spot on the earth"
+  },
+  {
+    "word": "Ossuary",
+    "definition": "A place for bones of the dead"
+  },
+  {
+    "word": "Talismanic",
+    "definition": "Magical"
+  },
+  {
+    "word": "Niblick",
+    "definition": "Old golf club"
+  },
+  {
+    "word": "Effrontery",
+    "definition": "Shameless boldness, insolence"
+  },
+  {
+    "word": "Obviate",
+    "definition": "To anticipate and prevent something beforehand"
+  },
+  {
+    "word": "Experiential",
+    "definition": "Relating to direct experience"
+  },
+  {
+    "word": "Adroit",
+    "definition": "Showing skill or cleverness"
+  },
+  {
+    "word": "Specious",
+    "definition": "Sophisitc, showy"
+  },
+  {
+    "word": "Imposture",
+    "definition": "Practice of deceiving by pretending to be someone else"
+  },
+  {
+    "word": "Genealogical",
+    "definition": "Relating to the study of ancestry and family lineage"
+  },
+  {
+    "word": "Adventitious",
+    "definition": "Coming from an unusual source"
+  },
+  {
+    "word": "Shoal",
+    "definition": "Shallow, sandbank in shallow water"
+  },
+  {
+    "word": "Pertinacious",
+    "definition": "Persistent, tenacious"
+  },
+  {
+    "word": "Nacre",
+    "definition": "Mother-of-pearl"
+  },
+  {
+    "word": "Dredge",
+    "definition": "To dig or gather, to bring to light by searching"
+  },
+  {
+    "word": "Phlegmatic",
+    "definition": "Not easily excited, slow to respond"
+  },
+  {
+    "word": "Potentate",
+    "definition": "Ruler, someone with power"
+  },
+  {
+    "word": "Unitary",
+    "definition": "Undivided"
+  },
+  {
+    "word": "Semiotic",
+    "definition": "General philosophy of signs and symbols"
+  },
+  {
+    "word": "Diurnal",
+    "definition": "Occuring in the daytime"
+  },
+  {
+    "word": "Delineate",
+    "definition": "Describe in detail, mark the outline of"
+  },
+  {
+    "word": "Seditious",
+    "definition": "Take part in acts to overthrow a government or cause rebellion"
+  },
+  {
+    "word": "Assiduous",
+    "definition": "Diligent, attentive"
+  },
+  {
+    "word": "Febrile",
+    "definition": "Feverish"
+  },
+  {
+    "word": "Benighted",
+    "definition": "Ignorant, overtaken by darkness"
+  },
+  {
+    "word": "Ovate",
+    "definition": "Shaped like an egg"
+  },
+  {
+    "word": "Fecund",
+    "definition": "Prolific, fruitful"
+  },
+  {
+    "word": "Dolmen",
+    "definition": "A prehistoric monument of stones"
+  },
+  {
+    "word": "Skein",
+    "definition": "Loosely coiled length of thread, tangle"
+  },
+  {
+    "word": "Depilated",
+    "definition": "Removal of hair"
+  },
+  {
+    "word": "Repertory",
+    "definition": "Repository, repertoire"
+  },
+  {
+    "word": "Voluble",
+    "definition": "Easily turning, fast flow of words when speaking"
+  },
+  {
+    "word": "Beryl",
+    "definition": "A mineral"
+  },
+  {
+    "word": "Pejorative",
+    "definition": "A word or phrase with negative connotations"
+  },
+  {
+    "word": "Ansible",
+    "definition": "A category of fictional devices capable of faster-than-light communication"
+  },
+  {
+    "word": "Pergola",
+    "definition": "Arbor"
+  },
+  {
+    "word": "Fronton",
+    "definition": "A jai alai arena"
+  },
+  {
+    "word": "Immure",
+    "definition": "Imprison, enclose in walls"
+  },
+  {
+    "word": "Veridical",
+    "definition": "Truthful, genuine"
+  },
+  {
+    "word": "Indubitable",
+    "definition": "Unquestionable, impossible to doubt"
+  },
+  {
+    "word": "Obscurities",
+    "definition": "State of being unknown"
+  },
+  {
+    "word": "Cloddish",
+    "definition": "Heavy, spiritless, stolid"
+  },
+  {
+    "word": "Involute",
+    "definition": "Curled spirally"
+  },
+  {
+    "word": "Numismatics",
+    "definition": "Study of coins and currency"
+  },
+  {
+    "word": "Mendicant",
+    "definition": "Someone who begs or lives on charity"
+  },
+  {
+    "word": "Solace",
+    "definition": "Console, give comfort"
+  },
+  {
+    "word": "Reaver",
+    "definition": "One that takes away by stealth or force"
+  },
+  {
+    "word": "Malachite",
+    "definition": "Green mineral"
+  },
+  {
+    "word": "Errant",
+    "definition": "Behaving wrongly, moving about aimlessly"
+  },
+  {
+    "word": "Errantry",
+    "definition": "A roving in search of adventure"
+  },
+  {
+    "word": "Brocade",
+    "definition": "Rich silk fabric with raised patterns"
+  },
+  {
+    "word": "Scullion",
+    "definition": "A kitchen helper"
+  },
+  {
+    "word": "Souse",
+    "definition": "Drench, plunge in liquid"
+  },
+  {
+    "word": "Greensward",
+    "definition": "Turf with green grass"
+  },
+  {
+    "word": "Attenuate",
+    "definition": "Reduce the force of something"
+  },
+  {
+    "word": "Barbican",
+    "definition": "An outer defensive work"
+  },
+  {
+    "word": "Ramekin",
+    "definition": "A small cooking dish"
+  },
+  {
+    "word": "Pantler",
+    "definition": "A servant in charge of the pantry"
+  },
+  {
+    "word": "Seneschal",
+    "definition": "A steward of a lord's estate"
+  },
+  {
+    "word": "Centuried",
+    "definition": "Lasting for centuries"
+  },
+  {
+    "word": "Machicolations",
+    "definition": "Holes along a castle parapet to drop stuff through"
+  },
+  {
+    "word": "Imprecation",
+    "definition": "Curse"
+  },
+  {
+    "word": "Lector",
+    "definition": "Person who assists at worship by reading the lection"
+  },
+  {
+    "word": "Discomfiture",
+    "definition": "A state of anxiety or embarassment"
+  },
+  {
+    "word": "Ewer",
+    "definition": "A pitcher or jug"
+  },
+  {
+    "word": "Skirl",
+    "definition": "To make music, play a bagpipe"
+  },
+  {
+    "word": "Scullery",
+    "definition": "A room for cleaning kitchen stuff"
+  },
+  {
+    "word": "Alembic",
+    "definition": "An apparatus used in distillation"
+  },
+  {
+    "word": "Ostler",
+    "definition": "Someone who cares for horses and mules"
+  },
+  {
+    "word": "Languor",
+    "definition": "Weakness of body or mind"
+  },
+  {
+    "word": "Kern",
+    "definition": "Yokel, a lightly armed foot soldier"
+  },
+  {
+    "word": "Pennoncel",
+    "definition": "A small pennant"
+  },
+  {
+    "word": "Mickle",
+    "definition": "Great"
+  },
+  {
+    "word": "Quintain",
+    "definition": "An object to tilt at"
+  },
+  {
+    "word": "Moribund",
+    "definition": "Approaching death"
+  },
+  {
+    "word": "Hippocras",
+    "definition": "A mulled wine popular in medieval Europe"
+  },
+  {
+    "word": "Scudded",
+    "definition": "To run swiftly as if driven forward"
+  },
+  {
+    "word": "Colloquy",
+    "definition": "Conversation, high-level discussion"
+  },
+  {
+    "word": "Glossolalia",
+    "definition": "Tongue, profuse speech that mimics coherent speech but is unintelligible"
+  },
+  {
+    "word": "Stanchion",
+    "definition": "An upright bar or post"
+  },
+  {
+    "word": "Pusillanimous",
+    "definition": "Lacking courage and resolution"
+  },
+  {
+    "word": "Gelid",
+    "definition": "Cold, icy"
+  },
+  {
+    "word": "Variegated",
+    "definition": "Having discrete markings, varied"
+  },
+  {
+    "word": "Tabor",
+    "definition": "A small drum used to accompany a pipe"
+  },
+  {
+    "word": "Balalaika",
+    "definition": "A 3-stringed instrument of Russian origin"
+  },
+  {
+    "word": "Auge",
+    "definition": "Eye shaped crystals"
+  },
+  {
+    "word": "Cresset",
+    "definition": "An iron vessel used a light source"
+  },
+  {
+    "word": "Breeks",
+    "definition": "Breeches"
+  },
+  {
+    "word": "Craven",
+    "definition": "Cowardly"
+  },
+  {
+    "word": "Promulgator",
+    "definition": "One who publishes"
+  },
+  {
+    "word": "Manitou",
+    "definition": "A supernatural force according to Algonquian conception"
+  },
+  {
+    "word": "Ameliorate",
+    "definition": "To make better"
+  },
+  {
+    "word": "Obverse",
+    "definition": "Opposite, having a base narrower than the top"
+  },
+  {
+    "word": "Lief",
+    "definition": "Willing, soon"
+  },
+  {
+    "word": "Sorrel",
+    "definition": "Brownish orange to light brown"
+  },
+  {
+    "word": "Disputatious",
+    "definition": "Provoking debate"
+  },
+  {
+    "word": "Weasand",
+    "definition": "Throat"
+  },
+  {
+    "word": "Canso",
+    "definition": "A troubador's love song"
+  },
+  {
+    "word": "Sough",
+    "definition": "Make a moaning or sighing sound"
+  },
+  {
+    "word": "Rubicund",
+    "definition": "Ruddy"
+  },
+  {
+    "word": "Vermiform",
+    "definition": "Resembling a worm"
+  },
+  {
+    "word": "Fleer",
+    "definition": "Sneer, word of derision"
+  },
+  {
+    "word": "Expectorate",
+    "definition": "Spit"
+  },
+  {
+    "word": "Alation",
+    "definition": "State of having wings"
+  },
+  {
+    "word": "Surcoat",
+    "definition": "A tunic worn over armor"
+  },
+  {
+    "word": "Geodesic",
+    "definition": "The shortest line between two points that lie on a surface"
+  },
+  {
+    "word": "Doughty",
+    "definition": "Valiant, brave"
+  },
+  {
+    "word": "Carrack",
+    "definition": "A sailing ship of the 15th and 16th centuries"
+  },
+  {
+    "word": "Fewter",
+    "definition": "A knight's spear rest"
+  },
+  {
+    "word": "Byrnie",
+    "definition": "A coat of mail, hauberk"
+  },
+  {
+    "word": "Calcined",
+    "definition": "To heat to a high temperature but without fusing"
+  },
+  {
+    "word": "Deliquesce",
+    "definition": "To dissolve or melt away"
+  },
+  {
+    "word": "Abeyance",
+    "definition": "A state of temporary inactivity, suspension"
+  },
+  {
+    "word": "Pone",
+    "definition": "A traditional Southern staple made of thick, soft dough formed from simple ingredients"
+  },
+  {
+    "word": "Exacerbated",
+    "definition": "To make worse"
+  },
+  {
+    "word": "Brassica",
+    "definition": "A genus of plants"
+  },
+  {
+    "word": "Bunting",
+    "definition": "A fabric used for flags and festive decorations"
+  },
+  {
+    "word": "Ocarina",
+    "definition": "An ancient flute"
+  },
+  {
+    "word": "Carbuncle",
+    "definition": "A red precious stone"
+  },
+  {
+    "word": "Prandial",
+    "definition": "Relating to a meal"
+  },
+  {
+    "word": "Gimlet",
+    "definition": "A small tool with a screw point for boring holes"
+  },
+  {
+    "word": "Bursar",
+    "definition": "An officer in charge of fund"
+  },
+  {
+    "word": "Boniface",
+    "definition": "The propietor of a hotel or restaurant"
+  },
+  {
+    "word": "Castanet",
+    "definition": "A percussion instrument made of two small shells clicked together"
+  },
+  {
+    "word": "Esprit",
+    "definition": "Vivacious cleverness or wit"
+  },
+  {
+    "word": "Verve",
+    "definition": "Vivacity, energy"
+  },
+  {
+    "word": "Orisha",
+    "definition": "A Yoruba deity"
+  },
+  {
+    "word": "Gregarious",
+    "definition": "Enjoying the company of others, sociable"
+  },
+  {
+    "word": "Gnomon",
+    "definition": "The pin of a sundial"
+  },
+  {
+    "word": "Halitosis",
+    "definition": "A condition of having fetid breath"
+  },
+  {
+    "word": "Tenuity",
+    "definition": "Lack of substance or strength, slenderness"
+  },
+  {
+    "word": "Toilette",
+    "definition": "Fashionable attire"
+  },
+  {
+    "word": "Annular",
+    "definition": "Forming a ring"
+  },
+  {
+    "word": "Collate",
+    "definition": "To compare critically, assemble in proper order"
+  },
+  {
+    "word": "Catena",
+    "definition": "A connected series of related things"
+  },
+  {
+    "word": "Hirsute",
+    "definition": "Hairy"
+  },
+  {
+    "word": "Garret",
+    "definition": "Habitable attic"
+  },
+  {
+    "word": "Inimical",
+    "definition": "Having the disposition of an enemy, hostile"
+  },
+  {
+    "word": "Vituperation",
+    "definition": "Lengthy harsh bitter criticism or abuse"
+  },
+  {
+    "word": "Exculpate",
+    "definition": "To clear from fault or guilt"
+  },
+  {
+    "word": "Estrus",
+    "definition": "A period in the reproductive cycle of female mammals"
+  },
+  {
+    "word": "Chattel",
+    "definition": "An enslaved person held as property"
+  },
+  {
+    "word": "Circumambulate",
+    "definition": "To circle on foot"
+  },
+  {
+    "word": "Indigent",
+    "definition": "Suffering from extreme poverty"
+  },
+  {
+    "word": "Proscribe",
+    "definition": "To condem as harmful, prohibit"
+  },
+  {
+    "word": "Thole",
+    "definition": "The pins in a boat to hold the oars"
+  },
+  {
+    "word": "Phantonym",
+    "definition": "A word that looks like it means one thing but means another"
+  },
+  {
+    "word": "Choler",
+    "definition": "Bile"
+  },
+  {
+    "word": "Umbrageous",
+    "definition": "Affording shade, inclined to take offense easily"
+  },
+  {
+    "word": "Promulgate",
+    "definition": "To make known, proclaim"
+  },
+  {
+    "word": "Prosaic",
+    "definition": "Dull, everyday"
+  },
+  {
+    "word": "Bespoke",
+    "definition": "Custom-made"
+  },
+  {
+    "word": "Vivisepulture",
+    "definition": "The act of burying alive"
+  },
+  {
+    "word": "Interstice",
+    "definition": "The space between things"
+  },
+  {
+    "word": "Lour",
+    "definition": "To look sullen, frown"
+  },
+  {
+    "word": "Presaged",
+    "definition": "Something that foreshadows a future event, omen"
+  },
+  {
+    "word": "Aphelion",
+    "definition": "The point farthest from the sun in the path of an orbiting celestial body"
+  },
+  {
+    "word": "Oviparous",
+    "definition": "Producing eggs that develop and hatch"
+  },
+  {
+    "word": "Palliative",
+    "definition": "A treatment of medicine that relieves pain"
+  },
+  {
+    "word": "Effluent",
+    "definition": "Flowing out, emenating"
+  },
+  {
+    "word": "Ruminant",
+    "definition": "An animal that chews the cud"
+  },
+  {
+    "word": "Vulgate",
+    "definition": "A Latin version of the Bible authorized by the Roman Catholic Church"
+  },
+  {
+    "word": "Nonpareil",
+    "definition": "Having no equal"
+  },
+  {
+    "word": "Maven",
+    "definition": "Expert"
+  },
+  {
+    "word": "Spatulate",
+    "definition": "Shaped like a spatula or spoon"
+  },
+  {
+    "word": "Caisson",
+    "definition": "A chest to hold ammunition"
+  },
+  {
+    "word": "Chary",
+    "definition": "Discreetly cautious"
+  },
+  {
+    "word": "Jess",
+    "definition": "A short strap secured on the leg of a hawk"
+  },
+  {
+    "word": "Pule",
+    "definition": "Whine"
+  },
+  {
+    "word": "Runnel",
+    "definition": "Rivulet"
+  },
+  {
+    "word": "Ream",
+    "definition": "A quantity of paper, a great amount"
+  },
+  {
+    "word": "Inchoate",
+    "definition": "Incipient, Not yet formed"
+  },
+  {
+    "word": "Quirt",
+    "definition": "A riding whip"
+  },
+  {
+    "word": "Narthex",
+    "definition": "The portico of an ancient  church"
+  },
+  {
+    "word": "Accretive",
+    "definition": "Produced by a series of additions"
+  },
+  {
+    "word": "Abnegate",
+    "definition": "Deny, surrender"
+  },
+  {
+    "word": "Scarp",
+    "definition": "A line of cliffs produced by erosion"
+  },
+  {
+    "word": "Puckish",
+    "definition": "Impish"
+  },
+  {
+    "word": "Drover",
+    "definition": "One who drives cattle or sheep"
+  },
+  {
+    "word": "Poke",
+    "definition": "Bag, wallet"
+  },
+  {
+    "word": "Huckstering",
+    "definition": "Hawker"
+  },
+  {
+    "word": "Mojo",
+    "definition": "A magic spell or hex"
   }
 ];

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "eldest-paolini"
 readSlug: "eldest-paolini-2"
 book: "[[eldest-paolini]]"

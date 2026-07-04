@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "foundryside-bennett"
 readSlug: "foundryside-bennett-1"
 book: "[[foundryside-bennett]]"

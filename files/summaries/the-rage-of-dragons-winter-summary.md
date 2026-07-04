@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-rage-of-dragons-winter"
 summarySlug: "the-rage-of-dragons-winter-summary"
 book: "[[the-rage-of-dragons-winter]]"

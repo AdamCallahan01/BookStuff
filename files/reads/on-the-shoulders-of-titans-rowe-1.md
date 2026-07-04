@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "on-the-shoulders-of-titans-rowe"
 readSlug: "on-the-shoulders-of-titans-rowe-1"
 book: "[[on-the-shoulders-of-titans-rowe]]"

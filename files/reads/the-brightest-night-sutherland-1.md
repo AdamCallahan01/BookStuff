@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-brightest-night-sutherland"
 readSlug: "the-brightest-night-sutherland-1"
 book: "[[the-brightest-night-sutherland]]"

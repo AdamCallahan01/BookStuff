@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "deadhouse-gates-erikson"
 readSlug: "deadhouse-gates-erikson-1"
 book: "[[deadhouse-gates-erikson]]"

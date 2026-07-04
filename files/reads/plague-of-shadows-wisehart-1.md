@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "plague-of-shadows-wisehart"
 readSlug: "plague-of-shadows-wisehart-1"
 book: "[[plague-of-shadows-wisehart]]"

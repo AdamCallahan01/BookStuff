@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "spinning-silver-novik"
 readSlug: "spinning-silver-novik-1"
 book: "[[spinning-silver-novik]]"

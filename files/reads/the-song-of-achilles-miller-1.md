@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-song-of-achilles-miller"
 readSlug: "the-song-of-achilles-miller-1"
 book: "[[the-song-of-achilles-miller]]"

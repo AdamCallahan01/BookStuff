@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-time-paradox-colfer"
 readSlug: "the-time-paradox-colfer-1"
 book: "[[the-time-paradox-colfer]]"

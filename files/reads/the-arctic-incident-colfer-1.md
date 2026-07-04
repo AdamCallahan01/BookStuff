@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-arctic-incident-colfer"
 readSlug: "the-arctic-incident-colfer-1"
 book: "[[the-arctic-incident-colfer]]"

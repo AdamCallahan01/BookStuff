@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "kingdoms-of-death-ruocchio"
 readSlug: "kingdoms-of-death-ruocchio-1"
 book: "[[kingdoms-of-death-ruocchio]]"

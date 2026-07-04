@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "crimson-alliance-hunter"
 readSlug: "crimson-alliance-hunter-1"
 book: "[[crimson-alliance-hunter]]"

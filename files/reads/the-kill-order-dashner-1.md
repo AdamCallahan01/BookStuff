@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-kill-order-dashner"
 readSlug: "the-kill-order-dashner-1"
 book: "[[the-kill-order-dashner]]"

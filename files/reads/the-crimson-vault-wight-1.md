@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-crimson-vault-wight"
 readSlug: "the-crimson-vault-wight-1"
 book: "[[the-crimson-vault-wight]]"

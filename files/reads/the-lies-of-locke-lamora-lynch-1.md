@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-lies-of-locke-lamora-lynch"
 readSlug: "the-lies-of-locke-lamora-lynch-1"
 book: "[[the-lies-of-locke-lamora-lynch]]"

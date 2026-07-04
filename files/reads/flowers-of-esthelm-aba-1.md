@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "flowers-of-esthelm-aba"
 readSlug: "flowers-of-esthelm-aba-1"
 book: "[[flowers-of-esthelm-aba]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "harry-potter-and-the-sorcerer-s-stone-rowling"
 readSlug: "harry-potter-and-the-sorcerer-s-stone-rowling-3"
 book: "[[harry-potter-and-the-sorcerer-s-stone-rowling]]"

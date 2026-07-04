@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "zahara-s-gift-walker"
 readSlug: "zahara-s-gift-walker-1"
 book: "[[zahara-s-gift-walker]]"

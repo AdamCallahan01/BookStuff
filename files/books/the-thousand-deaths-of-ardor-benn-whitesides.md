@@ -21,13 +21,13 @@ hasSummary: false
 summarySlug: "the-thousand-deaths-of-ardor-benn-whitesides-summary"
 summarySlugLink: "[[the-thousand-deaths-of-ardor-benn-whitesides-summary]]"
 hasScore: true
-latestScore: 10
-readCount: 1
-averageScore: 10
-allScores: [10]
-readSlugs: ["the-thousand-deaths-of-ardor-benn-whitesides-1"]
-readSlugsLinks: ["[[the-thousand-deaths-of-ardor-benn-whitesides-1]]"]
-currentRead: false
+latestScore: 0
+readCount: 2
+averageScore: 5
+allScores: [10,0]
+readSlugs: ["the-thousand-deaths-of-ardor-benn-whitesides-1","the-thousand-deaths-of-ardor-benn-whitesides-2"]
+readSlugsLinks: ["[[the-thousand-deaths-of-ardor-benn-whitesides-1]]","[[the-thousand-deaths-of-ardor-benn-whitesides-2]]"]
+currentRead: true
 coverSlug: "the-thousand-deaths-of-ardor-benn-whitesides-cover"
 ---
 

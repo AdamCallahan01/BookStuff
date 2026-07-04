@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "leviathan-falls-corey"
 readSlug: "leviathan-falls-corey-1"
 book: "[[leviathan-falls-corey]]"

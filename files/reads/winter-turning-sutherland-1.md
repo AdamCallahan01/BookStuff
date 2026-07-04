@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "winter-turning-sutherland"
 readSlug: "winter-turning-sutherland-1"
 book: "[[winter-turning-sutherland]]"

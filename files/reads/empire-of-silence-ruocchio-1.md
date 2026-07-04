@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "empire-of-silence-ruocchio"
 readSlug: "empire-of-silence-ruocchio-1"
 book: "[[empire-of-silence-ruocchio]]"

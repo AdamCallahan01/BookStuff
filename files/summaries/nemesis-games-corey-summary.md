@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "nemesis-games-corey"
 summarySlug: "nemesis-games-corey-summary"
 book: "[[nemesis-games-corey]]"

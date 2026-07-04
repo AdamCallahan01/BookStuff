@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "house-of-chains-erikson"
 readSlug: "house-of-chains-erikson-1"
 book: "[[house-of-chains-erikson]]"

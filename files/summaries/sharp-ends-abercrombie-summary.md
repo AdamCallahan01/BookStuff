@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "sharp-ends-abercrombie"
 summarySlug: "sharp-ends-abercrombie-summary"
 book: "[[sharp-ends-abercrombie]]"

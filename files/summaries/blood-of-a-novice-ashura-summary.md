@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "blood-of-a-novice-ashura"
 summarySlug: "blood-of-a-novice-ashura-summary"
 book: "[[blood-of-a-novice-ashura]]"

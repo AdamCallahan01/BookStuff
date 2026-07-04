@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-voyage-of-the-dawn-treader-lewis"
 readSlug: "the-voyage-of-the-dawn-treader-lewis-1"
 book: "[[the-voyage-of-the-dawn-treader-lewis]]"

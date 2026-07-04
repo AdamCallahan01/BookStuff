@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-way-of-renegades-wall"
 readSlug: "the-way-of-renegades-wall-1"
 book: "[[the-way-of-renegades-wall]]"

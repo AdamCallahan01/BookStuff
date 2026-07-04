@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-crown-conspiracy-sullivan"
 readSlug: "the-crown-conspiracy-sullivan-1"
 book: "[[the-crown-conspiracy-sullivan]]"

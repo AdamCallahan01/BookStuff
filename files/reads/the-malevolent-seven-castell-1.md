@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-malevolent-seven-castell"
 readSlug: "the-malevolent-seven-castell-1"
 book: "[[the-malevolent-seven-castell]]"

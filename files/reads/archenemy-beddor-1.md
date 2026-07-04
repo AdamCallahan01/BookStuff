@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "archenemy-beddor"
 readSlug: "archenemy-beddor-1"
 book: "[[archenemy-beddor]]"

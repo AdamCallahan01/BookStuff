@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "black-sun-roanhorse"
 summarySlug: "black-sun-roanhorse-summary"
 book: "[[black-sun-roanhorse]]"

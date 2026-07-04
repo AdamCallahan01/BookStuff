@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "ready-player-two-cline"
 readSlug: "ready-player-two-cline-1"
 book: "[[ready-player-two-cline]]"

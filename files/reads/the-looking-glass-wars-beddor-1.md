@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-looking-glass-wars-beddor"
 readSlug: "the-looking-glass-wars-beddor-1"
 book: "[[the-looking-glass-wars-beddor]]"

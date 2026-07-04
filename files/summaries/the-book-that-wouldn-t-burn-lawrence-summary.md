@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-book-that-wouldn-t-burn-lawrence"
 summarySlug: "the-book-that-wouldn-t-burn-lawrence-summary"
 book: "[[the-book-that-wouldn-t-burn-lawrence]]"

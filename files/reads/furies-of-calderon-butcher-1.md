@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "furies-of-calderon-butcher"
 readSlug: "furies-of-calderon-butcher-1"
 book: "[[furies-of-calderon-butcher]]"

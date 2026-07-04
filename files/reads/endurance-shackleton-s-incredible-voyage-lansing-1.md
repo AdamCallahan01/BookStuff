@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "endurance-shackleton-s-incredible-voyage-lansing"
 readSlug: "endurance-shackleton-s-incredible-voyage-lansing-1"
 book: "[[endurance-shackleton-s-incredible-voyage-lansing]]"

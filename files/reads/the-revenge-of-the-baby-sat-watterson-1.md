@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-revenge-of-the-baby-sat-watterson"
 readSlug: "the-revenge-of-the-baby-sat-watterson-1"
 book: "[[the-revenge-of-the-baby-sat-watterson]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "escaping-peril-sutherland"
 readSlug: "escaping-peril-sutherland-1"
 book: "[[escaping-peril-sutherland]]"

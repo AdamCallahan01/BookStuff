@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-book-that-broke-the-world-lawrence"
 summarySlug: "the-book-that-broke-the-world-lawrence-summary"
 book: "[[the-book-that-broke-the-world-lawrence]]"

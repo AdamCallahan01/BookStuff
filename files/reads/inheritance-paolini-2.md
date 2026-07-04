@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "inheritance-paolini"
 readSlug: "inheritance-paolini-2"
 book: "[[inheritance-paolini]]"

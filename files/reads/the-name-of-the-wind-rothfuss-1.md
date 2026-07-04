@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-name-of-the-wind-rothfuss"
 readSlug: "the-name-of-the-wind-rothfuss-1"
 book: "[[the-name-of-the-wind-rothfuss]]"

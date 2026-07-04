@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "dungeon-born-krout"
 readSlug: "dungeon-born-krout-1"
 book: "[[dungeon-born-krout]]"

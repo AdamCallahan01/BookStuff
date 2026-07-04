@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "murtagh-paolini"
 readSlug: "murtagh-paolini-1"
 book: "[[murtagh-paolini]]"

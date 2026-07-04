@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "surprised-by-joy-lewis"
 readSlug: "surprised-by-joy-lewis-1"
 book: "[[surprised-by-joy-lewis]]"

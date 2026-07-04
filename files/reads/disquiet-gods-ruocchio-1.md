@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "disquiet-gods-ruocchio"
 readSlug: "disquiet-gods-ruocchio-1"
 book: "[[disquiet-gods-ruocchio]]"

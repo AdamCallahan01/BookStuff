@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "babel-kuang"
 readSlug: "babel-kuang-1"
 book: "[[babel-kuang]]"

@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "babylon-s-ashes-corey"
 summarySlug: "babylon-s-ashes-corey-summary"
 book: "[[babylon-s-ashes-corey]]"

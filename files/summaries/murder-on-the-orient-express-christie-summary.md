@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "murder-on-the-orient-express-christie"
 summarySlug: "murder-on-the-orient-express-christie-summary"
 book: "[[murder-on-the-orient-express-christie]]"

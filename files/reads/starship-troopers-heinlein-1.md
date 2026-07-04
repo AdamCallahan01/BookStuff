@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "starship-troopers-heinlein"
 readSlug: "starship-troopers-heinlein-1"
 book: "[[starship-troopers-heinlein]]"

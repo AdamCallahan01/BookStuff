@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "the-dragonet-prophecy-sutherland"
 readSlug: "the-dragonet-prophecy-sutherland-1"
 book: "[[the-dragonet-prophecy-sutherland]]"

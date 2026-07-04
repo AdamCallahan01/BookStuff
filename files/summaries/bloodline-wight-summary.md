@@ -1,4 +1,5 @@
 ---
+permalink: false
 bookSlug: "bloodline-wight"
 summarySlug: "bloodline-wight-summary"
 book: "[[bloodline-wight]]"
