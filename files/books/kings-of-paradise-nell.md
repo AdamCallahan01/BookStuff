@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Dark"
 isbn: "9781721140084"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "kings-of-paradise-nell-summary"
 summarySlugLink: "[[kings-of-paradise-nell-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8.5
+allScores: [8.5]
 readSlugs: ["kings-of-paradise-nell-1"]
 readSlugsLinks: ["[[kings-of-paradise-nell-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "kings-of-paradise-nell-cover"
 ---
 
