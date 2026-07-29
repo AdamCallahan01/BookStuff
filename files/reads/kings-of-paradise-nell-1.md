@@ -13,4 +13,4 @@ days: 13
 hasReview: true
 ---
 
-A great book that should be way more popular in the grimdark world. At points I did find certain POV’s could drag but in general they were well balanced and the plot moved at a great pace. I did enjoy Kale’s early chapters a lot more than his later ones, but the impact on the wider world made up for it. Very excited to continue the series + I got to read this while traveling which is fun.
+A great book that should be way more popular in the grimdark world. At points I did find certain POV’s could drag but in general they were well balanced and the plot moved at a great pace. I did enjoy Kale’s early chapters a lot more than his later ones, but the impact on the wider world made up for it. Very excited to continue the series + I got to read this while traveling through Europe and hiking the Dolomites which is fun. 
