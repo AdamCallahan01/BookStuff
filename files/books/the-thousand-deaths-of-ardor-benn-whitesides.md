@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Heist"
 isbn: "9780316520256"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-thousand-deaths-of-ardor-benn-whitesides-summary"
 summarySlugLink: "[[the-thousand-deaths-of-ardor-benn-whitesides-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 9
 readCount: 2
-averageScore: 5
-allScores: [10,0]
+averageScore: 9.5
+allScores: [10,9]
 readSlugs: ["the-thousand-deaths-of-ardor-benn-whitesides-1","the-thousand-deaths-of-ardor-benn-whitesides-2"]
 readSlugsLinks: ["[[the-thousand-deaths-of-ardor-benn-whitesides-1]]","[[the-thousand-deaths-of-ardor-benn-whitesides-2]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-thousand-deaths-of-ardor-benn-whitesides-cover"
 ---
 

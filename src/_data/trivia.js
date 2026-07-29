@@ -830,5 +830,333 @@ export default [
     "question": "What is the number Allie was given?",
     "answer": "19",
     "difficulty": "Easy"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What number brother is Kale?",
+    "answer": "Fourth",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What alias does Ruka use?",
+    "answer": "Bukayag",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What is Egil's profession?",
+    "answer": "Skard",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What unique skill does Ruka have?",
+    "answer": "Perfect memory (among others)",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What is the nickname of the lead girl is Dala's priestess initiation group?",
+    "answer": "The Little Matriarch",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What is the religious text that Ruka memorizes called?",
+    "answer": "Book of Galdra",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What kingdom is Kale a prince of?",
+    "answer": "Sri Kon",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What are the islands where Kale grew up called?",
+    "answer": "Pyu",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Kings of Paradise",
+    "author": "Richard Nell",
+    "title": "Ash and Sand",
+    "question": "What is the name of Kale's first friend in the marines?",
+    "answer": "Thetma",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Palace Job",
+    "author": "Patrick Weekes",
+    "title": "Rogues of the Republic",
+    "question": "What is Dairy's full name?",
+    "answer": "Rybandaris",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Palace Job",
+    "author": "Patrick Weekes",
+    "title": "Rogues of the Republic",
+    "question": "What was Loch's rank in the army?",
+    "answer": "(Scout) Captain",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Palace Job",
+    "author": "Patrick Weekes",
+    "title": "Rogues of the Republic",
+    "question": "What is the name of the floating island?",
+    "answer": "Heaven's Spire",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Palace Job",
+    "author": "Patrick Weekes",
+    "title": "Rogues of the Republic",
+    "question": "What is the coffee-like drink Loch loves?",
+    "answer": "Kahva",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Palace Job",
+    "author": "Patrick Weekes",
+    "title": "Rogues of the Republic",
+    "question": "What is Loch's full name?",
+    "answer": "Isafiera de Lochenville",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Palace Job",
+    "author": "Patrick Weekes",
+    "title": "Rogues of the Republic",
+    "question": "What are the giant crystals that keep Heaven's spire aloft called?",
+    "answer": "Lapiscaela",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What is the name of Ard and Raek's ship?",
+    "answer": "Double Take",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What is Raek criminal alias?",
+    "answer": "Short Fuse",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What is the smallest unit of currency?",
+    "answer": "Ashlit",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What is the name of the police force?",
+    "answer": "Regulators",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "How does Raek refer to Elbrig and Cinza?",
+    "answer": "The Crazies",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What do you need to feed a dragon to get barrier grit?",
+    "answer": "Common Metals",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What is the name of the grit that increases the time a mixed in grit lasts?",
+    "answer": "Prolonging Grit",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What are the 3 islands in the greater chain besides Pekal and Espar?",
+    "answer": "Dronodan, Strind, and Talumon",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What color is the moon?",
+    "answer": "Crimson",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What artist's painting was Quarrah trying to steal at the start of the book?",
+    "answer": "Lemnow",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Thousand Deaths of Ardor Benn",
+    "author": "Tyler Whitesides",
+    "title": "Kingdom of Grit",
+    "question": "What is the name of the dragon who burned part of Beripent?",
+    "answer": "Grotenisk the Destroyer",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "title": "The Stormlight Archive",
+    "question": "Who does Shallan claim taught her to draw?",
+    "answer": "Dandos the Oilsworn",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "title": "The Stormlight Archive",
+    "question": "Who is the POV of chapter 1?",
+    "answer": "Cenn",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "What are the names of Charlie's two cats?",
+    "answer": "Hera and Persephone",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "What was the legal business Charlie's uncle was known for?",
+    "answer": "Parking Garages",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "What lake did the Lombardy Convocation meet at?",
+    "answer": "Lake Como",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "Who is Charlie's lawyer?",
+    "answer": "Andy Baxter",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "What is the news program where Charlie learns of his uncle's death?",
+    "answer": "Squawk Box",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "What is the actual last name of Tobias the Stabber?",
+    "answer": "Paris",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "N/A",
+    "author": "John Scalzi",
+    "title": "Starter Villain",
+    "question": "What are the names of Charlie's siblings?",
+    "answer": "Sarah, Bobby, and Todd",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Blood of Kings",
+    "author": "Duncan M. Hamilton",
+    "title": "The Squire",
+    "question": "What is the name of Conrad's father?",
+    "answer": "Sigrid",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Blood of Kings",
+    "author": "Duncan M. Hamilton",
+    "title": "The Squire",
+    "question": "What color school did Nicolo attend?",
+    "answer": "Green",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Blood of Kings",
+    "author": "Duncan M. Hamilton",
+    "title": "The Squire",
+    "question": "What is the title of a trained warrior such as Nicolo?",
+    "answer": "Banneret",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Blood of Kings",
+    "author": "Duncan M. Hamilton",
+    "title": "The Squire",
+    "question": "What is the Shandarian equivalent to a banneret?",
+    "answer": "Bloodblade",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Blood of Kings",
+    "author": "Duncan M. Hamilton",
+    "title": "The Squire",
+    "question": "What is the organization Heidi is a member of?",
+    "answer": "intelligentsia",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Blood of Kings",
+    "author": "Duncan M. Hamilton",
+    "title": "The Squire",
+    "question": "What were Conrad and his friends searching for in the depths of the palace?",
+    "answer": "Proctor's Regalia",
+    "difficulty": "Hard"
   }
 ];

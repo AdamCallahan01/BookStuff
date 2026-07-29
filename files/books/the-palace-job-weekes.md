@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Heist"
 isbn: "9781477848203"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-palace-job-weekes-summary"
 summarySlugLink: "[[the-palace-job-weekes-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 6.5
 readCount: 2
-averageScore: 4.5
-allScores: [9,0]
+averageScore: 7.75
+allScores: [9,6.5]
 readSlugs: ["the-palace-job-weekes-1","the-palace-job-weekes-2"]
 readSlugsLinks: ["[[the-palace-job-weekes-1]]","[[the-palace-job-weekes-2]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-palace-job-weekes-cover"
 ---
 
