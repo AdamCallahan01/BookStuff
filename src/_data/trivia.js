@@ -1158,5 +1158,125 @@ export default [
     "question": "What were Conrad and his friends searching for in the depths of the palace?",
     "answer": "Proctor's Regalia",
     "difficulty": "Hard"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "How many levels in the silo are there?",
+    "answer": "144",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What size are Bernard's hands?",
+    "answer": "Small/Tiny",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What clothing item is a different color by profession?",
+    "answer": "Overalls",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What is Solo's real name?",
+    "answer": "Jimmy",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What is the name of Holsten's wife?",
+    "answer": "Allison",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What is an apprentice called?",
+    "answer": "Shadow",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What is someone training an apprentice called?",
+    "answer": "Caster",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "Where does Juliette's father work?",
+    "answer": "Nursery",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Silo",
+    "author": "Hugh Howey",
+    "title": "Wool",
+    "question": "What is the bottom section of the silo called?",
+    "answer": "Down Deep",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Rabbits",
+    "author": "Terry Miles",
+    "title": "Rabbits",
+    "question": "Who won the second iteration of the game?",
+    "answer": "The Condor",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Rabbits",
+    "author": "Terry Miles",
+    "title": "Rabbits",
+    "question": "Who owns the arcade?",
+    "answer": "The Magician",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Rabbits",
+    "author": "Terry Miles",
+    "title": "Rabbits",
+    "question": "What is the name of Chloe's biggest song?",
+    "answer": "MPDG",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "Rabbits",
+    "author": "Terry Miles",
+    "title": "Rabbits",
+    "question": "What phrase is associated with a new version of the game starting?",
+    "answer": "The door is open",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Rabbits",
+    "author": "Terry Miles",
+    "title": "Rabbits",
+    "question": "In a video, which actor is told he does not belong in our world?",
+    "answer": "Jeff Goldblum",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Rabbits",
+    "author": "Terry Miles",
+    "title": "Rabbits",
+    "question": "What city is the story set in?",
+    "answer": "Seattle",
+    "difficulty": "Easy"
   }
 ];

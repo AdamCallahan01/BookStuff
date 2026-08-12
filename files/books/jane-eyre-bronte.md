@@ -16,7 +16,7 @@ numGoodreadsRatings: "2364656"
 genre: "Fiction"
 subgenre: "Romance"
 isbn: "9780142437209"
-bookOwned: false
+bookOwned: true
 hasSummary: false
 summarySlug: "jane-eyre-bronte-summary"
 summarySlugLink: "[[jane-eyre-bronte-summary]]"
