@@ -6,8 +6,8 @@ title: "Wool"
 author: "Hugh Howey"
 series: "Silo"
 seriesNumber: 1
-pages: 594
-wordCount: 87832
+pages: 530
+wordCount: 157710
 yearPublished: 2012
 publisher: "William Morrow"
 goodreads: "https://www.goodreads.com/book/show/157608295-wool"
@@ -18,17 +18,17 @@ subgenre: "Dystopian"
 isbn: "9780358447849"
 narrator: "Edoardo Ballerini"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "wool-howey-summary"
 summarySlugLink: "[[wool-howey-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7.5
+allScores: [7.5]
 readSlugs: ["wool-howey-1"]
 readSlugsLinks: ["[[wool-howey-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "wool-howey-cover"
 ---
 

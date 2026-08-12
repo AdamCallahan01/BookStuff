@@ -54,12 +54,16 @@ description: Rankings of my favorite books and series
               <div class="rank-item-inner">
 
                 {% if book and book.data.coverSlug %}
+                    {% bookCover book.data.coverSlug, book.data.title %}
+                {% endif %}
+
+                {# {% if book and book.data.coverSlug %}
                   <img
                     class="book-cover-list"
                     src="/files/covers/{{ book.data.coverSlug }}.jpg"
                     alt="{{ book.data.title }} cover"
                   >
-                {% endif %}
+                {% endif %} #}
 
                 <div class="rank-text">
                   {% if book %}
