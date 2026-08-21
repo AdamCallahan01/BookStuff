@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781956021592"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-faded-land-sherman-summary"
 summarySlugLink: "[[the-faded-land-sherman-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 1.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 1.5
+allScores: [1.5]
 readSlugs: ["the-faded-land-sherman-1"]
 readSlugsLinks: ["[[the-faded-land-sherman-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-faded-land-sherman-cover"
 ---
 

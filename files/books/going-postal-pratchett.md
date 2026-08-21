@@ -18,17 +18,17 @@ subgenre: "Humor"
 isbn: "9780060502935"
 narrator: "Richard Coyle, Bill Nighy, Peter Serafinowicz"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "going-postal-pratchett-summary"
 summarySlugLink: "[[going-postal-pratchett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8
+allScores: [8]
 readSlugs: ["going-postal-pratchett-1"]
 readSlugsLinks: ["[[going-postal-pratchett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "going-postal-pratchett-cover"
 ---
 
