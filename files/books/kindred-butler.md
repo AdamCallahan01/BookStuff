@@ -18,17 +18,17 @@ subgenre: "Historical Fiction"
 isbn: "9780807083697"
 narrator: "Kim Staunton"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "kindred-butler-summary"
 summarySlugLink: "[[kindred-butler-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8
+allScores: [8]
 readSlugs: ["kindred-butler-1"]
 readSlugsLinks: ["[[kindred-butler-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "kindred-butler-cover"
 ---
 

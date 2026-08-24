@@ -42,11 +42,6 @@ export default [
         slug: "kingdom of grit",
         description: "A combination of Mistborn, Locke Lamora, and Earthsea in the best way",
       },
-      {
-        title: "Rogues of the Republic",
-        slug: "rogues of the republic",
-        description: "A heist story with a bit of humor and whimsy",
-      },
     ],
   },
   {
@@ -117,8 +112,7 @@ export default [
   },
   {
     name: "Academia",
-    description:
-      "A fantasy story where the primary setting is a school the protagonist is working through",
+    description: "A fantasy story where the primary setting is a school the protagonist is working through",
     series: [
       {
         title: "The Will of the Many",
@@ -129,6 +123,44 @@ export default [
         title: "The Kingkiller Chronicle",
         slug: "the kingkiller chronicle",
         description: "The best unfinished series of all time",
+      },
+    ],
+  },
+  {
+    name: "Young Adult",
+    description: "Fantasy written primarily for teenagers, but can be enjoyed by adults",
+    series: [
+      {
+        title: "The Thief",
+        slug: "the queen's thief",
+        description: "Follows Eugenides, a talented thief, as we explore a cool Mediterranean inspired world",
+      },
+      {
+        title: "Ranger's Apprentice",
+        slug: "ranger's apprentice",
+        description: "Will becomes a master of the bow and fights to save his kingdom",
+      },
+      {
+        title: "Eragon",
+        slug: "the inheritance cycle",
+        description: "classic farmboy to hero fantasy great for young adults",
+      },
+    ],
+  },
+  {
+    name: "Kids",
+    description: "Fantasy written primarily for kids",
+    series: [
+      {
+        title: "Gregor the Overlander",
+        slug: "underland chronicles",
+        description:
+          "Written by Suzanne Collins, author of the hunger games, this was one of my favorite series growing up",
+      },
+      {
+        title: "The Mysterious Benedict Society",
+        slug: "the mysterious benedict society",
+        description: "A group of kids with different talents solve a mystery, super fun series",
       },
     ],
   },
