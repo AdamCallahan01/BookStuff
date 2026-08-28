@@ -18,9 +18,9 @@
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
-    <title>{{ title or "Fantasy Book Summaries" }}</title>
+    <title>{{ bookPageTitle or title or "Fantasy Book Summaries" }}</title>
     <meta name="keywords" content="{{ keywords or 'fantasy, book summaries, word count, fantasy recommendations, book reviews, fantasy reviews' }}">
-    <meta name="description" content="{{ description or 'Summaries and reviews of popular fantasy books, or anything else I read, as well as Fantasy Recommendations' }}">
+    <meta name="description" content="{{ bookPageDescription or description or 'Summaries and reviews of popular fantasy books, or anything else I read, as well as Fantasy Recommendations' }}">
 
     <link rel="canonical" href="{{ 'https://www.fantasybooksummaries.com' + permalink }}"/>
     <link rel="shortcut icon" href="/files/other/favicon.png">
