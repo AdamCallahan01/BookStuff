@@ -9,7 +9,6 @@
 @import "./components/cards.css";
 @import "./components/sidebars.css";
 @import "./components/rankings.css";
-@import "./components/book-header.css";
 @import "./components/filters.css";
 @import "./components/buttons.css";
 @import "./components/header.css";
@@ -22,3 +21,5 @@
 @import "./pages/triviaPageStyle.css";
 @import "./pages/bookStyle.css";
 @import "./pages/fantasyRecsPageStyle.css";
+@import "./pages/inventoryPageStyle.css";
+
