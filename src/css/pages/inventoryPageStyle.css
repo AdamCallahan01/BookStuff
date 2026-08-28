@@ -1,0 +1,94 @@
+/* =========================================================
+ Inventory Search & Filters
+========================================================= */
+.rank-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 0.75rem;
+
+  padding: 0.75rem 1rem;
+
+  background: var(--surface-1);
+
+  border: 1px solid var(--border-color);
+  border-radius: var(--my-radius-3);
+
+  margin-bottom: 1rem;
+}
+
+#rank-search {
+  flex: 1 1 240px;
+
+  padding: 0.65rem 0.75rem;
+
+  border: 1px solid var(--my-gray-4);
+  border-radius: var(--my-radius-2);
+
+  font: inherit;
+}
+
+#rank-search:focus {
+  outline: 2px solid var(--my-blue-4);
+  outline-offset: 1px;
+}
+
+.rank-controls select {
+  flex: 0 1 200px;
+
+  padding: 0.65rem 0.75rem;
+
+  border: 1px solid var(--my-gray-4);
+  border-radius: var(--my-radius-2);
+
+  font: inherit;
+
+  background: var(--surface-1);
+}
+
+.rank-controls select:focus {
+  outline: 2px solid var(--my-blue-4);
+  outline-offset: 1px;
+}
+
+.rank-count {
+  flex: 0 0 auto;
+
+  margin-left: auto;
+
+  font-size: 0.85rem;
+  color: var(--gray-7);
+
+  white-space: nowrap;
+}
+
+#rank-empty {
+  padding: 1rem;
+
+  text-align: center;
+
+  color: var(--gray-7);
+}
+
+/* =========================================================
+ Mobile
+========================================================= */
+@media (max-width: 769px) {
+  .rank-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #rank-search,
+  .rank-controls select {
+    flex: 1 1 auto;
+
+    min-height: 44px;
+  }
+
+  .rank-count {
+    margin-left: 0;
+    text-align: left;
+  }
+}

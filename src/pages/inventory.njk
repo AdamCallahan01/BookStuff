@@ -22,59 +22,31 @@ description: The next books I am waiting to read, as well as an inventory of eve
 <hr></hr>
 
 <h2>{{ title }}</h2>
+<p>Most things I have tracked on the site should have a hyperlink, however some stuff (like box sets / omnibuses) won't</p>
 
-<h3>I will add a search and sort to this soon</h3>
+<div class="rank-controls">
+  <input type="search" id="rank-search" placeholder="Search title, author, series…" autocomplete="off">
+  <select id="rank-filter-format"><option value="">All formats</option></select>
+  <select id="rank-filter-type"><option value="">All types</option></select>
+  <span id="rank-count" class="rank-count" aria-live="polite"></span>
+</div>
 
-{% for item in inventory %}
-    {% set book = item.title | bookByTitle(collections.books) %}
+<ul id="rank-list" class="rank-list" data-src="/inventory.json"></ul>
 
-    <li class="rank-item">
+<p id="rank-empty" hidden>No matching items.</p>
+<div id="rank-sentinel"></div>
 
-        <div class="rank-item-inner">
+<template id="rank-item-template">
+  <li class="rank-item">
+    <div class="rank-item-inner">
+      <img class="book-cover-list" loading="lazy" decoding="async" alt="">
+      <div class="rank-text">
+        <div class="rank-title"></div>
+        <div class="rank-meta"></div>
+        <div class="rank-extra"></div>
+      </div>
+    </div>
+  </li>
+</template>
 
-            {% if book and book.data.coverSlug %}
-                <img
-                    class="book-cover-list"
-                    src="/files/covers/{{ book.data.coverSlug }}.jpg"
-                    alt="{{ item.title }} cover">
-            {% endif %}
-
-            <div class="rank-text">
-
-                {% if book %}
-                    <div class="rank-title">
-                        <a href="{{ book.url }}">
-                            {{ item.title }}
-                        </a>
-                    </div>
-                {% else %}
-                    <div class="rank-title">
-                        {{ item.title }}
-                    </div>
-                {% endif %}
-
-                <div class="rank-meta">
-                    {{ item.series }}
-                    {% if item.seriesNumber %}
-                        #{{ item.seriesNumber }}
-                    {% endif %}
-                    —
-                    {{ item.author }}
-                </div>
-
-                <div class="rank-extra">
-                    {{ item.format }}
-                    {% if item.type %}
-                        · {{ item.type }}
-                    {% endif %}
-                    {% if item.pages %}
-                        · {{ item.pages }} pages
-                    {% endif %}
-                </div>
-
-            </div>
-
-        </div>
-
-    </li>
-{% endfor %}
+<script src="/js/inventoryList.js" defer></script>

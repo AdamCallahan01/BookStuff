@@ -3,6 +3,8 @@ import Image from "@11ty/eleventy-img";
 import fs from "fs";
 import path from "path";
 
+import { bookByTitle } from "./src/_utils/bookByTitle.js";
+
 export default function (eleventyConfig) {
   //For github build
   eleventyConfig.addPassthroughCopy("CNAME");
@@ -258,9 +260,7 @@ export default function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("bookByTitle", function (title, books) {
-    return books.find((b) => b.data.title === title);
-  });
+  eleventyConfig.addFilter("bookByTitle", bookByTitle);
 
   eleventyConfig.addFilter("booksBySeries", function (series, books) {
     return books
