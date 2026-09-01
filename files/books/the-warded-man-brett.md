@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780345503800"
 narrator: "Pete Bradbury"
 bookOwned: false
-hasSummary: false
+hasSummary: true
 summarySlug: "the-warded-man-brett-summary"
 summarySlugLink: "[[the-warded-man-brett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7.5
+allScores: [7.5]
 readSlugs: ["the-warded-man-brett-1"]
 readSlugsLinks: ["[[the-warded-man-brett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-warded-man-brett-cover"
 ---
 
