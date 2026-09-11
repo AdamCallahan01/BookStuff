@@ -4,7 +4,7 @@ permalink: "/books/ship-of-destiny-hobb/"
 bookSlug: "ship-of-destiny-hobb"
 title: "Ship of Destiny"
 author: "Robin Hobb"
-series: "Liveship Traders"
+series: "The Liveship Traders"
 seriesNumber: 3
 pages: 789
 wordCount: 292755
@@ -17,6 +17,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780006498872"
 bookOwned: true
+otherSeries: "The Realm of the Elderlings"
 hasSummary: false
 summarySlug: "ship-of-destiny-hobb-summary"
 summarySlugLink: "[[ship-of-destiny-hobb-summary]]"

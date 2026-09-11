@@ -4,7 +4,7 @@ permalink: "/books/the-warded-man-brett/"
 bookSlug: "the-warded-man-brett"
 title: "The Warded Man"
 author: "Peter V. Brett"
-series: "Demon Cycle"
+series: "The Demon Cycle"
 seriesNumber: 1
 pages: 416
 wordCount: 163589

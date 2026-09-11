@@ -6,13 +6,17 @@
   The card itself controls the aspect-ratio box; the mosaic fills it.
 */
 
-.book-card .mosaic {
-  width: 100%;
-  aspect-ratio: 2 / 3;
+.mosaic {
   overflow: hidden;
   display: grid;
   gap: 2px;
-  background-color: #1a1a1a; /* gap colour */
+  background-color: #1a1a1a;
+}
+
+/* book-card grid context only sizes it */
+.book-card .mosaic {
+  width: 100%;
+  aspect-ratio: 2 / 3;
 }
 
 /* ── 1 book: full cover, identical to a regular book card ── */

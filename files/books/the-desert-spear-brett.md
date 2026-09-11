@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780345503817"
 narrator: "Pete Bradbury"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-desert-spear-brett-summary"
 summarySlugLink: "[[the-desert-spear-brett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 5
+allScores: [5]
 readSlugs: ["the-desert-spear-brett-1"]
 readSlugsLinks: ["[[the-desert-spear-brett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-desert-spear-brett-cover"
 ---
 

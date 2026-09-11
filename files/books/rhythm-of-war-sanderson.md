@@ -17,6 +17,7 @@ genre: "Fantasy"
 subgenre: "Epic"
 isbn: "9780765326386"
 bookOwned: true
+otherSeries: "Cosmere"
 hasSummary: false
 summarySlug: "rhythm-of-war-sanderson-summary"
 summarySlugLink: "[[rhythm-of-war-sanderson-summary]]"
