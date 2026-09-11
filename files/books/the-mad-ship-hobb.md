@@ -4,7 +4,7 @@ permalink: "/books/the-mad-ship-hobb/"
 bookSlug: "the-mad-ship-hobb"
 title: "The Mad Ship"
 author: "Robin Hobb"
-series: "Liveship Traders"
+series: "The Liveship Traders"
 seriesNumber: 2
 pages: 906
 wordCount: 295365

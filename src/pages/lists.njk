@@ -21,16 +21,7 @@ description: Rankings of my favorite books and series
             {% set curSeries = series | booksBySeries(collections.books) %}
             <li class="rank-item">
               <div class="rank-item-inner">
-
-                <div class="series-mosaic">
-                  {% for book in curSeries %}
-                    <img
-                    src="/files/covers/{{ book.data.coverSlug }}.jpg"
-                    alt="{{ book.data.title }} cover"
-                  >
-                  {% endfor %}
-                </div>
-
+                {% seriesMosaic curSeries %}
                 <div class="rank-text">
                   <div class="rank-title">
                     <a href="/books/?series={{ series | lower | urlencode }}">{{ series }}</a>
@@ -54,16 +45,10 @@ description: Rankings of my favorite books and series
               <div class="rank-item-inner">
 
                 {% if book and book.data.coverSlug %}
+                  <div class="book-cover-list">
                     {% bookCover book.data.coverSlug, book.data.title %}
+                  </div>
                 {% endif %}
-
-                {# {% if book and book.data.coverSlug %}
-                  <img
-                    class="book-cover-list"
-                    src="/files/covers/{{ book.data.coverSlug }}.jpg"
-                    alt="{{ book.data.title }} cover"
-                  >
-                {% endif %} #}
 
                 <div class="rank-text">
                   {% if book %}

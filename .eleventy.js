@@ -387,6 +387,7 @@ export default function (eleventyConfig) {
     return result;
   });
 
+  /*
   eleventyConfig.addShortcode("bookCover", function (coverSlug, title) {
     if (!coverSlug) return "";
     const meta = coverMetaGlobal[coverSlug];
@@ -406,6 +407,69 @@ export default function (eleventyConfig) {
       class="book-cover"
     >
   </picture>`;
+  });
+  */
+  function renderCoverPicture(coverSlug, alt, coverMetaGlobal) {
+    const meta = coverMetaGlobal[coverSlug];
+    if (!meta) {
+      console.warn(`[bookCover] No meta for: ${coverSlug}`);
+      return "";
+    }
+    const { small, large } = meta;
+    return `<picture>
+    <source type="image/avif" srcset="/files/covers/optimized/${coverSlug}-${small}.avif ${small}w, /files/covers/optimized/${coverSlug}-${large}.avif ${large}w" sizes="200px">
+    <source type="image/webp" srcset="/files/covers/optimized/${coverSlug}-${small}.webp ${small}w, /files/covers/optimized/${coverSlug}-${large}.webp ${large}w" sizes="200px">
+    <img
+      src="/files/covers/optimized/${coverSlug}-${small}.jpeg"
+      alt="${alt}"
+      loading="lazy"
+      decoding="async"
+      class="book-cover"
+    >
+  </picture>`;
+  }
+
+  eleventyConfig.addShortcode("bookCover", function (coverSlug, title) {
+    if (!coverSlug) return "";
+    return renderCoverPicture(coverSlug, `${title} cover`, coverMetaGlobal);
+  });
+
+  eleventyConfig.addShortcode("seriesMosaic", function (curSeries) {
+    if (!curSeries || !curSeries.length) return "";
+    const n = Math.min(curSeries.length, 4);
+    if (n === 0) return "";
+
+    const img = (i) => {
+      const { coverSlug, title } = curSeries[i].data;
+      if (!coverSlug) return "";
+      return renderCoverPicture(coverSlug, `${title} cover`, coverMetaGlobal);
+    };
+
+    if (n === 1) {
+      return `<div class="mosaic mosaic-1">${img(0)}</div>`;
+    }
+    if (n === 2) {
+      return `<div class="mosaic mosaic-2">
+      ${img(0)}
+      ${img(1)}
+    </div>`;
+    }
+    if (n === 3) {
+      return `<div class="mosaic mosaic-3">
+      <div class="mosaic-left">${img(0)}</div>
+      <div class="mosaic-right">
+        ${img(1)}
+        ${img(2)}
+      </div>
+    </div>`;
+    }
+    // n === 4
+    return `<div class="mosaic mosaic-4">
+    ${img(0)}
+    ${img(1)}
+    ${img(2)}
+    ${img(3)}
+  </div>`;
   });
 
   // Remove JSON extra lines

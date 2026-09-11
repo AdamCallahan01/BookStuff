@@ -1278,5 +1278,197 @@ export default [
     "question": "What city is the story set in?",
     "answer": "Seattle",
     "difficulty": "Easy"
+  },
+  {
+    "series": "Discworld",
+    "author": "Terry Pratchett",
+    "title": "Going Postal",
+    "question": "What is Mr. Groat's first name?",
+    "answer": "Toliver",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Discworld",
+    "author": "Terry Pratchett",
+    "title": "Going Postal",
+    "question": "What is the alias Moist was using at the start of the book?",
+    "answer": "Albert Spangler",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Discworld",
+    "author": "Terry Pratchett",
+    "title": "Going Postal",
+    "question": "Who is the post office cat?",
+    "answer": "Mr. Tiddles",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Discworld",
+    "author": "Terry Pratchett",
+    "title": "Going Postal",
+    "question": "What was Stanley obsessed with when Moist first meets him?",
+    "answer": "Pins",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "Discworld",
+    "author": "Terry Pratchett",
+    "title": "Going Postal",
+    "question": "What color suit does Moist wear?",
+    "answer": "Yellow",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "Discworld",
+    "author": "Terry Pratchett",
+    "title": "Going Postal",
+    "question": "How old was the golem Anghammarad?",
+    "answer": "About 19,000 years",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "N/A",
+    "author": "Octavia E. Butler",
+    "title": "Kindred",
+    "question": "What is the first book Dana read Rufus?",
+    "answer": "Robinson Crusoe",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "N/A",
+    "author": "Octavia E. Butler",
+    "title": "Kindred",
+    "question": "What is Kevin's most popular book?",
+    "answer": "The Water of Meribah",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "N/A",
+    "author": "Octavia E. Butler",
+    "title": "Kindred",
+    "question": "How is Dana connected to Rufus?",
+    "answer": "He is her ancestor",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "N/A",
+    "author": "Octavia E. Butler",
+    "title": "Kindred",
+    "question": "What state is the plantation in?",
+    "answer": "Maryland",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "Octavia E. Butler",
+    "title": "Kindred",
+    "question": "What color is Kevin's hair?",
+    "answer": "Gray",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "N/A",
+    "author": "Octavia E. Butler",
+    "title": "Kindred",
+    "question": "What is Dana's profession?",
+    "answer": "Author",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Warded Man",
+    "question": "What is the herb messenger's use to cure demon rot?",
+    "answer": "Hogroot",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Warded Man",
+    "question": "What is the name of Arlen's first friend in Fort Miln?",
+    "answer": "Jake",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Warded Man",
+    "question": "What is the name of the warded man's horse?",
+    "answer": "Twilight Dancer",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Warded Man",
+    "question": "What is the hamlet Arlen grew up in?",
+    "answer": "Tibbet's Brook",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Warded Man",
+    "question": "Who is the warder who takes Arlen as an apprentice?",
+    "answer": "Cob",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Warded Man",
+    "question": "What is the name of Regan and Elissa's daughter?",
+    "answer": "Marya",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Desert Spear",
+    "question": "What is the most painful whip used in Krasia?",
+    "answer": "Alagai Tail",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Desert Spear",
+    "question": "How do Krasian's refer to corelings?",
+    "answer": "Alagai",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Desert Spear",
+    "question": "What is the name of the Krasian holy text?",
+    "answer": "Evejah",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Desert Spear",
+    "question": "What are the dice used to tell the future made of?",
+    "answer": "Demon Bone",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Desert Spear",
+    "question": "How does Jardir refer to Fort Rizon?",
+    "answer": "Everam's Bounty",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Desert Spear",
+    "question": "Who is speaker for the Fishers in Tibbet's Brook?",
+    "answer": "Raddock Lawry",
+    "difficulty": "Hard"
   }
 ];

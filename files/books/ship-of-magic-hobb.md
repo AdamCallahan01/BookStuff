@@ -4,7 +4,7 @@ permalink: "/books/ship-of-magic-hobb/"
 bookSlug: "ship-of-magic-hobb"
 title: "Ship of Magic"
 author: "Robin Hobb"
-series: "Liveship Traders"
+series: "The Liveship Traders"
 seriesNumber: 1
 pages: 880
 wordCount: 307400
