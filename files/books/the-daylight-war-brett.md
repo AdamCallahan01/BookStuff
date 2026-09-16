@@ -7,6 +7,7 @@ author: "Peter V. Brett"
 series: "The Demon Cycle"
 seriesNumber: 3
 pages: 639
+wordCount: 257612
 yearPublished: 2013
 publisher: "Random House Del Ray"
 goodreads: "https://www.goodreads.com/en/book/show/9268487-the-daylight-war"
@@ -17,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780345503824"
 narrator: "Pete Bradbury"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-daylight-war-brett-summary"
 summarySlugLink: "[[the-daylight-war-brett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 5
+allScores: [5]
 readSlugs: ["the-daylight-war-brett-1"]
 readSlugsLinks: ["[[the-daylight-war-brett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-daylight-war-brett-cover"
 ---
 
