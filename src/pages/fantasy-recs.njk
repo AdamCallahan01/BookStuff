@@ -6,12 +6,36 @@ keywords: fantasy, book recommendations, fantasy recommendations, best fantasy b
 description: My best recommendations for new readers in various fantasy genres and subgenres
 ---
 
+{% block extraHead %}
+  <script src="/js/recQuiz.js" defer></script>
+{% endblock %}
+
 <section class="content-section">
   <h1>Fantasy Recommendations - In Progress</h1>
 
   <p>
     These are the books I think are best to begin each subgenre, or just for getting started with fantasy in general.
   </p>
+
+  <section class="quiz-section" aria-labelledby="quiz-heading">
+    <h2 id="quiz-heading" class="quiz-heading">Not sure where to start?</h2>
+    <p class="quiz-intro">
+      I put together a small quiz to give some general suggestions and recommendations.
+    </p>
+
+    <div id="fantasy-quiz" class="quiz-container">
+      <noscript>
+        <p>Enable JavaScript to take the quiz</p>
+      </noscript>
+    </div>
+
+    <script type="application/json" id="quiz-tree-data">
+      {{ quizTree | dump | safe }}
+    </script>
+    <script type="application/json" id="cover-meta-data">
+      {{ coverMeta | dump | safe }}
+    </script>
+  </section>
 
   {% for genre in genres %}
     <section class="genre-section">

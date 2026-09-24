@@ -143,7 +143,7 @@ export default [
       {
         title: "Eragon",
         slug: "the inheritance cycle",
-        description: "classic farmboy to hero fantasy great for young adults",
+        description: "classic farmboy to hero fantasy great for young adults",   
       },
     ],
   },

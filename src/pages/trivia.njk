@@ -6,9 +6,59 @@ keywords: fantasy, book trivia, trivia questions, fantasy trivia, fantasy facts
 description: Trivia questions for fantasy books
 ---
 
+{% block extraHead %}
+    <script type="application/json" id="trivia-data">{{ trivia | dump | replace("</", "<\\/") | safe }}</script>
+    <script src="/js/triviaQuiz.js" defer></script>
+{% endblock %}
+
 <h1>{{ title }}</h1>
 
-<h2>Will add ways to filter questions better soon</h2>
+<div id="quiz-app">
+    <section id="quiz-builder">
+        <h2>Create Your Own Quiz</h2>
+        <form id="quiz-form">
+            <details id="series-details" open>
+                <summary>Series <span id="series-badge"></span></summary>
+                <div class="quiz-filter-actions">
+                    <input type="search" id="series-search" placeholder="Filter series…" aria-label="Filter series list">
+                    <button type="button" id="series-select-all">Select all</button>
+                    <button type="button" id="series-select-none">Select none</button>
+                </div>
+                <div id="series-options" class="filter-options-grid"></div>
+            </details>
+
+            <details id="author-details">
+                <summary>Author <span id="author-badge"></span></summary>
+                <div class="quiz-filter-actions">
+                    <input type="search" id="author-search" placeholder="Filter authors…" aria-label="Filter author list">
+                    <button type="button" id="author-select-all">Select all</button>
+                    <button type="button" id="author-select-none">Select none</button>
+                </div>
+                <div id="author-options" class="filter-options-grid"></div>
+            </details>
+
+            <fieldset>
+                <legend>Difficulty</legend>
+                <div id="difficulty-options"></div>
+            </fieldset>
+
+            <p>
+                <label for="quiz-length">Number of questions:</label>
+                <input type="number" id="quiz-length" min="1" value="10">
+            </p>
+
+            <p id="quiz-availability" aria-live="polite"></p>
+
+            <button type="submit">Start Quiz</button>
+        </form>
+    </section>
+
+    <section id="quiz-player" hidden aria-live="polite"></section>
+</div>
+
+<hr>
+
+<h3>All Questions</h3>
 
 {% set grouped = trivia | groupTrivia %}
 
@@ -17,7 +67,7 @@ description: Trivia questions for fantasy books
         <summary>{{ series }}</summary>
 
         {% for title, questions in books %}
-            <details style="margin-left: 1rem;">
+            <details class="questionDetails">
                 <summary>{{ title }}</summary>
 
                 <ul>

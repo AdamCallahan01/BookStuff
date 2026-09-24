@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780006498872"
 bookOwned: true
 otherSeries: "The Realm of the Elderlings"
-hasSummary: false
+hasSummary: true
 summarySlug: "ship-of-destiny-hobb-summary"
 summarySlugLink: "[[ship-of-destiny-hobb-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 10
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 10
+allScores: [10]
 readSlugs: ["ship-of-destiny-hobb-1"]
 readSlugsLinks: ["[[ship-of-destiny-hobb-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "ship-of-destiny-hobb-cover"
 ---
 

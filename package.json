@@ -10,12 +10,12 @@
     "exportWords": "ts-node exportScripts/wordExportScript.ts",
     "exportTrivia": "ts-node exportScripts/triviaExportScript.ts",
     "exportAll": "ts-node exportScripts/exportAll.ts",
+    "exportQuizRecs": "ts-node exportScripts/exportQuizRecs.ts",
     "dev": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
     "@11ty/eleventy-img": "^6.0.4",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "csv-parse": "^6.1.0",
     "dotenv": "^17.3.1",
     "elasticlunr": "^0.9.5",
     "fs-extra": "^11.3.3",
@@ -28,6 +28,8 @@
     "@11ty/eleventy": "^3.1.2",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^25.3.0",
+    "csv-parse": "^7.0.2",
+    "prettier-plugin-nunjucks": "^0.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

@@ -21,13 +21,13 @@ hasSummary: false
 summarySlug: "the-hitchhiker-s-guide-to-the-galaxy-adams-summary"
 summarySlugLink: "[[the-hitchhiker-s-guide-to-the-galaxy-adams-summary]]"
 hasScore: true
-latestScore: 8
-readCount: 1
-averageScore: 8
-allScores: [8]
-readSlugs: ["the-hitchhiker-s-guide-to-the-galaxy-adams-1"]
-readSlugsLinks: ["[[the-hitchhiker-s-guide-to-the-galaxy-adams-1]]"]
-currentRead: false
+latestScore: 0
+readCount: 2
+averageScore: 4
+allScores: [8,0]
+readSlugs: ["the-hitchhiker-s-guide-to-the-galaxy-adams-1","the-hitchhiker-s-guide-to-the-galaxy-adams-2"]
+readSlugsLinks: ["[[the-hitchhiker-s-guide-to-the-galaxy-adams-1]]","[[the-hitchhiker-s-guide-to-the-galaxy-adams-2]]"]
+currentRead: true
 coverSlug: "the-hitchhiker-s-guide-to-the-galaxy-adams-cover"
 ---
 

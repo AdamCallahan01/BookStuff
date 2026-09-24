@@ -13,4 +13,4 @@ days: 5
 hasReview: true
 ---
 
-Continues to get better, both writing and story. My only concern is how fast Lindon is going which has felt like an issue the whole time, makes me assume more time will be spent with him in the upper echelons of power, which makes it seem weird how they don’t have more people past underlord introduced.
+Continues to get better, both writing and story. My only concern is how fast Lindon is going which has felt like an issue the whole time, makes me assume more time will be spent with him in the upper echelons of power, which makes it seem weird how they don’t have more people past underlord introduced. Reading on my honeymoon was quite fun.

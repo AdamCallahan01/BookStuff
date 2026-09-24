@@ -18,17 +18,17 @@ subgenre: "Thriller"
 isbn: "9780393355949"
 narrator: "Jim Colby"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "fight-club-palahniuk-summary"
 summarySlugLink: "[[fight-club-palahniuk-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4
+allScores: [4]
 readSlugs: ["fight-club-palahniuk-1"]
 readSlugsLinks: ["[[fight-club-palahniuk-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "fight-club-palahniuk-cover"
 ---
 
