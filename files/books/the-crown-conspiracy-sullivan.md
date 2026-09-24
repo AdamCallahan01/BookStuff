@@ -18,6 +18,7 @@ subgenre: "Epic"
 isbn: "9780980003437"
 narrator: "Tim Gerard Reynolds"
 bookOwned: false
+otherSeries: "World of Elan"
 hasSummary: true
 summarySlug: "the-crown-conspiracy-sullivan-summary"
 summarySlugLink: "[[the-crown-conspiracy-sullivan-summary]]"

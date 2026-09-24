@@ -18,6 +18,7 @@ subgenre: "Epic"
 isbn: "9780979621116"
 narrator: "Tim Gerard Reynolds"
 bookOwned: false
+otherSeries: "World of Elan"
 hasSummary: true
 summarySlug: "avempartha-sullivan-summary"
 summarySlugLink: "[[avempartha-sullivan-summary]]"

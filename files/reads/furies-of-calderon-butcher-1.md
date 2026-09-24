@@ -13,4 +13,4 @@ days: 5
 hasReview: true
 ---
 
-Another reread, but this time I plan on finishing the series. Very action heavy which is classic Jimmy B, but it would be nice to get slightly more meaningful dialogue.
+Another reread, but this time I plan on finishing the series. Very action heav, but it would be nice to get slightly more meaningful dialogue.

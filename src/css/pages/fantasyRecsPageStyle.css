@@ -1,56 +1,206 @@
 .genre-section {
-  margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 .genre-title {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid #ddd;
-  color: #222;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	padding-bottom: 0.4rem;
+	border-bottom: 2px solid #ddd;
+	color: #222;
 }
 
 .series-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .series-item {
-  background: #fafafa;
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 1rem;
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	padding: 1rem 1.25rem;
+	margin-bottom: 1rem;
 
-  transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease;
+	transition:
+		transform 0.15s ease,
+		box-shadow 0.15s ease;
 }
 
 .series-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .series-title {
-  margin: 0 0 0.5rem;
-  font-size: 1.15rem;
-  color: #111;
+	margin: 0 0 0.5rem;
+	font-size: 1.15rem;
+	color: #111;
 }
 
 .series-description {
-  margin: 0;
-  line-height: 1.5;
-  color: #555;
+	margin: 0;
+	line-height: 1.5;
+	color: #555;
 }
 
 .series-title a {
-  color: #222;
-  text-decoration: none;
+	color: #222;
+	text-decoration: none;
 }
 
 .series-title a:hover {
-  color: #0066cc;
-  text-decoration: underline;
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+/* //////////////////////////////////////////// 
+// Recommendation quiz
+/////////////////////////////////////////////// */
+.quiz-section {
+	--quiz-accent: #6b4e8e;
+	--quiz-accent-contrast: #ffffff;
+	--quiz-ink: inherit;
+	--quiz-muted: #6b6470;
+	--quiz-border: #dcd7e2;
+	--quiz-surface: transparent;
+
+	margin: 2.5rem 0 3rem;
+	padding: 1.75rem 1.75rem 1.5rem;
+	border: 1px solid var(--quiz-border);
+	border-left: 3px solid var(--quiz-accent);
+	border-radius: 2px;
+	background: var(--quiz-surface);
+}
+
+.quiz-heading {
+	margin: 0 0 0.4rem;
+	font-size: 1.35rem;
+}
+
+.quiz-intro {
+	margin: 0 0 1.25rem;
+	color: var(--quiz-muted);
+	max-width: 38rem;
+}
+
+.quiz-container {
+	max-width: 34rem;
+}
+
+.quiz-panel:focus {
+	outline: none;
+}
+
+.quiz-prompt {
+	margin: 0 0 1rem;
+	font-size: 1.15rem;
+	line-height: 1.4;
+}
+
+.quiz-answers {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin: 0 0 0.25rem;
+}
+
+.quiz-answer-btn {
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0.65rem 0.9rem;
+	font-size: 0.98rem;
+	color: var(--quiz-ink);
+	background: transparent;
+	border: 1px solid var(--quiz-border);
+	border-radius: 2px;
+	cursor: pointer;
+	transition:
+		border-color 0.15s ease,
+		background-color 0.15s ease;
+}
+
+.quiz-answer-btn:hover {
+	border-color: var(--quiz-accent);
+	background: color-mix(in srgb, var(--quiz-accent) 8%, transparent);
+}
+
+.quiz-answer-btn:focus-visible {
+	outline: 2px solid var(--quiz-accent);
+	outline-offset: 2px;
+}
+
+.quiz-rec-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	gap: 1rem;
+	margin-bottom: 0.9rem;
+}
+
+.quiz-rec-cover {
+	flex: 0 0 auto;
+}
+
+.quiz-rec-text {
+	flex: 1 1 12rem;
+	min-width: 0;
+}
+
+.quiz-rec-title {
+	margin: 0 0 0.15rem;
+	font-size: 1.3rem;
+}
+
+.quiz-rec-author {
+	margin: 0;
+	font-style: italic;
+	color: var(--quiz-muted);
+}
+
+.quiz-rec-blurb {
+	margin: 0 0 0.9rem;
+	line-height: 1.55;
+	max-width: 32rem;
+}
+
+.quiz-rec-link {
+	display: inline-block;
+	margin-bottom: 1.25rem;
+	color: var(--quiz-accent);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+}
+
+.quiz-read-check {
+	padding-top: 1rem;
+	border-top: 1px solid var(--quiz-border);
+}
+
+.quiz-read-prompt {
+	margin: 0 0 0.6rem;
+	font-weight: 600;
+}
+
+.quiz-back-btn,
+.quiz-restart-btn {
+	margin-top: 0.9rem;
+	padding: 0;
+	font-size: 0.92rem;
+	color: var(--quiz-muted);
+	background: none;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.quiz-back-btn:hover,
+.quiz-restart-btn:hover {
+	color: var(--quiz-accent);
+}
+
+.quiz-restart-btn {
+	display: block;
 }

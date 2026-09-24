@@ -1,0 +1,1442 @@
+{
+  "start": "root",
+  "nodes": {
+    "0": {
+      "type": "question",
+      "prompt": "What part of a fantasy book is most appealing to you?",
+      "answers": [
+        {
+          "text": "Everything about magic",
+          "next": "21",
+          "order": 1
+        },
+        {
+          "text": "A well developed and large world",
+          "next": "9",
+          "order": 2
+        },
+        {
+          "text": "The characters and the relationships between them",
+          "next": "10",
+          "order": 3
+        },
+        {
+          "text": "Not sure, a mix of everything",
+          "next": "6",
+          "order": 4
+        }
+      ]
+    },
+    "1": {
+      "type": "question",
+      "prompt": "Which type of Science Fiction do you like best?",
+      "answers": [
+        {
+          "text": "Futuristic worlds and technology",
+          "next": "11",
+          "order": 1
+        },
+        {
+          "text": "Post-apocalyptic, seeing our world after a disaster",
+          "next": "85",
+          "order": 2
+        },
+        {
+          "text": "Everything about space, space travel, and other planets",
+          "next": "8",
+          "order": 3
+        },
+        {
+          "text": "I have no idea",
+          "next": "24",
+          "order": 4
+        }
+      ]
+    },
+    "2": {
+      "type": "question",
+      "prompt": "How mature of a story do you want?",
+      "answers": [
+        {
+          "text": "Aiming for a younger audience",
+          "next": "19",
+          "order": 1
+        },
+        {
+          "text": "Mature, but nothing explicit or crass",
+          "next": "7",
+          "order": 2
+        },
+        {
+          "text": "Would prefer something meant for adults",
+          "next": "25",
+          "order": 3
+        },
+        {
+          "text": "Open to anything",
+          "next": "20",
+          "order": 4
+        }
+      ]
+    },
+    "3": {
+      "type": "question",
+      "prompt": "Which subject interests you the most?",
+      "answers": [
+        {
+          "text": "History",
+          "next": "75",
+          "order": 1
+        },
+        {
+          "text": "Writing",
+          "next": "63",
+          "order": 2
+        },
+        {
+          "text": "Government",
+          "next": "95",
+          "order": 3
+        },
+        {
+          "text": "None",
+          "next": "46",
+          "order": 4
+        }
+      ]
+    },
+    "4": {
+      "type": "question",
+      "prompt": "Which movie is your favorite?",
+      "answers": [
+        {
+          "text": "The Godfather",
+          "next": "61",
+          "order": 1
+        },
+        {
+          "text": "The Avengers",
+          "next": "42",
+          "order": 2
+        },
+        {
+          "text": "Star Wars",
+          "next": "45",
+          "order": 3
+        },
+        {
+          "text": "The Dark Knight",
+          "next": "83",
+          "order": 4
+        }
+      ]
+    },
+    "5": {
+      "type": "question",
+      "prompt": "Do you like a story with a ton of action?",
+      "answers": [
+        {
+          "text": "Yes, as much as possible",
+          "next": "34",
+          "order": 1
+        },
+        {
+          "text": "No, I would rather it focus on other aspects",
+          "next": "70",
+          "order": 2
+        },
+        {
+          "text": "If it fits the scene then it is great",
+          "next": "60",
+          "order": 3
+        },
+        {
+          "text": "Unsure",
+          "next": "23",
+          "order": 4
+        }
+      ]
+    },
+    "6": {
+      "type": "question",
+      "prompt": "How long is your ideal book?",
+      "answers": [
+        {
+          "text": "Super long, I want a story I can spend time with",
+          "next": "14",
+          "order": 1
+        },
+        {
+          "text": "Medium, it needs to keep moving",
+          "next": "68",
+          "order": 2
+        },
+        {
+          "text": "Short, I like being able to finish it quickly",
+          "next": "15",
+          "order": 3
+        },
+        {
+          "text": "Any length, just has to be good",
+          "next": "4",
+          "order": 4
+        }
+      ]
+    },
+    "7": {
+      "type": "question",
+      "prompt": "Do you like playing video games?",
+      "answers": [
+        {
+          "text": "Yes, specifically longer games (Skyrim, Baldur's Gate)",
+          "next": "82",
+          "order": 1
+        },
+        {
+          "text": "Yes, but mostly just social ones with friends",
+          "next": "38",
+          "order": 2
+        },
+        {
+          "text": "No",
+          "next": "43",
+          "order": 3
+        },
+        {
+          "text": "IDK",
+          "next": "5",
+          "order": 4
+        }
+      ]
+    },
+    "8": {
+      "type": "question",
+      "prompt": "Is magic or innovative technology more exciting?",
+      "answers": [
+        {
+          "text": "Magic",
+          "next": "39",
+          "order": 1
+        },
+        {
+          "text": "Technology, with science to back it up",
+          "next": "41",
+          "order": 2
+        },
+        {
+          "text": "Futuristic tech that probably isn't possible",
+          "next": "79",
+          "order": 3
+        },
+        {
+          "text": "A blend of both",
+          "next": "78",
+          "order": 4
+        }
+      ]
+    },
+    "9": {
+      "type": "question",
+      "prompt": "Would you prefer a broad, expansive world or a smaller, more focused environment?",
+      "answers": [
+        {
+          "text": "A huge, sweeping world, hopefully with a map",
+          "next": "54",
+          "order": 1
+        },
+        {
+          "text": "A smaller area with a ton of detail",
+          "next": "87",
+          "order": 2
+        },
+        {
+          "text": "A city environment is my favorite",
+          "next": "29",
+          "order": 3
+        },
+        {
+          "text": "Set in our real world",
+          "next": "71",
+          "order": 4
+        }
+      ]
+    },
+    "10": {
+      "type": "question",
+      "prompt": "Is romance a postive or negative in a book?",
+      "answers": [
+        {
+          "text": "Love it",
+          "next": "58",
+          "order": 1
+        },
+        {
+          "text": "Good when present but shouldn't be the main focus",
+          "next": "76",
+          "order": 2
+        },
+        {
+          "text": "Neutral",
+          "next": "60",
+          "order": 3
+        },
+        {
+          "text": "No thanks",
+          "next": "33",
+          "order": 4
+        }
+      ]
+    },
+    "11": {
+      "type": "question",
+      "prompt": "Are you looking for a standalone or the start of a series?",
+      "answers": [
+        {
+          "text": "A standalone book",
+          "next": "80",
+          "order": 1
+        },
+        {
+          "text": "Something that wraps up nicely but could read more if I want",
+          "next": "81",
+          "order": 2
+        },
+        {
+          "text": "The start of a huge series I could read for a while",
+          "next": "39",
+          "order": 3
+        },
+        {
+          "text": "A trilogy would be good",
+          "next": "40",
+          "order": 4
+        }
+      ]
+    },
+    "12": {
+      "type": "question",
+      "prompt": "How important is it for you to have a happy ending?",
+      "answers": [
+        {
+          "text": "Hopeful and happy is the way to go",
+          "next": "91",
+          "order": 1
+        },
+        {
+          "text": "Some sadness can enhance a story",
+          "next": "79",
+          "order": 2
+        },
+        {
+          "text": "I want everyone to die",
+          "next": "39",
+          "order": 3
+        },
+        {
+          "text": "Not sure",
+          "next": "17",
+          "order": 4
+        }
+      ]
+    },
+    "13": {
+      "type": "question",
+      "prompt": "What is your favorite type of writing?",
+      "answers": [
+        {
+          "text": "Very poetic",
+          "next": "97",
+          "order": 1
+        },
+        {
+          "text": "Simple, straightforward prose",
+          "next": "44",
+          "order": 2
+        },
+        {
+          "text": "Descriptive and flowery",
+          "next": "43",
+          "order": 3
+        },
+        {
+          "text": "No clue",
+          "next": "27",
+          "order": 4
+        }
+      ]
+    },
+    "14": {
+      "type": "question",
+      "prompt": "Is there an era of fiction you enjoy most?",
+      "answers": [
+        {
+          "text": "Pre 1990",
+          "next": "50",
+          "order": 1
+        },
+        {
+          "text": "1990-2010",
+          "next": "69",
+          "order": 2
+        },
+        {
+          "text": "Modern",
+          "next": "94",
+          "order": 3
+        },
+        {
+          "text": "Unsure",
+          "next": "28",
+          "order": 4
+        }
+      ]
+    },
+    "15": {
+      "type": "question",
+      "prompt": "Do you enjoy humor while reading?",
+      "answers": [
+        {
+          "text": "Yes, the funnier the better",
+          "next": "64",
+          "order": 1
+        },
+        {
+          "text": "Dry humor and satire is fine",
+          "next": "62",
+          "order": 2
+        },
+        {
+          "text": "Neutral",
+          "next": "3",
+          "order": 3
+        },
+        {
+          "text": "No",
+          "next": "89",
+          "order": 4
+        }
+      ]
+    },
+    "16": {
+      "type": "question",
+      "prompt": "What is your favorite season?",
+      "answers": [
+        {
+          "text": "Fall",
+          "next": "45",
+          "order": 1
+        },
+        {
+          "text": "Winter",
+          "next": "74",
+          "order": 2
+        },
+        {
+          "text": "Spring",
+          "next": "73",
+          "order": 3
+        },
+        {
+          "text": "Summer",
+          "next": "44",
+          "order": 4
+        }
+      ]
+    },
+    "17": {
+      "type": "question",
+      "prompt": "How much violence are you ok with?",
+      "answers": [
+        {
+          "text": "A lot, the gorier the better",
+          "next": "87",
+          "order": 1
+        },
+        {
+          "text": "A good amount but nothing super descriptive",
+          "next": "92",
+          "order": 2
+        },
+        {
+          "text": "Fine here and there",
+          "next": "53",
+          "order": 3
+        },
+        {
+          "text": "Little to none",
+          "next": "70",
+          "order": 4
+        }
+      ]
+    },
+    "18": {
+      "type": "question",
+      "prompt": "Do you like mysteries?",
+      "answers": [
+        {
+          "text": "Love them",
+          "next": "96",
+          "order": 1
+        },
+        {
+          "text": "A good second theme to a story",
+          "next": "76",
+          "order": 2
+        },
+        {
+          "text": "No, but suspense is still good",
+          "next": "13",
+          "order": 3
+        },
+        {
+          "text": "No",
+          "next": "16",
+          "order": 4
+        }
+      ]
+    },
+    "19": {
+      "type": "question",
+      "prompt": "Are you a fan of animal companions?",
+      "answers": [
+        {
+          "text": "Pets and animal bonds are amazing",
+          "next": "47",
+          "order": 1
+        },
+        {
+          "text": "Yes",
+          "next": "52",
+          "order": 2
+        },
+        {
+          "text": "Fine on occassion",
+          "next": "66",
+          "order": 3
+        },
+        {
+          "text": "No, I hate dragon riders",
+          "next": "46",
+          "order": 4
+        }
+      ]
+    },
+    "20": {
+      "type": "question",
+      "prompt": "Are obscenities and crude language a negative for you?",
+      "answers": [
+        {
+          "text": "Excessive swearing is a positive",
+          "next": "29",
+          "order": 1
+        },
+        {
+          "text": "Does not bother me",
+          "next": "17",
+          "order": 2
+        },
+        {
+          "text": "Not a fan of it",
+          "next": "88",
+          "order": 3
+        },
+        {
+          "text": "As clean as possible",
+          "next": "18",
+          "order": 4
+        }
+      ]
+    },
+    "21": {
+      "type": "question",
+      "prompt": "Do you prefer magic with set rules or would you rather it stay mysterious?",
+      "answers": [
+        {
+          "text": "Set and well explained rules that govern it",
+          "next": "27",
+          "order": 1
+        },
+        {
+          "text": "Magic clearly has limits but we don't know all of them",
+          "next": "43",
+          "order": 2
+        },
+        {
+          "text": "Keep it as mysterious as possible",
+          "next": "49",
+          "order": 3
+        },
+        {
+          "text": "I do not know",
+          "next": "22",
+          "order": 4
+        }
+      ]
+    },
+    "22": {
+      "type": "question",
+      "prompt": "Dragons?",
+      "answers": [
+        {
+          "text": "Dragons",
+          "next": "28",
+          "order": 1
+        },
+        {
+          "text": "Some Dragons",
+          "next": "32",
+          "order": 2
+        },
+        {
+          "text": "At most one Dragon",
+          "next": "36",
+          "order": 3
+        },
+        {
+          "text": "No Dragons",
+          "next": "35",
+          "order": 4
+        }
+      ]
+    },
+    "23": {
+      "type": "question",
+      "prompt": "Are you looking for something challenging or an easier read?",
+      "answers": [
+        {
+          "text": "I want to stretch my brain",
+          "next": "79",
+          "order": 1
+        },
+        {
+          "text": "Something that makes you think but I don't have to stop due to fatigue",
+          "next": "75",
+          "order": 2
+        },
+        {
+          "text": "A fairly normal story",
+          "next": "29",
+          "order": 3
+        },
+        {
+          "text": "An easy, comfortable book",
+          "next": "93",
+          "order": 4
+        }
+      ]
+    },
+    "24": {
+      "type": "question",
+      "prompt": "Is having a movie/tv adaptation you can watch a positive?",
+      "answers": [
+        {
+          "text": "I love being able to watch the book after reading it",
+          "next": "85",
+          "order": 1
+        },
+        {
+          "text": "Makes me more excited to read",
+          "next": "41",
+          "order": 2
+        },
+        {
+          "text": "Might watch it if I like the book",
+          "next": "78",
+          "order": 3
+        },
+        {
+          "text": "Does not matter at all",
+          "next": "82",
+          "order": 4
+        }
+      ]
+    },
+    "25": {
+      "type": "question",
+      "prompt": "How do you feel about audiobooks?",
+      "answers": [
+        {
+          "text": "Prefer them to normal reading",
+          "next": "38",
+          "order": 1
+        },
+        {
+          "text": "Like it if the narrator is good",
+          "next": "33",
+          "order": 2
+        },
+        {
+          "text": "Fine for a short, easy book",
+          "next": "35",
+          "order": 3
+        },
+        {
+          "text": "Can't do it",
+          "next": "23",
+          "order": 4
+        }
+      ]
+    },
+    "26": {
+      "type": "recommendation",
+      "title": "The Hobbit",
+      "blurb": "The best example of classic fantasy. Great for any age and a good starting point to figure out what you like in fantasy.",
+      "ifNotRead": "default_end",
+      "ifLiked": "28",
+      "ifDisliked": "23",
+      "author": "J.R.R. Tolkien",
+      "slug": "the-hobbit-tolkien"
+    },
+    "27": {
+      "type": "recommendation",
+      "title": "Mistborn: The Final Empire",
+      "blurb": "A great intro to fantasy book, featuring a well-defined hard magic system, cool world, and group of criminals.",
+      "ifNotRead": "default_end",
+      "ifLiked": "51",
+      "ifDisliked": "9",
+      "author": "Brandon Sanderson",
+      "slug": "the-final-empire-sanderson"
+    },
+    "28": {
+      "type": "recommendation",
+      "title": "Of Blood and Fire",
+      "blurb": "A modern book telling a very classic fantasy story. A lot of tropes and themes you will recognize but done incredibly well. And dragons.",
+      "ifNotRead": "default_end",
+      "ifLiked": "43",
+      "ifDisliked": "61",
+      "author": "Ryan Cahill",
+      "slug": "of-blood-and-fire"
+    },
+    "29": {
+      "type": "recommendation",
+      "title": "The Lies of Locke Lamora",
+      "blurb": "A heist story featuring a group of likeable criminals. Low fantasy with a ton of swearing set in a unique and exciting city.",
+      "ifNotRead": "default_end",
+      "ifLiked": "44",
+      "ifDisliked": "20",
+      "author": "Scott Lynch",
+      "slug": "the-lies-of-locke-lamora-lynch"
+    },
+    "30": {
+      "type": "recommendation",
+      "title": "Cradle",
+      "blurb": "A progression fantasy with a lot of asian inspiration. Starts off slow but gets incredible as you keep reading, plus the books are fairly short so you can get through them quickly.",
+      "ifNotRead": "default_end",
+      "ifLiked": "36",
+      "ifDisliked": "23",
+      "author": "Will Wight",
+      "slug": "unsouled-wight"
+    },
+    "31": {
+      "type": "recommendation",
+      "title": "Mother of Learning",
+      "blurb": "Published online on RoyalRoad, so ou can read it for free. A time loop progression fantasy set at a magic school. A fun, easy read.",
+      "ifNotRead": "default_end",
+      "ifLiked": "42",
+      "ifDisliked": "17",
+      "author": "Domagoj Kurmaic",
+      "slug": "mother-of-learning-arc-1-kurmaic"
+    },
+    "32": {
+      "type": "recommendation",
+      "title": "The Thousand Deaths of Ardor Benn",
+      "blurb": "A heist story with a unique hard magic system and super cool integration of dragons. Not super popular but I highly recommend trying it.",
+      "ifNotRead": "default_end",
+      "ifLiked": "29",
+      "ifDisliked": "30",
+      "author": "Tyler Whitesides",
+      "slug": "the-thousand-deaths-of-ardor-benn-whitesides"
+    },
+    "33": {
+      "type": "recommendation",
+      "title": "First Law",
+      "blurb": "One of the most popular grimdark series, the books are very character focused, with the plot starting off pretty slow.",
+      "ifNotRead": "default_end",
+      "ifLiked": "50",
+      "ifDisliked": "15",
+      "author": "Joe Abercrombie",
+      "slug": "the-blade-itself-abercrombie"
+    },
+    "34": {
+      "type": "recommendation",
+      "title": "The Powder Mage",
+      "blurb": "Flintlock fantasy, where the magic involves snorting gunpowder and fighting is happening almost constantly. An action heavy, fast paced book.",
+      "ifNotRead": "default_end",
+      "ifLiked": "56",
+      "ifDisliked": "95",
+      "author": "Brian McClellan",
+      "slug": "promise-of-blood-mcclellan"
+    },
+    "35": {
+      "type": "recommendation",
+      "title": "The Way of Renegades",
+      "blurb": "Incredibly underrated flintlock fantasy. A super fun book combining a mix of popular themes. I highly recommend trying the audiobook for this one.",
+      "ifNotRead": "default_end",
+      "ifLiked": "33",
+      "ifDisliked": "3",
+      "author": "Steve D. Wall",
+      "slug": "the-way-of-renegades-wall"
+    },
+    "36": {
+      "type": "recommendation",
+      "title": "The Wandering Inn",
+      "blurb": "The longest series ever, this starts out as a fairly normal LitRPG/progression fantasy but grows into epic scale. A lot of people really enjoy the audiobooks also.",
+      "ifNotRead": "default_end",
+      "ifLiked": "31",
+      "ifDisliked": "17",
+      "author": "Pirateaba",
+      "slug": "the-wandering-inn-aba"
+    },
+    "37": {
+      "type": "recommendation",
+      "title": "Ripple System",
+      "blurb": "One of the better LitRPG series I have read. Has some flaws but is generally a fun, easy series with god progression.",
+      "ifNotRead": "default_end",
+      "ifLiked": "98",
+      "ifDisliked": "90",
+      "author": "Kyle Kirrin",
+      "slug": "shadeslinger-kirrin"
+    },
+    "38": {
+      "type": "recommendation",
+      "title": "Dungeon Crawler Carl",
+      "blurb": "Not my personal favorite, but has skyrocketed to become one of the most popular fantasy series out right now, so it is doing something right. Highly recommend trying the audiobook for this series.",
+      "ifNotRead": "default_end",
+      "ifLiked": "30",
+      "ifDisliked": "14",
+      "author": "Matt Dinniman",
+      "slug": "dungeon-crawler-carl-dinniman"
+    },
+    "39": {
+      "type": "recommendation",
+      "title": "Sun Eater",
+      "blurb": "A science fantasy space opera, following the melodramatic Hadrian Marlowe and centuries of humanity at war with aliens. Some people struggle with the first book but the series keeps getting better as it goes on.",
+      "ifNotRead": "default_end",
+      "ifLiked": "84",
+      "ifDisliked": "65",
+      "author": "Christopher Ruocchio",
+      "slug": "empire-of-silence-ruocchio"
+    },
+    "40": {
+      "type": "recommendation",
+      "title": "Red Rising",
+      "blurb": "A hugely popular science fiction series. Starts off with similarities to the Hunger Games, but grows into a full space opera.",
+      "ifNotRead": "default_end",
+      "ifLiked": "27",
+      "ifDisliked": "50",
+      "author": "Pierce Brown",
+      "slug": "red-rising-brown"
+    },
+    "41": {
+      "type": "recommendation",
+      "title": "The Expanse",
+      "blurb": "One of the most popular space operas ever.",
+      "ifNotRead": "default_end",
+      "ifLiked": "82",
+      "ifDisliked": "67",
+      "author": "James S. A. Corey",
+      "slug": "leviathan-wakes-corey"
+    },
+    "42": {
+      "type": "recommendation",
+      "title": "The Will of the Many",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "43",
+      "ifDisliked": "30",
+      "author": "James Islington",
+      "slug": "the-will-of-the-many-islington"
+    },
+    "43": {
+      "type": "recommendation",
+      "title": "The Name of the Wind",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "97",
+      "ifDisliked": "48",
+      "author": "Patrick Rothfuss",
+      "slug": "the-name-of-the-wind-rothfuss"
+    },
+    "44": {
+      "type": "recommendation",
+      "title": "The Thief",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "29",
+      "ifDisliked": "52",
+      "author": "Megan Whalen Turner",
+      "slug": "the-thief-turner"
+    },
+    "45": {
+      "type": "recommendation",
+      "title": "Eragon",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "28",
+      "ifDisliked": "60",
+      "author": "Christopher Paolini",
+      "slug": "eragon-paolini"
+    },
+    "46": {
+      "type": "recommendation",
+      "title": "Ranger's Apprentice",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "40",
+      "ifDisliked": "53",
+      "author": "John Flanagan",
+      "slug": "the-ruins-of-gorlan-flanagan"
+    },
+    "47": {
+      "type": "recommendation",
+      "title": "Gregor the Overlander",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "35",
+      "ifDisliked": "73",
+      "author": "Suzanne Collins",
+      "slug": "gregor-the-overlander-collins"
+    },
+    "48": {
+      "type": "recommendation",
+      "title": "Fifth Season",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "83",
+      "ifDisliked": "38",
+      "author": "N. K. Jemisin",
+      "slug": "the-fifth-season-jemisin"
+    },
+    "49": {
+      "type": "recommendation",
+      "title": "Wizard of Earthsea",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "69",
+      "ifDisliked": "33",
+      "author": "Ursula K. Le Guin",
+      "slug": "a-wizard-of-earthsea-guin"
+    },
+    "50": {
+      "type": "recommendation",
+      "title": "Dragonbone Chair",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "33",
+      "ifDisliked": "37",
+      "author": "Tad Williams",
+      "slug": "the-dragonbone-chair-williams"
+    },
+    "51": {
+      "type": "recommendation",
+      "title": "Way of Kings",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "100",
+      "ifDisliked": "37",
+      "author": "Brandon Sanderson",
+      "slug": "the-way-of-kings-sanderson"
+    },
+    "52": {
+      "type": "recommendation",
+      "title": "Sabriel",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "28",
+      "ifDisliked": "15",
+      "author": "Garth Nix",
+      "slug": "sabriel-nix"
+    },
+    "53": {
+      "type": "recommendation",
+      "title": "Lightbringer",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "27",
+      "ifDisliked": "61",
+      "author": "Brent Weeks",
+      "slug": "the-black-prism-weeks"
+    },
+    "54": {
+      "type": "recommendation",
+      "title": "Malazan",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "55",
+      "ifDisliked": "38",
+      "author": "Steven Erikson",
+      "slug": "gardens-of-the-moon-erikson"
+    },
+    "55": {
+      "type": "recommendation",
+      "title": "Dandelion Dynasty",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "54",
+      "ifDisliked": "67",
+      "author": "Ken Liu"
+    },
+    "56": {
+      "type": "recommendation",
+      "title": "Poppy War",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "90",
+      "ifDisliked": "49",
+      "author": "R. F. Kuang",
+      "slug": "the-poppy-war-kuang"
+    },
+    "57": {
+      "type": "recommendation",
+      "title": "Elric",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "79",
+      "ifDisliked": "93",
+      "author": "Michael Moorcock",
+      "slug": "elric-of-melnibone-moorcock"
+    },
+    "58": {
+      "type": "recommendation",
+      "title": "Empire of the Vampire",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "77",
+      "ifDisliked": "94",
+      "author": "Jay Kristoff",
+      "slug": "empire-of-the-vampire-kristoff"
+    },
+    "59": {
+      "type": "recommendation",
+      "title": "Game of Thrones",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "95",
+      "ifDisliked": "79",
+      "author": "George R. R. Martin"
+    },
+    "60": {
+      "type": "recommendation",
+      "title": "Assassin's Apprentice",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "79",
+      "ifDisliked": "27",
+      "author": "Robin Hobb",
+      "slug": "assassin-s-apprentice-hobb"
+    },
+    "61": {
+      "type": "recommendation",
+      "title": "Jade City",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "56",
+      "ifDisliked": "92",
+      "author": "Fonda Lee",
+      "slug": "jade-city-lee"
+    },
+    "62": {
+      "type": "recommendation",
+      "title": "Orconomics",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "63",
+      "ifDisliked": "40",
+      "author": "J. Zachary Pike",
+      "slug": "orconomics-pike"
+    },
+    "63": {
+      "type": "recommendation",
+      "title": "Going Postal",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "78",
+      "ifDisliked": "80",
+      "author": "Terry Pratchett",
+      "slug": "going-postal-pratchett"
+    },
+    "64": {
+      "type": "recommendation",
+      "title": "Guards! Guards!",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "62",
+      "ifDisliked": "91",
+      "author": "Terry Pratchett",
+      "slug": "guards-guards-pratchett"
+    },
+    "65": {
+      "type": "recommendation",
+      "title": "Color of Magic",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "31",
+      "ifDisliked": "74",
+      "author": "Terry Pratchett"
+    },
+    "66": {
+      "type": "recommendation",
+      "title": "Percy Jackson",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "45",
+      "ifDisliked": "78",
+      "author": "Rick Riordan",
+      "slug": "the-lightning-thief-riordan"
+    },
+    "67": {
+      "type": "recommendation",
+      "title": "Riyria",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "28",
+      "ifDisliked": "29",
+      "author": "Michael J. Sullivan",
+      "slug": "the-crown-conspiracy-sullivan"
+    },
+    "68": {
+      "type": "recommendation",
+      "title": "Drizzt",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "67",
+      "ifDisliked": "38",
+      "author": "R. A. Salvatore",
+      "slug": "homeland-salvatore"
+    },
+    "69": {
+      "type": "recommendation",
+      "title": "Wheel of Time",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "28",
+      "ifDisliked": "43",
+      "author": "Robert Jordan"
+    },
+    "70": {
+      "type": "recommendation",
+      "title": "Legends & Lattes",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "99",
+      "ifDisliked": "91",
+      "author": "Travis Baldree",
+      "slug": "legends-lattes-baldree"
+    },
+    "71": {
+      "type": "recommendation",
+      "title": "Dresden",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "61",
+      "ifDisliked": "29",
+      "author": "Jim Butcher",
+      "slug": "storm-front-butcher"
+    },
+    "72": {
+      "type": "recommendation",
+      "title": "Neverwhere",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "97",
+      "ifDisliked": "61",
+      "author": "Neil Gaiman",
+      "slug": "neverwhere-gaiman"
+    },
+    "73": {
+      "type": "recommendation",
+      "title": "Stardust",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "97",
+      "ifDisliked": "47",
+      "author": "Neil Gaiman",
+      "slug": "stardust-gaiman"
+    },
+    "74": {
+      "type": "recommendation",
+      "title": "Six of Crows",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "77",
+      "ifDisliked": "62",
+      "author": "Leigh Bardugo"
+    },
+    "75": {
+      "type": "recommendation",
+      "title": "Babel",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "55",
+      "ifDisliked": "43",
+      "author": "R. F. Kuang",
+      "slug": "babel-kuang"
+    },
+    "76": {
+      "type": "recommendation",
+      "title": "Blood Over Bright Haven",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "75",
+      "ifDisliked": "31",
+      "author": "M. L. Wang",
+      "slug": "blood-over-bright-haven-wang"
+    },
+    "77": {
+      "type": "recommendation",
+      "title": "Throne of Glass",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "58",
+      "ifDisliked": "52",
+      "author": "Sarah J. Maas",
+      "slug": "throne-of-glass-maas"
+    },
+    "78": {
+      "type": "recommendation",
+      "title": "Ender's Game",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "79",
+      "ifDisliked": "52",
+      "author": "Orson Scott Card",
+      "slug": "ender-s-game-card"
+    },
+    "79": {
+      "type": "recommendation",
+      "title": "Hyperion",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "39",
+      "ifDisliked": "40",
+      "author": "Dan Simmons",
+      "slug": "hyperion-simmons"
+    },
+    "80": {
+      "type": "recommendation",
+      "title": "Project Hail Mary",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "40",
+      "ifDisliked": "79",
+      "author": "Andy Weir",
+      "slug": "project-hail-mary-weir"
+    },
+    "81": {
+      "type": "recommendation",
+      "title": "Hitchhiker's Guide to the Galaxy",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "91",
+      "ifDisliked": "82",
+      "author": "Douglas Adams",
+      "slug": "the-hitchhiker-s-guide-to-the-galaxy-adams"
+    },
+    "82": {
+      "type": "recommendation",
+      "title": "Children of Time",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "39",
+      "ifDisliked": "40",
+      "author": "Adrian Tchaikovsky",
+      "slug": "children-of-time-tchaikovsky"
+    },
+    "83": {
+      "type": "recommendation",
+      "title": "Dark Tower",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "57",
+      "ifDisliked": "94",
+      "author": "Stephen King",
+      "slug": "the-gunslinger-king"
+    },
+    "84": {
+      "type": "recommendation",
+      "title": "Gideon the Ninth",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "96",
+      "ifDisliked": "29",
+      "author": "Tamsyn Muir",
+      "slug": "giden-the-ninth-muir"
+    },
+    "85": {
+      "type": "recommendation",
+      "title": "Silo",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "48",
+      "ifDisliked": "40",
+      "author": "Hugh Howey",
+      "slug": "wool-howey"
+    },
+    "86": {
+      "type": "recommendation",
+      "title": "The Left Hand of Darkness",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "83",
+      "ifDisliked": "75",
+      "author": "Ursula K. Le Guin",
+      "slug": "the-left-hand-of-darkness-guin"
+    },
+    "87": {
+      "type": "recommendation",
+      "title": "Rage of Dragons",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "34",
+      "ifDisliked": "93",
+      "author": "Evan Winter",
+      "slug": "the-rage-of-dragons-winter"
+    },
+    "88": {
+      "type": "recommendation",
+      "title": "Black Sun",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "92",
+      "ifDisliked": "49",
+      "author": "Rebecca Roanhorse",
+      "slug": "black-sun-roanhorse"
+    },
+    "89": {
+      "type": "recommendation",
+      "title": "Between Two Fires",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "75",
+      "ifDisliked": "31",
+      "author": "Christopher Buehlman",
+      "slug": "between-two-fires-buehlman"
+    },
+    "90": {
+      "type": "recommendation",
+      "title": "The Forgetting Moon",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "59",
+      "ifDisliked": "27",
+      "author": "Brian Lee Durfee",
+      "slug": "the-forgetting-moon-durfee"
+    },
+    "91": {
+      "type": "recommendation",
+      "title": "We Are Bob",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "31",
+      "ifDisliked": "26",
+      "author": "Dennis E. Taylor",
+      "slug": "we-are-legion-we-are-bob-taylor"
+    },
+    "92": {
+      "type": "recommendation",
+      "title": "Blood Song",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "53",
+      "ifDisliked": "50",
+      "author": "Anthony Ryan",
+      "slug": "blood-song-ryan"
+    },
+    "93": {
+      "type": "recommendation",
+      "title": "Sixteen Ways to Defend a Walled City",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "64",
+      "ifDisliked": "61",
+      "author": "K. J. Parker",
+      "slug": "sixteen-ways-to-defend-a-walled-city-holt"
+    },
+    "94": {
+      "type": "recommendation",
+      "title": "The White Tower",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "28",
+      "ifDisliked": "26",
+      "author": "Michael Wisehart",
+      "slug": "the-white-tower-wisehart"
+    },
+    "95": {
+      "type": "recommendation",
+      "title": "Daughter of the empire",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "50",
+      "ifDisliked": "70",
+      "author": "Raymond E. Feist, Janny Wurts",
+      "slug": "daughter-of-the-empire-wurts"
+    },
+    "96": {
+      "type": "recommendation",
+      "title": "The Tainted Cup",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "84",
+      "ifDisliked": "52",
+      "author": "Robert Jackson Bennet",
+      "slug": "the-tainted-cup-bennett"
+    },
+    "97": {
+      "type": "recommendation",
+      "title": "Piranesi",
+      "blurb": "",
+      "ifNotRead": "default_end",
+      "ifLiked": "43",
+      "ifDisliked": "75",
+      "author": "Susanna Clarke",
+      "slug": "piranesi-clarke"
+    },
+    "98": {
+      "type": "end",
+      "title": "",
+      "message": "You seem to like LitRPG. You can check my favorites by searching through genres on the books page"
+    },
+    "99": {
+      "type": "end",
+      "title": "",
+      "message": "It seems like you like cozy fantasy. I would recommend looking up books by T. Kingfisher or TJ Klune"
+    },
+    "100": {
+      "type": "end",
+      "title": "",
+      "message": "I think you would like going through the entire Cosmere. If you have already done that I would look at Lightbringer"
+    },
+    "root": {
+      "type": "question",
+      "prompt": "Which genre are you most interested in?",
+      "answers": [
+        {
+          "text": "Fantasy",
+          "next": "0",
+          "order": 1
+        },
+        {
+          "text": "Science Fiction",
+          "next": "1",
+          "order": 2
+        },
+        {
+          "text": "A Mix of Both",
+          "next": "12",
+          "order": 3
+        },
+        {
+          "text": "I'm really not sure",
+          "next": "2",
+          "order": 4
+        }
+      ]
+    },
+    "default_end": {
+      "type": "end",
+      "title": "",
+      "message": "I would recommend this book for you, I hope you like it."
+    }
+  }
+}
