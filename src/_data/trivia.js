@@ -128,7 +128,7 @@ export default [
     "difficulty": "Easy"
   },
   {
-    "series": "Liveship Traders",
+    "series": "The Liveship Traders",
     "author": "Robin Hobb",
     "title": "Mad Ship",
     "question": "What do you call the women who live with and advise the Satrap?",
@@ -136,7 +136,7 @@ export default [
     "difficulty": "Medium"
   },
   {
-    "series": "Liveship Traders",
+    "series": "The Liveship Traders",
     "author": "Robin Hobb",
     "title": "Ship of Magic",
     "question": "What words do the serpents use to refer to the space above the sea and in the water?",
@@ -144,7 +144,7 @@ export default [
     "difficulty": "Medium"
   },
   {
-    "series": "Liveship Traders",
+    "series": "The Liveship Traders",
     "author": "Robin Hobb",
     "title": "Mad Ship",
     "question": "Name of the city where Reyn lives on the Rain Wild river?",
@@ -152,15 +152,15 @@ export default [
     "difficulty": "Easy"
   },
   {
-    "series": "Liveship Traders",
+    "series": "The Liveship Traders",
     "author": "Robin Hobb",
     "title": "Mad Ship",
-    "question": "Name of the dragon freed at the end of the book?",
+    "question": "Who does Reyn free at the end of the book?",
     "answer": "Tintaglia",
     "difficulty": "Medium"
   },
   {
-    "series": "Liveship Traders",
+    "series": "The Liveship Traders",
     "author": "Robin Hobb",
     "title": "Mad Ship",
     "question": "What is a formal term of address / honorific for the Satrap?",
@@ -1470,5 +1470,165 @@ export default [
     "question": "Who is speaker for the Fishers in Tibbet's Brook?",
     "answer": "Raddock Lawry",
     "difficulty": "Hard"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What is the slang for True, or the equivalent of For Real?",
+    "answer": "Honest Word",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What are the shape changing demons called?",
+    "answer": "Mimic",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What is the name of Renna's horse?",
+    "answer": "Promise",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What is Inevera's brothers name?",
+    "answer": "Soli",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What is the profession of Inevera's mother?",
+    "answer": "Weaver",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "How many words of foretelling are there according to the dama'ting?",
+    "answer": "337",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Libeship Traders",
+    "author": "Robin Hobb",
+    "title": "Ship of Destiny",
+    "question": "Who is the captain of the Motley?",
+    "answer": "Captain Red",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Libeship Traders",
+    "author": "Robin Hobb",
+    "title": "Ship of Destiny",
+    "question": "Who are the two people retrieved from Key Island?",
+    "answer": "Mother and Kyle Haven",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Libeship Traders",
+    "author": "Robin Hobb",
+    "title": "Ship of Destiny",
+    "question": "Which companion was with the Satrap at the start of the book?",
+    "answer": "Companion Kekki",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Libeship Traders",
+    "author": "Robin Hobb",
+    "title": "Ship of Destiny",
+    "question": "What other name was Vivacia refered to by for a while?",
+    "answer": "Bolt",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Libeship Traders",
+    "author": "Robin Hobb",
+    "title": "Ship of Destiny",
+    "question": "What is the name of Wintrow's old master?",
+    "answer": "Berandol",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Libeship Traders",
+    "author": "Robin Hobb",
+    "title": "Ship of Destiny",
+    "question": "What was the name of Kennit's father?",
+    "answer": "Lucto / Lucky",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What is written on the front of the Hitchiker's Guide to the Galaxy?",
+    "answer": "Don't Panic",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What day does the story take place?",
+    "answer": "Thursday",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "Where does Ford Prefect claim he is from on Earth?",
+    "answer": "Guildford",
+    "difficulty": "Hard"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What two species are smarter than humans on Earth?",
+    "answer": "Dolphins and Mice",
+    "difficulty": "Easy"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What does Ford give to Arthur to allow him to understand aliens?",
+    "answer": "Babel Fish",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What does the updated entry for Earth in the Hitchhikers Guide say?",
+    "answer": "Mostly Harmless",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What drink did Zaphod invent?",
+    "answer": "Pan Galactic Gargle Blaster",
+    "difficulty": "Medium"
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "question": "What does Slartibartfast love designing?",
+    "answer": "Fjords",
+    "difficulty": "Easy"
   }
 ];

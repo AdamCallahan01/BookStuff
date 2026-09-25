@@ -14,7 +14,7 @@ goodreads: "https://www.goodreads.com/book/show/60888209-beware-of-chicken?ref=n
 avgGoodreadsRating: "9.02"
 numGoodreadsRatings: "11228"
 genre: "Fantasy"
-subgenre: "Cozy"
+subgenre: "Progression"
 isbn: "9781039413993"
 bookOwned: true
 hasSummary: false

@@ -17,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Humor"
 isbn: "9781400052929"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-hitchhiker-s-guide-to-the-galaxy-adams-summary"
 summarySlugLink: "[[the-hitchhiker-s-guide-to-the-galaxy-adams-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 2
-averageScore: 4
-allScores: [8,0]
+averageScore: 7.5
+allScores: [8,7]
 readSlugs: ["the-hitchhiker-s-guide-to-the-galaxy-adams-1","the-hitchhiker-s-guide-to-the-galaxy-adams-2"]
 readSlugsLinks: ["[[the-hitchhiker-s-guide-to-the-galaxy-adams-1]]","[[the-hitchhiker-s-guide-to-the-galaxy-adams-2]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-hitchhiker-s-guide-to-the-galaxy-adams-cover"
 ---
 
