@@ -13,7 +13,7 @@
 		return;
 	}
 
-	var coverMeta = {};
+	let coverMeta = {};
 	var coverMetaEl = document.getElementById("cover-meta-data");
 	if (coverMetaEl) {
 		try {
@@ -88,8 +88,10 @@
 
 	function coverImgHtml(slug, title, extraClass) {
 		if (!slug) return "";
-
-		var meta = coverMeta[slug] || { small: 200, large: 400 };
+		let coverSlug = slug + "-cover";
+		//console.log(coverSlug);
+		var meta = coverMeta[coverSlug] || { small: 200, large: 400 };
+		//console.log(meta);
 		var s = meta.small;
 		var l = meta.large;
 		var safeSlug = escapeAttr(slug);
@@ -205,8 +207,8 @@
 		panel.appendChild(el("p", "quiz-rec-blurb", node.blurb));
 
 		if (node.slug) {
-			var link = el("a", "quiz-rec-link", "See it on the recs page");
-			link.href = "/books/?series=" + encodeURIComponent(String(node.slug).toLowerCase());
+			var link = el("a", "quiz-rec-link", "View my review");
+			link.href = "/books/" + encodeURIComponent(String(node.slug).toLowerCase());
 			panel.appendChild(link);
 		}
 
