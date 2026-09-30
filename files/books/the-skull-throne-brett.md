@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780345531483"
 narrator: "Pete Bradbury"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-skull-throne-brett-summary"
 summarySlugLink: "[[the-skull-throne-brett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4
+allScores: [4]
 readSlugs: ["the-skull-throne-brett-1"]
 readSlugsLinks: ["[[the-skull-throne-brett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-skull-throne-brett-cover"
 ---
 

@@ -5,9 +5,9 @@ eleventyComputed:
 ---
 
 {% block extraHead %}
-    <meta property="og:image" content="https://www.fantasybooksummaries.com/files/covers/{{ coverSlug }}.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+  <meta property="og:image" content="https://www.fantasybooksummaries.com/files/covers/{{ coverSlug }}.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 {% endblock %}
 
 {% from "bookCardMacro.njk" import bookCard %}
@@ -111,7 +111,13 @@ eleventyComputed:
       {% endif %}
       <div class="book-meta">
 
-        <h1 class="book-title">{{ title }}</h1>
+        {% if hasSummary %}
+          {% set pageTitle = title + ' - Book Summary, Info & Review' %}
+        {% else %}
+          {% set pageTitle = title + ' - Book Info & Review' %}
+        {% endif %}
+
+        <h1 class="book-title">{{ pageTitle }}</h1>
 
         <div class="book-info">
 

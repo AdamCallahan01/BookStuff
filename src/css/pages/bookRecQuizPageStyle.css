@@ -1,0 +1,121 @@
+.book-quiz {
+	--quiz-ink: #22303c;
+	--quiz-ink-soft: #55636d;
+	--quiz-brass: #a9793f;
+	--quiz-rule: #d9d2c4;
+
+	max-width: 40rem;
+	margin-inline: auto;
+	font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+	color: var(--quiz-ink);
+	line-height: 1.5;
+	padding-bottom: 6rem;
+}
+
+.book-quiz__header h1 {
+	font-size: 1.9rem;
+	font-weight: 600;
+	margin-bottom: 0.25rem;
+}
+
+.book-quiz__header p {
+	color: var(--quiz-ink-soft);
+	margin-top: 0;
+}
+
+.book-quiz__question {
+	border: none;
+	border-top: 1px solid var(--quiz-rule);
+	padding: 1.25rem 0;
+	margin: 0;
+}
+
+.book-quiz__question legend {
+	font-size: 1.1rem;
+	font-weight: 600;
+	padding: 0 0 0.75rem;
+}
+
+.book-quiz__option {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6rem;
+	padding: 0.5rem 0.1rem;
+	cursor: pointer;
+	border-bottom: 1px dotted var(--quiz-rule);
+}
+
+.book-quiz__option:last-child {
+	border-bottom: none;
+}
+
+.book-quiz__option input {
+	accent-color: var(--quiz-brass);
+	flex-shrink: 0;
+}
+
+.book-quiz__option:hover span,
+.book-quiz__option:has(input:checked) span {
+	color: var(--quiz-brass);
+}
+
+.book-quiz__submit {
+	margin-top: 1.5rem;
+	padding: 0.65rem 1.4rem;
+	font-family: inherit;
+	font-size: 1rem;
+	color: #fff;
+	background: var(--quiz-ink);
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.book-quiz__submit:hover {
+	background: var(--quiz-brass);
+}
+
+.book-quiz__result {
+	margin-top: 2.5rem;
+	padding-top: 1.5rem;
+	border-top: 2px solid var(--quiz-ink);
+}
+
+.book-quiz__result-title {
+	font-size: 1.6rem;
+	margin-bottom: 0.25rem;
+}
+
+.book-quiz__result-title a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid var(--quiz-brass);
+}
+
+.book-quiz__result-body {
+	display: flex;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+}
+
+.book-quiz__cover {
+	width: 110px;
+	flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.book-quiz__result:not([hidden]) {
+		animation: book-quiz-reveal 0.4s ease-out;
+	}
+}
+
+@keyframes book-quiz-reveal {
+	from {
+		opacity: 0;
+		transform: translateY(6px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
