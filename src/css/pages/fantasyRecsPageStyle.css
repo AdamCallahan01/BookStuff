@@ -55,6 +55,62 @@
 	text-decoration: underline;
 }
 
+.terms-section {
+	margin-bottom: 3rem;
+}
+
+.terms-title {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	padding-bottom: 0.4rem;
+	border-bottom: 2px solid #ddd;
+	color: #222;
+}
+
+.terms-list {
+	margin: 0;
+}
+
+.term-item {
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+
+	transition:
+		transform 0.15s ease,
+		box-shadow 0.15s ease;
+}
+
+.term-item:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.term-title {
+	padding: 1rem 1.25rem;
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: #111;
+	cursor: pointer;
+}
+
+.term-title:hover {
+	color: #0066cc;
+}
+
+/* Remove the default marker so we can control its appearance. */
+.term-title::marker {
+	color: #666;
+}
+
+/* Content shown when the item is expanded. */
+.term-definition {
+	padding: 0 1.25rem 1rem;
+	line-height: 1.5;
+	color: #555;
+}
+
 /* //////////////////////////////////////////// 
 // Recommendation quiz
 /////////////////////////////////////////////// */

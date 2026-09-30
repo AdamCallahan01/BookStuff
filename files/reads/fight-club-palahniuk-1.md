@@ -7,9 +7,9 @@ readNumber: 1
 score: 4
 format: "Audible"
 dateStarted: "9/15/2026"
-dateFinished: "9/27/2026"
+dateFinished: "9/17/2026"
 yearRead: 2026
-days: 12
+days: 2
 hasReview: true
 ---
 

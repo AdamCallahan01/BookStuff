@@ -1,0 +1,72 @@
+---
+layout: base.njk
+permalink: /book-rec-quiz/
+title: Fantasy Book Recommendation Quiz
+description: A quiz to help pick the perfect book for a new fantasy or science fiction reader
+keywords: fantasy, quiz, what to read, beginner fantasy book, best fantasy books for beginners
+---
+
+{% block extraHead %}
+    <script src="/js/bookRecQuizPage.js" defer></script>
+{% endblock %}
+
+<a href="/book-rec-quiz/" class="nav-link">Take the quiz</a>
+
+<section class="terms-section">
+    <h2 class="terms-title">Terms and Definitions</h2>
+
+    <div class="terms-list">
+        <details class="term-item">
+            <summary class="term-title">
+            Subgenres
+          </summary>
+
+            <div class="term-definition">
+                <p>
+                    <strong>Grimdark</strong> - Test Definition</p>
+            </div>
+        </details>
+
+        <details class="term-item">
+            <summary class="term-title">
+            Fantasy Terms
+          </summary>
+
+            <div class="term-definition">
+                <strong>Grimdark</strong> - Test Definition</p>
+        </div>
+    </details>
+</div>
+</section>
+
+<section class="book-quiz">
+<header class="book-quiz__header">
+    <h1>Sci-Fi and Fantasy Beginner Book Recommendation Quiz - Very much in progress</h1>
+    <p>If you are new to the genre or just looking for a book suggestion this quiz may be able to help</p>
+</header>
+
+<form id="quiz-form" novalidate>
+    {% for question in recQuiz.questions %}
+        <fieldset class="book-quiz__question">
+            <legend>{{ question.prompt }}</legend>
+            {% for answer in question.answers %}
+                <label class="book-quiz__option">
+                    <input type="radio" name="{{ question.id }}" value="{{ loop.index0 }}">
+                    <span>{{ answer.text }}</span>
+                </label>
+            {% endfor %}
+        </fieldset>
+    {% endfor %}
+
+    <button type="submit" class="book-quiz__submit">See my book</button>
+</form>
+
+<div id="quiz-result" class="book-quiz__result" hidden></div>
+</section>
+
+<script type="application/json" id="book-quiz-data">
+{
+    "questions": {{ recQuiz.questions | dump | safe }},
+    "books": {{ recQuiz.bookRecs | dump | safe }}
+}
+</script>
