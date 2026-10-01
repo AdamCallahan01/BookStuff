@@ -5,6 +5,7 @@ export default [
     "items": [
       "The Crippled God",
       "Assassin's Quest",
+      "Ship of Destiny",
       "The Republic of Thieves",
       "The Wisdom of Crowds",
       "Memories of Ice",
@@ -19,6 +20,7 @@ export default [
       "The Name of the Wind",
       "Words of Radiance",
       "Assassin's Apprentice",
+      "Toll the Hounds",
       "The Thousand Deaths of Ardor Benn",
       "Empire of the Dawn",
       "The Hero of Ages",
@@ -35,7 +37,6 @@ export default [
       "The Way of Kings",
       "Sixteen Ways to Defend a Walled City",
       "Ender's Game",
-      "Toll the Hounds",
       "A Wizard of Earthsea",
       "House of Chains",
       "Empire of the Damned",
@@ -68,6 +69,7 @@ export default [
       "Empire of the Vampire",
       "Return of the Thief",
       "The Hobbit",
+      "Going Postal",
       "Midnight Tides",
       "Dawn",
       "The Voyage of the Dawn Treader",
@@ -85,7 +87,6 @@ export default [
       "Blood Song",
       "Kings of Paradise",
       "The Ruins of Gorlan",
-      "Going Postal",
       "Harry Potter and the Prisoner of Azkaban",
       "Reaper",
       "The Thief",
@@ -132,20 +133,32 @@ export default [
       "The Five Warrior Angels",
       "Empire of the Vampire",
       "Mother of Learning",
+      "Discworld",
+      "Underland Chronicles",
       "The Aldoran Chronicles",
       "Hierarchy",
-      "The Siege",
       "The Chronicles of Narnia",
+      "The Siege",
       "Earthsea Cycle",
+      "The Bards and Dragons Saga",
       "Mark of the Fool",
+      "Hyperion Cantos",
       "The Expanse",
-      "Ranger's Apprentice",
+      "The Ripple System",
       "The Inheritance Cycle",
+      "Ranger's Apprentice",
       "Dungeon Crawler Carl",
       "Harry Potter",
+      "The Riyria Revelations",
       "Shattered Sea",
       "The Legend of Drizzt",
-      "The Maze Runner"
+      "Bobiverse",
+      "Artemis Fowl",
+      "The Demon Cycle",
+      "The Maze Runner",
+      "The Dresden Files",
+      "Summoner",
+      "Night Angel"
     ]
   },
   {
@@ -155,14 +168,14 @@ export default [
       "Babel",
       "The Hobbit",
       "The Silence of the Lambs",
-      "Blood Over Bright Haven",
-      "The Sword of Kaigen",
       "Ender's Game",
+      "Blood Over Bright Haven",
       "Good Omens",
       "Project Hail Mary",
       "Howl's Moving Castle",
       "1984",
-      "Between Two Fires"
+      "Between Two Fires",
+      "The Sword of Kaigen"
     ]
   },
   {
@@ -179,7 +192,8 @@ export default [
       "The Siege",
       "Shattered Sea",
       "Kingdom of Grit",
-      "The Legend of Drizzt"
+      "The Legend of Drizzt",
+      "The Liveship Traders"
     ]
   },
   {
