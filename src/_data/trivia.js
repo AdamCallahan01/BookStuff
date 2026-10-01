@@ -5,7 +5,8 @@ export default [
     "title": "Soulsmith",
     "question": "Which character has a name pronounced similarly to a national capital?",
     "answer": "Yerin / Yaren (Nauru)",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -13,7 +14,8 @@ export default [
     "title": "Guards! Guards!",
     "question": "What is the name of the large dwarf?",
     "answer": "Carrot",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -21,7 +23,8 @@ export default [
     "title": "Guards! Guards!",
     "question": "Who is the captain of the Night Watch?",
     "answer": "Sam Vimes",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -29,7 +32,8 @@ export default [
     "title": "Mort",
     "question": "Who takes Mort as an apprentice?",
     "answer": "Death",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -37,7 +41,8 @@ export default [
     "title": "Mort",
     "question": "What is the name of the great turtle?",
     "answer": "A'Tuin",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -45,7 +50,8 @@ export default [
     "title": "Mort",
     "question": "What is the name of Death's horse?",
     "answer": "Binky",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -53,7 +59,8 @@ export default [
     "title": "Mort",
     "question": "What is the rite used to summon and bind Death?",
     "answer": "AshkEnte",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "General",
@@ -61,7 +68,8 @@ export default [
     "title": "General",
     "question": "What is the best selling novel in history?",
     "answer": "Don Quixote",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Harry Potter",
@@ -69,7 +77,8 @@ export default [
     "title": "Goblet of Fire",
     "question": "Which character slept under a cloak propped up on sticks at the Quidditch World Cup Match",
     "answer": "Mundungus Fletcher",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Hyperion Cantos",
@@ -77,7 +86,8 @@ export default [
     "title": "Hyperion",
     "question": "What were the original names of the 3 continents on the planet Hyperion?",
     "answer": "Creighton, Allensen, and Lopez",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Hyperion Cantos",
@@ -85,7 +95,8 @@ export default [
     "title": "Hyperion",
     "question": "What is the name of the device that allows instant travel between worlds?",
     "answer": "Farcaster",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Hyperion Cantos",
@@ -93,7 +104,8 @@ export default [
     "title": "Hyperion",
     "question": "Name of the tree-ship that takes the pilgrims to Hyperion?",
     "answer": "Yggdrasil",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Hyperion Cantos",
@@ -101,7 +113,8 @@ export default [
     "title": "Hyperion",
     "question": "How many Bikura are there?",
     "answer": "70 (Three score and ten)",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Hyperion Cantos",
@@ -109,7 +122,8 @@ export default [
     "title": "Hyperion",
     "question": "What is the name of Rachel's disease?",
     "answer": "Merlin's Sickness",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Hyperion Cantos",
@@ -117,7 +131,8 @@ export default [
     "title": "The Fall of Hyperion",
     "question": "What is the name of John Keats' friend, the artist who was with him when he died?",
     "answer": "Joseph Severn",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "Hyperion Cantos",
@@ -125,7 +140,8 @@ export default [
     "title": "The Fall of Hyperion",
     "question": "Where is the Technocore located?",
     "answer": "In the Farcasters",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Liveship Traders",
@@ -133,7 +149,8 @@ export default [
     "title": "Mad Ship",
     "question": "What do you call the women who live with and advise the Satrap?",
     "answer": "Companions of the Heart",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Liveship Traders",
@@ -141,7 +158,8 @@ export default [
     "title": "Ship of Magic",
     "question": "What words do the serpents use to refer to the space above the sea and in the water?",
     "answer": "Lack and Plenty",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Liveship Traders",
@@ -149,7 +167,8 @@ export default [
     "title": "Mad Ship",
     "question": "Name of the city where Reyn lives on the Rain Wild river?",
     "answer": "Trehaug",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Liveship Traders",
@@ -157,7 +176,8 @@ export default [
     "title": "Mad Ship",
     "question": "Who does Reyn free at the end of the book?",
     "answer": "Tintaglia",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Liveship Traders",
@@ -165,7 +185,8 @@ export default [
     "title": "Mad Ship",
     "question": "What is a formal term of address / honorific for the Satrap?",
     "answer": "Magnadon",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "Lord of the Rings",
@@ -173,7 +194,8 @@ export default [
     "title": "Movies",
     "question": "Which cast member of the movies was the only one to meet Tolkien?",
     "answer": "Christopher Lee",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Malazan",
@@ -181,7 +203,8 @@ export default [
     "title": "General",
     "question": "If you were to read the books in the Malazan universe in chronological order, which book should you read first?",
     "answer": "Forge of Darkness",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -189,7 +212,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "What is the Sithi name for Hayholt?",
     "answer": "Asu'a",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -197,7 +221,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "What is the name of King Prester John's sword?",
     "answer": "Bright-Nail",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -205,7 +230,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "What is the name of the dragon killed by King Prester John?",
     "answer": "Shurakai",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -213,7 +239,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "What is the name of the god of Prester John's kingdom?",
     "answer": "Usires Aedon",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -221,7 +248,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "What was the Sithi name of the Storm King?",
     "answer": "Ineluki",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -229,7 +257,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "How many members are in the League of the Scroll?",
     "answer": "7",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Memory, Sorrow, and Thorn",
@@ -237,7 +266,8 @@ export default [
     "title": "The Dragonbone Chair",
     "question": "What is the name of the ruined Sithi city Simon passes through?",
     "answer": "Da'ai Chikiza",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Mistborn",
@@ -245,7 +275,8 @@ export default [
     "title": "The Well of Ascension",
     "question": "Who is the main characters boyfriends half-brothers father?",
     "answer": "Lord Straff",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "Mistborn",
@@ -253,7 +284,8 @@ export default [
     "title": "The Final Empire",
     "question": "What are the two metals used for Pushing and Pulling?",
     "answer": "Iron and Steel",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -261,7 +293,8 @@ export default [
     "title": "Pride and Prejudice",
     "question": "Who does Jane Bennet marry?",
     "answer": "Charles Bingley",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -269,7 +302,8 @@ export default [
     "title": "Snow Crash",
     "question": "How many miles across is the Metaverse?",
     "answer": "2^16 (65,536)",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -277,7 +311,8 @@ export default [
     "title": "Snow Crash",
     "question": "What is the derogative term for a minivan?",
     "answer": "Bimbo Box",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -285,7 +320,8 @@ export default [
     "title": "Snow Crash",
     "question": "What college did Hiro go to with Juanita?",
     "answer": "Berkeley",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -293,7 +329,8 @@ export default [
     "title": "Snow Crash",
     "question": "Which character shares a name with a former national capital?",
     "answer": "Lagos (Nigeria)",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -301,7 +338,8 @@ export default [
     "title": "Snow Crash",
     "question": "What do the initials Y.T. stand for?",
     "answer": "Yours Truly",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -309,7 +347,8 @@ export default [
     "title": "Snow Crash",
     "question": "What is Hiro's job at the start of the book?",
     "answer": "Deliverator",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -317,7 +356,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "What is the proper term to use as a Common when Addressing a Noble?",
     "answer": "Nkosi",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -325,7 +365,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "What is the name of Tau's Father?",
     "answer": "Aren",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -333,7 +374,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "What is the name of the ship Queen Taifa arrives on?",
     "answer": "Targon",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -341,7 +383,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "What Scale is Tau a member of?",
     "answer": "Scale Jayyed",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -349,7 +392,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "What are the names of the three most common types of magic?",
     "answer": "Enervate, Enrage, Entreat",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -357,7 +401,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "What is the name of the realm of Ukufa? (The place you draw power from to perform magic, and the land where demons roam)",
     "answer": "Isihogo",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Burning",
@@ -365,7 +410,8 @@ export default [
     "title": "The Rage of Dragons",
     "question": "List all of the Chosen Castes from top to bottom",
     "answer": "Queen (& Royal Family), Royal Nobles, GIfted, Ingonyama, Greater Nobles, Petty Nobles, Ihashe, High Governor, Low Governor, High Harvester, Low Harvester, High Common, Low Common, Drudge",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Expanse",
@@ -373,7 +419,8 @@ export default [
     "title": "Leviathan Wakes",
     "question": "What is the name of the ice hauler Jim works on at the start of the series?",
     "answer": "The Canterbury",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Expanse",
@@ -381,7 +428,8 @@ export default [
     "title": "Leviathan Wakes",
     "question": "What does Jim rename the martian ship he and his crew use to flee to Tycho Station?",
     "answer": "The Rocinante",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Expanse",
@@ -389,7 +437,8 @@ export default [
     "title": "Cibola Burn",
     "question": "What name does the UN try to give to the central planet of the novel?",
     "answer": "New Terra",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -397,7 +446,8 @@ export default [
     "title": "Leviathan Wakes",
     "question": "What moon was the protomolecule discovered in?",
     "answer": "Phoebe",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -405,7 +455,8 @@ export default [
     "title": "Leviathan Wakes",
     "question": "What is Detective Miller's first name?",
     "answer": "Josephus",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -413,7 +464,8 @@ export default [
     "title": "Nemesis Games",
     "question": "What is the name of Alex's ex wife?",
     "answer": "Talissa",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -421,7 +473,8 @@ export default [
     "title": "Leviathan Wakes",
     "question": "What is the name of the company owned by Jules-Pierre Mao?",
     "answer": "Mao-Kwikowski Mercantile",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -429,7 +482,8 @@ export default [
     "title": "Nemesis Games",
     "question": "What is the name of Naomi's son?",
     "answer": "Filip",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -437,7 +491,8 @@ export default [
     "title": "Persepolis Rising",
     "question": "What is the name of the new empire formed by Winston Duarte?",
     "answer": "Laconia",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Expanse",
@@ -445,7 +500,8 @@ export default [
     "title": "Tiamat's Wrath",
     "question": "What is the name of the system Elvi finds that contains only a neutron star?",
     "answer": "Tecoma System",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "Powder Mage",
@@ -453,7 +509,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What are the name's of Tamas' dogs?",
     "answer": "Pitlaugh and Hrusch",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -461,7 +518,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What were the king's personal soldiers called?",
     "answer": "Heilman",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -469,7 +527,8 @@ export default [
     "title": "Promise of Blood",
     "question": "Which mountain do Julene and Taniel go to?",
     "answer": "South Pikes Peak",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -477,7 +536,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What is Tamas' military rank?",
     "answer": "Field Marshall",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -485,7 +545,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What is Adamat's Knack?",
     "answer": "Perfect Memory",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -493,7 +554,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What is the name of the boxer Adamat hires as a bodyguard?",
     "answer": "SouSmith",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -501,7 +563,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What is the name of the union led by Ricard Tumblar?",
     "answer": "Noble Warriors of Labor",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -509,7 +572,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What metal is able to neutralize a powder mages power?",
     "answer": "Gold",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Powder Mage",
@@ -517,7 +581,8 @@ export default [
     "title": "Promise of Blood",
     "question": "What is the name of the god of the Nine?",
     "answer": "Kresimir",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Dungeon Crawler Carl",
@@ -525,7 +590,8 @@ export default [
     "title": "Dungeon Crawler Carl",
     "question": "What is the name of the elder care facility that Brandon worked at?",
     "answer": "Meadowlark",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Hainish Cycle",
@@ -533,7 +599,8 @@ export default [
     "title": "The Left Hand of Darkness",
     "question": "What is the Left Hand of Darkness?",
     "answer": "Light",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Hainish Cycle",
@@ -541,7 +608,8 @@ export default [
     "title": "The Left Hand of Darkness",
     "question": "What is Estraven's full name?",
     "answer": "Therem Harth rem ir Estraven",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Hainish Cycle",
@@ -549,7 +617,8 @@ export default [
     "title": "The Left Hand of Darkness",
     "question": "What is another name for the planet Winter?",
     "answer": "Gethen",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Hainish Cycle",
@@ -557,7 +626,8 @@ export default [
     "title": "The Left Hand of Darkness",
     "question": "What number of his line is King Argaven?",
     "answer": "15 (XV)",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Hainish Cycle",
@@ -565,7 +635,8 @@ export default [
     "title": "The Left Hand of Darkness",
     "question": "What is the device that can communicate instantly regardless of time?",
     "answer": "Ansible",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Hainish Cycle",
@@ -573,7 +644,8 @@ export default [
     "title": "The Left Hand of Darkness",
     "question": "What is the group of planets that Genly Ai represents?",
     "answer": "The Ekumen",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -581,7 +653,8 @@ export default [
     "title": "Spinning Silver",
     "question": "What religion is Miryam?",
     "answer": "Jewish",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -589,7 +662,8 @@ export default [
     "title": "Spinning Silver",
     "question": "What is the name of the Staryk King?",
     "answer": "We don't know",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -597,7 +671,8 @@ export default [
     "title": "Spinning Silver",
     "question": "How many children did Wanda's mother bury around the tree?",
     "answer": "5",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -605,7 +680,8 @@ export default [
     "title": "Spinning Silver",
     "question": "What is the name of the kingdom they live in?",
     "answer": "Lithvas",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -613,7 +689,8 @@ export default [
     "title": "Spinning Silver",
     "question": "How much money did Wanda's father borrow?",
     "answer": "6 silver Kopecks",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -621,7 +698,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "Who is Redd's premier bodyguard/soldier?",
     "answer": "The Cat",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -629,7 +707,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "What is the name of the royal tutor?",
     "answer": "Bibwit Harte",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -637,7 +716,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "Who are the 4 noble families of Wonderland?",
     "answer": "Hearts, Clubs, Spades, Diamonds",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -645,7 +725,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "What is the name of Dodge's father?",
     "answer": "Sir Justice (Anders)",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -653,7 +734,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "What is the name of the family who adopt Alice?",
     "answer": "Liddell",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -661,7 +743,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "What is the name of Alyss' first friend on Earth?",
     "answer": "Quigly Gaffer",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Looking Glass Wars",
@@ -669,7 +752,8 @@ export default [
     "title": "The Looking Glass Wars",
     "question": "What are the names of Alyss' parents?",
     "answer": "Genevieve and Nolan",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -677,7 +761,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What are the sublimes enhanced for great strength called?",
     "answer": "Cracklers",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -685,7 +770,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What is it called when Din gets his job payment?",
     "answer": "Dispensation",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -693,7 +779,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What drug does Ana ask Din to get for her?",
     "answer": "Moodies (Hallucinogenic)",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -701,7 +788,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What sense do engravers use to help manage memories?",
     "answer": "Scent",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -709,7 +797,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "How is the empire broken up?",
     "answer": "Rings/Cantons",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -717,7 +806,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What keeps the leviathans out of the empire?",
     "answer": "Sea Wall",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -725,7 +815,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "How does Ana prefer to read?",
     "answer": "Touch",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -733,7 +824,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What condition does Din have?",
     "answer": "Dyslexia",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -741,7 +833,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What are the birds that carry messages between places called?",
     "answer": "Scribe Hawk",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Shadow of the Leviathan",
@@ -749,7 +842,8 @@ export default [
     "title": "The Tainted Cup",
     "question": "What is Miljin's sword made from?",
     "answer": "Leviathan Bone",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -757,7 +851,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What is the name of the boy?",
     "answer": "Jake Chambers",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -765,7 +860,8 @@ export default [
     "title": "The Gunslinger",
     "question": "Where did the gunslinger buy the mule?",
     "answer": "Pricetown",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -773,7 +869,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What is the name of Roland's hawk?",
     "answer": "David",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -781,7 +878,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What direction does the gunslinger walk in the desert?",
     "answer": "Southeast",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -789,7 +887,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What was the name of the raven who lived with Brown?",
     "answer": "Zoltan",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -797,7 +896,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What wood make up the guns handles?",
     "answer": "Sandalwood",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -805,7 +905,8 @@ export default [
     "title": "The Gunslinger",
     "question": "Who is the gunslingers father?",
     "answer": "Stephen Deschain",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -813,7 +914,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What mode of transportation does the gunslinger use to cross the mountains?",
     "answer": "Handcar",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -821,7 +923,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What is the hypnosis trick using a bullet called?",
     "answer": "Howken",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Dark Tower",
@@ -829,7 +932,8 @@ export default [
     "title": "The Gunslinger",
     "question": "What is the number Allie was given?",
     "answer": "19",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -837,7 +941,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What number brother is Kale?",
     "answer": "Fourth",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -845,7 +950,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What alias does Ruka use?",
     "answer": "Bukayag",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -853,7 +959,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What is Egil's profession?",
     "answer": "Skard",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -861,7 +968,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What unique skill does Ruka have?",
     "answer": "Perfect memory (among others)",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -869,7 +977,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What is the nickname of the lead girl is Dala's priestess initiation group?",
     "answer": "The Little Matriarch",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -877,7 +986,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What is the religious text that Ruka memorizes called?",
     "answer": "Book of Galdra",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -885,7 +995,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What kingdom is Kale a prince of?",
     "answer": "Sri Kon",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -893,7 +1004,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What are the islands where Kale grew up called?",
     "answer": "Pyu",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Kings of Paradise",
@@ -901,7 +1013,8 @@ export default [
     "title": "Ash and Sand",
     "question": "What is the name of Kale's first friend in the marines?",
     "answer": "Thetma",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Palace Job",
@@ -909,7 +1022,8 @@ export default [
     "title": "Rogues of the Republic",
     "question": "What is Dairy's full name?",
     "answer": "Rybandaris",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Palace Job",
@@ -917,7 +1031,8 @@ export default [
     "title": "Rogues of the Republic",
     "question": "What was Loch's rank in the army?",
     "answer": "(Scout) Captain",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Palace Job",
@@ -925,7 +1040,8 @@ export default [
     "title": "Rogues of the Republic",
     "question": "What is the name of the floating island?",
     "answer": "Heaven's Spire",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Palace Job",
@@ -933,7 +1049,8 @@ export default [
     "title": "Rogues of the Republic",
     "question": "What is the coffee-like drink Loch loves?",
     "answer": "Kahva",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Palace Job",
@@ -941,7 +1058,8 @@ export default [
     "title": "Rogues of the Republic",
     "question": "What is Loch's full name?",
     "answer": "Isafiera de Lochenville",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Palace Job",
@@ -949,7 +1067,8 @@ export default [
     "title": "Rogues of the Republic",
     "question": "What are the giant crystals that keep Heaven's spire aloft called?",
     "answer": "Lapiscaela",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -957,7 +1076,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What is the name of Ard and Raek's ship?",
     "answer": "Double Take",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -965,7 +1085,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What is Raek criminal alias?",
     "answer": "Short Fuse",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -973,7 +1094,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What is the smallest unit of currency?",
     "answer": "Ashlit",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -981,7 +1103,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What is the name of the police force?",
     "answer": "Regulators",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -989,7 +1112,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "How does Raek refer to Elbrig and Cinza?",
     "answer": "The Crazies",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -997,7 +1121,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What do you need to feed a dragon to get barrier grit?",
     "answer": "Common Metals",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -1005,7 +1130,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What is the name of the grit that increases the time a mixed in grit lasts?",
     "answer": "Prolonging Grit",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -1013,7 +1139,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What are the 3 islands in the greater chain besides Pekal and Espar?",
     "answer": "Dronodan, Strind, and Talumon",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -1021,7 +1148,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What color is the moon?",
     "answer": "Crimson",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -1029,7 +1157,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What artist's painting was Quarrah trying to steal at the start of the book?",
     "answer": "Lemnow",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Thousand Deaths of Ardor Benn",
@@ -1037,7 +1166,8 @@ export default [
     "title": "Kingdom of Grit",
     "question": "What is the name of the dragon who burned part of Beripent?",
     "answer": "Grotenisk the Destroyer",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Way of Kings",
@@ -1045,7 +1175,8 @@ export default [
     "title": "The Stormlight Archive",
     "question": "Who does Shallan claim taught her to draw?",
     "answer": "Dandos the Oilsworn",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Way of Kings",
@@ -1053,7 +1184,8 @@ export default [
     "title": "The Stormlight Archive",
     "question": "Who is the POV of chapter 1?",
     "answer": "Cenn",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1061,7 +1193,8 @@ export default [
     "title": "Starter Villain",
     "question": "What are the names of Charlie's two cats?",
     "answer": "Hera and Persephone",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1069,7 +1202,8 @@ export default [
     "title": "Starter Villain",
     "question": "What was the legal business Charlie's uncle was known for?",
     "answer": "Parking Garages",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1077,7 +1211,8 @@ export default [
     "title": "Starter Villain",
     "question": "What lake did the Lombardy Convocation meet at?",
     "answer": "Lake Como",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1085,7 +1220,8 @@ export default [
     "title": "Starter Villain",
     "question": "Who is Charlie's lawyer?",
     "answer": "Andy Baxter",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1093,7 +1229,8 @@ export default [
     "title": "Starter Villain",
     "question": "What is the news program where Charlie learns of his uncle's death?",
     "answer": "Squawk Box",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1101,7 +1238,8 @@ export default [
     "title": "Starter Villain",
     "question": "What is the actual last name of Tobias the Stabber?",
     "answer": "Paris",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1109,7 +1247,8 @@ export default [
     "title": "Starter Villain",
     "question": "What are the names of Charlie's siblings?",
     "answer": "Sarah, Bobby, and Todd",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Blood of Kings",
@@ -1117,7 +1256,8 @@ export default [
     "title": "The Squire",
     "question": "What is the name of Conrad's father?",
     "answer": "Sigrid",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "Blood of Kings",
@@ -1125,7 +1265,8 @@ export default [
     "title": "The Squire",
     "question": "What color school did Nicolo attend?",
     "answer": "Green",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "Blood of Kings",
@@ -1133,7 +1274,8 @@ export default [
     "title": "The Squire",
     "question": "What is the title of a trained warrior such as Nicolo?",
     "answer": "Banneret",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "Blood of Kings",
@@ -1141,7 +1283,8 @@ export default [
     "title": "The Squire",
     "question": "What is the Shandarian equivalent to a banneret?",
     "answer": "Bloodblade",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "Blood of Kings",
@@ -1149,7 +1292,8 @@ export default [
     "title": "The Squire",
     "question": "What is the organization Heidi is a member of?",
     "answer": "intelligentsia",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "Blood of Kings",
@@ -1157,7 +1301,8 @@ export default [
     "title": "The Squire",
     "question": "What were Conrad and his friends searching for in the depths of the palace?",
     "answer": "Proctor's Regalia",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "Silo",
@@ -1165,7 +1310,8 @@ export default [
     "title": "Wool",
     "question": "How many levels in the silo are there?",
     "answer": "144",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1173,7 +1319,8 @@ export default [
     "title": "Wool",
     "question": "What size are Bernard's hands?",
     "answer": "Small/Tiny",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1181,7 +1328,8 @@ export default [
     "title": "Wool",
     "question": "What clothing item is a different color by profession?",
     "answer": "Overalls",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1189,7 +1337,8 @@ export default [
     "title": "Wool",
     "question": "What is Solo's real name?",
     "answer": "Jimmy",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1197,7 +1346,8 @@ export default [
     "title": "Wool",
     "question": "What is the name of Holsten's wife?",
     "answer": "Allison",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1205,7 +1355,8 @@ export default [
     "title": "Wool",
     "question": "What is an apprentice called?",
     "answer": "Shadow",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1213,7 +1364,8 @@ export default [
     "title": "Wool",
     "question": "What is someone training an apprentice called?",
     "answer": "Caster",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1221,7 +1373,8 @@ export default [
     "title": "Wool",
     "question": "Where does Juliette's father work?",
     "answer": "Nursery",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Silo",
@@ -1229,7 +1382,8 @@ export default [
     "title": "Wool",
     "question": "What is the bottom section of the silo called?",
     "answer": "Down Deep",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Rabbits",
@@ -1237,7 +1391,8 @@ export default [
     "title": "Rabbits",
     "question": "Who won the second iteration of the game?",
     "answer": "The Condor",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Rabbits",
@@ -1245,7 +1400,8 @@ export default [
     "title": "Rabbits",
     "question": "Who owns the arcade?",
     "answer": "The Magician",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Rabbits",
@@ -1253,7 +1409,8 @@ export default [
     "title": "Rabbits",
     "question": "What is the name of Chloe's biggest song?",
     "answer": "MPDG",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "Rabbits",
@@ -1261,7 +1418,8 @@ export default [
     "title": "Rabbits",
     "question": "What phrase is associated with a new version of the game starting?",
     "answer": "The door is open",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Rabbits",
@@ -1269,7 +1427,8 @@ export default [
     "title": "Rabbits",
     "question": "In a video, which actor is told he does not belong in our world?",
     "answer": "Jeff Goldblum",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Rabbits",
@@ -1277,7 +1436,8 @@ export default [
     "title": "Rabbits",
     "question": "What city is the story set in?",
     "answer": "Seattle",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -1285,7 +1445,8 @@ export default [
     "title": "Going Postal",
     "question": "What is Mr. Groat's first name?",
     "answer": "Toliver",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -1293,7 +1454,8 @@ export default [
     "title": "Going Postal",
     "question": "What is the alias Moist was using at the start of the book?",
     "answer": "Albert Spangler",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -1301,7 +1463,8 @@ export default [
     "title": "Going Postal",
     "question": "Who is the post office cat?",
     "answer": "Mr. Tiddles",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -1309,7 +1472,8 @@ export default [
     "title": "Going Postal",
     "question": "What was Stanley obsessed with when Moist first meets him?",
     "answer": "Pins",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -1317,7 +1481,8 @@ export default [
     "title": "Going Postal",
     "question": "What color suit does Moist wear?",
     "answer": "Yellow",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "Discworld",
@@ -1325,7 +1490,8 @@ export default [
     "title": "Going Postal",
     "question": "How old was the golem Anghammarad?",
     "answer": "About 19,000 years",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1333,7 +1499,8 @@ export default [
     "title": "Kindred",
     "question": "What is the first book Dana read Rufus?",
     "answer": "Robinson Crusoe",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1341,7 +1508,8 @@ export default [
     "title": "Kindred",
     "question": "What is Kevin's most popular book?",
     "answer": "The Water of Meribah",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1349,7 +1517,8 @@ export default [
     "title": "Kindred",
     "question": "How is Dana connected to Rufus?",
     "answer": "He is her ancestor",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1357,7 +1526,8 @@ export default [
     "title": "Kindred",
     "question": "What state is the plantation in?",
     "answer": "Maryland",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1365,7 +1535,8 @@ export default [
     "title": "Kindred",
     "question": "What color is Kevin's hair?",
     "answer": "Gray",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "N/A",
@@ -1373,7 +1544,8 @@ export default [
     "title": "Kindred",
     "question": "What is Dana's profession?",
     "answer": "Author",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1381,7 +1553,8 @@ export default [
     "title": "The Warded Man",
     "question": "What is the herb messenger's use to cure demon rot?",
     "answer": "Hogroot",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1389,7 +1562,8 @@ export default [
     "title": "The Warded Man",
     "question": "What is the name of Arlen's first friend in Fort Miln?",
     "answer": "Jake",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1397,7 +1571,8 @@ export default [
     "title": "The Warded Man",
     "question": "What is the name of the warded man's horse?",
     "answer": "Twilight Dancer",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1405,7 +1580,8 @@ export default [
     "title": "The Warded Man",
     "question": "What is the hamlet Arlen grew up in?",
     "answer": "Tibbet's Brook",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1413,7 +1589,8 @@ export default [
     "title": "The Warded Man",
     "question": "Who is the warder who takes Arlen as an apprentice?",
     "answer": "Cob",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1421,7 +1598,8 @@ export default [
     "title": "The Warded Man",
     "question": "What is the name of Regan and Elissa's daughter?",
     "answer": "Marya",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Demon Cycle",
@@ -1429,7 +1607,8 @@ export default [
     "title": "The Desert Spear",
     "question": "What is the most painful whip used in Krasia?",
     "answer": "Alagai Tail",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1437,7 +1616,8 @@ export default [
     "title": "The Desert Spear",
     "question": "How do Krasian's refer to corelings?",
     "answer": "Alagai",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1445,7 +1625,8 @@ export default [
     "title": "The Desert Spear",
     "question": "What is the name of the Krasian holy text?",
     "answer": "Evejah",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1453,7 +1634,8 @@ export default [
     "title": "The Desert Spear",
     "question": "What are the dice used to tell the future made of?",
     "answer": "Demon Bone",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1461,7 +1643,8 @@ export default [
     "title": "The Desert Spear",
     "question": "How does Jardir refer to Fort Rizon?",
     "answer": "Everam's Bounty",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1469,7 +1652,8 @@ export default [
     "title": "The Desert Spear",
     "question": "Who is speaker for the Fishers in Tibbet's Brook?",
     "answer": "Raddock Lawry",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1477,7 +1661,8 @@ export default [
     "title": "The Daylight War",
     "question": "What is the slang for True, or the equivalent of For Real?",
     "answer": "Honest Word",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1485,7 +1670,8 @@ export default [
     "title": "The Daylight War",
     "question": "What are the shape changing demons called?",
     "answer": "Mimic",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1493,7 +1679,8 @@ export default [
     "title": "The Daylight War",
     "question": "What is the name of Renna's horse?",
     "answer": "Promise",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1501,7 +1688,8 @@ export default [
     "title": "The Daylight War",
     "question": "What is Inevera's brothers name?",
     "answer": "Soli",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1509,7 +1697,8 @@ export default [
     "title": "The Daylight War",
     "question": "What is the profession of Inevera's mother?",
     "answer": "Weaver",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Demon Cycle",
@@ -1517,7 +1706,8 @@ export default [
     "title": "The Daylight War",
     "question": "How many words of foretelling are there according to the dama'ting?",
     "answer": "337",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Libeship Traders",
@@ -1525,7 +1715,8 @@ export default [
     "title": "Ship of Destiny",
     "question": "Who is the captain of the Motley?",
     "answer": "Captain Red",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Libeship Traders",
@@ -1533,7 +1724,8 @@ export default [
     "title": "Ship of Destiny",
     "question": "Who are the two people retrieved from Key Island?",
     "answer": "Mother and Kyle Haven",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": false
   },
   {
     "series": "The Libeship Traders",
@@ -1541,7 +1733,8 @@ export default [
     "title": "Ship of Destiny",
     "question": "Which companion was with the Satrap at the start of the book?",
     "answer": "Companion Kekki",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Libeship Traders",
@@ -1549,7 +1742,8 @@ export default [
     "title": "Ship of Destiny",
     "question": "What other name was Vivacia refered to by for a while?",
     "answer": "Bolt",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": false
   },
   {
     "series": "The Libeship Traders",
@@ -1557,7 +1751,8 @@ export default [
     "title": "Ship of Destiny",
     "question": "What is the name of Wintrow's old master?",
     "answer": "Berandol",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Libeship Traders",
@@ -1565,7 +1760,8 @@ export default [
     "title": "Ship of Destiny",
     "question": "What was the name of Kennit's father?",
     "answer": "Lucto / Lucky",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": false
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1573,7 +1769,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What is written on the front of the Hitchiker's Guide to the Galaxy?",
     "answer": "Don't Panic",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1581,7 +1778,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What day does the story take place?",
     "answer": "Thursday",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1589,7 +1787,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "Where does Ford Prefect claim he is from on Earth?",
     "answer": "Guildford",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1597,7 +1796,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What two species are smarter than humans on Earth?",
     "answer": "Dolphins and Mice",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1605,7 +1805,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What does Ford give to Arthur to allow him to understand aliens?",
     "answer": "Babel Fish",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1613,7 +1814,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What does the updated entry for Earth in the Hitchhikers Guide say?",
     "answer": "Mostly Harmless",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1621,7 +1823,8 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What drink did Zaphod invent?",
     "answer": "Pan Galactic Gargle Blaster",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "random": true
   },
   {
     "series": "The Hitchhiker's Guide to the Galaxy",
@@ -1629,6 +1832,97 @@ export default [
     "title": "The Hitchhiker's Guide to the Galaxy",
     "question": "What does Slartibartfast love designing?",
     "answer": "Fjords",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What do they call poisoners?",
+    "answer": "Weed Gatherer",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What is the name of the half krasian?",
+    "answer": "Briar",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Daylight War",
+    "question": "What is the name of Duke Rhinebeck's wife?",
+    "answer": "Melny",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "What is the name of the restaraunt at the end of the universe?",
+    "answer": "Milliway's",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "What is the name of Zaphod Beeblebrox's great-grandfather?",
+    "answer": "Zaphod Beeblebrox the Fourth",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "What is Gargravarr first name?",
+    "answer": "Pizpot",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "Zaphod finds a ship that was waiting for what before it could take off?",
+    "answer": "Lemon-soaked paper napkins",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "What was Arthur trying to make when he jammed the ship's computer?",
+    "answer": "Tea",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "What is the name of Hotblack Desiato's band?",
+    "answer": "Disaster Area",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "The Restaurant at the End of the Universe",
+    "question": "What planet did the Golgafrincham's crash into?",
+    "answer": "Earth",
+    "difficulty": "Easy",
+    "random": false
   }
 ];

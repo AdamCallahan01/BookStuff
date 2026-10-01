@@ -17,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Humor"
 isbn: "9780345418920"
 bookOwned: false
-hasSummary: false
+hasSummary: true
 summarySlug: "the-restaurant-at-the-end-of-the-universe-adams-summary"
 summarySlugLink: "[[the-restaurant-at-the-end-of-the-universe-adams-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8.5
+allScores: [8.5]
 readSlugs: ["the-restaurant-at-the-end-of-the-universe-adams-1"]
 readSlugsLinks: ["[[the-restaurant-at-the-end-of-the-universe-adams-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-restaurant-at-the-end-of-the-universe-adams-cover"
 ---
 

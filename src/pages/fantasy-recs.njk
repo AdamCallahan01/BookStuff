@@ -11,7 +11,7 @@ description: My best recommendations for new readers in various fantasy genres a
 {% endblock %}
 
 <section class="content-section">
-  <h1>Fantasy Recommendations - In Progress</h1>
+  <h1>Fantasy Recommendations</h1>
 
   <p>
     These are the books I think are best to begin each subgenre, or just for getting started with fantasy in general.
@@ -37,6 +37,72 @@ description: My best recommendations for new readers in various fantasy genres a
     </script>
   </section>
 
+  <section class="terms-section">
+    <h2 class="terms-title">Terms and Definitions</h2>
+
+    <div class="terms-list">
+      <details class="term-item">
+        <summary class="term-title">
+            Subgenres
+          </summary>
+
+        <div class="term-definition">
+          <p>
+            <strong>Grimdark Fantasy</strong> - A genre where the characters are often described as being "morally gray". Almost everyone has personal motives dictating their actions, not many characters acting just for the "greater good". Tends to be darker in tone and setting.
+          </p>
+          <p>
+            <strong>Progression Fantasy</strong> - Primary focus is on the main character(s) increasing in strength. A lot of books in this genre define specific power ranges to objectively rank and compare a character's growth, and some subgenres (such as LitRPG) even give specific stats, levels, and skills to showcase character strength.
+          </p>
+          <p>
+            <strong>High Fantasy</strong> - What most people think of when describing "epic fantasy". A different world, magic everywhere, fantastical elements are commonplace wherever you go.
+          </p>
+          <p>
+            <strong>Low Fantasy</strong> - Typically set in a world similar to Earth, with magic or supernatural creatures being rare or not believed in by most people. Books/Series can bridge the gap between low and high fantasy, there isn't really a set border between them.
+          </p>
+          <p>
+            <strong>Urban Fantasy</strong> - Set on Earth, but magic exists. Often characters who have a supernatural gift of some kind and use it in secret.
+          </p>
+          <p>
+            <strong>Dark Fantasy</strong> - A mix of horror and fantasy, normally featuring descriptive violence or other evil things.
+          </p>
+          <p>
+            <strong>Cozy Fantasy</strong> - A new subgenre designed to be light, easy, and fun. Legends & Lattes is the biggest example of this, but normally focuses on descriptive characters and them achieving their low stakes goals.
+          </p>
+          <p>
+            <strong>Science Fantasy</strong> - A blend between science fiction and fantasy, featuring common elements from both, such as a future society that travels through space but some characters can use magic.
+          </p>
+          <p>
+            <strong>Space Opera</strong> - typically falls under science fiction, but has many elements of space travel, moving from planet to planet or focusing on the ships and how that travel is possible. Typically grand and expansive in scope and setting.
+          </p>
+        </div>
+      </details>
+
+      <details class="term-item">
+        <summary class="term-title">
+            Fantasy Terms
+          </summary>
+
+        <div class="term-definition">
+          <p>
+            <strong>Magic System</strong> - Generally referring to how magic is used and described within the book.
+          </p>
+          <p>
+            <strong>Hard Magic</strong> - A magic system that is characterized by rigid rules defining how it used and what it can do. Typically is explained thoroughly, may even feel like a form of science in the setting.
+          </p>
+          <p>
+            <strong>Soft Magic</strong> - A magic system that is characterized by being open ended, without the author ever fully or even partially explaining how it works or what it is capable of.
+          </p>
+          <p>
+            <strong>Worldbuilding</strong> - How an author describes and gives exposition on their fictional world / universe. Can be detailed and heavy-handed or vague, leaving much to the reader's imagination.
+          </p>
+          <p>
+            <strong>Serial / Serialized</strong> - Refers to anything released incrementally, in the modern day this typically means online but in the past was via magazines or newspaper.
+          </p>
+        </div>
+      </details>
+    </div>
+  </section>
+
   {% for genre in genres %}
     <section class="genre-section">
       <h2 class="genre-title">{{ genre.name }}</h2>
@@ -56,11 +122,5 @@ description: My best recommendations for new readers in various fantasy genres a
       </ul>
     </section>
   {% endfor %}
-
-  <div class="info-section">
-    <p>
-      Will continue to be updated
-    </p>
-  </div>
 
 </section>

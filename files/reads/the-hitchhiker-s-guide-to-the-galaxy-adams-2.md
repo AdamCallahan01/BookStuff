@@ -13,4 +13,4 @@ days: 5
 hasReview: true
 ---
 
-Still checks all the boxes it is supposed to. I didn’t enjoy it quite as much as I did when I first read it but still enjoy the satire and his commentary on different issues. Going to read through the whole series.
+Still checks all the boxes it is supposed to. I didn’t enjoy it quite as much as I did when I first read it but still enjoy the satire and his commentary on different issues. Going to read through the whole series.

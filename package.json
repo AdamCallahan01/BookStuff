@@ -12,6 +12,7 @@
 		"exportAll": "ts-node exportScripts/exportAll.ts",
 		"exportQuizRecsOld": "ts-node exportScripts/exportQuizRecs.ts",
 		"exportQuizRecs": "ts-node exportScripts/exportRecommendationQuiz2.ts",
+		"exportGenreRecs": "ts-node exportScripts/genreRecsExport.ts",
 		"dev": "npx @11ty/eleventy --serve"
 	},
 	"dependencies": {
