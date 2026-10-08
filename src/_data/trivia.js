@@ -1924,5 +1924,113 @@ export default [
     "answer": "Earth",
     "difficulty": "Easy",
     "random": false
+  },
+  {
+    "series": "Magic Kingdom of Landover",
+    "author": "Terry Brooks",
+    "title": "Magic Kingdom for Sale - Sold!",
+    "question": "What is Miles nickname for Ben?",
+    "answer": "Doc",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Magic Kingdom of Landover",
+    "author": "Terry Brooks",
+    "title": "Magic Kingdom for Sale - Sold!",
+    "question": "What is Ben's profession?",
+    "answer": "Lawyer",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Magic Kingdom of Landover",
+    "author": "Terry Brooks",
+    "title": "Magic Kingdom for Sale - Sold!",
+    "question": "What is the name of the magic kingdom?",
+    "answer": "Landover",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Magic Kingdom of Landover",
+    "author": "Terry Brooks",
+    "title": "Magic Kingdom for Sale - Sold!",
+    "question": "What type of creature is Parsnip?",
+    "answer": "Kobold",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Magic Kingdom of Landover",
+    "author": "Terry Brooks",
+    "title": "Magic Kingdom for Sale - Sold!",
+    "question": "Who are the two gnomes who come to ask Ben for help?",
+    "answer": "Philip and Sot (G'home gnomes)",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Magic Kingdom of Landover",
+    "author": "Terry Brooks",
+    "title": "Magic Kingdom for Sale - Sold!",
+    "question": "What can nightshade turn into?",
+    "answer": "Crow",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "The Path of Ascension",
+    "author": "C. Mantis",
+    "title": "The Path of Ascension",
+    "question": "What element does Liz have control over?",
+    "answer": "Blood",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "The Path of Ascension",
+    "author": "C. Mantis",
+    "title": "The Path of Ascension",
+    "question": "What is the name of the ice fox?",
+    "answer": "Aster",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "The Path of Ascension",
+    "author": "C. Mantis",
+    "title": "The Path of Ascension",
+    "question": "What is the guild in charge of the training planet?",
+    "answer": "Dual Stars",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "The Path of Ascension",
+    "author": "C. Mantis",
+    "title": "The Path of Ascension",
+    "question": "Who is second in command of the PlayPen?",
+    "answer": "Griff",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "The Path of Ascension",
+    "author": "C. Mantis",
+    "title": "The Path of Ascension",
+    "question": "What is the name of the noble family in charge of Lilly?",
+    "answer": "Junipers",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "The Path of Ascension",
+    "author": "C. Mantis",
+    "title": "The Path of Ascension",
+    "question": "What is the name of the emperor?",
+    "answer": "Emmanuel the Third",
+    "difficulty": "Hard",
+    "random": true
   }
 ];
