@@ -17,17 +17,17 @@ genre: "Fantasy"
 subgenre: "LitRPG"
 isbn: "9798354174041"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-path-of-ascension-mantis-summary"
 summarySlugLink: "[[the-path-of-ascension-mantis-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8
+allScores: [8]
 readSlugs: ["the-path-of-ascension-mantis-1"]
 readSlugsLinks: ["[[the-path-of-ascension-mantis-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-path-of-ascension-mantis-cover"
 ---
 

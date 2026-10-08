@@ -18,17 +18,17 @@ subgenre: "YA"
 isbn: "9781857232561"
 narrator: "Jeremy Arthur"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "magic-kingdom-for-sale-sold-brooks-summary"
 summarySlugLink: "[[magic-kingdom-for-sale-sold-brooks-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 4.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 4.5
+allScores: [4.5]
 readSlugs: ["magic-kingdom-for-sale-sold-brooks-1"]
 readSlugsLinks: ["[[magic-kingdom-for-sale-sold-brooks-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "magic-kingdom-for-sale-sold-brooks-cover"
 ---
 

@@ -4,7 +4,7 @@ permalink: "/books/the-skull-throne-brett/"
 bookSlug: "the-skull-throne-brett"
 title: "The Skull Throne"
 author: "Peter V. Brett"
-series: "Demon Cycle"
+series: "The Demon Cycle"
 seriesNumber: 4
 pages: 681
 wordCount: 236217
