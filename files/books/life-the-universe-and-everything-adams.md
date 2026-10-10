@@ -17,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Humor"
 isbn: "9780345418906"
 bookOwned: false
-hasSummary: false
+hasSummary: true
 summarySlug: "life-the-universe-and-everything-adams-summary"
 summarySlugLink: "[[life-the-universe-and-everything-adams-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 6.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 6.5
+allScores: [6.5]
 readSlugs: ["life-the-universe-and-everything-adams-1"]
 readSlugsLinks: ["[[life-the-universe-and-everything-adams-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "life-the-universe-and-everything-adams-cover"
 ---
 

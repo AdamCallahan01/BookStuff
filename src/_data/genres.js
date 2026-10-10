@@ -1,6 +1,6 @@
 export default [
 	{
-		"name": "General Adult Fantasy",
+		"name": "General Fantasy",
 		"description": "My picks for the best books/series to get started in fantasy",
 		"series": [
 			{
@@ -28,6 +28,11 @@ export default [
 				"title": "Mother of Learning",
 				"slug": "mother of learning",
 				"description": "A time loop set at a magical academy. A super fun, easy read"
+			},
+			{
+				"title": "Mark of the Fool",
+				"slug": "mark of the fool",
+				"description": "A fun progression story following a young wizard taking advantage of what should be a major setback to succeed at his magic univeristy"
 			}
 		]
 	},

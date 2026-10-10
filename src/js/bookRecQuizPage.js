@@ -1,5 +1,5 @@
 (function () {
-	let debug = false;
+	let debug = true;
 	if (debug) console.log("Test Initial");
 	var dataEl = document.getElementById("book-quiz-data");
 	if (!dataEl) return;
@@ -40,6 +40,7 @@
 				answers[question.id] = Number(checked.value);
 			}
 		});
+		if (debug) console.log(answers);
 		return answers;
 	}
 
@@ -51,6 +52,7 @@
 		questions.forEach(function (question) {
 			var index = answers[question.id];
 			if (index === undefined) return;
+			if (debug) console.log("Have Index");
 			var answer = question.answers[index];
 			if (!answer) return;
 
@@ -73,6 +75,7 @@
 			userScores[category] = Math.max(0, Math.min(100, rawScores[category]));
 		});
 
+		if (debug) console.log(books);
 		return books
 			.filter(function (book) {
 				return passesHardCaps(book.hardCaps, traits);
@@ -86,7 +89,7 @@
 	}
 
 	function passesHardCaps(hardCaps, traits) {
-		if (debug) console.log("Hard Caps");
+		if (debug) console.log(traits);
 		if (!hardCaps) return true;
 
 		if (hardCaps.ageMin !== undefined && traits.age !== undefined && traits.age < hardCaps.ageMin) {
@@ -109,13 +112,16 @@
 	// Average, across every category the BOOK defines, how close the reader's score is to it.
 	// A book that doesn't mention a category is simply not judged on that.
 	function matchPercentage(userScores, bookScores) {
-		if (debug) console.log("Match Percentage");
 		var categories = Object.keys(bookScores || {});
+		if (debug) console.log(bookScores);
 		if (categories.length === 0) return 0;
 
 		var total = categories.reduce(function (sum, category) {
 			var userValue = userScores[category] !== undefined ? userScores[category] : 0;
 			var bookValue = bookScores[category];
+			if (debug) console.log("userValue" + userValue);
+			if (debug) console.log("bookValue" + bookValue);
+			if (debug) console.log("return value" + (sum + (100 - Math.abs(userValue - bookValue))));
 			return sum + (100 - Math.abs(userValue - bookValue));
 		}, 0);
 
