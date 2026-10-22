@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780345531506"
 narrator: "Pete Bradbury"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-core-brett-summary"
 summarySlugLink: "[[the-core-brett-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 2
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 2
+allScores: [2]
 readSlugs: ["the-core-brett-1"]
 readSlugsLinks: ["[[the-core-brett-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-core-brett-cover"
 ---
 

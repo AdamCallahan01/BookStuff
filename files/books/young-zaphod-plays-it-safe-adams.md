@@ -5,7 +5,7 @@ bookSlug: "young-zaphod-plays-it-safe-adams"
 title: "Young Zaphod Plays It Safe"
 author: "Douglas Adams"
 series: "Hitchhiker's Guide to the Galaxy"
-seriesNumber: 4.5
+seriesNumber: 0.5
 pages: 11
 wordCount: 4680
 yearPublished: 1986
