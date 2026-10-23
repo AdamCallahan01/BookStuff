@@ -1,9 +1,9 @@
 ---
 layout: "book.njk"
-permalink: "/books/magyk-zug/"
-bookSlug: "magyk-zug"
+permalink: "/books/magyk-sage/"
+bookSlug: "magyk-sage"
 title: "Magyk"
-author: "Angie Sage, Mark Zug"
+author: "Angie Sage"
 series: "Septimus Heap"
 seriesNumber: 1
 pages: 564
@@ -17,18 +17,18 @@ genre: "Fantasy"
 subgenre: "YA"
 isbn: "9780060577315"
 bookOwned: true
-hasSummary: false
-summarySlug: "magyk-zug-summary"
-summarySlugLink: "[[magyk-zug-summary]]"
+hasSummary: true
+summarySlug: "magyk-sage-summary"
+summarySlugLink: "[[magyk-sage-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 6
 readCount: 1
-averageScore: 0
-allScores: [0]
-readSlugs: ["magyk-zug-1"]
-readSlugsLinks: ["[[magyk-zug-1]]"]
-currentRead: true
-coverSlug: "magyk-zug-cover"
+averageScore: 6
+allScores: [6]
+readSlugs: ["magyk-sage-1"]
+readSlugsLinks: ["[[magyk-sage-1]]"]
+currentRead: false
+coverSlug: "magyk-sage-cover"
 ---
 
-![[magyk-zug-cover.jpg]]
+![[magyk-sage-cover.jpg]]
