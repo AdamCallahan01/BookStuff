@@ -10,6 +10,7 @@ dateStarted: "10/23/2026"
 dateFinished: "10/23/2026"
 yearRead: 2026
 days: 1
+hasReview: true
 ---
 
 A short, fun Halloween themed novella. Expands the world set up in the first book a bit more.
