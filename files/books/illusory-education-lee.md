@@ -18,17 +18,17 @@ subgenre: "Progression"
 isbn: "9798306892597"
 narrator: "Oliver Wyman"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "illusory-education-lee-summary"
 summarySlugLink: "[[illusory-education-lee-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 5
+allScores: [5]
 readSlugs: ["illusory-education-lee-1"]
 readSlugsLinks: ["[[illusory-education-lee-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "illusory-education-lee-cover"
 ---
 
