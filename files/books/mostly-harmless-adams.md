@@ -4,7 +4,7 @@ permalink: "/books/mostly-harmless-adams/"
 bookSlug: "mostly-harmless-adams"
 title: "Mostly Harmless"
 author: "Douglas Adams"
-series: "Hitchhiker's Guide to the Galaxy"
+series: "The Hitchhiker's Guide to the Galaxy"
 seriesNumber: 5
 pages: 240
 wordCount: 56985
@@ -17,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Humor"
 isbn: "9780345379337"
 bookOwned: false
-hasSummary: false
+hasSummary: true
 summarySlug: "mostly-harmless-adams-summary"
 summarySlugLink: "[[mostly-harmless-adams-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 5
+allScores: [5]
 readSlugs: ["mostly-harmless-adams-1"]
 readSlugsLinks: ["[[mostly-harmless-adams-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "mostly-harmless-adams-cover"
 ---
 

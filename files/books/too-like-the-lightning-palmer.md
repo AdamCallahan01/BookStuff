@@ -17,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Fantasy"
 isbn: "9780765378002"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "too-like-the-lightning-palmer-summary"
 summarySlugLink: "[[too-like-the-lightning-palmer-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 10
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 10
+allScores: [10]
 readSlugs: ["too-like-the-lightning-palmer-1"]
 readSlugsLinks: ["[[too-like-the-lightning-palmer-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "too-like-the-lightning-palmer-cover"
 ---
 
