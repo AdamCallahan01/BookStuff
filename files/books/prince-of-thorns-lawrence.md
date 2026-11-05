@@ -18,17 +18,17 @@ subgenre: "Dark"
 isbn: "9780007423293"
 narrator: "James Clamp"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "prince-of-thorns-lawrence-summary"
 summarySlugLink: "[[prince-of-thorns-lawrence-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 6
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 6
+allScores: [6]
 readSlugs: ["prince-of-thorns-lawrence-1"]
 readSlugsLinks: ["[[prince-of-thorns-lawrence-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "prince-of-thorns-lawrence-cover"
 ---
 

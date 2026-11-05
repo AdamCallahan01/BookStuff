@@ -4,7 +4,7 @@ permalink: "/books/the-restaurant-at-the-end-of-the-universe-adams/"
 bookSlug: "the-restaurant-at-the-end-of-the-universe-adams"
 title: "The Restaurant at the End of the Universe"
 author: "Douglas Adams"
-series: "Hitchhiker's Guide"
+series: "The Hitchhiker's Guide to the Galaxy"
 seriesNumber: 2
 pages: 187
 wordCount: 50315
