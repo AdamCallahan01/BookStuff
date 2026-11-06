@@ -16,6 +16,7 @@ eleventyComputed:
 {% set currentNumber = seriesNumber | float %}
 {% set prevBook = null %}
 {% set nextBook = null %}
+{% set bookTrivia = trivia | triviaForBook(title, author) %}
 
 {% for book in curSeries %}
   {% set bookNum = book.data.seriesNumber | float %}
@@ -261,6 +262,7 @@ eleventyComputed:
 
       {% if summary %}
         <section class="book-summary-section">
+          <h2 class="section-title">Summary</h2>
           <details class="book-summary-entry">
             <summary class="book-summary-summary">Summary (Spoilers)</summary>
             <div class="book-summary-content">
@@ -269,6 +271,31 @@ eleventyComputed:
           </details>
         </section>
       {% endif %}
+    {% endif %}
+
+    <!-- ===== Trivia Section ===== -->
+    {% if bookTrivia | length %}
+      <section class="book-trivia-section">
+        <h2 class="section-title">Trivia Questions</h2>
+        <details class="book-trivia-entry">
+          <summary class="book-trivia-summary">Trivia ({{ bookTrivia | length }})</summary>
+          <div class="book-trivia-content">
+            {% for t in bookTrivia %}
+              <div class="trivia-item">
+                <p class="question">
+                  <strong>Q{{ loop.index }}:</strong>
+                  {{ t.question }}
+                  <span class="trivia-difficulty">({{ t.difficulty }})</span>
+                </p>
+                <details class="answer">
+                  <summary>Show answer</summary>
+                  <p>{{ t.answer }}</p>
+                </details>
+              </div>
+            {% endfor %}
+          </div>
+        </details>
+      </section>
     {% endif %}
 
   </div>

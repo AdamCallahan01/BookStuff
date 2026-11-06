@@ -1838,7 +1838,7 @@ export default [
   {
     "series": "The Demon Cycle",
     "author": "Peter V. Brett",
-    "title": "The Daylight War",
+    "title": "The Skull Throne",
     "question": "What do they call poisoners?",
     "answer": "Weed Gatherer",
     "difficulty": "Medium",
@@ -1847,7 +1847,7 @@ export default [
   {
     "series": "The Demon Cycle",
     "author": "Peter V. Brett",
-    "title": "The Daylight War",
+    "title": "The Skull Throne",
     "question": "What is the name of the half krasian?",
     "answer": "Briar",
     "difficulty": "Easy",
@@ -1856,7 +1856,7 @@ export default [
   {
     "series": "The Demon Cycle",
     "author": "Peter V. Brett",
-    "title": "The Daylight War",
+    "title": "The Skull Throne",
     "question": "What is the name of Duke Rhinebeck's wife?",
     "answer": "Melny",
     "difficulty": "Hard",
@@ -2032,5 +2032,428 @@ export default [
     "answer": "Emmanuel the Third",
     "difficulty": "Hard",
     "random": true
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Life, the Universe and Everything",
+    "question": "What is an S.E.P.?",
+    "answer": "Somebody Else's Problem",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Life, the Universe and Everything",
+    "question": "What form of math powers Slartibartfast's ship?",
+    "answer": "Bistromathics",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Life, the Universe and Everything",
+    "question": "Who flies around insulting everyone alphabetically?",
+    "answer": "Wombagger the Infinitely Prolonged",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Life, the Universe and Everything",
+    "question": "What planet is the Earth sport Cricket presumably named after?",
+    "answer": "Krikkit",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Life, the Universe and Everything",
+    "question": "Who has Arthur accidentally killed hundreds of times?",
+    "answer": "Agrajag",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Life, the Universe and Everything",
+    "question": "What is one of the worst swear words in the galaxy that also is a country in Europe?",
+    "answer": "Belgium",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "So Long, and Thanks for All the Fish",
+    "question": "What do people call John Watson?",
+    "answer": "Wonko the Sane",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "So Long, and Thanks for All the Fish",
+    "question": "What is Fenny's full name?",
+    "answer": "Fenchurch",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "So Long, and Thanks for All the Fish",
+    "question": "What species disappeared?",
+    "answer": "Dolphins",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "So Long, and Thanks for All the Fish",
+    "question": "What is the real name of the rain god?",
+    "answer": "Rob McKenna",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Core",
+    "question": "What was Hasik's childhood nickname?",
+    "answer": "Whistler",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Core",
+    "question": "What is the name of Leesha's horse?",
+    "answer": "Pestle",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Core",
+    "question": "How much sugar does Leesha like in her tea?",
+    "answer": "None",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Core",
+    "question": "What is the krasian name for the father of demons?",
+    "answer": "Alagai Ka",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Core",
+    "question": "What ailment did Asukaji suffer from?",
+    "answer": "He was paralyzed",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Demon Cycle",
+    "author": "Peter V. Brett",
+    "title": "The Core",
+    "question": "How did Arlen defeat the magic eating worms?",
+    "answer": "He ate them",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "Septimus Heap",
+    "author": "Angie Sage",
+    "title": "Magyk",
+    "question": "What is the name of the Message Rat?",
+    "answer": "Stanley",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Septimus Heap",
+    "author": "Angie Sage",
+    "title": "Magyk",
+    "question": "Who is the eldest Heap boy?",
+    "answer": "Simon",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Septimus Heap",
+    "author": "Angie Sage",
+    "title": "Magyk",
+    "question": "Who was Boy 412's best friend in the Young Army?",
+    "answer": "Boy 409",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Septimus Heap",
+    "author": "Angie Sage",
+    "title": "Magyk",
+    "question": "Who was ExtraOrdinary wizard before Marcia?",
+    "answer": "Alther Mella",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Septimus Heap",
+    "author": "Angie Sage",
+    "title": "Magyk",
+    "question": "What is the name of the Heap's wolfhound?",
+    "answer": "Maxie",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Septimus Heap",
+    "author": "Angie Sage",
+    "title": "Magyk",
+    "question": "Who was the first ExtraOrdinary wizard?",
+    "answer": "Hotep-Ra",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "What is the name of the castle where Jorg grew up?",
+    "answer": "Tall Castle",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "How do people refer to the deity worshipped by many?",
+    "answer": "Jesu",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "What is the name of Jorg's father?",
+    "answer": "Olidan",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "Name of the pagan magician in court?",
+    "answer": "Sageous",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "What is Makin's last name?",
+    "answer": "Bortha",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "How is Katherine related to Jorg?",
+    "answer": "His aunt by marriage",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "What is the tribe of deformed people called?",
+    "answer": "Leucrota",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Broken Empire",
+    "author": "Mark Lawrence",
+    "title": "Prince of Thorns",
+    "question": "What is the name of the priest Jorg rescues?",
+    "answer": "Gomst",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What do you call someone who has their DNA records hidden?",
+    "answer": "Gag-Gene",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What was the first flying car?",
+    "answer": "Mukta",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What is the name of Bridger's dog?",
+    "answer": "Boo",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What is the main identifying deformity Mycroft has?",
+    "answer": "Hole in right ear",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What is the term for someone against set-sets?",
+    "answer": "Nurturist",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What city is the Saneer-Weeksbooth bash in?",
+    "answer": "Cielo de Pajaros",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What is the fabric that makes up Utopian coats?",
+    "answer": "Griffincloth",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What do you call someone who has a passion for their job?",
+    "answer": "Vocateur",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What are Kohaku Mardi's numbers?",
+    "answer": "33-67; 67-33; 29-71",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What is J.E.D.D. Mason's first name?",
+    "answer": "Jehovah",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "Who is the head of the sensayer conclave?",
+    "answer": "Julia Doria-Pamphili",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "What is Mycroft's job?",
+    "answer": "Servicer",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "How does Mycroft refer to Thisbe at times?",
+    "answer": "Witch",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Terra Ignota",
+    "author": "Ada Palmer",
+    "title": "Too Like the Lightning",
+    "question": "Who is The Patriarch?",
+    "answer": "Voltaire",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Mostly Harmless",
+    "question": "Who buys the Guide?",
+    "answer": "InfiniDem Enterprises",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Mostly Harmless",
+    "question": "What does Ford name the robot he rigs to be happy?",
+    "answer": "Colin",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Mostly Harmless",
+    "question": "Who is Random?",
+    "answer": "Arthur and Trillian's daughter",
+    "difficulty": "Easy",
+    "random": false
   }
 ];
