@@ -4445,7 +4445,7 @@ export default [
   },
   {
     "slug": "the-trouble-with-peace-abercrombie",
-    "title": "The Trouble with Peace",
+    "title": "The Trouble With Peace",
     "author": "Joe Abercrombie",
     "series": "The Age of Madness",
     "seriesNumber": "2",
@@ -14516,8 +14516,8 @@ export default [
     "yearReleased": 1966
   },
   {
-    "slug": "tokyo-ghoul-1-ishida",
-    "title": "Tokyo Ghoul 1",
+    "slug": "tokyo-ghoul-tome-1-ishida",
+    "title": "Tokyo Ghoul, Tome 1",
     "author": "Sui Ishida",
     "series": "Tokyo Ghoul",
     "seriesNumber": "1",
@@ -15306,5 +15306,4245 @@ export default [
     "type": "Hardcover",
     "pages": 798,
     "yearReleased": 1320
+  },
+  {
+    "slug": "the-blinding-knife-weeks",
+    "title": "The Blinding Knife",
+    "author": "Brent Weeks",
+    "series": "Lightbringer",
+    "seriesNumber": "2",
+    "format": "Audiobook",
+    "pages": 671,
+    "yearReleased": 2012
+  },
+  {
+    "slug": "the-burning-white-weeks",
+    "title": "The Burning White",
+    "author": "Brent Weeks",
+    "series": "Lightbringer",
+    "seriesNumber": "5",
+    "format": "Audiobook",
+    "pages": 960,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "jade-legacy-lee",
+    "title": "Jade Legacy",
+    "author": "Fonda Lee",
+    "series": "The Greenbone Saga",
+    "seriesNumber": "3",
+    "format": "Audiobook",
+    "pages": 713,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-binding-collins",
+    "title": "The Binding",
+    "author": "Bridget Collins",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "Audiobook",
+    "pages": 437,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "the-system-apocalypse-books-1-3-wong",
+    "title": "The System Apocalypse Books 1-3",
+    "author": "Tao Wong",
+    "series": "The System Apocalypse",
+    "seriesNumber": "1-3",
+    "format": "Audiobook",
+    "pages": 916,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "fate-of-wizardoms-books-1-3-kohanek",
+    "title": "Fate of Wizardoms Books 1-3",
+    "author": "Jeffrey L. Kohanek",
+    "series": "Fate of Wizardoms",
+    "seriesNumber": "1-3",
+    "format": "Audiobook",
+    "pages": 1068,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-dwarves-heitz",
+    "title": "The Dwarves",
+    "author": "Markus Heitz",
+    "series": "The Dwarves",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 738,
+    "yearReleased": 2003
+  },
+  {
+    "slug": "how-to-become-the-dark-lord-and-die-trying-wexler",
+    "title": "How to Become the Dark Lord and Die Trying",
+    "author": "Django Wexler",
+    "series": "Dark Lord Davi",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 392,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "someone-you-can-build-a-nest-in-wiswell",
+    "title": "Someone You Can Build a Nest In",
+    "author": "John Wiswell",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "Audiobook",
+    "pages": 310,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "blank-canvas-ellake",
+    "title": "Blank Canvas",
+    "author": "Ellake",
+    "series": "The Runic Artist",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 466,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-jasmine-throne-suri",
+    "title": "The Jasmine Throne",
+    "author": "Tasha Suri",
+    "series": "The Burning Kingdoms",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 533,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "sins-of-empire-mcclellan",
+    "title": "Sins of Empire",
+    "author": "Brian McClellan",
+    "series": "Gods of Blood and Powder",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 624,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "the-skull-throne-brett",
+    "title": "The Skull Throne",
+    "author": "Peter V. Brett",
+    "series": "The Demon Cycle",
+    "seriesNumber": "4",
+    "format": "Audiobook",
+    "pages": 681,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "priest-of-bones-mclean",
+    "title": "Priest of Bones",
+    "author": "Peter McLean",
+    "series": "War for the Rose Throne",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 331,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "the-paradise-war-lawhead",
+    "title": "The Paradise War",
+    "author": "Stephen R. Lawhead",
+    "series": "The Song of Albion",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 444,
+    "yearReleased": 1991
+  },
+  {
+    "slug": "the-broken-eye-weeks",
+    "title": "The Broken Eye",
+    "author": "Brent Weeks",
+    "series": "Lightbringer",
+    "seriesNumber": "3",
+    "format": "Audiobook",
+    "pages": 688,
+    "yearReleased": 2014
+  },
+  {
+    "slug": "the-blood-mirror-weeks",
+    "title": "The Blood Mirror",
+    "author": "Brent Weeks",
+    "series": "Lightbringer",
+    "seriesNumber": "4",
+    "format": "Audiobook",
+    "pages": 704,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "the-bear-and-the-nightingale-arden",
+    "title": "The Bear and the Nightingale",
+    "author": "Katherine Arden",
+    "series": "The Winternight Trilogy",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 322,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "a-pub-in-the-underworld-cooper",
+    "title": "A Pub in the Underworld",
+    "author": "Harmon Cooper",
+    "series": "The Cozy Abyss",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 354,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-lightning-struck-heart-klune",
+    "title": "The Lightning-Struck Heart",
+    "author": "T. J. Klune",
+    "series": "Tales from Verania",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 405,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "nolyn-sullivan",
+    "title": "Nolyn",
+    "author": "Michael J. Sullivan",
+    "series": "The Rise and Fall",
+    "seriesNumber": "1",
+    "format": "Audiobook",
+    "pages": 480,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-price-of-fear-lyon",
+    "title": "The Price of Fear",
+    "author": "Miles Lyon",
+    "series": "The Wretched Trilogy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 487,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "whispers-of-the-storm-steele",
+    "title": "Whispers of the Storm",
+    "author": "Z. B. Steele",
+    "series": "Song of the Damned",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 402,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "rising-gale-steele",
+    "title": "Rising Gale",
+    "author": "Z. B. Steele",
+    "series": "Song of the Damned",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 633,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "ironbound-givler",
+    "title": "Ironbound",
+    "author": "Andrew Givler",
+    "series": "Ironbound",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 609,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "cold-wind-givler",
+    "title": "Cold Wind",
+    "author": "Andrew Givler",
+    "series": "Ironbound",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 675,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-prince-of-treason-eanes",
+    "title": "The Prince of Treason",
+    "author": "D. S. Eanes",
+    "series": "The Dead King",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 448,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "crypt-currency-a-lesson-in-orconomics-pike",
+    "title": "Crypt Currency: a Lesson in Orconomics",
+    "author": "J. Zachary Pike",
+    "series": "The Dark Profit Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 567,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-truth-cahill",
+    "title": "The Truth",
+    "author": "Ryan Cahill",
+    "series": "The Bound and the Broken",
+    "seriesNumber": "4.5",
+    "format": "E-Book",
+    "pages": 324,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-price-of-power-michel",
+    "title": "The Price of Power",
+    "author": "Michael Michel",
+    "series": "Dreams of Dust and Steel",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 500,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "a-graveyard-for-heroes-michel",
+    "title": "A Graveyard for Heroes",
+    "author": "Michael Michel",
+    "series": "Dreams of Dust and Steel",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 607,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "banners-of-wrath-michel",
+    "title": "Banners of Wrath",
+    "author": "Michael Michel",
+    "series": "Dreams of Dust and Steel",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 874,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "king-sorrow-hill",
+    "title": "King Sorrow",
+    "author": "Joe Hill",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 896,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-daughters-war-buehlman",
+    "title": "The Daughters' War",
+    "author": "Christopher Buehlman",
+    "series": "Blacktongue",
+    "seriesNumber": "0",
+    "format": "E-Book",
+    "pages": 388,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "gunmetal-gods-akhar",
+    "title": "Gunmetal Gods",
+    "author": "Zamil Akhar",
+    "series": "Gunmetal Gods",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 506,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "conqueror-s-blood-akhar",
+    "title": "Conqueror's Blood",
+    "author": "Zamil Akhar",
+    "series": "Gunmetal Gods",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 550,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "elder-epoch-akhar",
+    "title": "Elder Epoch",
+    "author": "Zamil Akhar",
+    "series": "Gunmetal Gods",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 600,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "dark-drinker-akhar",
+    "title": "Dark Drinker",
+    "author": "Zamil Akhar",
+    "series": "Gunmetal Gods",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 500,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "service-model-tchaikovsky",
+    "title": "Service Model",
+    "author": "Adrian Tchaikovsky",
+    "series": "Service Model",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 384,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "elder-race-tchaikovsky",
+    "title": "Elder Race",
+    "author": "Adrian Tchaikovsky",
+    "series": "Elder Race",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 199,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "cage-of-souls-tchaikovsky",
+    "title": "Cage of Souls",
+    "author": "Adrian Tchaikovsky",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 608,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "night-of-knives-esslemont",
+    "title": "Night of Knives",
+    "author": "Ian C. Esslemont",
+    "series": "Novels of the Malazan Empire",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 304,
+    "yearReleased": 2004
+  },
+  {
+    "slug": "return-of-the-crimson-guard-esslemont",
+    "title": "Return of the Crimson Guard",
+    "author": "Ian C. Esslemont",
+    "series": "Novels of the Malazan Empire",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 702,
+    "yearReleased": 2008
+  },
+  {
+    "slug": "stonewielder-esslemont",
+    "title": "Stonewielder",
+    "author": "Ian C. Esslemont",
+    "series": "Novels of the Malazan Empire",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 634,
+    "yearReleased": 2010
+  },
+  {
+    "slug": "the-darkness-that-comes-before-bakker",
+    "title": "The Darkness That Comes Before",
+    "author": "R. Scott Bakker",
+    "series": "The Prince of Nothing",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 608,
+    "yearReleased": 2003
+  },
+  {
+    "slug": "a-shadow-in-summer-abraham",
+    "title": "A Shadow in Summer",
+    "author": "Daniel Abraham",
+    "series": "Long Price Quartet",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 336,
+    "yearReleased": 2006
+  },
+  {
+    "slug": "a-betrayal-in-winter-abraham",
+    "title": "A Betrayal in Winter",
+    "author": "Daniel Abraham",
+    "series": "Long Price Quartet",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 320,
+    "yearReleased": 2007
+  },
+  {
+    "slug": "an-autumn-war-abraham",
+    "title": "An Autumn War",
+    "author": "Daniel Abraham",
+    "series": "Long Price Quartet",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 366,
+    "yearReleased": 2008
+  },
+  {
+    "slug": "the-price-of-spring-abraham",
+    "title": "The Price of Spring",
+    "author": "Daniel Abraham",
+    "series": "Long Price Quartet",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 352,
+    "yearReleased": 2009
+  },
+  {
+    "slug": "flybot-taylor",
+    "title": "Flybot",
+    "author": "Dennis E. Taylor",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 432,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "penitent-titus",
+    "title": "Penitent",
+    "author": "C. B. Titus",
+    "series": "Penitent",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 609,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "penitent-2-titus",
+    "title": "Penitent 2",
+    "author": "C. B. Titus",
+    "series": "Penitent",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 401,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "company-of-bones-morton",
+    "title": "Company of Bones",
+    "author": "Brennan Morton",
+    "series": "The Pendulum Series",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 431,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "song-of-the-forest-morton",
+    "title": "Song of the Forest",
+    "author": "Brennan Morton",
+    "series": "The Pendulum Series",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 381,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-nameless-morton",
+    "title": "The Nameless",
+    "author": "Brennan Morton",
+    "series": "The Pendulum Series",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 381,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-rat-catcher-morton",
+    "title": "The Rat Catcher",
+    "author": "Brennan Morton",
+    "series": "The Pendulum Series",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 507,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-crimson-fire-montero",
+    "title": "The Crimson Fire",
+    "author": "Abel Montero",
+    "series": "Memories of Kenjir",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 424,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-sunrise-dagger-montero",
+    "title": "The Sunrise Dagger",
+    "author": "Abel Montero",
+    "series": "Memories of Kenjir",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 478,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "mercy-tears-of-the-fallen-dillon",
+    "title": "Mercy: Tears of the Fallen",
+    "author": "Chance Dillon",
+    "series": "The Mercy Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 584,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "mercy-ill-is-the-fate-dillon",
+    "title": "Mercy: Ill is the Fate",
+    "author": "Chance Dillon",
+    "series": "The Mercy Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 688,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "dancer-s-lament-esslemont",
+    "title": "Dancer's Lament",
+    "author": "Ian C. Esslemont",
+    "series": "Path to Ascendancy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 416,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "deadhouse-landing-esslemont",
+    "title": "Deadhouse Landing",
+    "author": "Ian C. Esslemont",
+    "series": "Path to Ascendancy",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 400,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "kellanved-s-reach-esslemont",
+    "title": "Kellanved's Reach",
+    "author": "Ian C. Esslemont",
+    "series": "Path to Ascendancy",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 340,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "the-god-is-not-willing-erikson",
+    "title": "The God is Not Willing",
+    "author": "Steven Erikson",
+    "series": "The Tales of Witness",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 496,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "no-life-forsaken-erikson",
+    "title": "No Life Forsaken",
+    "author": "Steven Erikson",
+    "series": "The Tales of Witness",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 432,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-tethered-god-brisk",
+    "title": "The Tethered God",
+    "author": "Noah Brisk",
+    "series": "The Shattered Song",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 360,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-assassin-s-shadow-moule",
+    "title": "The Assassin's Shadow",
+    "author": "R. S. Moule",
+    "series": "Legends of the Shadow",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 424,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-assassin-s-wrath-moule",
+    "title": "The Assassin's Wrath",
+    "author": "R. S. Moule",
+    "series": "Legends of the Shadow",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 392,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-assassin-s-war-moule",
+    "title": "The Assassin's War",
+    "author": "R. S. Moule",
+    "series": "Legends of the Shadow",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 376,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "god-slayer-jones",
+    "title": "God Slayer",
+    "author": "Robert Jones",
+    "series": "The Black Powder Prophecy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 531,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "discovery-minton",
+    "title": "Discovery",
+    "author": "J.A.J. Minton",
+    "series": "Strange Eons",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 461,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-winds-of-war-winter",
+    "title": "The Winds of War",
+    "author": "Mosha Winter",
+    "series": "The Tapestry of the Tarnished",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 526,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "dark-tidings-o-neill",
+    "title": "Dark Tidings",
+    "author": "Ryan O'Neill",
+    "series": "The Darkborn Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 453,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "shadows-of-the-forgotten-o-neill",
+    "title": "Shadows of the Forgotten",
+    "author": "Ryan O'Neill",
+    "series": "The Darkborn Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 453,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-black-company-cook",
+    "title": "The Black Company",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 319,
+    "yearReleased": 1984
+  },
+  {
+    "slug": "port-of-shadows-cook",
+    "title": "Port of Shadows",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "1.5",
+    "format": "E-Book",
+    "pages": 397,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "shadows-linger-cook",
+    "title": "Shadows Linger",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 319,
+    "yearReleased": 1984
+  },
+  {
+    "slug": "the-white-rose-cook",
+    "title": "The White Rose",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 317,
+    "yearReleased": 1985
+  },
+  {
+    "slug": "the-silver-spike-cook",
+    "title": "The Silver Spike",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "3.5",
+    "format": "E-Book",
+    "pages": 313,
+    "yearReleased": 1989
+  },
+  {
+    "slug": "shadow-games-cook",
+    "title": "Shadow Games",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 311,
+    "yearReleased": 1989
+  },
+  {
+    "slug": "dreams-of-steel-cook",
+    "title": "Dreams of Steel",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 346,
+    "yearReleased": 1990
+  },
+  {
+    "slug": "bleak-seasons-cook",
+    "title": "Bleak Seasons",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "6",
+    "format": "E-Book",
+    "pages": 316,
+    "yearReleased": 1996
+  },
+  {
+    "slug": "she-is-the-darkness-cook",
+    "title": "She is the Darkness",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "7",
+    "format": "E-Book",
+    "pages": 470,
+    "yearReleased": 1997
+  },
+  {
+    "slug": "water-sleeps-cook",
+    "title": "Water Sleeps",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "8",
+    "format": "E-Book",
+    "pages": 470,
+    "yearReleased": 1999
+  },
+  {
+    "slug": "soldiers-live-cook",
+    "title": "Soldiers Live",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "9",
+    "format": "E-Book",
+    "pages": 566,
+    "yearReleased": 2000
+  },
+  {
+    "slug": "lies-weeping-cook",
+    "title": "Lies Weeping",
+    "author": "Glen Cook",
+    "series": "The Chronicles of the Black Company",
+    "seriesNumber": "10",
+    "format": "E-Book",
+    "pages": 384,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "blindsight-watts",
+    "title": "Blindsight",
+    "author": "Peter Watts",
+    "series": "Firefall",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 384,
+    "yearReleased": 2006
+  },
+  {
+    "slug": "echopraxia-watts",
+    "title": "Echopraxia",
+    "author": "Peter Watts",
+    "series": "Firefall",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 384,
+    "yearReleased": 2014
+  },
+  {
+    "slug": "too-like-the-lightning-palmer",
+    "title": "Too Like the Lightning",
+    "author": "Ada Palmer",
+    "series": "Terra Ignota",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 432,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "seven-surrenders-palmer",
+    "title": "Seven Surrenders",
+    "author": "Ada Palmer",
+    "series": "Terra Ignota",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 365,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "the-will-to-battle-palmer",
+    "title": "The Will to Battle",
+    "author": "Ada Palmer",
+    "series": "Terra Ignota",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 352,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "perhaps-the-stars-palmer",
+    "title": "Perhaps the Stars",
+    "author": "Ada Palmer",
+    "series": "Terra Ignota",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 586,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-fifth-head-of-cerberus-wolfe",
+    "title": "The Fifth Head of Cerberus",
+    "author": "Gene Wolfe",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 252,
+    "yearReleased": 1972
+  },
+  {
+    "slug": "shadow-claw-wolfe",
+    "title": "Shadow & Claw",
+    "author": "Gene Wolfe",
+    "series": "The Book of the New Sun",
+    "seriesNumber": "1-2",
+    "format": "E-Book",
+    "pages": 413,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "sword-citadel-wolfe",
+    "title": "Sword & Citadel",
+    "author": "Gene Wolfe",
+    "series": "The Book of the New Sun",
+    "seriesNumber": "3-4",
+    "format": "E-Book",
+    "pages": 411,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "the-urth-of-the-new-sun-wolfe",
+    "title": "The Urth of the New Sun",
+    "author": "Gene Wolfe",
+    "series": "The Book of the New Sun",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 372,
+    "yearReleased": 1987
+  },
+  {
+    "slug": "nightside-the-long-sun-wolfe",
+    "title": "Nightside the Long Sun",
+    "author": "Gene Wolfe",
+    "series": "The Book of the Long Sun",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 333,
+    "yearReleased": 1993
+  },
+  {
+    "slug": "lake-of-the-long-sun-wolfe",
+    "title": "Lake of the Long Sun",
+    "author": "Gene Wolfe",
+    "series": "The Book of the Long Sun",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 352,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "calde-of-the-long-sun-wolfe",
+    "title": "Caldé of the Long Sun",
+    "author": "Gene Wolfe",
+    "series": "The Book of the Long Sun",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 370,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "exodus-from-the-long-sun-wolfe",
+    "title": "Exodus from the Long Sun",
+    "author": "Gene Wolfe",
+    "series": "The Book of the Long Sun",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 448,
+    "yearReleased": 1996
+  },
+  {
+    "slug": "the-emperor-s-blades-staveley",
+    "title": "The Emperor's Blades",
+    "author": "Brian Staveley",
+    "series": "Chronicle of the Unhewn Throne",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 480,
+    "yearReleased": 2014
+  },
+  {
+    "slug": "the-providence-of-fire-staveley",
+    "title": "The Providence of Fire",
+    "author": "Brian Staveley",
+    "series": "Chronicle of the Unhewn Throne",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 608,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "the-last-mortal-bond-staveley",
+    "title": "The Last Mortal Bond",
+    "author": "Brian Staveley",
+    "series": "Chronicle of the Unhewn Throne",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 897,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "the-broken-sword-anderson",
+    "title": "The Broken Sword",
+    "author": "Poul Anderson",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 208,
+    "yearReleased": 1954
+  },
+  {
+    "slug": "the-infinity-concerto-bear",
+    "title": "The Infinity Concerto",
+    "author": "Greg Bear",
+    "series": "Songs of Earth and Power",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 342,
+    "yearReleased": 1984
+  },
+  {
+    "slug": "the-serpent-mage-bear",
+    "title": "The Serpent Mage",
+    "author": "Greg Bear",
+    "series": "Songs of Earth and Power",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 343,
+    "yearReleased": 1984
+  },
+  {
+    "slug": "dawn-of-the-last-dragon-rider-wilson",
+    "title": "Dawn of the Last Dragon Rider",
+    "author": "Shawn Wilson",
+    "series": "The Last Dragon Rider",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 539,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "rise-of-the-last-dragon-rider-wilson",
+    "title": "Rise of the Last Dragon Rider",
+    "author": "Shawn Wilson",
+    "series": "The Last Dragon Rider",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 401,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "fall-of-the-last-dragon-rider-wilson",
+    "title": "Fall of the Last Dragon Rider",
+    "author": "Shawn Wilson",
+    "series": "The Last Dragon Rider",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 475,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "jirel-of-joiry-moore",
+    "title": "Jirel of Joiry",
+    "author": "C.L. Moore",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 212,
+    "yearReleased": 1934
+  },
+  {
+    "slug": "tales-of-the-dying-earth-vance",
+    "title": "Tales of the Dying Earth",
+    "author": "Jack Vance",
+    "series": "The Dying Earth",
+    "seriesNumber": "1-4",
+    "format": "E-Book",
+    "pages": 741,
+    "yearReleased": 1998
+  },
+  {
+    "slug": "the-eye-of-the-world-jordan",
+    "title": "The Eye of the World",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 800,
+    "yearReleased": 1990
+  },
+  {
+    "slug": "the-great-hunt-jordan",
+    "title": "The Great Hunt",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 705,
+    "yearReleased": 1990
+  },
+  {
+    "slug": "the-dragon-reborn-jordan",
+    "title": "The Dragon Reborn",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 624,
+    "yearReleased": 1991
+  },
+  {
+    "slug": "the-shadow-rising-jordan",
+    "title": "The Shadow Rising",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 1007,
+    "yearReleased": 1992
+  },
+  {
+    "slug": "the-fires-of-heaven-jordan",
+    "title": "The Fires of Heaven",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 913,
+    "yearReleased": 1993
+  },
+  {
+    "slug": "lord-of-chaos-jordan",
+    "title": "Lord of Chaos",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "6",
+    "format": "E-Book",
+    "pages": 1011,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "a-crown-of-swords-jordan",
+    "title": "A Crown of Swords",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "7",
+    "format": "E-Book",
+    "pages": 880,
+    "yearReleased": 1996
+  },
+  {
+    "slug": "the-path-of-daggers-jordan",
+    "title": "The Path of Daggers",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "8",
+    "format": "E-Book",
+    "pages": 685,
+    "yearReleased": 1998
+  },
+  {
+    "slug": "winter-s-heart-jordan",
+    "title": "Winter's Heart",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "9",
+    "format": "E-Book",
+    "pages": 780,
+    "yearReleased": 2000
+  },
+  {
+    "slug": "crossroads-of-twilight-jordan",
+    "title": "Crossroads of Twilight",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "10",
+    "format": "E-Book",
+    "pages": 704,
+    "yearReleased": 2003
+  },
+  {
+    "slug": "knife-of-dreams-jordan",
+    "title": "Knife of Dreams",
+    "author": "Robert Jordan",
+    "series": "The Wheel of Time",
+    "seriesNumber": "11",
+    "format": "E-Book",
+    "pages": 860,
+    "yearReleased": 2005
+  },
+  {
+    "slug": "the-gathering-storm-sanderson",
+    "title": "The Gathering Storm",
+    "author": "Robert Jordan, Brandon Sanderson",
+    "series": "The Wheel of Time",
+    "seriesNumber": "12",
+    "format": "E-Book",
+    "pages": 824,
+    "yearReleased": 2009
+  },
+  {
+    "slug": "towers-of-midnight-sanderson",
+    "title": "Towers of Midnight",
+    "author": "Robert Jordan, Brandon Sanderson",
+    "series": "The Wheel of Time",
+    "seriesNumber": "13",
+    "format": "E-Book",
+    "pages": 863,
+    "yearReleased": 2010
+  },
+  {
+    "slug": "a-memory-of-light-sanderson",
+    "title": "A Memory of Light",
+    "author": "Robert Jordan, Brandon Sanderson",
+    "series": "The Wheel of Time",
+    "seriesNumber": "14",
+    "format": "E-Book",
+    "pages": 912,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "new-spring-sanderson",
+    "title": "New Spring",
+    "author": "Robert Jordan, Brandon Sanderson",
+    "series": "The Wheel of Time",
+    "seriesNumber": "0",
+    "format": "E-Book",
+    "pages": 423,
+    "yearReleased": 2004
+  },
+  {
+    "slug": "skullsworn-staveley",
+    "title": "Skullsworn",
+    "author": "Brian Staveley",
+    "series": "Chronicle of the Unhewn Throne",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 320,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "the-empire-s-ruin-staveley",
+    "title": "The Empire's Ruin",
+    "author": "Brian Staveley",
+    "series": "Chronicle of the Unhewn Throne",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 752,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-shadow-of-what-was-lost-islington",
+    "title": "The Shadow of What Was Lost",
+    "author": "James Islington",
+    "series": "The Licanius Trilogy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 595,
+    "yearReleased": 2014
+  },
+  {
+    "slug": "the-rage-of-dragons-winter",
+    "title": "The Rage of Dragons",
+    "author": "Evan Winter",
+    "series": "The Burning",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 535,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "the-fires-of-vengeance-winter",
+    "title": "The Fires of Vengeance",
+    "author": "Evan Winter",
+    "series": "The Burning",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 529,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "cursed-bones-wells",
+    "title": "Cursed Bones",
+    "author": "David A. Wells",
+    "series": "Sovereign of the Seven Isles",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 296,
+    "yearReleased": 2012
+  },
+  {
+    "slug": "linkershim-wells",
+    "title": "Linkershim",
+    "author": "David A. Wells",
+    "series": "Sovereign of the Seven Isles",
+    "seriesNumber": "6",
+    "format": "E-Book",
+    "pages": 307,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "reishi-adept-wells",
+    "title": "Reishi Adept",
+    "author": "David A. Wells",
+    "series": "Sovereign of the Seven Isles",
+    "seriesNumber": "7",
+    "format": "E-Book",
+    "pages": 354,
+    "yearReleased": 2014
+  },
+  {
+    "slug": "the-seventh-knight-ryan",
+    "title": "The Seventh Knight",
+    "author": "Robert Ryan",
+    "series": "The Kingshield",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 205,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-sorcerer-knight-ryan",
+    "title": "The Sorcerer Knight",
+    "author": "Robert Ryan",
+    "series": "The Kingshield",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 205,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-sage-knight-ryan",
+    "title": "The Sage Knight",
+    "author": "Robert Ryan",
+    "series": "The Kingshield",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 215,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-sworn-knight-ryan",
+    "title": "The Sworn Knight",
+    "author": "Robert Ryan",
+    "series": "The Kingshield",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 182,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-scarlet-knight-ryan",
+    "title": "The Scarlet Knight",
+    "author": "Robert Ryan",
+    "series": "The Kingshield",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 203,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-sacred-knight-ryan",
+    "title": "The Sacred Knight",
+    "author": "Robert Ryan",
+    "series": "The Kingshield",
+    "seriesNumber": "6",
+    "format": "E-Book",
+    "pages": 208,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "empire-of-the-damned-kristoff",
+    "title": "Empire of the Damned",
+    "author": "Jay Kristoff",
+    "series": "Empire of the Vampire",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 709,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "empire-of-the-dawn-kristoff",
+    "title": "Empire of the Dawn",
+    "author": "Jay Kristoff",
+    "series": "Empire of the Vampire",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 800,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "arena-forged-ryan",
+    "title": "Arena Forged",
+    "author": "Robert Ryan",
+    "series": "The Dream of the Druid",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 205,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "sorcery-forged-ryan",
+    "title": "Sorcery Forged",
+    "author": "Robert Ryan",
+    "series": "The Dream of the Druid",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 212,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "fate-forged-ryan",
+    "title": "Fate Forged",
+    "author": "Robert Ryan",
+    "series": "The Dream of the Druid",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 204,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "battle-forged-ryan",
+    "title": "Battle Forged",
+    "author": "Robert Ryan",
+    "series": "The Dream of the Druid",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 214,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "fate-of-kings-ryan",
+    "title": "Fate of Kings",
+    "author": "Robert Ryan",
+    "series": "The Son of Sorcery",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 660,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "kings-of-sorcery-ryan",
+    "title": "Kings of Sorcery",
+    "author": "Robert Ryan",
+    "series": "The Dark God Rises",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 693,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-sylvan-chronicles-box-set-wacht",
+    "title": "The Sylvan Chronicles Box Set",
+    "author": "Peter Wacht",
+    "series": "The Sylvan Chronicles",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 691,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-tales-of-caledonia-box-set-wacht",
+    "title": "The Tales of Caledonia Box Set",
+    "author": "Peter Wacht",
+    "series": "The Tales of Caledonia",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1415,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "ultimate-level-1-shattered-dreams-wilson",
+    "title": "Ultimate Level 1: Shattered Dreams",
+    "author": "Shawn Wilson",
+    "series": "Ultimate Level 1",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 455,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "ultimate-level-1-shattered-limits-wilson",
+    "title": "Ultimate Level 1: Shattered Limits",
+    "author": "Shawn Wilson",
+    "series": "Ultimate Level 2",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 479,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "ultimate-level-1-shattered-boundaries-wilson",
+    "title": "Ultimate Level 1: Shattered Boundaries",
+    "author": "Shawn Wilson",
+    "series": "Ultimate Level 3",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 420,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "ultimate-level-1-new-dreams-wilson",
+    "title": "Ultimate Level 1: New Dreams",
+    "author": "Shawn Wilson",
+    "series": "Ultimate Level 4",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 485,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-crown-of-stones-complete-trilogy-schneider",
+    "title": "The Crown of Stones Complete Trilogy",
+    "author": "C.L. Schneider",
+    "series": "The Crown of Stones",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1685,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-not-chosen-salter",
+    "title": "The Not Chosen",
+    "author": "A. C. Salter",
+    "series": "The Shadow Of The West",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 429,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "queen-of-the-sea-salter",
+    "title": "Queen of the Sea",
+    "author": "A. C. Salter",
+    "series": "The Shadow Of The West",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 375,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "revenge-of-the-jackdaw-salter",
+    "title": "Revenge of the Jackdaw",
+    "author": "A. C. Salter",
+    "series": "The Shadow Of The West",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 393,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "dawn-of-shadows-salter",
+    "title": "Dawn of Shadows",
+    "author": "A. C. Salter",
+    "series": "The Shadow Of The West",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 379,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-bane-of-the-north-boxset-salter",
+    "title": "The Bane Of The North Boxset",
+    "author": "A. C. Salter",
+    "series": "The Bane Of The North",
+    "seriesNumber": "1-5",
+    "format": "E-Book",
+    "pages": 2007,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "rageborn-shugar",
+    "title": "Rageborn",
+    "author": "Simon Shugar",
+    "series": "The Witch Queen Saga",
+    "seriesNumber": "1-5",
+    "format": "E-Book",
+    "pages": 1811,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "ascendant-isaacs",
+    "title": "Ascendant",
+    "author": "Noah Isaacs",
+    "series": "Broken Gods",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 551,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-splendent-seed-hutson",
+    "title": "The Splendent Seed",
+    "author": "Alec Hutson",
+    "series": "The Sharded Few",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 427,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-aelf-fyn-mysteries-clare",
+    "title": "The Aelf Fyn Mysteries",
+    "author": "Alys Clare",
+    "series": "Aelf Fen",
+    "seriesNumber": "1-6",
+    "format": "E-Book",
+    "pages": 1675,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "reborn-apocalypse-volume-1-kerr",
+    "title": "Reborn: Apocalypse Volume 1",
+    "author": "L. M. Kerr",
+    "series": "Reborn: Apocalypse",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 692,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "reborn-apocalypse-volume-2-kerr",
+    "title": "Reborn: Apocalypse Volume 2",
+    "author": "L. M. Kerr",
+    "series": "Reborn: Apocalypse",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 1002,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "reborn-apocalypse-volume-3-kerr",
+    "title": "Reborn: Apocalypse Volume 3",
+    "author": "L. M. Kerr",
+    "series": "Reborn: Apocalypse",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 687,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "reborn-apocalypse-volume-4-kerr",
+    "title": "Reborn: Apocalypse Volume 4",
+    "author": "L. M. Kerr",
+    "series": "Reborn: Apocalypse",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 859,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "a-warrior-s-burden-peppers",
+    "title": "A Warrior's Burden",
+    "author": "Jacob Peppers",
+    "series": "Saga of the Known Lands",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 318,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "a-warrior-s-redemption-peppers",
+    "title": "A Warrior's Redemption",
+    "author": "Jacob Peppers",
+    "series": "Saga of the Known Lands",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 433,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "elven-blood-stanley",
+    "title": "Elven Blood",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 393,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "battle-mage-stanley",
+    "title": "Battle Mage",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 434,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "dwarven-prince-stanley",
+    "title": "Dwarven Prince",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 386,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "shadow-mage-stanley",
+    "title": "Shadow Mage",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 322,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "dragon-fire-stanley",
+    "title": "Dragon Fire",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 285,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "war-born-stanley",
+    "title": "War Born",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "6",
+    "format": "E-Book",
+    "pages": 369,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "demigod-stanley",
+    "title": "Demigod",
+    "author": "Mark Stanley",
+    "series": "The Vellhor Saga",
+    "seriesNumber": "7",
+    "format": "E-Book",
+    "pages": 387,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "dog-of-war-kastle",
+    "title": "Dog of War",
+    "author": "Dean Kastle",
+    "series": "Dog of War",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 369,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "hair-of-the-dog-kastle",
+    "title": "Hair of the Dog",
+    "author": "Dean Kastle",
+    "series": "Dog of War",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 300,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "dog-days-kastle",
+    "title": "Dog Days",
+    "author": "Dean Kastle",
+    "series": "Dog of War",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 462,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "let-sleeping-dogs-lie-kastle",
+    "title": "Let Sleeping Dogs Lie",
+    "author": "Dean Kastle",
+    "series": "Dog of War",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 299,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "hounds-of-hell-kastle",
+    "title": "Hounds of Hell",
+    "author": "Dean Kastle",
+    "series": "Dog of War",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 331,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "apprentice-niemitz",
+    "title": "Apprentice",
+    "author": "David Niemitz",
+    "series": "Guild Mage",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 350,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "eld-niemitz",
+    "title": "Eld",
+    "author": "David Niemitz",
+    "series": "Guild Mage",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 387,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "shadow-of-a-dark-queen-feist",
+    "title": "Shadow of a Dark Queen",
+    "author": "Raymond E. Feist",
+    "series": "The Serpentwar Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 497,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "rise-of-a-merchant-prince-feist",
+    "title": "Rise of a Merchant Prince",
+    "author": "Raymond E. Feist",
+    "series": "The Serpentwar Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 479,
+    "yearReleased": 1995
+  },
+  {
+    "slug": "rage-of-a-demon-king-feist",
+    "title": "Rage of a Demon King",
+    "author": "Raymond E. Feist",
+    "series": "The Serpentwar Saga",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 436,
+    "yearReleased": 1997
+  },
+  {
+    "slug": "shards-of-a-broken-crown-feist",
+    "title": "Shards of a Broken Crown",
+    "author": "Raymond E. Feist",
+    "series": "The Serpentwar Saga",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 498,
+    "yearReleased": 1998
+  },
+  {
+    "slug": "a-darkness-returns-feist",
+    "title": "A Darkness Returns",
+    "author": "Raymond E. Feist",
+    "series": "Dragonwar Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 480,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "gods-of-blood-and-bone-ellis",
+    "title": "Gods of Blood and Bone",
+    "author": "Azalea Ellis",
+    "series": "Seeds of Chaos",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 438,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "gods-of-rust-and-ruin-ellis",
+    "title": "Gods of Rust and Ruin",
+    "author": "Azalea Ellis",
+    "series": "Seeds of Chaos",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 408,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "a-conjuring-of-ravens-ellis",
+    "title": "A Conjuring of Ravens",
+    "author": "Azalea Ellis",
+    "series": "A Practical Guide to Sorcery",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 511,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "guild-master-kal",
+    "title": "Guild Master",
+    "author": "Ivan Kal",
+    "series": "Tower of Power",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 237,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "the-goblin-horde-kal",
+    "title": "The Goblin Horde",
+    "author": "Ivan Kal",
+    "series": "Tower of Power",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 228,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "the-grand-tournament-kal",
+    "title": "The Grand Tournament",
+    "author": "Ivan Kal",
+    "series": "Tower of Power",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 306,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "the-great-raid-kal",
+    "title": "The Great Raid",
+    "author": "Ivan Kal",
+    "series": "Tower of Power",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 210,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-tower-s-price-kal",
+    "title": "The Tower's Price",
+    "author": "Ivan Kal",
+    "series": "Tower of Power",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 218,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "welcome-to-the-dark-ages-malory",
+    "title": "Welcome to the Dark Ages",
+    "author": "Jake Malory",
+    "series": "Morgan and Merlin's Excellent Adventures",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 281,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "journey-to-the-dark-tower-malory",
+    "title": "Journey to the Dark Tower",
+    "author": "Jake Malory",
+    "series": "Morgan and Merlin's Excellent Adventures",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 207,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "quest-for-the-dark-blade-malory",
+    "title": "Quest for the Dark Blade",
+    "author": "Jake Malory",
+    "series": "Morgan and Merlin's Excellent Adventures",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 413,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "shadows-of-mallin-avaritiabona",
+    "title": "Shadows of Mallin",
+    "author": "Avaritiabona",
+    "series": "Draka",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 353,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "shadows-of-karakan-avaritiabona",
+    "title": "Shadows of Karakan",
+    "author": "Avaritiabona",
+    "series": "Draka",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 370,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-legend-of-kazro-hatch",
+    "title": "The Legend of Kazro",
+    "author": "D. R. R. Hatch",
+    "series": "The Legend of Kazro",
+    "seriesNumber": "1-2",
+    "format": "E-Book",
+    "pages": 1112,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-magic-of-recluce-jr",
+    "title": "The Magic of Recluce",
+    "author": "L.E. Modesitt Jr.",
+    "series": "The Saga of Recluce",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 501,
+    "yearReleased": 1991
+  },
+  {
+    "slug": "the-towers-of-the-sunset-jr",
+    "title": "The Towers of the Sunset",
+    "author": "L.E. Modesitt Jr.",
+    "series": "The Saga of Recluce",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 536,
+    "yearReleased": 1992
+  },
+  {
+    "slug": "the-magic-engineer-jr",
+    "title": "The Magic Engineer",
+    "author": "L.E. Modesitt Jr.",
+    "series": "The Saga of Recluce",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 617,
+    "yearReleased": 1994
+  },
+  {
+    "slug": "a-kingdom-besieged-feist",
+    "title": "A Kingdom Besieged",
+    "author": "Raymond E. Feist",
+    "series": "The Chaoswar Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 368,
+    "yearReleased": 2011
+  },
+  {
+    "slug": "a-crown-imperiled-feist",
+    "title": "A Crown Imperiled",
+    "author": "Raymond E. Feist",
+    "series": "The Chaoswar Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 480,
+    "yearReleased": 2011
+  },
+  {
+    "slug": "magician-s-end-feist",
+    "title": "Magician's End",
+    "author": "Raymond E. Feist",
+    "series": "The Chaoswar Saga",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 638,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "king-of-ashes-feist",
+    "title": "King of Ashes",
+    "author": "Raymond E. Feist",
+    "series": "The Firemane Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 499,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "queen-of-storms-feist",
+    "title": "Queen of Storms",
+    "author": "Raymond E. Feist",
+    "series": "The Firemane Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 437,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "master-of-furies-feist",
+    "title": "Master of Furies",
+    "author": "Raymond E. Feist",
+    "series": "The Firemane Saga",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 487,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "thieves-world-abbey",
+    "title": "Thieves' World",
+    "author": "Robert Lynn Asprin, Lynn Abbey",
+    "series": "Thieves' World",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 308,
+    "yearReleased": 1979
+  },
+  {
+    "slug": "tales-from-the-vulgar-unicorn-abbey",
+    "title": "Tales From the Vulgar Unicorn",
+    "author": "Robert Lynn Asprin, Lynn Abbey",
+    "series": "Thieves' World",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 299,
+    "yearReleased": 1980
+  },
+  {
+    "slug": "hand-of-the-executioner-priest",
+    "title": "Hand of the Executioner",
+    "author": "Sebastian Priest",
+    "series": "City of Chains",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 237,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "the-silverblood-promise-logan",
+    "title": "The Silverblood Promise",
+    "author": "James Logan",
+    "series": "The Last Legacy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 528,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-blackfire-blade-logan",
+    "title": "The Blackfire Blade",
+    "author": "James Logan",
+    "series": "The Last Legacy",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 485,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "return-of-the-archmage-mythicrun0",
+    "title": "Return of the Archmage",
+    "author": "MythicRun0",
+    "series": "Return of the Archmage",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 616,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "return-of-the-archmage-2-mythicrun1",
+    "title": "Return of the Archmage 2",
+    "author": "MythicRun1",
+    "series": "Return of the Archmage",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 424,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "dawn-of-darkness-seitz",
+    "title": "Dawn of Darkness",
+    "author": "Blake Seitz",
+    "series": "Echoes Through Divinoros",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 337,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-slave-s-blade-zur",
+    "title": "The Slave's Blade",
+    "author": "Uri Zur",
+    "series": "Sword and Shadow",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 428,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-rift-and-the-reckoning-blade",
+    "title": "The Rift and the Reckoning",
+    "author": "Nick Blade",
+    "series": "The Land of Nowhere",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 436,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "beyond-the-mountain-fitzgerald",
+    "title": "Beyond The Mountain",
+    "author": "David Fitzgerald",
+    "series": "The Dark Legend Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 486,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-legacy-franx",
+    "title": "The Legacy",
+    "author": "J.D. Franx",
+    "series": "Darkness Within Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 742,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "blood-of-the-lost-franx",
+    "title": "Blood of the Lost",
+    "author": "J.D. Franx",
+    "series": "Darkness Within Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 693,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "fallen-sepulchre-franx",
+    "title": "Fallen Sepulchre",
+    "author": "J.D. Franx",
+    "series": "Darkness Within Saga",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 581,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "the-blood-trials-davenport",
+    "title": "The Blood Trials",
+    "author": "N.E. Davenport",
+    "series": "The Blood Gift Duology",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 448,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "the-silver-crystal-lanz",
+    "title": "The Silver Crystal",
+    "author": "Ryan Lanz",
+    "series": "The Red Kingdom",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 491,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-way-of-stones-lanz",
+    "title": "The Way of Stones",
+    "author": "Ryan Lanz",
+    "series": "The Red Kingdom",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 521,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "captain-of-the-guard-nieto",
+    "title": "Captain of the Guard",
+    "author": "Ron C. Nieto",
+    "series": "The Second Son",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 324,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "heir-to-the-crown-nieto",
+    "title": "Heir to the Crown",
+    "author": "Ron C. Nieto",
+    "series": "The Second Son",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 424,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "the-book-of-zog-hutson",
+    "title": "The Book of Zog",
+    "author": "Alec Hutson",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 229,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "hammer-of-fate-gudgion",
+    "title": "Hammer of Fate",
+    "author": "G.N. Gudgion",
+    "series": "The Rune Song",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 459,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "runes-of-battle-gudgion",
+    "title": "Runes of Battle",
+    "author": "G.N. Gudgion",
+    "series": "The Rune Song",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 440,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "blood-of-wolves-gudgion",
+    "title": "Blood of Wolves",
+    "author": "G.N. Gudgion",
+    "series": "The Rune Song",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 439,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "card-mage-slumdog-deckbuilder-patrick",
+    "title": "Card Mage: Slumdog Deckbuilder",
+    "author": "Benedict Patrick",
+    "series": "Card Mage",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 497,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "heroes-of-valhalla-kesterson",
+    "title": "Heroes of Valhalla",
+    "author": "C.K. Kesterson",
+    "series": "The Aesir Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 430,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "shadows-of-yggdrasil-kesterson",
+    "title": "Shadows of Yggdrasil",
+    "author": "C.K. Kesterson",
+    "series": "The Aesir Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 364,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-fall-of-selvandrea-mckay",
+    "title": "The Fall of Selvandrea",
+    "author": "T.J. McKay",
+    "series": "The Draemeir Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 540,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "reckoning-miller",
+    "title": "Reckoning",
+    "author": "Michael R. Miller",
+    "series": "Songs of Chaos",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 867,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "summoner-s-shadow-king",
+    "title": "Summoner's Shadow",
+    "author": "D. B. King",
+    "series": "Summoner's Shadow",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1373,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "loopbreaker-wilson",
+    "title": "Loopbreaker",
+    "author": "Shawn Wilson",
+    "series": "Loopbreaker",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 772,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "all-jobs-and-classes-i-just-wanted-one-skill-not-them-all-l",
+    "title": "All Jobs and Classes! I Just Wanted One Skill, Not Them All!",
+    "author": "Comedian0 L",
+    "series": "All Jobs and Classes! I Just Wanted One Skill, Not Them All!",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 804,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "disorder-of-war-shamey",
+    "title": "Disorder of War",
+    "author": "N. J. Shamey",
+    "series": "Disorder of War",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 278,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "miss-percy-s-pocket-guide-to-the-care-and-feeding-of-british-dragons-olson",
+    "title": "Miss Percy's Pocket Guide to the Care and Feeding of British Dragons",
+    "author": "Quenby Olson",
+    "series": "Miss Percy Guide",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 408,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-stiger-chronicles-edelheit",
+    "title": "The Stiger Chronicles",
+    "author": "Marc Alan Edelheit",
+    "series": "Chronicles of an Imperial Legionary Officer",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 931,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "rune-war-vol-1-kelly",
+    "title": "Rune War Vol 1",
+    "author": "M. R. Kelly",
+    "series": "Rune War",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1871,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "the-weapon-takers-saga-edmundson",
+    "title": "The Weapon Takers Saga",
+    "author": "Jamie Edmundson",
+    "series": "The Weapon Takers Saga",
+    "seriesNumber": "1-4",
+    "format": "E-Book",
+    "pages": 816,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "the-lords-of-alekka-rayne",
+    "title": "The Lords of Alekka",
+    "author": "A. E. Rayne",
+    "series": "The Lords of Alekka",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 2081,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "beginnings-gisman",
+    "title": "Beginnings",
+    "author": "Michael Gisman",
+    "series": "Defenders of Myth",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 325,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "scourge-of-thorns-hudson",
+    "title": "Scourge of Thorns",
+    "author": "Eden Hudson",
+    "series": "The Strong Gods",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 554,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "madness-of-princes-hudson",
+    "title": "Madness of Princes",
+    "author": "Eden Hudson",
+    "series": "The Strong Gods",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 639,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-great-forget-fantasy-ironwood",
+    "title": "The Great Forget Fantasy",
+    "author": "Terry Ironwood",
+    "series": "The Great Forget Fantasy",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 414,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "fate-of-the-furycks-rayne",
+    "title": "Fate of the Furycks",
+    "author": "A. E. Rayne",
+    "series": "Furyck Saga",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1969,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-ignatius-series-mucci",
+    "title": "The Ignatius Series",
+    "author": "D. A. Mucci",
+    "series": "The Ignatius Series",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1090,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "ronin-the-wolf-s-path-nakamura",
+    "title": "Ronin: The Wolf's Path",
+    "author": "Robert Nakamura",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 633,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "war-of-the-twelve-robins",
+    "title": "War of the Twelve",
+    "author": "Alex Robins",
+    "series": "War of the Twelve",
+    "seriesNumber": "1-4",
+    "format": "E-Book",
+    "pages": 830,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "mr-whiskers-lord-of-the-void-koester",
+    "title": "Mr. Whiskers: Lord of the Void",
+    "author": "Joshua Koester",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 440,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-sword-of-ethir-tz",
+    "title": "The Sword of Ethir",
+    "author": "Joseph Tz",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 362,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "i-refuse-to-be-the-dark-lord-black",
+    "title": "I Refuse to Be the Dark Lord",
+    "author": "K. T. Black",
+    "series": "Rise and Grind",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 70,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "valley-of-the-skulls-halloran",
+    "title": "Valley of the Skulls",
+    "author": "Craig Halloran",
+    "series": "The Darkslayer Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 330,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-league-of-the-moon-sanborn",
+    "title": "The League of the Moon",
+    "author": "Robert Sanborn",
+    "series": "The League of the Moon",
+    "seriesNumber": "1-5",
+    "format": "E-Book",
+    "pages": 1493,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-orphans-of-nilad-sanchack",
+    "title": "The Orphans of Nilad",
+    "author": "Erich Sanchack, Daniella Sanchack",
+    "series": "The Nosam Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 276,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-furyck-saga-rayne",
+    "title": "The Furyck Saga",
+    "author": "A. E. Rayne",
+    "series": "Furyck Saga",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 2106,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "soldiers-of-fire-oliver",
+    "title": "Soldiers of Fire",
+    "author": "Ryan M. Oliver",
+    "series": "Beasts of Men and Gods",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 326,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-mortal-blade-mitchell",
+    "title": "The Mortal Blade",
+    "author": "Christopher Mitchell",
+    "series": "Magelands Eternal Siege",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 446,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-dragon-s-blade-mitchell",
+    "title": "The Dragon's Blade",
+    "author": "Christopher Mitchell",
+    "series": "Magelands Eternal Siege",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 484,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "dreams-of-the-dying-lietzau",
+    "title": "Dreams of the Dying",
+    "author": "Nicolas Lietzau",
+    "series": "The Twelfth World",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 728,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "a-crack-in-the-rock-gabriel",
+    "title": "A Crack in the Rock",
+    "author": "Amber Gabriel",
+    "series": "The Edge of the Sword",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 380,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "song-of-echoes-palmer",
+    "title": "Song of Echoes",
+    "author": "R. E. Palmer",
+    "series": "Song of Echoes",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 436,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "godfrey-s-crusade-howard",
+    "title": "Godfrey's Crusade",
+    "author": "Mark Howard",
+    "series": "The Griffin Legends",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 414,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-scour-swan",
+    "title": "The Scour",
+    "author": "Richard Swan",
+    "series": "Empire of the Wolf",
+    "seriesNumber": "0.5",
+    "format": "E-Book",
+    "pages": 145,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "blood-and-empire-maxwell",
+    "title": "Blood and Empire",
+    "author": "James Maxwell",
+    "series": "The Gateway Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 351,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-prophecy-of-the-yubriy-tree-spencer",
+    "title": "The Prophecy of the Yubriy Tree",
+    "author": "Ben Spencer",
+    "series": "The Song of the Burning Heart",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 412,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "fall-seldom-kings-mitchell",
+    "title": "Fall Seldom Kings",
+    "author": "Christopher Mitchell",
+    "series": "Masters & Makers",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 486,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "battlefield-reclaimer-north",
+    "title": "Battlefield Reclaimer",
+    "author": "David North",
+    "series": "Guardian of Aster Fall",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 671,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "the-dragon-guard-fisher",
+    "title": "The Dragon Guard",
+    "author": "Jada Fisher",
+    "series": "The Dragon Guard",
+    "seriesNumber": "1-9",
+    "format": "E-Book",
+    "pages": 1702,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-demon-overlord-s-retirement-plan-foster",
+    "title": "The Demon Overlord's Retirement Plan",
+    "author": "M.H. Foster",
+    "series": "A Gentle Apocalypse",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 223,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "singers-of-the-sword-song-mckay",
+    "title": "Singers of the Sword Song",
+    "author": "Steven A. McKay",
+    "series": "The Sword Song Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 364,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "verse-of-the-hidden-flame-palmer",
+    "title": "Verse of the Hidden Flame",
+    "author": "R. E. Palmer",
+    "series": "Fall of the Seven Realms",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 476,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "hearts-of-hellfire-moss",
+    "title": "Hearts of Hellfire",
+    "author": "Abe Moss",
+    "series": "The Unmaking",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 400,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-binding-of-the-twelve-bazzell",
+    "title": "The Binding of the Twelve",
+    "author": "Nathanael Bazzell",
+    "series": "The Chronicles of the Orphan King",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 676,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-poet-empress-tao",
+    "title": "The Poet Empress",
+    "author": "Shen Tao",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 400,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-savage-war-wallace",
+    "title": "The Savage War",
+    "author": "Esther Wallace",
+    "series": "The Black Phantom Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 396,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "golden-age-maxwell",
+    "title": "Golden Age",
+    "author": "James Maxwell",
+    "series": "The Shifting Tides",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 466,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "dragonlyst-seeley",
+    "title": "Dragonlyst",
+    "author": "Randall Seeley",
+    "series": "The Drahiad Chronicles Prologues",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 86,
+    "yearReleased": 2014
+  },
+  {
+    "slug": "the-other-side-of-the-map-racine",
+    "title": "The Other Side of the Map",
+    "author": "E. Racine",
+    "series": "Neverworld",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 344,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "dragon-apparent-mountifield",
+    "title": "Dragon Apparent",
+    "author": "Talia Beckett, Jess Mountifield",
+    "series": "Dragon Apparent",
+    "seriesNumber": "1-9",
+    "format": "E-Book",
+    "pages": 2129,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "the-seer-awakening-davis",
+    "title": "The Seer Awakening",
+    "author": "K.R. Davis",
+    "series": "The Vertexa Prophecy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 444,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "a-girl-from-nowhere-maxwell",
+    "title": "A Girl from Nowhere",
+    "author": "James Maxwell",
+    "series": "The Firewall Trilog",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 445,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-killing-fog-wheeler",
+    "title": "The Killing Fog",
+    "author": "Jeff Wheeler",
+    "series": "The Grave Kingdom",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 404,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "chords-of-fate-holmberg",
+    "title": "Chords of Fate",
+    "author": "D.K. Holmberg",
+    "series": "The Wayward Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 595,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "oaths-of-blood-irons",
+    "title": "Oaths of Blood",
+    "author": "Logan D. Irons",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 392,
+    "yearReleased": 2924
+  },
+  {
+    "slug": "zodak-the-last-shielder-moyer",
+    "title": "Zodak: The Last Shielder",
+    "author": "Max Moyer",
+    "series": "Tempest Rising",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 390,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "soulstealer-mcinerney",
+    "title": "Soulstealer",
+    "author": "El McInerney",
+    "series": "The Unraveling",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 644,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "adamant-in-dust-sutta",
+    "title": "Adamant in Dust",
+    "author": "Willamette Sutta",
+    "series": "Far Stone Cycle",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 292,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-iron-path-the-tale-of-ronan-branly",
+    "title": "The Iron Path: The Tale of Ronan",
+    "author": "Joseph Branly",
+    "series": "The Age of Ash",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 150,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "tales-of-ravenwill-gorman",
+    "title": "Tales of Ravenwill",
+    "author": "John Gorman",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 230,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "first-vow-ours-is-the-burden-foster",
+    "title": "First Vow: Ours is the Burden",
+    "author": "M.H. Foster",
+    "series": "Janissary",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 321,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-call-of-wind-house",
+    "title": "The Call of Wind",
+    "author": "K.R. House",
+    "series": "Unmarked",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 372,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-knight-from-nothing-song",
+    "title": "The Knight from Nothing",
+    "author": "J.Y. Song",
+    "series": "Hedge Knight",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 267,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "tor-the-dungeon-crawler-kohanek",
+    "title": "Tor the Dungeon Crawler",
+    "author": "Jeffrey L. Kohanek",
+    "series": "Tor the Dungeon Crawler",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 857,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "ironborn-cavanagh",
+    "title": "Ironborn",
+    "author": "Andrew Cavanagh",
+    "series": "The Ironborn Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 232,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-three-stigmata-of-palmer-eldritch-dick",
+    "title": "The Three Stigmata of Palmer Eldritch",
+    "author": "Philip K. Dick",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 231,
+    "yearReleased": 1965
+  },
+  {
+    "slug": "solaris-lem",
+    "title": "Solaris",
+    "author": "Stanisław Lem",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 204,
+    "yearReleased": 1961
+  },
+  {
+    "slug": "blackmark-carlson",
+    "title": "Blackmark",
+    "author": "Jean Lowe Carlson",
+    "series": "The Kingsmen Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 505,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "bloodmark-carlson",
+    "title": "Bloodmark",
+    "author": "Jean Lowe Carlson",
+    "series": "The Kingsmen Chronicles",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 732,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "goldenmark-carlson",
+    "title": "Goldenmark",
+    "author": "Jean Lowe Carlson",
+    "series": "The Kingsmen Chronicles",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 748,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "the-hound-of-the-baskervilles-doyle",
+    "title": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "series": "Sherlock Holmes",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 256,
+    "yearReleased": 1902
+  },
+  {
+    "slug": "around-the-world-in-eighty-days-verne",
+    "title": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 252,
+    "yearReleased": 1872
+  },
+  {
+    "slug": "the-invisble-man-wells",
+    "title": "The Invisble Man",
+    "author": "H.G. Wells",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 148,
+    "yearReleased": 1897
+  },
+  {
+    "slug": "the-book-of-merlyn-white",
+    "title": "The Book of Merlyn",
+    "author": "T.H. White",
+    "series": "The Once and Future King",
+    "seriesNumber": "5",
+    "format": "E-Book",
+    "pages": 160,
+    "yearReleased": 1977
+  },
+  {
+    "slug": "the-songs-of-distant-earth-clarke",
+    "title": "The Songs of Distant Earth",
+    "author": "Arthur C. Clarke",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 319,
+    "yearReleased": 1986
+  },
+  {
+    "slug": "the-hammer-of-god-clarke",
+    "title": "The Hammer of God",
+    "author": "Arthur C. Clarke",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 264,
+    "yearReleased": 1992
+  },
+  {
+    "slug": "against-the-fall-of-night-clarke",
+    "title": "Against the Fall of Night",
+    "author": "Arthur C. Clarke",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 208,
+    "yearReleased": 1953
+  },
+  {
+    "slug": "the-mysterious-island-verne",
+    "title": "The Mysterious Island",
+    "author": "Jules Verne",
+    "series": "Capitaine Nemo",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 723,
+    "yearReleased": 1875
+  },
+  {
+    "slug": "the-princess-and-the-goblin-macdonald",
+    "title": "The Princess and the Goblin",
+    "author": "George MacDonald",
+    "series": "Princess Irene and Curdie",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 241,
+    "yearReleased": 1872
+  },
+  {
+    "slug": "journey-to-the-center-of-the-earth-verne",
+    "title": "Journey to the Center of the Earth",
+    "author": "Jules Verne",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 240,
+    "yearReleased": 1864
+  },
+  {
+    "slug": "the-dispossessed-guin",
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "series": "The Hainish Cycle",
+    "seriesNumber": "6",
+    "format": "E-Book",
+    "pages": 400,
+    "yearReleased": 1974
+  },
+  {
+    "slug": "the-once-and-future-queen-lafferty",
+    "title": "The Once and Future Queen",
+    "author": "Paula Lafferty",
+    "series": "The Lives of Guinevere",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 512,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "the-library-of-amorlin-josephson",
+    "title": "The Library of Amorlin",
+    "author": "Kalyn Josephson",
+    "series": "The Age of Beasts",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 448,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "i-have-no-mouth-i-must-scream-ellison",
+    "title": "I Have No Mouth & I Must Scream",
+    "author": "Harlan Ellison",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 134,
+    "yearReleased": 1967
+  },
+  {
+    "slug": "the-archmage-s-regression-1-grace",
+    "title": "The Archmage's Regression 1",
+    "author": "Arland Grace",
+    "series": "The Archmage's Regression",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 293,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "number-the-stars-lowry",
+    "title": "Number the Stars",
+    "author": "Lois Lowry",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 137,
+    "yearReleased": 18989
+  },
+  {
+    "slug": "the-giver-lowry",
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "series": "The Giver",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 208,
+    "yearReleased": 1993
+  },
+  {
+    "slug": "gathering-blue-lowry",
+    "title": "Gathering Blue",
+    "author": "Lois Lowry",
+    "series": "The Giver",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 240,
+    "yearReleased": 2000
+  },
+  {
+    "slug": "messenger-lowry",
+    "title": "Messenger",
+    "author": "Lois Lowry",
+    "series": "The Giver",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 169,
+    "yearReleased": 2004
+  },
+  {
+    "slug": "son-lowry",
+    "title": "Son",
+    "author": "Lois Lowry",
+    "series": "The Giver",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 393,
+    "yearReleased": 2012
+  },
+  {
+    "slug": "the-forever-war-haldeman",
+    "title": "The Forever War",
+    "author": "Joe Haldeman",
+    "series": "The Forever War",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 278,
+    "yearReleased": 2974
+  },
+  {
+    "slug": "hunter-lackey",
+    "title": "Hunter",
+    "author": "Mercedes Lackey",
+    "series": "Hunter",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 374,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "dr-jekyll-and-mr-hyde-stevenson",
+    "title": "Dr. Jekyll and Mr. Hyde",
+    "author": "Robert Louis Stevenson",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 139,
+    "yearReleased": 1886
+  },
+  {
+    "slug": "the-jungle-book-kipling",
+    "title": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "series": "The Jungle Book",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 277,
+    "yearReleased": 1894
+  },
+  {
+    "slug": "the-call-of-the-wild-london",
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 172,
+    "yearReleased": 1903
+  },
+  {
+    "slug": "the-adventures-of-tom-sawyer-twain",
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "series": "Adventures of Tom and Huck",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 244,
+    "yearReleased": 1876
+  },
+  {
+    "slug": "knightmare-arcanist-stovall",
+    "title": "Knightmare Arcanist",
+    "author": "Shami Stovall",
+    "series": "Frith Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 360,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "dread-pirate-arcanist-stovall",
+    "title": "Dread Pirate Arcanist",
+    "author": "Shami Stovall",
+    "series": "Frith Chronicles",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 411,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "coliseum-arcanist-stovall",
+    "title": "Coliseum Arcanist",
+    "author": "Shami Stovall",
+    "series": "Frith Chronicles",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 660,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-masters-pinto",
+    "title": "The Masters",
+    "author": "Ricardo Pinto",
+    "series": "The Stone Dance of the Chameleon",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 280,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "academy-arcanist-stovall",
+    "title": "Academy Arcanist",
+    "author": "Shami Stovall",
+    "series": "Astra Academy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 446,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "dual-class-i-inverse",
+    "title": "Dual Class I",
+    "author": "Arthur Inverse",
+    "series": "Dual Class",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 773,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-bone-raiders-ford",
+    "title": "The Bone Raiders",
+    "author": "Jackson Ford",
+    "series": "The Rakada",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 480,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "kill-the-beast-swift",
+    "title": "Kill the Beast",
+    "author": "Serra Swift",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 309,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "the-sound-and-the-fury-faulkner",
+    "title": "The Sound and the Fury",
+    "author": "William Faulkner",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 366,
+    "yearReleased": 1929
+  },
+  {
+    "slug": "the-curse-of-chalion-bujold",
+    "title": "The Curse of Chalion",
+    "author": "Lois McMaster Bujold",
+    "series": "World of the Five Gods",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 490,
+    "yearReleased": 2001
+  },
+  {
+    "slug": "the-one-kingdom-russell",
+    "title": "The One Kingdom",
+    "author": "Sean Russell",
+    "series": "The Swan's War",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 534,
+    "yearReleased": 2001
+  },
+  {
+    "slug": "the-isle-of-battle-russell",
+    "title": "The Isle of Battle",
+    "author": "Sean Russell",
+    "series": "The Swan's War",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 451,
+    "yearReleased": 2002
+  },
+  {
+    "slug": "the-shadow-roads-russell",
+    "title": "The Shadow Roads",
+    "author": "Sean Russell",
+    "series": "The Swan's War",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 464,
+    "yearReleased": 2003
+  },
+  {
+    "slug": "beguilement-bujold",
+    "title": "Beguilement",
+    "author": "Lois McMaster Bujold",
+    "series": "The Sharing Knife",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 361,
+    "yearReleased": 2006
+  },
+  {
+    "slug": "vicious-schwab",
+    "title": "Vicious",
+    "author": "V. E. Schwab",
+    "series": "Villains",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 402,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "lens-of-the-world-macavoy",
+    "title": "Lens of the World",
+    "author": "R.A. MacAvoy",
+    "series": "Lens of the World",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 286,
+    "yearReleased": 1990
+  },
+  {
+    "slug": "tea-with-the-black-dragon-macavoy",
+    "title": "Tea with the Black Dragon",
+    "author": "R.A. MacAvoy",
+    "series": "Black Dragon",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 140,
+    "yearReleased": 1983
+  },
+  {
+    "slug": "the-face-in-the-frost-bellairs",
+    "title": "The Face in the Frost",
+    "author": "John Bellairs",
+    "series": "Prospero and Roger Bacon",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 174,
+    "yearReleased": 1969
+  },
+  {
+    "slug": "jade-city-lee",
+    "title": "Jade City",
+    "author": "Fonda Lee",
+    "series": "The Green Bone Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 540,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "jade-war-lee",
+    "title": "Jade War",
+    "author": "Fonda Lee",
+    "series": "The Green Bone Saga",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 587,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "jade-legacy-lee",
+    "title": "Jade Legacy",
+    "author": "Fonda Lee",
+    "series": "The Green Bone Saga",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 713,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "scourge-of-the-betrayer-salyards",
+    "title": "Scourge of the Betrayer",
+    "author": "Jeff Salyards",
+    "series": "Bloodsounder's Arc",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 320,
+    "yearReleased": 2012
+  },
+  {
+    "slug": "the-phoenix-and-the-mirror-davidson",
+    "title": "The Phoenix and the Mirror",
+    "author": "Avram Davidson",
+    "series": "Vergil Magus",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 275,
+    "yearReleased": 1969
+  },
+  {
+    "slug": "the-blood-and-flame-saga-winters",
+    "title": "The Blood and Flame Saga",
+    "author": "E. A. Winters",
+    "series": "Blood & Flame Saga",
+    "seriesNumber": "1-4",
+    "format": "E-Book",
+    "pages": 1490,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "dragonsbane-hunsaker",
+    "title": "Dragonsbane",
+    "author": "Brady Hunsaker",
+    "series": "Impervious",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 296,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "fortune-s-wake-clark",
+    "title": "Fortune's Wake",
+    "author": "C. L. Clark",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 146,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "mr-gorzug-substitute-teacher-moody",
+    "title": "Mr Gorzug - Substitute Teacher",
+    "author": "Nole Moody",
+    "series": "Mr. Gorzug",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 390,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "ordination-ford",
+    "title": "Ordination",
+    "author": "Daniel M. Ford",
+    "series": "The Paladin Trilogy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 440,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "the-dance-of-light-omnibus-kontaxis",
+    "title": "The Dance of Light Omnibus",
+    "author": "Gregory Kontaxis",
+    "series": "The Dance of Light",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1490,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "kalanon-s-rising-smith",
+    "title": "Kalanon's Rising",
+    "author": "Darian Smith",
+    "series": "Agents of Kalanon",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 424,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "king-of-scars-bardugo",
+    "title": "King of Scars",
+    "author": "Leigh Bardugo",
+    "series": "King of Scars",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 527,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "ninth-house-bardugo",
+    "title": "Ninth House",
+    "author": "Leigh Bardugo",
+    "series": "Ninth House Trilogy",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 480,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "a-prince-s-errand-zangari",
+    "title": "A Prince's Errand",
+    "author": "Dan Zangari, Robert Zangari",
+    "series": "Tales of the Amulet",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 961,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "incursion-hogan",
+    "title": "Incursion",
+    "author": "Mitchell Hogan",
+    "series": "The Necromancer's Key",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 532,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "a-king-s-radiance-schulz",
+    "title": "A King's Radiance",
+    "author": "L.R. Schulz",
+    "series": "Bonds of Kin",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 521,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "a-house-with-good-bones-kingfisher",
+    "title": "A House with Good Bones",
+    "author": "T. Kingfisher",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 247,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "thornhedge-kingfisher",
+    "title": "Thornhedge",
+    "author": "T. Kingfisher",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 116,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "yellowface-kuang",
+    "title": "Yellowface",
+    "author": "R. F. Kuang",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 319,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "the-familiar-bardugo",
+    "title": "The Familiar",
+    "author": "Leigh Bardugo",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 379,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "a-sorceress-comes-to-call-kingfisher",
+    "title": "A Sorceress Comes to Call",
+    "author": "T. Kingfisher",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 321,
+    "yearReleased": 2024
+  },
+  {
+    "slug": "katabasis-kuang",
+    "title": "Katabasis",
+    "author": "R. F. Kuang",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 559,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "bury-our-bones-in-the-midnight-soil-schwab",
+    "title": "Bury Our Bones in the Midnight Soil",
+    "author": "V. E. Schwab",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 535,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "greenteeth-o-neill",
+    "title": "Greenteeth",
+    "author": "Molly O'Neill",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 304,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "depths-of-vanalf-hunsaker",
+    "title": "Depths of Vanalf",
+    "author": "Brady Hunsaker",
+    "series": "Grimnir Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 446,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "snake-eater-kingfisher",
+    "title": "Snake-Eater",
+    "author": "T. Kingfisher",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 267,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "nine-goblins-kingfisher",
+    "title": "Nine Goblins",
+    "author": "T. Kingfisher",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 150,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "wolf-worm-kingfisher",
+    "title": "Wolf Worm",
+    "author": "T. Kingfisher",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 277,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "splinters-of-heaven-tsirigotis",
+    "title": "Splinters of Heaven",
+    "author": "Theo Tsirigotis",
+    "series": "Pax Terminus",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 433,
+    "yearReleased": 2026
+  },
+  {
+    "slug": "the-knife-s-edge-wolf",
+    "title": "The Knife's Edge",
+    "author": "Matthew Wolf",
+    "series": "The Ronin Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 445,
+    "yearReleased": 2013
+  },
+  {
+    "slug": "cows-stokoe",
+    "title": "Cows",
+    "author": "Matthew Stokoe",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 192,
+    "yearReleased": 1998
+  },
+  {
+    "slug": "the-wolf-of-the-north-hamilton",
+    "title": "The Wolf of the North",
+    "author": "Duncan M. Hamilton",
+    "series": "Wolf of the North",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 326,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "rise-of-the-iliri-hadley",
+    "title": "Rise of the Iliri",
+    "author": "Auryn Hadley",
+    "series": "Rise of the Iliri",
+    "seriesNumber": "1-3",
+    "format": "E-Book",
+    "pages": 1131,
+    "yearReleased": 2016
+  },
+  {
+    "slug": "children-of-blood-and-bone-adeyemi",
+    "title": "Children of Blood and Bone",
+    "author": "Tomi Adeyemi",
+    "series": "Legacy of Orïsha",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 544,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "the-war-of-the-worlds-wells",
+    "title": "The War of the Worlds",
+    "author": "H.G. Wells",
+    "series": "War of the Worlds",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 192,
+    "yearReleased": 1898
+  },
+  {
+    "slug": "he-who-fights-morris",
+    "title": "He who Fights",
+    "author": "Mike Morris",
+    "series": "Nathaniel Rane",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 384,
+    "yearReleased": 2017
+  },
+  {
+    "slug": "the-shadow-watch-klopfenstein",
+    "title": "The Shadow Watch",
+    "author": "S.A. Klopfenstein",
+    "series": "The Shadow Watch",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 400,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "mars-bova",
+    "title": "Mars",
+    "author": "Ben Bova",
+    "series": "The Grand Tour",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 607,
+    "yearReleased": 1992
+  },
+  {
+    "slug": "tales-from-the-gas-station-volume-one-townsend",
+    "title": "Tales from the Gas Station: Volume One",
+    "author": "Jack Townsend",
+    "series": "Tales from the Gas Station",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 285,
+    "yearReleased": 2018
+  },
+  {
+    "slug": "tales-from-the-gas-station-volume-two-townsend",
+    "title": "Tales from the Gas Station: Volume Two",
+    "author": "Jack Townsend",
+    "series": "Tales from the Gas Station",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 291,
+    "yearReleased": 2019
+  },
+  {
+    "slug": "revelation-space-reynolds",
+    "title": "Revelation Space",
+    "author": "Alastair Reynolds",
+    "series": "The Inhibitor Sequence",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 585,
+    "yearReleased": 2000
+  },
+  {
+    "slug": "of-honey-and-wildfires-chorn",
+    "title": "Of Honey and Wildfires",
+    "author": "Sarah Chorn",
+    "series": "Songs of Sefate",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 320,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "dragon-mage-spencer",
+    "title": "Dragon Mage",
+    "author": "M. L. Spencer",
+    "series": "Rivenworld",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 986,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "one-dark-window-gillig",
+    "title": "One Dark Window",
+    "author": "Rachel Gillig",
+    "series": "The Shepherd King",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 432,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "dawn-butler",
+    "title": "Dawn",
+    "author": "Octavia E. Butler",
+    "series": "Xenogenesis",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 248,
+    "yearReleased": 1987
+  },
+  {
+    "slug": "wild-seed-butler",
+    "title": "Wild Seed",
+    "author": "Octavia E. Butler",
+    "series": "Patternist",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 306,
+    "yearReleased": 1980
+  },
+  {
+    "slug": "a-breaking-of-realms-young",
+    "title": "A Breaking of Realms",
+    "author": "Jasmine Young",
+    "series": "Realm Breaker",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 460,
+    "yearReleased": 2023
+  },
+  {
+    "slug": "stealing-the-light-wacht",
+    "title": "Stealing the Light",
+    "author": "Peter Wacht",
+    "series": "Stealing the Light",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 480,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "children-of-the-gods-klopfenstein",
+    "title": "Children of the Gods",
+    "author": "S.A. Klopfenstein",
+    "series": "Age of Fire",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 598,
+    "yearReleased": 2025
+  },
+  {
+    "slug": "twenty-thousand-leagues-under-the-sea-verne",
+    "title": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "series": "Capitaine Nemo",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 269,
+    "yearReleased": 1869
+  },
+  {
+    "slug": "paladin-of-souls-bujold",
+    "title": "Paladin of Souls",
+    "author": "Lois McMaster Bujold",
+    "series": "World of the Five Gods",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 470,
+    "yearReleased": 2003
+  },
+  {
+    "slug": "the-hallowed-hunt-bujold",
+    "title": "The Hallowed Hunt",
+    "author": "Lois McMaster Bujold",
+    "series": "World of the Five Gods",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 423,
+    "yearReleased": 2005
+  },
+  {
+    "slug": "the-thief-turner",
+    "title": "The Thief",
+    "author": "Megan Whalen Turner",
+    "series": "The Queen's Thief",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 280,
+    "yearReleased": 1996
+  },
+  {
+    "slug": "the-queen-of-attolia-turner",
+    "title": "The Queen of Attolia",
+    "author": "Megan Whalen Turner",
+    "series": "The Queen's Thief",
+    "seriesNumber": "2",
+    "format": "E-Book",
+    "pages": 362,
+    "yearReleased": 2000
+  },
+  {
+    "slug": "the-king-of-attolia-turner",
+    "title": "The King of Attolia",
+    "author": "Megan Whalen Turner",
+    "series": "The Queen's Thief",
+    "seriesNumber": "3",
+    "format": "E-Book",
+    "pages": 387,
+    "yearReleased": 2006
+  },
+  {
+    "slug": "a-conspiracy-of-kings-turner",
+    "title": "A Conspiracy of Kings",
+    "author": "Megan Whalen Turner",
+    "series": "The Queen's Thief",
+    "seriesNumber": "4",
+    "format": "E-Book",
+    "pages": 316,
+    "yearReleased": 2010
+  },
+  {
+    "slug": "the-demon-king-chima",
+    "title": "The Demon King",
+    "author": "Cinda Williams Chima",
+    "series": "Seven Realms",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 506,
+    "yearReleased": 2009
+  },
+  {
+    "slug": "the-handmaid-s-tale-atwood",
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "series": "The Handmaid's Tale",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 320,
+    "yearReleased": 1985
+  },
+  {
+    "slug": "the-emperor-s-edge-buroker",
+    "title": "The Emperor's Edge",
+    "author": "Lindsay Buroker",
+    "series": "The Emperor's Edge",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 324,
+    "yearReleased": 2010
+  },
+  {
+    "slug": "the-mongoliad-stephenson",
+    "title": "The Mongoliad",
+    "author": "Neal Stephenson",
+    "series": "The Foreworld Saga",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 490,
+    "yearReleased": 2012
+  },
+  {
+    "slug": "dark-lord-of-derkholm-jones",
+    "title": "Dark Lord of Derkholm",
+    "author": "Diana Wynne Jones",
+    "series": "Derkholm",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 328,
+    "yearReleased": 1998
+  },
+  {
+    "slug": "the-shore-of-women-sargent",
+    "title": "The Shore of Women",
+    "author": "Pamela Sargent",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 464,
+    "yearReleased": 1986
+  },
+  {
+    "slug": "the-reborn-king-miller",
+    "title": "The Reborn King",
+    "author": "Michael R. Miller",
+    "series": "The Dragon's Blade",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 407,
+    "yearReleased": 2015
+  },
+  {
+    "slug": "the-man-who-fell-to-earth-tevis",
+    "title": "The Man Who Fell to Earth",
+    "author": "Walter Tevis",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 209,
+    "yearReleased": 1963
+  },
+  {
+    "slug": "burn-ness",
+    "title": "Burn",
+    "author": "Patrick Ness",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 371,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "the-once-and-future-witches-harrow",
+    "title": "The Once and Future Witches",
+    "author": "Alix E. Harrow",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 517,
+    "yearReleased": 2020
+  },
+  {
+    "slug": "realm-breaker-aveyard",
+    "title": "Realm Breaker",
+    "author": "Victoria Aveyard",
+    "series": "Realm Breaker",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 576,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "assassin-peloquin",
+    "title": "Assassin",
+    "author": "Andy Peloquin",
+    "series": "Darkblade",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 962,
+    "yearReleased": 2021
+  },
+  {
+    "slug": "court-of-assassins-quaintrell",
+    "title": "Court of Assassins",
+    "author": "Philip C. Quaintrell",
+    "series": "The Ranger Archives",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 525,
+    "yearReleased": 2022
+  },
+  {
+    "slug": "the-blue-castle-montgomery",
+    "title": "The Blue Castle",
+    "author": "L.M. Montgomery",
+    "series": "N/A",
+    "seriesNumber": "N/A",
+    "format": "E-Book",
+    "pages": 218,
+    "yearReleased": 1926
+  },
+  {
+    "slug": "dragon-thief-penn",
+    "title": "Dragon Thief",
+    "author": "Blake Penn, Raven Penn",
+    "series": "The Skystone Chronicles",
+    "seriesNumber": "1",
+    "format": "E-Book",
+    "pages": 489,
+    "yearReleased": 2023
   }
 ];

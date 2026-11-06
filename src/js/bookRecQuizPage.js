@@ -3,6 +3,7 @@
 	if (debug) console.log("Test Initial");
 	var dataEl = document.getElementById("book-quiz-data");
 	if (!dataEl) return;
+	if (debug) console.log(dataEl);
 
 	var data = JSON.parse(dataEl.textContent);
 	var questions = data.questions;
@@ -89,7 +90,7 @@
 	}
 
 	function passesHardCaps(hardCaps, traits) {
-		if (debug) console.log(traits);
+		//if (debug) console.log(traits);
 		if (!hardCaps) return true;
 
 		if (hardCaps.ageMin !== undefined && traits.age !== undefined && traits.age < hardCaps.ageMin) {

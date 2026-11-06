@@ -3108,11 +3108,559 @@ export default [
     "definition": "Bag, wallet"
   },
   {
-    "word": "Huckstering",
-    "definition": "Hawker"
-  },
-  {
     "word": "Mojo",
     "definition": "A magic spell or hex"
+  },
+  {
+    "word": "Apprise",
+    "definition": "To inform"
+  },
+  {
+    "word": "Disparage",
+    "definition": "To belittle"
+  },
+  {
+    "word": "Forfend",
+    "definition": "Prevent, protect"
+  },
+  {
+    "word": "Surfeit",
+    "definition": "An overabundant supply, excess"
+  },
+  {
+    "word": "Prurience",
+    "definition": "Acting in a way that expresses desire"
+  },
+  {
+    "word": "Blowsy",
+    "definition": "Sloppy or unkempt appearance"
+  },
+  {
+    "word": "Acerbic",
+    "definition": "Sharply critical or sarcastic"
+  },
+  {
+    "word": "Filigree",
+    "definition": "An ornamental pattern or design"
+  },
+  {
+    "word": "Exhort",
+    "definition": "Urge strongly"
+  },
+  {
+    "word": "Habile",
+    "definition": "Able"
+  },
+  {
+    "word": "Jouk",
+    "definition": "To evade work"
+  },
+  {
+    "word": "Impecunious",
+    "definition": "Poor, having little money"
+  },
+  {
+    "word": "Resumption",
+    "definition": "The act of resuming"
+  },
+  {
+    "word": "Repudiate",
+    "definition": "To refuse to accept"
+  },
+  {
+    "word": "Heliograph",
+    "definition": "A device used to reflect the sun's rays with a mirror as a signal"
+  },
+  {
+    "word": "Apotheosis",
+    "definition": "The perfect form of something"
+  },
+  {
+    "word": "Transmogrify",
+    "definition": "To change or alter"
+  },
+  {
+    "word": "Tonsure",
+    "definition": "The bald spot on monks"
+  },
+  {
+    "word": "Batten",
+    "definition": "To grow fat"
+  },
+  {
+    "word": "Tonk",
+    "definition": "An unmusical clang"
+  },
+  {
+    "word": "Tarn",
+    "definition": "A small mountain lake"
+  },
+  {
+    "word": "Papillae",
+    "definition": "A small projecting body part"
+  },
+  {
+    "word": "Logy",
+    "definition": "Sluggish"
+  },
+  {
+    "word": "Heddle",
+    "definition": "Part of a loom that holds threads in place"
+  },
+  {
+    "word": "Fretting",
+    "definition": "To corrode"
+  },
+  {
+    "word": "Spoor",
+    "definition": "A trail of a wild animal"
+  },
+  {
+    "word": "Abstruse",
+    "definition": "Hard to understand"
+  },
+  {
+    "word": "Drumlin",
+    "definition": "A hill left by a glacier"
+  },
+  {
+    "word": "Chiffon",
+    "definition": "Sheer fabric"
+  },
+  {
+    "word": "Cartouche",
+    "definition": "An ancient egyptian thing they pot pharaoh's names in"
+  },
+  {
+    "word": "Fripperies",
+    "definition": "Finery"
+  },
+  {
+    "word": "Dilettante",
+    "definition": "Admirer of the arts"
+  },
+  {
+    "word": "Apogee",
+    "definition": "Point in orbit where something is furthest fom the center body"
+  },
+  {
+    "word": "Wastrel",
+    "definition": "Vagabond"
+  },
+  {
+    "word": "Distaff",
+    "definition": "Maternal"
+  },
+  {
+    "word": "Skald",
+    "definition": "Norse bard"
+  },
+  {
+    "word": "Supernal",
+    "definition": "Heavenly"
+  },
+  {
+    "word": "Abrogation",
+    "definition": "Repealing a law"
+  },
+  {
+    "word": "Kedge",
+    "definition": "To move a ship by throwing an anchor"
+  },
+  {
+    "word": "Pleonastic",
+    "definition": "Using more words than needed"
+  },
+  {
+    "word": "Recondite",
+    "definition": "Difficult to understand"
+  },
+  {
+    "word": "Baize",
+    "definition": "A corse fabric imitating felt"
+  },
+  {
+    "word": "Abjure",
+    "definition": "to reject, to abstain"
+  },
+  {
+    "word": "Recumbent",
+    "definition": "Lying down"
+  },
+  {
+    "word": "Couture",
+    "definition": "Business of designing fashionable clothing"
+  },
+  {
+    "word": "Accoutrement",
+    "definition": "Equipment, A soldier's outfit"
+  },
+  {
+    "word": "Frowsy",
+    "definition": "An untidy appearance"
+  },
+  {
+    "word": "Elide",
+    "definition": "To strike out, omit"
+  },
+  {
+    "word": "Graft",
+    "definition": "To join or unite"
+  },
+  {
+    "word": "Pustulant",
+    "definition": "Causes pustules"
+  },
+  {
+    "word": "Propitiate",
+    "definition": "Appease"
+  },
+  {
+    "word": "Arbitrageurs",
+    "definition": "Someone who profits from temporary price differences"
+  },
+  {
+    "word": "Cavitation",
+    "definition": "Formation of partial vacuums in a liquid"
+  },
+  {
+    "word": "Intestate",
+    "definition": "Has no valid will upon death"
+  },
+  {
+    "word": "Anguine",
+    "definition": "Suggestive of a snake"
+  },
+  {
+    "word": "Alluvial",
+    "definition": "Found in loose sediment"
+  },
+  {
+    "word": "Gravid",
+    "definition": "Pregnant"
+  },
+  {
+    "word": "Chaebol",
+    "definition": "Family-controlled industrial conglomerate in South Korea"
+  },
+  {
+    "word": "Venality",
+    "definition": "Willing to be influenced improperly"
+  },
+  {
+    "word": "Syllogism",
+    "definition": "A crafty argument, deductive reasoning"
+  },
+  {
+    "word": "Neuroses",
+    "definition": "Mental disorder resulting in a distorted perception of reality, but less than full psychosis"
+  },
+  {
+    "word": "Boondoggle",
+    "definition": "Wasteful project or activity"
+  },
+  {
+    "word": "Lede",
+    "definition": "The intro section of a news story meant to hook the reader"
+  },
+  {
+    "word": "Hoi Polloi",
+    "definition": "The general masses"
+  },
+  {
+    "word": "Salubrious",
+    "definition": "Favorable to health"
+  },
+  {
+    "word": "Fleering",
+    "definition": "Sneer"
+  },
+  {
+    "word": "Grommet",
+    "definition": "A flexible loop used to support or reinforce"
+  },
+  {
+    "word": "Perseverating",
+    "definition": "To fixate"
+  },
+  {
+    "word": "Logophobia",
+    "definition": "Fear of words. Ahhh!"
+  },
+  {
+    "word": "Plaint",
+    "definition": "Lamentation"
+  },
+  {
+    "word": "Chay",
+    "definition": "Root of an herb that yields red dye"
+  },
+  {
+    "word": "Drib",
+    "definition": "Small amount"
+  },
+  {
+    "word": "Tenebrous",
+    "definition": "Obscure, causing gloom"
+  },
+  {
+    "word": "Dreck",
+    "definition": "Trash"
+  },
+  {
+    "word": "Cantle",
+    "definition": "The upward rear part of a saddle"
+  },
+  {
+    "word": "Frippery",
+    "definition": "Finery"
+  },
+  {
+    "word": "Swain",
+    "definition": "Rustic, Shepherd"
+  },
+  {
+    "word": "Phthisis",
+    "definition": "A progressively wasting condition"
+  },
+  {
+    "word": "Quipu",
+    "definition": "A device made of a main cord with several smaller cords used by ancient Peruvians for math"
+  },
+  {
+    "word": "Miniver",
+    "definition": "A white fur"
+  },
+  {
+    "word": "Effulgence",
+    "definition": "Brilliance, splendor"
+  },
+  {
+    "word": "Cupula",
+    "definition": "The bony apex of the cochlea"
+  },
+  {
+    "word": "Iniquitous",
+    "definition": "Unjust"
+  },
+  {
+    "word": "Enucleation",
+    "definition": "To remove without cutting into"
+  },
+  {
+    "word": "Perversity",
+    "definition": "Being stubborn"
+  },
+  {
+    "word": "Illeist",
+    "definition": "Someone who excessively refers to themselves as \"he\""
+  },
+  {
+    "word": "Obelize",
+    "definition": "To designate with an obelus"
+  },
+  {
+    "word": "Turgid",
+    "definition": "Bombastic, swollen"
+  },
+  {
+    "word": "Torpid",
+    "definition": "Sluggish, dormant"
+  },
+  {
+    "word": "Bascinet",
+    "definition": "A combat helmet from medieval Europe"
+  },
+  {
+    "word": "Lapidary",
+    "definition": "A cutter of gems"
+  },
+  {
+    "word": "Heifer",
+    "definition": "A young cow"
+  },
+  {
+    "word": "Coffle",
+    "definition": "A group of prisoners"
+  },
+  {
+    "word": "Filicide",
+    "definition": "Killing one's own child"
+  },
+  {
+    "word": "Alacrity",
+    "definition": "Prompness, readiness"
+  },
+  {
+    "word": "Denude",
+    "definition": "Deprive of something important"
+  },
+  {
+    "word": "Usurer",
+    "definition": "A predatory money lender"
+  },
+  {
+    "word": "Bole",
+    "definition": "Trunk of a tree"
+  },
+  {
+    "word": "Hokum",
+    "definition": "Pretentious nonsense"
+  },
+  {
+    "word": "Cavalcade",
+    "definition": "A procession"
+  },
+  {
+    "word": "Voracity",
+    "definition": "Gluttonous appetite"
+  },
+  {
+    "word": "Thwart",
+    "definition": "Crosswise beam to support a boat"
+  },
+  {
+    "word": "Prate",
+    "definition": "Idle chatter"
+  },
+  {
+    "word": "Magnanimous",
+    "definition": "Having a noble, kind spirit"
+  },
+  {
+    "word": "Barding",
+    "definition": "Warhorse armor"
+  },
+  {
+    "word": "Coir",
+    "definition": "Coarse fiber from a coconut"
+  },
+  {
+    "word": "Tort",
+    "definition": "A wrongful act"
+  },
+  {
+    "word": "Abrade",
+    "definition": "Erode"
+  },
+  {
+    "word": "Pettifogger",
+    "definition": "Underhanded lawyer"
+  },
+  {
+    "word": "Diaphanous",
+    "definition": "Insubstantial, see-through"
+  },
+  {
+    "word": "Termagant",
+    "definition": "Shrew, overbearing"
+  },
+  {
+    "word": "Virago",
+    "definition": "Loud overbearing woman"
+  },
+  {
+    "word": "Ineffable",
+    "definition": "Indescribable"
+  },
+  {
+    "word": "Semiprozine",
+    "definition": "A semi-professional periodical publication"
+  },
+  {
+    "word": "Lassitude",
+    "definition": "Fatigue"
+  },
+  {
+    "word": "Cicatrix",
+    "definition": "A raised scar"
+  },
+  {
+    "word": "Elucidation",
+    "definition": "Explanation"
+  },
+  {
+    "word": "Debutante",
+    "definition": "A young woman making her debut"
+  },
+  {
+    "word": "Zine",
+    "definition": "A small-batch, self-published, and usually non-commercial booklet"
+  },
+  {
+    "word": "Effete",
+    "definition": "No longer fertile"
+  },
+  {
+    "word": "Lionize",
+    "definition": "To treat as important"
+  },
+  {
+    "word": "Capacious",
+    "definition": "Able to contain a lot"
+  },
+  {
+    "word": "Enology",
+    "definition": "Wine science"
+  },
+  {
+    "word": "Piquancy",
+    "definition": "Having a sharp taste"
+  },
+  {
+    "word": "Voracious",
+    "definition": "Ravenous, insatiable"
+  },
+  {
+    "word": "Hooly",
+    "definition": "Slow"
+  },
+  {
+    "word": "Lown",
+    "definition": "Calm"
+  },
+  {
+    "word": "Balneotherapy",
+    "definition": "Treating disease with baths"
+  },
+  {
+    "word": "Nival",
+    "definition": "Living under the snow"
+  },
+  {
+    "word": "Misanthropic",
+    "definition": "Hatred of humanity"
+  },
+  {
+    "word": "Suborn",
+    "definition": "Induce to break the law"
+  },
+  {
+    "word": "Weir",
+    "definition": "A fence in a river to catch fish"
+  },
+  {
+    "word": "Cozen",
+    "definition": "To win over with trickery"
+  },
+  {
+    "word": "Fatuous",
+    "definition": "Foolish"
+  },
+  {
+    "word": "Archimandrites",
+    "definition": "Church ranking below bishop"
+  },
+  {
+    "word": "Agglomerate",
+    "definition": "Large cluster"
+  },
+  {
+    "word": "Aigrette",
+    "definition": "A spray of feathers for the head"
+  },
+  {
+    "word": "Expectoration",
+    "definition": "Spit, cough, eject from the throat"
   }
 ];

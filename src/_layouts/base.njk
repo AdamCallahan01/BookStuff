@@ -22,7 +22,7 @@
     <meta name="keywords" content="{{ keywords or 'fantasy, book summaries, word count, fantasy recommendations, book reviews, fantasy reviews' }}">
     <meta name="description" content="{{ bookPageDescription or description or 'Book Summaries, Reviews, Trivia, and Recommendations for popular and unpopular Fantasy Books, and anything else that I read | Fantasy Book Summaries' }}">
 
-    <link rel="canonical" href="{{ 'https://www.fantasybooksummaries.com' + permalink }}"/>
+    <link rel="canonical" href="{{ setCanonical or 'https://www.fantasybooksummaries.com' + permalink }}"/>
     <link rel="shortcut icon" href="/files/other/favicon.png">
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/elasticlunr.min.js" defer></script>

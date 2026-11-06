@@ -1,74 +1,74 @@
 .book-layout {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  gap: 2rem;
+	gap: 2rem;
 }
 
 .book-header {
-  display: grid;
+	display: grid;
 
-  grid-template-columns:
-    220px
-    minmax(0, 1fr);
+	grid-template-columns:
+		220px
+		minmax(0, 1fr);
 
-  gap: 2rem;
+	gap: 2rem;
 
-  align-items: start;
+	align-items: start;
 
-  padding: 1.5rem;
+	padding: 1.5rem;
 
-  background: var(--surface-1);
+	background: var(--surface-1);
 
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-card);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius-card);
 }
 
 .book-cover {
-  width: 100%;
+	width: 100%;
 
-  border-radius: var(--radius-3);
+	border-radius: var(--radius-3);
 
-  box-shadow: var(--shadow-3);
+	box-shadow: var(--shadow-3);
 
-  object-fit: cover;
+	object-fit: cover;
 }
 
 .book-meta {
-  min-width: 0;
+	min-width: 0;
 }
 
 .book-title {
-  margin: 0 0 1rem;
+	margin: 0 0 1rem;
 
-  line-height: 1.15;
+	line-height: 1.15;
 
-  font-size: clamp(1.8rem, 3vw, 2.6rem);
+	font-size: clamp(1.8rem, 3vw, 2.6rem);
 }
 
 .book-facts {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  gap: 0.75rem;
+	gap: 0.75rem;
 }
 
 .book-fact {
-  margin: 0;
+	margin: 0;
 
-  line-height: 1.5;
+	line-height: 1.5;
 
-  color: var(--gray-8);
+	color: var(--gray-8);
 }
 
 .book-link {
-  color: var(--link-color);
+	color: var(--link-color);
 
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .book-link:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* =========================================================
@@ -76,92 +76,93 @@
 ========================================================= */
 
 .book-reads-section,
-.book-summary-section {
-  padding: 1.25rem;
+.book-summary-section,
+.book-trivia-section {
+	padding: 1.25rem;
 
-  background: var(--surface-1);
+	background: var(--surface-1);
 
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-card);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius-card);
 }
 
 .section-title {
-  margin: 0 0 1rem;
+	margin: 0 0 1rem;
 
-  padding-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
 
-  border-bottom: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--border-color);
 
-  font-size: 1.3rem;
+	font-size: 1.3rem;
 }
 
 .book-read-entry,
 .book-summary-entry {
-  overflow: auto;
-  max-width: 100%;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-3);
+	overflow: auto;
+	max-width: 100%;
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius-3);
 
-  background: var(--surface-0);
+	background: var(--surface-0);
 }
 
 .book-read-entry + .book-read-entry {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .book-read-summary,
 .book-summary-summary {
-  padding: 1rem 1.1rem;
+	padding: 1rem 1.1rem;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  font-weight: 600;
+	font-weight: 600;
 
-  list-style: none;
+	list-style: none;
 }
 
 .book-read-summary::-webkit-details-marker,
 .book-summary-summary::-webkit-details-marker {
-  display: none;
+	display: none;
 }
 
 .book-read-content,
 .book-summary-content {
-  padding: 0 1.1rem 1.1rem;
+	padding: 0 1.1rem 1.1rem;
 
-  line-height: 1.7;
+	line-height: 1.7;
 }
 
 .book-read-content p,
 .book-summary-content p {
-  margin: 0 0 1rem;
+	margin: 0 0 1rem;
 }
 
 /* =========================================================
  Mobile
 ========================================================= */
 @media (max-width: 769px) {
-  .book-header {
-    grid-template-columns: 1fr;
+	.book-header {
+		grid-template-columns: 1fr;
 
-    gap: 1.5rem;
-  }
+		gap: 1.5rem;
+	}
 
-  .book-cover {
-    max-width: 220px;
+	.book-cover {
+		max-width: 220px;
 
-    margin: 0 auto;
-  }
+		margin: 0 auto;
+	}
 
-  .book-title {
-    font-size: 2rem;
-  }
+	.book-title {
+		font-size: 2rem;
+	}
 
-  .book-read-summary,
-  .book-summary-summary {
-    min-height: 48px;
+	.book-read-summary,
+	.book-summary-summary {
+		min-height: 48px;
 
-    display: flex;
-    align-items: center;
-  }
+		display: flex;
+		align-items: center;
+	}
 }
