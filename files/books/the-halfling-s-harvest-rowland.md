@@ -18,17 +18,17 @@ subgenre: "Cozy"
 isbn: "9781964567198"
 narrator: "Eric Jason Martin, Jessica Threet"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "the-halfling-s-harvest-rowland-summary"
 summarySlugLink: "[[the-halfling-s-harvest-rowland-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 2
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 2
+allScores: [2]
 readSlugs: ["the-halfling-s-harvest-rowland-1"]
 readSlugsLinks: ["[[the-halfling-s-harvest-rowland-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-halfling-s-harvest-rowland-cover"
 ---
 
