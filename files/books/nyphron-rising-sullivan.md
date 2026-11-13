@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780979621147"
 bookOwned: false
 otherSeries: "World of Elan"
-hasSummary: false
+hasSummary: true
 summarySlug: "nyphron-rising-sullivan-summary"
 summarySlugLink: "[[nyphron-rising-sullivan-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["nyphron-rising-sullivan-1"]
 readSlugsLinks: ["[[nyphron-rising-sullivan-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "nyphron-rising-sullivan-cover"
 ---
 

@@ -16,6 +16,7 @@ numGoodreadsRatings: "6067"
 genre: "Fantasy"
 subgenre: "Progression"
 isbn: "9781638493044"
+narrator: "Ralph Lister"
 bookOwned: true
 hasSummary: false
 summarySlug: "ironbound-givler-summary"
