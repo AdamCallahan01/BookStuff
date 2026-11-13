@@ -2455,5 +2455,203 @@ export default [
     "answer": "Arthur and Trillian's daughter",
     "difficulty": "Easy",
     "random": false
+  },
+  {
+    "series": "Tales of Aedrea",
+    "author": "S.L. Rowland",
+    "title": "The Halfling's Harvest",
+    "question": "What is the cats name?",
+    "answer": "Onyx",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "Tales of Aedrea",
+    "author": "S.L. Rowland",
+    "title": "The Halfling's Harvest",
+    "question": "What is the town where the story takes place?",
+    "answer": "Willowbrook",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "Tales of Aedrea",
+    "author": "S.L. Rowland",
+    "title": "The Halfling's Harvest",
+    "question": "What is the most famous type of Halfling wine?",
+    "answer": "Honey Wine",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Crown Conspiracy",
+    "question": "What is the name Hadrian and Royce operate as?",
+    "answer": "Riyria",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Crown Conspiracy",
+    "question": "What is the name of the prison Royce was in?",
+    "answer": "Manzant",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Crown Conspiracy",
+    "question": "What is the capital of Melengar?",
+    "answer": "Medford",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Crown Conspiracy",
+    "question": "What is the prison Esrahaddon was kept in?",
+    "answer": "Gutaria",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Crown Conspiracy",
+    "question": "What is the nickname Archibald Ballentyne hates?",
+    "answer": "Archie",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Crown Conspiracy",
+    "question": "Why did Royce and Hadrian break into the castle?",
+    "answer": "Teshlor Knight and bodyguard to the heir",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Avempartha",
+    "question": "What village is Thrace from?",
+    "answer": "Dahlgren",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Avempartha",
+    "question": "What is the name of the beast?",
+    "answer": "Gilarabrywn",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Avempartha",
+    "question": "Who built Avempartha?",
+    "answer": "Elves",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Avempartha",
+    "question": "What is the name of Royce's dagger?",
+    "answer": "Alvenstone",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Avempartha",
+    "question": "What is the name of Arista's bodyguard?",
+    "answer": "Hilfred",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Avempartha",
+    "question": "Who was Jerish?",
+    "answer": "#REF!",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "Where did Arista study?",
+    "answer": "Sheridan university",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "What was the name of Hadrian's father?",
+    "answer": "Danbury Blackwater (Tramus Dan)",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "What type of sword does Hadrian carry?",
+    "answer": "Spadone",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "Where is Royce from?",
+    "answer": "Ratibor",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "Where was Hadrian born?",
+    "answer": "Hintindar",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "Who introduced Royce and Hadrian?",
+    "answer": "Arcadius",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "Nyphron Rising",
+    "question": "What is the secret group who protect the heir? (Anagram of shield the emperor)",
+    "answer": "Theorem Eldership",
+    "difficulty": "Hard",
+    "random": false
   }
 ];

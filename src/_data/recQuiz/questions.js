@@ -1,42 +1,53 @@
 export default [
   {
     "id": "setting-question-1",
-    "prompt": "Where do you want the story to take place?",
+    "prompt": "What is your favorite book setting?",
     "answers": [
       {
-        "text": "Medieval setting,",
+        "text": "Medieval. Castles, Villages, etc.",
         "scores": {
-          "audiobook": 5,
-          "epicFantasy": 60
+          "fantasy": 100,
+          "epic": 60
         }
       },
       {
-        "text": "Modern city",
+        "text": "Modern or Futuristic Earth",
         "scores": {
-          "audiobook": 0,
-          "fantasy": 60
+          "fantasy": 80,
+          "scienceFiction": 20
         }
       },
       {
-        "text": "Other planet or in space",
+        "text": "Ancient Earth",
         "scores": {
-          "scienceFiction": 50
+          "fantasy": 70
         }
       },
       {
-        "text": "Unsure"
+        "text": "Space",
+        "scores": {
+          "scienceFiction": 100
+        }
+      },
+      {
+        "text": "Something completely unique",
+        "scores": {
+          "fantasy": 70,
+          "highFantasy": 30
+        }
       }
     ]
   },
   {
     "id": "magic-question-2",
-    "prompt": "How do you like your magic?",
+    "prompt": "What is the best type of magic?",
     "answers": [
       {
-        "text": "Strict rules",
+        "text": "None",
         "scores": {
-          "highFantasy": 50,
-          "hardMagic": 80
+          "scienceFiction": 40,
+          "highFantasy": 0,
+          "hardMagic": 0
         }
       },
       {
@@ -46,15 +57,17 @@ export default [
         }
       },
       {
-        "text": "No magic",
+        "text": "Well-defined with clear rules and limits",
         "scores": {
-          "lowFantasy": 70
+          "highFantasy": 50,
+          "hardMagic": 100
         }
       },
       {
-        "text": "None",
+        "text": "Magic not very common in the setting",
         "scores": {
-          "lowFantasy": 50
+          "highFantasy": 10,
+          "hardMagic": 50
         }
       }
     ]
@@ -88,32 +101,37 @@ export default [
   },
   {
     "id": "creatures-question-4",
-    "prompt": "What types of creatures do you want to see?",
+    "prompt": "Favorite type of creature?",
     "answers": [
       {
-        "text": "Dragons",
+        "text": "Dragon",
         "scores": {
           "fantasy": 30,
-          "scienceFiction": 0,
-          "epicFantasy": 40,
+          "epic": 40,
           "highFantasy": 40,
-          "dragons": 70
+          "dragons": 70,
+          "animals": 30
         }
       },
       {
-        "text": "Robots",
-        "scores": {
-          "scienceFiction": 40
-        }
-      },
-      {
-        "text": "Animals",
+        "text": "Dog",
         "scores": {
           "animals": 100
         }
       },
       {
-        "text": "None"
+        "text": "Horse",
+        "scores": {
+          "animals": 50
+        }
+      },
+      {
+        "text": "None",
+        "scores": {
+          "scienceFiction": 10,
+          "dragons": 0,
+          "animals": 0
+        }
       }
     ]
   },
@@ -122,24 +140,88 @@ export default [
     "prompt": "How do you feel about audiobooks?",
     "answers": [
       {
-        "text": "Love them",
+        "text": "Great",
         "scores": {
-          "audiobook": 80
+          "audiobook": 100
         }
       },
       {
-        "text": "No thanks",
+        "text": "Neutral",
+        "scores": {
+          "audiobook": 50
+        }
+      },
+      {
+        "text": "Not for me",
         "scores": {
           "audiobook": 0
         }
-      },
+      }
+    ]
+  },
+  {
+    "id": "test-question-6",
+    "prompt": "Test",
+    "answers": [
       {
-        "text": "Neutral"
-      },
-      {
-        "text": "Needs a good narrator",
+        "text": "1",
         "scores": {
-          "audiobook": 50
+          "longSeries": 100,
+          "grimdark": 100,
+          "cozy": 100,
+          "progression": 10,
+          "humor": 100
+        }
+      },
+      {
+        "text": "2",
+        "scores": {
+          "audiobook": 30,
+          "epic": 70,
+          "romance": 70,
+          "progression": 70
+        }
+      },
+      {
+        "text": "3",
+        "scores": {
+          "fantasy": 100,
+          "scienceFiction": 100,
+          "audiobook": 100,
+          "longSeries": 100,
+          "grimdark": 100,
+          "epic": 100,
+          "romance": 100,
+          "heist": 100,
+          "cozy": 100,
+          "progression": 100,
+          "characterDriven": 100,
+          "humor": 100,
+          "highFantasy": 100,
+          "hardMagic": 100,
+          "dragons": 100,
+          "animals": 100
+        }
+      },
+      {
+        "text": "4",
+        "scores": {
+          "fantasy": 10,
+          "scienceFiction": 10,
+          "audiobook": 10,
+          "longSeries": 10,
+          "grimdark": 10,
+          "epic": 10,
+          "romance": 10,
+          "heist": 10,
+          "cozy": 10,
+          "progression": 10,
+          "characterDriven": 10,
+          "humor": 10,
+          "highFantasy": 10,
+          "hardMagic": 10,
+          "dragons": 10,
+          "animals": 10
         }
       }
     ]
