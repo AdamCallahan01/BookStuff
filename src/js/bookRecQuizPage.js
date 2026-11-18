@@ -1,22 +1,26 @@
 (function () {
-	let debug = true;
+	let debug = false;
 
 	// ===========================================================================
 	// SCORING SETTINGS
 	//
-	// How scoring works:
-	//   1. The quiz answers are added up into one score (0-100) per category.
-	//   2. For each book pick a list of categories to compare (see categoriesToCompare).
-	//   3. For each of those categories we measure how far the reader's score is from the book's score. A perfect match is 0, the worst possible miss is 100.
+	//   1. Each slider the reader moved becomes a score (0-100) for its category.
+	//      Sliders left on "No preference" are simply not scored.
+	//   2. For each book, we pick a list of categories to compare (see categoriesToCompare).
+	//   3. For each of those categories we measure how far the reader's score is from the
+	//      book's score. A perfect match is 0, the worst possible miss is 100.
 	//   4. Those misses are combined into ONE "distance" number for the book.
 	//   5. LOWER DISTANCE = BETTER MATCH. Books are sorted lowest distance first.
+	//
 	// ===========================================================================
 	var SCORING = {
 		// WHICH categories get compared for each book.
 		//
-		//   "user": compare only the categories the reader gave answers about. Every book is judged on exactly the same list, so a book with only two
-		//           fields can't win just because it has fewer things to get wrong.
-		//   "book": compare only the categories the book defines. Books with few fields have an advantage in this mode.
+		//   "user" (recommended): compare only the categories the reader gave answers about.
+		//         Every book is judged on exactly the same list, so a book with only two
+		//         fields can't win just because it has fewer things to get wrong.
+		//   "book": compare only the categories the book defines.
+		//         Books with few fields have an advantage in this mode.
 		//   "both": compare every category either side mentions. Strictest option.
 		categoriesToCompare: "user",
 
@@ -25,7 +29,7 @@
 		// 50  = "unknown / neutral" (softer on books with sparse data)
 		missingBookScore: 0,
 
-		// Score to assume when the reader gave NO answers about a category the book defines.
+		// Score to assume when the reader gave NO answer about a category the book defines.
 		// Only matters when categoriesToCompare is "book" or "both".
 		// 0 = "reader doesn't want this", 50 = "reader is neutral about it".
 		missingUserScore: 0,
@@ -33,7 +37,7 @@
 		// Make some categories matter more than others. A weight of 2 means a miss in that
 		// category counts twice as much. Any category not listed uses defaultWeight.
 		// Example: { hardMagic: 2, dragons: 0.5 }
-		categoryWeights: { fantasy: 2, scienceFiction: 2, hardMagic: 1.5 },
+		categoryWeights: { fantasy: 2, scienceFiction: 2 },
 		defaultWeight: 1,
 
 		// How harshly big misses are punished compared to small ones.
@@ -48,6 +52,9 @@
 	if (!dataEl) return;
 	if (debug) console.log(dataEl);
 
+	// The data holds two kinds of questio
+	//       A 0-10 slider that sets the reader's score for one category.
+	//       Radio buttons. An answer can set traits (age, genre) that filter books out.
 	var data = JSON.parse(dataEl.textContent);
 	var questions = data.questions;
 	var books = data.books;
@@ -70,70 +77,94 @@
 	form.addEventListener("submit", function (event) {
 		if (debug) console.log("Submit");
 		event.preventDefault();
-		var answers = collectAnswers();
-		var ranked = rankBooks(answers);
+		var reader = collectAnswers();
+
+		if (Object.keys(reader.userScores).length === 0) {
+			resultEl.hidden = false;
+			resultEl.innerHTML = "<p>At least one question needs a value</p>";
+			return;
+		}
+
+		var ranked = rankBooks(reader.userScores, reader.traits);
 		renderResult(ranked);
+	});
+
+	// While the reader drags a slider: keep its number display current, and untick its
+	// "No preference" box so the category counts from now on.
+	form.addEventListener("input", function (event) {
+		var input = event.target;
+		if (input.type !== "range") return;
+
+		var output = input.closest("fieldset").querySelector("output");
+		if (output) output.textContent = input.value;
+
+		var skipBox = form.querySelector('input[name="' + input.name + '-skip"]');
+		if (skipBox) skipBox.checked = false;
 	});
 
 	function collectAnswers() {
 		if (debug) console.log("Collect Answers");
-		var answers = {};
+		var userScores = {};
+		var traits = {};
+
 		questions.forEach(function (question) {
-			var checked = form.querySelector('input[name="' + question.id + '"]:checked');
-			if (checked) {
-				answers[question.id] = Number(checked.value);
+			if (question.type === "slider") {
+				var score = readSlider(question);
+				if (score !== null) {
+					userScores[question.category] = score;
+				}
+			} else if (question.type === "choice") {
+				var answerTraits = readChoice(question);
+				Object.keys(answerTraits).forEach(function (key) {
+					traits[key] = answerTraits[key];
+				});
 			}
 		});
-		if (debug) console.log(answers);
-		return answers;
+
+		if (debug) console.log(userScores, traits);
+		return { userScores: userScores, traits: traits };
+	}
+
+	// Returns the slider's score on the 0-100 scale the book data uses,
+	// or null if the reader left it on "No preference".
+	function readSlider(question) {
+		var input = form.querySelector('input[type="range"][name="' + question.id + '"]');
+		if (!input) return null;
+
+		var skipBox = form.querySelector('input[name="' + question.id + '-skip"]');
+		if (skipBox && skipBox.checked) return null;
+
+		var max = Number(input.max) || 10;
+		return (Number(input.value) / max) * 100;
+	}
+
+	// Returns the traits of the picked answer, or {} if nothing was picked
+	// (or the picked answer sets no traits, like "No preference").
+	function readChoice(question) {
+		var checked = form.querySelector('input[name="' + question.id + '"]:checked');
+		if (!checked) return {};
+
+		var answer = question.answers[Number(checked.value)];
+		return (answer && answer.traits) || {};
 	}
 
 	// ===========================================================================
 	// RANKING
-	// Turns the quiz answers into a sorted list of books, best match first.
+	// Turns the reader's scores into a sorted list of books, best match first.
 	// Each entry looks like:
 	//   { book, distance, matchScore, breakdown }
 	//     distance   - the real score. LOWER IS BETTER. 0 = perfect, 100 = worst possible.
 	//     matchScore - the same thing flipped into a "% match" for display.
-	//     breakdown  - per-category details for debugging
+	//     breakdown  - per-category details
 	// ===========================================================================
-	function rankBooks(answers) {
+	function rankBooks(userScores, traits) {
 		if (debug) console.log("Rank Books");
-		var rawScores = {};
-		var traits = {};
-
-		// Add up the reader's points per category from every answer they picked.
-		questions.forEach(function (question) {
-			var index = answers[question.id];
-			if (index === undefined) return;
-			var answer = question.answers[index];
-			if (!answer) return;
-
-			if (answer.scores) {
-				Object.keys(answer.scores).forEach(function (category) {
-					rawScores[category] = (rawScores[category] || 0) + answer.scores[category];
-				});
-			}
-			if (answer.traits) {
-				Object.keys(answer.traits).forEach(function (key) {
-					traits[key] = answer.traits[key];
-				});
-			}
-		});
-
-		// Clamp accumulated points to the same 0-100 scale the book data uses,
-		// so a category is never worth more than "fully matches" or less than "not present at all".
-		var userScores = {};
-		Object.keys(rawScores).forEach(function (category) {
-			userScores[category] = Math.max(0, Math.min(100, rawScores[category]));
-		});
 
 		var ranked = books
-			// Step 1: throw out books that break a hard rule (age, genre).
 			.filter(function (book) {
 				return passesHardCaps(book.hardCaps, traits);
 			})
-			// Step 2: give every remaining book a distance score.
+			// give every remaining book a distance score.
 			.map(function (book) {
 				var result = scoreBook(userScores, book.scores || {});
 				return {
@@ -143,7 +174,7 @@
 					breakdown: result.breakdown,
 				};
 			})
-			// Step 3: lowest distance (best match) first.
+			// lowest distance (best match) first.
 			.sort(function (a, b) {
 				return a.distance - b.distance;
 			});
@@ -152,6 +183,7 @@
 		return ranked;
 	}
 
+	// A trait the reader didn't set (no age picked, or "No preference") filters nothing.
 	function passesHardCaps(hardCaps, traits) {
 		if (!hardCaps) return true;
 
@@ -176,7 +208,8 @@
 	// SCORING HELPERS
 	// ===========================================================================
 
-	// Scores a single book against the reader. Returns the distance (lower = better) plus a per-category breakdown.
+	// Scores a single book against the reader. Returns the distance (lower = better)
+	// plus a per-category breakdown.
 	function scoreBook(userScores, bookScores) {
 		var categories = getCategoriesToCompare(userScores, bookScores);
 		var breakdown = [];
@@ -229,7 +262,7 @@
 		return userCategories;
 	}
 
-	// How bad is the miss in one category? Always returns 0 (perfect) to 100 (worst).
+	// How bad is the miss in a single category? Always returns 0 (perfect) to 100 (worst).
 	function categoryPenalty(userValue, bookValue) {
 		// Gap between the two scores, as a fraction: 0 = identical, 1 = opposite ends.
 		var gap = Math.abs(userValue - bookValue) / 100;
@@ -239,22 +272,23 @@
 
 	// Combines all the category penalties into the book's final distance.
 	//
-	// Default: weighted AVERAGE penalty, which keeps the result on a 0-100 scale (so the "% match" display keeps working).
+	// Default: weighted AVERAGE penalty, which keeps the result on a 0-100 scale
+	// (so the "% match" display keeps working).
 	//
 	//   - Raw total:  return weightedTotal;
 	//       Only fair when every book is compared on the same categories
 	//       (categoriesToCompare = "user"). With "book" or "both", books with more
 	//       categories would pile up a bigger total and be unfairly punished.
+	//       Note distanceToPercent() assumes a 0-100 scale, so update it too.
 	//   - Coverage penalty: add extra distance for each category the book is missing
 	//       (e.g. weightedTotal / totalWeight + missingCount * 5).
 	function balanceDistance(weightedTotal, totalWeight) {
-		// Nothing to compare (reader answered nothing scored): every book ties at 0.
+		// Nothing to compare: every book ties at 0.
 		if (totalWeight === 0) return 0;
 		return weightedTotal / totalWeight;
 	}
 
 	// Flips a distance (0 = perfect) into a "% match" (100 = perfect) for display only.
-	// The sorting never uses this number, it uses the distance.
 	function distanceToPercent(distance) {
 		return Math.round(Math.max(0, Math.min(100, 100 - distance)));
 	}
@@ -268,7 +302,7 @@
 		return value !== undefined ? value : fallback;
 	}
 
-	// prints the category-by-category numbers for the top books,
+	// Debug helper: prints the category-by-category numbers for the top books
 	function logTopBreakdowns(ranked) {
 		ranked.slice(0, 5).forEach(function (entry) {
 			console.log(entry.book.title + " | distance " + entry.distance.toFixed(1) + " (" + entry.matchScore + "% match)");

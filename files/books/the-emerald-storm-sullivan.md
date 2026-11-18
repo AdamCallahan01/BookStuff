@@ -18,17 +18,17 @@ subgenre: "Epic"
 isbn: "9780982514535"
 bookOwned: false
 otherSeries: "World of Elan"
-hasSummary: false
+hasSummary: true
 summarySlug: "the-emerald-storm-sullivan-summary"
 summarySlugLink: "[[the-emerald-storm-sullivan-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 8.5
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 8.5
+allScores: [8.5]
 readSlugs: ["the-emerald-storm-sullivan-1"]
 readSlugsLinks: ["[[the-emerald-storm-sullivan-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "the-emerald-storm-sullivan-cover"
 ---
 
