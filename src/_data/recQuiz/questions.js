@@ -1,229 +1,126 @@
 export default [
   {
-    "id": "setting-question-1",
-    "prompt": "What is your favorite book setting?",
+    "id": "age-question",
+    "type": "choice",
+    "prompt": "How mature of a book do you want?",
     "answers": [
       {
-        "text": "Medieval. Castles, Villages, etc.",
-        "scores": {
-          "fantasy": 100,
-          "epic": 60
+        "text": "Any"
+      },
+      {
+        "text": "Kids book",
+        "traits": {
+          "age": 10
         }
       },
       {
-        "text": "Modern or Futuristic Earth",
-        "scores": {
-          "fantasy": 80,
-          "scienceFiction": 20
+        "text": "YA / Teen",
+        "traits": {
+          "age": 15
         }
       },
-      {
-        "text": "Ancient Earth",
-        "scores": {
-          "fantasy": 70
-        }
-      },
-      {
-        "text": "Space",
-        "scores": {
-          "scienceFiction": 100
-        }
-      },
-      {
-        "text": "Something completely unique",
-        "scores": {
-          "fantasy": 70,
-          "highFantasy": 30
-        }
-      }
-    ]
-  },
-  {
-    "id": "magic-question-2",
-    "prompt": "What is the best type of magic?",
-    "answers": [
-      {
-        "text": "None",
-        "scores": {
-          "scienceFiction": 40,
-          "highFantasy": 0,
-          "hardMagic": 0
-        }
-      },
-      {
-        "text": "Mysterious",
-        "scores": {
-          "highFantasy": 50
-        }
-      },
-      {
-        "text": "Well-defined with clear rules and limits",
-        "scores": {
-          "highFantasy": 50,
-          "hardMagic": 100
-        }
-      },
-      {
-        "text": "Magic not very common in the setting",
-        "scores": {
-          "highFantasy": 10,
-          "hardMagic": 50
-        }
-      }
-    ]
-  },
-  {
-    "id": "age-question-3",
-    "prompt": "How mature of a story do you want?",
-    "answers": [
       {
         "text": "Adult",
         "traits": {
-          "age": 19
-        }
-      },
-      {
-        "text": "YA",
-        "traits": {
-          "age": 12
-        }
-      },
-      {
-        "text": "Kids",
-        "traits": {
-          "age": 5
-        }
-      },
-      {
-        "text": "Any"
-      }
-    ]
-  },
-  {
-    "id": "creatures-question-4",
-    "prompt": "Favorite type of creature?",
-    "answers": [
-      {
-        "text": "Dragon",
-        "scores": {
-          "fantasy": 30,
-          "epic": 40,
-          "highFantasy": 40,
-          "dragons": 70,
-          "animals": 30
-        }
-      },
-      {
-        "text": "Dog",
-        "scores": {
-          "animals": 100
-        }
-      },
-      {
-        "text": "Horse",
-        "scores": {
-          "animals": 50
-        }
-      },
-      {
-        "text": "None",
-        "scores": {
-          "scienceFiction": 10,
-          "dragons": 0,
-          "animals": 0
+          "age": 18
         }
       }
     ]
   },
   {
-    "id": "audiobook-question-5",
-    "prompt": "How do you feel about audiobooks?",
-    "answers": [
-      {
-        "text": "Great",
-        "scores": {
-          "audiobook": 100
-        }
-      },
-      {
-        "text": "Neutral",
-        "scores": {
-          "audiobook": 50
-        }
-      },
-      {
-        "text": "Not for me",
-        "scores": {
-          "audiobook": 0
-        }
-      }
-    ]
+    "id": "fantasy-question-1",
+    "type": "slider",
+    "category": "fantasy",
+    "prompt": "How many fantasy elements do you want? (Magic, different world, etc.)"
   },
   {
-    "id": "test-question-6",
-    "prompt": "Test",
-    "answers": [
-      {
-        "text": "1",
-        "scores": {
-          "longSeries": 100,
-          "grimdark": 100,
-          "cozy": 100,
-          "progression": 10,
-          "humor": 100
-        }
-      },
-      {
-        "text": "2",
-        "scores": {
-          "audiobook": 30,
-          "epic": 70,
-          "romance": 70,
-          "progression": 70
-        }
-      },
-      {
-        "text": "3",
-        "scores": {
-          "fantasy": 100,
-          "scienceFiction": 100,
-          "audiobook": 100,
-          "longSeries": 100,
-          "grimdark": 100,
-          "epic": 100,
-          "romance": 100,
-          "heist": 100,
-          "cozy": 100,
-          "progression": 100,
-          "characterDriven": 100,
-          "humor": 100,
-          "highFantasy": 100,
-          "hardMagic": 100,
-          "dragons": 100,
-          "animals": 100
-        }
-      },
-      {
-        "text": "4",
-        "scores": {
-          "fantasy": 10,
-          "scienceFiction": 10,
-          "audiobook": 10,
-          "longSeries": 10,
-          "grimdark": 10,
-          "epic": 10,
-          "romance": 10,
-          "heist": 10,
-          "cozy": 10,
-          "progression": 10,
-          "characterDriven": 10,
-          "humor": 10,
-          "highFantasy": 10,
-          "hardMagic": 10,
-          "dragons": 10,
-          "animals": 10
-        }
-      }
-    ]
+    "id": "scifi-question-2",
+    "type": "slider",
+    "category": "scienceFiction",
+    "prompt": "How much Science Fiction do you want? (Space travel, futuristic, dystopian, etc.)"
+  },
+  {
+    "id": "epic-question-3",
+    "type": "slider",
+    "category": "epic",
+    "prompt": "How epic of a story are you looking for? (Grand scale, far reaching implications or large battles)"
+  },
+  {
+    "id": "grimdark-question-4",
+    "type": "slider",
+    "category": "grimdark",
+    "prompt": "How dark do you want the story to be?"
+  },
+  {
+    "id": "romance-question-5",
+    "type": "slider",
+    "category": "romance",
+    "prompt": "How much romance do you want?"
+  },
+  {
+    "id": "heist-question-6",
+    "type": "slider",
+    "category": "heist",
+    "prompt": "Do you like a heist story? (Follow a group of criminals pulling off a crime)"
+  },
+  {
+    "id": "cozy-question-7",
+    "type": "slider",
+    "category": "cozy",
+    "prompt": "Do you enjoy a cozier story with low stake?"
+  },
+  {
+    "id": "progression-question-8",
+    "type": "slider",
+    "category": "progression",
+    "prompt": "How much do you enjoy seeing a main character progress and grow stronger?"
+  },
+  {
+    "id": "character-question-9",
+    "type": "slider",
+    "category": "characterDriven",
+    "prompt": "How important are character relationships and dialogue?"
+  },
+  {
+    "id": "humor-question-10",
+    "type": "slider",
+    "category": "humor",
+    "prompt": "Do you enjoy humor and jokes in a book?"
+  },
+  {
+    "id": "highfantasy-question-11",
+    "type": "slider",
+    "category": "highFantasy",
+    "prompt": "Do you prefer fantasy with more real settings or more magic and unexplainable phenomena?"
+  },
+  {
+    "id": "hardmagic-question-12",
+    "type": "slider",
+    "category": "hardMagic",
+    "prompt": "Do you prefer magic to be mysterious or well-defined and explained?"
+  },
+  {
+    "id": "dragons-question-13",
+    "type": "slider",
+    "category": "dragons",
+    "prompt": "How much dragons?"
+  },
+  {
+    "id": "animals-question-14",
+    "type": "slider",
+    "category": "animals",
+    "prompt": "How important are animal companions to you?"
+  },
+  {
+    "id": "audiobook-question",
+    "type": "slider",
+    "category": "audiobook",
+    "prompt": "Do you enjoy audiobooks?"
+  },
+  {
+    "id": "longseries-question",
+    "type": "slider",
+    "category": "longSeries",
+    "prompt": "Are you trying to find a short, standalone book or a long series"
   }
 ];

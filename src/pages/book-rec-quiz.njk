@@ -20,15 +20,29 @@ keywords: fantasy, quiz, what to read, beginner fantasy book, best fantasy books
 
     <form id="quiz-form" novalidate>
         {% for question in recQuiz.questions %}
-            <fieldset class="book-quiz__question">
-                <legend>{{ question.prompt }}</legend>
-                {% for answer in question.answers %}
+            {% if question.type == "slider" %}
+                <fieldset class="book-quiz__question book-quiz__question--slider">
+                    <legend>{{ question.prompt }}</legend>
+                    <div class="book-quiz__slider">
+                        <input type="range" name="{{ question.id }}" min="0" max="10" step="1" value="5">
+                        <output class="book-quiz__slider-value">5</output>
+                    </div>
                     <label class="book-quiz__option">
-                        <input type="radio" name="{{ question.id }}" value="{{ loop.index0 }}">
-                        <span>{{ answer.text }}</span>
+                        <input type="checkbox" name="{{ question.id }}-skip" checked>
+                        <span>No preference</span>
                     </label>
-                {% endfor %}
-            </fieldset>
+                </fieldset>
+            {% else %}
+                <fieldset class="book-quiz__question">
+                    <legend>{{ question.prompt }}</legend>
+                    {% for answer in question.answers %}
+                        <label class="book-quiz__option">
+                            <input type="radio" name="{{ question.id }}" value="{{ loop.index0 }}">
+                            <span>{{ answer.text }}</span>
+                        </label>
+                    {% endfor %}
+                </fieldset>
+            {% endif %}
         {% endfor %}
 
         <button type="submit" class="book-quiz__submit">See my book</button>
