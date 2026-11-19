@@ -67,7 +67,7 @@ export default [
     "id": "cozy-question-7",
     "type": "slider",
     "category": "cozy",
-    "prompt": "Do you enjoy a cozier story with low stake?"
+    "prompt": "Do you enjoy a cozier story with low stakes?"
   },
   {
     "id": "progression-question-8",
@@ -109,7 +109,19 @@ export default [
     "id": "animals-question-14",
     "type": "slider",
     "category": "animals",
-    "prompt": "How important are animal companions to you?"
+    "prompt": "Do you like animals in books?"
+  },
+  {
+    "id": "mystery-question-15",
+    "type": "slider",
+    "category": "mystery",
+    "prompt": "Do you enjoy elements of mystery and suspense?"
+  },
+  {
+    "id": "military-question-16",
+    "type": "slider",
+    "category": "military",
+    "prompt": "How many militaristic elements do you like? (Large scale battles, well-defined action scenes, etc.)"
   },
   {
     "id": "audiobook-question",

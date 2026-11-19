@@ -18,17 +18,17 @@ subgenre: "Progression"
 isbn: "9781638493044"
 narrator: "Ralph Lister"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "ironbound-givler-summary"
 summarySlugLink: "[[ironbound-givler-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7
 readCount: 1
-averageScore: 0
-allScores: [0]
+averageScore: 7
+allScores: [7]
 readSlugs: ["ironbound-givler-1"]
 readSlugsLinks: ["[[ironbound-givler-1]]"]
-currentRead: true
+currentRead: false
 coverSlug: "ironbound-givler-cover"
 ---
 

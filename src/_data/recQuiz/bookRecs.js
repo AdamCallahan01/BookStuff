@@ -13,6 +13,8 @@ export default [
       "romance": 20,
       "heist": 80,
       "progression": 50,
+      "mystery": 80,
+      "military": 20,
       "highFantasy": 100,
       "hardMagic": 100
     },
@@ -30,6 +32,7 @@ export default [
       "longSeries": 30,
       "epic": 100,
       "heist": 40,
+      "military": 30,
       "highFantasy": 100,
       "dragons": 70
     },
@@ -48,6 +51,7 @@ export default [
       "grimdark": 40,
       "epic": 10,
       "heist": 100,
+      "mystery": 90,
       "characterDriven": 80,
       "humor": 50,
       "highFantasy": 20
@@ -68,6 +72,7 @@ export default [
       "romance": 30,
       "heist": 20,
       "progression": 70,
+      "mystery": 40,
       "highFantasy": 80,
       "hardMagic": 75,
       "animals": 40
@@ -88,6 +93,7 @@ export default [
       "epic": 40,
       "heist": 20,
       "progression": 70,
+      "military": 80,
       "characterDriven": 30
     },
     "hardCaps": {
@@ -105,6 +111,8 @@ export default [
       "longSeries": 60,
       "grimdark": 80,
       "epic": 40,
+      "mystery": 20,
+      "military": 60,
       "characterDriven": 90,
       "humor": 50,
       "highFantasy": 30
@@ -126,6 +134,7 @@ export default [
       "epic": 60,
       "cozy": 50,
       "progression": 90,
+      "mystery": 40,
       "characterDriven": 30,
       "humor": 20,
       "highFantasy": 70,
@@ -148,6 +157,8 @@ export default [
       "longSeries": 70,
       "epic": 70,
       "heist": 70,
+      "mystery": 90,
+      "military": 20,
       "characterDriven": 50,
       "highFantasy": 40,
       "dragons": 10,
@@ -166,6 +177,7 @@ export default [
       "fantasy": 100,
       "cozy": 40,
       "progression": 100,
+      "mystery": 50,
       "characterDriven": 10,
       "humor": 10,
       "highFantasy": 80,
@@ -179,8 +191,8 @@ export default [
   {
     "title": "Cradle",
     "author": "Will Wight",
-    "slug": "mother-of-learning-arc-1-kurmaic",
-    "description": "One of the most popular progression fantasy series out there. Follows Lindon as he grows, with an asian inspired world and system. The middle of the series is esoecially great.",
+    "slug": "unsouled-wight",
+    "description": "One of the most popular progression fantasy series out there. Follows Lindon as he grows, with an asian inspired world and system. The middle of the series is especially great.",
     "scores": {
       "fantasy": 100,
       "longSeries": 30,
@@ -209,6 +221,8 @@ export default [
       "romance": 30,
       "heist": 20,
       "progression": 50,
+      "mystery": 40,
+      "military": 50,
       "characterDriven": 40,
       "highFantasy": 20
     },
@@ -227,6 +241,8 @@ export default [
       "longSeries": 60,
       "epic": 100,
       "progression": 20,
+      "mystery": 20,
+      "military": 30,
       "highFantasy": 100,
       "dragons": 100,
       "animals": 60
@@ -248,6 +264,7 @@ export default [
       "romance": 10,
       "heist": 30,
       "progression": 50,
+      "mystery": 100,
       "highFantasy": 40,
       "hardMagic": 20,
       "animals": 50
@@ -266,6 +283,7 @@ export default [
       "longSeries": 40,
       "epic": 50,
       "romance": 20,
+      "military": 80,
       "characterDriven": 40
     },
     "hardCaps": {
@@ -283,6 +301,7 @@ export default [
       "epic": 20,
       "romance": 30,
       "heist": 90,
+      "mystery": 60,
       "characterDriven": 50,
       "humor": 10,
       "highFantasy": 40
@@ -296,7 +315,19 @@ export default [
     "author": "Christopher Paolini",
     "slug": "eragon-paolini",
     "description": "A modern classic for young adult fantasy. Hits a ton of classic tropes as we follow Eragon go from farmboy to world saving hero with his dragon Sapphira.",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "audiobook": 50,
+      "longSeries": 20,
+      "epic": 80,
+      "romance": 30,
+      "heist": 20,
+      "progression": 50,
+      "military": 70,
+      "highFantasy": 100,
+      "hardMagic": 30,
+      "dragons": 100
+    },
     "hardCaps": {
       "ageMin": 0
     }
@@ -305,8 +336,14 @@ export default [
     "title": "Gregor the Overlander",
     "author": "Suzanne Collins",
     "slug": "gregor-the-overlander-collins",
-    "description": "",
-    "scores": {},
+    "description": "In my opinion an even better series than the Hunger Games. Great for kids but also enjoyable for any age with an interesting environment and real consequences.",
+    "scores": {
+      "fantasy": 80,
+      "romance": 30,
+      "progression": 40,
+      "characterDriven": 60,
+      "animals": 100
+    },
     "hardCaps": {
       "ageMin": 0,
       "ageMax": 16
@@ -314,10 +351,24 @@ export default [
   },
   {
     "title": "Ranger's Apprentice",
-    "author": "",
+    "author": "John Flanagan",
     "slug": "the-ruins-of-gorlan-flanagan",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "audiobook": 20,
+      "longSeries": 40,
+      "epic": 40,
+      "romance": 10,
+      "heist": 50,
+      "cozy": 50,
+      "progression": 70,
+      "military": 30,
+      "characterDriven": 40,
+      "humor": 10,
+      "highFantasy": 30,
+      "animals": 90
+    },
     "hardCaps": {
       "ageMin": 0,
       "ageMax": 16
@@ -325,20 +376,43 @@ export default [
   },
   {
     "title": "Sabriel",
-    "author": "",
+    "author": "Garth Nix",
     "slug": "sabriel-nix",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "scienceFiction": 30,
+      "grimdark": 30,
+      "epic": 20,
+      "heist": 30,
+      "progression": 40,
+      "mystery": 10,
+      "characterDriven": 60,
+      "highFantasy": 70,
+      "hardMagic": 50,
+      "animals": 100
+    },
     "hardCaps": {
       "ageMin": 0
     }
   },
   {
     "title": "Artemis Fowl",
-    "author": "",
+    "author": "Eoin Colfer",
     "slug": "artemis-fowl-colfer",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 80,
+      "scienceFiction": 40,
+      "romance": 20,
+      "heist": 100,
+      "mystery": 20,
+      "characterDriven": 50,
+      "humor": 30,
+      "highFantasy": 60,
+      "hardMagic": 70,
+      "animals": 50
+    },
     "hardCaps": {
       "ageMin": 0,
       "ageMax": 16
@@ -346,10 +420,22 @@ export default [
   },
   {
     "title": "Percy Jackson",
-    "author": "",
+    "author": "Rick Riordan",
     "slug": "the-lightning-thief-riordan",
-    "description": "",
-    "scores": {},
+    "description": "One of my favorite series growing up, converts Greek mythology into a super easy and fun reading experience",
+    "scores": {
+      "fantasy": 100,
+      "audiobook": 80,
+      "longSeries": 50,
+      "epic": 60,
+      "romance": 40,
+      "heist": 50,
+      "cozy": 30,
+      "progression": 80,
+      "characterDriven": 30,
+      "humor": 50,
+      "animals": 70
+    },
     "hardCaps": {
       "ageMin": 0,
       "ageMax": 16
@@ -357,11 +443,18 @@ export default [
   },
   {
     "title": "Ender's Game",
-    "author": "",
+    "author": "Orson Scott Card",
     "slug": "ender-s-game-card",
     "description": "",
     "scores": {
-      "audiobook": 40
+      "fantasy": 20,
+      "scienceFiction": 100,
+      "audiobook": 40,
+      "grimdark": 30,
+      "epic": 50,
+      "progression": 60,
+      "military": 80,
+      "characterDriven": 20
     },
     "hardCaps": {
       "ageMin": 12
@@ -369,31 +462,67 @@ export default [
   },
   {
     "title": "Throne of Glass",
-    "author": "",
+    "author": "Sarah J. Maas",
     "slug": "throne-of-glass-maas",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "audiobook": 20,
+      "longSeries": 90,
+      "epic": 80,
+      "romance": 90,
+      "heist": 40,
+      "mystery": 50,
+      "military": 20,
+      "characterDriven": 20,
+      "highFantasy": 40,
+      "animals": 30
+    },
     "hardCaps": {
       "ageMin": 16
     }
   },
   {
     "title": "Dragonbone Chair",
-    "author": "",
+    "author": "Tad Williams",
     "slug": "the-dragonbone-chair-williams",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "longSeries": 50,
+      "grimdark": 30,
+      "epic": 100,
+      "romance": 30,
+      "progression": 30,
+      "mystery": 40,
+      "characterDriven": 100,
+      "highFantasy": 80,
+      "animals": 40
+    },
     "hardCaps": {
       "ageMin": 12
     }
   },
   {
     "title": "Assassin's Apprentice",
-    "author": "",
+    "author": "Robin Hobb",
     "slug": "assassin-s-apprentice-hobb",
-    "description": "",
+    "description": "Start of one of the best series ever. You can either just read the Farseer trilogy or continue on with the entire Realm of the Elderlings.",
     "scores": {
-      "characterDriven": 100
+      "fantasy": 100,
+      "audiobook": 40,
+      "longSeries": 100,
+      "grimdark": 20,
+      "epic": 60,
+      "romance": 60,
+      "heist": 70,
+      "progression": 20,
+      "mystery": 30,
+      "characterDriven": 100,
+      "highFantasy": 30,
+      "hardMagic": 30,
+      "dragons": 80,
+      "animals": 100
     },
     "hardCaps": {
       "ageMin": 16
@@ -401,11 +530,22 @@ export default [
   },
   {
     "title": "Lightbringer",
-    "author": "",
+    "author": "Brent Weeks",
     "slug": "the-black-prism-weeks",
     "description": "",
     "scores": {
-      "audiobook": 20
+      "fantasy": 100,
+      "scienceFiction": 40,
+      "audiobook": 40,
+      "longSeries": 30,
+      "epic": 60,
+      "heist": 20,
+      "progression": 40,
+      "mystery": 30,
+      "military": 30,
+      "characterDriven": 60,
+      "highFantasy": 100,
+      "hardMagic": 100
     },
     "hardCaps": {
       "ageMin": 12
@@ -413,21 +553,47 @@ export default [
   },
   {
     "title": "Empire of the Vampire",
-    "author": "",
+    "author": "Jay Kristoff",
     "slug": "empire-of-the-vampire-kristoff",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "grimdark": 80,
+      "epic": 60,
+      "romance": 90,
+      "heist": 40,
+      "progression": 40,
+      "mystery": 60,
+      "characterDriven": 70,
+      "humor": 30,
+      "highFantasy": 100,
+      "hardMagic": 40,
+      "animals": 70
+    },
     "hardCaps": {
       "ageMin": 16
     }
   },
   {
     "title": "Discworld",
-    "author": "",
+    "author": "Terry Pratchett",
     "slug": "guards-guards-pratchett",
     "description": "",
     "scores": {
-      "audiobook": 40
+      "fantasy": 100,
+      "scienceFiction": 50,
+      "audiobook": 60,
+      "longSeries": 50,
+      "romance": 50,
+      "heist": 50,
+      "cozy": 50,
+      "progression": 50,
+      "characterDriven": 50,
+      "humor": 100,
+      "highFantasy": 50,
+      "hardMagic": 50,
+      "dragons": 50,
+      "animals": 50
     },
     "hardCaps": {
       "ageMin": 12
@@ -435,10 +601,20 @@ export default [
   },
   {
     "title": "Jade City",
-    "author": "",
+    "author": "Fonda Lee",
     "slug": "jade-city-lee",
-    "description": "",
-    "scores": {},
+    "description": "Fantasy asian godfather with a cool, corrupting magic system.",
+    "scores": {
+      "fantasy": 100,
+      "scienceFiction": 30,
+      "audiobook": 50,
+      "grimdark": 70,
+      "heist": 40,
+      "progression": 70,
+      "military": 40,
+      "characterDriven": 80,
+      "hardMagic": 70
+    },
     "hardCaps": {
       "ageMin": 16
     }
@@ -447,19 +623,32 @@ export default [
     "title": "Silo",
     "author": "Hugh Howey",
     "slug": "wool-howey",
-    "description": "",
-    "scores": {},
+    "description": "Short, dystopian scifi.",
+    "scores": {
+      "scienceFiction": 100,
+      "audiobook": 50,
+      "heist": 30,
+      "mystery": 100,
+      "characterDriven": 40
+    },
     "hardCaps": {
       "ageMin": 12
     }
   },
   {
     "title": "Legends & Lattes",
-    "author": "",
+    "author": "Travis Baldree",
     "slug": "legends-lattes-baldree",
-    "description": "",
+    "description": "One of the progenitors of the cozy fantasy subgenre. A fun, quick read.",
     "scores": {
-      "cozy": 90
+      "fantasy": 100,
+      "romance": 80,
+      "cozy": 100,
+      "progression": 30,
+      "characterDriven": 40,
+      "humor": 20,
+      "highFantasy": 70,
+      "animals": 50
     },
     "hardCaps": {
       "ageMin": 12
@@ -467,70 +656,143 @@ export default [
   },
   {
     "title": "Faithful and the Fallen",
-    "author": "",
+    "author": "John Gwynne",
     "slug": "malice-gwynne",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "audiobook": 40,
+      "grimdark": 30,
+      "epic": 90,
+      "progression": 10,
+      "mystery": 40,
+      "military": 80,
+      "characterDriven": 60,
+      "highFantasy": 50,
+      "animals": 60
+    },
     "hardCaps": {
       "ageMin": 16
     }
   },
   {
     "title": "Sixteen Ways to Defend a Walled City",
-    "author": "",
+    "author": "K. J. Parker",
     "slug": "sixteen-ways-to-defend-a-walled-city-holt",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "military": 100,
+      "characterDriven": 70,
+      "humor": 80
+    },
     "hardCaps": {
       "ageMin": 12
     }
   },
   {
     "title": "Rage of Dragons",
-    "author": "",
+    "author": "Evan Winter",
     "slug": "the-rage-of-dragons-winter",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "epic": 100,
+      "romance": 50,
+      "heist": 20,
+      "progression": 90,
+      "mystery": 10,
+      "military": 80,
+      "highFantasy": 40,
+      "hardMagic": 70,
+      "dragons": 90
+    },
     "hardCaps": {
       "ageMin": 12
     }
   },
   {
     "title": "Hyperion",
-    "author": "",
+    "author": "Dan Simmons",
     "slug": "hyperion-simmons",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 30,
+      "scienceFiction": 100,
+      "audiobook": 80,
+      "grimdark": 50,
+      "epic": 30,
+      "romance": 10,
+      "heist": 40,
+      "mystery": 90,
+      "military": 50,
+      "characterDriven": 100,
+      "highFantasy": 10,
+      "animals": 30
+    },
     "hardCaps": {
       "ageMin": 16
     }
   },
   {
     "title": "Children of Time",
-    "author": "",
+    "author": "Adrian Tchaikovsky",
     "slug": "children-of-time-tchaikovsky",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 40,
+      "scienceFiction": 100,
+      "audiobook": 70,
+      "epic": 30,
+      "progression": 70,
+      "mystery": 30,
+      "characterDriven": 60,
+      "animals": 100
+    },
     "hardCaps": {
       "ageMin": 12
     }
   },
   {
     "title": "Mark of the Fool",
-    "author": "",
+    "author": "J. M. Clarke",
     "slug": "mark-of-the-fool-clarke",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 100,
+      "audiobook": 60,
+      "longSeries": 100,
+      "epic": 40,
+      "romance": 30,
+      "heist": 20,
+      "cozy": 50,
+      "progression": 100,
+      "mystery": 20,
+      "characterDriven": 30,
+      "humor": 20,
+      "highFantasy": 100,
+      "hardMagic": 80,
+      "animals": 70
+    },
     "hardCaps": {
       "ageMin": 12
     }
   },
   {
     "title": "Terra Ignota",
-    "author": "",
+    "author": "Ada Palmer",
     "slug": "too-like-the-lightning-palmer",
     "description": "",
-    "scores": {},
+    "scores": {
+      "fantasy": 50,
+      "scienceFiction": 100,
+      "epic": 50,
+      "romance": 70,
+      "heist": 70,
+      "mystery": 80,
+      "characterDriven": 100,
+      "humor": 10
+    },
     "hardCaps": {
       "ageMin": 16
     }
