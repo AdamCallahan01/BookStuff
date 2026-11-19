@@ -2653,5 +2653,149 @@ export default [
     "answer": "Theorem Eldership",
     "difficulty": "Hard",
     "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Emerald Storm",
+    "question": "What is Hilfred's first name?",
+    "answer": "Reuben",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Emerald Storm",
+    "question": "What do people in Calis call Hadrian?",
+    "answer": "Galenti",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Emerald Storm",
+    "question": "What are the dwarven towers on a volcano called?",
+    "answer": "Drumindor",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Emerald Storm",
+    "question": "What is the term for a mixed elf-human?",
+    "answer": "Mir / Kaz",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Emerald Storm",
+    "question": "What is Thranic's rank?",
+    "answer": "Sentinel",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "The Riyria Revelations",
+    "author": "Michael J. Sullivan",
+    "title": "The Emerald Storm",
+    "question": "What is the Emerald Storm?",
+    "answer": "Ship",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What town is Castor from?",
+    "answer": "Segesta",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What are the three social castes?",
+    "answer": "Palatine, Patrician, Plebeian",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "How many branches of the legion are there?",
+    "answer": "12",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What are the ice golems called?",
+    "answer": "Furia",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What is the term for a sacred blood oath?",
+    "answer": "Votem",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What is the motto of the twelfth legion?",
+    "answer": "Redemptio in bello",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What symbol are the legions bound to?",
+    "answer": "Iron",
+    "difficulty": "Easy",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What do you call the first in the class>",
+    "answer": "Primus",
+    "difficulty": "Medium",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What color ribbons did they need to get from the labyrinthus?",
+    "answer": "Red, Green, Blue",
+    "difficulty": "Hard",
+    "random": false
+  },
+  {
+    "series": "Ironbound",
+    "author": "Andrew Givler",
+    "title": "Ironbound",
+    "question": "What was the name of Castor's collegium teacher?",
+    "answer": "Magister Vellum",
+    "difficulty": "Medium",
+    "random": false
   }
 ];
