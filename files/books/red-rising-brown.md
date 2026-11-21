@@ -17,17 +17,17 @@ genre: "Science Fiction"
 subgenre: "Dystopian"
 isbn: "9780345539786"
 bookOwned: true
-hasSummary: false
+hasSummary: true
 summarySlug: "red-rising-brown-summary"
 summarySlugLink: "[[red-rising-brown-summary]]"
 hasScore: true
-latestScore: 0
+latestScore: 7.5
 readCount: 2
-averageScore: 4
-allScores: [8,0]
+averageScore: 7.75
+allScores: [8,7.5]
 readSlugs: ["red-rising-brown-1","red-rising-brown-2"]
 readSlugsLinks: ["[[red-rising-brown-1]]","[[red-rising-brown-2]]"]
-currentRead: true
+currentRead: false
 coverSlug: "red-rising-brown-cover"
 ---
 

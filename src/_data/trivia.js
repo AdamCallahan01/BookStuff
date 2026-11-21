@@ -2587,7 +2587,7 @@ export default [
     "author": "Michael J. Sullivan",
     "title": "Avempartha",
     "question": "Who was Jerish?",
-    "answer": "#REF!",
+    "answer": "Teshlor Knight and bodyguard to the heir",
     "difficulty": "Hard",
     "random": false
   },
@@ -2715,7 +2715,7 @@ export default [
     "question": "What town is Castor from?",
     "answer": "Segesta",
     "difficulty": "Medium",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2724,7 +2724,7 @@ export default [
     "question": "What are the three social castes?",
     "answer": "Palatine, Patrician, Plebeian",
     "difficulty": "Easy",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2733,7 +2733,7 @@ export default [
     "question": "How many branches of the legion are there?",
     "answer": "12",
     "difficulty": "Easy",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2742,7 +2742,7 @@ export default [
     "question": "What are the ice golems called?",
     "answer": "Furia",
     "difficulty": "Hard",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2751,7 +2751,7 @@ export default [
     "question": "What is the term for a sacred blood oath?",
     "answer": "Votem",
     "difficulty": "Medium",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2760,7 +2760,7 @@ export default [
     "question": "What is the motto of the twelfth legion?",
     "answer": "Redemptio in bello",
     "difficulty": "Hard",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2769,7 +2769,7 @@ export default [
     "question": "What symbol are the legions bound to?",
     "answer": "Iron",
     "difficulty": "Easy",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2778,7 +2778,7 @@ export default [
     "question": "What do you call the first in the class>",
     "answer": "Primus",
     "difficulty": "Medium",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2787,7 +2787,7 @@ export default [
     "question": "What color ribbons did they need to get from the labyrinthus?",
     "answer": "Red, Green, Blue",
     "difficulty": "Hard",
-    "random": false
+    "random": true
   },
   {
     "series": "Ironbound",
@@ -2796,6 +2796,87 @@ export default [
     "question": "What was the name of Castor's collegium teacher?",
     "answer": "Magister Vellum",
     "difficulty": "Medium",
-    "random": false
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What tribe was Darrow a member of in Lykos?",
+    "answer": "Lambda",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What is the Blood Blossom?",
+    "answer": "Haemanthus",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What was Darrow's job in the mines?",
+    "answer": "Helldiver",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "Who is Darrow's uncle?",
+    "answer": "Narol",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What is the insulting nickname Darrow uses for the Gray guard?",
+    "answer": "Ugly Dan",
+    "difficulty": "Hard",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What color manages beurocracy and management?",
+    "answer": "Copper",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What house is Darrow drafted into?",
+    "answer": "Mars",
+    "difficulty": "Easy",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "What color is Mickey?",
+    "answer": "Violet",
+    "difficulty": "Medium",
+    "random": true
+  },
+  {
+    "series": "Red Rising Saga",
+    "author": "Pierce Brown",
+    "title": "Red Rising",
+    "question": "How does Darrow refer to Virginia?",
+    "answer": "Mustang",
+    "difficulty": "Easy",
+    "random": true
   }
 ];
